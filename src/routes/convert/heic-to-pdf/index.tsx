@@ -1,8 +1,19 @@
-import { component$, useSignal } from "@builder.io/qwik";
+import { component$, useSignal, $, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
+
+const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || 'https://api.formipeek.com';
+
+interface ConversionResult {
+  originalName: string;
+  outputFilename?: string;
+  size?: number;
+  success: boolean;
+  error?: string;
+  downloadPath?: string;
+}
 
 export const useLocaleLoader = routeLoader$(({ url }) => {
   const pathParts = url.pathname.split('/').filter(Boolean);
@@ -22,6 +33,177 @@ export default component$(() => {
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
   const conv = t.heicToPdf;
+
+  // File handling signals
+  const selectedFiles = useSignal<File[]>([]);
+  const isConverting = useSignal(false);
+  const progress = useSignal(0);
+  const conversionResults = useSignal<ConversionResult[]>([]);
+  const errorMessage = useSignal<string | null>(null);
+  const dragOver = useSignal(false);
+
+  // Handle file selection
+  const handleFileSelect = $((event: Event) => {
+    const input = event.target as HTMLInputElement;
+    if (input.files) {
+      const files = Array.from(input.files).filter(
+        file => file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')
+      );
+      if (mode.value === 'single') {
+        selectedFiles.value = files.slice(0, 1);
+      } else {
+        selectedFiles.value = files;
+      }
+      errorMessage.value = null;
+      conversionResults.value = [];
+    }
+  });
+
+  // Handle drag and drop
+  const handleDragOver = $((e: DragEvent) => {
+    e.preventDefault();
+    dragOver.value = true;
+  });
+
+  const handleDragLeave = $(() => {
+    dragOver.value = false;
+  });
+
+  const handleDrop = $((e: DragEvent) => {
+    e.preventDefault();
+    dragOver.value = false;
+    
+    if (e.dataTransfer?.files) {
+      const files = Array.from(e.dataTransfer.files).filter(
+        file => file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')
+      );
+      if (mode.value === 'single') {
+        selectedFiles.value = files.slice(0, 1);
+      } else {
+        selectedFiles.value = files;
+      }
+      errorMessage.value = null;
+      conversionResults.value = [];
+    }
+  });
+
+  // Convert files
+  const convertFiles = $(async () => {
+    if (selectedFiles.value.length === 0) {
+      errorMessage.value = 'Please select at least one HEIC file';
+      return;
+    }
+
+    isConverting.value = true;
+    progress.value = 0;
+    errorMessage.value = null;
+    conversionResults.value = [];
+
+    try {
+      if (mode.value === 'single') {
+        // Single file conversion
+        const formData = new FormData();
+        formData.append('file', selectedFiles.value[0]);
+        formData.append('quality', '95');
+        formData.append('maxDimension', '4096');
+        formData.append('pageSize', 'auto');
+
+        progress.value = 30;
+
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-pdf/single`, {
+          method: 'POST',
+          body: formData,
+        });
+
+        progress.value = 70;
+
+        if (response.ok) {
+          const blob = await response.blob();
+          const filename = selectedFiles.value[0].name.replace(/\.(heic|heif)$/i, '.pdf');
+          
+          // Create download link
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = filename;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+
+          conversionResults.value = [{
+            originalName: selectedFiles.value[0].name,
+            outputFilename: filename,
+            size: blob.size,
+            success: true,
+          }];
+        } else {
+          const error = await response.json();
+          throw new Error(error.error || 'Conversion failed');
+        }
+      } else {
+        // Batch conversion
+        const formData = new FormData();
+        selectedFiles.value.forEach(file => {
+          formData.append('files', file);
+        });
+        formData.append('quality', '95');
+        formData.append('maxDimension', '4096');
+        formData.append('pageSize', 'auto');
+
+        progress.value = 30;
+
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-pdf/batch`, {
+          method: 'POST',
+          body: formData,
+        });
+
+        progress.value = 70;
+
+        if (response.ok) {
+          const data = await response.json();
+          conversionResults.value = data.results;
+
+          // Auto-download successful conversions
+          data.results.forEach((result: ConversionResult) => {
+            if (result.success && result.downloadPath) {
+              const a = document.createElement('a');
+              a.href = result.downloadPath;
+              a.download = result.outputFilename || 'converted.pdf';
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+            }
+          });
+        } else {
+          const error = await response.json();
+          throw new Error(error.error || 'Batch conversion failed');
+        }
+      }
+
+      progress.value = 100;
+    } catch (error) {
+      errorMessage.value = error instanceof Error ? error.message : 'Conversion failed';
+      conversionResults.value = [];
+    } finally {
+      isConverting.value = false;
+    }
+  });
+
+  // Clear selection
+  const clearSelection = $(() => {
+    selectedFiles.value = [];
+    conversionResults.value = [];
+    errorMessage.value = null;
+    progress.value = 0;
+  });
+
+  // Format file size
+  const formatFileSize = (bytes: number) => {
+    if (bytes < 1024) return `${bytes} B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  };
 
   return (
     <div class="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50">
@@ -71,7 +253,10 @@ export default component$(() => {
               {/* Mode Toggle */}
               <div class="flex flex-col sm:flex-row gap-4 mb-8">
                 <button 
-                  onClick$={() => (mode.value = 'single')}
+                  onClick$={() => {
+                    mode.value = 'single';
+                    clearSelection();
+                  }}
                   class={`flex-1 px-6 py-3 rounded-lg font-medium transition-all ${
                     mode.value === 'single' 
                       ? 'bg-purple-600 text-white shadow-lg' 
@@ -84,7 +269,10 @@ export default component$(() => {
                   {conv.upload.buttonSingle}
                 </button>
                 <button 
-                  onClick$={() => (mode.value = 'batch')}
+                  onClick$={() => {
+                    mode.value = 'batch';
+                    clearSelection();
+                  }}
                   class={`flex-1 px-6 py-3 rounded-lg font-medium transition-all ${
                     mode.value === 'batch' 
                       ? 'bg-purple-600 text-white shadow-lg' 
@@ -99,20 +287,162 @@ export default component$(() => {
               </div>
 
               {/* Upload Area */}
-              <div class="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:border-purple-400 transition-colors cursor-pointer">
-                <svg class="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                </svg>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                  {conv.upload.title}
-                </h3>
-                <p class="text-gray-600 mb-4 text-sm sm:text-base">
-                  {conv.upload.description}
-                </p>
-                <button class="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl">
-                  {conv.upload.chooseFile}
-                </button>
+              <div 
+                class={`border-2 border-dashed rounded-xl p-8 text-center transition-colors cursor-pointer ${
+                  dragOver.value 
+                    ? 'border-purple-500 bg-purple-50' 
+                    : 'border-gray-300 hover:border-purple-400'
+                }`}
+                onDragOver$={handleDragOver}
+                onDragLeave$={handleDragLeave}
+                onDrop$={handleDrop}
+              >
+                <input
+                  type="file"
+                  accept=".heic,.heif"
+                  multiple={mode.value === 'batch'}
+                  onChange$={handleFileSelect}
+                  class="hidden"
+                  id="file-input"
+                />
+                <label for="file-input" class="cursor-pointer">
+                  <svg class="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                  </svg>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    {conv.upload.title}
+                  </h3>
+                  <p class="text-gray-600 mb-4 text-sm sm:text-base">
+                    {conv.upload.description}
+                  </p>
+                  <span class="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl inline-block">
+                    {conv.upload.chooseFile}
+                  </span>
+                </label>
               </div>
+
+              {/* Selected Files */}
+              {selectedFiles.value.length > 0 && (
+                <div class="mt-6">
+                  <h4 class="text-sm font-medium text-gray-700 mb-3">
+                    Selected files ({selectedFiles.value.length}):
+                  </h4>
+                  <div class="space-y-2">
+                    {selectedFiles.value.map((file, index) => (
+                      <div key={index} class="flex items-center justify-between bg-gray-50 rounded-lg p-3">
+                        <div class="flex items-center gap-3">
+                          <svg class="w-8 h-8 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                          </svg>
+                          <div>
+                            <p class="text-sm font-medium text-gray-900">{file.name}</p>
+                            <p class="text-xs text-gray-500">{formatFileSize(file.size)}</p>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Convert Button */}
+                  <div class="mt-6 flex gap-4">
+                    <button
+                      onClick$={convertFiles}
+                      disabled={isConverting.value}
+                      class={`flex-1 px-6 py-4 rounded-xl font-bold text-lg transition-all ${
+                        isConverting.value
+                          ? 'bg-gray-400 cursor-not-allowed'
+                          : 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white shadow-lg hover:shadow-xl'
+                      }`}
+                    >
+                      {isConverting.value ? (
+                        <span class="flex items-center justify-center gap-2">
+                          <svg class="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                          </svg>
+                          Converting... {progress.value}%
+                        </span>
+                      ) : (
+                        <span class="flex items-center justify-center gap-2">
+                          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                          </svg>
+                          Convert to PDF
+                        </span>
+                      )}
+                    </button>
+                    <button
+                      onClick$={clearSelection}
+                      class="px-6 py-4 rounded-xl font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors"
+                    >
+                      Clear
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* Progress Bar */}
+              {isConverting.value && (
+                <div class="mt-6">
+                  <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
+                    <div 
+                      class="h-full bg-gradient-to-r from-purple-500 to-indigo-500 transition-all duration-300"
+                      style={{ width: `${progress.value}%` }}
+                    ></div>
+                  </div>
+                </div>
+              )}
+
+              {/* Error Message */}
+              {errorMessage.value && (
+                <div class="mt-6 p-4 bg-red-50 border border-red-200 rounded-xl">
+                  <div class="flex items-center gap-3">
+                    <svg class="w-6 h-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <p class="text-red-700">{errorMessage.value}</p>
+                  </div>
+                </div>
+              )}
+
+              {/* Conversion Results */}
+              {conversionResults.value.length > 0 && (
+                <div class="mt-6">
+                  <h4 class="text-sm font-medium text-gray-700 mb-3">Conversion Results:</h4>
+                  <div class="space-y-2">
+                    {conversionResults.value.map((result, index) => (
+                      <div 
+                        key={index} 
+                        class={`flex items-center justify-between rounded-lg p-4 ${
+                          result.success ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
+                        }`}
+                      >
+                        <div class="flex items-center gap-3">
+                          {result.success ? (
+                            <svg class="w-6 h-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                          ) : (
+                            <svg class="w-6 h-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                          )}
+                          <div>
+                            <p class="text-sm font-medium">{result.originalName}</p>
+                            {result.success ? (
+                              <p class="text-xs text-green-600">
+                                → {result.outputFilename} ({result.size ? formatFileSize(result.size) : 'Downloaded'})
+                              </p>
+                            ) : (
+                              <p class="text-xs text-red-600">{result.error}</p>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* About Section */}
@@ -269,7 +599,6 @@ export const head: DocumentHead = ({ resolveValue }) => {
         name: "keywords",
         content: conv.metaKeywords,
       },
-      // Open Graph
       {
         property: "og:type",
         content: "website",
@@ -290,7 +619,6 @@ export const head: DocumentHead = ({ resolveValue }) => {
         property: "og:image",
         content: "https://formipeek.com/og-heic-to-pdf.jpg",
       },
-      // Twitter
       {
         name: "twitter:card",
         content: "summary_large_image",
