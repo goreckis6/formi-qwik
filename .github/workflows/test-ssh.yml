@@ -1,0 +1,71 @@
+name: Test SSH Connection
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '.github/workflows/test-ssh.yml'
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  test-ssh:
+    name: Test SSH Connection
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+      
+      - name: Test SSH Connection
+        run: |
+          echo "🔍 Testing SSH connection to ${{ secrets.SSH_HOST }}..."
+          
+          # Test basic connection
+          ssh -o StrictHostKeyChecking=no \
+              -o ConnectTimeout=10 \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+              "echo '✅ SSH connection successful!' && \
+               echo '📊 Server Info:' && \
+               hostname && \
+               uname -a && \
+               uptime && \
+               echo '💾 Disk Usage:' && \
+               df -h / | tail -1"
+      
+      - name: Test SSH with Port (if provided)
+        if: ${{ secrets.SSH_PORT != '' }}
+        run: |
+          echo "🔍 Testing SSH connection with custom port ${{ secrets.SSH_PORT }}..."
+          ssh -o StrictHostKeyChecking=no \
+              -o ConnectTimeout=10 \
+              -p ${{ secrets.SSH_PORT }} \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+              "echo '✅ SSH connection with custom port successful!'"
+      
+      - name: Verify SSH Access
+        run: |
+          echo "🔐 Verifying SSH access..."
+          ssh -o StrictHostKeyChecking=no \
+              -o ConnectTimeout=10 \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+              "whoami && pwd && ls -la ~ | head -10"
+      
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f ~/.ssh/id_rsa
+          echo "🧹 Cleanup completed"
