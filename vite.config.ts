@@ -6,7 +6,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig(() => ({
   plugins: [
     qwikCity({
-      adapter: nodeAdapter(),   // 🔥 włącza SSR w 1.7
+      adapter: nodeAdapter(), // 🔥 włącza SSR w 1.7
     }),
     qwikVite(),
     tsconfigPaths(),
