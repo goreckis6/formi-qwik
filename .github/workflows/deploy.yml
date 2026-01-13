@@ -174,10 +174,26 @@ jobs:
               echo "✅ Traefik container is running"
               TRAEFIK_CONTAINER=$(docker ps | grep traefik | awk '{print $1}')
               echo "Traefik container ID: $TRAEFIK_CONTAINER"
+              docker logs traefik --tail 20 || true
             else
-              echo "⚠️  Traefik container is not running - this may cause Cloudflare 521 errors"
-              echo "Please ensure Traefik is running and can see the morphy-frontend container"
+              echo "❌ Traefik container is not running - this will cause Cloudflare 521 errors"
+              echo "⚠️  Cloudflare cannot connect to the server without Traefik"
+              echo "Please ensure Traefik is running on ports 80 and 443"
             fi
+            
+            # Check server IP
+            echo "📊 Server IP information:"
+            SERVER_IP=$(hostname -I | awk '{print $1}' || curl -s ifconfig.me || echo "unknown")
+            echo "Server IP: $SERVER_IP"
+            echo "⚠️  Verify this IP matches Cloudflare DNS: 51.83.128.66"
+            if [ "$SERVER_IP" != "51.83.128.66" ]; then
+              echo "❌ IP mismatch! Cloudflare DNS points to 51.83.128.66 but server IP is $SERVER_IP"
+              echo "Update Cloudflare DNS to point to: $SERVER_IP"
+            fi
+            
+            # Check if ports 80 and 443 are listening
+            echo "📊 Checking if ports 80 and 443 are listening:"
+            netstat -tlnp | grep -E ':(80|443)' || ss -tlnp | grep -E ':(80|443)' || echo "⚠️  Could not check ports (netstat/ss not available)"
             
             # Check if files exist in container
             echo "📊 Checking files in container:"
