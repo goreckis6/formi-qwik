@@ -5,7 +5,10 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies
+# Remove old lock files to ensure fresh install with latest versions
+RUN rm -f package-lock.json
+
+# Install dependencies (this will create fresh lock file)
 RUN npm install
 
 # Copy source code
