@@ -81,16 +81,12 @@ jobs:
             GITHUB_ACTOR="${{ github.actor }}"
             GITHUB_REPO_OWNER="${{ github.repository_owner }}"
 
-            # Create /opt/frontend directory if it doesn't exist
+            # Create directories
             sudo mkdir -p /opt/frontend
             sudo chown -R $USER:$USER /opt/frontend
             cd /opt/frontend
 
-            # Create letsencrypt directory with proper permissions
-            mkdir -p letsencrypt
-            chown -R $USER:$USER letsencrypt
-
-            # Stop and remove old containers
+            # Stop and remove old frontend container
             docker stop morphy-frontend 2>/dev/null || true
             docker rm morphy-frontend 2>/dev/null || true
 
@@ -103,29 +99,41 @@ jobs:
             docker pull ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
             docker image prune -f
 
-            # Ensure traefik network exists
-            if ! docker network ls | grep -q "traefik"; then
-              echo "⚠️  Traefik network not found, creating it..."
-              docker network create traefik || true
+            # Ensure caddy-net network exists
+            if ! docker network ls | grep -q "caddy-net"; then
+              echo "Creating caddy-net network..."
+              docker network create caddy-net || true
             fi
 
-            # Deploy with corrected Traefik labels (serve via nginx on port 80)
+            # Deploy frontend container (connected to caddy-net)
             docker run -d \
               --name morphy-frontend \
-              --label "traefik.enable=true" \
-              --label "traefik.http.routers.morphy.rule=Host(\`formipeek.com\`)" \
-              --label "traefik.http.routers.morphy.tls=true" \
-              --label "traefik.http.routers.morphy.tls.certresolver=letsencrypt" \
-              --label "traefik.http.routers.morphy-www.rule=Host(\`www.formipeek.com\`)" \
-              --label "traefik.http.routers.morphy-www.tls=true" \
-              --label "traefik.http.routers.morphy-www.tls.certresolver=letsencrypt" \
-              --label "traefik.http.middlewares.morphy-redirect.redirectregex.regex=^https://www.formipeek.com/(.*)" \
-              --label "traefik.http.middlewares.morphy-redirect.redirectregex.replacement=https://formipeek.com/$${1}" \
-              --label "traefik.http.routers.morphy-www.middlewares=morphy-redirect" \
-              --label "traefik.http.services.morphy.loadbalancer.server.port=3000" \
-              --network traefik \
+              --network caddy-net \
               --restart unless-stopped \
               ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
+
+            # Check if Caddy is running, if not start it
+            if ! docker ps | grep -q "caddy"; then
+              echo "🚀 Starting Caddy reverse proxy..."
+              docker stop caddy 2>/dev/null || true
+              docker rm caddy 2>/dev/null || true
+              
+              docker run -d \
+                --name caddy \
+                --network caddy-net \
+                --restart unless-stopped \
+                -p 80:80 \
+                -p 443:443 \
+                -v caddy_data:/data \
+                caddy:latest \
+                caddy reverse-proxy --from formipeek.com --to morphy-frontend:3000
+              
+              echo "✅ Caddy started"
+            else
+              echo "✅ Caddy is already running"
+              # Restart Caddy to pick up new container
+              docker restart caddy || true
+            fi
 
             # Health check - verify deployment
             sleep 10
@@ -145,81 +153,26 @@ jobs:
             fi
 
             # Check if Node.js SSR server is responding
-            echo "🔍 Checking Node.js SSR server inside container..."
+            echo "🔍 Checking Node.js SSR server..."
             sleep 5
-            # Try curl first (usually available in alpine), then wget, then netcat
-            if docker exec morphy-frontend sh -c "curl -f http://localhost:3000/ >/dev/null 2>&1" 2>/dev/null || \
-               docker exec morphy-frontend sh -c "wget -q --spider http://localhost:3000/ 2>&1" 2>/dev/null || \
-               docker exec morphy-frontend sh -c "nc -z localhost 3000" 2>/dev/null; then
+            if docker exec morphy-frontend sh -c "wget -q --spider http://localhost:3000/ 2>&1" 2>/dev/null; then
               echo "✅ Node.js SSR server is responding"
             else
               echo "⚠️  SSR server health check failed, checking logs..."
-              docker logs morphy-frontend --tail 50 || true
+              docker logs morphy-frontend --tail 30 || true
             fi
 
             # Show container info
             echo "📊 Container info:"
-            docker ps | grep morphy-frontend || true
-            docker inspect morphy-frontend --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' || true
+            docker ps | grep -E "morphy-frontend|caddy" || true
 
-            # Check Traefik network
-            echo "📊 Traefik network info:"
-            docker network inspect traefik 2>/dev/null | grep -A 5 "Containers" || echo "⚠️  Could not inspect traefik network"
-
-            # Check if Traefik container is running
-            echo "📊 Checking Traefik container:"
-            if docker ps | grep -q traefik; then
-              echo "✅ Traefik container is running"
-              TRAEFIK_CONTAINER=$(docker ps | grep traefik | awk '{print $1}')
-              echo "Traefik container ID: $TRAEFIK_CONTAINER"
-              docker logs traefik --tail 20 || true
-            else
-              echo "❌ Traefik container is not running - this will cause Cloudflare 521 errors"
-              echo "⚠️  Cloudflare cannot connect to the server without Traefik"
-              echo "Please ensure Traefik is running on ports 80 and 443"
-            fi
-
-            # Check server IP
-            echo "📊 Server IP information:"
-            SERVER_IP=$(hostname -I | awk '{print $1}' || curl -s ifconfig.me || echo "unknown")
-            echo "Server IP: $SERVER_IP"
-            echo "⚠️  Verify this IP matches Cloudflare DNS: 51.83.128.66"
-            if [ "$SERVER_IP" != "51.83.128.66" ]; then
-              echo "❌ IP mismatch! Cloudflare DNS points to 51.83.128.66 but server IP is $SERVER_IP"
-              echo "Update Cloudflare DNS to point to: $SERVER_IP"
-            fi
+            # Check Caddy logs
+            echo "📊 Caddy logs:"
+            docker logs caddy --tail 10 || true
 
             # Check if ports 80 and 443 are listening
-            echo "📊 Checking if ports 80 and 443 are listening:"
-            if sudo netstat -tlnp 2>/dev/null | grep -E ':(80|443)' || sudo ss -tlnp 2>/dev/null | grep -E ':(80|443)'; then
-              echo "✅ Ports 80 and/or 443 are listening"
-            else
-              echo "❌ Ports 80 and 443 are NOT listening - this causes Cloudflare 521 errors"
-              echo "⚠️  Traefik must be running and listening on ports 80 and 443"
-              echo ""
-              echo "To fix this, run on the server:"
-              echo "1. Check if Traefik container exists: docker ps -a | grep traefik"
-              echo "2. If Traefik exists but is stopped, start it: docker start traefik"
-              echo "3. If Traefik doesn't exist, you need to deploy Traefik first"
-              echo "4. Check firewall: sudo ufw status (ports 80 and 443 must be open)"
-              echo "5. Verify Traefik is listening: sudo ss -tlnp | grep -E ':(80|443)'"
-            fi
+            echo "📊 Checking ports:"
+            sudo ss -tlnp 2>/dev/null | grep -E ':(80|443)' || echo "Ports check failed"
 
-            # Check if SSR server files exist in container
-            echo "📊 Checking SSR server files in container:"
-            echo "Checking server/ directory:"
-            docker exec morphy-frontend ls -la /app/server/ 2>/dev/null || echo "server/ not found"
-            echo ""
-            echo "Checking if entry.node-server.js exists:"
-            if docker exec morphy-frontend test -f /app/server/entry.node-server.js; then
-              echo "✅ entry.node-server.js exists"
-            else
-              echo "❌ entry.node-server.js NOT FOUND - SSR server cannot start"
-              echo "Checking what files are in server:"
-              docker exec morphy-frontend find /app/server -type f | head -20 || true
-            fi
-            echo ""
-            echo "Checking Node.js process:"
-            docker exec morphy-frontend ps aux | grep node || true
-
-            echo "✅ Deployment successful - container is running"
+            echo "✅ Deployment successful!"
+            echo "🌐 Site: https://formipeek.com"
