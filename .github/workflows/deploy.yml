@@ -1,4 +1,4 @@
-name: Deploy Application
+name: Deploy to Production
 
 on:
   push:
@@ -38,9 +38,8 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository_owner }}/formi-qwik
           tags: |
-            type=ref,event=branch
-            type=sha,prefix={{branch}}-
-            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value=latest
+            type=sha,prefix=sha-
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
@@ -56,10 +55,9 @@ jobs:
           cache-to: type=gha,mode=max
 
   deploy:
-    name: Deploy to VPS
+    name: Deploy to Production
     needs: build-and-push
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     
     steps:
       - name: Add SSH key
