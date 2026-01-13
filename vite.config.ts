@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { qwikVite } from "@builder.io/qwik/optimizer";
 import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import { nodeAdapter } from "./adapters";
+import { nodeAdapter } from "@builder.io/qwik-city/adapters/node";
 
 export default defineConfig(() => {
   return {
@@ -11,7 +11,7 @@ export default defineConfig(() => {
         adapter: nodeAdapter(),
       }),
       qwikVite(),
-      tsconfigPaths()
+      tsconfigPaths(),
     ],
     preview: {
       headers: {
