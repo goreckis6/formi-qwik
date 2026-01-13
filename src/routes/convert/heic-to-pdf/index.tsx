@@ -171,6 +171,55 @@ export default component$(() => {
     }
   });
 
+  // Download all as ZIP (batch mode only)
+  const downloadAllAsZip = $(async () => {
+    const successfulResults = conversionResults.value.filter(r => r.success);
+    
+    if (successfulResults.length === 0) {
+      errorMessage.value = 'No successful conversions to download';
+      return;
+    }
+
+    try {
+      // Dynamic import JSZip (client-side only)
+      const JSZip = (await import('jszip')).default;
+      const zip = new JSZip();
+      
+      // Add all files to ZIP
+      for (const result of successfulResults) {
+        if (result.blob) {
+          // Single file mode - use blob
+          const arrayBuffer = await result.blob.arrayBuffer();
+          zip.file(result.outputFilename || 'converted.pdf', arrayBuffer);
+        } else if (result.downloadPath) {
+          // Batch mode - convert base64 to blob
+          const base64Data = result.downloadPath.split(',')[1];
+          const binaryString = atob(base64Data);
+          const bytes = new Uint8Array(binaryString.length);
+          for (let i = 0; i < binaryString.length; i++) {
+            bytes[i] = binaryString.charCodeAt(i);
+          }
+          zip.file(result.outputFilename || 'converted.pdf', bytes);
+        }
+      }
+
+      // Generate ZIP file
+      const zipBlob = await zip.generateAsync({ type: 'blob' });
+      
+      // Download ZIP
+      const url = URL.createObjectURL(zipBlob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `heic-to-pdf-conversions-${Date.now()}.zip`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      errorMessage.value = error instanceof Error ? error.message : 'Failed to create ZIP file';
+    }
+  });
+
   // Convert files
   const convertFiles = $(async () => {
     if (selectedFiles.value.length === 0) {
@@ -502,7 +551,20 @@ export default component$(() => {
               {/* Conversion Results */}
               {conversionResults.value.length > 0 && (
                 <div class="mt-6">
-                  <h4 class="text-sm font-medium text-gray-700 mb-3">Conversion Results:</h4>
+                  <div class="flex items-center justify-between mb-3">
+                    <h4 class="text-sm font-medium text-gray-700">Conversion Results:</h4>
+                    {mode.value === 'batch' && conversionResults.value.some(r => r.success) && (
+                      <button
+                        onClick$={downloadAllAsZip}
+                        class="px-4 py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm"
+                      >
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        Download All as ZIP
+                      </button>
+                    )}
+                  </div>
                   <div class="space-y-2">
                     {conversionResults.value.map((result, index) => (
                       <div 

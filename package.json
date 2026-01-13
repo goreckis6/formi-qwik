@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "@builder.io/qwik": "^1.7.0",
-    "@builder.io/qwik-city": "^1.7.0"
+    "@builder.io/qwik-city": "^1.7.0",
+    "jszip": "^3.10.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.11",
