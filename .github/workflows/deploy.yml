@@ -74,13 +74,13 @@ jobs:
           host: ${{ secrets.FRONTEND_VPS_HOST }}
           username: ${{ secrets.FRONTEND_VPS_USERNAME }}
           key: ${{ secrets.FRONTEND_VPS_SSH_KEY }}
-          envs: GHCR_TOKEN,GITHUB_ACTOR,GITHUB_REPO_OWNER
-          env: |
-            GHCR_TOKEN=${{ secrets.GHCR_TOKEN || secrets.GITHUB_TOKEN }}
-            GITHUB_ACTOR=${{ github.actor }}
-            GITHUB_REPO_OWNER=${{ github.repository_owner }}
           script: |
             set -eo pipefail
+            
+            # Set variables directly
+            GHCR_TOKEN="${{ secrets.GHCR_TOKEN || secrets.GITHUB_TOKEN }}"
+            GITHUB_ACTOR="${{ github.actor }}"
+            GITHUB_REPO_OWNER="${{ github.repository_owner }}"
             
             # Create /opt/frontend directory if it doesn't exist
             sudo mkdir -p /opt/frontend
@@ -96,7 +96,11 @@ jobs:
             docker rm morphy-frontend 2>/dev/null || true
             
             # Pull latest image from GitHub Container Registry
-            echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
+            if [ -z "$GHCR_TOKEN" ] || [ -z "$GITHUB_ACTOR" ]; then
+              echo "❌ Error: GHCR_TOKEN or GITHUB_ACTOR is not set"
+              exit 1
+            fi
+            echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin 2>&1
             docker pull ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
             docker image prune -f
             
