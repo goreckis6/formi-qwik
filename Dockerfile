@@ -20,8 +20,8 @@ RUN npm run build
 
 # DEBUG – zobacz co faktycznie powstało
 RUN echo "=== Full dist directory structure ===" && ls -R dist || echo "dist directory not found"
+RUN echo "=== Looking for server directory ===" && ls -la dist/server/ 2>/dev/null || echo "No server directory found"
 RUN echo "=== Looking for entry.ssr.js ===" && find dist -name "entry.ssr.js" -type f 2>/dev/null || echo "entry.ssr.js NOT FOUND"
-RUN echo "=== Checking dist/entry.ssr.js ===" && ls -la dist/entry.ssr.js 2>/dev/null || echo "dist/entry.ssr.js NOT FOUND"
 
 # Production stage with Node.js
 FROM node:20
@@ -42,5 +42,5 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the SSR server
-# Qwik 1.18 with vite build --ssr generates entry.ssr.js in dist/
-CMD ["node", "dist/entry.ssr.js"]
+# Qwik 1.7+ generates entry.ssr.js or entry.ssr.mjs
+CMD ["sh", "-c", "node dist/server/entry.ssr.mjs || node dist/server/entry.ssr.js"]
