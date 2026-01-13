@@ -18,28 +18,23 @@ ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
 # Build the application
 RUN npm run build
 
-# Debug: List what was built
-RUN echo "=== Contents of dist/ ===" && ls -la /app/dist/ || true
-RUN echo "=== Looking for HTML files ===" && find /app/dist -name "*.html" -type f || echo "No HTML files found"
-RUN echo "=== Contents of dist/build ===" && ls -la /app/dist/build/ 2>/dev/null || echo "No build directory"
-
-# Production stage with nginx
-FROM nginx:alpine
-
-# Remove default nginx files
-RUN rm -rf /usr/share/nginx/html/*
+# Production stage with Node.js
+FROM node:20-alpine
+WORKDIR /app
 
 # Copy built files from build stage
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/package*.json ./
 
-# Debug: Verify files were copied
-RUN echo "=== Files in nginx html directory ===" && ls -la /usr/share/nginx/html/ || true
+# Install only production dependencies
+RUN npm ci --production
 
-# Copy nginx configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Set environment variable
+ENV NODE_ENV=production
+ENV PORT=3000
 
-# Expose port 80
-EXPOSE 80
+# Expose port 3000
+EXPOSE 3000
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Start the SSR server
+CMD ["node", "dist/server/entry.ssr.js"]
