@@ -13,7 +13,10 @@ interface ConversionResult {
   success: boolean;
   error?: string;
   downloadPath?: string;
+  blob?: Blob; // Store blob for single file downloads
 }
+
+const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100 MB
 
 export const useLocaleLoader = routeLoader$(({ url }) => {
   const pathParts = url.pathname.split('/').filter(Boolean);
@@ -49,6 +52,14 @@ export default component$(() => {
       const files = Array.from(input.files).filter(
         file => file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')
       );
+      
+      // Validate file sizes
+      const oversizedFiles = files.filter(file => file.size > MAX_FILE_SIZE);
+      if (oversizedFiles.length > 0) {
+        errorMessage.value = `File size limit is 100 MB. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
+        return;
+      }
+      
       if (mode.value === 'single') {
         selectedFiles.value = files.slice(0, 1);
       } else {
@@ -77,6 +88,14 @@ export default component$(() => {
       const files = Array.from(e.dataTransfer.files).filter(
         file => file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')
       );
+      
+      // Validate file sizes
+      const oversizedFiles = files.filter(file => file.size > MAX_FILE_SIZE);
+      if (oversizedFiles.length > 0) {
+        errorMessage.value = `File size limit is 100 MB. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
+        return;
+      }
+      
       if (mode.value === 'single') {
         selectedFiles.value = files.slice(0, 1);
       } else {
@@ -87,10 +106,40 @@ export default component$(() => {
     }
   });
 
+  // Download handler
+  const downloadFile = $((result: ConversionResult) => {
+    if (result.blob) {
+      // Single file - use stored blob
+      const url = URL.createObjectURL(result.blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = result.outputFilename || 'converted.pdf';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } else if (result.downloadPath) {
+      // Batch file - use base64 data URL
+      const a = document.createElement('a');
+      a.href = result.downloadPath;
+      a.download = result.outputFilename || 'converted.pdf';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  });
+
   // Convert files
   const convertFiles = $(async () => {
     if (selectedFiles.value.length === 0) {
       errorMessage.value = 'Please select at least one HEIC file';
+      return;
+    }
+
+    // Validate file sizes before conversion
+    const oversizedFiles = selectedFiles.value.filter(file => file.size > MAX_FILE_SIZE);
+    if (oversizedFiles.length > 0) {
+      errorMessage.value = `File size limit is 100 MB. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
       return;
     }
 
@@ -121,21 +170,13 @@ export default component$(() => {
           const blob = await response.blob();
           const filename = selectedFiles.value[0].name.replace(/\.(heic|heif)$/i, '.pdf');
           
-          // Create download link
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          URL.revokeObjectURL(url);
-
+          // Store blob for download button (don't auto-download)
           conversionResults.value = [{
             originalName: selectedFiles.value[0].name,
             outputFilename: filename,
             size: blob.size,
             success: true,
+            blob: blob,
           }];
         } else {
           const error = await response.json();
@@ -162,19 +203,8 @@ export default component$(() => {
 
         if (response.ok) {
           const data = await response.json();
+          // Store results without auto-downloading
           conversionResults.value = data.results;
-
-          // Auto-download successful conversions
-          data.results.forEach((result: ConversionResult) => {
-            if (result.success && result.downloadPath) {
-              const a = document.createElement('a');
-              a.href = result.downloadPath;
-              a.download = result.outputFilename || 'converted.pdf';
-              document.body.appendChild(a);
-              a.click();
-              document.body.removeChild(a);
-            }
-          });
         } else {
           const error = await response.json();
           throw new Error(error.error || 'Batch conversion failed');
@@ -417,27 +447,38 @@ export default component$(() => {
                           result.success ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
                         }`}
                       >
-                        <div class="flex items-center gap-3">
+                        <div class="flex items-center gap-3 flex-1">
                           {result.success ? (
-                            <svg class="w-6 h-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
                           ) : (
-                            <svg class="w-6 h-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg class="w-6 h-6 text-red-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                           )}
-                          <div>
-                            <p class="text-sm font-medium">{result.originalName}</p>
+                          <div class="flex-1 min-w-0">
+                            <p class="text-sm font-medium truncate">{result.originalName}</p>
                             {result.success ? (
                               <p class="text-xs text-green-600">
-                                → {result.outputFilename} ({result.size ? formatFileSize(result.size) : 'Downloaded'})
+                                → {result.outputFilename} {result.size ? `(${formatFileSize(result.size)})` : ''}
                               </p>
                             ) : (
                               <p class="text-xs text-red-600">{result.error}</p>
                             )}
                           </div>
                         </div>
+                        {result.success && (
+                          <button
+                            onClick$={() => downloadFile(result)}
+                            class="ml-4 px-4 py-2 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-colors flex items-center gap-2 flex-shrink-0"
+                          >
+                            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                            Download
+                          </button>
+                        )}
                       </div>
                     ))}
                   </div>
