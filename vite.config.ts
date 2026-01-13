@@ -7,10 +7,15 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig(() => ({
   plugins: [
     qwikCity({
-      adapter: nodeServerAdapter(), // 🔥 włącza SSR w Qwik 1.18
+      adapter: nodeServerAdapter({
+        serverOutDir: 'dist/server',
+      }), // 🔥 włącza SSR w Qwik 1.18
       ssr: true, // 🔥 TO JEST KLUCZ - wymusza SSR build
     }),
     qwikVite(),
     tsconfigPaths(),
   ],
+  build: {
+    outDir: 'dist',
+  },
 }));
