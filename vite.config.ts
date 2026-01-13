@@ -8,6 +8,7 @@ export default defineConfig(() => ({
   plugins: [
     qwikCity({
       adapter: nodeServerAdapter(), // 🔥 włącza SSR w Qwik 1.18
+      ssr: true, // 🔥 TO JEST KLUCZ - wymusza SSR build
     }),
     qwikVite(),
     tsconfigPaths(),
