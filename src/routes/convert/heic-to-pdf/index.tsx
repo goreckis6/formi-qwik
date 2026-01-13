@@ -16,7 +16,9 @@ interface ConversionResult {
   blob?: Blob; // Store blob for single file downloads
 }
 
-const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100 MB
+const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100 MB per file
+const MAX_BATCH_FILES = 20; // Maximum files in batch
+const MAX_BATCH_TOTAL_SIZE = 100 * 1024 * 1024; // 100 MB total for batch
 
 export const useLocaleLoader = routeLoader$(({ url }) => {
   const pathParts = url.pathname.split('/').filter(Boolean);
@@ -53,18 +55,38 @@ export default component$(() => {
         file => file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')
       );
       
-      // Validate file sizes
-      const oversizedFiles = files.filter(file => file.size > MAX_FILE_SIZE);
-      if (oversizedFiles.length > 0) {
-        errorMessage.value = `File size limit is 100 MB. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
-        return;
-      }
-      
       if (mode.value === 'single') {
-        selectedFiles.value = files.slice(0, 1);
+        // Single file validation
+        if (files.length > 0) {
+          const file = files[0];
+          if (file.size > MAX_FILE_SIZE) {
+            errorMessage.value = `File size limit is 100 MB. "${file.name}" is too large.`;
+            return;
+          }
+          selectedFiles.value = [file];
+        }
       } else {
+        // Batch validation
+        if (files.length > MAX_BATCH_FILES) {
+          errorMessage.value = `Maximum ${MAX_BATCH_FILES} files allowed in batch mode. You selected ${files.length} files.`;
+          return;
+        }
+        
+        const oversizedFiles = files.filter(file => file.size > MAX_FILE_SIZE);
+        if (oversizedFiles.length > 0) {
+          errorMessage.value = `File size limit is 100 MB per file. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
+          return;
+        }
+        
+        const totalSize = files.reduce((sum, file) => sum + file.size, 0);
+        if (totalSize > MAX_BATCH_TOTAL_SIZE) {
+          errorMessage.value = `Total size limit is 100 MB for batch conversion. Selected files total: ${formatFileSize(totalSize)}`;
+          return;
+        }
+        
         selectedFiles.value = files;
       }
+      
       errorMessage.value = null;
       conversionResults.value = [];
     }
@@ -89,18 +111,38 @@ export default component$(() => {
         file => file.name.toLowerCase().endsWith('.heic') || file.name.toLowerCase().endsWith('.heif')
       );
       
-      // Validate file sizes
-      const oversizedFiles = files.filter(file => file.size > MAX_FILE_SIZE);
-      if (oversizedFiles.length > 0) {
-        errorMessage.value = `File size limit is 100 MB. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
-        return;
-      }
-      
       if (mode.value === 'single') {
-        selectedFiles.value = files.slice(0, 1);
+        // Single file validation
+        if (files.length > 0) {
+          const file = files[0];
+          if (file.size > MAX_FILE_SIZE) {
+            errorMessage.value = `File size limit is 100 MB. "${file.name}" is too large.`;
+            return;
+          }
+          selectedFiles.value = [file];
+        }
       } else {
+        // Batch validation
+        if (files.length > MAX_BATCH_FILES) {
+          errorMessage.value = `Maximum ${MAX_BATCH_FILES} files allowed in batch mode. You selected ${files.length} files.`;
+          return;
+        }
+        
+        const oversizedFiles = files.filter(file => file.size > MAX_FILE_SIZE);
+        if (oversizedFiles.length > 0) {
+          errorMessage.value = `File size limit is 100 MB per file. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
+          return;
+        }
+        
+        const totalSize = files.reduce((sum, file) => sum + file.size, 0);
+        if (totalSize > MAX_BATCH_TOTAL_SIZE) {
+          errorMessage.value = `Total size limit is 100 MB for batch conversion. Selected files total: ${formatFileSize(totalSize)}`;
+          return;
+        }
+        
         selectedFiles.value = files;
       }
+      
       errorMessage.value = null;
       conversionResults.value = [];
     }
@@ -136,11 +178,31 @@ export default component$(() => {
       return;
     }
 
-    // Validate file sizes before conversion
-    const oversizedFiles = selectedFiles.value.filter(file => file.size > MAX_FILE_SIZE);
-    if (oversizedFiles.length > 0) {
-      errorMessage.value = `File size limit is 100 MB. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
-      return;
+    // Validate before conversion
+    if (mode.value === 'single') {
+      const file = selectedFiles.value[0];
+      if (file.size > MAX_FILE_SIZE) {
+        errorMessage.value = `File size limit is 100 MB. "${file.name}" is too large.`;
+        return;
+      }
+    } else {
+      // Batch validation
+      if (selectedFiles.value.length > MAX_BATCH_FILES) {
+        errorMessage.value = `Maximum ${MAX_BATCH_FILES} files allowed in batch mode.`;
+        return;
+      }
+      
+      const oversizedFiles = selectedFiles.value.filter(file => file.size > MAX_FILE_SIZE);
+      if (oversizedFiles.length > 0) {
+        errorMessage.value = `File size limit is 100 MB per file. The following files are too large: ${oversizedFiles.map(f => f.name).join(', ')}`;
+        return;
+      }
+      
+      const totalSize = selectedFiles.value.reduce((sum, file) => sum + file.size, 0);
+      if (totalSize > MAX_BATCH_TOTAL_SIZE) {
+        errorMessage.value = `Total size limit is 100 MB for batch conversion. Selected files total: ${formatFileSize(totalSize)}`;
+        return;
+      }
     }
 
     isConverting.value = true;
@@ -340,10 +402,12 @@ export default component$(() => {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                   </svg>
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                    {conv.upload.title}
+                    {mode.value === 'single' ? conv.upload.title : 'Drag & drop your HEIC photos here or click to browse'}
                   </h3>
                   <p class="text-gray-600 mb-4 text-sm sm:text-base">
-                    {conv.upload.description}
+                    {mode.value === 'single' 
+                      ? conv.upload.description 
+                      : 'Supports batch conversion up to 20 files. Maximum 100MB per file.'}
                   </p>
                   <span class="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl inline-block">
                     {conv.upload.chooseFile}
