@@ -19,16 +19,17 @@ ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
 RUN npm run build
 
 # DEBUG – zobacz co faktycznie powstało
-RUN echo "=== Full dist directory structure ===" && ls -R dist || echo "dist directory not found"
-RUN echo "=== Looking for server directory ===" && ls -la dist/server/ 2>/dev/null || echo "No server directory found"
-RUN echo "=== Looking for entry.ssr.js ===" && find dist -name "entry.ssr.js" -type f 2>/dev/null || echo "entry.ssr.js NOT FOUND"
+RUN echo "=== Client build (dist/) ===" && ls -la dist/ || echo "dist/ not found"
+RUN echo "=== Server build (server/) ===" && ls -la server/ || echo "server/ not found"
+RUN echo "=== Looking for entry.ssr.js ===" && find . -name "entry.ssr.js" -type f 2>/dev/null || echo "entry.ssr.js NOT FOUND"
 
 # Production stage with Node.js
 FROM node:20
 WORKDIR /app
 
-# Copy built files and package files
+# Copy built files (client: dist/, server: server/)
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/server ./server
 COPY --from=builder /app/package*.json ./
 
 # Install only production dependencies
@@ -42,5 +43,5 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the SSR server
-# Qwik 1.7+ generates entry.ssr.js or entry.ssr.mjs
-CMD ["sh", "-c", "node dist/server/entry.ssr.mjs || node dist/server/entry.ssr.js"]
+# Qwik generates entry.ssr.js in server/ directory
+CMD ["node", "server/entry.ssr.js"]
