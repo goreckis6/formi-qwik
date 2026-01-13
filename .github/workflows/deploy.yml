@@ -145,4 +145,23 @@ jobs:
               exit 1
             fi
             
+            # Check if nginx is responding inside container
+            echo "🔍 Checking nginx inside container..."
+            if docker exec morphy-frontend wget -q --spider http://localhost/health 2>/dev/null || \
+               docker exec morphy-frontend wget -q --spider http://localhost 2>/dev/null; then
+              echo "✅ Nginx is responding inside container"
+            else
+              echo "⚠️  Nginx health check failed, but continuing..."
+              docker logs morphy-frontend --tail 50 || true
+            fi
+            
+            # Show container info
+            echo "📊 Container info:"
+            docker ps | grep morphy-frontend || true
+            docker inspect morphy-frontend --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' || true
+            
+            # Check Traefik network
+            echo "📊 Traefik network info:"
+            docker network inspect traefik 2>/dev/null | grep -A 5 "Containers" || echo "⚠️  Could not inspect traefik network"
+            
             echo "✅ Deployment successful - container is running"
