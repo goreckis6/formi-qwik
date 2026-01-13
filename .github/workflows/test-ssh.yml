@@ -24,11 +24,11 @@ jobs:
       
       - name: Setup SSH
         env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_KEY: ${{ secrets.SSH_KEY }}
+          SSH_HOST: ${{ secrets.FRONTEND_VPS_HOST }}
+          SSH_KEY: ${{ secrets.FRONTEND_VPS_SSH_KEY }}
         run: |
           if [ -z "$SSH_HOST" ] || [ -z "$SSH_KEY" ]; then
-            echo "❌ Error: SSH_HOST or SSH_KEY secrets are not set"
+            echo "❌ Error: FRONTEND_VPS_HOST or FRONTEND_VPS_SSH_KEY secrets are not set"
             exit 1
           fi
           
@@ -40,16 +40,22 @@ jobs:
       
       - name: Test SSH Connection
         env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_HOST: ${{ secrets.FRONTEND_VPS_HOST }}
+          SSH_USER: ${{ secrets.FRONTEND_VPS_SSH_USER }}
+          SSH_PORT: ${{ secrets.FRONTEND_VPS_SSH_PORT }}
         run: |
-          if [ -z "$SSH_HOST" ] || [ -z "$SSH_USER" ]; then
-            echo "❌ Error: SSH_HOST or SSH_USER secrets are not set"
+          if [ -z "$SSH_HOST" ]; then
+            echo "❌ Error: FRONTEND_VPS_HOST secret is not set"
             exit 1
           fi
           
-          echo "🔍 Testing SSH connection to $SSH_HOST..."
+          # Use default user if not set
+          if [ -z "$SSH_USER" ]; then
+            SSH_USER="root"
+            echo "ℹ️  SSH_USER not set, using default: root"
+          fi
+          
+          echo "🔍 Testing SSH connection to $SSH_HOST as user $SSH_USER..."
           
           # Build SSH command
           SSH_OPTS="-o StrictHostKeyChecking=no -o ConnectTimeout=10"
@@ -69,10 +75,15 @@ jobs:
       
       - name: Test SSH with Port (if provided)
         env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_HOST: ${{ secrets.FRONTEND_VPS_HOST }}
+          SSH_USER: ${{ secrets.FRONTEND_VPS_SSH_USER }}
+          SSH_PORT: ${{ secrets.FRONTEND_VPS_SSH_PORT }}
         run: |
+          # Use default user if not set
+          if [ -z "$SSH_USER" ]; then
+            SSH_USER="root"
+          fi
+          
           if [ -n "$SSH_PORT" ] && [ "$SSH_PORT" != "" ]; then
             echo "🔍 Testing SSH connection with custom port $SSH_PORT..."
             ssh -o StrictHostKeyChecking=no \
@@ -86,10 +97,15 @@ jobs:
       
       - name: Verify SSH Access
         env:
-          SSH_HOST: ${{ secrets.SSH_HOST }}
-          SSH_USER: ${{ secrets.SSH_USER }}
-          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_HOST: ${{ secrets.FRONTEND_VPS_HOST }}
+          SSH_USER: ${{ secrets.FRONTEND_VPS_SSH_USER }}
+          SSH_PORT: ${{ secrets.FRONTEND_VPS_SSH_PORT }}
         run: |
+          # Use default user if not set
+          if [ -z "$SSH_USER" ]; then
+            SSH_USER="root"
+          fi
+          
           echo "🔐 Verifying SSH access..."
           SSH_OPTS="-o StrictHostKeyChecking=no -o ConnectTimeout=10"
           if [ -n "$SSH_PORT" ] && [ "$SSH_PORT" != "" ]; then
