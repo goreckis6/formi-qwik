@@ -30,12 +30,11 @@ RUN echo "=== Looking for entry files ===" && find /app/dist/server -name "*.js"
 FROM node:20-alpine
 WORKDIR /app
 
-# Copy built files from build stage
+# Copy built files and node_modules from build stage
+# Qwik SSR needs runtime dependencies from node_modules
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/package*.json ./
-
-# Install only production dependencies
-RUN npm ci --production
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
 
 # Set environment variable
 ENV NODE_ENV=production
