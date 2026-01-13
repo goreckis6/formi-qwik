@@ -11,6 +11,7 @@ import { createQwikCity } from "@builder.io/qwik-city/middleware/node";
 import qwikCityPlan from "@qwik-city-plan";
 import render from "./entry.ssr";
 import { createServer } from "node:http";
+import { join } from "node:path";
 
 // Allow for dynamic port
 const PORT = process.env.PORT ?? 3004;
@@ -20,6 +21,8 @@ const { router, notFound, staticFile } = createQwikCity({
   render,
   qwikCityPlan,
   static: {
+    // Use absolute path from current working directory (Docker WORKDIR is /app)
+    root: join(process.cwd(), "dist"),
     cacheControl: "public, max-age=31536000, immutable",
   },
 });
