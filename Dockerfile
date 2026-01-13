@@ -1,5 +1,5 @@
 # Build stage
-FROM node:20-alpine AS builder
+FROM node:20 AS builder
 WORKDIR /app
 
 # Copy package files (including lock file for reproducible builds)
@@ -24,7 +24,7 @@ RUN echo "=== Looking for server directory ===" && ls -la dist/server/ 2>/dev/nu
 RUN echo "=== Looking for entry.ssr.js ===" && find dist -name "entry.ssr.js" -type f 2>/dev/null || echo "entry.ssr.js NOT FOUND"
 
 # Production stage with Node.js
-FROM node:20-alpine
+FROM node:20
 WORKDIR /app
 
 # Copy built files and package files
