@@ -4,9 +4,5 @@ import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(() => ({
-  plugins: [
-    qwikCity(),
-    qwikVite(),
-    tsconfigPaths(),
-  ],
+  plugins: [qwikCity(), qwikVite(), tsconfigPaths()],
 }));

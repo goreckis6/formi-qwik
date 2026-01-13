@@ -1,4 +1,6 @@
 /**
  * Node.js Adapter Configuration
- * This file is not needed - we use entry.static.tsx directly
+ * This file configures the Node.js adapter for SSR deployment
  */
+
+export { nodeAdapter } from '@builder.io/qwik-city/adapters/node';
