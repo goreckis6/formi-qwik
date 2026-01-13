@@ -45,5 +45,5 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the SSR server
-# Try entry.static.js first (Node.js adapter), fallback to entry.ssr.js
-CMD ["node", "dist/server/entry.static.js"]
+# Qwik 1.7+ generates entry.ssr.js
+CMD ["node", "dist/server/entry.ssr.js"]
