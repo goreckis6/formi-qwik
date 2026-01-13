@@ -31,13 +31,19 @@ jobs:
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
       
       - name: Test SSH Connection
+        env:
+          SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           echo "🔍 Testing SSH connection to ${{ secrets.SSH_HOST }}..."
           
           # Test basic connection
-          ssh -o StrictHostKeyChecking=no \
-              -o ConnectTimeout=10 \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+          SSH_CMD="ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10"
+          if [ -n "$SSH_PORT" ] && [ "$SSH_PORT" != "" ]; then
+            SSH_CMD="$SSH_CMD -p $SSH_PORT"
+            echo "Using custom port: $SSH_PORT"
+          fi
+          
+          $SSH_CMD ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
               "echo '✅ SSH connection successful!' && \
                echo '📊 Server Info:' && \
                hostname && \
@@ -47,21 +53,30 @@ jobs:
                df -h / | tail -1"
       
       - name: Test SSH with Port (if provided)
-        if: ${{ secrets.SSH_PORT != '' }}
+        env:
+          SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
-          echo "🔍 Testing SSH connection with custom port ${{ secrets.SSH_PORT }}..."
-          ssh -o StrictHostKeyChecking=no \
-              -o ConnectTimeout=10 \
-              -p ${{ secrets.SSH_PORT }} \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-              "echo '✅ SSH connection with custom port successful!'"
+          if [ -n "$SSH_PORT" ] && [ "$SSH_PORT" != "" ]; then
+            echo "🔍 Testing SSH connection with custom port $SSH_PORT..."
+            ssh -o StrictHostKeyChecking=no \
+                -o ConnectTimeout=10 \
+                -p $SSH_PORT \
+                ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+                "echo '✅ SSH connection with custom port successful!'"
+          else
+            echo "ℹ️  SSH_PORT not set, skipping custom port test"
+          fi
       
       - name: Verify SSH Access
+        env:
+          SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           echo "🔐 Verifying SSH access..."
-          ssh -o StrictHostKeyChecking=no \
-              -o ConnectTimeout=10 \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+          SSH_CMD="ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10"
+          if [ -n "$SSH_PORT" ] && [ "$SSH_PORT" != "" ]; then
+            SSH_CMD="$SSH_CMD -p $SSH_PORT"
+          fi
+          $SSH_CMD ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
               "whoami && pwd && ls -la ~ | head -10"
       
       - name: Cleanup
