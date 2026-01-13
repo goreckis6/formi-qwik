@@ -6,9 +6,9 @@ on:
       - main
       - master
     paths-ignore:
-      - '**.md'
-      - '.gitignore'
-      - 'README.md'
+      - "**.md"
+      - ".gitignore"
+      - "README.md"
 
 jobs:
   build-and-push:
@@ -17,21 +17,21 @@ jobs:
     permissions:
       contents: read
       packages: write
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
-      
+
       - name: Log in to GitHub Container Registry
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Extract metadata
         id: meta
         uses: docker/metadata-action@v5
@@ -40,7 +40,7 @@ jobs:
           tags: |
             type=raw,value=latest
             type=sha,prefix=sha-
-      
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
@@ -58,7 +58,7 @@ jobs:
     name: Deploy to Production
     needs: build-and-push
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Add SSH key
         uses: webfactory/ssh-agent@v0.9.0
@@ -76,25 +76,25 @@ jobs:
           key: ${{ secrets.FRONTEND_VPS_SSH_KEY }}
           script: |
             set -eo pipefail
-            
+
             # Set variables directly
             GHCR_TOKEN="${{ secrets.GHCR_TOKEN || secrets.GITHUB_TOKEN }}"
             GITHUB_ACTOR="${{ github.actor }}"
             GITHUB_REPO_OWNER="${{ github.repository_owner }}"
-            
+
             # Create /opt/frontend directory if it doesn't exist
             sudo mkdir -p /opt/frontend
             sudo chown -R $USER:$USER /opt/frontend
             cd /opt/frontend
-            
+
             # Create letsencrypt directory with proper permissions
             mkdir -p letsencrypt
             chown -R $USER:$USER letsencrypt
-            
+
             # Stop and remove old containers
             docker stop morphy-frontend 2>/dev/null || true
             docker rm morphy-frontend 2>/dev/null || true
-            
+
             # Pull latest image from GitHub Container Registry
             if [ -z "$GHCR_TOKEN" ] || [ -z "$GITHUB_ACTOR" ]; then
               echo "❌ Error: GHCR_TOKEN or GITHUB_ACTOR is not set"
@@ -103,13 +103,13 @@ jobs:
             echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin 2>&1
             docker pull ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
             docker image prune -f
-            
+
             # Ensure traefik network exists
             if ! docker network ls | grep -q "traefik"; then
               echo "⚠️  Traefik network not found, creating it..."
               docker network create traefik || true
             fi
-            
+
             # Deploy with corrected Traefik labels (serve via nginx on port 80)
             docker run -d \
               --name morphy-frontend \
@@ -127,16 +127,16 @@ jobs:
               --network traefik \
               --restart unless-stopped \
               ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
-            
+
             # Health check - verify deployment
             sleep 10
-            
+
             if ! docker ps | grep -q morphy-frontend; then
               echo "❌ Frontend container is not running"
               docker logs morphy-frontend || true
               exit 1
             fi
-            
+
             # Check if container is healthy
             CONTAINER_STATUS=$(docker inspect --format='{{.State.Status}}' morphy-frontend 2>/dev/null || echo "not-found")
             if [ "$CONTAINER_STATUS" != "running" ]; then
@@ -144,7 +144,7 @@ jobs:
               docker logs morphy-frontend || true
               exit 1
             fi
-            
+
             # Check if nginx is responding inside container
             echo "🔍 Checking nginx inside container..."
             # Try curl first (usually available in alpine), then wget, then netcat
@@ -158,16 +158,16 @@ jobs:
               docker exec morphy-frontend ls -la /usr/share/nginx/html/ | head -10 || true
               docker logs morphy-frontend --tail 50 || true
             fi
-            
+
             # Show container info
             echo "📊 Container info:"
             docker ps | grep morphy-frontend || true
             docker inspect morphy-frontend --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' || true
-            
+
             # Check Traefik network
             echo "📊 Traefik network info:"
             docker network inspect traefik 2>/dev/null | grep -A 5 "Containers" || echo "⚠️  Could not inspect traefik network"
-            
+
             # Check if Traefik container is running
             echo "📊 Checking Traefik container:"
             if docker ps | grep -q traefik; then
@@ -180,7 +180,7 @@ jobs:
               echo "⚠️  Cloudflare cannot connect to the server without Traefik"
               echo "Please ensure Traefik is running on ports 80 and 443"
             fi
-            
+
             # Check server IP
             echo "📊 Server IP information:"
             SERVER_IP=$(hostname -I | awk '{print $1}' || curl -s ifconfig.me || echo "unknown")
@@ -190,14 +190,26 @@ jobs:
               echo "❌ IP mismatch! Cloudflare DNS points to 51.83.128.66 but server IP is $SERVER_IP"
               echo "Update Cloudflare DNS to point to: $SERVER_IP"
             fi
-            
+
             # Check if ports 80 and 443 are listening
             echo "📊 Checking if ports 80 and 443 are listening:"
-            netstat -tlnp | grep -E ':(80|443)' || ss -tlnp | grep -E ':(80|443)' || echo "⚠️  Could not check ports (netstat/ss not available)"
-            
+            if sudo netstat -tlnp 2>/dev/null | grep -E ':(80|443)' || sudo ss -tlnp 2>/dev/null | grep -E ':(80|443)'; then
+              echo "✅ Ports 80 and/or 443 are listening"
+            else
+              echo "❌ Ports 80 and 443 are NOT listening - this causes Cloudflare 521 errors"
+              echo "⚠️  Traefik must be running and listening on ports 80 and 443"
+              echo ""
+              echo "To fix this, run on the server:"
+              echo "1. Check if Traefik container exists: docker ps -a | grep traefik"
+              echo "2. If Traefik exists but is stopped, start it: docker start traefik"
+              echo "3. If Traefik doesn't exist, you need to deploy Traefik first"
+              echo "4. Check firewall: sudo ufw status (ports 80 and 443 must be open)"
+              echo "5. Verify Traefik is listening: sudo ss -tlnp | grep -E ':(80|443)'"
+            fi
+
             # Check if files exist in container
             echo "📊 Checking files in container:"
             docker exec morphy-frontend ls -la /usr/share/nginx/html/ | head -5 || true
             docker exec morphy-frontend test -f /usr/share/nginx/html/index.html && echo "✅ index.html exists" || echo "⚠️  index.html not found"
-            
+
             echo "✅ Deployment successful - container is running"
