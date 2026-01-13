@@ -147,11 +147,15 @@ jobs:
             
             # Check if nginx is responding inside container
             echo "🔍 Checking nginx inside container..."
-            if docker exec morphy-frontend wget -q --spider http://localhost/health 2>/dev/null || \
-               docker exec morphy-frontend wget -q --spider http://localhost 2>/dev/null; then
+            # Try curl first (usually available in alpine), then wget, then netcat
+            if docker exec morphy-frontend sh -c "curl -f http://localhost/health >/dev/null 2>&1" 2>/dev/null || \
+               docker exec morphy-frontend sh -c "wget -q --spider http://localhost/health 2>&1" 2>/dev/null || \
+               docker exec morphy-frontend sh -c "nc -z localhost 80" 2>/dev/null; then
               echo "✅ Nginx is responding inside container"
             else
-              echo "⚠️  Nginx health check failed, but continuing..."
+              echo "⚠️  Nginx health check failed, checking configuration..."
+              docker exec morphy-frontend cat /etc/nginx/conf.d/default.conf || true
+              docker exec morphy-frontend ls -la /usr/share/nginx/html/ | head -10 || true
               docker logs morphy-frontend --tail 50 || true
             fi
             
@@ -163,5 +167,21 @@ jobs:
             # Check Traefik network
             echo "📊 Traefik network info:"
             docker network inspect traefik 2>/dev/null | grep -A 5 "Containers" || echo "⚠️  Could not inspect traefik network"
+            
+            # Check if Traefik container is running
+            echo "📊 Checking Traefik container:"
+            if docker ps | grep -q traefik; then
+              echo "✅ Traefik container is running"
+              TRAEFIK_CONTAINER=$(docker ps | grep traefik | awk '{print $1}')
+              echo "Traefik container ID: $TRAEFIK_CONTAINER"
+            else
+              echo "⚠️  Traefik container is not running - this may cause Cloudflare 521 errors"
+              echo "Please ensure Traefik is running and can see the morphy-frontend container"
+            fi
+            
+            # Check if files exist in container
+            echo "📊 Checking files in container:"
+            docker exec morphy-frontend ls -la /usr/share/nginx/html/ | head -5 || true
+            docker exec morphy-frontend test -f /usr/share/nginx/html/index.html && echo "✅ index.html exists" || echo "⚠️  index.html not found"
             
             echo "✅ Deployment successful - container is running"
