@@ -551,12 +551,12 @@ export default component$(() => {
               {/* Conversion Results */}
               {conversionResults.value.length > 0 && (
                 <div class="mt-6">
-                  <div class="flex items-center justify-between mb-3">
-                    <h4 class="text-sm font-medium text-gray-700">Conversion Results:</h4>
+                  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+                    <h4 class="text-base sm:text-sm font-medium text-gray-700">Conversion Results:</h4>
                     {mode.value === 'batch' && conversionResults.value.some(r => r.success) && (
                       <button
                         onClick$={downloadAllAsZip}
-                        class="px-4 py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors flex items-center gap-2 text-sm"
+                        class="w-full sm:w-auto px-4 py-2.5 sm:py-2 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition-colors flex items-center justify-center gap-2 text-sm"
                       >
                         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -565,39 +565,39 @@ export default component$(() => {
                       </button>
                     )}
                   </div>
-                  <div class="space-y-2">
+                  <div class="space-y-3">
                     {conversionResults.value.map((result, index) => (
                       <div 
                         key={index} 
-                        class={`flex items-center justify-between rounded-lg p-4 ${
+                        class={`flex flex-col sm:flex-row sm:items-center sm:justify-between rounded-lg p-4 gap-3 ${
                           result.success ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
                         }`}
                       >
-                        <div class="flex items-center gap-3 flex-1">
+                        <div class="flex items-start sm:items-center gap-3 flex-1 min-w-0">
                           {result.success ? (
-                            <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-green-500 flex-shrink-0 mt-0.5 sm:mt-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                             </svg>
                           ) : (
-                            <svg class="w-6 h-6 text-red-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-red-500 flex-shrink-0 mt-0.5 sm:mt-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                           )}
                           <div class="flex-1 min-w-0">
-                            <p class="text-sm font-medium truncate">{result.originalName}</p>
+                            <p class="text-sm sm:text-sm font-medium break-words sm:truncate">{result.originalName}</p>
                             {result.success ? (
-                              <p class="text-xs text-green-600">
+                              <p class="text-xs sm:text-xs text-green-600 mt-1 break-words sm:truncate">
                                 → {result.outputFilename} {result.size ? `(${formatFileSize(result.size)})` : ''}
                               </p>
                             ) : (
-                              <p class="text-xs text-red-600">{result.error}</p>
+                              <p class="text-xs sm:text-xs text-red-600 mt-1 break-words">{result.error}</p>
                             )}
                           </div>
                         </div>
                         {result.success && (
                           <button
                             onClick$={() => downloadFile(result)}
-                            class="ml-4 px-4 py-2 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-colors flex items-center gap-2 flex-shrink-0"
+                            class="w-full sm:w-auto sm:ml-4 px-4 py-2.5 sm:py-2 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-700 transition-colors flex items-center justify-center gap-2 flex-shrink-0"
                           >
                             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
