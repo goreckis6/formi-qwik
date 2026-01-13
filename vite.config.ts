@@ -2,9 +2,11 @@ import { defineConfig } from "vite";
 import { qwikVite } from "@builder.io/qwik/optimizer";
 import { qwikCity } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
+import { staticAdapter } from "./adapters";
 
 export default defineConfig({
   plugins: [
+    staticAdapter(),
     qwikCity({
       // Static Site Generation (SSG) configuration
       // Prerender these routes at build time for better SEO

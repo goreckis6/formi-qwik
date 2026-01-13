@@ -209,7 +209,26 @@ jobs:
 
             # Check if files exist in container
             echo "📊 Checking files in container:"
-            docker exec morphy-frontend ls -la /usr/share/nginx/html/ | head -5 || true
-            docker exec morphy-frontend test -f /usr/share/nginx/html/index.html && echo "✅ index.html exists" || echo "⚠️  index.html not found"
+            echo "Full directory listing:"
+            docker exec morphy-frontend ls -la /usr/share/nginx/html/ || true
+            echo ""
+            echo "Checking for index.html:"
+            if docker exec morphy-frontend test -f /usr/share/nginx/html/index.html; then
+              echo "✅ index.html exists"
+              docker exec morphy-frontend head -20 /usr/share/nginx/html/index.html || true
+            else
+              echo "❌ index.html NOT FOUND - this will cause 404 errors"
+              echo "Checking what files are in dist:"
+              docker exec morphy-frontend find /usr/share/nginx/html -type f | head -20 || true
+            fi
+            echo ""
+            echo "Checking nginx configuration:"
+            docker exec morphy-frontend cat /etc/nginx/conf.d/default.conf | head -20 || true
+            echo ""
+            echo "Checking nginx error logs:"
+            docker exec morphy-frontend cat /var/log/nginx/error.log 2>/dev/null | tail -20 || echo "No error log found"
+            echo ""
+            echo "Testing nginx from inside container:"
+            docker exec morphy-frontend wget -qO- http://localhost/ 2>&1 | head -10 || docker exec morphy-frontend curl -s http://localhost/ 2>&1 | head -10 || echo "Could not test nginx response"
 
             echo "✅ Deployment successful - container is running"
