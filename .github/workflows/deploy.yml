@@ -104,6 +104,12 @@ jobs:
             docker pull ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
             docker image prune -f
             
+            # Ensure traefik network exists
+            if ! docker network ls | grep -q "traefik"; then
+              echo "⚠️  Traefik network not found, creating it..."
+              docker network create traefik || true
+            fi
+            
             # Deploy with corrected Traefik labels (serve via nginx on port 80)
             docker run -d \
               --name morphy-frontend \
