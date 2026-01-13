@@ -20,6 +20,8 @@ const PORT = process.env.PORT ?? 3004;
 const { router, notFound, staticFile } = createQwikCity({
   render,
   qwikCityPlan,
+  // Base path for static assets - CRITICAL for correct URL generation
+  base: "/",
   static: {
     // Use absolute path from current working directory (Docker WORKDIR is /app)
     root: join(process.cwd(), "dist"),
