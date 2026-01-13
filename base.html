@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormiPeek - File Conversion & Viewer</title>
+  <meta name="description" content="Convert files between 300+ formats instantly with FormiPeek. Fast, secure, and free file conversion service.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons (SVG icons) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <style>
+    /* Custom animations */
+    @keyframes blob {
+      0% { transform: translate(0px, 0px) scale(1); }
+      33% { transform: translate(30px, -50px) scale(1.1); }
+      66% { transform: translate(-20px, 20px) scale(0.9); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    .animate-blob { animation: blob 7s infinite; }
+    .animation-delay-2000 { animation-delay: 2s; }
+    .animation-delay-4000 { animation-delay: 4s; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-white shadow-lg sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo -->
+        <a href="/" class="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity">
+          <img src="/logo.jpg" alt="FormiPeek Logo" class="h-12 w-auto object-contain">
+          <div>
+            <span class="text-xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent block">
+              FormiPeek
+            </span>
+            <p class="text-xs text-gray-500">File Conversion & Viewer</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-6">
+          <nav class="flex items-center space-x-6">
+            <a href="/converters" class="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors group">
+              <i data-lucide="arrow-left-right" class="w-5 h-5 text-blue-600 group-hover:text-blue-700"></i>
+              <span>Converters</span>
+            </a>
+            <a href="/viewers" class="flex items-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors group">
+              <i data-lucide="eye" class="w-5 h-5 text-purple-600 group-hover:text-purple-700"></i>
+              <span>Viewers</span>
+            </a>
+            <a href="/compress" class="flex items-center space-x-2 text-gray-700 hover:text-orange-600 transition-colors group">
+              <i data-lucide="minimize-2" class="w-5 h-5 text-orange-600 group-hover:text-orange-700"></i>
+              <span>Compress</span>
+            </a>
+            <a href="/samples" class="flex items-center space-x-2 text-gray-700 hover:text-teal-600 transition-colors group">
+              <i data-lucide="download" class="w-5 h-5 text-teal-600 group-hover:text-teal-700"></i>
+              <span>Samples</span>
+            </a>
+          </nav>
+
+          <div class="relative flex items-center pl-4 border-l border-gray-200">
+            <!-- Language Switcher placeholder -->
+            <select class="text-sm text-gray-600 border border-gray-300 rounded-lg px-3 py-1">
+              <option value="en">English</option>
+              <option value="pl">Polski</option>
+              <option value="de">Deutsch</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-500 hover:text-gray-700 rounded-lg transition-colors">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 py-4">
+        <nav class="flex flex-col space-y-4">
+          <a href="/converters" class="flex items-center space-x-3 text-gray-700 hover:text-blue-600 transition-colors font-medium py-2 group">
+            <i data-lucide="arrow-left-right" class="w-5 h-5 text-blue-600 group-hover:text-blue-700"></i>
+            <span>Converters</span>
+          </a>
+          <a href="/viewers" class="flex items-center space-x-3 text-gray-700 hover:text-purple-600 transition-colors font-medium py-2 group">
+            <i data-lucide="eye" class="w-5 h-5 text-purple-600 group-hover:text-purple-700"></i>
+            <span>Viewers</span>
+          </a>
+          <a href="/compress" class="flex items-center space-x-3 text-gray-700 hover:text-orange-600 transition-colors font-medium py-2 group">
+            <i data-lucide="minimize-2" class="w-5 h-5 text-orange-600 group-hover:text-orange-700"></i>
+            <span>Compress</span>
+          </a>
+          <a href="/samples" class="flex items-center space-x-3 text-gray-700 hover:text-teal-600 transition-colors font-medium py-2 group">
+            <i data-lucide="download" class="w-5 h-5 text-teal-600 group-hover:text-teal-700"></i>
+            <span>Samples</span>
+          </a>
+          <div class="pt-4 border-t border-gray-200 mt-2">
+            <select class="text-sm text-gray-600 border border-gray-300 rounded-lg px-3 py-1 w-full">
+              <option value="en">English</option>
+              <option value="pl">Polski</option>
+              <option value="de">Deutsch</option>
+            </select>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content (will be replaced by page content) -->
+  <main id="main-content">
+    <!-- Page content goes here -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-12 sm:py-16 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center space-x-3 mb-6">
+          <div class="p-2 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl">
+            <i data-lucide="refresh-cw" class="w-6 h-6 text-white"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">FormiPeek</h2>
+        </div>
+        
+        <p class="text-gray-300 mb-6 text-base sm:text-lg max-w-2xl mx-auto">
+          The ultimate file conversion and viewing platform for professionals and everyday users.
+        </p>
+
+        <!-- Security Notice -->
+        <div class="flex items-center justify-center gap-2 mb-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700/50 max-w-2xl mx-auto">
+          <i data-lucide="shield" class="w-5 h-5 text-green-400 flex-shrink-0"></i>
+          <p class="text-sm sm:text-base text-gray-300">
+            <span class="font-semibold text-white">100% Secure:</span> No files are stored on our servers. All conversions are processed and files are automatically deleted immediately after processing.
+          </p>
+        </div>
+        
+        <div class="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm text-gray-400">
+          <span>© 2025 FormiPeek</span>
+          <span class="hidden sm:inline">•</span>
+          <span>Built with</span>
+          <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+          <span>by developers who care about quality.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+    
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', function() {
+      const menu = document.getElementById('mobile-menu');
+      const icon = this.querySelector('i');
+      if (menu) {
+        menu.classList.toggle('hidden');
+        if (icon) {
+          icon.setAttribute('data-lucide', menu.classList.contains('hidden') ? 'menu' : 'x');
+          lucide.createIcons();
+        }
+      }
+    });
+  </script>
+</body>
+</html>

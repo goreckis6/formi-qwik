@@ -1,0 +1,239 @@
+// German translations
+import type { Translations } from './en';
+
+export const de: Translations = {
+  locale: 'de',
+  name: 'Deutsch',
+  flag: '🇩🇪',
+  
+  nav: {
+    converters: 'Konverter',
+    viewers: 'Viewer',
+    compress: 'Komprimieren',
+    samples: 'Beispiele',
+  },
+  
+  home: {
+    title: 'Kostenloser Online-Dateikonverter - FormiPeek | Konvertieren Sie 300+ Formate sofort',
+    metaDescription: 'Konvertieren Sie Dateien zwischen 300+ Formaten sofort. Schneller, sicherer und kostenloser Dateikonvertierungsservice. Unterstützung für Bilder, Dokumente, E-Books und Datendateien.',
+    metaKeywords: 'Dateikonverter, Online-Konverter, Bildkonverter, Dokumentenkonverter, E-Book-Konverter, Stapelkonvertierung, kostenloser Konverter',
+    
+    hero: {
+      badge: 'Für immer kostenlos • Keine Registrierung',
+      title: 'Dateien transformieren',
+      titleHighlight: 'Sofort',
+      subtitle: 'Konvertieren Sie zwischen {count} Formaten mit Blitzgeschwindigkeit. Sicher, kostenlos und ohne Anmeldung erforderlich.',
+      buttonStart: 'Konvertierung starten',
+      buttonView: 'Dateien anzeigen',
+      feature1: '100% Kostenlos',
+      feature2: 'Keine Registrierung',
+      feature3: 'Sicher & Privat',
+      feature4: 'Stapelverarbeitung',
+    },
+    
+    stats: {
+      formats: 'Unterstützte Formate',
+      dataProcessed: 'Verarbeitete Daten',
+      batchFiles: 'Stapelverarbeitung',
+    },
+    
+    explore: {
+      title: 'Entdecken Sie unsere Tools',
+      subtitle: 'Alles was Sie für Dateikonvertierung, Anzeige, Komprimierung und mehr benötigen',
+      converters: {
+        title: 'Konverter',
+        description: 'Konvertieren Sie zwischen 300+ Dateiformaten sofort. Bilder, Dokumente, E-Books und Datendateien.',
+      },
+      viewers: {
+        title: 'Viewer',
+        description: 'Vorschau und Anzeige von Dateien direkt in Ihrem Browser. Keine Downloads erforderlich.',
+      },
+      compress: {
+        title: 'Komprimieren',
+        description: 'Reduzieren Sie Dateigrößen ohne Qualitätsverlust. JPG, PNG und PDF-Komprimierung.',
+      },
+      samples: {
+        title: 'Beispiele',
+        description: 'Durchsuchen Sie Beispieldateien für alle unterstützten Formate. Testen Sie vor der Konvertierung.',
+      },
+    },
+    
+    howItWorks: {
+      title: 'Wie funktionieren unsere Konverter?',
+      subtitle: 'Drei einfache Schritte zur Konvertierung jedes Dateiformats',
+      step1: {
+        title: 'Datei hochladen',
+        description: 'Ziehen & Ablegen oder Durchsuchen, um Ihre Datei auszuwählen. Unterstützt bis zu 100MB pro Datei.',
+      },
+      step2: {
+        title: 'Format wählen',
+        description: 'Wählen Sie Ihr gewünschtes Ausgabeformat aus 300+ unterstützten Formaten.',
+      },
+      step3: {
+        title: 'Herunterladen',
+        description: 'Klicken Sie auf Konvertieren und laden Sie Ihre Datei sofort herunter. Kein Warten, keine Warteschlangen.',
+      },
+    },
+    
+    popular: {
+      title: 'Beliebte Konverter',
+      subtitle: 'Schneller Zugriff auf unsere am häufigsten verwendeten Konvertierungstools',
+      viewAll: 'Alle 300+ Konverter anzeigen',
+      viewAllMobile: 'Alle Konverter anzeigen',
+    },
+    
+    features: {
+      title: 'Warum FormiPeek wählen?',
+      subtitle: 'Gebaut für Profis und Alltagsnutzer gleichermaßen',
+      lightning: {
+        title: 'Blitzschnell',
+        description: 'Verarbeiten Sie Dateien in Sekunden mit unserem optimierten Konvertierungsmotor',
+      },
+      secure: {
+        title: 'Sicher & Privat',
+        description: 'Sicherheit auf Unternehmensebene. Dateien werden automatisch nach der Verarbeitung gelöscht',
+      },
+      universal: {
+        title: 'Universelle Unterstützung',
+        description: 'Konvertieren Sie zwischen 300+ Formatkombinationen für alle Dateitypen',
+      },
+      batch: {
+        title: 'Stapelverarbeitung',
+        description: 'Konvertieren Sie bis zu 20 Dateien gleichzeitig mit unserem leistungsstarken Stapelmotor',
+      },
+      viewer: {
+        title: 'Datei-Viewer',
+        description: 'Vorschau und Anzeige Ihrer Dateien direkt im Browser',
+      },
+      quality: {
+        title: 'Professionelle Qualität',
+        description: 'Branchenstandard-Konvertierung mit anpassbaren Einstellungen',
+      },
+    },
+  },
+  
+  // Converters Page
+  converters: {
+    title: 'Dateikonverter',
+    subtitle: 'Konvertieren Sie zwischen 300+ Dateiformaten sofort',
+    searchPlaceholder: 'Konverter suchen... (z.B. HEIC zu PDF)',
+    heicToPdf: {
+      name: 'HEIC zu PDF',
+      description: 'Konvertieren Sie Apple HEIC-Fotos sofort in PDF-Format',
+    },
+  },
+  
+  heicToPdf: {
+    title: 'HEIC zu PDF Konverter - Konvertieren Sie Apple Fotos kostenlos online zu PDF',
+    metaDescription: 'Konvertieren Sie HEIC-Bilder sofort in PDF-Format. Kostenloser Online HEIC zu PDF Konverter mit Stapelverarbeitung. Schnell, sicher und keine Registrierung erforderlich. Funktioniert mit iPhone und iPad Fotos.',
+    metaKeywords: 'HEIC zu PDF, HEIC konvertieren, Apple Fotos zu PDF, iPhone Fotos zu PDF, HEIC Konverter, Bild zu PDF, Stapelkonvertierung HEIC, kostenloser HEIC Konverter',
+    
+    hero: {
+      title: 'HEIC zu PDF Konverter',
+      subtitle: 'Verwandeln Sie Ihre Apple HEIC-Fotos sofort in universelle PDF-Dokumente. Kostenlose, schnelle und sichere Konvertierung ohne Dateigrößenbeschränkungen.',
+      badge1: 'Blitzschnell',
+      badge2: '100% Sicher',
+      badge3: 'Keine Registrierung',
+    },
+    
+    upload: {
+      title: 'HEIC-Dateien hochladen',
+      description: 'Ziehen Sie Ihre HEIC-Fotos hierher oder klicken Sie zum Durchsuchen. Unterstützt Stapelkonvertierung von bis zu 20 Dateien. Maximal 100MB pro Datei.',
+      buttonSingle: 'Einzelne Datei',
+      buttonBatch: 'Stapelkonvertierung',
+      chooseFile: 'Dateien wählen',
+      converting: 'Konvertierung läuft...',
+      success: 'Konvertierung erfolgreich!',
+      download: 'PDF herunterladen',
+      downloadAll: 'Alle als ZIP herunterladen',
+      convertAnother: 'Weitere Datei konvertieren',
+    },
+    
+    features: {
+      title: 'Funktionen',
+      list: [
+        'Hochwertige HEIC zu PDF Konvertierung',
+        'Stapelverarbeitung von bis zu 20 Dateien',
+        'Erhält Bildqualität und EXIF-Daten',
+        'Keine Dateigrößenbeschränkungen',
+        '100% sicher und privat',
+        'Funktioniert mit iPhone & iPad Fotos',
+        'Sofortiger Download nach Konvertierung',
+        'Keine Wasserzeichen hinzugefügt',
+      ],
+    },
+    
+    howItWorks: {
+      title: 'So funktioniert es',
+      step1Title: 'HEIC-Dateien hochladen',
+      step1Desc: 'Wählen Sie ein oder mehrere HEIC-Fotos von Ihrem Gerät',
+      step2Title: 'Automatische Konvertierung',
+      step2Desc: 'Unser Konverter verarbeitet Ihre Dateien sofort',
+      step3Title: 'PDF herunterladen',
+      step3Desc: 'Erhalten Sie Ihre konvertierten PDF-Dateien sofort',
+    },
+    
+    about: {
+      title: 'Über HEIC zu PDF Konvertierung',
+      whatIsHeic: {
+        title: 'Was ist das HEIC-Format?',
+        content: 'HEIC (High Efficiency Image Container) ist das Standard-Fotoformat von Apple-Geräten seit iOS 11. Es bietet überlegene Komprimierung bei gleichzeitig hoher Bildqualität, sodass Fotos weniger Speicherplatz auf Ihrem iPhone oder iPad benötigen.',
+      },
+      whyConvert: {
+        title: 'Warum HEIC zu PDF konvertieren?',
+        content: 'Obwohl HEIC effizient ist, wird es nicht universell unterstützt. Die Konvertierung zu PDF stellt sicher, dass Ihre Fotos auf jedem Gerät angezeigt, einfach per E-Mail geteilt und professionell in Dokumenten präsentiert werden können. PDFs sind auch ideal zum Drucken und Archivieren.',
+      },
+      benefits: {
+        title: 'Vorteile unseres Konverters',
+        list: [
+          'Universelle Kompatibilität - PDFs funktionieren auf allen Geräten und Plattformen',
+          'Professionelle Präsentation - Perfekt für Geschäftsdokumente und Portfolios',
+          'Einfaches Teilen - E-Mail-freundliches Format, das jeder öffnen kann',
+          'Druckfertig - Erhält Qualität für physische Ausdrucke',
+          'Sichere Speicherung - Branchenstandard-Format zur Archivierung',
+          'Kein Qualitätsverlust - Erhält die ursprüngliche Bildauflösung',
+        ],
+      },
+    },
+    
+    faq: {
+      title: 'Häufig gestellte Fragen',
+      q1: 'Ist die Konvertierung von HEIC zu PDF kostenlos?',
+      a1: 'Ja! Unser HEIC zu PDF Konverter ist völlig kostenlos ohne versteckte Gebühren. Sie können unbegrenzt Dateien ohne Registrierung oder Abonnement konvertieren.',
+      q2: 'Sind meine Daten sicher?',
+      a2: 'Absolut. Alle Konvertierungen erfolgen sicher auf unseren Servern mit SSL-Verschlüsselung. Ihre Dateien werden automatisch sofort nach der Konvertierung gelöscht. Wir speichern, teilen oder greifen niemals auf Ihre Dateien zu.',
+      q3: 'Was ist die maximale Dateigröße?',
+      a3: 'Sie können HEIC-Dateien mit bis zu 100MB jeweils konvertieren. Für Stapelkonvertierung können Sie bis zu 20 Dateien gleichzeitig mit einem Gesamtlimit von 100MB verarbeiten.',
+      q4: 'Unterstützen Sie Stapelkonvertierung?',
+      a4: 'Ja! Sie können bis zu 20 HEIC-Dateien gleichzeitig hochladen und konvertieren. Alle konvertierten PDFs stehen als einzelne Dateien oder in einem einzigen ZIP-Archiv zum Download bereit.',
+      q5: 'Wird die Qualität erhalten bleiben?',
+      a5: 'Ja, wir erhalten die ursprüngliche Bildqualität während der Konvertierung. Ihre HEIC-Fotos werden in hochauflösende PDFs ohne Komprimierung oder Qualitätsverlust konvertiert.',
+      q6: 'Kann ich HEIC direkt vom iPhone konvertieren?',
+      a6: 'Ja! Unser Konverter funktioniert perfekt mit Fotos, die auf iPhone, iPad oder jedem Apple-Gerät aufgenommen wurden. Laden Sie einfach Ihre HEIC-Dateien von Ihrer Kamerarolle hoch.',
+      q7: 'Muss ich Software installieren?',
+      a7: 'Keine Installation erforderlich. Unser Online-Konverter funktioniert direkt in Ihrem Webbrowser auf jedem Gerät - Windows, Mac, Linux, iOS oder Android.',
+      q8: 'Wie lange dauert die Konvertierung?',
+      a8: 'Die Konvertierung ist nahezu sofort! Die meisten HEIC-Dateien werden in nur wenigen Sekunden zu PDF konvertiert, abhängig von der Dateigröße und Ihrer Internetverbindung.',
+    },
+    
+    related: {
+      title: 'Verwandte Konverter',
+      converters: [
+        { name: 'HEIC zu JPG', url: '/convert/heic-to-jpg' },
+        { name: 'HEIC zu PNG', url: '/convert/heic-to-png' },
+        { name: 'JPG zu PDF', url: '/convert/jpg-to-pdf' },
+        { name: 'PNG zu PDF', url: '/convert/png-to-pdf' },
+        { name: 'WEBP zu PDF', url: '/convert/webp-to-pdf' },
+        { name: 'HEIC zu WEBP', url: '/convert/heic-to-webp' },
+      ],
+    },
+    
+    footer: {
+      tagline: 'Die ultimative Dateikonvertierungs- und Anzeigeplattform für Profis und Alltagsnutzer.',
+      security: '100% Sicher: Keine Dateien werden auf unseren Servern gespeichert. Alle Konvertierungen werden verarbeitet und Dateien werden automatisch sofort nach der Verarbeitung gelöscht.',
+      copyright: '© 2025 FormiPeek',
+      madeWith: 'Erstellt mit',
+      byDevelopers: 'von Entwicklern, denen Qualität wichtig ist.',
+    },
+  },
+};

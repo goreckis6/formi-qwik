@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "builderio.qwik-snippets",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV to JSON Converter - Free Online Tool | FormiPeek</title>
+  <meta name="description" content="Convert CSV files to JSON format instantly. Free, fast, and secure CSV to JSON converter with batch processing support.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50">
+  <!-- Header -->
+  <header class="bg-white shadow-lg sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="/" class="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity">
+          <img src="/logo.jpg" alt="FormiPeek Logo" class="h-12 w-auto object-contain">
+          <div>
+            <span class="text-xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent block">FormiPeek</span>
+            <p class="text-xs text-gray-500">File Conversion & Viewer</p>
+          </div>
+        </a>
+        <div class="hidden md:flex items-center space-x-6">
+          <nav class="flex items-center space-x-6">
+            <a href="/converters" class="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors group">
+              <i data-lucide="arrow-left-right" class="w-5 h-5 text-blue-600"></i>
+              <span>Converters</span>
+            </a>
+            <a href="/viewers" class="flex items-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors group">
+              <i data-lucide="eye" class="w-5 h-5 text-purple-600"></i>
+              <span>Viewers</span>
+            </a>
+            <a href="/compress" class="flex items-center space-x-2 text-gray-700 hover:text-orange-600 transition-colors group">
+              <i data-lucide="minimize-2" class="w-5 h-5 text-orange-600"></i>
+              <span>Compress</span>
+            </a>
+            <a href="/samples" class="flex items-center space-x-2 text-gray-700 hover:text-teal-600 transition-colors group">
+              <i data-lucide="download" class="w-5 h-5 text-teal-600"></i>
+              <span>Samples</span>
+            </a>
+          </nav>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-500 hover:text-gray-700 rounded-lg">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <div class="relative overflow-hidden bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-700">
+    <div class="absolute inset-0 bg-black/20"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+          CSV to JSON Converter
+        </h1>
+        <p class="text-lg sm:text-xl text-purple-100 mb-6 max-w-2xl mx-auto">
+          Convert your CSV files to JSON format instantly. Fast, secure, and completely free.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 text-sm text-purple-200">
+          <div class="flex items-center gap-2">
+            <i data-lucide="zap" class="w-4 h-4"></i>
+            <span>Lightning Fast</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i data-lucide="shield" class="w-4 h-4"></i>
+            <span>100% Secure</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i data-lucide="clock" class="w-4 h-4"></i>
+            <span>No Registration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      
+      <!-- Converter Panel -->
+      <div class="lg:col-span-2">
+        <div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8">
+          
+          <!-- Mode Toggle -->
+          <div class="flex flex-col sm:flex-row gap-4 mb-8">
+            <button class="flex-1 px-6 py-3 rounded-lg font-medium transition-all bg-purple-600 text-white shadow-lg">
+              <i data-lucide="file-text" class="w-5 h-5 inline mr-2"></i>
+              Single File
+            </button>
+            <button class="flex-1 px-6 py-3 rounded-lg font-medium transition-all bg-gray-100 text-gray-600 hover:bg-gray-200">
+              <i data-lucide="file-image" class="w-5 h-5 inline mr-2"></i>
+              Batch Convert
+            </button>
+          </div>
+
+          <!-- Upload Area -->
+          <div class="border-2 border-dashed border-gray-300 rounded-xl p-8 text-center hover:border-purple-400 transition-colors">
+            <i data-lucide="upload" class="w-12 h-12 text-gray-400 mx-auto mb-4"></i>
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">
+              Upload CSV File
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Select a CSV file to convert to JSON format. Maximum file size: 100MB
+            </p>
+            <input type="file" accept=".csv" class="hidden" id="file-input">
+            <button onclick="document.getElementById('file-input').click()" class="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors">
+              Choose File
+            </button>
+          </div>
+
+          <!-- File Preview (when file selected) -->
+          <div class="mt-6 hidden" id="file-preview">
+            <h4 class="text-lg font-semibold mb-4">Preview</h4>
+            <div class="bg-gray-50 rounded-lg p-4">
+              <div class="flex items-center justify-center h-32 bg-gray-100 rounded">
+                <i data-lucide="code" class="w-12 h-12 text-gray-400"></i>
+              </div>
+              <p class="text-sm text-gray-600 mt-2 text-center" id="file-name">
+                example.csv (2.5 MB)
+              </p>
+            </div>
+          </div>
+
+          <!-- Convert Button -->
+          <div class="mt-6 hidden" id="convert-section">
+            <button class="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold py-4 px-6 rounded-lg hover:from-purple-700 hover:to-indigo-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+              <i data-lucide="refresh-cw" class="w-5 h-5"></i>
+              <span>Convert to JSON</span>
+            </button>
+          </div>
+
+          <!-- Download Section (when converted) -->
+          <div class="mt-6 hidden" id="download-section">
+            <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+              <div class="flex items-center gap-2 text-green-800">
+                <i data-lucide="check-circle" class="w-5 h-5"></i>
+                <span class="font-semibold">Conversion successful!</span>
+              </div>
+            </div>
+            <button class="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white font-bold py-4 px-6 rounded-lg hover:from-green-700 hover:to-emerald-700 transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+              <i data-lucide="download" class="w-5 h-5"></i>
+              <span>Download JSON</span>
+            </button>
+            <button class="w-full mt-3 bg-gray-100 text-gray-700 font-medium py-3 px-6 rounded-lg hover:bg-gray-200 transition-colors">
+              Convert Another File
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="lg:col-span-1">
+        <!-- Features -->
+        <div class="bg-white rounded-2xl shadow-xl p-6 mb-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Features</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
+              <span class="text-gray-700">Fast conversion processing</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
+              <span class="text-gray-700">Batch file conversion</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
+              <span class="text-gray-700">Pretty print JSON option</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
+              <span class="text-gray-700">100% secure & private</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <i data-lucide="check" class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5"></i>
+              <span class="text-gray-700">No file size limits</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- How It Works -->
+        <div class="bg-white rounded-2xl shadow-xl p-6">
+          <h3 class="text-xl font-bold text-gray-900 mb-4">How It Works</h3>
+          <div class="space-y-4">
+            <div class="flex items-start gap-3">
+              <div class="bg-purple-100 text-purple-600 rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Upload CSV File</h4>
+                <p class="text-sm text-gray-600">Select your CSV file from your device</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="bg-purple-100 text-purple-600 rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">2</div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Configure Options</h4>
+                <p class="text-sm text-gray-600">Choose your JSON format preferences</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="bg-purple-100 text-purple-600 rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Download JSON</h4>
+                <p class="text-sm text-gray-600">Get your converted JSON file instantly</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-12 sm:py-16 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center space-x-3 mb-6">
+          <div class="p-2 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl">
+            <i data-lucide="refresh-cw" class="w-6 h-6 text-white"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">FormiPeek</h2>
+        </div>
+        <p class="text-gray-300 mb-6 text-base sm:text-lg max-w-2xl mx-auto">
+          The ultimate file conversion and viewing platform for professionals and everyday users.
+        </p>
+        <div class="flex items-center justify-center gap-2 mb-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700/50 max-w-2xl mx-auto">
+          <i data-lucide="shield" class="w-5 h-5 text-green-400 flex-shrink-0"></i>
+          <p class="text-sm sm:text-base text-gray-300">
+            <span class="font-semibold text-white">100% Secure:</span> No files are stored on our servers. All conversions are processed and files are automatically deleted immediately after processing.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm text-gray-400">
+          <span>© 2025 FormiPeek</span>
+          <span class="hidden sm:inline">•</span>
+          <span>Built with</span>
+          <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+          <span>by developers who care about quality.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    
+    // File input handler
+    document.getElementById('file-input')?.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (file) {
+        document.getElementById('file-preview').classList.remove('hidden');
+        document.getElementById('convert-section').classList.remove('hidden');
+        document.getElementById('file-name').textContent = `${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)`;
+      }
+    });
+  </script>
+</body>
+</html>

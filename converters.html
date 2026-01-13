@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional File Format Converter - Transform to Any Format | FormiPeek</title>
+  <meta name="description" content="Transform any file into your desired format with professional-grade conversion tools. Support for 300+ formats including images, documents, ebooks, and data files. Fast, secure, and completely free.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-gray-50">
+  <header class="bg-white shadow-lg sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <a href="/" class="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity">
+          <img src="/logo.jpg" alt="FormiPeek Logo" class="h-12 w-auto object-contain">
+          <div>
+            <span class="text-xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent block">FormiPeek</span>
+            <p class="text-xs text-gray-500">File Conversion & Viewer</p>
+          </div>
+        </a>
+        <div class="hidden md:flex items-center space-x-6">
+          <nav class="flex items-center space-x-6">
+            <a href="/converters" class="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors group">
+              <i data-lucide="arrow-left-right" class="w-5 h-5 text-blue-600"></i>
+              <span>Converters</span>
+            </a>
+            <a href="/viewers" class="flex items-center space-x-2 text-gray-700 hover:text-purple-600 transition-colors group">
+              <i data-lucide="eye" class="w-5 h-5 text-purple-600"></i>
+              <span>Viewers</span>
+            </a>
+            <a href="/compress" class="flex items-center space-x-2 text-gray-700 hover:text-orange-600 transition-colors group">
+              <i data-lucide="minimize-2" class="w-5 h-5 text-orange-600"></i>
+              <span>Compress</span>
+            </a>
+            <a href="/samples" class="flex items-center space-x-2 text-gray-700 hover:text-teal-600 transition-colors group">
+              <i data-lucide="download" class="w-5 h-5 text-teal-600"></i>
+              <span>Samples</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-white border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="py-3 sm:py-4">
+        <a href="/" class="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors text-sm sm:text-base">
+          <i data-lucide="arrow-left" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+          <span>Back to Home</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12">
+    <div class="text-center mb-8 sm:mb-12">
+      <div class="flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+        <div class="p-2 sm:p-3 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl">
+          <i data-lucide="refresh-cw" class="w-6 h-6 sm:w-8 sm:h-8 text-white"></i>
+        </div>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">File Converters</h1>
+      </div>
+      <p class="text-sm sm:text-base lg:text-xl text-gray-600 max-w-3xl mx-auto">
+        Convert files between different formats with our specialized converters. Each converter is optimized for specific use cases and file types.
+      </p>
+    </div>
+
+    <div class="mb-8 sm:mb-12">
+      <div class="max-w-2xl mx-auto">
+        <div class="relative">
+          <i data-lucide="search" class="absolute left-3 sm:left-4 top-1/2 transform -translate-y-1/2 w-4 h-4 sm:w-5 sm:h-5 text-gray-400"></i>
+          <input type="text" placeholder="Search converters... (e.g., CSV to MOBI, CR2 to ICO)" class="w-full pl-10 sm:pl-12 pr-4 py-3 sm:py-4 text-sm sm:text-base lg:text-lg border-2 border-gray-300 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all" id="search-input">
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-8 sm:space-y-12">
+      <!-- Image Converters -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="image" class="w-6 h-6 text-blue-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Image Converters</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="camera" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CR2 to ICO Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CR2</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ICO</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Canon CR2 raw images to Windows ICO icon format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/cr2-to-ico" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="camera" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CR2 to WebP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CR2</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">WebP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Canon CR2 raw images to modern WebP format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/cr2-to-webp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIC to SVG Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">SVG</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIC images to scalable SVG vector graphics</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heic-to-svg" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIC to PDF Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PDF</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIC images to PDF documents</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heic-to-pdf" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIC to PNG Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PNG</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIC images to PNG format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heic-to-png" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIC to EPS Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">EPS</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIC images to EPS format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heic-to-eps" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIC to WebP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">WebP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIC images to WebP format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heic-to-webp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIF to PNG Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIF</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PNG</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIF images to PNG format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heif-to-png" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIF to WebP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIF</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">WebP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIF images to WebP format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heif-to-webp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">HEIF to JPG Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">HEIF</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">JPG</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert HEIF images to JPG format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/heif-to-jpg" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Document Converters -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="file-text" class="w-6 h-6 text-green-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Document Converters</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to DOCX Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">DOCX</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Microsoft Word DOCX documents</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-docx" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to EPUB Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">EPUB</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to EPUB ebook format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-epub" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to HTML Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">HTML</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to HTML tables</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-html" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to Markdown Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">MD</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Markdown format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-md" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to MOBI Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">MOBI</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to MOBI ebook format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-mobi" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to ODP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ODP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to OpenDocument presentations</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-odp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to ODT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ODT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to OpenDocument text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-odt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to PDF Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PDF</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to PDF documents</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-pdf" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to PPT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PPT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to PowerPoint presentations</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-ppt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to PPTX Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PPTX</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to PowerPoint presentations</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-pptx" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to RTF Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">RTF</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Rich Text Format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-rtf" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to TXT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">TXT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to plain text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-txt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to XLS Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">XLS</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Excel spreadsheets</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-xls" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to XLSX Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">XLSX</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Excel spreadsheets</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-xlsx" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Developer Tools (CSV) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="code" class="w-6 h-6 text-orange-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Developer Tools (CSV)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to JSON Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">JSON</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to JSON format for web APIs and applications</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-json" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to NDJSON Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">NDJSON</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Newline Delimited JSON format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-ndjson" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to Parquet Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">Parquet</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to Apache Parquet format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-parquet" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to SQL Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">SQL</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to SQL insert statements</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-sql" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to TOML Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">TOML</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to TOML configuration format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-toml" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to XML Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">XML</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to XML format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-xml" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="code" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">CSV to YAML Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">CSV</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">YAML</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert CSV data to YAML format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/csv-to-yaml" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Converters (RAW) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="camera" class="w-6 h-6 text-blue-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Image Converters (RAW)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="camera" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DNG to WebP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DNG</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">WebP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Adobe DNG raw images to WebP format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/dng-to-webp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Converters (Vector) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="image" class="w-6 h-6 text-blue-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Image Converters (Vector)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-blue-100">
+                  <i data-lucide="image" class="w-5 h-5 text-blue-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPS to WebP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPS</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">WebP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPS vector graphics to WebP format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/eps-to-webp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- E-book Converters (EPUB) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="book-open" class="w-6 h-6 text-orange-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">E-book Converters (EPUB)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to CSV Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">CSV</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to CSV data format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-csv" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to DOC Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">DOC</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to Microsoft Word documents</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-doc" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to DOCX Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">DOCX</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to Microsoft Word documents</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-docx" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to HTML Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">HTML</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to HTML format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-html" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to Markdown Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">MD</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to Markdown format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-md" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to MOBI Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">MOBI</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to MOBI format for Kindle</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-mobi" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to ODP Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ODP</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to OpenDocument presentations</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-odp" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to ODT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ODT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to OpenDocument text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-odt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to PDF Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PDF</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to PDF format for universal compatibility</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-pdf" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to PPT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PPT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to PowerPoint presentations</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-ppt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to PPTX Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">PPTX</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to PowerPoint presentations</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-pptx" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to RTF Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">RTF</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to Rich Text Format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-rtf" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to TXT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">TXT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to plain text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-txt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-orange-100">
+                  <i data-lucide="book-open" class="w-5 h-5 text-orange-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">EPUB to XLSX Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">EPUB</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">XLSX</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert EPUB ebooks to Excel spreadsheets</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/epub-to-xlsx" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Document Converters (DOC) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="file-text" class="w-6 h-6 text-green-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Document Converters (DOC)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOC to CSV Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">CSV</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to CSV data</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/doc-to-csv" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOC to EPUB Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">EPUB</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to EPUB ebooks</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/doc-to-epub" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOC to MOBI Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">MOBI</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to MOBI format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/doc-to-mobi" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOC to ODT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ODT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to OpenDocument text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/doc-to-odt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOC to TXT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOC</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">TXT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to plain text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/doc-to-txt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Document Converters (DOCX) -->
+      <div>
+        <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-3 sm:space-y-0 sm:space-x-3 mb-4 sm:mb-6">
+          <i data-lucide="file-text" class="w-6 h-6 text-green-600"></i>
+          <h2 class="text-xl sm:text-2xl font-bold text-gray-900">Document Converters (DOCX)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOCX to CSV Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOCX</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">CSV</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to CSV data</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/docx-to-csv" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOCX to EPUB Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOCX</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">EPUB</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to EPUB ebooks</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/docx-to-epub" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOCX to MOBI Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOCX</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">MOBI</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to MOBI format</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/docx-to-mobi" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOCX to ODT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOCX</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">ODT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to OpenDocument text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/docx-to-odt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>          <div class="px-3 sm:px-6 py-3 sm:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between space-y-3 sm:space-y-0">
+              <div class="flex items-start sm:items-center space-x-3 sm:space-x-4 w-full sm:w-auto flex-1">
+                <div class="flex-shrink-0 p-2 rounded-lg bg-green-100">
+                  <i data-lucide="file-text" class="w-5 h-5 text-green-600"></i>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-3 mb-2">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-900">DOCX to TXT Converter</h3>
+                    <div class="flex items-center space-x-1 text-xs sm:text-sm text-gray-500">
+                      <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">DOCX</span>
+                      <i data-lucide="arrow-left" class="w-3 h-3 sm:w-4 sm:h-4 rotate-180 text-gray-400"></i>
+                      <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">TXT</span>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 text-xs sm:text-sm">Convert Microsoft Word documents to plain text</p>
+                </div>
+              </div>
+              <div class="w-full sm:w-auto sm:ml-4">
+                <a href="/convert/docx-to-txt" class="inline-flex items-center justify-center space-x-2 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-medium hover:bg-blue-700 transition-colors w-full sm:w-auto">
+                  <i data-lucide="refresh-cw" class="w-3 h-3 sm:w-4 sm:h-4"></i>
+                  <span>Convert</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 bg-white rounded-2xl shadow-lg p-8">
+      <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">Why Choose Our Converters?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="refresh-cw" class="w-6 h-6 text-blue-600"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Fast & Reliable</h3>
+          <p class="text-gray-600">Convert files quickly with our optimized conversion engines.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="database" class="w-6 h-6 text-green-600"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Secure & Private</h3>
+          <p class="text-gray-600">Your files are processed securely and never stored permanently.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i data-lucide="file-text" class="w-6 h-6 text-purple-600"></i>
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-2">High Quality</h3>
+          <p class="text-gray-600">Maintain image quality and document structure during conversion.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 text-white py-12 sm:py-16 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center space-x-3 mb-6">
+          <div class="p-2 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl">
+            <i data-lucide="refresh-cw" class="w-6 h-6 text-white"></i>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">FormiPeek</h2>
+        </div>
+        <p class="text-gray-300 mb-6 text-base sm:text-lg max-w-2xl mx-auto">
+          The ultimate file conversion and viewing platform for professionals and everyday users.
+        </p>
+        <div class="flex items-center justify-center gap-2 mb-6 p-4 bg-gray-800/50 rounded-xl border border-gray-700/50 max-w-2xl mx-auto">
+          <i data-lucide="shield" class="w-5 h-5 text-green-400 flex-shrink-0"></i>
+          <p class="text-sm sm:text-base text-gray-300">
+            <span class="font-semibold text-white">100% Secure:</span> No files are stored on our servers. All conversions are processed and files are automatically deleted immediately after processing.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm text-gray-400">
+          <span>© 2025 FormiPeek</span>
+          <span class="hidden sm:inline">•</span>
+          <span>Built with</span>
+          <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+          <span>by developers who care about quality.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

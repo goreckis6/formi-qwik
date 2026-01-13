@@ -1,0 +1,14 @@
+# robots.txt for FormiPeek
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://formipeek.com/sitemap.xml
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 1
+
+# Block specific paths if needed (example)
+# Disallow: /api/
+# Disallow: /admin/
