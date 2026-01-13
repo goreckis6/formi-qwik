@@ -1,7 +1,10 @@
 name: Test SSH Connection
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   test-ssh:
