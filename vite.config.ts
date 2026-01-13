@@ -6,17 +6,9 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig(() => ({
   plugins: [
     qwikCity({
-      adapter: nodeAdapter(), // ← Wymagane w Qwik 1.7+ dla SSR
+      adapter: nodeAdapter(),   // 🔥 włącza SSR w 1.7
     }),
     qwikVite(),
     tsconfigPaths(),
   ],
-  preview: {
-    headers: {
-      "Cache-Control": "public, max-age=600",
-    },
-  },
-  server: {
-    port: 5173,
-  },
 }));
