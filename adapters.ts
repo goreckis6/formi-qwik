@@ -1,6 +1,4 @@
 /**
  * Node.js Adapter Configuration
- * This file configures the Node.js adapter for SSR deployment
+ * This file is not needed - we use entry.static.tsx directly
  */
-
-export { nodeAdapter } from '@builder.io/qwik-city/adapters/node/vite';
