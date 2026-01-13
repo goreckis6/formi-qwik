@@ -1,11 +1,13 @@
 import { defineConfig } from "vite";
 import { qwikVite } from "@builder.io/qwik/optimizer";
-import { qwikCity } from "@builder.io/qwik-city/vite";
+import { qwikCity, nodeAdapter } from "@builder.io/qwik-city/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig(() => ({
   plugins: [
-    qwikCity(),   // adapter Node jest już wbudowany w Qwik 1.7+
+    qwikCity({
+      adapter: nodeAdapter(), // ← Wymagane w Qwik 1.7+ dla SSR
+    }),
     qwikVite(),
     tsconfigPaths(),
   ],
