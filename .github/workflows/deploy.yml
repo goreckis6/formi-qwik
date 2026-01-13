@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository_owner }}/morphy-frontend
+          images: ghcr.io/${{ github.repository_owner }}/formi-qwik
           tags: |
             type=ref,event=branch
             type=sha,prefix={{branch}}-
@@ -95,7 +95,7 @@ jobs:
             
             # Pull latest image from GitHub Container Registry
             echo "$GHCR_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
-            docker pull ghcr.io/$GITHUB_REPO_OWNER/morphy-frontend:latest
+            docker pull ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
             
             # Deploy with corrected Traefik labels (serve via nginx on port 80)
             docker run -d \
@@ -111,7 +111,7 @@ jobs:
               --network traefik \
               --restart unless-stopped \
               -e VITE_API_BASE_URL=https://api.formipeek.com \
-              ghcr.io/$GITHUB_REPO_OWNER/morphy-frontend:latest
+              ghcr.io/$GITHUB_REPO_OWNER/formi-qwik:latest
             
             # Verify deployment
             sleep 10
