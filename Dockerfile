@@ -18,6 +18,11 @@ ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
 # Build the application
 RUN npm run build
 
+# Debug: Check what was built
+RUN echo "=== Contents of dist/ ===" && ls -la /app/dist/ || true
+RUN echo "=== Looking for server directory ===" && ls -la /app/dist/server/ 2>/dev/null || echo "No server directory found"
+RUN echo "=== Looking for entry files ===" && find /app/dist/server -name "*.js" -type f 2>/dev/null || echo "No server JS files found"
+
 # Production stage with Node.js
 FROM node:20-alpine
 WORKDIR /app
@@ -37,4 +42,5 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the SSR server
-CMD ["node", "dist/server/entry.ssr.js"]
+# Try entry.static.js first (Node.js adapter), fallback to entry.ssr.js
+CMD ["node", "dist/server/entry.static.js"]

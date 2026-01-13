@@ -1,6 +1,6 @@
 /**
- * Static Site Generation (SSG) Configuration
- * This file configures which routes should be prerendered at build time
+ * Node.js Adapter Configuration
+ * This file configures the Node.js adapter for SSR deployment
  */
 
-export { staticAdapter } from '@builder.io/qwik-city/adapters/static/vite';
+export { nodeAdapter } from '@builder.io/qwik-city/adapters/node/vite';
