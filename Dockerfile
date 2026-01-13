@@ -21,7 +21,7 @@ RUN npm run build
 # DEBUG – zobacz co faktycznie powstało
 RUN echo "=== Client build (dist/) ===" && ls -la dist/ || echo "dist/ not found"
 RUN echo "=== Server build (server/) ===" && ls -la server/ || echo "server/ not found"
-RUN echo "=== Looking for entry.ssr.js ===" && find . -name "entry.ssr.js" -type f 2>/dev/null || echo "entry.ssr.js NOT FOUND"
+RUN echo "=== Looking for entry.node-server.js ===" && ls -la server/entry.node-server.js 2>/dev/null || echo "entry.node-server.js NOT FOUND"
 
 # Production stage with Node.js
 FROM node:20
@@ -43,5 +43,5 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the SSR server
-# Qwik generates entry.ssr.js in server/ directory
-CMD ["node", "server/entry.ssr.js"]
+# Qwik generates entry.node-server.js in server/ directory
+CMD ["node", "server/entry.node-server.js"]
