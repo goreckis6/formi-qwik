@@ -10,10 +10,12 @@ export const RouterHead = component$(() => {
 
   // Canonical URL without query params
   const canonical = loc.url.origin + loc.url.pathname;
+  const pageUrl = canonical;
 
-  // Base URL for current language
-  const baseUrl =
-    currentLang === "en" ? "https://formipeek.com/" : `https://formipeek.com/${currentLang}/`;
+  // Check if current page is homepage
+  const pathParts = loc.url.pathname.split("/").filter(Boolean);
+  const isHomepage =
+    pathParts.length === 0 || (pathParts.length === 1 && pathParts[0] === currentLang);
 
   return (
     <>
@@ -36,15 +38,10 @@ export const RouterHead = component$(() => {
         const href =
           lang.code === "en" ? "https://formipeek.com/" : `https://formipeek.com/${lang.code}/`;
         return (
-          <link
-            key={`hreflang-${lang.code}`}
-            rel="alternate"
-            {...({ hrefLang: lang.code } as any)}
-            href={href}
-          />
+          <link key={`hreflang-${lang.code}`} rel="alternate" hreflang={lang.code} href={href} />
         );
       })}
-      <link rel="alternate" {...({ hrefLang: "x-default" } as any)} href="https://formipeek.com/" />
+      <link rel="alternate" hreflang="x-default" href="https://formipeek.com/" />
 
       {head.styles.map((s) => {
         const { dangerouslySetInnerHTML, ...restProps } = s.props || {};
@@ -62,7 +59,7 @@ export const RouterHead = component$(() => {
         `}
       />
 
-      {/* JSON-LD Schema */}
+      {/* JSON-LD Schema - Organization (always) + WebSite (homepage only) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={JSON.stringify({
@@ -73,25 +70,33 @@ export const RouterHead = component$(() => {
               "@id": "https://formipeek.com#organization",
               name: "FormiPeek",
               url: "https://formipeek.com",
-              logo: "https://formipeek.com/logo.png",
-            },
-            {
-              "@type": "WebSite",
-              "@id": `https://formipeek.com/${
-                currentLang === "en" ? "" : currentLang + "/"
-              }#website`,
-              url: baseUrl,
-              name: "FormiPeek - Free Online File Converter",
-              description:
-                "Convert files between 300+ formats instantly. Fast, secure, and free file conversion service.",
-              inLanguage: currentLang,
-              publisher: { "@id": "https://formipeek.com#organization" },
-              potentialAction: {
-                "@type": "SearchAction",
-                target: "https://formipeek.com/search?q={search_term_string}",
-                "query-input": "required name=search_term_string",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://formipeek.com/logo.png",
               },
             },
+            // WebSite schema only on homepage
+            ...(isHomepage
+              ? [
+                  {
+                    "@type": "WebSite",
+                    "@id": `https://formipeek.com/${
+                      currentLang === "en" ? "" : currentLang + "/"
+                    }#website`,
+                    url: pageUrl,
+                    name: "FormiPeek - Free Online File Converter",
+                    description:
+                      "Convert files between 300+ formats instantly. Fast, secure, and free file conversion service.",
+                    inLanguage: currentLang,
+                    publisher: { "@id": "https://formipeek.com#organization" },
+                    potentialAction: {
+                      "@type": "SearchAction",
+                      target: "https://formipeek.com/search?q={search_term_string}",
+                      "query-input": "required name=search_term_string",
+                    },
+                  },
+                ]
+              : []),
           ],
         })}
       />
