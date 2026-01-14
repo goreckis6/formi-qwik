@@ -6,6 +6,7 @@ import { getLocalizedPath } from "~/i18n/utils";
 import { AdsPlaceholder } from "~/components/ads/ads-placeholder";
 import { initializeAds } from "~/lib/ads-config";
 import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
+import { getFaqSchema } from "~/seo/faqSchema";
 
 const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || "https://api.formipeek.com";
 
@@ -50,6 +51,8 @@ export default component$(() => {
     url: pageUrl,
     lang: locale,
   });
+
+  const faqSchema = getFaqSchema(conv.faq.items);
 
   // File handling signals
   const selectedFiles = useSignal<File[]>([]);
@@ -910,38 +913,12 @@ export default component$(() => {
               <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">{conv.faq.title}</h2>
 
               <div class="space-y-6">
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q1}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a1}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q2}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a2}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q3}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a3}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q4}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a4}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q5}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a5}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q6}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a6}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q7}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a7}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q8}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a8}</p>
-                </div>
+                {conv.faq.items.map((item, i) => (
+                  <div key={i}>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">{item.q}</h3>
+                    <p class="text-gray-700 leading-relaxed">{item.a}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -1034,6 +1011,9 @@ export default component$(() => {
 
       {/* SoftwareApplication Schema */}
       <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(softwareSchema)} />
+
+      {/* FAQ Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(faqSchema)} />
     </div>
   );
 });

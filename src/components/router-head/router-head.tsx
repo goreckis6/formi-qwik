@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
 import { supportedLanguages } from "~/i18n";
-import { useCurrentLocale } from "~/i18n/utils";
+import { useCurrentLocale, getLocalizedPath, getPathWithoutLocale } from "~/i18n/utils";
 
 export const RouterHead = component$(() => {
   const head = useDocumentHead();
@@ -33,15 +33,22 @@ export const RouterHead = component$(() => {
         <link key={l.key} {...l} />
       ))}
 
-      {/* hreflang links for all languages */}
-      {supportedLanguages.map((lang) => {
-        const href =
-          lang.code === "en" ? "https://formipeek.com/" : `https://formipeek.com/${lang.code}/`;
+      {/* hreflang links for all languages - pointing to the same page in different languages */}
+      {(() => {
+        const basePath = getPathWithoutLocale(loc.url.pathname);
         return (
-          <link key={`hreflang-${lang.code}`} rel="alternate" hreflang={lang.code} href={href} />
+          <>
+            {supportedLanguages.map((lang) => {
+              const localizedPath = getLocalizedPath(basePath, lang.code);
+              const href = `https://formipeek.com${localizedPath}`;
+              return (
+                <link key={`hreflang-${lang.code}`} rel="alternate" hreflang={lang.code} href={href} />
+              );
+            })}
+            <link rel="alternate" hreflang="x-default" href={`https://formipeek.com${getLocalizedPath(basePath, "en")}`} />
+          </>
         );
-      })}
-      <link rel="alternate" hreflang="x-default" href="https://formipeek.com/" />
+      })()}
 
       {head.styles.map((s) => {
         const { dangerouslySetInnerHTML, ...restProps } = s.props || {};

@@ -253,23 +253,25 @@ export const pt: Translations = {
     },
     
     faq: {
-      title: "Perguntas Frequentes",
-      q1: "É grátis converter HEIC para PDF?",
-      a1: "Sim! Nosso conversor de HEIC para PDF é completamente gratuito sem taxas ocultas. Você pode converter arquivos ilimitados sem qualquer registro ou assinatura.",
-      q2: "Meus dados estão seguros?",
-      a2: "Absolutamente. Todas as conversões acontecem com segurança em nossos servidores com criptografia SSL. Seus arquivos são automaticamente excluídos imediatamente após a conversão. Nunca armazenamos, compartilhamos ou acessamos seus arquivos.",
-      q3: "Qual é o tamanho máximo de arquivo?",
-      a3: "Você pode converter arquivos HEIC de até 100MB cada. Para conversão em lote, você pode processar até 20 arquivos de uma vez com um limite total de 100MB.",
-      q4: "Vocês suportam conversão em lote?",
-      a4: "Sim! Você pode carregar e converter até 20 arquivos HEIC simultaneamente. Todos os PDFs convertidos estarão disponíveis para download como arquivos individuais ou em um único arquivo ZIP.",
-      q5: "A qualidade será preservada?",
-      a5: "Sim, mantemos a qualidade original da imagem durante a conversão. Suas fotos HEIC serão convertidas em PDFs de alta resolução sem compressão ou perda de qualidade.",
-      q6: "Posso converter HEIC diretamente do iPhone?",
-      a6: "Sim! Nosso conversor funciona perfeitamente com fotos tiradas no iPhone, iPad ou qualquer dispositivo Apple. Basta carregar seus arquivos HEIC do rolo da câmera.",
-      q7: "Preciso instalar algum software?",
-      a7: "Nenhuma instalação necessária. Nosso conversor online funciona diretamente no seu navegador web em qualquer dispositivo - Windows, Mac, Linux, iOS ou Android.",
-      q8: "Quanto tempo leva a conversão?",
-      a8: "A conversão é quase instantânea! A maioria dos arquivos HEIC é convertida para PDF em apenas alguns segundos, dependendo do tamanho do arquivo e da sua conexão com a internet.",
+      title: "Perguntas Frequentes – HEIC para PDF",
+      items: [
+        {
+          q: "É grátis converter HEIC para PDF?",
+          a: "Sim! Nosso conversor de HEIC para PDF é completamente gratuito de usar. Você pode converter imagens HEIC para PDF sem registro, assinaturas ou taxas ocultas.",
+        },
+        {
+          q: "Posso converter fotos HEIC do iPhone para PDF?",
+          a: "Sim. Você pode converter fotos HEIC tiradas no iPhone, iPad ou qualquer dispositivo Apple diretamente para PDF. Basta carregar seus arquivos HEIC do seu dispositivo, e a conversão funciona instantaneamente no seu navegador.",
+        },
+        {
+          q: "A qualidade será preservada ao converter HEIC para PDF?",
+          a: "Sim. Preservamos a qualidade original da imagem durante a conversão. Suas fotos HEIC são convertidas em arquivos PDF de alta resolução sem compressão ou perda de qualidade.",
+        },
+        {
+          q: "Qual é o tamanho máximo de arquivo para conversão de HEIC para PDF?",
+          a: "Você pode converter arquivos HEIC de até 100MB por arquivo. Para conversão em lote, você pode carregar até 20 arquivos de uma vez, com um limite de tamanho total de 100MB.",
+        },
+      ],
     },
     
     related: {
@@ -375,23 +377,25 @@ export const pt: Translations = {
     },
 
     faq: {
-      title: "Perguntas Frequentes",
-      q1: "É gratuito converter HEIC para PNG?",
-      a1: "Sim! Nosso conversor de HEIC para PNG é completamente gratuito sem taxas ocultas. Você pode converter arquivos ilimitados sem registro ou assinatura.",
-      q2: "Meus dados estão seguros?",
-      a2: "Absolutamente. Todas as conversões acontecem com segurança em nossos servidores com criptografia SSL. Seus arquivos são automaticamente excluídos imediatamente após a conversão. Nunca armazenamos, compartilhamos ou acessamos seus arquivos.",
-      q3: "Qual é o tamanho máximo de arquivo?",
-      a3: "Você pode converter arquivos HEIC de até 100MB cada. Para conversão em lote, você pode processar até 20 arquivos de uma vez com um limite total de 100MB.",
-      q4: "Vocês suportam conversão em lote?",
-      a4: "Sim! Você pode carregar e converter até 20 arquivos HEIC simultaneamente. Todos os PNGs convertidos estarão disponíveis para download como arquivos individuais ou em um único arquivo ZIP.",
-      q5: "A qualidade será preservada?",
-      a5: "Sim, mantemos a qualidade original da imagem durante a conversão. Suas fotos HEIC serão convertidas em PNGs de alta resolução sem compressão ou perda de qualidade.",
-      q6: "Posso converter HEIC diretamente do iPhone?",
-      a6: "Sim! Nosso conversor funciona perfeitamente com fotos tiradas no iPhone, iPad ou qualquer dispositivo Apple. Simplesmente carregue seus arquivos HEIC da sua galeria.",
-      q7: "Preciso instalar algum software?",
-      a7: "Nenhuma instalação necessária. Nosso conversor online funciona diretamente no seu navegador web em qualquer dispositivo - Windows, Mac, Linux, iOS ou Android.",
-      q8: "Quanto tempo leva a conversão?",
-      a8: "A conversão é quase instantânea! A maioria dos arquivos HEIC se converte em PNG em apenas alguns segundos, dependendo do tamanho do arquivo e da sua conexão com a internet.",
+      title: "Perguntas Frequentes – HEIC para PNG",
+      items: [
+        {
+          q: "É gratuito converter HEIC para PNG?",
+          a: "Sim! Nosso conversor de HEIC para PNG é completamente gratuito. Você pode converter imagens HEIC para PNG sem registro, assinaturas ou taxas ocultas.",
+        },
+        {
+          q: "A qualidade será preservada ao converter HEIC para PNG?",
+          a: "Sim. Preservamos a qualidade original da imagem durante a conversão. Suas fotos HEIC são convertidas em arquivos PNG de alta resolução sem compressão ou perda de qualidade.",
+        },
+        {
+          q: "Posso converter fotos HEIC do iPhone para PNG?",
+          a: "Sim. Você pode converter fotos HEIC tiradas no iPhone, iPad ou qualquer dispositivo Apple diretamente para PNG. Basta carregar seus arquivos HEIC e convertê-los instantaneamente no seu navegador.",
+        },
+        {
+          q: "Preciso instalar software para converter HEIC para PNG?",
+          a: "Nenhuma instalação necessária. O conversor HEIC para PNG funciona completamente online no seu navegador web em Windows, macOS, Linux, iOS e Android.",
+        },
+      ],
     },
 
     related: {

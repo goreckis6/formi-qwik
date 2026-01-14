@@ -251,23 +251,25 @@ export const nl: Translations = {
     },
 
     faq: {
-      title: "Veelgestelde Vragen",
-      q1: "Is het gratis om HEIC naar PDF te converteren?",
-      a1: "Ja! Onze HEIC naar PDF converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
-      q2: "Zijn mijn gegevens veilig?",
-      a2: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden automatisch direct na conversie verwijderd. We slaan, delen of openen uw bestanden nooit.",
-      q3: "Wat is de maximale bestandsgrootte?",
-      a3: "U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
-      q4: "Ondersteunt u batchconversie?",
-      a4: "Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde PDF's zijn beschikbaar voor download als individuele bestanden of in een enkel ZIP-archief.",
-      q5: "Wordt de kwaliteit behouden?",
-      a5: "Ja, we behouden de originele beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie PDF's zonder compressie of kwaliteitsverlies.",
-      q6: "Kan ik HEIC direct van iPhone converteren?",
-      a6: "Ja! Onze converter werkt perfect met foto's gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden van uw camerarol.",
-      q7: "Moet ik software installeren?",
-      a7: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
-      q8: "Hoe lang duurt conversie?",
-      a8: "Conversie is bijna direct! De meeste HEIC-bestanden worden in slechts enkele seconden naar PDF geconverteerd, afhankelijk van de bestandsgrootte en uw internetverbinding.",
+      title: "Veelgestelde Vragen – HEIC naar PDF",
+      items: [
+        {
+          q: "Is het gratis om HEIC naar PDF te converteren?",
+          a: "Ja! Onze HEIC naar PDF converter is volledig gratis te gebruiken. U kunt HEIC-afbeeldingen naar PDF converteren zonder registratie, abonnementen of verborgen kosten.",
+        },
+        {
+          q: "Kan ik HEIC-foto's van iPhone naar PDF converteren?",
+          a: "Ja. U kunt HEIC-foto's gemaakt op iPhone, iPad of elk Apple-apparaat direct naar PDF converteren. Upload gewoon uw HEIC-bestanden van uw apparaat, en de conversie werkt direct in uw browser.",
+        },
+        {
+          q: "Wordt de kwaliteit behouden bij het converteren van HEIC naar PDF?",
+          a: "Ja. We behouden de originele beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar PDF-bestanden met hoge resolutie zonder compressie of kwaliteitsverlies.",
+        },
+        {
+          q: "Wat is de maximale bestandsgrootte voor HEIC naar PDF conversie?",
+          a: "U kunt HEIC-bestanden tot 100MB per bestand converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk uploaden, met een totale groottebeperking van 100MB.",
+        },
+      ],
     },
 
     related: {
@@ -373,23 +375,25 @@ export const nl: Translations = {
     },
 
     faq: {
-      title: "Veelgestelde Vragen",
-      q1: "Is het converteren van HEIC naar PNG gratis?",
-      a1: "Ja! Onze HEIC naar PNG converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
-      q2: "Zijn mijn gegevens veilig?",
-      a2: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.",
-      q3: "Wat is de maximale bestandsgrootte?",
-      a3: "U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
-      q4: "Ondersteunt u batchconversie?",
-      a4: "Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde PNG's zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.",
-      q5: "Wordt de kwaliteit behouden?",
-      a5: "Ja, we behouden de originele beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie PNG's zonder compressie of kwaliteitsverlies.",
-      q6: "Kan ik HEIC direct vanaf iPhone converteren?",
-      a6: "Ja! Onze converter werkt perfect met foto's gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden vanuit uw camerarol.",
-      q7: "Moet ik software installeren?",
-      a7: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
-      q8: "Hoe lang duurt de conversie?",
-      a8: "Conversie is bijna direct! De meeste HEIC-bestanden worden binnen enkele seconden geconverteerd naar PNG, afhankelijk van de bestandsgrootte en uw internetverbinding.",
+      title: "Veelgestelde Vragen – HEIC naar PNG",
+      items: [
+        {
+          q: "Is het converteren van HEIC naar PNG gratis?",
+          a: "Ja! Onze HEIC naar PNG converter is volledig gratis. U kunt HEIC-afbeeldingen naar PNG converteren zonder registratie, abonnementen of verborgen kosten.",
+        },
+        {
+          q: "Wordt de kwaliteit behouden bij het converteren van HEIC naar PNG?",
+          a: "Ja. We behouden de originele beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie PNG-bestanden zonder compressie of kwaliteitsverlies.",
+        },
+        {
+          q: "Kan ik HEIC-foto's van iPhone naar PNG converteren?",
+          a: "Ja. U kunt HEIC-foto's genomen op iPhone, iPad of elk Apple-apparaat direct naar PNG converteren. Upload gewoon uw HEIC-bestanden en converteer ze direct in uw browser.",
+        },
+        {
+          q: "Moet ik software installeren om HEIC naar PNG te converteren?",
+          a: "Geen installatie vereist. De HEIC naar PNG converter werkt volledig online in uw webbrowser op Windows, macOS, Linux, iOS en Android.",
+        },
+      ],
     },
 
     related: {

@@ -249,23 +249,25 @@ export const sv: Translations = {
     },
 
     faq: {
-      title: "Vanliga Frågor",
-      q1: "Är det gratis att konvertera HEIC till PDF?",
-      a1: "Ja! Vår HEIC till PDF konverterare är helt gratis utan dolda avgifter. Du kan konvertera obegränsat antal filer utan registrering eller prenumeration.",
-      q2: "Är mina data säkra?",
-      a2: "Absolut. Alla konverteringar sker säkert på våra servrar med SSL-kryptering. Dina filer raderas automatiskt direkt efter konvertering. Vi lagrar, delar eller öppnar aldrig dina filer.",
-      q3: "Vad är den maximala filstorleken?",
-      a3: "Du kan konvertera HEIC-filer upp till 100MB vardera. För batchkonvertering kan du bearbeta upp till 20 filer åt gången med en total gräns på 100MB.",
-      q4: "Stöder ni batchkonvertering?",
-      a4: "Ja! Du kan ladda upp och konvertera upp till 20 HEIC-filer samtidigt. Alla konverterade PDF:er kommer att vara tillgängliga för nedladdning som individuella filer eller i ett enda ZIP-arkiv.",
-      q5: "Kommer kvaliteten att bevaras?",
-      a5: "Ja, vi behåller den ursprungliga bildkvaliteten under konvertering. Dina HEIC-foton kommer att konverteras till högupplösta PDF:er utan komprimering eller kvalitetsförlust.",
-      q6: "Kan jag konvertera HEIC direkt från iPhone?",
-      a6: "Ja! Vår konverterare fungerar perfekt med foton tagna på iPhone, iPad eller vilken Apple-enhet som helst. Ladda bara upp dina HEIC-filer från din kamerarulle.",
-      q7: "Behöver jag installera någon programvara?",
-      a7: "Ingen installation behövs. Vår onlinekonverterare fungerar direkt i din webbläsare på vilken enhet som helst - Windows, Mac, Linux, iOS eller Android.",
-      q8: "Hur lång tid tar konvertering?",
-      a8: "Konvertering är nästan omedelbar! De flesta HEIC-filer konverteras till PDF på bara några sekunder, beroende på filstorlek och din internetanslutning.",
+      title: "Vanliga Frågor – HEIC till PDF",
+      items: [
+        {
+          q: "Är det gratis att konvertera HEIC till PDF?",
+          a: "Ja! Vår HEIC till PDF konverterare är helt gratis att använda. Du kan konvertera HEIC-bilder till PDF utan registrering, prenumerationer eller dolda avgifter.",
+        },
+        {
+          q: "Kan jag konvertera HEIC-foton från iPhone till PDF?",
+          a: "Ja. Du kan konvertera HEIC-foton tagna på iPhone, iPad eller vilken Apple-enhet som helst direkt till PDF. Ladda bara upp dina HEIC-filer från din enhet, och konverteringen fungerar omedelbart i din webbläsare.",
+        },
+        {
+          q: "Kommer kvaliteten att bevaras vid konvertering av HEIC till PDF?",
+          a: "Ja. Vi bevarar den ursprungliga bildkvaliteten under konvertering. Dina HEIC-foton konverteras till PDF-filer med hög upplösning utan komprimering eller kvalitetsförlust.",
+        },
+        {
+          q: "Vad är den maximala filstorleken för HEIC till PDF konvertering?",
+          a: "Du kan konvertera HEIC-filer upp till 100MB per fil. För batchkonvertering kan du ladda upp upp till 20 filer åt gången, med en total storleksbegränsning på 100MB.",
+        },
+      ],
     },
 
     related: {
@@ -371,23 +373,25 @@ export const sv: Translations = {
     },
 
     faq: {
-      title: "Vanliga Frågor",
-      q1: "Är det gratis att konvertera HEIC till PNG?",
-      a1: "Ja! Vår HEIC till PNG-konverterare är helt gratis utan dolda avgifter. Du kan konvertera obegränsat antal filer utan registrering eller prenumeration.",
-      q2: "Är mina data säkra?",
-      a2: "Absolut. Alla konverteringar sker säkert på våra servrar med SSL-kryptering. Dina filer raderas automatiskt direkt efter konvertering. Vi lagrar, delar eller öppnar aldrig dina filer.",
-      q3: "Vad är den maximala filstorleken?",
-      a3: "Du kan konvertera HEIC-filer upp till 100MB vardera. För batchkonvertering kan du bearbeta upp till 20 filer samtidigt med en total gräns på 100MB.",
-      q4: "Stöder ni batchkonvertering?",
-      a4: "Ja! Du kan ladda upp och konvertera upp till 20 HEIC-filer samtidigt. Alla konverterade PNG:er kommer att vara tillgängliga för nedladdning som individuella filer eller i ett enda ZIP-arkiv.",
-      q5: "Kommer kvaliteten att bevaras?",
-      a5: "Ja, vi bevarar originalbildkvaliteten under konvertering. Dina HEIC-foton kommer att konverteras till högupplösta PNG:er utan komprimering eller kvalitetsförlust.",
-      q6: "Kan jag konvertera HEIC direkt från iPhone?",
-      a6: "Ja! Vår konverterare fungerar perfekt med foton tagna på iPhone, iPad eller vilken Apple-enhet som helst. Ladda bara upp dina HEIC-filer från ditt kamerarull.",
-      q7: "Behöver jag installera någon programvara?",
-      a7: "Ingen installation behövs. Vår onlinekonverterare fungerar direkt i din webbläsare på vilken enhet som helst - Windows, Mac, Linux, iOS eller Android.",
-      q8: "Hur lång tid tar konverteringen?",
-      a8: "Konvertering är nästan omedelbar! De flesta HEIC-filer konverteras till PNG på bara några sekunder, beroende på filstorleken och din internetanslutning.",
+      title: "Vanliga Frågor – HEIC till PNG",
+      items: [
+        {
+          q: "Är det gratis att konvertera HEIC till PNG?",
+          a: "Ja! Vår HEIC till PNG-konverterare är helt gratis. Du kan konvertera HEIC-bilder till PNG utan registrering, prenumerationer eller dolda avgifter.",
+        },
+        {
+          q: "Kommer kvaliteten att bevaras när HEIC konverteras till PNG?",
+          a: "Ja. Vi bevarar originalbildkvaliteten under konvertering. Dina HEIC-foton konverteras till högupplösta PNG-filer utan komprimering eller kvalitetsförlust.",
+        },
+        {
+          q: "Kan jag konvertera HEIC-foton från iPhone till PNG?",
+          a: "Ja. Du kan konvertera HEIC-foton tagna på iPhone, iPad eller vilken Apple-enhet som helst direkt till PNG. Ladda bara upp dina HEIC-filer och konvertera dem direkt i din webbläsare.",
+        },
+        {
+          q: "Behöver jag installera programvara för att konvertera HEIC till PNG?",
+          a: "Ingen installation behövs. HEIC till PNG-konverteraren fungerar helt online i din webbläsare på Windows, macOS, Linux, iOS och Android.",
+        },
+      ],
     },
 
     related: {

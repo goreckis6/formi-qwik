@@ -236,23 +236,25 @@ export const id: Translations = {
     },
     
     faq: {
-      title: 'Pertanyaan yang Sering Diajukan',
-      q1: 'Apakah mengonversi HEIC ke PDF gratis?',
-      a1: 'Ya! Konverter HEIC ke PDF kami sepenuhnya gratis tanpa biaya tersembunyi. Anda dapat mengonversi file tanpa batas tanpa registrasi atau berlangganan.',
-      q2: 'Apakah data saya aman?',
-      a2: 'Tentu saja. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda dihapus otomatis segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
-      q3: 'Berapa ukuran file maksimum?',
-      a3: 'Anda dapat mengonversi file HEIC hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
-      q4: 'Apakah Anda mendukung konversi batch?',
-      a4: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIC secara bersamaan. Semua PDF yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
-      q5: 'Apakah kualitas akan dipertahankan?',
-      a5: 'Ya, kami mempertahankan kualitas gambar asli selama konversi. Foto HEIC Anda akan dikonversi ke PDF resolusi tinggi tanpa kompresi atau kehilangan kualitas.',
-      q6: 'Bisakah saya mengonversi HEIC langsung dari iPhone?',
-      a6: 'Ya! Konverter kami bekerja sempurna dengan foto yang diambil di iPhone, iPad, atau perangkat Apple apa pun. Cukup unggah file HEIC Anda dari galeri kamera.',
-      q7: 'Apakah saya perlu menginstal perangkat lunak?',
-      a7: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
-      q8: 'Berapa lama waktu konversi?',
-      a8: 'Konversi hampir instan! Sebagian besar file HEIC dikonversi ke PDF hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke PDF',
+      items: [
+        {
+          q: 'Apakah mengonversi HEIC ke PDF gratis?',
+          a: 'Ya! Konverter HEIC ke PDF kami sepenuhnya gratis untuk digunakan. Anda dapat mengonversi gambar HEIC ke PDF tanpa registrasi, langganan, atau biaya tersembunyi.',
+        },
+        {
+          q: 'Bisakah saya mengonversi foto HEIC dari iPhone ke PDF?',
+          a: 'Ya. Anda dapat mengonversi foto HEIC yang diambil di iPhone, iPad, atau perangkat Apple apa pun langsung ke PDF. Cukup unggah file HEIC Anda dari perangkat Anda, dan konversi bekerja secara instan di browser Anda.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan saat mengonversi HEIC ke PDF?',
+          a: 'Ya. Kami mempertahankan kualitas gambar asli selama konversi. Foto HEIC Anda dikonversi menjadi file PDF resolusi tinggi tanpa kompresi atau kehilangan kualitas.',
+        },
+        {
+          q: 'Berapa ukuran file maksimum untuk konversi HEIC ke PDF?',
+          a: 'Anda dapat mengonversi file HEIC hingga 100MB per file. Untuk konversi batch, Anda dapat mengunggah hingga 20 file sekaligus, dengan batas ukuran total 100MB.',
+        },
+      ],
     },
     
     related: {
@@ -350,23 +352,25 @@ export const id: Translations = {
     },
     
     faq: {
-      title: 'Pertanyaan yang Sering Diajukan',
-      q1: 'Apakah mengonversi HEIC ke PNG gratis?',
-      a1: 'Ya! Konverter HEIC ke PNG kami sepenuhnya gratis tanpa biaya tersembunyi. Anda dapat mengonversi file tanpa batas tanpa registrasi atau berlangganan.',
-      q2: 'Apakah data saya aman?',
-      a2: 'Sangat aman. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda secara otomatis dihapus segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
-      q3: 'Berapa ukuran file maksimum?',
-      a3: 'Anda dapat mengonversi file HEIC hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
-      q4: 'Apakah Anda mendukung konversi batch?',
-      a4: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIC secara bersamaan. Semua PNG yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
-      q5: 'Apakah kualitas akan dipertahankan?',
-      a5: 'Ya, kami mempertahankan kualitas gambar asli selama konversi. Foto HEIC Anda akan dikonversi ke PNG resolusi tinggi tanpa kompresi atau kehilangan kualitas.',
-      q6: 'Bisakah saya mengonversi HEIC langsung dari iPhone?',
-      a6: 'Ya! Konverter kami bekerja sempurna dengan foto yang diambil di iPhone, iPad, atau perangkat Apple apa pun. Cukup unggah file HEIC Anda dari galeri kamera.',
-      q7: 'Apakah saya perlu menginstal perangkat lunak?',
-      a7: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
-      q8: 'Berapa lama konversi berlangsung?',
-      a8: 'Konversi hampir instan! Sebagian besar file HEIC dikonversi ke PNG hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke PNG',
+      items: [
+        {
+          q: 'Apakah mengonversi HEIC ke PNG gratis?',
+          a: 'Ya! Konverter HEIC ke PNG kami sepenuhnya gratis. Anda dapat mengonversi gambar HEIC ke PNG tanpa registrasi, langganan, atau biaya tersembunyi.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan saat mengonversi HEIC ke PNG?',
+          a: 'Ya. Kami mempertahankan kualitas gambar asli selama konversi. Foto HEIC Anda dikonversi menjadi file PNG resolusi tinggi tanpa kompresi atau kehilangan kualitas.',
+        },
+        {
+          q: 'Bisakah saya mengonversi foto HEIC dari iPhone ke PNG?',
+          a: 'Ya. Anda dapat mengonversi foto HEIC yang diambil di iPhone, iPad, atau perangkat Apple apa pun langsung ke PNG. Cukup unggah file HEIC Anda dan konversi langsung di browser Anda.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak untuk mengonversi HEIC ke PNG?',
+          a: 'Tidak perlu instalasi. Konverter HEIC ke PNG bekerja sepenuhnya online di browser web Anda di Windows, macOS, Linux, iOS, dan Android.',
+        },
+      ],
     },
     
     related: {

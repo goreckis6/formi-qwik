@@ -1,14 +1,45 @@
 # robots.txt for FormiPeek
+# https://formipeek.com/robots.txt
 
+# Allow all search engines to crawl the entire site
 User-agent: *
 Allow: /
 
-# Sitemaps
+# Sitemap location
 Sitemap: https://formipeek.com/sitemap.xml
 
-# Crawl-delay for polite crawlers
-Crawl-delay: 1
+# Crawl-delay (optional, helps prevent server overload)
+# Most modern crawlers respect crawl-delay, but it's not a standard
+# Crawl-delay: 1
 
-# Block specific paths if needed (example)
+# Block specific paths if needed (uncomment to block)
 # Disallow: /api/
 # Disallow: /admin/
+# Disallow: /_build/
+# Disallow: /node_modules/
+
+# Allow common search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Block bad bots (optional, uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+#
+# User-agent: SemrushBot
+# Disallow: /

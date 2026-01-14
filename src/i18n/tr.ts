@@ -251,23 +251,25 @@ export const tr: Translations = {
     },
 
     faq: {
-      title: "Sık Sorulan Sorular",
-      q1: "HEIC'i PDF'e dönüştürmek ücretsiz mi?",
-      a1: "Evet! HEIC'den PDF'e dönüştürücümüz tamamen ücretsizdir, gizli ücret yoktur. Kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.",
-      q2: "Verilerim güvende mi?",
-      a2: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamayız, paylaşmayız veya erişmeyiz.",
-      q3: "Maksimum dosya boyutu nedir?",
-      a3: "Her biri 100MB'a kadar HEIC dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limiti ile aynı anda 20 dosyaya kadar işleyebilirsiniz.",
-      q4: "Toplu dönüştürmeyi destekliyor musunuz?",
-      a4: "Evet! Aynı anda 20 HEIC dosyasına kadar yükleyip dönüştürebilirsiniz. Tüm dönüştürülmüş PDF'ler, bireysel dosyalar olarak veya tek bir ZIP arşivinde indirilebilir olacaktır.",
-      q5: "Kalite korunacak mı?",
-      a5: "Evet, dönüştürme sırasında orijinal görüntü kalitesini koruyoruz. HEIC fotoğraflarınız sıkıştırma veya kalite kaybı olmadan yüksek çözünürlüklü PDF'lere dönüştürülecektir.",
-      q6: "HEIC'i doğrudan iPhone'dan dönüştürebilir miyim?",
-      a6: "Evet! Dönüştürücümüz iPhone, iPad veya herhangi bir Apple cihazında çekilen fotoğraflarla mükemmel çalışır. Sadece kamera rulonuzdan HEIC dosyalarınızı yükleyin.",
-      q7: "Herhangi bir yazılım yüklemem gerekiyor mu?",
-      a7: "Yükleme gerekmez. Çevrimiçi dönüştürücümüz herhangi bir cihazda - Windows, Mac, Linux, iOS veya Android - web tarayıcınızda doğrudan çalışır.",
-      q8: "Dönüştürme ne kadar sürer?",
-      a8: "Dönüştürme neredeyse anında! Çoğu HEIC dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde PDF'e dönüştürülür.",
+      title: "Sık Sorulan Sorular – HEIC'den PDF'e",
+      items: [
+        {
+          q: "HEIC'i PDF'e dönüştürmek ücretsiz mi?",
+          a: "Evet! HEIC'den PDF'e dönüştürücümüz tamamen ücretsiz kullanıma açıktır. Kayıt, abonelik veya gizli ücret olmadan HEIC görüntülerini PDF'e dönüştürebilirsiniz.",
+        },
+        {
+          q: "iPhone'tan HEIC fotoğraflarını PDF'e dönüştürebilir miyim?",
+          a: "Evet. iPhone, iPad veya herhangi bir Apple cihazında çekilen HEIC fotoğraflarını doğrudan PDF'e dönüştürebilirsiniz. Cihazınızdan HEIC dosyalarınızı yükleyin, dönüştürme tarayıcınızda anında çalışır.",
+        },
+        {
+          q: "HEIC'i PDF'e dönüştürürken kalite korunacak mı?",
+          a: "Evet. Dönüştürme sırasında orijinal görüntü kalitesini koruyoruz. HEIC fotoğraflarınız sıkıştırma veya kalite kaybı olmadan yüksek çözünürlüklü PDF dosyalarına dönüştürülür.",
+        },
+        {
+          q: "HEIC'den PDF'e dönüştürme için maksimum dosya boyutu nedir?",
+          a: "Dosya başına 100MB'a kadar HEIC dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam boyut sınırı 100MB ile bir seferde 20 dosyaya kadar yükleyebilirsiniz.",
+        },
+      ],
     },
 
     related: {
@@ -373,23 +375,25 @@ export const tr: Translations = {
     },
 
     faq: {
-      title: "Sık Sorulan Sorular",
-      q1: "HEIC'yi PNG'ye dönüştürmek ücretsiz mi?",
-      a1: "Evet! HEIC'den PNG'ye dönüştürücümüz tamamen ücretsizdir ve gizli ücret yoktur. Herhangi bir kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.",
-      q2: "Verilerim güvende mi?",
-      a2: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamaz, paylaşmaz veya erişmeyiz.",
-      q3: "Maksimum dosya boyutu nedir?",
-      a3: "Her biri 100MB'a kadar HEIC dosyası dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limitiyle aynı anda 20 dosyaya kadar işleyebilirsiniz.",
-      q4: "Toplu dönüştürmeyi destekliyor musunuz?",
-      a4: "Evet! Aynı anda 20 HEIC dosyasına kadar yükleyebilir ve dönüştürebilirsiniz. Dönüştürülmüş tüm PNG'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
-      q5: "Kalite korunacak mı?",
-      a5: "Evet, dönüştürme sırasında orijinal görüntü kalitesini koruyoruz. HEIC fotoğraflarınız sıkıştırma veya kalite kaybı olmadan yüksek çözünürlüklü PNG'lere dönüştürülecektir.",
-      q6: "HEIC'yi doğrudan iPhone'dan dönüştürebilir miyim?",
-      a6: "Evet! Dönüştürücümüz iPhone, iPad veya herhangi bir Apple cihazında çekilmiş fotoğraflarla mükemmel çalışır. Sadece kamera galerinizden HEIC dosyalarınızı yükleyin.",
-      q7: "Herhangi bir yazılım yüklemem gerekiyor mu?",
-      a7: "Kurulum gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.",
-      q8: "Dönüştürme ne kadar sürer?",
-      a8: "Dönüştürme neredeyse anında! Çoğu HEIC dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde PNG'ye dönüştürülür.",
+      title: "Sık Sorulan Sorular – HEIC'den PNG'ye",
+      items: [
+        {
+          q: "HEIC'yi PNG'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! HEIC'den PNG'ye dönüştürücümüz tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret olmadan HEIC görüntülerini PNG'ye dönüştürebilirsiniz.",
+        },
+        {
+          q: "HEIC'yi PNG'ye dönüştürürken kalite korunacak mı?",
+          a: "Evet. Dönüştürme sırasında orijinal görüntü kalitesini koruyoruz. HEIC fotoğraflarınız sıkıştırma veya kalite kaybı olmadan yüksek çözünürlüklü PNG dosyalarına dönüştürülür.",
+        },
+        {
+          q: "iPhone'dan HEIC fotoğraflarını PNG'ye dönüştürebilir miyim?",
+          a: "Evet. iPhone, iPad veya herhangi bir Apple cihazında çekilmiş HEIC fotoğraflarını doğrudan PNG'ye dönüştürebilirsiniz. Sadece HEIC dosyalarınızı yükleyin ve tarayıcınızda anında dönüştürün.",
+        },
+        {
+          q: "HEIC'yi PNG'ye dönüştürmek için yazılım yüklemem gerekiyor mu?",
+          a: "Kurulum gerekmez. HEIC'den PNG'ye dönüştürücü, Windows, macOS, Linux, iOS ve Android'deki herhangi bir cihazda web tarayıcınızda tamamen çevrimiçi çalışır.",
+        },
+      ],
     },
 
     related: {
