@@ -93,55 +93,54 @@ export default component$(() => {
 
         <div class="w-full max-w-6xl mx-auto">
           {filteredConverters.value.length > 0 ? (
-            filteredConverters.value.map((converter, index) => (
-              <Link
-                key={`${converter.href}-${index}`}
-                href={converter.href}
-                class="block w-full group relative bg-white rounded-xl sm:rounded-2xl md:rounded-3xl p-5 sm:p-6 md:p-8 lg:p-10 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-gray-100 hover:border-purple-200 overflow-hidden mb-4 sm:mb-6 cursor-pointer"
-              >
-                <div class="absolute top-0 right-0 w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 bg-gradient-to-br from-purple-100 to-purple-200 rounded-full -mr-12 -mt-12 sm:-mr-16 sm:-mt-16 md:-mr-20 md:-mt-20 opacity-50 group-hover:opacity-75 transition-opacity pointer-events-none"></div>
-                <div class="relative flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 pointer-events-none">
-                  <div class="inline-flex p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 group-hover:scale-110 transition-transform flex-shrink-0 pointer-events-none">
-                    <svg
-                      class="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 text-white"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                      />
-                    </svg>
+            <div class="flex flex-col gap-3">
+              {filteredConverters.value.map((converter, index) => (
+                <Link
+                  key={`${converter.href}-${index}`}
+                  href={converter.href}
+                  class="group relative bg-white rounded-lg p-4 hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-purple-300 cursor-pointer"
+                >
+                  <div class="flex items-start gap-3 pointer-events-none">
+                    <div class="inline-flex p-2 rounded-lg bg-gradient-to-br from-purple-500 to-purple-600 group-hover:scale-105 transition-transform flex-shrink-0 pointer-events-none">
+                      <svg
+                        class="w-5 h-5 text-white"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                        />
+                      </svg>
+                    </div>
+                    <div class="flex-1 min-w-0 pointer-events-none">
+                      <h3 class="font-semibold text-gray-900 mb-1 text-sm sm:text-base group-hover:text-purple-700 transition-colors">
+                        {converter.name}
+                      </h3>
+                      <p class="text-xs text-gray-600 leading-snug">{converter.description}</p>
+                    </div>
+                    <div class="flex-shrink-0 pointer-events-none">
+                      <svg
+                        class="w-4 h-4 text-gray-400 group-hover:text-purple-600 group-hover:translate-x-0.5 transition-all"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
                   </div>
-                  <div class="flex-1 min-w-0 pointer-events-none">
-                    <h3 class="font-bold text-gray-900 mb-2 text-lg sm:text-xl md:text-2xl lg:text-3xl group-hover:text-purple-700 transition-colors">
-                      {converter.name}
-                    </h3>
-                    <p class="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed">
-                      {converter.description}
-                    </p>
-                  </div>
-                  <div class="flex-shrink-0 self-center sm:self-auto pointer-events-none">
-                    <svg
-                      class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-purple-600 group-hover:translate-x-1 transition-all"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </Link>
-            ))
+                </Link>
+              ))}
+            </div>
           ) : (
             <div class="text-center py-12 sm:py-16">
               <p class="text-gray-600 text-base sm:text-lg md:text-xl">
