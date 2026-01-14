@@ -309,7 +309,9 @@ export default component$(() => {
     conversionResults.value = [];
 
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 5 * 60 * 1000); // 5 minutes timeout
+    // Longer timeout for batch conversion (15 minutes) vs single (5 minutes)
+    const timeoutDuration = mode.value === "batch" ? 15 * 60 * 1000 : 5 * 60 * 1000;
+    const timeoutId = setTimeout(() => controller.abort(), timeoutDuration);
 
     try {
       if (mode.value === "single") {
@@ -397,7 +399,9 @@ export default component$(() => {
           errorMessage.value = "Conversion timeout. The file may be too large. Please try again.";
         } else if (
           error.name === "TypeError" &&
-          (error.message === "Failed to fetch" || error.message.includes("NetworkError") || error.message.includes("Network request failed"))
+          (error.message === "Failed to fetch" ||
+            error.message.includes("NetworkError") ||
+            error.message.includes("Network request failed"))
         ) {
           errorMessage.value =
             "Network error. Please check your internet connection and try again.";
@@ -427,7 +431,6 @@ export default component$(() => {
     if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
   };
-
 
   // Initialize ads globally when component is visible
   useVisibleTask$(() => {
