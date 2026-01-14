@@ -319,15 +319,11 @@ export default component$(() => {
 
         progress.value = 30;
 
-        const response = await fetchWithRetry(
-          `${API_BASE_URL}/convert/heic-to-png/single`,
-          {
-            method: "POST",
-            body: formData,
-            signal: controller.signal,
-          },
-          2 // retry 2 times
-        );
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-png/single`, {
+          method: "POST",
+          body: formData,
+          signal: controller.signal,
+        });
 
         progress.value = 70;
 
@@ -366,15 +362,11 @@ export default component$(() => {
 
         progress.value = 30;
 
-        const response = await fetchWithRetry(
-          `${API_BASE_URL}/convert/heic-to-png/batch`,
-          {
-            method: "POST",
-            body: formData,
-            signal: controller.signal,
-          },
-          2 // retry 2 times
-        );
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-png/batch`, {
+          method: "POST",
+          body: formData,
+          signal: controller.signal,
+        });
 
         progress.value = 70;
 
@@ -402,14 +394,13 @@ export default component$(() => {
         if (error.name === "AbortError" || error.message.includes("aborted")) {
           errorMessage.value = "Conversion timeout. The file may be too large. Please try again.";
         } else if (
-          error.message.includes("fetch") ||
-          error.message.includes("network") ||
-          error.message.includes("Failed to fetch")
+          error.name === "TypeError" &&
+          (error.message === "Failed to fetch" || error.message.includes("NetworkError") || error.message.includes("Network request failed"))
         ) {
           errorMessage.value =
             "Network error. Please check your internet connection and try again.";
         } else {
-          errorMessage.value = error.message;
+          errorMessage.value = error.message || "Conversion failed. Please try again.";
         }
       } else {
         errorMessage.value = "Conversion failed. Please try again.";
@@ -435,24 +426,6 @@ export default component$(() => {
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
   };
 
-  // Fetch with retry logic
-  const fetchWithRetry = $(
-    async (url: string, options: RequestInit, retries: number = 2): Promise<Response> => {
-      for (let i = 0; i <= retries; i++) {
-        try {
-          const response = await fetch(url, options);
-          return response;
-        } catch (error) {
-          if (i === retries) {
-            throw error;
-          }
-          // Wait before retry (exponential backoff)
-          await new Promise((resolve) => setTimeout(resolve, 1000 * (i + 1)));
-        }
-      }
-      throw new Error("Failed to fetch after retries");
-    }
-  );
 
   // Initialize ads globally when component is visible
   useVisibleTask$(() => {
