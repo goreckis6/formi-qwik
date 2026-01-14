@@ -26,17 +26,15 @@ const { router, notFound, staticFile } = createQwikCity({
     // Use absolute path from current working directory (Docker WORKDIR is /app)
     root: join(process.cwd(), "dist"),
     cacheControl: "public, max-age=31536000, immutable",
+    mimeTypes: {
+      ".xml": "application/xml",
+    },
   },
 });
 
 const server = createServer();
 
 server.on("request", (req, res) => {
-  // Set Content-Type header for XML files
-  if (req.url && req.url.endsWith('.xml')) {
-    res.setHeader('Content-Type', 'application/xml');
-  }
-  
   staticFile(req, res, () => {
     router(req, res, () => {
       notFound(req, res, () => {});
