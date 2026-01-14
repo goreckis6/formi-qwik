@@ -3,6 +3,7 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { Link, routeLoader$ } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
+import { getFaqSchema } from "~/seo/faqSchema";
 
 export const useLocaleLoader = routeLoader$(({ params, url }) => {
   const locale = params.locale || 'en';
@@ -486,6 +487,32 @@ export default component$(() => {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section class="bg-white py-16 sm:py-24">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              {home.faq.title}
+            </h2>
+          </div>
+
+          <div class="space-y-6">
+            {home.faq.items.map((item, i) => (
+              <div key={i} class="bg-gray-50 rounded-xl p-6 sm:p-8 border border-gray-200">
+                <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-3">{item.q}</h3>
+                <p class="text-sm sm:text-base text-gray-600 leading-relaxed">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* FAQ Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={JSON.stringify(getFaqSchema(home.faq.items))}
+        />
       </section>
     </>
   );

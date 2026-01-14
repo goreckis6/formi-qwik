@@ -1,10 +1,11 @@
 import { component$, useSignal, $, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { routeLoader$ } from "@builder.io/qwik-city";
+import { routeLoader$, useLocation } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
 import { AdsPlaceholder } from "~/components/ads/ads-placeholder";
 import { initializeAds } from "~/lib/ads-config";
+import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
 
 const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || "https://api.formipeek.com";
 
@@ -40,6 +41,15 @@ export default component$(() => {
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
   const conv = t.heicToPdf;
+  const loc = useLocation();
+  const pageUrl = loc.url.origin + loc.url.pathname;
+
+  const softwareSchema = getSoftwareApplicationSchema({
+    name: conv.title,
+    description: conv.metaDescription,
+    url: pageUrl,
+    lang: locale,
+  });
 
   // File handling signals
   const selectedFiles = useSignal<File[]>([]);
@@ -1021,13 +1031,17 @@ export default component$(() => {
           </div>
         </div>
       </div>
+
+      {/* SoftwareApplication Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(softwareSchema)} />
     </div>
   );
 });
 
-export const head: DocumentHead = ({ resolveValue }) => {
+export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
   const conv = localeData.translations.heicToPdf;
+  const pageUrl = url.origin + url.pathname;
 
   return {
     title: conv.title,
@@ -1037,18 +1051,12 @@ export const head: DocumentHead = ({ resolveValue }) => {
         content: conv.metaDescription,
       },
       {
-        name: "keywords",
-        content: conv.metaKeywords,
-      },
-      {
         property: "og:type",
-        content: "website",
+        content: "article",
       },
       {
         property: "og:url",
-        content: `https://formipeek.com${
-          localeData.locale === "en" ? "" : `/${localeData.locale}`
-        }/convert/heic-to-pdf`,
+        content: pageUrl,
       },
       {
         property: "og:title",

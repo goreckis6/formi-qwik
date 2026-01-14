@@ -114,6 +114,36 @@ export const en = {
         description: "Industry-standard conversion with customizable settings",
       },
     },
+
+    faq: {
+      title: "Frequently Asked Questions",
+      items: [
+        {
+          q: "What is FormiPeek?",
+          a: "FormiPeek is a free online platform that lets you convert, view, and compress files directly in your browser. It supports over 300 file format combinations with no installation required.",
+        },
+        {
+          q: "Is FormiPeek free to use?",
+          a: "Yes. All file conversion and viewing tools on FormiPeek are completely free and do not require registration or subscriptions.",
+        },
+        {
+          q: "Are my files safe on FormiPeek?",
+          a: "Yes. Files uploaded to FormiPeek are processed securely and automatically deleted after conversion. We never store or share your files.",
+        },
+        {
+          q: "What file formats does FormiPeek support?",
+          a: "FormiPeek supports over 300 file format combinations, including images, documents, ebooks, and data files such as PDF, JPG, PNG, HEIC, CSV, EPUB, and more.",
+        },
+        {
+          q: "Do I need to install any software?",
+          a: "No. FormiPeek works entirely online in your web browser on any device, including Windows, macOS, Linux, iOS, and Android.",
+        },
+        {
+          q: "Can I convert multiple files at once?",
+          a: "Yes. FormiPeek supports batch conversion, allowing you to convert up to 20 files at once with a total size limit of 100MB.",
+        },
+      ],
+    },
   },
 
   // Converters Page
