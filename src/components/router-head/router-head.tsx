@@ -1,15 +1,25 @@
 import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
+import { supportedLanguages } from "~/i18n";
+import { useCurrentLocale } from "~/i18n/utils";
 
 export const RouterHead = component$(() => {
   const head = useDocumentHead();
   const loc = useLocation();
+  const currentLang = useCurrentLocale();
+
+  // Canonical URL without query params
+  const canonical = loc.url.origin + loc.url.pathname;
+
+  // Base URL for current language
+  const baseUrl =
+    currentLang === "en" ? "https://formipeek.com/" : `https://formipeek.com/${currentLang}/`;
 
   return (
     <>
       <title>{head.title}</title>
 
-      <link rel="canonical" href={loc.url.href} />
+      <link rel="canonical" href={canonical} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
@@ -21,16 +31,37 @@ export const RouterHead = component$(() => {
         <link key={l.key} {...l} />
       ))}
 
-      {head.styles.map((s) => {
-        const { dangerouslySetInnerHTML, ...restProps } = s.props || {};
+      {/* hreflang links for all languages */}
+      {supportedLanguages.map((lang) => {
+        const href =
+          lang.code === "en" ? "https://formipeek.com/" : `https://formipeek.com/${lang.code}/`;
         return (
-          <style key={s.key} {...restProps} dangerouslySetInnerHTML={s.style} />
+          <link
+            key={`hreflang-${lang.code}`}
+            rel="alternate"
+            {...({ hrefLang: lang.code } as any)}
+            href={href}
+          />
         );
       })}
+      <link rel="alternate" {...({ hrefLang: "x-default" } as any)} href="https://formipeek.com/" />
 
-      {/* Tailwind CSS CDN */}
-      <script src="https://cdn.tailwindcss.com"></script>
-      
+      {head.styles.map((s) => {
+        const { dangerouslySetInnerHTML, ...restProps } = s.props || {};
+        return <style key={s.key} {...restProps} dangerouslySetInnerHTML={s.style} />;
+      })}
+
+      {/* Google Analytics */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-27BJNENPNW"></script>
+      <script
+        dangerouslySetInnerHTML={`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-27BJNENPNW');
+        `}
+      />
+
       {/* JSON-LD Schema */}
       <script
         type="application/ld+json"
@@ -40,20 +71,28 @@ export const RouterHead = component$(() => {
             {
               "@type": "Organization",
               "@id": "https://formipeek.com#organization",
-              "name": "FormiPeek",
-              "url": "https://formipeek.com",
-              "logo": "https://formipeek.com/logo.png",
-              "sameAs": []
+              name: "FormiPeek",
+              url: "https://formipeek.com",
+              logo: "https://formipeek.com/logo.png",
             },
             {
               "@type": "WebSite",
-              "@id": "https://formipeek.com/#website",
-              "url": "https://formipeek.com/",
-              "name": "FormiPeek - Free Online File Converter",
-              "description": "Convert files between 300+ formats instantly. Fast, secure, and free file conversion service.",
-              "publisher": { "@id": "https://formipeek.com#organization" }
-            }
-          ]
+              "@id": `https://formipeek.com/${
+                currentLang === "en" ? "" : currentLang + "/"
+              }#website`,
+              url: baseUrl,
+              name: "FormiPeek - Free Online File Converter",
+              description:
+                "Convert files between 300+ formats instantly. Fast, secure, and free file conversion service.",
+              inLanguage: currentLang,
+              publisher: { "@id": "https://formipeek.com#organization" },
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://formipeek.com/search?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            },
+          ],
         })}
       />
     </>
