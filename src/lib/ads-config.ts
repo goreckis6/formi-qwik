@@ -19,12 +19,16 @@ export interface AdConfig {
 }
 
 export const adsConfig: AdConfig[] = [
-  // Example: HEIC to PDF - Top ad
+  // ============================================
+  // HEIC to PDF - Top Ad (Above Upload Area)
+  // ============================================
   {
     key: 'heic-to-pdf-top',
     selector: '[data-ad-position="top"]',
     code: `
-      <!-- Example AdSense code - replace with your actual ad code -->
+      <!-- Google AdSense - Responsive Display Ad -->
+      <!-- Replace ca-pub-XXXXXXXXXX with your AdSense Publisher ID -->
+      <!-- Replace 1234567890 with your Ad Slot ID -->
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
            crossorigin="anonymous"></script>
       <ins class="adsbygoogle"
@@ -40,12 +44,16 @@ export const adsConfig: AdConfig[] = [
     enabled: false, // Set to true when you have real ad code
   },
   
-  // Example: HEIC to PDF - Bottom ad
+  // ============================================
+  // HEIC to PDF - Bottom Ad (Below Upload Area)
+  // ============================================
   {
     key: 'heic-to-pdf-bottom',
     selector: '[data-ad-position="bottom"]',
     code: `
-      <!-- Example AdSense code - replace with your actual ad code -->
+      <!-- Google AdSense - Responsive Display Ad -->
+      <!-- Replace ca-pub-XXXXXXXXXX with your AdSense Publisher ID -->
+      <!-- Replace 0987654321 with your Ad Slot ID -->
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
            crossorigin="anonymous"></script>
       <ins class="adsbygoogle"
@@ -60,6 +68,76 @@ export const adsConfig: AdConfig[] = [
     `,
     enabled: false, // Set to true when you have real ad code
   },
+
+  // ============================================
+  // ALTERNATIVE: Fixed Size Display Ad (300x250)
+  // ============================================
+  // Uncomment and use this if you prefer fixed-size ads
+  /*
+  {
+    key: 'heic-to-pdf-top-fixed',
+    selector: '[data-ad-position="top"]',
+    code: `
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
+           crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:300px;height:250px"
+           data-ad-client="ca-pub-XXXXXXXXXX"
+           data-ad-slot="1234567890"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    `,
+    enabled: false,
+  },
+  */
+
+  // ============================================
+  // ALTERNATIVE: In-Article Ad (for content pages)
+  // ============================================
+  /*
+  {
+    key: 'heic-to-pdf-in-article',
+    selector: '[data-ad-position="top"]',
+    code: `
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
+           crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-XXXXXXXXXX"
+           data-ad-slot="1234567890"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    `,
+    enabled: false,
+  },
+  */
+
+  // ============================================
+  // ALTERNATIVE: Custom Ad Network (e.g., Media.net, PropellerAds)
+  // ============================================
+  /*
+  {
+    key: 'heic-to-pdf-custom',
+    selector: '[data-ad-position="top"]',
+    code: `
+      <!-- Example: Media.net -->
+      <div id="mnet_ads_container"></div>
+      <script type="text/javascript">
+        (function() {
+          var script = document.createElement('script');
+          script.src = 'https://contextual.media.net/dmed.js?cid=YOUR_CUSTOMER_ID';
+          script.async = true;
+          document.head.appendChild(script);
+        })();
+      </script>
+    `,
+    enabled: false,
+  },
+  */
 ];
 
 /**
