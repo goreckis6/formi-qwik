@@ -1,30 +1,37 @@
 /**
- * Ads Configuration
- * 
+ * Global Ads Configuration
+ *
  * Add your ad codes here. The system will automatically load them
- * into ad placeholders on pages that use the AdsPlaceholder component.
- * 
+ * into ad placeholders on ALL pages that use the AdsPlaceholder component.
+ *
  * Format:
- * - key: unique identifier (e.g., 'heic-to-pdf-top')
- * - selector: CSS selector for the ad container
+ * - position: 'top' or 'bottom' - where the ad appears
  * - code: HTML/JavaScript code for the ad (will be injected)
  * - enabled: whether this ad is active
  */
 
 export interface AdConfig {
-  key: string;
-  selector: string;
+  position: 'top' | 'bottom';
   code: string;
   enabled: boolean;
 }
 
+/**
+ * Global ads toggle
+ * Set to false to disable all ads and hide all placeholders site-wide
+ */
+export const ADS_ENABLED = true; // Set to false to disable all ads globally
+
+/**
+ * Global ads configuration
+ * These ads will be loaded on ALL pages with ad placeholders
+ */
 export const adsConfig: AdConfig[] = [
   // ============================================
-  // HEIC to PDF - Top Ad (Above Upload Area)
+  // Top Ad (Above Upload/Content Area)
   // ============================================
   {
-    key: 'heic-to-pdf-top',
-    selector: '[data-ad-position="top"]',
+    position: 'top',
     code: `
       <!-- Google AdSense - Responsive Display Ad -->
       <!-- Replace ca-pub-XXXXXXXXXX with your AdSense Publisher ID -->
@@ -43,13 +50,12 @@ export const adsConfig: AdConfig[] = [
     `,
     enabled: false, // Set to true when you have real ad code
   },
-  
+
   // ============================================
-  // HEIC to PDF - Bottom Ad (Below Upload Area)
+  // Bottom Ad (Below Upload/Content Area)
   // ============================================
   {
-    key: 'heic-to-pdf-bottom',
-    selector: '[data-ad-position="bottom"]',
+    position: 'bottom',
     code: `
       <!-- Google AdSense - Responsive Display Ad -->
       <!-- Replace ca-pub-XXXXXXXXXX with your AdSense Publisher ID -->
@@ -75,8 +81,7 @@ export const adsConfig: AdConfig[] = [
   // Uncomment and use this if you prefer fixed-size ads
   /*
   {
-    key: 'heic-to-pdf-top-fixed',
-    selector: '[data-ad-position="top"]',
+    position: 'top',
     code: `
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
            crossorigin="anonymous"></script>
@@ -97,8 +102,7 @@ export const adsConfig: AdConfig[] = [
   // ============================================
   /*
   {
-    key: 'heic-to-pdf-in-article',
-    selector: '[data-ad-position="top"]',
+    position: 'top',
     code: `
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
            crossorigin="anonymous"></script>
@@ -121,8 +125,7 @@ export const adsConfig: AdConfig[] = [
   // ============================================
   /*
   {
-    key: 'heic-to-pdf-custom',
-    selector: '[data-ad-position="top"]',
+    position: 'top',
     code: `
       <!-- Example: Media.net -->
       <div id="mnet_ads_container"></div>
@@ -141,49 +144,110 @@ export const adsConfig: AdConfig[] = [
 ];
 
 /**
- * Initialize ads for a specific page
- * Call this function in useVisibleTask$ on pages with ad placeholders
+ * Check if ads are enabled globally
  */
-export const initializeAds = (pageKey: string) => {
-  if (typeof window === 'undefined') return;
+export const areAdsEnabled = (): boolean => {
+  return ADS_ENABLED && adsConfig.some((ad) => ad.enabled);
+};
 
-  const pageAds = adsConfig.filter(
-    ad => ad.key.startsWith(pageKey) && ad.enabled
-  );
+/**
+ * Check if there's an enabled ad for a specific position
+ */
+export const hasEnabledAdForPosition = (position: 'top' | 'bottom'): boolean => {
+  if (!ADS_ENABLED) return false;
+  return adsConfig.some((ad) => ad.position === position && ad.enabled);
+};
 
-  pageAds.forEach(ad => {
+/**
+ * Initialize ads globally
+ * Call this function in useVisibleTask$ on pages with ad placeholders
+ * Works for ALL pages - no pageKey needed
+ */
+export const initializeAds = () => {
+  if (typeof window === "undefined") return;
+  
+  if (!ADS_ENABLED) {
+    // Hide all placeholders if ads are globally disabled
+    hidePlaceholders();
+    return;
+  }
+
+  // Initialize ads for each position
+  (['top', 'bottom'] as const).forEach((position) => {
+    const ad = adsConfig.find((a) => a.position === position && a.enabled);
+    
+    if (!ad) {
+      // No enabled ad for this position - hide placeholders
+      hidePlaceholdersForPosition(position);
+      return;
+    }
+
     // Use setTimeout to ensure DOM is ready
     setTimeout(() => {
-      const container = document.querySelector(ad.selector);
-      if (container && container.querySelector('svg')) {
-        // Only inject if placeholder is still showing (not already replaced)
-        // Create a wrapper div and inject the ad code
-        const wrapper = document.createElement('div');
-        wrapper.innerHTML = ad.code.trim();
-        container.innerHTML = '';
-        container.appendChild(wrapper);
-        
-        // Execute any scripts in the injected code
-        const scripts = wrapper.querySelectorAll('script');
-        scripts.forEach(oldScript => {
-          const newScript = document.createElement('script');
-          if (oldScript.src) {
-            newScript.src = oldScript.src;
-          }
-          if (oldScript.innerHTML) {
-            newScript.innerHTML = oldScript.innerHTML;
-          }
-          if (oldScript.async) {
-            newScript.async = true;
-          }
-          if (oldScript.defer) {
-            newScript.defer = true;
-          }
-          // Remove old script and add new one
-          oldScript.remove();
-          document.head.appendChild(newScript);
-        });
-      }
+      const containers = document.querySelectorAll(`[data-ad-position="${position}"]`);
+      containers.forEach((container) => {
+        if (container.querySelector("svg")) {
+          // Only inject if placeholder is still showing (not already replaced)
+          // Create a wrapper div and inject the ad code
+          const wrapper = document.createElement("div");
+          wrapper.innerHTML = ad.code.trim();
+          container.innerHTML = "";
+          container.appendChild(wrapper);
+
+          // Execute any scripts in the injected code
+          const scripts = wrapper.querySelectorAll("script");
+          scripts.forEach((oldScript) => {
+            const newScript = document.createElement("script");
+            if (oldScript.src) {
+              newScript.src = oldScript.src;
+            }
+            if (oldScript.innerHTML) {
+              newScript.innerHTML = oldScript.innerHTML;
+            }
+            if (oldScript.async) {
+              newScript.async = true;
+            }
+            if (oldScript.defer) {
+              newScript.defer = true;
+            }
+            // Remove old script and add new one
+            oldScript.remove();
+            document.head.appendChild(newScript);
+          });
+        }
+      });
     }, 100);
   });
+};
+
+/**
+ * Hide all ad placeholders
+ */
+const hidePlaceholders = () => {
+  if (typeof window === "undefined") return;
+  setTimeout(() => {
+    const placeholders = document.querySelectorAll('[data-ad-position]');
+    placeholders.forEach((placeholder) => {
+      const container = placeholder.closest('.ads-container') as HTMLElement;
+      if (container) {
+        container.style.display = 'none';
+      }
+    });
+  }, 100);
+};
+
+/**
+ * Hide placeholders for a specific position
+ */
+const hidePlaceholdersForPosition = (position: 'top' | 'bottom') => {
+  if (typeof window === "undefined") return;
+  setTimeout(() => {
+    const placeholders = document.querySelectorAll(`[data-ad-position="${position}"]`);
+    placeholders.forEach((placeholder) => {
+      const container = placeholder.closest('.ads-container') as HTMLElement;
+      if (container) {
+        container.style.display = 'none';
+      }
+    });
+  }, 100);
 };

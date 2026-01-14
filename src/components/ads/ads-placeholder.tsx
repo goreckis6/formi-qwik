@@ -1,4 +1,5 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
+import { ADS_ENABLED, hasEnabledAdForPosition } from "~/lib/ads-config";
 
 interface AdsPlaceholderProps {
   position: 'top' | 'bottom';
@@ -6,6 +7,25 @@ interface AdsPlaceholderProps {
 }
 
 export const AdsPlaceholder = component$<AdsPlaceholderProps>((props) => {
+  const shouldShow = useSignal(true);
+
+  useVisibleTask$(() => {
+    // Check if ads are globally disabled
+    if (!ADS_ENABLED) {
+      shouldShow.value = false;
+      return;
+    }
+
+    // Check if there's an enabled ad for this position
+    const hasAd = hasEnabledAdForPosition(props.position);
+    shouldShow.value = hasAd;
+  });
+
+  // Don't render if ads are disabled or no ad for this position
+  if (!shouldShow.value) {
+    return null;
+  }
+
   return (
     <div class={`ads-container ads-${props.position} ${props.className || ''}`}>
       {/* Ad placeholder - will be replaced by ad script */}

@@ -348,9 +348,9 @@ export default component$(() => {
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
   };
 
-  // Initialize ads when component is visible
+  // Initialize ads globally when component is visible
   useVisibleTask$(() => {
-    initializeAds('heic-to-pdf');
+    initializeAds();
   });
 
   return (
