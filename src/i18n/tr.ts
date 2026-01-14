@@ -117,6 +117,7 @@ export const tr: Translations = {
     title: 'Dosya Dönüştürücüleri',
     subtitle: '300+ dosya formatı arasında anında dönüştürün',
     searchPlaceholder: 'Dönüştürücü ara... (örn., HEIC\'den PDF\'e)',
+    noConvertersFound: 'Eşleşen dönüştürücü bulunamadı',
     heicToPdf: {
       name: 'HEIC\'den PDF\'e',
       description: 'Apple HEIC fotoğraflarını PDF formatına anında dönüştürün',
@@ -231,6 +232,120 @@ export const tr: Translations = {
     footer: {
       tagline: 'Profesyoneller ve günlük kullanıcılar için nihai dosya dönüştürme ve görüntüleme platformu.',
       security: '%100 Güvenli: Sunucularımızda hiçbir dosya saklanmaz. Tüm dönüştürmeler işlenir ve dosyalar işlendikten hemen sonra otomatik olarak silinir.',
+      copyright: '© 2025 FormiPeek',
+      madeWith: 'İle oluşturuldu',
+      byDevelopers: 'kaliteye önem veren geliştiriciler tarafından.',
+    },
+  },
+  
+  heicToPng: {
+    title: 'HEIC\'den PNG\'ye Dönüştürücü - Apple Fotoğraflarını PNG\'ye Ücretsiz Çevrimiçi Dönüştür',
+    metaDescription: 'HEIC görüntülerini anında PNG formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIC\'den PNG\'ye dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. iPhone ve iPad fotoğraflarıyla çalışır.',
+    metaKeywords: 'HEIC\'den PNG\'ye, HEIC dönüştür, Apple fotoğrafları PNG\'ye, iPhone fotoğrafları PNG\'ye, HEIC dönüştürücü, görüntü PNG\'ye, toplu HEIC dönüştür, ücretsiz HEIC dönüştürücü',
+    
+    hero: {
+      title: 'HEIC\'den PNG\'ye Dönüştürücü',
+      subtitle: 'Apple HEIC fotoğraflarınızı anında evrensel PNG görüntülerine dönüştürün. Dosya boyutu sınırı olmayan ücretsiz, hızlı ve güvenli dönüştürme.',
+      badge1: 'Yıldırım Hızında',
+      badge2: '%100 Güvenli',
+      badge3: 'Kayıt Yok',
+    },
+    
+    upload: {
+      title: 'HEIC Dosyalarını Yükle',
+      description: 'HEIC fotoğraflarınızı buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürme destekler. Dosya başına maksimum 100MB.',
+      buttonSingle: 'Tek Dosya',
+      buttonBatch: 'Toplu Dönüştür',
+      chooseFile: 'Dosya Seç',
+      converting: 'Dönüştürülüyor...',
+      success: 'Dönüştürme başarılı!',
+      download: 'PNG İndir',
+      downloadAll: 'Tümünü ZIP Olarak İndir',
+      convertAnother: 'Başka Dosya Dönüştür',
+    },
+    
+    features: {
+      title: 'Özellikler',
+      list: [
+        'Yüksek kaliteli HEIC\'den PNG\'ye dönüştürme',
+        '20 dosyaya kadar toplu işleme',
+        'Görüntü kalitesini ve şeffaflığı korur',
+        'Dosya boyutu sınırlaması yok',
+        '%100 güvenli ve özel',
+        'iPhone ve iPad fotoğraflarıyla çalışır',
+        'Dönüştürmeden sonra anında indirme',
+        'Filigran eklenmez',
+      ],
+    },
+    
+    howItWorks: {
+      title: 'Nasıl Çalışır',
+      step1Title: 'HEIC Dosyalarını Yükle',
+      step1Desc: 'Cihazınızdan bir veya birden fazla HEIC fotoğrafı seçin',
+      step2Title: 'Otomatik Dönüştürme',
+      step2Desc: 'Dönüştürücümüz dosyalarınızı anında işler',
+      step3Title: 'PNG İndir',
+      step3Desc: 'Dönüştürülmüş PNG dosyalarınızı hemen alın',
+    },
+    
+    about: {
+      title: 'HEIC\'den PNG\'ye Dönüştürme Hakkında',
+      whatIsHeic: {
+        title: 'HEIC Formatı Nedir?',
+        content: 'HEIC (High Efficiency Image Container), iOS 11\'den bu yana Apple cihazları tarafından kullanılan varsayılan foto formatıdır. Yüksek görüntü kalitesini korurken üstün sıkıştırma sunar, böylece fotoğraflar iPhone veya iPad\'inizde daha az depolama alanı kaplar.',
+      },
+      whyConvert: {
+        title: 'Neden HEIC\'yi PNG\'ye Dönüştürmeliyim?',
+        content: 'HEIC verimli olsa da, evrensel olarak desteklenmez. PNG\'ye dönüştürmek, fotoğraflarınızın herhangi bir cihazda görüntülenebilmesini, e-posta ile kolayca paylaşılabilmesini ve web tasarımı ve grafiklerde kullanılabilmesini sağlar. PNG formatı şeffaflık ve kayıpsız sıkıştırmayı destekler, bu da onu profesyonel kullanım için ideal kılar.',
+      },
+      benefits: {
+        title: 'Dönüştürücümüzün Avantajları',
+        list: [
+          'Evrensel Uyumluluk - PNG\'ler tüm cihazlarda ve platformlarda çalışır',
+          'Şeffaflık Desteği - Grafik ve web tasarımı için mükemmel',
+          'Kayıpsız Kalite - Sıkıştırma artefaktları veya kalite kaybı yok',
+          'Kolay Paylaşım - Herkesin açabileceği yaygın olarak desteklenen format',
+          'Web Hazır - Web siteleri, sosyal medya ve çevrimiçi kullanım için ideal',
+          'Kalite Kaybı Yok - Orijinal görüntü çözünürlüğünü korur',
+        ],
+      },
+    },
+    
+    faq: {
+      title: 'Sık Sorulan Sorular',
+      q1: 'HEIC\'yi PNG\'ye dönüştürmek ücretsiz mi?',
+      a1: 'Evet! HEIC\'den PNG\'ye dönüştürücümüz tamamen ücretsizdir ve gizli ücret yoktur. Herhangi bir kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.',
+      q2: 'Verilerim güvende mi?',
+      a2: 'Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamaz, paylaşmaz veya erişmeyiz.',
+      q3: 'Maksimum dosya boyutu nedir?',
+      a3: 'Her biri 100MB\'a kadar HEIC dosyası dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limitiyle aynı anda 20 dosyaya kadar işleyebilirsiniz.',
+      q4: 'Toplu dönüştürmeyi destekliyor musunuz?',
+      a4: 'Evet! Aynı anda 20 HEIC dosyasına kadar yükleyebilir ve dönüştürebilirsiniz. Dönüştürülmüş tüm PNG\'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.',
+      q5: 'Kalite korunacak mı?',
+      a5: 'Evet, dönüştürme sırasında orijinal görüntü kalitesini koruyoruz. HEIC fotoğraflarınız sıkıştırma veya kalite kaybı olmadan yüksek çözünürlüklü PNG\'lere dönüştürülecektir.',
+      q6: 'HEIC\'yi doğrudan iPhone\'dan dönüştürebilir miyim?',
+      a6: 'Evet! Dönüştürücümüz iPhone, iPad veya herhangi bir Apple cihazında çekilmiş fotoğraflarla mükemmel çalışır. Sadece kamera galerinizden HEIC dosyalarınızı yükleyin.',
+      q7: 'Herhangi bir yazılım yüklemem gerekiyor mu?',
+      a7: 'Kurulum gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android\'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.',
+      q8: 'Dönüştürme ne kadar sürer?',
+      a8: 'Dönüştürme neredeyse anında! Çoğu HEIC dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde PNG\'ye dönüştürülür.',
+    },
+    
+    related: {
+      title: 'İlgili Dönüştürücüler',
+      converters: [
+        { name: 'HEIC\'den PDF\'e', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC\'den JPG\'ye', url: '/convert/heic-to-jpg' },
+        { name: 'PNG\'den PDF\'e', url: '/convert/png-to-pdf' },
+        { name: 'JPG\'den PNG\'ye', url: '/convert/jpg-to-png' },
+        { name: 'WEBP\'den PNG\'ye', url: '/convert/webp-to-png' },
+        { name: 'HEIC\'den WEBP\'ye', url: '/convert/heic-to-webp' },
+      ],
+    },
+    
+    footer: {
+      tagline: 'Profesyoneller ve günlük kullanıcılar için nihai dosya dönüştürme ve görüntüleme platformu.',
+      security: '%100 Güvenli: Sunucularımızda hiçbir dosya saklanmaz. Tüm dönüştürmeler işlenir ve dosyalar işlemeden hemen sonra otomatik olarak silinir.',
       copyright: '© 2025 FormiPeek',
       madeWith: 'İle oluşturuldu',
       byDevelopers: 'kaliteye önem veren geliştiriciler tarafından.',

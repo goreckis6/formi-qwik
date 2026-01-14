@@ -117,9 +117,14 @@ export const it: Translations = {
     title: 'Convertitori di File',
     subtitle: 'Converti tra 300+ formati di file istantaneamente',
     searchPlaceholder: 'Cerca convertitori... (es. HEIC a PDF)',
+    noConvertersFound: 'Nessun convertitore trovato corrispondente a',
     heicToPdf: {
       name: 'HEIC a PDF',
       description: 'Converti foto Apple HEIC in formato PDF istantaneamente',
+    },
+    heicToPng: {
+      name: 'HEIC a PNG',
+      description: 'Converti foto Apple HEIC in formato PNG istantaneamente',
     },
   },
   
@@ -230,6 +235,120 @@ export const it: Translations = {
     
     footer: {
       tagline: 'La piattaforma definitiva per la conversione e visualizzazione di file per professionisti e utenti quotidiani.',
+      security: '100% Sicuro: Nessun file viene memorizzato sui nostri server. Tutte le conversioni vengono elaborate e i file vengono eliminati automaticamente immediatamente dopo l\'elaborazione.',
+      copyright: '© 2025 FormiPeek',
+      madeWith: 'Realizzato con',
+      byDevelopers: 'da sviluppatori che si preoccupano della qualità.',
+    },
+  },
+  
+  heicToPng: {
+    title: 'Convertitore da HEIC a PNG - Converti Foto Apple in PNG Gratis Online',
+    metaDescription: 'Converti immagini HEIC in formato PNG istantaneamente. Convertitore gratuito online da HEIC a PNG con elaborazione batch. Veloce, sicuro e senza registrazione richiesta. Funziona con foto iPhone e iPad.',
+    metaKeywords: 'HEIC a PNG, convertire HEIC, foto Apple a PNG, foto iPhone a PNG, convertitore HEIC, immagine a PNG, conversione batch HEIC, convertitore HEIC gratuito',
+    
+    hero: {
+      title: 'Convertitore da HEIC a PNG',
+      subtitle: 'Trasforma le tue foto HEIC Apple in immagini PNG universali istantaneamente. Conversione gratuita, veloce e sicura senza limiti di dimensione file.',
+      badge1: 'Super Veloce',
+      badge2: '100% Sicuro',
+      badge3: 'Senza Registrazione',
+    },
+    
+    upload: {
+      title: 'Carica File HEIC',
+      description: 'Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.',
+      buttonSingle: 'File Singolo',
+      buttonBatch: 'Conversione Batch',
+      chooseFile: 'Scegli File',
+      converting: 'Conversione in corso...',
+      success: 'Conversione riuscita!',
+      download: 'Scarica PNG',
+      downloadAll: 'Scarica Tutto come ZIP',
+      convertAnother: 'Converti Altro File',
+    },
+    
+    features: {
+      title: 'Caratteristiche',
+      list: [
+        'Conversione HEIC a PNG di alta qualità',
+        'Elaborazione batch fino a 20 file',
+        'Preserva qualità immagine e trasparenza',
+        'Nessun limite di dimensione file',
+        '100% sicuro e privato',
+        'Funziona con foto iPhone e iPad',
+        'Download istantaneo dopo la conversione',
+        'Nessuna filigrana aggiunta',
+      ],
+    },
+    
+    howItWorks: {
+      title: 'Come Funziona',
+      step1Title: 'Carica File HEIC',
+      step1Desc: 'Seleziona una o più foto HEIC dal tuo dispositivo',
+      step2Title: 'Conversione Automatica',
+      step2Desc: 'Il nostro convertitore elabora i tuoi file istantaneamente',
+      step3Title: 'Scarica PNG',
+      step3Desc: 'Ottieni i tuoi file PNG convertiti immediatamente',
+    },
+    
+    about: {
+      title: 'Informazioni sulla Conversione HEIC a PNG',
+      whatIsHeic: {
+        title: 'Cos\'è il Formato HEIC?',
+        content: 'HEIC (High Efficiency Image Container) è il formato foto predefinito utilizzato dai dispositivi Apple da iOS 11. Offre una compressione superiore mantenendo un\'alta qualità dell\'immagine, facendo sì che le foto occupino meno spazio di archiviazione sul tuo iPhone o iPad.',
+      },
+      whyConvert: {
+        title: 'Perché Convertire HEIC a PNG?',
+        content: 'Sebbene HEIC sia efficiente, non è universalmente supportato. La conversione in PNG garantisce che le tue foto possano essere visualizzate su qualsiasi dispositivo, facilmente condivise via email e utilizzate nel web design e nella grafica. Il formato PNG supporta la trasparenza e la compressione senza perdita, rendendolo ideale per l\'uso professionale.',
+      },
+      benefits: {
+        title: 'Vantaggi del Nostro Convertitore',
+        list: [
+          'Compatibilità Universale - I PNG funzionano su tutti i dispositivi e le piattaforme',
+          'Supporto Trasparenza - Perfetto per grafica e web design',
+          'Qualità Senza Perdita - Nessun artefatto di compressione o perdita di qualità',
+          'Condivisione Facile - Formato ampiamente supportato che chiunque può aprire',
+          'Pronto per il Web - Ideale per siti web, social media e uso online',
+          'Nessuna Perdita di Qualità - Preserva la risoluzione originale dell\'immagine',
+        ],
+      },
+    },
+    
+    faq: {
+      title: 'Domande Frequenti',
+      q1: 'È gratuito convertire HEIC a PNG?',
+      a1: 'Sì! Il nostro convertitore HEIC a PNG è completamente gratuito senza costi nascosti. Puoi convertire file illimitati senza registrazione o abbonamento.',
+      q2: 'I miei dati sono al sicuro?',
+      a2: 'Assolutamente. Tutte le conversioni avvengono in modo sicuro sui nostri server con crittografia SSL. I tuoi file vengono eliminati automaticamente immediatamente dopo la conversione. Non memorizziamo, condividiamo o accediamo mai ai tuoi file.',
+      q3: 'Qual è la dimensione massima del file?',
+      a3: 'Puoi convertire file HEIC fino a 100MB ciascuno. Per la conversione batch, puoi elaborare fino a 20 file alla volta con un limite totale di 100MB.',
+      q4: 'Supportate la conversione batch?',
+      a4: 'Sì! Puoi caricare e convertire fino a 20 file HEIC contemporaneamente. Tutti i PNG convertiti saranno disponibili per il download come file individuali o in un singolo archivio ZIP.',
+      q5: 'La qualità sarà preservata?',
+      a5: 'Sì, manteniamo la qualità originale dell\'immagine durante la conversione. Le tue foto HEIC saranno convertite in PNG ad alta risoluzione senza compressione o perdita di qualità.',
+      q6: 'Posso convertire HEIC direttamente da iPhone?',
+      a6: 'Sì! Il nostro convertitore funziona perfettamente con foto scattate su iPhone, iPad o qualsiasi dispositivo Apple. Carica semplicemente i tuoi file HEIC dalla tua galleria.',
+      q7: 'Devo installare software?',
+      a7: 'Nessuna installazione necessaria. Il nostro convertitore online funziona direttamente nel tuo browser web su qualsiasi dispositivo - Windows, Mac, Linux, iOS o Android.',
+      q8: 'Quanto tempo richiede la conversione?',
+      a8: 'La conversione è quasi istantanea! La maggior parte dei file HEIC si converte in PNG in pochi secondi, a seconda della dimensione del file e della tua connessione Internet.',
+    },
+    
+    related: {
+      title: 'Convertitori Correlati',
+      converters: [
+        { name: 'HEIC a PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC a JPG', url: '/convert/heic-to-jpg' },
+        { name: 'PNG a PDF', url: '/convert/png-to-pdf' },
+        { name: 'JPG a PNG', url: '/convert/jpg-to-png' },
+        { name: 'WEBP a PNG', url: '/convert/webp-to-png' },
+        { name: 'HEIC a WEBP', url: '/convert/heic-to-webp' },
+      ],
+    },
+    
+    footer: {
+      tagline: 'La piattaforma definitiva per la conversione e la visualizzazione di file per professionisti e utenti quotidiani.',
       security: '100% Sicuro: Nessun file viene memorizzato sui nostri server. Tutte le conversioni vengono elaborate e i file vengono eliminati automaticamente immediatamente dopo l\'elaborazione.',
       copyright: '© 2025 FormiPeek',
       madeWith: 'Realizzato con',

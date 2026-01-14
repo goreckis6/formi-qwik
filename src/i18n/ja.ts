@@ -117,9 +117,14 @@ export const ja: Translations = {
     title: 'ファイルコンバーター',
     subtitle: '300以上のファイル形式を瞬時に変換',
     searchPlaceholder: 'コンバーターを検索... (例: HEIC to PDF)',
+    noConvertersFound: '一致するコンバーターが見つかりません',
     heicToPdf: {
       name: 'HEIC to PDF',
       description: 'Apple HEIC写真をPDF形式に瞬時に変換',
+    },
+    heicToPng: {
+      name: 'HEIC to PNG',
+      description: 'Apple HEIC写真をPNG形式に瞬時に変換',
     },
   },
   
@@ -230,6 +235,120 @@ export const ja: Translations = {
     
     footer: {
       tagline: 'プロフェッショナルと一般ユーザーのための究極のファイル変換および表示プラットフォーム。',
+      security: '100%安全：ファイルはサーバーに保存されません。すべての変換が処理され、ファイルは処理後すぐに自動的に削除されます。',
+      copyright: '© 2025 FormiPeek',
+      madeWith: '作成',
+      byDevelopers: '品質を重視する開発者による。',
+    },
+  },
+  
+  heicToPng: {
+    title: 'HEICからPNGへのコンバーター - Apple写真をPNGに無料でオンライン変換',
+    metaDescription: 'HEIC画像をPNG形式に即座に変換。一括処理対応の無料オンラインHEICからPNGへのコンバーター。高速、安全、登録不要。iPhoneとiPadの写真に対応。',
+    metaKeywords: 'HEICからPNG, HEIC変換, Apple写真をPNG, iPhone写真をPNG, HEICコンバーター, 画像をPNG, 一括変換HEIC, 無料HEICコンバーター',
+    
+    hero: {
+      title: 'HEICからPNGへのコンバーター',
+      subtitle: 'Apple HEIC写真を汎用PNG画像に瞬時に変換。ファイルサイズ制限なしの無料、高速、安全な変換。',
+      badge1: '超高速',
+      badge2: '100%安全',
+      badge3: '登録不要',
+    },
+    
+    upload: {
+      title: 'HEICファイルをアップロード',
+      description: 'HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。',
+      buttonSingle: '単一ファイル',
+      buttonBatch: '一括変換',
+      chooseFile: 'ファイルを選択',
+      converting: '変換中...',
+      success: '変換成功！',
+      download: 'PNGをダウンロード',
+      downloadAll: 'すべてZIPとしてダウンロード',
+      convertAnother: '別のファイルを変換',
+    },
+    
+    features: {
+      title: '機能',
+      list: [
+        '高品質なHEICからPNGへの変換',
+        '最大20ファイルの一括処理',
+        '画像品質と透明度を保持',
+        'ファイルサイズ制限なし',
+        '100%安全でプライベート',
+        'iPhoneとiPadの写真に対応',
+        '変換後即座にダウンロード',
+        '透かしなし',
+      ],
+    },
+    
+    howItWorks: {
+      title: '使い方',
+      step1Title: 'HEICファイルをアップロード',
+      step1Desc: 'デバイスから1つまたは複数のHEIC写真を選択',
+      step2Title: '自動変換',
+      step2Desc: 'コンバーターがファイルを即座に処理',
+      step3Title: 'PNGをダウンロード',
+      step3Desc: '変換されたPNGファイルをすぐに取得',
+    },
+    
+    about: {
+      title: 'HEICからPNGへの変換について',
+      whatIsHeic: {
+        title: 'HEIC形式とは？',
+        content: 'HEIC（High Efficiency Image Container）は、iOS 11以降のAppleデバイスで使用されるデフォルトの写真形式です。高画質を維持しながら優れた圧縮を提供し、iPhoneやiPadで写真が占めるストレージスペースを削減します。',
+      },
+      whyConvert: {
+        title: 'なぜHEICをPNGに変換するのか？',
+        content: 'HEICは効率的ですが、普遍的にサポートされているわけではありません。PNGへの変換により、写真をあらゆるデバイスで表示でき、メールで簡単に共有でき、ウェブデザインやグラフィックで使用できます。PNG形式は透明度と可逆圧縮をサポートしており、プロフェッショナルな使用に最適です。',
+      },
+      benefits: {
+        title: 'コンバーターの利点',
+        list: [
+          '汎用互換性 - PNGはすべてのデバイスとプラットフォームで動作',
+          '透明度サポート - グラフィックとウェブデザインに最適',
+          '可逆品質 - 圧縮アーティファクトや品質低下なし',
+          '簡単共有 - 誰でも開ける広くサポートされた形式',
+          'ウェブ対応 - ウェブサイト、ソーシャルメディア、オンライン使用に最適',
+          '品質低下なし - 元の画像解像度を保持',
+        ],
+      },
+    },
+    
+    faq: {
+      title: 'よくある質問',
+      q1: 'HEICをPNGに変換するのは無料ですか？',
+      a1: 'はい！HEICからPNGへのコンバーターは完全に無料で、隠れた費用はありません。登録やサブスクリプションなしで無制限にファイルを変換できます。',
+      q2: 'データは安全ですか？',
+      a2: '絶対に安全です。すべての変換はSSL暗号化を使用してサーバー上で安全に実行されます。ファイルは変換後すぐに自動的に削除されます。ファイルを保存、共有、またはアクセスすることはありません。',
+      q3: '最大ファイルサイズは？',
+      a3: 'HEICファイルはそれぞれ最大100MBまで変換できます。一括変換では、合計100MBの制限で最大20ファイルを一度に処理できます。',
+      q4: '一括変換はサポートしていますか？',
+      a4: 'はい！最大20個のHEICファイルを同時にアップロードして変換できます。変換されたすべてのPNGは、個別ファイルまたは単一のZIPアーカイブとしてダウンロードできます。',
+      q5: '品質は保持されますか？',
+      a5: 'はい、変換中に元の画像品質を保持します。HEIC写真は圧縮や品質低下なしで高解像度PNGに変換されます。',
+      q6: 'iPhoneから直接HEICを変換できますか？',
+      a6: 'はい！コンバーターはiPhone、iPad、または任意のAppleデバイスで撮影された写真で完璧に動作します。カメラロールからHEICファイルをアップロードするだけです。',
+      q7: 'ソフトウェアをインストールする必要がありますか？',
+      a7: 'インストールは不要です。オンラインコンバーターは、Windows、Mac、Linux、iOS、またはAndroidの任意のデバイスのウェブブラウザで直接動作します。',
+      q8: '変換にはどのくらい時間がかかりますか？',
+      a8: '変換はほぼ瞬時です！ほとんどのHEICファイルは、ファイルサイズとインターネット接続に応じて、わずか数秒でPNGに変換されます。',
+    },
+    
+    related: {
+      title: '関連コンバーター',
+      converters: [
+        { name: 'HEIC to PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC to JPG', url: '/convert/heic-to-jpg' },
+        { name: 'PNG to PDF', url: '/convert/png-to-pdf' },
+        { name: 'JPG to PNG', url: '/convert/jpg-to-png' },
+        { name: 'WEBP to PNG', url: '/convert/webp-to-png' },
+        { name: 'HEIC to WEBP', url: '/convert/heic-to-webp' },
+      ],
+    },
+    
+    footer: {
+      tagline: 'プロフェッショナルと日常ユーザーのための究極のファイル変換と表示プラットフォーム。',
       security: '100%安全：ファイルはサーバーに保存されません。すべての変換が処理され、ファイルは処理後すぐに自動的に削除されます。',
       copyright: '© 2025 FormiPeek',
       madeWith: '作成',

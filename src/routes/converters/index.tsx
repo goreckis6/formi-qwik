@@ -29,6 +29,11 @@ export default component$(() => {
       description: converters.heicToPdf.description,
       href: getLocalizedPath('/convert/heic-to-pdf', locale),
     },
+    {
+      name: converters.heicToPng.name,
+      description: converters.heicToPng.description,
+      href: getLocalizedPath('/convert/heic-to-png', locale),
+    },
   ];
   
   const filteredConverters = useComputed$(() => {
@@ -101,7 +106,7 @@ export default component$(() => {
             ))
           ) : (
             <div class="text-center py-12 sm:py-16">
-              <p class="text-gray-600 text-base sm:text-lg md:text-xl">No converters found matching "{searchQuery.value}"</p>
+              <p class="text-gray-600 text-base sm:text-lg md:text-xl">{converters.noConvertersFound} "{searchQuery.value}"</p>
             </div>
           )}
         </div>

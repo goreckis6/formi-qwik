@@ -117,9 +117,14 @@ export const zh: Translations = {
     title: '文件转换器',
     subtitle: '在300+种文件格式之间即时转换',
     searchPlaceholder: '搜索转换器... (例如：HEIC转PDF)',
+    noConvertersFound: '未找到匹配的转换器',
     heicToPdf: {
       name: 'HEIC转PDF',
       description: '即时将Apple HEIC照片转换为PDF格式',
+    },
+    heicToPng: {
+      name: 'HEIC转PNG',
+      description: '即时将Apple HEIC照片转换为PNG格式',
     },
   },
   
@@ -231,6 +236,120 @@ export const zh: Translations = {
     footer: {
       tagline: '面向专业人士和日常用户的终极文件转换和查看平台。',
       security: '100%安全：我们的服务器上不存储任何文件。所有转换都会处理，文件在处理后立即自动删除。',
+      copyright: '© 2025 FormiPeek',
+      madeWith: '使用',
+      byDevelopers: '由关心质量的开发人员构建。',
+    },
+  },
+  
+  heicToPng: {
+    title: 'HEIC转PNG转换器 - 免费在线将Apple照片转换为PNG',
+    metaDescription: '即时将HEIC图像转换为PNG格式。免费在线HEIC转PNG转换器，支持批量处理。快速、安全且无需注册。适用于iPhone和iPad照片。',
+    metaKeywords: 'HEIC转PNG, 转换HEIC, Apple照片转PNG, iPhone照片转PNG, HEIC转换器, 图像转PNG, 批量转换HEIC, 免费HEIC转换器',
+    
+    hero: {
+      title: 'HEIC转PNG转换器',
+      subtitle: '即时将您的Apple HEIC照片转换为通用PNG图像。免费、快速且安全的转换，无文件大小限制。',
+      badge1: '超快',
+      badge2: '100%安全',
+      badge3: '无需注册',
+    },
+    
+    upload: {
+      title: '上传HEIC文件',
+      description: '将您的HEIC照片拖放到此处或点击浏览。支持批量转换，最多20个文件。每个文件最大100MB。',
+      buttonSingle: '单个文件',
+      buttonBatch: '批量转换',
+      chooseFile: '选择文件',
+      converting: '转换中...',
+      success: '转换成功！',
+      download: '下载PNG',
+      downloadAll: '全部下载为ZIP',
+      convertAnother: '转换另一个文件',
+    },
+    
+    features: {
+      title: '功能',
+      list: [
+        '高质量HEIC转PNG转换',
+        '批量处理最多20个文件',
+        '保持图像质量和透明度',
+        '无文件大小限制',
+        '100%安全私密',
+        '适用于iPhone和iPad照片',
+        '转换后即时下载',
+        '不添加水印',
+      ],
+    },
+    
+    howItWorks: {
+      title: '工作原理',
+      step1Title: '上传HEIC文件',
+      step1Desc: '从设备中选择一个或多个HEIC照片',
+      step2Title: '自动转换',
+      step2Desc: '我们的转换器即时处理您的文件',
+      step3Title: '下载PNG',
+      step3Desc: '立即获取转换后的PNG文件',
+    },
+    
+    about: {
+      title: '关于HEIC转PNG转换',
+      whatIsHeic: {
+        title: '什么是HEIC格式？',
+        content: 'HEIC（高效图像容器）是自iOS 11以来Apple设备使用的默认照片格式。它在保持高图像质量的同时提供卓越的压缩，使照片在iPhone或iPad上占用更少的存储空间。',
+      },
+      whyConvert: {
+        title: '为什么将HEIC转换为PNG？',
+        content: '虽然HEIC很高效，但它并不被普遍支持。转换为PNG可确保您的照片可以在任何设备上查看，轻松通过电子邮件分享，并在网页设计和图形中使用。PNG格式支持透明度和无损压缩，非常适合专业使用。',
+      },
+      benefits: {
+        title: '我们转换器的优势',
+        list: [
+          '通用兼容性 - PNG在所有设备和平台上都能工作',
+          '透明度支持 - 非常适合图形和网页设计',
+          '无损质量 - 无压缩伪影或质量损失',
+          '易于分享 - 广泛支持的格式，任何人都可以打开',
+          '网页就绪 - 非常适合网站、社交媒体和在线使用',
+          '无质量损失 - 保持原始图像分辨率',
+        ],
+      },
+    },
+    
+    faq: {
+      title: '常见问题',
+      q1: '将HEIC转换为PNG是否免费？',
+      a1: '是的！我们的HEIC转PNG转换器完全免费，无隐藏费用。您可以无限制地转换文件，无需注册或订阅。',
+      q2: '我的数据安全吗？',
+      a2: '绝对安全。所有转换都在我们的服务器上通过SSL加密安全进行。您的文件在转换后立即自动删除。我们从不存储、共享或访问您的文件。',
+      q3: '最大文件大小是多少？',
+      a3: '您可以转换每个最大100MB的HEIC文件。对于批量转换，您可以一次处理最多20个文件，总限制为100MB。',
+      q4: '您支持批量转换吗？',
+      a4: '是的！您可以同时上传和转换最多20个HEIC文件。所有转换后的PNG将作为单独文件或单个ZIP存档提供下载。',
+      q5: '质量会被保留吗？',
+      a5: '是的，我们在转换过程中保持原始图像质量。您的HEIC照片将转换为高分辨率PNG，无压缩或质量损失。',
+      q6: '我可以直接从iPhone转换HEIC吗？',
+      a6: '是的！我们的转换器与在iPhone、iPad或任何Apple设备上拍摄的照片完美配合。只需从您的相机胶卷上传HEIC文件。',
+      q7: '我需要安装任何软件吗？',
+      a7: '无需安装。我们的在线转换器直接在您的网络浏览器中工作，适用于任何设备 - Windows、Mac、Linux、iOS或Android。',
+      q8: '转换需要多长时间？',
+      a8: '转换几乎是即时的！大多数HEIC文件在几秒钟内转换为PNG，具体取决于文件大小和您的互联网连接。',
+    },
+    
+    related: {
+      title: '相关转换器',
+      converters: [
+        { name: 'HEIC转PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC转JPG', url: '/convert/heic-to-jpg' },
+        { name: 'PNG转PDF', url: '/convert/png-to-pdf' },
+        { name: 'JPG转PNG', url: '/convert/jpg-to-png' },
+        { name: 'WEBP转PNG', url: '/convert/webp-to-png' },
+        { name: 'HEIC转WEBP', url: '/convert/heic-to-webp' },
+      ],
+    },
+    
+    footer: {
+      tagline: '面向专业人士和日常用户的终极文件转换和查看平台。',
+      security: '100%安全：我们的服务器上不存储任何文件。所有转换都会被处理，文件在处理后立即自动删除。',
       copyright: '© 2025 FormiPeek',
       madeWith: '使用',
       byDevelopers: '由关心质量的开发人员构建。',

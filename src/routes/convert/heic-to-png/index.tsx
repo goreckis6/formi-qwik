@@ -22,14 +22,15 @@ const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100 MB per file
 const MAX_BATCH_FILES = 20; // Maximum files in batch
 const MAX_BATCH_TOTAL_SIZE = 100 * 1024 * 1024; // 100 MB total for batch
 
-export const useLocaleLoader = routeLoader$(({ params, url }) => {
-  const locale = params.locale || 'en';
-  const isValidLocale = supportedLanguages.some(lang => lang.code === locale);
-  const finalLocale = isValidLocale ? locale : 'en';
+export const useLocaleLoader = routeLoader$(({ url }) => {
+  const pathParts = url.pathname.split('/').filter(Boolean);
+  const firstPart = pathParts[0];
+  const isLanguageCode = supportedLanguages.some(lang => lang.code === firstPart);
+  const locale = isLanguageCode ? firstPart : 'en';
   
   return {
-    locale: finalLocale,
-    translations: getTranslations(finalLocale),
+    locale,
+    translations: getTranslations(locale),
   };
 });
 
@@ -38,7 +39,7 @@ export default component$(() => {
   const localeData = useLocaleLoader();
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
-  const conv = t.heicToPdf;
+  const conv = t.heicToPng;
 
   // File handling signals
   const selectedFiles = useSignal<File[]>([]);
@@ -156,7 +157,7 @@ export default component$(() => {
       const url = URL.createObjectURL(result.blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = result.outputFilename || 'converted.pdf';
+      a.download = result.outputFilename || 'converted.png';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -165,7 +166,7 @@ export default component$(() => {
       // Batch file - use base64 data URL
       const a = document.createElement('a');
       a.href = result.downloadPath;
-      a.download = result.outputFilename || 'converted.pdf';
+      a.download = result.outputFilename || 'converted.png';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -191,7 +192,7 @@ export default component$(() => {
         if (result.blob) {
           // Single file mode - use blob
           const arrayBuffer = await result.blob.arrayBuffer();
-          zip.file(result.outputFilename || 'converted.pdf', arrayBuffer);
+          zip.file(result.outputFilename || 'converted.png', arrayBuffer);
         } else if (result.downloadPath) {
           // Batch mode - convert base64 to blob
           const base64Data = result.downloadPath.split(',')[1];
@@ -200,7 +201,7 @@ export default component$(() => {
           for (let i = 0; i < binaryString.length; i++) {
             bytes[i] = binaryString.charCodeAt(i);
           }
-          zip.file(result.outputFilename || 'converted.pdf', bytes);
+          zip.file(result.outputFilename || 'converted.png', bytes);
         }
       }
 
@@ -211,7 +212,7 @@ export default component$(() => {
       const url = URL.createObjectURL(zipBlob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `heic-to-pdf-conversions-${Date.now()}.zip`;
+      a.download = `heic-to-png-conversions-${Date.now()}.zip`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -267,11 +268,10 @@ export default component$(() => {
         formData.append('file', selectedFiles.value[0]);
         formData.append('quality', '95');
         formData.append('maxDimension', '4096');
-        formData.append('pageSize', 'auto');
 
         progress.value = 30;
 
-        const response = await fetch(`${API_BASE_URL}/convert/heic-to-pdf/single`, {
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-png/single`, {
           method: 'POST',
           body: formData,
         });
@@ -280,7 +280,7 @@ export default component$(() => {
 
         if (response.ok) {
           const blob = await response.blob();
-          const filename = selectedFiles.value[0].name.replace(/\.(heic|heif)$/i, '.pdf');
+          const filename = selectedFiles.value[0].name.replace(/\.(heic|heif)$/i, '.png');
           
           // Store blob for download button (don't auto-download)
           conversionResults.value = [{
@@ -302,11 +302,10 @@ export default component$(() => {
         });
         formData.append('quality', '95');
         formData.append('maxDimension', '4096');
-        formData.append('pageSize', 'auto');
 
         progress.value = 30;
 
-        const response = await fetch(`${API_BASE_URL}/convert/heic-to-pdf/batch`, {
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-png/batch`, {
           method: 'POST',
           body: formData,
         });
@@ -522,7 +521,7 @@ export default component$(() => {
                           <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
                           </svg>
-                          Convert to PDF
+                          Convert to PNG
                         </span>
                       )}
                     </button>
@@ -765,8 +764,7 @@ export default component$(() => {
 
 export const head: DocumentHead = ({ resolveValue }) => {
   const localeData = resolveValue(useLocaleLoader);
-  const conv = localeData.translations.heicToPdf;
-  const locale = localeData.locale;
+  const conv = localeData.translations.heicToPng;
   
   return {
     title: conv.title,
@@ -779,14 +777,13 @@ export const head: DocumentHead = ({ resolveValue }) => {
         name: "keywords",
         content: conv.metaKeywords,
       },
-      // Open Graph
       {
         property: "og:type",
         content: "website",
       },
       {
         property: "og:url",
-        content: `https://formipeek.com${locale === 'en' ? '' : `/${locale}`}/convert/heic-to-pdf`,
+        content: `https://formipeek.com${localeData.locale === 'en' ? '' : `/${localeData.locale}`}/convert/heic-to-png`,
       },
       {
         property: "og:title",
@@ -798,9 +795,8 @@ export const head: DocumentHead = ({ resolveValue }) => {
       },
       {
         property: "og:image",
-        content: "https://formipeek.com/og-heic-to-pdf.jpg",
+        content: "https://formipeek.com/og-heic-to-png.jpg",
       },
-      // Twitter
       {
         name: "twitter:card",
         content: "summary_large_image",
@@ -815,7 +811,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
       },
       {
         name: "twitter:image",
-        content: "https://formipeek.com/og-heic-to-pdf.jpg",
+        content: "https://formipeek.com/og-heic-to-png.jpg",
       },
     ],
   };

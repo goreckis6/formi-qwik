@@ -117,9 +117,14 @@ export const nl: Translations = {
     title: 'Bestandsconverters',
     subtitle: 'Converteer tussen 300+ bestandsformaten direct',
     searchPlaceholder: 'Zoek converters... (bijv. HEIC naar PDF)',
+    noConvertersFound: 'Geen converters gevonden die overeenkomen met',
     heicToPdf: {
       name: 'HEIC naar PDF',
       description: 'Converteer Apple HEIC foto\'s direct naar PDF-formaat',
+    },
+    heicToPng: {
+      name: 'HEIC naar PNG',
+      description: 'Converteer Apple HEIC foto\'s direct naar PNG-formaat',
     },
   },
   
@@ -231,6 +236,120 @@ export const nl: Translations = {
     footer: {
       tagline: 'Het ultieme bestandsconversie- en bekijkplatform voor professionals en dagelijkse gebruikers.',
       security: '100% Veilig: Er worden geen bestanden opgeslagen op onze servers. Alle conversies worden verwerkt en bestanden worden automatisch direct na verwerking verwijderd.',
+      copyright: '© 2025 FormiPeek',
+      madeWith: 'Gebouwd met',
+      byDevelopers: 'door ontwikkelaars die om kwaliteit geven.',
+    },
+  },
+  
+  heicToPng: {
+    title: 'HEIC naar PNG Converter - Converteer Apple Foto\'s Gratis Online naar PNG',
+    metaDescription: 'Converteer HEIC-afbeeldingen direct naar PNG-formaat. Gratis online HEIC naar PNG converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met iPhone- en iPad-foto\'s.',
+    metaKeywords: 'HEIC naar PNG, converteer HEIC, Apple foto\'s naar PNG, iPhone foto\'s naar PNG, HEIC converter, afbeelding naar PNG, batch converteer HEIC, gratis HEIC converter',
+    
+    hero: {
+      title: 'HEIC naar PNG Converter',
+      subtitle: 'Converteer uw Apple HEIC-foto\'s direct naar universele PNG-afbeeldingen. Gratis, snelle en veilige conversie zonder bestandsgroottebeperkingen.',
+      badge1: 'Bliksemsnel',
+      badge2: '100% Veilig',
+      badge3: 'Geen Registratie',
+    },
+    
+    upload: {
+      title: 'Upload HEIC Bestanden',
+      description: 'Sleep uw HEIC-foto\'s hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.',
+      buttonSingle: 'Enkel Bestand',
+      buttonBatch: 'Batch Converteren',
+      chooseFile: 'Kies Bestanden',
+      converting: 'Converteren...',
+      success: 'Conversie geslaagd!',
+      download: 'PNG Downloaden',
+      downloadAll: 'Download Alles als ZIP',
+      convertAnother: 'Converteer Ander Bestand',
+    },
+    
+    features: {
+      title: 'Functies',
+      list: [
+        'Hoge kwaliteit HEIC naar PNG conversie',
+        'Batchverwerking tot 20 bestanden',
+        'Behoudt beeldkwaliteit en transparantie',
+        'Geen bestandsgroottebeperking',
+        '100% veilig en privé',
+        'Werkt met iPhone- en iPad-foto\'s',
+        'Direct downloaden na conversie',
+        'Geen watermerken toegevoegd',
+      ],
+    },
+    
+    howItWorks: {
+      title: 'Hoe Het Werkt',
+      step1Title: 'Upload HEIC Bestanden',
+      step1Desc: 'Selecteer een of meer HEIC-foto\'s van uw apparaat',
+      step2Title: 'Automatische Conversie',
+      step2Desc: 'Onze converter verwerkt uw bestanden direct',
+      step3Title: 'Download PNG',
+      step3Desc: 'Ontvang uw geconverteerde PNG-bestanden direct',
+    },
+    
+    about: {
+      title: 'Over HEIC naar PNG Conversie',
+      whatIsHeic: {
+        title: 'Wat is het HEIC-formaat?',
+        content: 'HEIC (High Efficiency Image Container) is het standaard fotoformaat dat wordt gebruikt door Apple-apparaten sinds iOS 11. Het biedt superieure compressie terwijl de hoge beeldkwaliteit behouden blijft, waardoor foto\'s minder opslagruimte innemen op uw iPhone of iPad.',
+      },
+      whyConvert: {
+        title: 'Waarom HEIC naar PNG converteren?',
+        content: 'Hoewel HEIC efficiënt is, wordt het niet universeel ondersteund. Converteren naar PNG zorgt ervoor dat uw foto\'s op elk apparaat bekeken kunnen worden, eenvoudig via e-mail gedeeld kunnen worden en gebruikt kunnen worden in webdesign en grafische toepassingen. Het PNG-formaat ondersteunt transparantie en verliesloze compressie, waardoor het ideaal is voor professioneel gebruik.',
+      },
+      benefits: {
+        title: 'Voordelen van Onze Converter',
+        list: [
+          'Universele Compatibiliteit - PNG\'s werken op alle apparaten en platforms',
+          'Transparantie Ondersteuning - Perfect voor grafische en webdesign',
+          'Verliesloze Kwaliteit - Geen compressie-artefacten of kwaliteitsverlies',
+          'Eenvoudig Delen - Breed ondersteund formaat dat iedereen kan openen',
+          'Webklaar - Ideaal voor websites, sociale media en online gebruik',
+          'Geen Kwaliteitsverlies - Behoudt de originele beeldresolutie',
+        ],
+      },
+    },
+    
+    faq: {
+      title: 'Veelgestelde Vragen',
+      q1: 'Is het converteren van HEIC naar PNG gratis?',
+      a1: 'Ja! Onze HEIC naar PNG converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.',
+      q2: 'Zijn mijn gegevens veilig?',
+      a2: 'Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.',
+      q3: 'Wat is de maximale bestandsgrootte?',
+      a3: 'U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.',
+      q4: 'Ondersteunt u batchconversie?',
+      a4: 'Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde PNG\'s zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.',
+      q5: 'Wordt de kwaliteit behouden?',
+      a5: 'Ja, we behouden de originele beeldkwaliteit tijdens conversie. Uw HEIC-foto\'s worden geconverteerd naar hoge resolutie PNG\'s zonder compressie of kwaliteitsverlies.',
+      q6: 'Kan ik HEIC direct vanaf iPhone converteren?',
+      a6: 'Ja! Onze converter werkt perfect met foto\'s gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden vanuit uw camerarol.',
+      q7: 'Moet ik software installeren?',
+      a7: 'Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.',
+      q8: 'Hoe lang duurt de conversie?',
+      a8: 'Conversie is bijna direct! De meeste HEIC-bestanden worden binnen enkele seconden geconverteerd naar PNG, afhankelijk van de bestandsgrootte en uw internetverbinding.',
+    },
+    
+    related: {
+      title: 'Gerelateerde Converters',
+      converters: [
+        { name: 'HEIC naar PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC naar JPG', url: '/convert/heic-to-jpg' },
+        { name: 'PNG naar PDF', url: '/convert/png-to-pdf' },
+        { name: 'JPG naar PNG', url: '/convert/jpg-to-png' },
+        { name: 'WEBP naar PNG', url: '/convert/webp-to-png' },
+        { name: 'HEIC naar WEBP', url: '/convert/heic-to-webp' },
+      ],
+    },
+    
+    footer: {
+      tagline: 'Het ultieme bestandsconversie- en weergaveplatform voor professionals en dagelijkse gebruikers.',
+      security: '100% Veilig: Geen bestanden worden opgeslagen op onze servers. Alle conversies worden verwerkt en bestanden worden direct na verwerking automatisch verwijderd.',
       copyright: '© 2025 FormiPeek',
       madeWith: 'Gebouwd met',
       byDevelopers: 'door ontwikkelaars die om kwaliteit geven.',
