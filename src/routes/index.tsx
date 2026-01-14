@@ -14,7 +14,28 @@ export default component$(() => {
       dataProcessed.value += Math.random() * 0.05;
     }, 10000);
 
-    return () => clearInterval(interval);
+    // Load Google Analytics
+    const script1 = document.createElement("script");
+    script1.async = true;
+    script1.src = "https://www.googletagmanager.com/gtag/js?id=G-27BJNENPNW";
+    document.head.appendChild(script1);
+
+    // Initialize gtag
+    const win = window as any;
+    win.dataLayer = win.dataLayer || [];
+    function gtag(...args: any[]) {
+      win.dataLayer.push(args);
+    }
+    win.gtag = gtag;
+    gtag("js", new Date());
+    gtag("config", "G-27BJNENPNW");
+
+    return () => {
+      clearInterval(interval);
+      // Cleanup scripts if needed
+      const scripts = document.querySelectorAll('script[src*="googletagmanager"]');
+      scripts.forEach((s) => s.remove());
+    };
   });
 
   return (
