@@ -48,6 +48,9 @@ export const RouterHead = component$(() => {
         return <style key={s.key} {...restProps} dangerouslySetInnerHTML={s.style} />;
       })}
 
+      {/* CSS link for dev mode - Vite doesn't always add it to head.styles in dev */}
+      {import.meta.env.DEV && <link rel="stylesheet" href="/src/global.css" />}
+
       {/* Google Analytics */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-27BJNENPNW"></script>
       <script
