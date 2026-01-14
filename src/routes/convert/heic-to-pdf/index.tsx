@@ -3,6 +3,8 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
+import { AdsPlaceholder } from "~/components/ads/ads-placeholder";
+import { initializeAds } from "~/lib/ads-config";
 
 const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || 'https://api.formipeek.com';
 
@@ -346,6 +348,11 @@ export default component$(() => {
     return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
   };
 
+  // Initialize ads when component is visible
+  useVisibleTask$(() => {
+    initializeAds('heic-to-pdf');
+  });
+
   return (
     <div class="min-h-screen bg-gradient-to-br from-purple-50 via-white to-indigo-50">
       {/* Hero Banner */}
@@ -427,6 +434,9 @@ export default component$(() => {
                 </button>
               </div>
 
+              {/* Ad Placeholder - Top */}
+              <AdsPlaceholder position="top" className="mb-6" />
+
               {/* Upload Area */}
               <div 
                 class={`border-2 border-dashed rounded-xl p-8 text-center transition-colors cursor-pointer ${
@@ -463,6 +473,9 @@ export default component$(() => {
                   </span>
                 </label>
               </div>
+
+              {/* Ad Placeholder - Bottom */}
+              <AdsPlaceholder position="bottom" className="mt-6" />
 
               {/* Selected Files */}
               {selectedFiles.value.length > 0 && (
