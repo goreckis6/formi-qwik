@@ -32,6 +32,11 @@ const { router, notFound, staticFile } = createQwikCity({
 const server = createServer();
 
 server.on("request", (req, res) => {
+  // Set Content-Type header for XML files
+  if (req.url && req.url.endsWith('.xml')) {
+    res.setHeader('Content-Type', 'application/xml');
+  }
+  
   staticFile(req, res, () => {
     router(req, res, () => {
       notFound(req, res, () => {});
