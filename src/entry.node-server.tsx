@@ -28,6 +28,7 @@ const { router, notFound, staticFile } = createQwikCity({
     cacheControl: "public, max-age=31536000, immutable",
     mimeTypes: {
       ".xml": "application/xml",
+      ".xsl": "application/xml",
     },
   },
 });
