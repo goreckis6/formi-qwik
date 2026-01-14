@@ -151,25 +151,40 @@ export default component$(() => {
   });
 
   // Download handler
-  const downloadFile = $((result: ConversionResult) => {
-    if (result.blob) {
-      // Single file - use stored blob
-      const url = URL.createObjectURL(result.blob);
+  const downloadFile = $(async (result: ConversionResult) => {
+    try {
+      let blob: Blob;
+      
+      if (result.blob) {
+        // Single file - use stored blob
+        blob = result.blob;
+      } else if (result.downloadPath) {
+        // Batch file - convert base64 data URL to blob (allows multiple downloads)
+        const base64Data = result.downloadPath.split(',')[1];
+        const binaryString = atob(base64Data);
+        const bytes = new Uint8Array(binaryString.length);
+        for (let i = 0; i < binaryString.length; i++) {
+          bytes[i] = binaryString.charCodeAt(i);
+        }
+        blob = new Blob([bytes], { type: 'image/png' });
+      } else {
+        errorMessage.value = 'No file data available for download';
+        return;
+      }
+      
+      // Create download link with blob URL
+      const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
       a.download = result.outputFilename || 'converted.png';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-    } else if (result.downloadPath) {
-      // Batch file - use base64 data URL
-      const a = document.createElement('a');
-      a.href = result.downloadPath;
-      a.download = result.outputFilename || 'converted.png';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
+      
+      // Revoke URL after a short delay to allow download to start
+      setTimeout(() => URL.revokeObjectURL(url), 100);
+    } catch (error) {
+      errorMessage.value = error instanceof Error ? error.message : 'Download failed';
     }
   });
 

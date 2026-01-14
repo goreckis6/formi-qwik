@@ -40,7 +40,12 @@ export const LanguageSwitcher = component$(() => {
         onClick$={() => (isOpen.value = !isOpen.value)}
         class="flex items-center gap-2 px-3 py-2 text-sm text-gray-700 hover:text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
       >
-        <span class="text-lg">{activeLocale.flag}</span>
+        <img 
+          src={`https://flagcdn.com/w20/${activeLocale.flag}.png`}
+          alt={activeLocale.name}
+          class="w-5 h-4 object-cover rounded"
+          loading="lazy"
+        />
         <span class="hidden sm:inline">{activeLocale.name}</span>
         <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -66,7 +71,12 @@ export const LanguageSwitcher = component$(() => {
                     lang.code === activeLocale.code ? 'bg-purple-50 text-purple-700' : 'text-gray-700'
                   }`}
                 >
-                  <span class="text-xl">{lang.flag}</span>
+                  <img 
+                    src={`https://flagcdn.com/w40/${lang.flag}.png`}
+                    alt={lang.name}
+                    class="w-6 h-4 object-cover rounded flex-shrink-0"
+                    loading="lazy"
+                  />
                   <span class="text-sm font-medium">{lang.name}</span>
                   {lang.code === activeLocale.code && (
                     <svg class="w-4 h-4 ml-auto text-purple-600" fill="currentColor" viewBox="0 0 20 20">
