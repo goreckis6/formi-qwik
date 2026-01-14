@@ -4,6 +4,10 @@
  * Add your ad codes here. The system will automatically load them
  * into ad placeholders on ALL pages that use the AdsPlaceholder component.
  *
+ * Two independent toggles:
+ * 1. SHOW_PLACEHOLDERS - controls visibility of ad placeholders (UI)
+ * 2. ADS_ENABLED - controls ad code injection (functionality)
+ *
  * Format:
  * - position: 'top' or 'bottom' - where the ad appears
  * - code: HTML/JavaScript code for the ad (will be injected)
@@ -11,14 +15,20 @@
  */
 
 export interface AdConfig {
-  position: 'top' | 'bottom';
+  position: "top" | "bottom";
   code: string;
   enabled: boolean;
 }
 
 /**
+ * Global placeholders toggle
+ * Set to false to hide all ad placeholders site-wide (independent of ads)
+ */
+export const SHOW_PLACEHOLDERS = true; // Set to false to hide all placeholders
+
+/**
  * Global ads toggle
- * Set to false to disable all ads and hide all placeholders site-wide
+ * Set to false to disable ad code injection (placeholders may still show if SHOW_PLACEHOLDERS is true)
  */
 export const ADS_ENABLED = true; // Set to false to disable all ads globally
 
@@ -31,7 +41,7 @@ export const adsConfig: AdConfig[] = [
   // Top Ad (Above Upload/Content Area)
   // ============================================
   {
-    position: 'top',
+    position: "top",
     code: `
       <!-- Google AdSense - Responsive Display Ad -->
       <!-- Replace ca-pub-XXXXXXXXXX with your AdSense Publisher ID -->
@@ -55,7 +65,7 @@ export const adsConfig: AdConfig[] = [
   // Bottom Ad (Below Upload/Content Area)
   // ============================================
   {
-    position: 'bottom',
+    position: "bottom",
     code: `
       <!-- Google AdSense - Responsive Display Ad -->
       <!-- Replace ca-pub-XXXXXXXXXX with your AdSense Publisher ID -->
@@ -144,6 +154,13 @@ export const adsConfig: AdConfig[] = [
 ];
 
 /**
+ * Check if placeholders should be shown
+ */
+export const shouldShowPlaceholders = (): boolean => {
+  return SHOW_PLACEHOLDERS;
+};
+
+/**
  * Check if ads are enabled globally
  */
 export const areAdsEnabled = (): boolean => {
@@ -153,7 +170,7 @@ export const areAdsEnabled = (): boolean => {
 /**
  * Check if there's an enabled ad for a specific position
  */
-export const hasEnabledAdForPosition = (position: 'top' | 'bottom'): boolean => {
+export const hasEnabledAdForPosition = (position: "top" | "bottom"): boolean => {
   if (!ADS_ENABLED) return false;
   return adsConfig.some((ad) => ad.position === position && ad.enabled);
 };
@@ -165,20 +182,18 @@ export const hasEnabledAdForPosition = (position: 'top' | 'bottom'): boolean => 
  */
 export const initializeAds = () => {
   if (typeof window === "undefined") return;
-  
+
+  // If ads are disabled, don't inject ad code (but placeholders may still show)
   if (!ADS_ENABLED) {
-    // Hide all placeholders if ads are globally disabled
-    hidePlaceholders();
     return;
   }
 
   // Initialize ads for each position
-  (['top', 'bottom'] as const).forEach((position) => {
+  (["top", "bottom"] as const).forEach((position) => {
     const ad = adsConfig.find((a) => a.position === position && a.enabled);
-    
+
     if (!ad) {
-      // No enabled ad for this position - hide placeholders
-      hidePlaceholdersForPosition(position);
+      // No enabled ad for this position - placeholders stay visible (controlled by SHOW_PLACEHOLDERS)
       return;
     }
 
@@ -220,34 +235,3 @@ export const initializeAds = () => {
   });
 };
 
-/**
- * Hide all ad placeholders
- */
-const hidePlaceholders = () => {
-  if (typeof window === "undefined") return;
-  setTimeout(() => {
-    const placeholders = document.querySelectorAll('[data-ad-position]');
-    placeholders.forEach((placeholder) => {
-      const container = placeholder.closest('.ads-container') as HTMLElement;
-      if (container) {
-        container.style.display = 'none';
-      }
-    });
-  }, 100);
-};
-
-/**
- * Hide placeholders for a specific position
- */
-const hidePlaceholdersForPosition = (position: 'top' | 'bottom') => {
-  if (typeof window === "undefined") return;
-  setTimeout(() => {
-    const placeholders = document.querySelectorAll(`[data-ad-position="${position}"]`);
-    placeholders.forEach((placeholder) => {
-      const container = placeholder.closest('.ads-container') as HTMLElement;
-      if (container) {
-        container.style.display = 'none';
-      }
-    });
-  }, 100);
-};

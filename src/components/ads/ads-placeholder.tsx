@@ -1,5 +1,5 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
-import { ADS_ENABLED, hasEnabledAdForPosition } from "~/lib/ads-config";
+import { SHOW_PLACEHOLDERS, ADS_ENABLED, hasEnabledAdForPosition } from "~/lib/ads-config";
 
 interface AdsPlaceholderProps {
   position: 'top' | 'bottom';
@@ -8,20 +8,29 @@ interface AdsPlaceholderProps {
 
 export const AdsPlaceholder = component$<AdsPlaceholderProps>((props) => {
   const shouldShow = useSignal(true);
+  const showAdCode = useSignal(false);
 
   useVisibleTask$(() => {
-    // Check if ads are globally disabled
-    if (!ADS_ENABLED) {
+    // Check if placeholders should be shown (independent toggle)
+    if (!SHOW_PLACEHOLDERS) {
       shouldShow.value = false;
       return;
     }
 
-    // Check if there's an enabled ad for this position
-    const hasAd = hasEnabledAdForPosition(props.position);
-    shouldShow.value = hasAd;
+    // Placeholders are enabled - show them
+    shouldShow.value = true;
+
+    // Check if ad code should be injected (independent toggle)
+    // Ad code is injected only if ADS_ENABLED is true AND there's an enabled ad for this position
+    if (ADS_ENABLED) {
+      const hasAd = hasEnabledAdForPosition(props.position);
+      showAdCode.value = hasAd;
+    } else {
+      showAdCode.value = false;
+    }
   });
 
-  // Don't render if ads are disabled or no ad for this position
+  // Don't render if placeholders are disabled
   if (!shouldShow.value) {
     return null;
   }
