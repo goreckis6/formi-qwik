@@ -126,6 +126,10 @@ export const id: Translations = {
       name: 'HEIC ke PNG',
       description: 'Konversi foto Apple HEIC ke format PNG secara instan',
     },
+    heicToJpg: {
+      name: 'HEIC ke JPG',
+      description: 'Konversi foto Apple HEIC ke format JPG secara instan',
+    },
   },
   
   heicToPdf: {
@@ -345,6 +349,113 @@ export const id: Translations = {
         { name: 'WEBP ke PNG', url: '/convert/webp-to-png' },
         { name: 'HEIC ke WEBP', url: '/convert/heic-to-webp' },
       ],
+    },
+    
+    // HEIC to JPG Converter
+    heicToJpg: {
+      title: 'Konverter HEIC ke JPG - Konversi Foto Apple ke JPG Gratis Online',
+      metaDescription: 'Konversi gambar HEIC ke format JPG secara instan. Konverter HEIC ke JPG online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
+      metaKeywords: 'HEIC ke JPG, konversi HEIC, foto Apple ke JPG, foto iPhone ke JPG, konverter HEIC, gambar ke JPG, konversi batch HEIC, konverter HEIC gratis',
+      
+      hero: {
+        title: 'Konverter HEIC ke JPG',
+        subtitle: 'Ubah foto HEIC Apple Anda menjadi gambar JPG universal secara instan. Konversi gratis, cepat, dan aman tanpa batas ukuran file.',
+        badge1: 'Super Cepat',
+        badge2: '100% Aman',
+        badge3: 'Tanpa Registrasi',
+      },
+      
+      upload: {
+        title: 'Unggah File HEIC',
+        description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
+        buttonSingle: 'File Tunggal',
+        buttonBatch: 'Konversi Batch',
+        chooseFile: 'Pilih File',
+        converting: 'Mengonversi...',
+        success: 'Konversi berhasil!',
+        download: 'Unduh JPG',
+        downloadAll: 'Unduh Semua sebagai ZIP',
+        convertAnother: 'Konversi File Lain',
+      },
+      
+      features: {
+        title: 'Fitur',
+        list: [
+          'Konversi HEIC ke JPG berkualitas tinggi',
+          'Pemrosesan batch hingga 20 file',
+          'Mempertahankan kualitas gambar',
+          'Tanpa batas ukuran file',
+          '100% aman dan pribadi',
+          'Bekerja dengan foto iPhone dan iPad',
+          'Unduh instan setelah konversi',
+          'Tidak ada watermark yang ditambahkan',
+        ],
+      },
+      
+      howItWorks: {
+        title: 'Cara Kerja',
+        step1Title: 'Unggah File HEIC',
+        step1Desc: 'Pilih satu atau beberapa foto HEIC dari perangkat Anda',
+        step2Title: 'Konversi Otomatis',
+        step2Desc: 'Konverter kami memproses file Anda secara instan',
+        step3Title: 'Unduh JPG',
+        step3Desc: 'Dapatkan file JPG yang dikonversi segera',
+      },
+      
+      about: {
+        title: 'Tentang Konversi HEIC ke JPG',
+        whatIsHeic: {
+          title: 'Apa itu Format HEIC?',
+          content: 'HEIC (High Efficiency Image Container) adalah format foto default yang digunakan oleh perangkat Apple sejak iOS 11. Ini menawarkan kompresi superior sambil mempertahankan kualitas gambar tinggi, membuat foto mengambil lebih sedikit ruang penyimpanan di iPhone atau iPad Anda.',
+        },
+        whyConvert: {
+          title: 'Mengapa Mengonversi HEIC ke JPG?',
+          content: 'Meskipun HEIC efisien, tidak didukung secara universal. Mengonversi ke JPG memastikan foto Anda dapat dilihat di perangkat apa pun, mudah dibagikan melalui email, dan digunakan dalam desain web dan grafik. Format JPG adalah format gambar yang paling luas didukung, menjadikannya ideal untuk berbagi dan kompatibilitas.',
+        },
+        benefits: {
+          title: 'Manfaat Konverter Kami',
+          list: [
+            'Kompatibilitas Universal - JPG bekerja di semua perangkat dan platform',
+            'Ukuran File Lebih Kecil - Kompresi efisien untuk berbagi lebih cepat',
+            'Dukungan Luas - Format gambar yang paling banyak digunakan di dunia',
+            'Berbagi Mudah - Kompatibel dengan semua klien email dan media sosial',
+            'Siap untuk Web - Ideal untuk situs web, media sosial, dan penggunaan online',
+            'Kualitas Tinggi - Mempertahankan resolusi gambar asli',
+          ],
+        },
+      },
+      
+      faq: {
+        title: 'Pertanyaan yang Sering Diajukan',
+        q1: 'Apakah mengonversi HEIC ke JPG gratis?',
+        a1: 'Ya! Konverter HEIC ke JPG kami sepenuhnya gratis tanpa biaya tersembunyi. Anda dapat mengonversi file tanpa batas tanpa registrasi atau berlangganan.',
+        q2: 'Apakah data saya aman?',
+        a2: 'Sangat aman. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda secara otomatis dihapus segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
+        q3: 'Berapa ukuran file maksimum?',
+        a3: 'Anda dapat mengonversi file HEIC hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
+        q4: 'Apakah Anda mendukung konversi batch?',
+        a4: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIC secara bersamaan. Semua JPG yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
+        q5: 'Apakah kualitas akan dipertahankan?',
+        a5: 'Ya, kami mempertahankan kualitas gambar tinggi selama konversi. Foto HEIC Anda akan dikonversi ke JPG resolusi tinggi dengan kehilangan kualitas minimal.',
+        q6: 'Bisakah saya mengonversi HEIC langsung dari iPhone?',
+        a6: 'Ya! Konverter kami bekerja sempurna dengan foto yang diambil di iPhone, iPad, atau perangkat Apple apa pun. Cukup unggah file HEIC Anda dari galeri kamera.',
+        q7: 'Apakah saya perlu menginstal perangkat lunak?',
+        a7: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
+        q8: 'Berapa lama konversi berlangsung?',
+        a8: 'Konversi hampir instan! Sebagian besar file HEIC dikonversi ke JPG hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
+      },
+      
+      related: {
+        title: 'Konverter Terkait',
+        converters: [
+          { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
+          { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
+          { name: 'JPG ke PDF', url: '/convert/jpg-to-pdf' },
+          { name: 'PNG ke JPG', url: '/convert/png-to-jpg' },
+          { name: 'WEBP ke JPG', url: '/convert/webp-to-jpg' },
+          { name: 'HEIC ke WEBP', url: '/convert/heic-to-webp' },
+        ],
+      },
     },
     
     footer: {

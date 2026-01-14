@@ -126,6 +126,10 @@ export const pt: Translations = {
       name: 'HEIC para PNG',
       description: 'Converta fotos Apple HEIC para formato PNG instantaneamente',
     },
+    heicToJpg: {
+      name: 'HEIC para JPG',
+      description: 'Converta fotos Apple HEIC para formato JPG instantaneamente',
+    },
   },
   
   heicToPdf: {
@@ -345,6 +349,113 @@ export const pt: Translations = {
         { name: 'WEBP para PNG', url: '/convert/webp-to-png' },
         { name: 'HEIC para WEBP', url: '/convert/heic-to-webp' },
       ],
+    },
+    
+    // HEIC to JPG Converter
+    heicToJpg: {
+      title: 'Conversor HEIC para JPG - Converta Fotos Apple para JPG Grátis Online',
+      metaDescription: 'Converta imagens HEIC para formato JPG instantaneamente. Conversor online gratuito HEIC para JPG com processamento em lote. Rápido, seguro e sem registro necessário. Funciona com fotos de iPhone e iPad.',
+      metaKeywords: 'HEIC para JPG, converter HEIC, fotos Apple para JPG, fotos iPhone para JPG, conversor HEIC, imagem para JPG, conversão em lote HEIC, conversor HEIC gratuito',
+      
+      hero: {
+        title: 'Conversor HEIC para JPG',
+        subtitle: 'Transforme suas fotos Apple HEIC em imagens JPG universais instantaneamente. Conversão gratuita, rápida e segura sem limites de tamanho de arquivo.',
+        badge1: 'Super Rápido',
+        badge2: '100% Seguro',
+        badge3: 'Sem Registro',
+      },
+      
+      upload: {
+        title: 'Enviar Arquivos HEIC',
+        description: 'Arraste e solte suas fotos HEIC aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.',
+        buttonSingle: 'Arquivo Único',
+        buttonBatch: 'Conversão em Lote',
+        chooseFile: 'Escolher Arquivos',
+        converting: 'Convertendo...',
+        success: 'Conversão bem-sucedida!',
+        download: 'Baixar JPG',
+        downloadAll: 'Baixar Tudo como ZIP',
+        convertAnother: 'Converter Outro Arquivo',
+      },
+      
+      features: {
+        title: 'Recursos',
+        list: [
+          'Conversão HEIC para JPG de alta qualidade',
+          'Processamento em lote até 20 arquivos',
+          'Preserva a qualidade da imagem',
+          'Sem limitações de tamanho de arquivo',
+          '100% seguro e privado',
+          'Funciona com fotos de iPhone e iPad',
+          'Download instantâneo após conversão',
+          'Sem marcas d\'água',
+        ],
+      },
+      
+      howItWorks: {
+        title: 'Como Funciona',
+        step1Title: 'Enviar Arquivos HEIC',
+        step1Desc: 'Selecione uma ou várias fotos HEIC do seu dispositivo',
+        step2Title: 'Conversão Automática',
+        step2Desc: 'Nosso conversor processa seus arquivos instantaneamente',
+        step3Title: 'Baixar JPG',
+        step3Desc: 'Obtenha seus arquivos JPG convertidos imediatamente',
+      },
+      
+      about: {
+        title: 'Sobre a Conversão HEIC para JPG',
+        whatIsHeic: {
+          title: 'O que é o Formato HEIC?',
+          content: 'HEIC (High Efficiency Image Container) é o formato de foto padrão usado por dispositivos Apple desde iOS 11. Oferece compressão superior mantendo alta qualidade de imagem, fazendo com que as fotos ocupem menos espaço de armazenamento no seu iPhone ou iPad.',
+        },
+        whyConvert: {
+          title: 'Por que Converter HEIC para JPG?',
+          content: 'Embora HEIC seja eficiente, não é universalmente suportado. Converter para JPG garante que suas fotos possam ser visualizadas em qualquer dispositivo, facilmente compartilhadas por e-mail e usadas em design web e gráficos. O formato JPG é o formato de imagem mais amplamente suportado, ideal para compartilhamento e compatibilidade.',
+        },
+        benefits: {
+          title: 'Benefícios do Nosso Conversor',
+          list: [
+            'Compatibilidade Universal - JPGs funcionam em todos os dispositivos e plataformas',
+            'Tamanho de Arquivo Menor - Compressão eficiente para compartilhamento mais rápido',
+            'Amplo Suporte - Formato de imagem mais usado mundialmente',
+            'Fácil Compartilhamento - Compatível com todos os clientes de e-mail e redes sociais',
+            'Pronto para Web - Ideal para sites, redes sociais e uso online',
+            'Alta Qualidade - Preserve a resolução original da imagem',
+          ],
+        },
+      },
+      
+      faq: {
+        title: 'Perguntas Frequentes',
+        q1: 'É gratuito converter HEIC para JPG?',
+        a1: 'Sim! Nosso conversor HEIC para JPG é completamente gratuito sem taxas ocultas. Você pode converter arquivos ilimitados sem registro ou assinatura.',
+        q2: 'Meus dados estão seguros?',
+        a2: 'Absolutamente. Todas as conversões acontecem com segurança em nossos servidores com criptografia SSL. Seus arquivos são automaticamente excluídos imediatamente após a conversão. Nunca armazenamos, compartilhamos ou acessamos seus arquivos.',
+        q3: 'Qual é o tamanho máximo do arquivo?',
+        a3: 'Você pode converter arquivos HEIC de até 100MB cada. Para conversão em lote, você pode processar até 20 arquivos de uma vez com um limite total de 100MB.',
+        q4: 'Vocês suportam conversão em lote?',
+        a4: 'Sim! Você pode enviar e converter até 20 arquivos HEIC simultaneamente. Todos os JPGs convertidos estarão disponíveis para download como arquivos individuais ou em um único arquivo ZIP.',
+        q5: 'A qualidade será preservada?',
+        a5: 'Sim, mantemos alta qualidade de imagem durante a conversão. Suas fotos HEIC serão convertidas em JPGs de alta resolução com perda mínima de qualidade.',
+        q6: 'Posso converter HEIC diretamente do iPhone?',
+        a6: 'Sim! Nosso conversor funciona perfeitamente com fotos tiradas no iPhone, iPad ou qualquer dispositivo Apple. Basta enviar seus arquivos HEIC da sua galeria de fotos.',
+        q7: 'Preciso instalar algum software?',
+        a7: 'Nenhuma instalação necessária. Nosso conversor online funciona diretamente no seu navegador web em qualquer dispositivo - Windows, Mac, Linux, iOS ou Android.',
+        q8: 'Quanto tempo leva a conversão?',
+        a8: 'A conversão é quase instantânea! A maioria dos arquivos HEIC se converte para JPG em apenas alguns segundos, dependendo do tamanho do arquivo e sua conexão com a internet.',
+      },
+      
+      related: {
+        title: 'Conversores Relacionados',
+        converters: [
+          { name: 'HEIC para PDF', url: '/convert/heic-to-pdf' },
+          { name: 'HEIC para PNG', url: '/convert/heic-to-png' },
+          { name: 'JPG para PDF', url: '/convert/jpg-to-pdf' },
+          { name: 'PNG para JPG', url: '/convert/png-to-jpg' },
+          { name: 'WEBP para JPG', url: '/convert/webp-to-jpg' },
+          { name: 'HEIC para WEBP', url: '/convert/heic-to-webp' },
+        ],
+      },
     },
     
     footer: {

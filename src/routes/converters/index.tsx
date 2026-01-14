@@ -34,6 +34,11 @@ export default component$(() => {
       description: converters.heicToPng.description,
       href: getLocalizedPath('/convert/heic-to-png', locale),
     },
+    {
+      name: converters.heicToJpg.name,
+      description: converters.heicToJpg.description,
+      href: getLocalizedPath('/convert/heic-to-jpg', locale),
+    },
   ];
   
   const filteredConverters = useComputed$(() => {

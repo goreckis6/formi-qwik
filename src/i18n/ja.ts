@@ -126,6 +126,10 @@ export const ja: Translations = {
       name: 'HEIC to PNG',
       description: 'Apple HEIC写真をPNG形式に瞬時に変換',
     },
+    heicToJpg: {
+      name: 'HEIC to JPG',
+      description: 'Apple HEIC写真をJPG形式に瞬時に変換',
+    },
   },
   
   heicToPdf: {
@@ -345,6 +349,113 @@ export const ja: Translations = {
         { name: 'WEBP to PNG', url: '/convert/webp-to-png' },
         { name: 'HEIC to WEBP', url: '/convert/heic-to-webp' },
       ],
+    },
+    
+    // HEIC to JPG Converter
+    heicToJpg: {
+      title: 'HEIC to JPG コンバーター - Apple写真をJPGに無料でオンライン変換',
+      metaDescription: 'HEIC画像をJPG形式に瞬時に変換。バッチ処理対応の無料オンラインHEIC to JPGコンバーター。高速、安全、登録不要。iPhoneとiPadの写真に対応。',
+      metaKeywords: 'HEIC to JPG, HEIC変換, Apple写真をJPG, iPhone写真をJPG, HEICコンバーター, 画像をJPG, バッチ変換HEIC, 無料HEICコンバーター',
+      
+      hero: {
+        title: 'HEIC to JPG コンバーター',
+        subtitle: 'Apple HEIC写真をユニバーサルJPG画像に瞬時に変換。ファイルサイズ制限なしの無料、高速、安全な変換。',
+        badge1: '超高速',
+        badge2: '100%安全',
+        badge3: '登録不要',
+      },
+      
+      upload: {
+        title: 'HEICファイルをアップロード',
+        description: 'HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。',
+        buttonSingle: '単一ファイル',
+        buttonBatch: 'バッチ変換',
+        chooseFile: 'ファイルを選択',
+        converting: '変換中...',
+        success: '変換成功！',
+        download: 'JPGをダウンロード',
+        downloadAll: 'すべてをZIPとしてダウンロード',
+        convertAnother: '別のファイルを変換',
+      },
+      
+      features: {
+        title: '機能',
+        list: [
+          '高品質HEIC to JPG変換',
+          '最大20ファイルのバッチ処理',
+          '画像品質を保持',
+          'ファイルサイズ制限なし',
+          '100%安全でプライベート',
+          'iPhoneとiPadの写真に対応',
+          '変換後即座にダウンロード',
+          '透かしなし',
+        ],
+      },
+      
+      howItWorks: {
+        title: '使い方',
+        step1Title: 'HEICファイルをアップロード',
+        step1Desc: 'デバイスから1つまたは複数のHEIC写真を選択',
+        step2Title: '自動変換',
+        step2Desc: 'コンバーターがファイルを瞬時に処理',
+        step3Title: 'JPGをダウンロード',
+        step3Desc: '変換されたJPGファイルを即座に取得',
+      },
+      
+      about: {
+        title: 'HEIC to JPG変換について',
+        whatIsHeic: {
+          title: 'HEIC形式とは？',
+          content: 'HEIC（High Efficiency Image Container）は、iOS 11以降のAppleデバイスで使用されるデフォルトの写真形式です。高画質を維持しながら優れた圧縮を提供し、iPhoneやiPadで写真が占めるストレージスペースを削減します。',
+        },
+        whyConvert: {
+          title: 'なぜHEICをJPGに変換するのか？',
+          content: 'HEICは効率的ですが、普遍的にサポートされているわけではありません。JPGに変換することで、写真をあらゆるデバイスで表示でき、メールで簡単に共有でき、ウェブデザインやグラフィックで使用できます。JPG形式は最も広くサポートされている画像形式で、共有と互換性に最適です。',
+        },
+        benefits: {
+          title: '当社コンバーターの利点',
+          list: [
+            'ユニバーサル互換性 - JPGはすべてのデバイスとプラットフォームで動作',
+            '小さなファイルサイズ - より高速な共有のための効率的な圧縮',
+            '幅広いサポート - 世界で最も広く使用されている画像形式',
+            '簡単な共有 - すべてのメールクライアントとソーシャルメディアと互換',
+            'ウェブ対応 - ウェブサイト、ソーシャルメディア、オンライン使用に最適',
+            '高品質 - 元の画像解像度を保持',
+          ],
+        },
+      },
+      
+      faq: {
+        title: 'よくある質問',
+        q1: 'HEICをJPGに変換するのは無料ですか？',
+        a1: 'はい！当社のHEIC to JPGコンバーターは完全に無料で、隠れた費用はありません。登録やサブスクリプションなしで無制限にファイルを変換できます。',
+        q2: 'データは安全ですか？',
+        a2: '絶対に安全です。すべての変換はSSL暗号化を使用してサーバー上で安全に実行されます。ファイルは変換後すぐに自動的に削除されます。ファイルを保存、共有、またはアクセスすることはありません。',
+        q3: '最大ファイルサイズは？',
+        a3: 'HEICファイルはそれぞれ最大100MBまで変換できます。バッチ変換では、合計100MBの制限で最大20ファイルを一度に処理できます。',
+        q4: 'バッチ変換はサポートしていますか？',
+        a4: 'はい！最大20個のHEICファイルを同時にアップロードして変換できます。変換されたすべてのJPGは、個別ファイルまたは単一のZIPアーカイブとしてダウンロードできます。',
+        q5: '品質は保持されますか？',
+        a5: 'はい、変換中に高画質を維持します。HEIC写真は、最小限の品質損失で高解像度JPGに変換されます。',
+        q6: 'iPhoneから直接HEICを変換できますか？',
+        a6: 'はい！当社のコンバーターは、iPhone、iPad、または任意のAppleデバイスで撮影された写真で完璧に動作します。カメラロールからHEICファイルをアップロードするだけです。',
+        q7: 'ソフトウェアをインストールする必要がありますか？',
+        a7: 'インストールは不要です。当社のオンラインコンバーターは、Windows、Mac、Linux、iOS、またはAndroidの任意のデバイスで、ウェブブラウザで直接動作します。',
+        q8: '変換にどのくらい時間がかかりますか？',
+        a8: '変換はほぼ瞬時です！ほとんどのHEICファイルは、ファイルサイズとインターネット接続に応じて、わずか数秒でJPGに変換されます。',
+      },
+      
+      related: {
+        title: '関連コンバーター',
+        converters: [
+          { name: 'HEIC to PDF', url: '/convert/heic-to-pdf' },
+          { name: 'HEIC to PNG', url: '/convert/heic-to-png' },
+          { name: 'JPG to PDF', url: '/convert/jpg-to-pdf' },
+          { name: 'PNG to JPG', url: '/convert/png-to-jpg' },
+          { name: 'WEBP to JPG', url: '/convert/webp-to-jpg' },
+          { name: 'HEIC to WEBP', url: '/convert/heic-to-webp' },
+        ],
+      },
     },
     
     footer: {
