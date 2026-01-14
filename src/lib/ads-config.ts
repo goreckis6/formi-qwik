@@ -24,7 +24,7 @@ export interface AdConfig {
  * Global placeholders toggle
  * Set to false to hide all ad placeholders site-wide (independent of ads)
  */
-export const SHOW_PLACEHOLDERS = true; // Set to false to hide all placeholders
+export const SHOW_PLACEHOLDERS = false; // Set to false to hide all placeholders
 
 /**
  * Global ads toggle
