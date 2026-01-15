@@ -38,6 +38,11 @@ export default component$(() => {
       description: converters.heicToJpg.description,
       href: getLocalizedPath("/convert/heic-to-jpg", locale),
     },
+    {
+      name: converters.heicToWebp.name,
+      description: converters.heicToWebp.description,
+      href: getLocalizedPath("/convert/heic-to-webp", locale),
+    },
   ]);
 
   const filteredConverters = useComputed$(() => {

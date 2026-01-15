@@ -163,6 +163,10 @@ export const ja: Translations = {
       name: "HEIC to JPG",
       description: "Apple HEIC写真をJPG形式に瞬時に変換",
     },
+    heicToWebp: {
+      name: "HEIC to WebP",
+      description: "Apple HEIC写真をWebP形式に瞬時に変換",
+    },
   },
 
   heicToPdf: {
@@ -522,6 +526,121 @@ export const ja: Translations = {
       copyright: "© 2025 FormiPeek",
       madeWith: "作成",
       byDevelopers: "品質を重視する開発者による。",
+    },
+  },
+
+  // HEIC to WebP Converter
+  heicToWebp: {
+    title: "HEICからWebPへのコンバーター - Apple写真をWebPに無料でオンライン変換",
+    metaDescription:
+      "HEIC画像をWebP形式に即座に変換。一括処理対応の無料オンラインHEICからWebPへのコンバーター。高速、安全、登録不要。iPhoneとiPadの写真に対応。",
+    metaKeywords:
+      "HEICからWebP, HEIC変換, Apple写真をWebP, iPhone写真をWebP, HEICコンバーター, 画像をWebP, 一括変換HEIC, 無料HEICコンバーター",
+
+    hero: {
+      title: "HEICからWebPへのコンバーター",
+      subtitle:
+        "Apple HEIC写真をモダンなWebP画像に瞬時に変換。ファイルサイズ制限なしの無料、高速、安全な変換。",
+      badge1: "超高速",
+      badge2: "100%安全",
+      badge3: "登録不要",
+    },
+
+    upload: {
+      title: "HEICファイルをアップロード",
+      description:
+        "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。",
+      buttonSingle: "単一ファイル",
+      buttonBatch: "一括変換",
+      chooseFile: "ファイルを選択",
+      converting: "変換中...",
+      success: "変換成功！",
+      download: "WebPをダウンロード",
+      downloadAll: "すべてZIPとしてダウンロード",
+      convertAnother: "別のファイルを変換",
+    },
+
+    features: {
+      title: "機能",
+      list: [
+        "高品質なHEICからWebPへの変換",
+        "最大20ファイルの一括処理",
+        "品質保持を伴う優れた圧縮",
+        "ファイルサイズ制限なし",
+        "100%安全でプライベート",
+        "iPhoneとiPadの写真に対応",
+        "変換後即座にダウンロード",
+        "透かしなし",
+      ],
+    },
+
+    howItWorks: {
+      title: "使い方",
+      step1Title: "HEICファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      step2Title: "自動変換",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "WebPをダウンロード",
+      step3Desc: "変換されたWebPファイルをすぐに取得",
+    },
+
+    about: {
+      title: "HEICからWebPへの変換について",
+      whatIsHeic: {
+        title: "HEIC形式とは？",
+        content:
+          "HEIC（High Efficiency Image Container）は、iOS 11以降のAppleデバイスで使用されるデフォルトの写真形式です。高画質を維持しながら優れた圧縮を提供し、iPhoneやiPadで写真が占めるストレージスペースを削減します。",
+      },
+      whyConvert: {
+        title: "なぜHEICをWebPに変換するのか？",
+        content:
+          "WebPは、Googleが開発したモダンな画像形式で、PNGやJPGと比較して優れた圧縮を提供しながら、優れた品質を維持します。HEICをWebPに変換すると、ウェブ使用に最適な小さなファイルサイズ、より高速なページ読み込み、より優れたSEOパフォーマンスが得られます。WebPはすべてのモダンブラウザでサポートされており、ウェブサイト、プログレッシブウェブアプリ、オンライン共有に最適です。",
+      },
+      benefits: {
+        title: "コンバーターの利点",
+        list: [
+          "優れた圧縮 - 同じ品質でPNG/JPGより25-35%小さいファイル",
+          "ウェブ最適化 - ウェブサイト、PWA、オンラインプラットフォームに最適",
+          "モダンな形式 - すべての主要ブラウザとプラットフォームでサポート",
+          "より高速な読み込み - より小さいファイルはより高速なページ読み込み時間を意味",
+          "SEOフレンドリー - ウェブサイトパフォーマンスメトリクスを改善",
+          "品質保持 - 効率的な圧縮を伴う優れた視覚品質",
+        ],
+      },
+    },
+
+    faq: {
+      title: "よくある質問 – HEICからWebP",
+      items: [
+        {
+          q: "HEICをWebPに変換するのは無料ですか？",
+          a: "はい！HEICからWebPへのコンバーターは完全に無料です。登録、サブスクリプション、または隠れた費用なしでHEIC画像をWebPに変換できます。",
+        },
+        {
+          q: "HEICをWebPに変換する際に品質は保持されますか？",
+          a: "はい。WebP形式は優れた圧縮を伴う優れた画像品質を提供します。HEIC写真は最小限の品質低下で高品質WebPファイルに変換されます。",
+        },
+        {
+          q: "iPhoneのHEIC写真をWebPに変換できますか？",
+          a: "はい。iPhone、iPad、または任意のAppleデバイスで撮影されたHEIC写真を直接WebPに変換できます。HEICファイルをアップロードして、オンラインで即座に変換できます。",
+        },
+        {
+          q: "HEICをWebPに変換するためにソフトウェアをインストールする必要がありますか？",
+          a: "インストールは不要です。HEICからWebPへのコンバーターは、Windows、macOS、Linux、iOS、Androidのウェブブラウザで完全にオンラインで動作します。",
+        },
+      ],
+    },
+
+    related: {
+      title: "関連コンバーター",
+      converters: [
+        { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
+        { name: "PNG to WebP", url: "/convert/png-to-webp" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+        { name: "WebP to PDF", url: "/convert/webp-to-pdf" },
+      ],
     },
   },
 };

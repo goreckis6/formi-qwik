@@ -172,6 +172,10 @@ export const es: Translations = {
       name: "HEIC a JPG",
       description: "Convierte fotos Apple HEIC a formato JPG al instante",
     },
+    heicToWebp: {
+      name: "HEIC a WebP",
+      description: "Convierte fotos Apple HEIC a formato WebP al instante",
+    },
   },
   
   heicToPdf: {
@@ -532,6 +536,121 @@ export const es: Translations = {
       copyright: "© 2025 FormiPeek",
       madeWith: "Hecho con",
       byDevelopers: "por desarrolladores que se preocupan por la calidad.",
+    },
+  },
+
+  // HEIC to WebP Converter
+  heicToWebp: {
+    title: "Convertidor de HEIC a WebP - Convierte Fotos de Apple a WebP Gratis en Línea",
+    metaDescription:
+      "Convierte imágenes HEIC a formato WebP instantáneamente. Convertidor gratuito en línea de HEIC a WebP con procesamiento por lotes. Rápido, seguro y sin registro requerido. Funciona con fotos de iPhone e iPad.",
+    metaKeywords:
+      "HEIC a WebP, convertir HEIC, fotos Apple a WebP, fotos iPhone a WebP, convertidor HEIC, imagen a WebP, conversión por lotes HEIC, convertidor HEIC gratuito",
+
+    hero: {
+      title: "Convertidor de HEIC a WebP",
+      subtitle:
+        "Transforma tus fotos HEIC de Apple en imágenes WebP modernas instantáneamente. Conversión gratuita, rápida y segura sin límites de tamaño de archivo.",
+      badge1: "Súper Rápido",
+      badge2: "100% Seguro",
+      badge3: "Sin Registro",
+    },
+
+    upload: {
+      title: "Subir Archivos HEIC",
+      description:
+        "Arrastra y suelta tus fotos HEIC aquí o haz clic para navegar. Soporta conversión por lotes de hasta 20 archivos. Máximo 100MB por archivo.",
+      buttonSingle: "Archivo Único",
+      buttonBatch: "Conversión por Lotes",
+      chooseFile: "Elegir Archivos",
+      converting: "Convirtiendo...",
+      success: "¡Conversión exitosa!",
+      download: "Descargar WebP",
+      downloadAll: "Descargar Todo como ZIP",
+      convertAnother: "Convertir Otro Archivo",
+    },
+
+    features: {
+      title: "Características",
+      list: [
+        "Conversión de HEIC a WebP de alta calidad",
+        "Procesamiento por lotes de hasta 20 archivos",
+        "Compresión superior con preservación de calidad",
+        "Sin límites de tamaño de archivo",
+        "100% seguro y privado",
+        "Funciona con fotos de iPhone e iPad",
+        "Descarga instantánea después de la conversión",
+        "Sin marcas de agua añadidas",
+      ],
+    },
+
+    howItWorks: {
+      title: "Cómo Funciona",
+      step1Title: "Subir Archivos HEIC",
+      step1Desc: "Selecciona una o múltiples fotos HEIC de tu dispositivo",
+      step2Title: "Conversión Automática",
+      step2Desc: "Nuestro convertidor procesa tus archivos instantáneamente",
+      step3Title: "Descargar WebP",
+      step3Desc: "Obtén tus archivos WebP convertidos inmediatamente",
+    },
+
+    about: {
+      title: "Acerca de la Conversión HEIC a WebP",
+      whatIsHeic: {
+        title: "¿Qué es el Formato HEIC?",
+        content:
+          "HEIC (High Efficiency Image Container) es el formato de foto predeterminado utilizado por dispositivos Apple desde iOS 11. Ofrece compresión superior mientras mantiene alta calidad de imagen, haciendo que las fotos ocupen menos espacio de almacenamiento en tu iPhone o iPad.",
+      },
+      whyConvert: {
+        title: "¿Por Qué Convertir HEIC a WebP?",
+        content:
+          "WebP es un formato de imagen moderno desarrollado por Google que proporciona compresión superior en comparación con PNG y JPG mientras mantiene excelente calidad. Convertir HEIC a WebP resulta en tamaños de archivo más pequeños perfectos para uso web, cargas de página más rápidas y mejor rendimiento SEO. WebP es compatible con todos los navegadores modernos y es ideal para sitios web, aplicaciones web progresivas y compartir en línea.",
+      },
+      benefits: {
+        title: "Beneficios de Nuestro Convertidor",
+        list: [
+          "Compresión Superior - Archivos 25-35% más pequeños que PNG/JPG con la misma calidad",
+          "Optimizado para Web - Perfecto para sitios web, PWAs y plataformas en línea",
+          "Formato Moderno - Compatible con todos los principales navegadores y plataformas",
+          "Carga Más Rápida - Archivos más pequeños significan tiempos de carga de página más rápidos",
+          "Amigable con SEO - Mejora las métricas de rendimiento del sitio web",
+          "Calidad Preservada - Excelente calidad visual con compresión eficiente",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Preguntas Frecuentes – HEIC a WebP",
+      items: [
+        {
+          q: "¿Es gratis convertir HEIC a WebP?",
+          a: "¡Sí! Nuestro convertidor de HEIC a WebP es completamente gratuito. Puedes convertir imágenes HEIC a WebP sin registro, suscripciones ni cargos ocultos.",
+        },
+        {
+          q: "¿Se preservará la calidad al convertir HEIC a WebP?",
+          a: "Sí. El formato WebP proporciona excelente calidad de imagen con compresión superior. Tus fotos HEIC se convierten en archivos WebP de alta calidad con pérdida de calidad mínima.",
+        },
+        {
+          q: "¿Puedo convertir fotos HEIC del iPhone a WebP?",
+          a: "Sí. Puedes convertir fotos HEIC tomadas en iPhone, iPad o cualquier dispositivo Apple directamente a WebP. Simplemente sube tus archivos HEIC y conviértelos al instante en línea.",
+        },
+        {
+          q: "¿Necesito instalar software para convertir HEIC a WebP?",
+          a: "No se requiere instalación. El convertidor HEIC a WebP funciona completamente en línea en tu navegador web en Windows, macOS, Linux, iOS y Android.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Convertidores Relacionados",
+      converters: [
+        { name: "HEIC a PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC a PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC a JPG", url: "/convert/heic-to-jpg" },
+        { name: "PNG a WebP", url: "/convert/png-to-webp" },
+        { name: "JPG a WebP", url: "/convert/jpg-to-webp" },
+        { name: "WebP a PDF", url: "/convert/webp-to-pdf" },
+      ],
     },
   },
 };

@@ -160,6 +160,10 @@ export const id: Translations = {
       name: 'HEIC ke JPG',
       description: 'Konversi foto Apple HEIC ke format JPG secara instan',
     },
+    heicToWebp: {
+      name: 'HEIC ke WebP',
+      description: 'Konversi foto Apple HEIC ke format WebP secara instan',
+    },
   },
   
   heicToPdf: {
@@ -489,6 +493,115 @@ export const id: Translations = {
         { name: 'PNG ke JPG', url: '/convert/png-to-jpg' },
         { name: 'WEBP ke JPG', url: '/convert/webp-to-jpg' },
         { name: 'HEIC ke WEBP', url: '/convert/heic-to-webp' },
+      ],
+    },
+  },
+
+  // HEIC to WebP Converter
+  heicToWebp: {
+    title: 'Konverter HEIC ke WebP - Konversi Foto Apple ke WebP Gratis Online',
+    metaDescription: 'Konversi gambar HEIC ke format WebP secara instan. Konverter HEIC ke WebP online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
+    metaKeywords: 'HEIC ke WebP, konversi HEIC, foto Apple ke WebP, foto iPhone ke WebP, konverter HEIC, gambar ke WebP, konversi batch HEIC, konverter HEIC gratis',
+    
+    hero: {
+      title: 'Konverter HEIC ke WebP',
+      subtitle: 'Ubah foto HEIC Apple Anda menjadi gambar WebP modern secara instan. Konversi gratis, cepat, dan aman tanpa batas ukuran file.',
+      badge1: 'Super Cepat',
+      badge2: '100% Aman',
+      badge3: 'Tanpa Registrasi',
+    },
+    
+    upload: {
+      title: 'Unggah File HEIC',
+      description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
+      buttonSingle: 'File Tunggal',
+      buttonBatch: 'Konversi Batch',
+      chooseFile: 'Pilih File',
+      converting: 'Mengonversi...',
+      success: 'Konversi berhasil!',
+      download: 'Unduh WebP',
+      downloadAll: 'Unduh Semua sebagai ZIP',
+      convertAnother: 'Konversi File Lain',
+    },
+    
+    features: {
+      title: 'Fitur',
+      list: [
+        'Konversi HEIC ke WebP berkualitas tinggi',
+        'Pemrosesan batch hingga 20 file',
+        'Kompresi superior dengan preservasi kualitas',
+        'Tanpa batas ukuran file',
+        '100% aman dan pribadi',
+        'Bekerja dengan foto iPhone dan iPad',
+        'Unduh instan setelah konversi',
+        'Tidak ada watermark yang ditambahkan',
+      ],
+    },
+    
+    howItWorks: {
+      title: 'Cara Kerja',
+      step1Title: 'Unggah File HEIC',
+      step1Desc: 'Pilih satu atau beberapa foto HEIC dari perangkat Anda',
+      step2Title: 'Konversi Otomatis',
+      step2Desc: 'Konverter kami memproses file Anda secara instan',
+      step3Title: 'Unduh WebP',
+      step3Desc: 'Dapatkan file WebP yang dikonversi segera',
+    },
+    
+    about: {
+      title: 'Tentang Konversi HEIC ke WebP',
+      whatIsHeic: {
+        title: 'Apa itu Format HEIC?',
+        content: 'HEIC (High Efficiency Image Container) adalah format foto default yang digunakan oleh perangkat Apple sejak iOS 11. Ini menawarkan kompresi superior sambil mempertahankan kualitas gambar tinggi, membuat foto mengambil lebih sedikit ruang penyimpanan di iPhone atau iPad Anda.',
+      },
+      whyConvert: {
+        title: 'Mengapa Mengonversi HEIC ke WebP?',
+        content: 'WebP adalah format gambar modern yang dikembangkan oleh Google yang menyediakan kompresi superior dibandingkan dengan PNG dan JPG sambil mempertahankan kualitas yang sangat baik. Mengonversi HEIC ke WebP menghasilkan ukuran file yang lebih kecil sempurna untuk penggunaan web, waktu pemuatan halaman yang lebih cepat, dan kinerja SEO yang lebih baik. WebP didukung oleh semua browser modern dan ideal untuk situs web, aplikasi web progresif, dan berbagi online.',
+      },
+      benefits: {
+        title: 'Manfaat Konverter Kami',
+        list: [
+          'Kompresi Superior - File 25-35% lebih kecil dari PNG/JPG dengan kualitas yang sama',
+          'Dioptimalkan untuk Web - Sempurna untuk situs web, PWAs, dan platform online',
+          'Format Modern - Didukung oleh semua browser dan platform utama',
+          'Pemuatan Lebih Cepat - File yang lebih kecil berarti waktu pemuatan halaman yang lebih cepat',
+          'Ramah SEO - Meningkatkan metrik kinerja situs web',
+          'Kualitas Dipertahankan - Kualitas visual yang sangat baik dengan kompresi efisien',
+        ],
+      },
+    },
+    
+    faq: {
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke WebP',
+      items: [
+        {
+          q: 'Apakah mengonversi HEIC ke WebP gratis?',
+          a: 'Ya! Konverter HEIC ke WebP kami sepenuhnya gratis. Anda dapat mengonversi gambar HEIC ke WebP tanpa registrasi, langganan, atau biaya tersembunyi.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan saat mengonversi HEIC ke WebP?',
+          a: 'Ya. Format WebP menyediakan kualitas gambar yang sangat baik dengan kompresi superior. Foto HEIC Anda dikonversi menjadi file WebP berkualitas tinggi dengan kehilangan kualitas minimal.',
+        },
+        {
+          q: 'Bisakah saya mengonversi foto HEIC dari iPhone ke WebP?',
+          a: 'Ya. Anda dapat mengonversi foto HEIC yang diambil di iPhone, iPad, atau perangkat Apple apa pun langsung ke WebP. Cukup unggah file HEIC Anda dan konversi langsung online.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak untuk mengonversi HEIC ke WebP?',
+          a: 'Tidak perlu instalasi. Konverter HEIC ke WebP bekerja sepenuhnya online di browser web Anda di Windows, macOS, Linux, iOS, dan Android.',
+        },
+      ],
+    },
+    
+    related: {
+      title: 'Konverter Terkait',
+      converters: [
+        { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
+        { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
+        { name: 'PNG ke WebP', url: '/convert/png-to-webp' },
+        { name: 'JPG ke WebP', url: '/convert/jpg-to-webp' },
+        { name: 'WebP ke PDF', url: '/convert/webp-to-pdf' },
       ],
     },
   },

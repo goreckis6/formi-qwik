@@ -169,6 +169,10 @@ export const nl: Translations = {
       name: "HEIC naar JPG",
       description: "Converteer Apple HEIC foto's direct naar JPG-formaat",
     },
+    heicToWebp: {
+      name: "HEIC naar WebP",
+      description: "Converteer Apple HEIC foto's direct naar WebP-formaat",
+    },
   },
 
   heicToPdf: {
@@ -529,6 +533,121 @@ export const nl: Translations = {
       copyright: "© 2025 FormiPeek",
       madeWith: "Gebouwd met",
       byDevelopers: "door ontwikkelaars die om kwaliteit geven.",
+    },
+  },
+
+  // HEIC to WebP Converter
+  heicToWebp: {
+    title: "HEIC naar WebP Converter - Converteer Apple Foto's Gratis Online naar WebP",
+    metaDescription:
+      "Converteer HEIC-afbeeldingen direct naar WebP-formaat. Gratis online HEIC naar WebP converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met iPhone- en iPad-foto's.",
+    metaKeywords:
+      "HEIC naar WebP, converteer HEIC, Apple foto's naar WebP, iPhone foto's naar WebP, HEIC converter, afbeelding naar WebP, batch converteer HEIC, gratis HEIC converter",
+
+    hero: {
+      title: "HEIC naar WebP Converter",
+      subtitle:
+        "Converteer uw Apple HEIC-foto's direct naar moderne WebP-afbeeldingen. Gratis, snelle en veilige conversie zonder bestandsgroottebeperkingen.",
+      badge1: "Bliksemsnel",
+      badge2: "100% Veilig",
+      badge3: "Geen Registratie",
+    },
+
+    upload: {
+      title: "Upload HEIC Bestanden",
+      description:
+        "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteren",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
+      download: "WebP Downloaden",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+
+    features: {
+      title: "Functies",
+      list: [
+        "Hoge kwaliteit HEIC naar WebP conversie",
+        "Batchverwerking tot 20 bestanden",
+        "Superieure compressie met kwaliteitsbehoud",
+        "Geen bestandsgroottebeperking",
+        "100% veilig en privé",
+        "Werkt met iPhone- en iPad-foto's",
+        "Direct downloaden na conversie",
+        "Geen watermerken toegevoegd",
+      ],
+    },
+
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload HEIC Bestanden",
+      step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download WebP",
+      step3Desc: "Ontvang uw geconverteerde WebP-bestanden direct",
+    },
+
+    about: {
+      title: "Over HEIC naar WebP Conversie",
+      whatIsHeic: {
+        title: "Wat is het HEIC-formaat?",
+        content:
+          "HEIC (High Efficiency Image Container) is het standaard fotoformaat dat wordt gebruikt door Apple-apparaten sinds iOS 11. Het biedt superieure compressie terwijl de hoge beeldkwaliteit behouden blijft, waardoor foto's minder opslagruimte innemen op uw iPhone of iPad.",
+      },
+      whyConvert: {
+        title: "Waarom HEIC naar WebP converteren?",
+        content:
+          "WebP is een modern afbeeldingsformaat ontwikkeld door Google dat superieure compressie biedt in vergelijking met PNG en JPG terwijl uitstekende kwaliteit behouden blijft. Het converteren van HEIC naar WebP resulteert in kleinere bestandsgroottes perfect voor webgebruik, snellere pagina laadtijden en betere SEO-prestaties. WebP wordt ondersteund door alle moderne browsers en is ideaal voor websites, progressieve web-apps en online delen.",
+      },
+      benefits: {
+        title: "Voordelen van Onze Converter",
+        list: [
+          "Superieure Compressie - Bestanden 25-35% kleiner dan PNG/JPG met dezelfde kwaliteit",
+          "Web Geoptimaliseerd - Perfect voor websites, PWAs en online platforms",
+          "Modern Formaat - Ondersteund door alle belangrijke browsers en platforms",
+          "Snellere Laden - Kleinere bestanden betekenen snellere pagina laadtijden",
+          "SEO Vriendelijk - Verbetert website prestatie-indicatoren",
+          "Kwaliteit Behouden - Uitstekende visuele kwaliteit met efficiënte compressie",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Veelgestelde Vragen – HEIC naar WebP",
+      items: [
+        {
+          q: "Is het converteren van HEIC naar WebP gratis?",
+          a: "Ja! Onze HEIC naar WebP converter is volledig gratis. U kunt HEIC-afbeeldingen naar WebP converteren zonder registratie, abonnementen of verborgen kosten.",
+        },
+        {
+          q: "Wordt de kwaliteit behouden bij het converteren van HEIC naar WebP?",
+          a: "Ja. Het WebP-formaat biedt uitstekende beeldkwaliteit met superieure compressie. Uw HEIC-foto's worden geconverteerd naar hoogwaardige WebP-bestanden met minimale kwaliteitsverlies.",
+        },
+        {
+          q: "Kan ik HEIC-foto's van iPhone naar WebP converteren?",
+          a: "Ja. U kunt HEIC-foto's genomen op iPhone, iPad of elk Apple-apparaat direct naar WebP converteren. Upload gewoon uw HEIC-bestanden en converteer ze direct online.",
+        },
+        {
+          q: "Moet ik software installeren om HEIC naar WebP te converteren?",
+          a: "Geen installatie vereist. De HEIC naar WebP converter werkt volledig online in uw webbrowser op Windows, macOS, Linux, iOS en Android.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "HEIC naar PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC naar JPG", url: "/convert/heic-to-jpg" },
+        { name: "PNG naar WebP", url: "/convert/png-to-webp" },
+        { name: "JPG naar WebP", url: "/convert/jpg-to-webp" },
+        { name: "WebP naar PDF", url: "/convert/webp-to-pdf" },
+      ],
     },
   },
 };

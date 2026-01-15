@@ -168,6 +168,10 @@ export const pl: Translations = {
       name: "HEIC na JPG",
       description: "Konwertuj zdjęcia Apple HEIC na format JPG natychmiast",
     },
+    heicToWebp: {
+      name: "HEIC na WebP",
+      description: "Konwertuj zdjęcia Apple HEIC na format WebP natychmiast",
+    },
   },
   
   heicToPdf: {
@@ -528,6 +532,121 @@ export const pl: Translations = {
       copyright: "© 2025 FormiPeek",
       madeWith: "Stworzone z",
       byDevelopers: "przez programistów, którym zależy na jakości.",
+    },
+  },
+
+  // HEIC to WebP Converter
+  heicToWebp: {
+    title: "Konwerter HEIC na WebP - Konwertuj Zdjęcia Apple na WebP Online Za Darmo",
+    metaDescription:
+      "Konwertuj obrazy HEIC na format WebP natychmiast. Darmowy internetowy konwerter HEIC na WebP z przetwarzaniem wsadowym. Szybki, bezpieczny i bez rejestracji. Działa ze zdjęciami z iPhone i iPad.",
+    metaKeywords:
+      "HEIC na WebP, konwertuj HEIC, zdjęcia Apple na WebP, zdjęcia iPhone na WebP, konwerter HEIC, obraz na WebP, wsadowa konwersja HEIC, darmowy konwerter HEIC",
+
+    hero: {
+      title: "Konwerter HEIC na WebP",
+      subtitle:
+        "Przekształć swoje zdjęcia Apple HEIC w nowoczesne obrazy WebP natychmiast. Darmowa, szybka i bezpieczna konwersja bez ograniczeń rozmiaru pliku.",
+      badge1: "Błyskawicznie Szybki",
+      badge2: "100% Bezpieczny",
+      badge3: "Bez Rejestracji",
+    },
+
+    upload: {
+      title: "Prześlij Pliki HEIC",
+      description:
+        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
+      buttonBatch: "Konwersja Wsadowa",
+      chooseFile: "Wybierz Pliki",
+      converting: "Konwertowanie...",
+      success: "Konwersja udana!",
+      download: "Pobierz WebP",
+      downloadAll: "Pobierz Wszystko jako ZIP",
+      convertAnother: "Konwertuj Kolejny Plik",
+    },
+
+    features: {
+      title: "Funkcje",
+      list: [
+        "Wysokiej jakości konwersja HEIC na WebP",
+        "Przetwarzanie wsadowe do 20 plików",
+        "Doskonała kompresja przy zachowaniu jakości",
+        "Brak ograniczeń rozmiaru pliku",
+        "100% bezpieczne i prywatne",
+        "Działa ze zdjęciami z iPhone i iPad",
+        "Natychmiastowe pobieranie po konwersji",
+        "Bez dodawania znaków wodnych",
+      ],
+    },
+
+    howItWorks: {
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki HEIC",
+      step1Desc: "Wybierz jedno lub więcej zdjęć HEIC z urządzenia",
+      step2Title: "Automatyczna Konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz WebP",
+      step3Desc: "Uzyskaj skonwertowane pliki WebP natychmiast",
+    },
+
+    about: {
+      title: "O Konwersji HEIC na WebP",
+      whatIsHeic: {
+        title: "Co to jest format HEIC?",
+        content:
+          "HEIC (High Efficiency Image Container) to domyślny format zdjęć używany przez urządzenia Apple od iOS 11. Oferuje doskonałą kompresję przy zachowaniu wysokiej jakości obrazu, dzięki czemu zdjęcia zajmują mniej miejsca na iPhone lub iPad.",
+      },
+      whyConvert: {
+        title: "Dlaczego Konwertować HEIC na WebP?",
+        content:
+          "WebP to nowoczesny format obrazów opracowany przez Google, który zapewnia doskonałą kompresję w porównaniu z PNG i JPG przy zachowaniu doskonałej jakości. Konwersja HEIC na WebP daje mniejsze pliki idealne do użycia w sieci, szybsze ładowanie stron i lepszą wydajność SEO. WebP jest obsługiwany przez wszystkie nowoczesne przeglądarki i jest idealny do stron internetowych, progresywnych aplikacji internetowych i udostępniania online.",
+      },
+      benefits: {
+        title: "Korzyści Naszego Konwertera",
+        list: [
+          "Doskonała Kompresja - 25-35% mniejsze pliki niż PNG/JPG przy tej samej jakości",
+          "Zoptymalizowane dla Sieci - Idealne do stron internetowych, PWA i platform online",
+          "Nowoczesny Format - Obsługiwany przez wszystkie główne przeglądarki i platformy",
+          "Szybsze Ładowanie - Mniejsze pliki oznaczają szybsze czasy ładowania stron",
+          "Przyjazne dla SEO - Poprawia wskaźniki wydajności strony",
+          "Zachowana Jakość - Doskonała jakość wizualna przy wydajnej kompresji",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Najczęściej Zadawane Pytania – HEIC do WebP",
+      items: [
+        {
+          q: "Czy konwersja HEIC na WebP jest darmowa?",
+          a: "Tak! Nasz konwerter HEIC na WebP jest całkowicie darmowy. Możesz konwertować obrazy HEIC do WebP bez rejestracji, subskrypcji lub ukrytych opłat.",
+        },
+        {
+          q: "Czy jakość zostanie zachowana podczas konwersji HEIC do WebP?",
+          a: "Tak. Format WebP zapewnia doskonałą jakość obrazu z doskonałą kompresją. Twoje zdjęcia HEIC są konwertowane na wysokiej jakości pliki WebP z minimalną utratą jakości.",
+        },
+        {
+          q: "Czy mogę konwertować zdjęcia HEIC z iPhone do WebP?",
+          a: "Tak. Możesz konwertować zdjęcia HEIC wykonane na iPhone, iPad lub dowolnym urządzeniu Apple bezpośrednio do WebP. Wystarczy przesłać pliki HEIC i skonwertować je natychmiast online.",
+        },
+        {
+          q: "Czy muszę instalować oprogramowanie do konwersji HEIC do WebP?",
+          a: "Nie wymaga instalacji. Konwerter HEIC na WebP działa całkowicie online w przeglądarce na Windows, macOS, Linux, iOS i Android.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Powiązane Konwertery",
+      converters: [
+        { name: "HEIC na PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC na PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC na JPG", url: "/convert/heic-to-jpg" },
+        { name: "PNG na WebP", url: "/convert/png-to-webp" },
+        { name: "JPG na WebP", url: "/convert/jpg-to-webp" },
+        { name: "WebP na PDF", url: "/convert/webp-to-pdf" },
+      ],
     },
   },
 };

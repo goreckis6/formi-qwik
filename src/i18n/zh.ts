@@ -162,6 +162,10 @@ export const zh: Translations = {
       name: "HEIC转JPG",
       description: "即时将Apple HEIC照片转换为JPG格式",
     },
+    heicToWebp: {
+      name: "HEIC转WebP",
+      description: "即时将Apple HEIC照片转换为WebP格式",
+    },
   },
 
   heicToPdf: {
@@ -520,6 +524,121 @@ export const zh: Translations = {
       copyright: "© 2025 FormiPeek",
       madeWith: "使用",
       byDevelopers: "由关心质量的开发人员构建。",
+    },
+  },
+
+  // HEIC to WebP Converter
+  heicToWebp: {
+    title: "HEIC转WebP转换器 - 免费在线将Apple照片转换为WebP",
+    metaDescription:
+      "即时将HEIC图像转换为WebP格式。免费在线HEIC转WebP转换器，支持批量处理。快速、安全且无需注册。适用于iPhone和iPad照片。",
+    metaKeywords:
+      "HEIC转WebP, 转换HEIC, Apple照片转WebP, iPhone照片转WebP, HEIC转换器, 图像转WebP, 批量转换HEIC, 免费HEIC转换器",
+
+    hero: {
+      title: "HEIC转WebP转换器",
+      subtitle:
+        "即时将您的Apple HEIC照片转换为现代WebP图像。免费、快速且安全的转换，无文件大小限制。",
+      badge1: "超快",
+      badge2: "100%安全",
+      badge3: "无需注册",
+    },
+
+    upload: {
+      title: "上传HEIC文件",
+      description:
+        "将您的HEIC照片拖放到此处或点击浏览。支持批量转换，最多20个文件。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载WebP",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+
+    features: {
+      title: "功能",
+      list: [
+        "高质量HEIC转WebP转换",
+        "批量处理最多20个文件",
+        "卓越压缩并保持质量",
+        "无文件大小限制",
+        "100%安全私密",
+        "适用于iPhone和iPad照片",
+        "转换后即时下载",
+        "不添加水印",
+      ],
+    },
+
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传HEIC文件",
+      step1Desc: "从设备中选择一个或多个HEIC照片",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器即时处理您的文件",
+      step3Title: "下载WebP",
+      step3Desc: "立即获取转换后的WebP文件",
+    },
+
+    about: {
+      title: "关于HEIC转WebP转换",
+      whatIsHeic: {
+        title: "什么是HEIC格式？",
+        content:
+          "HEIC（高效图像容器）是自iOS 11以来Apple设备使用的默认照片格式。它在保持高图像质量的同时提供卓越的压缩，使照片在iPhone或iPad上占用更少的存储空间。",
+      },
+      whyConvert: {
+        title: "为什么将HEIC转换为WebP？",
+        content:
+          "WebP是Google开发的现代图像格式，与PNG和JPG相比提供卓越的压缩，同时保持出色的质量。将HEIC转换为WebP可获得更小的文件大小，非常适合网页使用、更快的页面加载速度和更好的SEO性能。WebP受所有现代浏览器支持，非常适合网站、渐进式Web应用程序和在线分享。",
+      },
+      benefits: {
+        title: "我们转换器的优势",
+        list: [
+          "卓越压缩 - 相同质量下比PNG/JPG小25-35%",
+          "网页优化 - 非常适合网站、PWA和在线平台",
+          "现代格式 - 所有主要浏览器和平台都支持",
+          "加载更快 - 更小的文件意味着更快的页面加载时间",
+          "SEO友好 - 改善网站性能指标",
+          "质量保持 - 高效压缩的出色视觉效果",
+        ],
+      },
+    },
+
+    faq: {
+      title: "常见问题 – HEIC转WebP",
+      items: [
+        {
+          q: "将HEIC转换为WebP是否免费？",
+          a: "是的！我们的HEIC转WebP转换器完全免费。您可以无需注册、订阅或隐藏费用即可将HEIC图像转换为WebP。",
+        },
+        {
+          q: "将HEIC转换为WebP时质量会被保留吗？",
+          a: "是的。WebP格式提供卓越的图像质量和压缩。您的HEIC照片转换为高质量WebP文件，质量损失最小。",
+        },
+        {
+          q: "我可以将iPhone的HEIC照片转换为WebP吗？",
+          a: "是的。您可以将iPhone、iPad或任何Apple设备上拍摄的HEIC照片直接转换为WebP。只需上传HEIC文件并在线即时转换即可。",
+        },
+        {
+          q: "我需要安装软件才能将HEIC转换为WebP吗？",
+          a: "无需安装。HEIC转WebP转换器在Windows、macOS、Linux、iOS和Android的任何设备上的网络浏览器中完全在线工作。",
+        },
+      ],
+    },
+
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "HEIC转PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC转PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC转JPG", url: "/convert/heic-to-jpg" },
+        { name: "PNG转WebP", url: "/convert/png-to-webp" },
+        { name: "JPG转WebP", url: "/convert/jpg-to-webp" },
+        { name: "WebP转PDF", url: "/convert/webp-to-pdf" },
+      ],
     },
   },
 };
