@@ -172,6 +172,10 @@ export const en = {
       name: "HEIC to AVIF",
       description: "Convert Apple HEIC photos to AVIF format instantly",
     },
+    heicToTiff: {
+      name: "HEIC to TIFF",
+      description: "Convert Apple HEIC photos to TIFF format instantly",
+    },
   },
 
   // HEIC to PDF Converter
@@ -749,6 +753,137 @@ export const en = {
         { name: "HEIC to PNG", url: "/convert/heic-to-png" },
         { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to TIFF Converter
+  heicToTiff: {
+    title: "HEIC to TIFF Converter - Convert Apple Photos to TIFF Free Online",
+    metaDescription:
+      "Convert HEIC images to TIFF format instantly. Free online HEIC to TIFF converter with batch processing. Fast, secure, and no registration required. Works with iPhone and iPad photos.",
+    metaKeywords:
+      "HEIC to TIFF, convert HEIC, Apple photos to TIFF, iPhone photos to TIFF, HEIC converter, image to TIFF, batch convert HEIC, free HEIC converter",
+
+    hero: {
+      title: "HEIC to TIFF Converter",
+      subtitle:
+        "Transform your Apple HEIC photos into professional TIFF images instantly. Free, fast, and secure conversion with no file size limits.",
+      badge1: "Lightning Fast",
+      badge2: "100% Secure",
+      badge3: "No Registration",
+    },
+
+    upload: {
+      title: "Upload HEIC Files",
+      description:
+        "Drag & drop your HEIC photos here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download TIFF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+
+    features: {
+      title: "Features",
+      list: [
+        "High-quality HEIC to TIFF conversion",
+        "Batch processing up to 20 files",
+        "Preserves image quality and metadata",
+        "No file size limitations",
+        "100% secure and private",
+        "Works with iPhone & iPad photos",
+        "Instant download after conversion",
+        "No watermarks added",
+      ],
+    },
+
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload HEIC Files",
+      step1Desc: "Select one or multiple HEIC photos from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download TIFF",
+      step3Desc: "Get your converted TIFF files immediately",
+    },
+
+    about: {
+      title: "About HEIC to TIFF Conversion",
+      whatIsHeic: {
+        title: "What is HEIC Format?",
+        content:
+          "HEIC (High Efficiency Image Container) is the default photo format used by Apple devices since iOS 11. It offers superior compression while maintaining high image quality, making photos take up less storage space on your iPhone or iPad.",
+      },
+      whyConvert: {
+        title: "Why Convert HEIC to TIFF?",
+        content:
+          "While HEIC is efficient, it's not universally supported. Converting to TIFF ensures your photos can be viewed and edited in professional image editing software, archived for long-term storage, and used in professional workflows. TIFF format supports lossless compression and is widely used in photography, publishing, and archival applications.",
+      },
+      benefits: {
+        title: "Benefits of Our Converter",
+        list: [
+          "Professional Format - TIFF is the industry standard for high-quality images",
+          "Lossless Quality - No compression artifacts or quality loss",
+          "Metadata Preservation - Maintains EXIF and other image metadata",
+          "Wide Compatibility - Supported by all professional image editing software",
+          "Archival Quality - Ideal for long-term storage and professional archives",
+          "High Resolution - Preserve original image resolution and detail",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Frequently Asked Questions – HEIC to TIFF",
+      items: [
+        {
+          q: "Is it free to convert HEIC to TIFF?",
+          a: "Yes! Our HEIC to TIFF converter is completely free to use. You can convert HEIC images to TIFF without registration, subscriptions, or hidden fees.",
+        },
+        {
+          q: "Can I convert HEIC photos from iPhone to TIFF?",
+          a: "Yes. You can convert HEIC photos taken on iPhone, iPad, or any Apple device directly to TIFF. Simply upload your HEIC files from your device, and the conversion works instantly in your browser.",
+        },
+        {
+          q: "Will the quality be preserved when converting HEIC to TIFF?",
+          a: "Yes. We preserve the original image quality during conversion. Your HEIC photos are converted into high-resolution TIFF files with no compression or quality loss, maintaining all image details.",
+        },
+        {
+          q: "What is the maximum file size for HEIC to TIFF conversion?",
+          a: "You can convert HEIC files up to 100MB per file. For batch conversion, you can upload up to 20 files at once, with a total size limit of 100MB.",
+        },
+        {
+          q: "Why should I convert HEIC to TIFF instead of other formats?",
+          a: "TIFF is a professional, lossless format ideal for photography, publishing, and archival purposes. It preserves all image quality and metadata, making it perfect for professional workflows and long-term storage.",
+        },
+        {
+          q: "Do I need to install any software to convert HEIC to TIFF?",
+          a: "No installation is required. The HEIC to TIFF converter works entirely online in your web browser on Windows, macOS, Linux, iOS, and Android.",
+        },
+        {
+          q: "Can I convert multiple HEIC files to TIFF at once?",
+          a: "Yes! Our converter supports batch processing. You can upload and convert up to 20 HEIC files simultaneously. All converted TIFF files will be available for download as individual files or in a single ZIP archive.",
+        },
+        {
+          q: "Will EXIF data be preserved in the TIFF files?",
+          a: "Yes, we preserve EXIF and other metadata when converting HEIC to TIFF, ensuring all image information is maintained in the output files.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
+        { name: "PNG to TIFF", url: "/convert/png-to-tiff" },
+        { name: "JPG to TIFF", url: "/convert/jpg-to-tiff" },
+        { name: "HEIC to WEBP", url: "/convert/heic-to-webp" },
       ],
     },
   },

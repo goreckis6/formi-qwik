@@ -167,6 +167,10 @@ export const ar: Translations = {
       name: "HEIC إلى WebP",
       description: "تحويل صور Apple HEIC إلى تنسيق WebP فوراً",
     },
+    heicToTiff: {
+      name: "HEIC إلى TIFF",
+      description: "تحويل صور Apple HEIC إلى تنسيق TIFF فوراً",
+    },
     heicToAvif: {
       name: "HEIC إلى AVIF",
       description: "تحويل صور Apple HEIC إلى تنسيق AVIF فوراً",
@@ -733,6 +737,119 @@ export const ar: Translations = {
         },
         {
           q: "هل أحتاج إلى تثبيت برنامج لتحويل HEIC إلى AVIF؟",
+          a: "لا حاجة للتثبيت. المحول يعمل تماماً عبر الإنترنت في متصفح الويب الخاص بك على أي جهاز.",
+        },
+      ],
+    },
+
+    related: {
+      title: "محولات ذات صلة",
+      converters: [
+        { name: "HEIC إلى PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC إلى PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC إلى JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC إلى WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to TIFF Converter
+  heicToTiff: {
+    title: "محول HEIC إلى TIFF - تحويل صور Apple إلى TIFF مجاناً عبر الإنترنت",
+    metaDescription:
+      "تحويل صور HEIC إلى تنسيق TIFF فوراً. محول HEIC إلى TIFF مجاني عبر الإنترنت مع المعالجة المجمعة. سريع وآمن وبدون تسجيل. يعمل مع صور iPhone و iPad.",
+    metaKeywords:
+      "HEIC إلى TIFF, تحويل HEIC, صور Apple إلى TIFF, صور iPhone إلى TIFF, محول HEIC, صورة إلى TIFF, تحويل مجمع HEIC, محول HEIC مجاني",
+
+    hero: {
+      title: "محول HEIC إلى TIFF",
+      subtitle:
+        "حول صور Apple HEIC إلى صور TIFF من الجيل القادم فوراً. تحويل مجاني وسريع وآمن بدون حدود حجم الملف.",
+      badge1: "سريع جداً",
+      badge2: "100% آمن",
+      badge3: "بدون تسجيل",
+    },
+
+    upload: {
+      title: "رفع ملفات HEIC",
+      description:
+        "اسحب وأفلت صور HEIC هنا أو انقر للتصفح. يدعم التحويل المجمع حتى 20 ملف. الحد الأقصى 100MB لكل ملف.",
+      buttonSingle: "ملف واحد",
+      buttonBatch: "تحويل مجمع",
+      chooseFile: "اختر الملفات",
+      converting: "جارٍ التحويل...",
+      success: "نجح التحويل!",
+      download: "تنزيل TIFF",
+      downloadAll: "تنزيل الكل كـ ZIP",
+      convertAnother: "تحويل ملف آخر",
+    },
+
+    features: {
+      title: "الميزات",
+      list: [
+        "تحويل HEIC إلى TIFF عالي الجودة",
+        "معالجة مجمعة حتى 20 ملف",
+        "ضغط من الدرجة الأولى مع الحفاظ على الجودة",
+        "بدون حدود حجم الملف",
+        "100% آمن وخاص",
+        "يعمل مع صور iPhone و iPad",
+        "تنزيل فوري بعد التحويل",
+        "بدون إضافة علامات مائية",
+      ],
+    },
+
+    howItWorks: {
+      title: "كيف يعمل",
+      step1Title: "رفع ملفات HEIC",
+      step1Desc: "اختر صورة أو صور HEIC من جهازك",
+      step2Title: "تحويل تلقائي",
+      step2Desc: "محولنا يعالج ملفاتك فوراً",
+      step3Title: "تنزيل TIFF",
+      step3Desc: "احصل على ملفات TIFF المحولة فوراً",
+    },
+
+    about: {
+      title: "حول تحويل HEIC إلى TIFF",
+      whatIsHeic: {
+        title: "ما هو تنسيق HEIC؟",
+        content:
+          "HEIC (High Efficiency Image Container) هو تنسيق الصور الافتراضي المستخدم بواسطة أجهزة Apple منذ iOS 11. يوفر ضغطاً فائقاً مع الحفاظ على جودة صورة عالية، مما يجعل الصور تشغل مساحة تخزين أقل على iPhone أو iPad.",
+      },
+      whyConvert: {
+        title: "لماذا تحويل HEIC إلى TIFF؟",
+        content:
+          "TIFF (AV1 Image File Format) هو أحدث تنسيق صور تم تطويره بواسطة Alliance for Open Media، ويوفر ضغطاً أفضل من WebP و JPEG مع الحفاظ على جودة فائقة. تحويل HEIC إلى TIFF ينتج أصغر أحجام ملفات ممكنة للاستخدام على الويب، تحميل صفحات أسرع بشكل كبير، وأداء SEO ممتاز. TIFF مدعوم من المتصفحات الحديثة وهو مثالي للمواقع المتطورة، تطبيقات الويب التقدمية، والمنصات عبر الإنترنت عالية الأداء.",
+      },
+      benefits: {
+        title: "فوائد محولنا",
+        list: [
+          "أفضل ضغط - ملفات أصغر بنسبة تصل إلى 50% من JPEG بنفس الجودة أو أفضل",
+          "تنسيق الجيل القادم - مستقبل صور الويب بدعم الصناعة",
+          "جودة فائقة - جودة بصرية ممتازة حتى مع ضغط عالي جداً",
+          "تحميل أسرع - الملفات الأصغر تعني أوقات تحميل صفحات أسرع بشكل كبير",
+          "محسّن لـ SEO - يحسّن Core Web Vitals وترتيبات البحث",
+          "الجودة محفوظة - جودة بصرية استثنائية مع أقصى كفاءة ضغط",
+        ],
+      },
+    },
+
+    faq: {
+      title: "الأسئلة الشائعة – HEIC إلى TIFF",
+      items: [
+        {
+          q: "هل تحويل HEIC إلى TIFF مجاني؟",
+          a: "نعم! محول HEIC إلى TIFF مجاني تماماً. يمكنك تحويل صور HEIC إلى TIFF بدون تسجيل أو اشتراكات أو رسوم مخفية.",
+        },
+        {
+          q: "هل سيتم الحفاظ على الجودة عند تحويل HEIC إلى TIFF؟",
+          a: "نعم. تنسيق TIFF يوفر جودة صورة ممتازة مع ضغط متقدم. صور HEIC الخاصة بك يتم تحويلها إلى ملفات TIFF عالية الجودة مع فقدان جودة أدنى وأحجام ملفات أصغر بشكل كبير.",
+        },
+        {
+          q: "هل يمكنني تحويل صور HEIC من iPhone إلى TIFF؟",
+          a: "نعم. يمكنك تحويل صور HEIC المأخوذة على iPhone أو iPad أو أي جهاز Apple مباشرة إلى TIFF.",
+        },
+        {
+          q: "هل أحتاج إلى تثبيت برنامج لتحويل HEIC إلى TIFF؟",
           a: "لا حاجة للتثبيت. المحول يعمل تماماً عبر الإنترنت في متصفح الويب الخاص بك على أي جهاز.",
         },
       ],

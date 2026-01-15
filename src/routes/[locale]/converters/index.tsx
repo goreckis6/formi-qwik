@@ -48,6 +48,11 @@ export default component$(() => {
       description: converters.heicToAvif.description,
       href: getLocalizedPath("/convert/heic-to-avif", locale),
     },
+    {
+      name: converters.heicToTiff.name,
+      description: converters.heicToTiff.description,
+      href: getLocalizedPath("/convert/heic-to-tiff", locale),
+    },
   ]);
 
   const filteredConverters = useComputed$(() => {

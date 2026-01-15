@@ -166,6 +166,10 @@ export const zh: Translations = {
       name: "HEIC转WebP",
       description: "即时将Apple HEIC照片转换为WebP格式",
     },
+    heicToTiff: {
+      name: "HEIC转TIFF",
+      description: "即时将Apple HEIC照片转换为TIFF格式",
+    },
     heicToAvif: {
       name: "HEIC转AVIF",
       description: "即时将Apple HEIC照片转换为AVIF格式",
@@ -701,6 +705,119 @@ export const zh: Translations = {
         title: "为什么将HEIC转换为AVIF？",
         content:
           "AVIF（AV1图像文件格式）是由开放媒体联盟开发的最新图像格式，在保持卓越质量的同时提供比WebP和JPEG更好的压缩。将HEIC转换为AVIF可实现网络使用的最小文件大小、显著更快的页面加载速度和出色的SEO性能。AVIF受到现代浏览器的支持，非常适合前沿网站、渐进式Web应用程序和高性能在线平台。",
+      },
+      benefits: {
+        title: "我们转换器的优势",
+        list: [
+          "最佳压缩 - 在相同或更好质量下，文件比JPEG小50%",
+          "下一代格式 - 行业支持的Web图像未来",
+          "卓越质量 - 即使在极高压缩下也能保持出色的视觉质量",
+          "更快加载 - 更小的文件意味着显著更快的页面加载时间",
+          "SEO优化 - 改善Core Web Vitals和搜索排名",
+          "质量保持 - 最大压缩效率下的出色视觉质量",
+        ],
+      },
+    },
+
+    faq: {
+      title: "常见问题 – HEIC转AVIF",
+      items: [
+        {
+          q: "将HEIC转换为AVIF是否免费？",
+          a: "是的！我们的HEIC转AVIF转换器完全免费。您可以在不注册、订阅或隐藏费用的情况下将HEIC图像转换为AVIF。",
+        },
+        {
+          q: "将HEIC转换为AVIF时质量会保持吗？",
+          a: "是的。AVIF格式通过高级压缩提供出色的图像质量。您的HEIC照片被转换为高质量的AVIF文件，质量损失最小，文件大小显著减小。",
+        },
+        {
+          q: "我可以将iPhone的HEIC照片转换为AVIF吗？",
+          a: "是的。您可以将iPhone、iPad或任何Apple设备上拍摄的HEIC照片直接转换为AVIF。",
+        },
+        {
+          q: "我需要安装软件来将HEIC转换为AVIF吗？",
+          a: "无需安装。转换器可在任何设备的Web浏览器中完全在线工作。",
+        },
+      ],
+    },
+
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "HEIC转PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC转PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC转JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC转WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to TIFF Converter
+  heicToTiff: {
+    title: "HEIC转AVIF转换器 - 免费在线将Apple照片转换为AVIF",
+    metaDescription:
+      "即时将HEIC图像转换为AVIF格式。免费在线HEIC转AVIF转换器，支持批量处理。快速、安全且无需注册。适用于iPhone和iPad照片。",
+    metaKeywords:
+      "HEIC转AVIF, 转换HEIC, Apple照片转AVIF, iPhone照片转AVIF, HEIC转换器, 图像转AVIF, HEIC批量转换, 免费HEIC转换器",
+
+    hero: {
+      title: "HEIC转AVIF转换器",
+      subtitle:
+        "将您的Apple HEIC照片即时转换为下一代AVIF图像。免费、快速、安全的转换，无文件大小限制。",
+      badge1: "超快速度",
+      badge2: "100%安全",
+      badge3: "无需注册",
+    },
+
+    upload: {
+      title: "上传HEIC文件",
+      description:
+        "将HEIC照片拖放到此处或点击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载AVIF",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+
+    features: {
+      title: "功能",
+      list: [
+        "高质量HEIC转AVIF转换",
+        "最多20个文件的批量处理",
+        "一流的压缩，保持质量",
+        "无文件大小限制",
+        "100%安全私密",
+        "适用于iPhone和iPad照片",
+        "转换后即时下载",
+        "不添加水印",
+      ],
+    },
+
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传HEIC文件",
+      step1Desc: "从设备中选择一个或多个HEIC照片",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器即时处理您的文件",
+      step3Title: "下载AVIF",
+      step3Desc: "立即获取转换后的AVIF文件",
+    },
+
+    about: {
+      title: "关于HEIC转AVIF转换",
+      whatIsHeic: {
+        title: "什么是HEIC格式？",
+        content:
+          "HEIC（高效图像容器）是自iOS 11以来Apple设备使用的默认照片格式。它在保持高图像质量的同时提供卓越的压缩，使照片在iPhone或iPad上占用更少的存储空间。",
+      },
+      whyConvert: {
+        title: "为什么将HEIC转换为AVIF？",
+        content:
+          "TIFF（AV1图像文件格式）是由开放媒体联盟开发的最新图像格式，在保持卓越质量的同时提供比WebP和JPEG更好的压缩。将HEIC转换为AVIF可实现网络使用的最小文件大小、显著更快的页面加载速度和出色的SEO性能。AVIF受到现代浏览器的支持，非常适合前沿网站、渐进式Web应用程序和高性能在线平台。",
       },
       benefits: {
         title: "我们转换器的优势",

@@ -173,6 +173,10 @@ export const tr: Translations = {
       name: "HEIC'den WebP'ye",
       description: "Apple HEIC fotoğraflarını WebP formatına anında dönüştürün",
     },
+    heicToTiff: {
+      name: "HEIC'den TIFF'ye",
+      description: "Apple HEIC fotoğraflarını TIFF formatına anında dönüştürün",
+    },
     heicToAvif: {
       name: "HEIC'den AVIF'ye",
       description: "Apple HEIC fotoğraflarını AVIF formatına anında dönüştürün",
@@ -753,6 +757,120 @@ export const tr: Translations = {
         },
         {
           q: "HEIC'i AVIF'ye dönüştürmek için yazılım yüklemem gerekiyor mu?",
+          a: "Kurulum gerekmez. Dönüştürücü herhangi bir cihazda web tarayıcınızda tamamen çevrimiçi çalışır.",
+        },
+      ],
+    },
+
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "HEIC'den PDF'e", url: "/convert/heic-to-pdf" },
+        { name: "HEIC'den PNG'ye", url: "/convert/heic-to-png" },
+        { name: "HEIC'den JPG'ye", url: "/convert/heic-to-jpg" },
+        { name: "HEIC'den WebP'ye", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to TIFF Converter
+  heicToTiff: {
+    title:
+      "HEIC'den TIFF'ye Dönüştürücü - Apple Fotoğraflarını TIFF'ye Ücretsiz Çevrimiçi Dönüştür",
+    metaDescription:
+      "HEIC görüntülerini anında TIFF formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIC'den TIFF'ye dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. iPhone ve iPad fotoğraflarıyla çalışır.",
+    metaKeywords:
+      "HEIC'den TIFF'ye, HEIC dönüştür, Apple fotoğrafları TIFF'ye, iPhone fotoğrafları TIFF'ye, HEIC dönüştürücü, görüntü TIFF'ye, HEIC toplu dönüştürme, ücretsiz HEIC dönüştürücü",
+
+    hero: {
+      title: "HEIC'den TIFF'ye Dönüştürücü",
+      subtitle:
+        "Apple HEIC fotoğraflarınızı yeni nesil TIFF görüntülerine anında dönüştürün. Dosya boyutu sınırı olmayan ücretsiz, hızlı ve güvenli dönüştürme.",
+      badge1: "Çok Hızlı",
+      badge2: "%100 Güvenli",
+      badge3: "Kayıt Yok",
+    },
+
+    upload: {
+      title: "HEIC Dosyalarını Yükle",
+      description:
+        "HEIC fotoğraflarınızı buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürmeyi destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştür",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "TIFF İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+
+    features: {
+      title: "Özellikler",
+      list: [
+        "Yüksek kaliteli HEIC'den TIFF'ye dönüştürme",
+        "20 dosyaya kadar toplu işleme",
+        "Kalite korumalı birinci sınıf sıkıştırma",
+        "Dosya boyutu sınırı yok",
+        "%100 güvenli ve özel",
+        "iPhone ve iPad fotoğraflarıyla çalışır",
+        "Dönüştürmeden sonra anında indirme",
+        "Filigran eklenmez",
+      ],
+    },
+
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "HEIC Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya daha fazla HEIC fotoğrafı seçin",
+      step2Title: "Otomatik Dönüştür",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "TIFF İndir",
+      step3Desc: "Dönüştürülmüş TIFF dosyalarınızı hemen alın",
+    },
+
+    about: {
+      title: "HEIC'den TIFF'ye Dönüştürme Hakkında",
+      whatIsHeic: {
+        title: "HEIC Formatı Nedir?",
+        content:
+          "HEIC (High Efficiency Image Container), iOS 11'den bu yana Apple cihazları tarafından kullanılan varsayılan fotoğraf formatıdır. Yüksek görüntü kalitesini korurken üstün sıkıştırma sunar, böylece fotoğraflar iPhone veya iPad'inizde daha az depolama alanı kaplar.",
+      },
+      whyConvert: {
+        title: "Neden HEIC'i TIFF'ye Dönüştürmelisiniz?",
+        content:
+          "TIFF (AV1 Image File Format), Alliance for Open Media tarafından geliştirilen en yeni görüntü formatıdır ve üstün kaliteyi korurken WebP ve JPEG'den daha iyi sıkıştırma sunar. HEIC'i TIFF'ye dönüştürmek, web kullanımı için mümkün olan en küçük dosya boyutları, dramatik olarak daha hızlı sayfa yükleme süreleri ve mükemmel SEO performansı ile sonuçlanır. TIFF modern tarayıcılar tarafından desteklenir ve son teknoloji web siteleri, ilerici web uygulamaları ve yüksek performanslı çevrimiçi platformlar için idealdir.",
+      },
+      benefits: {
+        title: "Dönüştürücümüzün Avantajları",
+        list: [
+          "En İyi Sıkıştırma - Aynı veya daha iyi kalite ile JPEG'den %50'ye kadar daha küçük dosyalar",
+          "Yeni Nesil Format - Endüstri desteğiyle web görüntülerinin geleceği",
+          "Üstün Kalite - Çok yüksek sıkıştırmada bile mükemmel görsel kalite",
+          "Daha Hızlı Yükleme - Daha küçük dosyalar, önemli ölçüde daha hızlı sayfa yükleme süreleri anlamına gelir",
+          "SEO Optimize - Core Web Vitals ve arama sıralamalarını iyileştirir",
+          "Kalite Korundu - Maksimum sıkıştırma verimliliği ile olağanüstü görsel kalite",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Sık Sorulan Sorular – HEIC'den TIFF'ye",
+      items: [
+        {
+          q: "HEIC'i TIFF'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! HEIC'den TIFF'ye dönüştürücümüz tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret olmadan HEIC görüntülerini TIFF'ye dönüştürebilirsiniz.",
+        },
+        {
+          q: "HEIC'i TIFF'ye dönüştürürken kalite korunacak mı?",
+          a: "Evet. TIFF formatı gelişmiş sıkıştırma ile mükemmel görüntü kalitesi sağlar. HEIC fotoğraflarınız minimal kalite kaybı ve önemli ölçüde daha küçük dosya boyutları ile yüksek kaliteli TIFF dosyalarına dönüştürülür.",
+        },
+        {
+          q: "iPhone'dan HEIC fotoğraflarını TIFF'ye dönüştürebilir miyim?",
+          a: "Evet. iPhone, iPad veya herhangi bir Apple cihazında çekilen HEIC fotoğraflarını doğrudan TIFF'ye dönüştürebilirsiniz.",
+        },
+        {
+          q: "HEIC'i TIFF'ye dönüştürmek için yazılım yüklemem gerekiyor mu?",
           a: "Kurulum gerekmez. Dönüştürücü herhangi bir cihazda web tarayıcınızda tamamen çevrimiçi çalışır.",
         },
       ],

@@ -164,6 +164,10 @@ export const id: Translations = {
       name: 'HEIC ke WebP',
       description: 'Konversi foto Apple HEIC ke format WebP secara instan',
     },
+    heicToTiff: {
+      name: "HEIC ke TIFF",
+      description: "Konversi foto Apple HEIC ke format TIFF secara instan",
+    },
     heicToAvif: {
       name: 'HEIC ke AVIF',
       description: 'Konversi foto Apple HEIC ke format AVIF secara instan',
@@ -699,6 +703,113 @@ export const id: Translations = {
         },
         {
           q: 'Apakah saya perlu menginstal perangkat lunak untuk mengonversi HEIC ke AVIF?',
+          a: 'Tidak perlu instalasi. Konverter bekerja sepenuhnya online di browser web Anda di perangkat apa pun.',
+        },
+      ],
+    },
+
+    related: {
+      title: 'Konverter Terkait',
+      converters: [
+        { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
+        { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to TIFF Converter
+  heicToTiff: {
+    title: 'Konverter HEIC ke TIFF - Konversi Foto Apple ke TIFF Gratis Online',
+    metaDescription: 'Konversi gambar HEIC ke format TIFF secara instan. Konverter HEIC ke TIFF online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
+    metaKeywords: 'HEIC ke TIFF, konversi HEIC, foto Apple ke TIFF, foto iPhone ke TIFF, konverter HEIC, gambar ke TIFF, konversi batch HEIC, konverter HEIC gratis',
+
+    hero: {
+      title: 'Konverter HEIC ke TIFF',
+      subtitle: 'Ubah foto Apple HEIC Anda menjadi gambar TIFF generasi berikutnya secara instan. Konversi gratis, cepat, dan aman tanpa batasan ukuran file.',
+      badge1: 'Sangat Cepat',
+      badge2: '100% Aman',
+      badge3: 'Tanpa Registrasi',
+    },
+
+    upload: {
+      title: 'Unggah File HEIC',
+      description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.',
+      buttonSingle: 'File Tunggal',
+      buttonBatch: 'Konversi Batch',
+      chooseFile: 'Pilih File',
+      converting: 'Mengonversi...',
+      success: 'Konversi berhasil!',
+      download: 'Unduh TIFF',
+      downloadAll: 'Unduh Semua sebagai ZIP',
+      convertAnother: 'Konversi File Lain',
+    },
+
+    features: {
+      title: 'Fitur',
+      list: [
+        'Konversi HEIC ke TIFF berkualitas tinggi',
+        'Pemrosesan batch hingga 20 file',
+        'Kompresi terbaik dengan pelestarian kualitas',
+        'Tidak ada batasan ukuran file',
+        '100% aman dan privat',
+        'Bekerja dengan foto iPhone & iPad',
+        'Unduh instan setelah konversi',
+        'Tidak ada watermark yang ditambahkan',
+      ],
+    },
+
+    howItWorks: {
+      title: 'Cara Kerja',
+      step1Title: 'Unggah File HEIC',
+      step1Desc: 'Pilih satu atau beberapa foto HEIC dari perangkat Anda',
+      step2Title: 'Konversi Otomatis',
+      step2Desc: 'Konverter kami memproses file Anda secara instan',
+      step3Title: 'Unduh TIFF',
+      step3Desc: 'Dapatkan file TIFF yang dikonversi segera',
+    },
+
+    about: {
+      title: 'Tentang Konversi HEIC ke TIFF',
+      whatIsHeic: {
+        title: 'Apa itu Format HEIC?',
+        content: 'HEIC (High Efficiency Image Container) adalah format foto default yang digunakan oleh perangkat Apple sejak iOS 11. Ini menawarkan kompresi superior sambil mempertahankan kualitas gambar tinggi, membuat foto mengambil lebih sedikit ruang penyimpanan di iPhone atau iPad Anda.',
+      },
+      whyConvert: {
+        title: 'Mengapa Mengonversi HEIC ke TIFF?',
+        content: 'TIFF (AV1 Image File Format) adalah format gambar terbaru yang dikembangkan oleh Alliance for Open Media, menawarkan kompresi yang bahkan lebih baik daripada WebP dan JPEG sambil mempertahankan kualitas superior. Mengonversi HEIC ke TIFF menghasilkan ukuran file terkecil yang mungkin untuk penggunaan web, waktu pemuatan halaman yang jauh lebih cepat, dan kinerja SEO yang sangat baik. TIFF didukung oleh browser modern dan ideal untuk situs web canggih, aplikasi web progresif, dan platform online berkinerja tinggi.',
+      },
+      benefits: {
+        title: 'Manfaat Konverter Kami',
+        list: [
+          'Kompresi Terbaik - File hingga 50% lebih kecil daripada JPEG dengan kualitas yang sama atau lebih baik',
+          'Format Generasi Berikutnya - Masa depan gambar web dengan dukungan industri',
+          'Kualitas Superior - Kualitas visual yang sangat baik bahkan pada kompresi sangat tinggi',
+          'Pemuatan Lebih Cepat - File yang lebih kecil berarti waktu pemuatan halaman yang jauh lebih cepat',
+          'Dioptimalkan untuk SEO - Meningkatkan Core Web Vitals dan peringkat pencarian',
+          'Kualitas Terjaga - Kualitas visual yang luar biasa dengan efisiensi kompresi maksimal',
+        ],
+      },
+    },
+
+    faq: {
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke TIFF',
+      items: [
+        {
+          q: 'Apakah gratis untuk mengonversi HEIC ke TIFF?',
+          a: 'Ya! Konverter HEIC ke TIFF kami sepenuhnya gratis. Anda dapat mengonversi gambar HEIC ke TIFF tanpa registrasi, langganan, atau biaya tersembunyi.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan saat mengonversi HEIC ke TIFF?',
+          a: 'Ya. Format TIFF memberikan kualitas gambar yang sangat baik dengan kompresi lanjutan. Foto HEIC Anda dikonversi menjadi file TIFF berkualitas tinggi dengan kehilangan kualitas minimal dan ukuran file yang jauh lebih kecil.',
+        },
+        {
+          q: 'Bisakah saya mengonversi foto HEIC dari iPhone ke TIFF?',
+          a: 'Ya. Anda dapat mengonversi foto HEIC yang diambil di iPhone, iPad, atau perangkat Apple apa pun langsung ke TIFF.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak untuk mengonversi HEIC ke TIFF?',
           a: 'Tidak perlu instalasi. Konverter bekerja sepenuhnya online di browser web Anda di perangkat apa pun.',
         },
       ],

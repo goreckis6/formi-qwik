@@ -176,6 +176,10 @@ export const es: Translations = {
       name: "HEIC a WebP",
       description: "Convierte fotos Apple HEIC a formato WebP al instante",
     },
+    heicToTiff: {
+      name: "HEIC a TIFF",
+      description: "Convierte fotos Apple HEIC al formato TIFF al instante",
+    },
     heicToAvif: {
       name: "HEIC a AVIF",
       description: "Convierte fotos Apple HEIC a formato AVIF al instante",
@@ -743,6 +747,119 @@ export const es: Translations = {
         },
         {
           q: "¿Necesito instalar software para convertir HEIC a AVIF?",
+          a: "No se requiere instalación. El convertidor funciona completamente en línea en tu navegador web en cualquier dispositivo.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Convertidores Relacionados",
+      converters: [
+        { name: "HEIC a PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC a PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC a JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC a WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to TIFF Converter
+  heicToTiff: {
+    title: "Convertidor de HEIC a TIFF - Convierte Fotos de Apple a TIFF Gratis en Línea",
+    metaDescription:
+      "Convierte imágenes HEIC a formato TIFF instantáneamente. Convertidor gratuito en línea de HEIC a TIFF con procesamiento por lotes. Rápido, seguro y sin registro requerido. Funciona con fotos de iPhone e iPad.",
+    metaKeywords:
+      "HEIC a TIFF, convertir HEIC, fotos Apple a TIFF, fotos iPhone a TIFF, convertidor HEIC, imagen a TIFF, conversión por lotes HEIC, convertidor HEIC gratuito",
+
+    hero: {
+      title: "Convertidor de HEIC a TIFF",
+      subtitle:
+        "Transforma tus fotos HEIC de Apple en imágenes TIFF de próxima generación instantáneamente. Conversión gratuita, rápida y segura sin límites de tamaño de archivo.",
+      badge1: "Súper Rápido",
+      badge2: "100% Seguro",
+      badge3: "Sin Registro",
+    },
+
+    upload: {
+      title: "Subir Archivos HEIC",
+      description:
+        "Arrastra y suelta tus fotos HEIC aquí o haz clic para navegar. Soporta conversión por lotes de hasta 20 archivos. Máximo 100MB por archivo.",
+      buttonSingle: "Archivo Único",
+      buttonBatch: "Conversión por Lotes",
+      chooseFile: "Elegir Archivos",
+      converting: "Convirtiendo...",
+      success: "¡Conversión exitosa!",
+      download: "Descargar TIFF",
+      downloadAll: "Descargar Todo como ZIP",
+      convertAnother: "Convertir Otro Archivo",
+    },
+
+    features: {
+      title: "Características",
+      list: [
+        "Conversión de HEIC a TIFF de alta calidad",
+        "Procesamiento por lotes de hasta 20 archivos",
+        "Compresión de primera clase con preservación de calidad",
+        "Sin límites de tamaño de archivo",
+        "100% seguro y privado",
+        "Funciona con fotos de iPhone e iPad",
+        "Descarga instantánea después de la conversión",
+        "Sin marcas de agua añadidas",
+      ],
+    },
+
+    howItWorks: {
+      title: "Cómo Funciona",
+      step1Title: "Subir Archivos HEIC",
+      step1Desc: "Selecciona una o múltiples fotos HEIC de tu dispositivo",
+      step2Title: "Conversión Automática",
+      step2Desc: "Nuestro convertidor procesa tus archivos instantáneamente",
+      step3Title: "Descargar TIFF",
+      step3Desc: "Obtén tus archivos TIFF convertidos inmediatamente",
+    },
+
+    about: {
+      title: "Acerca de la Conversión HEIC a TIFF",
+      whatIsHeic: {
+        title: "¿Qué es el Formato HEIC?",
+        content:
+          "HEIC (High Efficiency Image Container) es el formato de foto predeterminado utilizado por dispositivos Apple desde iOS 11. Ofrece compresión superior mientras mantiene alta calidad de imagen, haciendo que las fotos ocupen menos espacio de almacenamiento en tu iPhone o iPad.",
+      },
+      whyConvert: {
+        title: "¿Por Qué Convertir HEIC a TIFF?",
+        content:
+          "TIFF (AV1 Image File Format) es el formato de imagen más reciente desarrollado por la Alliance for Open Media, ofreciendo incluso mejor compresión que WebP y JPEG mientras mantiene calidad superior. Convertir HEIC a TIFF resulta en los tamaños de archivo más pequeños posibles para uso web, cargas de página dramáticamente más rápidas y excelente rendimiento SEO. TIFF es compatible con navegadores modernos y es ideal para sitios web de vanguardia, aplicaciones web progresivas y plataformas en línea de alto rendimiento.",
+      },
+      benefits: {
+        title: "Beneficios de Nuestro Convertidor",
+        list: [
+          "Mejor Compresión - Archivos hasta 50% más pequeños que JPEG con la misma o mejor calidad",
+          "Formato de Próxima Generación - El futuro de las imágenes web con apoyo de la industria",
+          "Calidad Superior - Excelente calidad visual incluso con compresión muy alta",
+          "Carga Más Rápida - Archivos más pequeños significan tiempos de carga de página significativamente más rápidos",
+          "Optimizado para SEO - Mejora Core Web Vitals y rankings de búsqueda",
+          "Calidad Preservada - Calidad visual excepcional con máxima eficiencia de compresión",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Preguntas Frecuentes – HEIC a TIFF",
+      items: [
+        {
+          q: "¿Es gratis convertir HEIC a TIFF?",
+          a: "¡Sí! Nuestro convertidor de HEIC a TIFF es completamente gratuito. Puedes convertir imágenes HEIC a TIFF sin registro, suscripciones ni cargos ocultos.",
+        },
+        {
+          q: "¿Se preservará la calidad al convertir HEIC a TIFF?",
+          a: "Sí. El formato TIFF proporciona excelente calidad de imagen con compresión avanzada. Tus fotos HEIC se convierten en archivos TIFF de alta calidad con pérdida de calidad mínima y tamaños de archivo significativamente más pequeños.",
+        },
+        {
+          q: "¿Puedo convertir fotos HEIC del iPhone a TIFF?",
+          a: "Sí. Puedes convertir fotos HEIC tomadas en iPhone, iPad o cualquier dispositivo Apple directamente a TIFF.",
+        },
+        {
+          q: "¿Necesito instalar software para convertir HEIC a TIFF?",
           a: "No se requiere instalación. El convertidor funciona completamente en línea en tu navegador web en cualquier dispositivo.",
         },
       ],
