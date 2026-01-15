@@ -168,6 +168,10 @@ export const en = {
       name: "HEIC to WebP",
       description: "Convert Apple HEIC photos to WebP format instantly",
     },
+    heicToAvif: {
+      name: "HEIC to AVIF",
+      description: "Convert Apple HEIC photos to AVIF format instantly",
+    },
   },
 
   // HEIC to PDF Converter
@@ -631,9 +635,120 @@ export const en = {
         { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
         { name: "HEIC to PNG", url: "/convert/heic-to-png" },
         { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
-        { name: "PNG to WebP", url: "/convert/png-to-webp" },
-        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
-        { name: "WebP to PDF", url: "/convert/webp-to-pdf" },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to AVIF Converter
+  heicToAvif: {
+    title: "HEIC to AVIF Converter - Convert Apple Photos to AVIF Free Online",
+    metaDescription:
+      "Convert HEIC images to AVIF format instantly. Free online HEIC to AVIF converter with batch processing. Fast, secure, and no registration required. Works with iPhone and iPad photos.",
+    metaKeywords:
+      "HEIC to AVIF, convert HEIC, Apple photos to AVIF, iPhone photos to AVIF, HEIC converter, image to AVIF, batch convert HEIC, free HEIC converter",
+
+    hero: {
+      title: "HEIC to AVIF Converter",
+      subtitle:
+        "Transform your Apple HEIC photos into next-generation AVIF images instantly. Free, fast, and secure conversion with no file size limits.",
+      badge1: "Lightning Fast",
+      badge2: "100% Secure",
+      badge3: "No Registration",
+    },
+
+    upload: {
+      title: "Upload HEIC Files",
+      description:
+        "Drag & drop your HEIC photos here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download AVIF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+
+    features: {
+      title: "Features",
+      list: [
+        "High-quality HEIC to AVIF conversion",
+        "Batch processing up to 20 files",
+        "Best-in-class compression with quality preservation",
+        "No file size limitations",
+        "100% secure and private",
+        "Works with iPhone & iPad photos",
+        "Instant download after conversion",
+        "No watermarks added",
+      ],
+    },
+
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload HEIC Files",
+      step1Desc: "Select one or multiple HEIC photos from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download AVIF",
+      step3Desc: "Get your converted AVIF files immediately",
+    },
+
+    about: {
+      title: "About HEIC to AVIF Conversion",
+      whatIsHeic: {
+        title: "What is HEIC Format?",
+        content:
+          "HEIC (High Efficiency Image Container) is the default photo format used by Apple devices since iOS 11. It offers superior compression while maintaining high image quality, making photos take up less storage space on your iPhone or iPad.",
+      },
+      whyConvert: {
+        title: "Why Convert HEIC to AVIF?",
+        content:
+          "AVIF (AV1 Image File Format) is the latest image format developed by the Alliance for Open Media, offering even better compression than WebP and JPEG while maintaining superior quality. Converting HEIC to AVIF results in the smallest file sizes possible for web use, dramatically faster page loads, and excellent SEO performance. AVIF is supported by modern browsers and is ideal for cutting-edge websites, progressive web apps, and high-performance online platforms.",
+      },
+      benefits: {
+        title: "Benefits of Our Converter",
+        list: [
+          "Best Compression - Up to 50% smaller files than JPEG with same or better quality",
+          "Next-Gen Format - The future of web images with industry support",
+          "Superior Quality - Excellent visual quality even at very high compression",
+          "Faster Loading - Smaller files mean significantly faster page load times",
+          "SEO Optimized - Improves Core Web Vitals and search rankings",
+          "Quality Preserved - Outstanding visual quality with maximum compression efficiency",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Frequently Asked Questions – HEIC to AVIF",
+      items: [
+        {
+          q: "Is it free to convert HEIC to AVIF?",
+          a: "Yes! Our HEIC to AVIF converter is completely free. You can convert HEIC images to AVIF without registration, subscriptions, or hidden fees.",
+        },
+        {
+          q: "Will the quality be preserved when converting HEIC to AVIF?",
+          a: "Yes. The AVIF format delivers excellent image quality with advanced compression. Your HEIC photos are converted into high-quality AVIF files with minimal quality loss and significantly smaller file sizes.",
+        },
+        {
+          q: "Can I convert HEIC photos from iPhone to AVIF?",
+          a: "Yes. You can convert HEIC photos taken on iPhone, iPad, or any Apple device directly to AVIF.",
+        },
+        {
+          q: "Do I need to install any software to convert HEIC to AVIF?",
+          a: "No installation is required. The converter works entirely online in your web browser on any device.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
       ],
     },
   },

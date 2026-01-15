@@ -171,6 +171,10 @@ export const sv: Translations = {
       name: "HEIC till WebP",
       description: "Konvertera Apple HEIC-foton till WebP-format direkt",
     },
+    heicToAvif: {
+      name: "HEIC till AVIF",
+      description: "Konvertera Apple HEIC-foton till AVIF-format direkt",
+    },
   },
 
   heicToPdf: {
@@ -642,9 +646,120 @@ export const sv: Translations = {
         { name: "HEIC till PDF", url: "/convert/heic-to-pdf" },
         { name: "HEIC till PNG", url: "/convert/heic-to-png" },
         { name: "HEIC till JPG", url: "/convert/heic-to-jpg" },
-        { name: "PNG till WebP", url: "/convert/png-to-webp" },
-        { name: "JPG till WebP", url: "/convert/jpg-to-webp" },
-        { name: "WebP till PDF", url: "/convert/webp-to-pdf" },
+        { name: "HEIC till WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to AVIF Converter
+  heicToAvif: {
+    title: "HEIC till AVIF-konverterare - Konvertera Apple-foton gratis online till AVIF",
+    metaDescription:
+      "Konvertera HEIC-bilder direkt till AVIF-format. Gratis online HEIC till AVIF-konverterare med batchbearbetning. Snabb, säker och ingen registrering krävs. Fungerar med iPhone- och iPad-foton.",
+    metaKeywords:
+      "HEIC till AVIF, konvertera HEIC, Apple-foton till AVIF, iPhone-foton till AVIF, HEIC-konverterare, bild till AVIF, batchkonvertering HEIC, gratis HEIC-konverterare",
+
+    hero: {
+      title: "HEIC till AVIF-konverterare",
+      subtitle:
+        "Förvandla dina Apple HEIC-foton till AVIF-bilder av nästa generation direkt. Gratis, snabb och säker konvertering utan filstorleksbegränsningar.",
+      badge1: "Blixtsnabb",
+      badge2: "100% Säker",
+      badge3: "Ingen Registrering",
+    },
+
+    upload: {
+      title: "Ladda upp HEIC-filer",
+      description:
+        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batchkonvertera",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner AVIF",
+      downloadAll: "Ladda ner Allt som ZIP",
+      convertAnother: "Konvertera Ytterligare Fil",
+    },
+
+    features: {
+      title: "Funktioner",
+      list: [
+        "Högkvalitativ HEIC till AVIF-konvertering",
+        "Batchbearbetning upp till 20 filer",
+        "Bästa komprimering med kvalitetsbevarande",
+        "Inga filstorleksbegränsningar",
+        "100% säker och privat",
+        "Fungerar med iPhone & iPad-foton",
+        "Omedelbar nedladdning efter konvertering",
+        "Inga vattenstämplar tillagda",
+      ],
+    },
+
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp HEIC-filer",
+      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer direkt",
+      step3Title: "Ladda ner AVIF",
+      step3Desc: "Få dina konverterade AVIF-filer omedelbart",
+    },
+
+    about: {
+      title: "Om HEIC till AVIF-konvertering",
+      whatIsHeic: {
+        title: "Vad är HEIC-formatet?",
+        content:
+          "HEIC (High Efficiency Image Container) är standardfotoformatet som används av Apple-enheter sedan iOS 11. Det erbjuder överlägsen komprimering samtidigt som det behåller hög bildkvalitet, vilket gör att foton tar mindre lagringsutrymme på din iPhone eller iPad.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera HEIC till AVIF?",
+        content:
+          "AVIF (AV1 Image File Format) är det senaste bildformatet utvecklat av Alliance for Open Media, som erbjuder ännu bättre komprimering än WebP och JPEG samtidigt som det behåller överlägsen kvalitet. Att konvertera HEIC till AVIF resulterar i de minsta möjliga filstorlekarna för webbanvändning, dramatiskt snabbare sidladdningstider och utmärkt SEO-prestanda. AVIF stöds av moderna webbläsare och är idealiskt för banbrytande webbplatser, progressiva webbappar och högpresterande onlineplattformar.",
+      },
+      benefits: {
+        title: "Fördelar med Vår Konverterare",
+        list: [
+          "Bästa Komprimering - Filer upp till 50% mindre än JPEG med samma eller bättre kvalitet",
+          "Nästa Generations Format - Framtiden för webbbilder med branschstöd",
+          "Överlägsen Kvalitet - Utmärkt visuell kvalitet även vid mycket hög komprimering",
+          "Snabbare Laddning - Mindre filer betyder betydligt snabbare sidladdningstider",
+          "SEO-Optimerad - Förbättrar Core Web Vitals och sökrankningar",
+          "Kvalitet Bevarad - Utmärkt visuell kvalitet med maximal komprimerings effektivitet",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Vanliga Frågor – HEIC till AVIF",
+      items: [
+        {
+          q: "Är det gratis att konvertera HEIC till AVIF?",
+          a: "Ja! Vår HEIC till AVIF-konverterare är helt gratis. Du kan konvertera HEIC-bilder till AVIF utan registrering, prenumerationer eller dolda avgifter.",
+        },
+        {
+          q: "Kommer kvaliteten att bevaras när HEIC konverteras till AVIF?",
+          a: "Ja. AVIF-formatet ger utmärkt bildkvalitet med avancerad komprimering. Dina HEIC-foton konverteras till högkvalitativa AVIF-filer med minimal kvalitetsförlust och betydligt mindre filstorlekar.",
+        },
+        {
+          q: "Kan jag konvertera HEIC-foton från iPhone till AVIF?",
+          a: "Ja. Du kan konvertera HEIC-foton tagna på iPhone, iPad eller vilken Apple-enhet som helst direkt till AVIF.",
+        },
+        {
+          q: "Behöver jag installera programvara för att konvertera HEIC till AVIF?",
+          a: "Ingen installation krävs. Konverteraren fungerar helt online i din webbläsare på vilken enhet som helst.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "HEIC till PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC till PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC till JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC till WebP", url: "/convert/heic-to-webp" },
       ],
     },
   },

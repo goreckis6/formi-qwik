@@ -164,6 +164,10 @@ export const id: Translations = {
       name: 'HEIC ke WebP',
       description: 'Konversi foto Apple HEIC ke format WebP secara instan',
     },
+    heicToAvif: {
+      name: 'HEIC ke AVIF',
+      description: 'Konversi foto Apple HEIC ke format AVIF secara instan',
+    },
   },
   
   heicToPdf: {
@@ -599,9 +603,114 @@ export const id: Translations = {
         { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
         { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
         { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
-        { name: 'PNG ke WebP', url: '/convert/png-to-webp' },
-        { name: 'JPG ke WebP', url: '/convert/jpg-to-webp' },
-        { name: 'WebP ke PDF', url: '/convert/webp-to-pdf' },
+        { name: 'HEIC ke WebP', url: '/convert/heic-to-webp' },
+      ],
+    },
+  },
+
+  // HEIC to AVIF Converter
+  heicToAvif: {
+    title: 'Konverter HEIC ke AVIF - Konversi Foto Apple ke AVIF Gratis Online',
+    metaDescription: 'Konversi gambar HEIC ke format AVIF secara instan. Konverter HEIC ke AVIF online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
+    metaKeywords: 'HEIC ke AVIF, konversi HEIC, foto Apple ke AVIF, foto iPhone ke AVIF, konverter HEIC, gambar ke AVIF, konversi batch HEIC, konverter HEIC gratis',
+
+    hero: {
+      title: 'Konverter HEIC ke AVIF',
+      subtitle: 'Ubah foto Apple HEIC Anda menjadi gambar AVIF generasi berikutnya secara instan. Konversi gratis, cepat, dan aman tanpa batasan ukuran file.',
+      badge1: 'Sangat Cepat',
+      badge2: '100% Aman',
+      badge3: 'Tanpa Registrasi',
+    },
+
+    upload: {
+      title: 'Unggah File HEIC',
+      description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.',
+      buttonSingle: 'File Tunggal',
+      buttonBatch: 'Konversi Batch',
+      chooseFile: 'Pilih File',
+      converting: 'Mengonversi...',
+      success: 'Konversi berhasil!',
+      download: 'Unduh AVIF',
+      downloadAll: 'Unduh Semua sebagai ZIP',
+      convertAnother: 'Konversi File Lain',
+    },
+
+    features: {
+      title: 'Fitur',
+      list: [
+        'Konversi HEIC ke AVIF berkualitas tinggi',
+        'Pemrosesan batch hingga 20 file',
+        'Kompresi terbaik dengan pelestarian kualitas',
+        'Tidak ada batasan ukuran file',
+        '100% aman dan privat',
+        'Bekerja dengan foto iPhone & iPad',
+        'Unduh instan setelah konversi',
+        'Tidak ada watermark yang ditambahkan',
+      ],
+    },
+
+    howItWorks: {
+      title: 'Cara Kerja',
+      step1Title: 'Unggah File HEIC',
+      step1Desc: 'Pilih satu atau beberapa foto HEIC dari perangkat Anda',
+      step2Title: 'Konversi Otomatis',
+      step2Desc: 'Konverter kami memproses file Anda secara instan',
+      step3Title: 'Unduh AVIF',
+      step3Desc: 'Dapatkan file AVIF yang dikonversi segera',
+    },
+
+    about: {
+      title: 'Tentang Konversi HEIC ke AVIF',
+      whatIsHeic: {
+        title: 'Apa itu Format HEIC?',
+        content: 'HEIC (High Efficiency Image Container) adalah format foto default yang digunakan oleh perangkat Apple sejak iOS 11. Ini menawarkan kompresi superior sambil mempertahankan kualitas gambar tinggi, membuat foto mengambil lebih sedikit ruang penyimpanan di iPhone atau iPad Anda.',
+      },
+      whyConvert: {
+        title: 'Mengapa Mengonversi HEIC ke AVIF?',
+        content: 'AVIF (AV1 Image File Format) adalah format gambar terbaru yang dikembangkan oleh Alliance for Open Media, menawarkan kompresi yang bahkan lebih baik daripada WebP dan JPEG sambil mempertahankan kualitas superior. Mengonversi HEIC ke AVIF menghasilkan ukuran file terkecil yang mungkin untuk penggunaan web, waktu pemuatan halaman yang jauh lebih cepat, dan kinerja SEO yang sangat baik. AVIF didukung oleh browser modern dan ideal untuk situs web canggih, aplikasi web progresif, dan platform online berkinerja tinggi.',
+      },
+      benefits: {
+        title: 'Manfaat Konverter Kami',
+        list: [
+          'Kompresi Terbaik - File hingga 50% lebih kecil daripada JPEG dengan kualitas yang sama atau lebih baik',
+          'Format Generasi Berikutnya - Masa depan gambar web dengan dukungan industri',
+          'Kualitas Superior - Kualitas visual yang sangat baik bahkan pada kompresi sangat tinggi',
+          'Pemuatan Lebih Cepat - File yang lebih kecil berarti waktu pemuatan halaman yang jauh lebih cepat',
+          'Dioptimalkan untuk SEO - Meningkatkan Core Web Vitals dan peringkat pencarian',
+          'Kualitas Terjaga - Kualitas visual yang luar biasa dengan efisiensi kompresi maksimal',
+        ],
+      },
+    },
+
+    faq: {
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke AVIF',
+      items: [
+        {
+          q: 'Apakah gratis untuk mengonversi HEIC ke AVIF?',
+          a: 'Ya! Konverter HEIC ke AVIF kami sepenuhnya gratis. Anda dapat mengonversi gambar HEIC ke AVIF tanpa registrasi, langganan, atau biaya tersembunyi.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan saat mengonversi HEIC ke AVIF?',
+          a: 'Ya. Format AVIF memberikan kualitas gambar yang sangat baik dengan kompresi lanjutan. Foto HEIC Anda dikonversi menjadi file AVIF berkualitas tinggi dengan kehilangan kualitas minimal dan ukuran file yang jauh lebih kecil.',
+        },
+        {
+          q: 'Bisakah saya mengonversi foto HEIC dari iPhone ke AVIF?',
+          a: 'Ya. Anda dapat mengonversi foto HEIC yang diambil di iPhone, iPad, atau perangkat Apple apa pun langsung ke AVIF.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak untuk mengonversi HEIC ke AVIF?',
+          a: 'Tidak perlu instalasi. Konverter bekerja sepenuhnya online di browser web Anda di perangkat apa pun.',
+        },
+      ],
+    },
+
+    related: {
+      title: 'Konverter Terkait',
+      converters: [
+        { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
+        { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
+        { name: 'HEIC ke WebP', url: '/convert/heic-to-webp' },
       ],
     },
   },

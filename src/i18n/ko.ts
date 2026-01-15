@@ -166,6 +166,10 @@ export const ko: Translations = {
       name: "HEIC to WebP",
       description: "Apple HEIC 사진을 WebP 형식으로 즉시 변환",
     },
+    heicToAvif: {
+      name: "HEIC to AVIF",
+      description: "Apple HEIC 사진을 AVIF 형식으로 즉시 변환",
+    },
   },
 
   heicToPdf: {
@@ -626,9 +630,120 @@ export const ko: Translations = {
         { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
         { name: "HEIC to PNG", url: "/convert/heic-to-png" },
         { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
-        { name: "PNG to WebP", url: "/convert/png-to-webp" },
-        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
-        { name: "WebP to PDF", url: "/convert/webp-to-pdf" },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to AVIF Converter
+  heicToAvif: {
+    title: "HEIC to AVIF 변환기 - Apple 사진을 AVIF로 무료 온라인 변환",
+    metaDescription:
+      "HEIC 이미지를 AVIF 형식으로 즉시 변환. 일괄 처리가 있는 무료 온라인 HEIC to AVIF 변환기. 빠르고 안전하며 등록 불필요. iPhone 및 iPad 사진과 작동.",
+    metaKeywords:
+      "HEIC to AVIF, HEIC 변환, Apple 사진을 AVIF, iPhone 사진을 AVIF, HEIC 변환기, 이미지를 AVIF, HEIC 일괄 변환, 무료 HEIC 변환기",
+
+    hero: {
+      title: "HEIC to AVIF 변환기",
+      subtitle:
+        "Apple HEIC 사진을 차세대 AVIF 이미지로 즉시 변환. 파일 크기 제한 없는 무료, 빠르고 안전한 변환.",
+      badge1: "초고속",
+      badge2: "100% 안전",
+      badge3: "등록 불필요",
+    },
+
+    upload: {
+      title: "HEIC 파일 업로드",
+      description:
+        "HEIC 사진을 여기에 끌어다 놓거나 클릭하여 찾아보기. 최대 20개 파일 일괄 변환 지원. 파일당 최대 100MB.",
+      buttonSingle: "단일 파일",
+      buttonBatch: "일괄 변환",
+      chooseFile: "파일 선택",
+      converting: "변환 중...",
+      success: "변환 성공!",
+      download: "AVIF 다운로드",
+      downloadAll: "모두 ZIP으로 다운로드",
+      convertAnother: "다른 파일 변환",
+    },
+
+    features: {
+      title: "기능",
+      list: [
+        "고품질 HEIC to AVIF 변환",
+        "최대 20개 파일 일괄 처리",
+        "품질 보존을 위한 최고급 압축",
+        "파일 크기 제한 없음",
+        "100% 안전하고 비공개",
+        "iPhone 및 iPad 사진과 작동",
+        "변환 후 즉시 다운로드",
+        "워터마크 추가 안 함",
+      ],
+    },
+
+    howItWorks: {
+      title: "작동 방식",
+      step1Title: "HEIC 파일 업로드",
+      step1Desc: "장치에서 하나 이상의 HEIC 사진 선택",
+      step2Title: "자동 변환",
+      step2Desc: "변환기가 파일을 즉시 처리",
+      step3Title: "AVIF 다운로드",
+      step3Desc: "변환된 AVIF 파일을 즉시 받기",
+    },
+
+    about: {
+      title: "HEIC to AVIF 변환 정보",
+      whatIsHeic: {
+        title: "HEIC 형식이란?",
+        content:
+          "HEIC(High Efficiency Image Container)는 iOS 11부터 Apple 장치에서 사용되는 기본 사진 형식입니다. 고품질 이미지를 유지하면서 우수한 압축을 제공하여 iPhone 또는 iPad에서 사진이 차지하는 저장 공간을 줄입니다.",
+      },
+      whyConvert: {
+        title: "왜 HEIC를 AVIF로 변환하나요?",
+        content:
+          "AVIF(AV1 Image File Format)는 Alliance for Open Media에서 개발한 최신 이미지 형식으로, WebP와 JPEG보다 더 나은 압축을 제공하면서 우수한 품질을 유지합니다. HEIC를 AVIF로 변환하면 웹 사용에 가능한 가장 작은 파일 크기, 극적으로 빠른 페이지 로드 시간, 우수한 SEO 성능을 얻을 수 있습니다. AVIF는 모던 브라우저에서 지원되며 최첨단 웹사이트, 프로그레시브 웹 앱 및 고성능 온라인 플랫폼에 이상적입니다.",
+      },
+      benefits: {
+        title: "우리 변환기의 이점",
+        list: [
+          "최고 압축 - 동일하거나 더 나은 품질로 JPEG보다 최대 50% 작은 파일",
+          "차세대 형식 - 업계 지원을 받는 웹 이미지의 미래",
+          "우수한 품질 - 매우 높은 압축에서도 우수한 시각적 품질",
+          "더 빠른 로딩 - 작은 파일은 페이지 로드 시간의 크게 단축을 의미",
+          "SEO 최적화 - Core Web Vitals 및 검색 순위 개선",
+          "품질 보존 - 최대 압축 효율로 뛰어난 시각적 품질",
+        ],
+      },
+    },
+
+    faq: {
+      title: "자주 묻는 질문 – HEIC to AVIF",
+      items: [
+        {
+          q: "HEIC를 AVIF로 변환하는 것이 무료인가요?",
+          a: "네! 우리의 HEIC to AVIF 변환기는 완전히 무료입니다. 등록, 구독 또는 숨겨진 수수료 없이 HEIC 이미지를 AVIF로 변환할 수 있습니다.",
+        },
+        {
+          q: "HEIC를 AVIF로 변환할 때 품질이 보존되나요?",
+          a: "네. AVIF 형식은 고급 압축으로 우수한 이미지 품질을 제공합니다. HEIC 사진은 최소한의 품질 손실과 크게 작은 파일 크기로 고품질 AVIF 파일로 변환됩니다.",
+        },
+        {
+          q: "iPhone의 HEIC 사진을 AVIF로 변환할 수 있나요?",
+          a: "네. iPhone, iPad 또는 모든 Apple 장치에서 촬영한 HEIC 사진을 직접 AVIF로 변환할 수 있습니다.",
+        },
+        {
+          q: "HEIC를 AVIF로 변환하려면 소프트웨어를 설치해야 하나요?",
+          a: "설치가 필요하지 않습니다. 변환기는 모든 장치의 웹 브라우저에서 완전히 온라인으로 작동합니다.",
+        },
+      ],
+    },
+
+    related: {
+      title: "관련 변환기",
+      converters: [
+        { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
       ],
     },
   },

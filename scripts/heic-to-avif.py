@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-HEIC → WebP converter (backend-ready)
+HEIC → AVIF converter (backend-ready)
 
-- HEIC/HEIF via pillow-heif
-- WebP via Pillow
+- Reads HEIC/HEIF via pillow-heif
+- Saves AVIF via pillow-avif-plugin
 - EXIF orientation fix
 - Optional max-dimension downscale
-- Stateless, safe for workers / API
+- Stateless and safe for workers / API
 """
 
 import os
@@ -26,6 +26,13 @@ try:
 except ImportError:
     HAS_PILLOW_HEIF = False
 
+# required side-effect import
+try:
+    import pillow_avif  # noqa: F401
+    HAS_AVIF = True
+except ImportError:
+    HAS_AVIF = False
+
 
 _HEIF_REGISTERED = False
 
@@ -40,30 +47,34 @@ def _ensure_heif():
         raise ImportError("pillow-heif is not installed. Please install it with: pip install pillow-heif")
 
 
-def convert_heic_to_webp(
+def convert_heic_to_avif(
     input_file: str,
     output_file: str,
-    quality: int = 85,
+    quality: int = 45,
     max_dimension: int = 4096,
     lossless: bool = False,
-    method: int = 6
+    speed: int = 6
 ) -> bool:
     """
-    Convert HEIC/HEIF image to WebP format.
+    Convert HEIC/HEIF image to AVIF format.
     
     Args:
         input_file: Path to input HEIC/HEIF file
-        output_file: Path to output WebP file
-        quality: WebP quality (0-100), ignored if lossless=True
+        output_file: Path to output AVIF file
+        quality: AVIF quality (30-60 recommended, default: 45)
         max_dimension: Maximum width or height (will downscale if exceeded)
-        lossless: Use lossless WebP compression
-        method: WebP encoding method (0-6, higher = better compression but slower)
+        lossless: Use lossless AVIF compression
+        speed: AVIF encoding speed (0-10, default: 6). Higher = faster but larger files
     
     Returns:
         True if conversion successful, False otherwise
     """
     if not HAS_PIL:
         print("ERROR: Pillow not available. Please install with: pip install Pillow", file=sys.stderr)
+        return False
+
+    if not HAS_AVIF:
+        print("ERROR: pillow-avif-plugin not available. Please install with: pip install pillow-avif-plugin", file=sys.stderr)
         return False
 
     if not os.path.isfile(input_file):
@@ -73,11 +84,12 @@ def convert_heic_to_webp(
     try:
         _ensure_heif()
 
-        # Validate quality range
-        quality = max(0, min(100, quality))
+        # Validate quality range (AVIF typically uses 30-60)
+        if not lossless:
+            quality = max(0, min(100, quality))
         
-        # Validate method range
-        method = max(0, min(6, method))
+        # Validate speed range
+        speed = max(0, min(10, speed))
 
         img = Image.open(input_file)
         
@@ -100,13 +112,13 @@ def convert_heic_to_webp(
         if out_dir and not os.path.exists(out_dir):
             os.makedirs(out_dir, exist_ok=True)
 
-        # Save as WebP
+        # Save as AVIF
         img.save(
             output_file,
-            format="WEBP",
+            format="AVIF",
             quality=quality,
             lossless=lossless,
-            method=method
+            speed=speed
         )
 
         # Verify output file was created and has content
@@ -124,29 +136,30 @@ def convert_heic_to_webp(
         print(f"ERROR: Missing dependency: {e}", file=sys.stderr)
         return False
     except Exception as e:
-        print(f"ERROR: HEIC → WebP conversion failed: {e}", file=sys.stderr)
+        print(f"ERROR: HEIC → AVIF conversion failed: {e}", file=sys.stderr)
         traceback.print_exc()
         return False
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Convert HEIC/HEIF images to WebP format",
+        description="Convert HEIC/HEIF images to AVIF format",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  %(prog)s input.heic output.webp
-  %(prog)s input.heic output.webp --quality 90
-  %(prog)s input.heic output.webp --max-dimension 2048 --lossless
+  %(prog)s input.heic output.avif
+  %(prog)s input.heic output.avif --quality 50
+  %(prog)s input.heic output.avif --max-dimension 2048 --lossless
+  %(prog)s input.heic output.avif --quality 45 --speed 8
         """
     )
     parser.add_argument("input_file", help="Input HEIC/HEIF file path")
-    parser.add_argument("output_file", help="Output WebP file path")
+    parser.add_argument("output_file", help="Output AVIF file path")
     parser.add_argument(
         "--quality",
         type=int,
-        default=85,
-        help="WebP quality (0-100, default: 85). Ignored if --lossless is used."
+        default=45,
+        help="AVIF quality (0-100, default: 45). Recommended range: 30-60. Ignored if --lossless is used."
     )
     parser.add_argument(
         "--max-dimension",
@@ -157,25 +170,25 @@ Examples:
     parser.add_argument(
         "--lossless",
         action="store_true",
-        help="Use lossless WebP compression (quality parameter will be ignored)"
+        help="Use lossless AVIF compression (quality parameter will be ignored)"
     )
     parser.add_argument(
-        "--method",
+        "--speed",
         type=int,
         default=6,
-        choices=range(0, 7),
-        metavar="[0-6]",
-        help="WebP encoding method (0-6, default: 6). Higher values provide better compression but are slower."
+        choices=range(0, 11),
+        metavar="[0-10]",
+        help="AVIF encoding speed (0-10, default: 6). Higher values encode faster but produce larger files."
     )
     args = parser.parse_args()
 
-    ok = convert_heic_to_webp(
+    ok = convert_heic_to_avif(
         args.input_file,
         args.output_file,
         args.quality,
         args.max_dimension,
         args.lossless,
-        args.method
+        args.speed
     )
 
     sys.exit(0 if ok else 1)

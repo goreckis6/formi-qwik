@@ -43,6 +43,11 @@ export default component$(() => {
       description: converters.heicToWebp.description,
       href: getLocalizedPath("/convert/heic-to-webp", locale),
     },
+    {
+      name: converters.heicToAvif.name,
+      description: converters.heicToAvif.description,
+      href: getLocalizedPath("/convert/heic-to-avif", locale),
+    },
   ]);
 
   const filteredConverters = useComputed$(() => {
