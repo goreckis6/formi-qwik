@@ -5,19 +5,19 @@ export const id: Translations = {
   locale: 'id',
   name: 'Bahasa Indonesia',
   flag: '🇮🇩',
-  
+
   nav: {
     converters: 'Konverter',
     viewers: 'Penampil',
     compress: 'Kompres',
     samples: 'Contoh',
   },
-  
+
   home: {
     title: 'Konverter File Online Gratis - FormiPeek | Konversi 300+ Format Secara Instan',
     metaDescription: 'Konversi file antar 300+ format secara instan. Layanan konversi file cepat, aman, dan gratis. Dukungan untuk gambar, dokumen, ebook, dan file data.',
     metaKeywords: 'konverter file, konverter online, konverter gambar, konverter dokumen, konverter ebook, konversi batch, konverter gratis',
-    
+
     hero: {
       badge: 'Gratis Selamanya • Tanpa Registrasi',
       title: 'Ubah File',
@@ -30,13 +30,13 @@ export const id: Translations = {
       feature3: 'Aman & Privat',
       feature4: 'Pemrosesan Batch',
     },
-    
+
     stats: {
       formats: 'Format yang Didukung',
       dataProcessed: 'Data yang Diproses',
       batchFiles: 'Pemrosesan Batch',
     },
-    
+
     explore: {
       title: 'Jelajahi Alat Kami',
       subtitle: 'Semua yang Anda butuhkan untuk konversi file, melihat, kompresi, dan lainnya',
@@ -57,7 +57,7 @@ export const id: Translations = {
         description: 'Jelajahi file contoh untuk semua format yang didukung. Uji sebelum mengonversi.',
       },
     },
-    
+
     howItWorks: {
       title: 'Bagaimana Konverter Kami Bekerja?',
       subtitle: 'Tiga langkah sederhana untuk mengonversi format file apa pun',
@@ -74,14 +74,14 @@ export const id: Translations = {
         description: 'Klik konversi dan unduh file Anda secara instan. Tanpa menunggu, tanpa antrian.',
       },
     },
-    
+
     popular: {
       title: 'Konverter Populer',
       subtitle: 'Akses cepat ke alat konversi yang paling sering digunakan',
       viewAll: 'Lihat Semua 300+ Konverter',
       viewAllMobile: 'Lihat Semua Konverter',
     },
-    
+
     features: {
       title: 'Mengapa Memilih FormiPeek?',
       subtitle: 'Dibangun untuk profesional dan pengguna sehari-hari',
@@ -141,7 +141,7 @@ export const id: Translations = {
       ],
     },
   },
-  
+
   // Converters Page
   converters: {
     title: 'Konverter File',
@@ -169,12 +169,12 @@ export const id: Translations = {
       description: 'Konversi foto Apple HEIC ke format AVIF secara instan',
     },
   },
-  
+
   heicToPdf: {
     title: 'Konverter HEIC ke PDF - Konversi Foto Apple ke PDF Gratis Online',
     metaDescription: 'Konversi gambar HEIC ke format PDF secara instan. Konverter HEIC ke PDF online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
     metaKeywords: 'HEIC ke PDF, konversi HEIC, foto Apple ke PDF, foto iPhone ke PDF, konverter HEIC, gambar ke PDF, konversi batch HEIC, konverter HEIC gratis',
-    
+
     hero: {
       title: 'Konverter HEIC ke PDF',
       subtitle: 'Ubah foto HEIC Apple Anda menjadi dokumen PDF universal secara instan. Konversi gratis, cepat, dan aman tanpa batas ukuran file.',
@@ -182,7 +182,7 @@ export const id: Translations = {
       badge2: '100% Aman',
       badge3: 'Tanpa Registrasi',
     },
-    
+
     upload: {
       title: 'Unggah File HEIC',
       description: 'Seret & lepas foto HEIC Anda di sini atau klik untuk menjelajahi. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.',
@@ -195,7 +195,7 @@ export const id: Translations = {
       downloadAll: 'Unduh Semua sebagai ZIP',
       convertAnother: 'Konversi File Lain',
     },
-    
+
     features: {
       title: 'Fitur',
       list: [
@@ -209,7 +209,7 @@ export const id: Translations = {
         'Tidak ada watermark yang ditambahkan',
       ],
     },
-    
+
     howItWorks: {
       title: 'Cara Kerja',
       step1Title: 'Unggah File HEIC',
@@ -219,7 +219,7 @@ export const id: Translations = {
       step3Title: 'Unduh PDF',
       step3Desc: 'Dapatkan file PDF yang dikonversi segera',
     },
-    
+
     about: {
       title: 'Tentang Konversi HEIC ke PDF',
       whatIsHeic: {
@@ -242,7 +242,7 @@ export const id: Translations = {
         ],
       },
     },
-    
+
     faq: {
       title: 'Pertanyaan yang Sering Diajukan – HEIC ke PDF',
       items: [
@@ -264,7 +264,7 @@ export const id: Translations = {
         },
       ],
     },
-    
+
     related: {
       title: 'Konverter Terkait',
       converters: [
@@ -276,7 +276,7 @@ export const id: Translations = {
         { name: 'HEIC ke WEBP', url: '/convert/heic-to-webp' },
       ],
     },
-    
+
     footer: {
       tagline: 'Platform konversi dan penampil file terbaik untuk profesional dan pengguna sehari-hari.',
       security: '100% Aman: Tidak ada file yang disimpan di server kami. Semua konversi diproses dan file dihapus otomatis segera setelah diproses.',
@@ -285,12 +285,12 @@ export const id: Translations = {
       byDevelopers: 'oleh pengembang yang peduli dengan kualitas.',
     },
   },
-  
+
   heicToPng: {
     title: 'Konverter HEIC ke PNG - Konversi Foto Apple ke PNG Gratis Online',
     metaDescription: 'Konversi gambar HEIC ke format PNG secara instan. Konverter HEIC ke PNG online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
     metaKeywords: 'HEIC ke PNG, konversi HEIC, foto Apple ke PNG, foto iPhone ke PNG, konverter HEIC, gambar ke PNG, konversi batch HEIC, konverter HEIC gratis',
-    
+
     hero: {
       title: 'Konverter HEIC ke PNG',
       subtitle: 'Ubah foto HEIC Apple Anda menjadi gambar PNG universal secara instan. Konversi gratis, cepat, dan aman tanpa batas ukuran file.',
@@ -298,7 +298,7 @@ export const id: Translations = {
       badge2: '100% Aman',
       badge3: 'Tanpa Registrasi',
     },
-    
+
     upload: {
       title: 'Unggah File HEIC',
       description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
@@ -311,7 +311,7 @@ export const id: Translations = {
       downloadAll: 'Unduh Semua sebagai ZIP',
       convertAnother: 'Konversi File Lain',
     },
-    
+
     features: {
       title: 'Fitur',
       list: [
@@ -325,7 +325,7 @@ export const id: Translations = {
         'Tidak ada watermark yang ditambahkan',
       ],
     },
-    
+
     howItWorks: {
       title: 'Cara Kerja',
       step1Title: 'Unggah File HEIC',
@@ -335,7 +335,7 @@ export const id: Translations = {
       step3Title: 'Unduh PNG',
       step3Desc: 'Dapatkan file PNG yang dikonversi segera',
     },
-    
+
     about: {
       title: 'Tentang Konversi HEIC ke PNG',
       whatIsHeic: {
@@ -358,7 +358,7 @@ export const id: Translations = {
         ],
       },
     },
-    
+
     faq: {
       title: 'Pertanyaan yang Sering Diajukan – HEIC ke PNG',
       items: [
@@ -380,7 +380,7 @@ export const id: Translations = {
         },
       ],
     },
-    
+
     related: {
       title: 'Konverter Terkait',
       converters: [
@@ -393,7 +393,7 @@ export const id: Translations = {
       ],
     },
   },
-  
+
   // HEIC to JPG Converter
   heicToJpg: {
     title: 'Konverter HEIC ke JPG - Konversi Foto Apple ke JPG Gratis Online',
@@ -407,7 +407,7 @@ export const id: Translations = {
       badge2: '100% Aman',
       badge3: 'Tanpa Registrasi',
     },
-      
+
     upload: {
       title: 'Unggah File HEIC',
       description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
@@ -420,7 +420,7 @@ export const id: Translations = {
       downloadAll: 'Unduh Semua sebagai ZIP',
       convertAnother: 'Konversi File Lain',
     },
-      
+
     features: {
       title: 'Fitur',
       list: [
@@ -434,7 +434,7 @@ export const id: Translations = {
         'Tidak ada watermark yang ditambahkan',
       ],
     },
-      
+
     howItWorks: {
       title: 'Cara Kerja',
       step1Title: 'Unggah File HEIC',
@@ -444,7 +444,7 @@ export const id: Translations = {
       step3Title: 'Unduh JPG',
       step3Desc: 'Dapatkan file JPG yang dikonversi segera',
     },
-      
+
     about: {
       title: 'Tentang Konversi HEIC ke JPG',
       whatIsHeic: {
@@ -467,7 +467,7 @@ export const id: Translations = {
         ],
       },
     },
-      
+
     faq: {
       title: 'Pertanyaan yang Sering Diajukan',
       q1: 'Apakah mengonversi HEIC ke JPG gratis?',
@@ -487,7 +487,7 @@ export const id: Translations = {
       q8: 'Berapa lama konversi berlangsung?',
       a8: 'Konversi hampir instan! Sebagian besar file HEIC dikonversi ke JPG hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
     },
-      
+
     related: {
       title: 'Konverter Terkait',
       converters: [
@@ -506,7 +506,7 @@ export const id: Translations = {
     title: 'Konverter HEIC ke WebP - Konversi Foto Apple ke WebP Gratis Online',
     metaDescription: 'Konversi gambar HEIC ke format WebP secara instan. Konverter HEIC ke WebP online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
     metaKeywords: 'HEIC ke WebP, konversi HEIC, foto Apple ke WebP, foto iPhone ke WebP, konverter HEIC, gambar ke WebP, konversi batch HEIC, konverter HEIC gratis',
-    
+
     hero: {
       title: 'Konverter HEIC ke WebP',
       subtitle: 'Ubah foto HEIC Apple Anda menjadi gambar WebP modern secara instan. Konversi gratis, cepat, dan aman tanpa batas ukuran file.',
@@ -514,7 +514,7 @@ export const id: Translations = {
       badge2: '100% Aman',
       badge3: 'Tanpa Registrasi',
     },
-    
+
     upload: {
       title: 'Unggah File HEIC',
       description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
@@ -527,7 +527,7 @@ export const id: Translations = {
       downloadAll: 'Unduh Semua sebagai ZIP',
       convertAnother: 'Konversi File Lain',
     },
-    
+
     features: {
       title: 'Fitur',
       list: [
@@ -541,7 +541,7 @@ export const id: Translations = {
         'Tidak ada watermark yang ditambahkan',
       ],
     },
-    
+
     howItWorks: {
       title: 'Cara Kerja',
       step1Title: 'Unggah File HEIC',
@@ -551,7 +551,7 @@ export const id: Translations = {
       step3Title: 'Unduh WebP',
       step3Desc: 'Dapatkan file WebP yang dikonversi segera',
     },
-    
+
     about: {
       title: 'Tentang Konversi HEIC ke WebP',
       whatIsHeic: {
@@ -574,7 +574,7 @@ export const id: Translations = {
         ],
       },
     },
-    
+
     faq: {
       title: 'Pertanyaan yang Sering Diajukan – HEIC ke WebP',
       items: [
@@ -596,7 +596,7 @@ export const id: Translations = {
         },
       ],
     },
-    
+
     related: {
       title: 'Konverter Terkait',
       converters: [
@@ -710,8 +710,11 @@ export const id: Translations = {
         { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
         { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
         { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
-        { name: 'HEIC ke WebP', url: '/convert/heic-to-webp' },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
       ],
     },
   },
 };
+
+export type Translations = typeof id;
+

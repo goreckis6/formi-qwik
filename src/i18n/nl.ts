@@ -415,128 +415,118 @@ export const nl: Translations = {
         { name: "HEIC naar WEBP", url: "/convert/heic-to-webp" },
       ],
     },
+  },
 
-    // HEIC to JPG Converter
-    heicToJpg: {
-      title: "HEIC naar JPG Converter - Converteer Apple Foto's Gratis Online naar JPG",
-      metaDescription:
-        "Converteer HEIC-afbeeldingen direct naar JPG-formaat. Gratis online HEIC naar JPG converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met iPhone- en iPad-foto's.",
-      metaKeywords:
-        "HEIC naar JPG, converteer HEIC, Apple foto's naar JPG, iPhone foto's naar JPG, HEIC converter, afbeelding naar JPG, batch converteer HEIC, gratis HEIC converter",
+  // HEIC to JPG Converter
+  heicToJpg: {
+    title: "HEIC naar JPG Converter - Converteer Apple Foto's Gratis Online naar JPG",
+    metaDescription:
+    "Converteer HEIC-afbeeldingen direct naar JPG-formaat. Gratis online HEIC naar JPG converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met iPhone- en iPad-foto's.",
+    metaKeywords:
+    "HEIC naar JPG, converteer HEIC, Apple foto's naar JPG, iPhone foto's naar JPG, HEIC converter, afbeelding naar JPG, batch converteer HEIC, gratis HEIC converter",
 
-      hero: {
-        title: "HEIC naar JPG Converter",
-        subtitle:
-          "Converteer uw Apple HEIC-foto's direct naar universele JPG-afbeeldingen. Gratis, snelle en veilige conversie zonder bestandsgroottebeperkingen.",
-        badge1: "Bliksemsnel",
-        badge2: "100% Veilig",
-        badge3: "Geen Registratie",
-      },
-
-      upload: {
-        title: "Upload HEIC Bestanden",
-        description:
-          "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
-        buttonSingle: "Enkel Bestand",
-        buttonBatch: "Batch Converteren",
-        chooseFile: "Kies Bestanden",
-        converting: "Converteren...",
-        success: "Conversie geslaagd!",
-        download: "JPG Downloaden",
-        downloadAll: "Download Alles als ZIP",
-        convertAnother: "Converteer Ander Bestand",
-      },
-
-      features: {
-        title: "Functies",
-        list: [
-          "Hoge kwaliteit HEIC naar JPG conversie",
-          "Batchverwerking tot 20 bestanden",
-          "Behoudt beeldkwaliteit",
-          "Geen bestandsgroottebeperking",
-          "100% veilig en privé",
-          "Werkt met iPhone- en iPad-foto's",
-          "Direct downloaden na conversie",
-          "Geen watermerken toegevoegd",
-        ],
-      },
-
-      howItWorks: {
-        title: "Hoe Het Werkt",
-        step1Title: "Upload HEIC Bestanden",
-        step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
-        step2Title: "Automatische Conversie",
-        step2Desc: "Onze converter verwerkt uw bestanden direct",
-        step3Title: "Download JPG",
-        step3Desc: "Ontvang uw geconverteerde JPG-bestanden direct",
-      },
-
-      about: {
-        title: "Over HEIC naar JPG Conversie",
-        whatIsHeic: {
-          title: "Wat is het HEIC-formaat?",
-          content:
-            "HEIC (High Efficiency Image Container) is het standaard fotoformaat dat wordt gebruikt door Apple-apparaten sinds iOS 11. Het biedt superieure compressie terwijl de hoge beeldkwaliteit behouden blijft, waardoor foto's minder opslagruimte innemen op uw iPhone of iPad.",
-        },
-        whyConvert: {
-          title: "Waarom HEIC naar JPG converteren?",
-          content:
-            "Hoewel HEIC efficiënt is, wordt het niet universeel ondersteund. Converteren naar JPG zorgt ervoor dat uw foto's op elk apparaat bekeken kunnen worden, eenvoudig via e-mail gedeeld kunnen worden en gebruikt kunnen worden in webdesign en grafische toepassingen. Het JPG-formaat is het meest breed ondersteunde beeldformaat, waardoor het ideaal is voor delen en compatibiliteit.",
-        },
-        benefits: {
-          title: "Voordelen van Onze Converter",
-          list: [
-            "Universele Compatibiliteit - JPG's werken op alle apparaten en platforms",
-            "Kleinere Bestandsgrootte - Efficiënte compressie voor sneller delen",
-            "Breed Ondersteuning - Meest gebruikte beeldformaat wereldwijd",
-            "Eenvoudig Delen - Compatibel met alle e-mailclients en sociale media",
-            "Webklaar - Ideaal voor websites, sociale media en online gebruik",
-            "Hoge Kwaliteit - Behoudt de originele beeldresolutie",
-          ],
-        },
-      },
-
-      faq: {
-        title: "Veelgestelde Vragen",
-        q1: "Is het converteren van HEIC naar JPG gratis?",
-        a1: "Ja! Onze HEIC naar JPG converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
-        q2: "Zijn mijn gegevens veilig?",
-        a2: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.",
-        q3: "Wat is de maximale bestandsgrootte?",
-        a3: "U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
-        q4: "Ondersteunt u batchconversie?",
-        a4: "Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde JPG's zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.",
-        q5: "Wordt de kwaliteit behouden?",
-        a5: "Ja, we behouden hoge beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie JPG's met minimale kwaliteitsverlies.",
-        q6: "Kan ik HEIC direct vanaf iPhone converteren?",
-        a6: "Ja! Onze converter werkt perfect met foto's gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden vanuit uw camerarol.",
-        q7: "Moet ik software installeren?",
-        a7: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
-        q8: "Hoe lang duurt de conversie?",
-        a8: "Conversie is bijna direct! De meeste HEIC-bestanden worden binnen enkele seconden geconverteerd naar JPG, afhankelijk van de bestandsgrootte en uw internetverbinding.",
-      },
-
-      related: {
-        title: "Gerelateerde Converters",
-        converters: [
-          { name: "HEIC naar PDF", url: "/convert/heic-to-pdf" },
-          { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
-          { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
-          { name: "PNG naar JPG", url: "/convert/png-to-jpg" },
-          { name: "WEBP naar JPG", url: "/convert/webp-to-jpg" },
-          { name: "HEIC naar WEBP", url: "/convert/heic-to-webp" },
-        ],
-      },
+    hero: {
+    title: "HEIC naar JPG Converter",
+    subtitle:
+      "Converteer uw Apple HEIC-foto's direct naar universele JPG-afbeeldingen. Gratis, snelle en veilige conversie zonder bestandsgroottebeperkingen.",
+    badge1: "Bliksemsnel",
+    badge2: "100% Veilig",
+    badge3: "Geen Registratie",
     },
 
-    footer: {
-      tagline:
-        "Het ultieme bestandsconversie- en weergaveplatform voor professionals en dagelijkse gebruikers.",
-      security:
-        "100% Veilig: Geen bestanden worden opgeslagen op onze servers. Alle conversies worden verwerkt en bestanden worden direct na verwerking automatisch verwijderd.",
-      copyright: "© 2025 FormiPeek",
-      madeWith: "Gebouwd met",
-      byDevelopers: "door ontwikkelaars die om kwaliteit geven.",
+    upload: {
+    title: "Upload HEIC Bestanden",
+    description:
+      "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+    buttonSingle: "Enkel Bestand",
+    buttonBatch: "Batch Converteren",
+    chooseFile: "Kies Bestanden",
+    converting: "Converteren...",
+    success: "Conversie geslaagd!",
+    download: "JPG Downloaden",
+    downloadAll: "Download Alles als ZIP",
+    convertAnother: "Converteer Ander Bestand",
+    },
+
+    features: {
+    title: "Functies",
+    list: [
+      "Hoge kwaliteit HEIC naar JPG conversie",
+      "Batchverwerking tot 20 bestanden",
+      "Behoudt beeldkwaliteit",
+      "Geen bestandsgroottebeperking",
+      "100% veilig en privé",
+      "Werkt met iPhone- en iPad-foto's",
+      "Direct downloaden na conversie",
+      "Geen watermerken toegevoegd",
+    ],
+    },
+
+    howItWorks: {
+    title: "Hoe Het Werkt",
+    step1Title: "Upload HEIC Bestanden",
+    step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
+    step2Title: "Automatische Conversie",
+    step2Desc: "Onze converter verwerkt uw bestanden direct",
+    step3Title: "Download JPG",
+    step3Desc: "Ontvang uw geconverteerde JPG-bestanden direct",
+    },
+
+    about: {
+    title: "Over HEIC naar JPG Conversie",
+    whatIsHeic: {
+      title: "Wat is het HEIC-formaat?",
+      content:
+        "HEIC (High Efficiency Image Container) is het standaard fotoformaat dat wordt gebruikt door Apple-apparaten sinds iOS 11. Het biedt superieure compressie terwijl de hoge beeldkwaliteit behouden blijft, waardoor foto's minder opslagruimte innemen op uw iPhone of iPad.",
+    },
+    whyConvert: {
+      title: "Waarom HEIC naar JPG converteren?",
+      content:
+        "Hoewel HEIC efficiënt is, wordt het niet universeel ondersteund. Converteren naar JPG zorgt ervoor dat uw foto's op elk apparaat bekeken kunnen worden, eenvoudig via e-mail gedeeld kunnen worden en gebruikt kunnen worden in webdesign en grafische toepassingen. Het JPG-formaat is het meest breed ondersteunde beeldformaat, waardoor het ideaal is voor delen en compatibiliteit.",
+    },
+    benefits: {
+      title: "Voordelen van Onze Converter",
+      list: [
+        "Universele Compatibiliteit - JPG's werken op alle apparaten en platforms",
+        "Kleinere Bestandsgrootte - Efficiënte compressie voor sneller delen",
+        "Breed Ondersteuning - Meest gebruikte beeldformaat wereldwijd",
+        "Eenvoudig Delen - Compatibel met alle e-mailclients en sociale media",
+        "Webklaar - Ideaal voor websites, sociale media en online gebruik",
+        "Hoge Kwaliteit - Behoudt de originele beeldresolutie",
+      ],
+    },
+    },
+
+    faq: {
+    title: "Veelgestelde Vragen",
+    q1: "Is het converteren van HEIC naar JPG gratis?",
+    a1: "Ja! Onze HEIC naar JPG converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
+    q2: "Zijn mijn gegevens veilig?",
+    a2: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.",
+    q3: "Wat is de maximale bestandsgrootte?",
+    a3: "U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
+    q4: "Ondersteunt u batchconversie?",
+    a4: "Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde JPG's zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.",
+    q5: "Wordt de kwaliteit behouden?",
+    a5: "Ja, we behouden hoge beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie JPG's met minimale kwaliteitsverlies.",
+    q6: "Kan ik HEIC direct vanaf iPhone converteren?",
+    a6: "Ja! Onze converter werkt perfect met foto's gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden vanuit uw camerarol.",
+    q7: "Moet ik software installeren?",
+    a7: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
+    q8: "Hoe lang duurt de conversie?",
+    a8: "Conversie is bijna direct! De meeste HEIC-bestanden worden binnen enkele seconden geconverteerd naar JPG, afhankelijk van de bestandsgrootte en uw internetverbinding.",
+    },
+
+    related: {
+    title: "Gerelateerde Converters",
+    converters: [
+      { name: "HEIC naar PDF", url: "/convert/heic-to-pdf" },
+      { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
+      { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
+      { name: "PNG naar JPG", url: "/convert/png-to-jpg" },
+      { name: "WEBP naar JPG", url: "/convert/webp-to-jpg" },
+      { name: "HEIC naar WEBP", url: "/convert/heic-to-webp" },
+    ],
     },
   },
 
@@ -766,3 +756,6 @@ export const nl: Translations = {
     },
   },
 };
+
+export type Translations = typeof nl;
+
