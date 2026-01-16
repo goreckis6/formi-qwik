@@ -174,6 +174,10 @@ export const zh: Translations = {
       name: "HEIC转AVIF",
       description: "即时将Apple HEIC照片转换为AVIF格式",
     },
+    heicToGif: {
+      name: "HEIC转GIF",
+      description: "即时将Apple HEIC照片转换为GIF格式",
+    },
   },
 
   heicToPdf: {
@@ -494,23 +498,41 @@ export const zh: Translations = {
     },
 
     faq: {
-    title: "常见问题",
-    q1: "将HEIC转换为JPG是免费的吗？",
-    a1: "是的！我们的HEIC转JPG转换器完全免费，无隐藏费用。您可以无限制地转换文件，无需注册或订阅。",
-    q2: "我的数据安全吗？",
-    a2: "绝对安全。所有转换都在我们的服务器上通过SSL加密安全进行。您的文件在转换后立即自动删除。我们从不存储、分享或访问您的文件。",
-    q3: "最大文件大小是多少？",
-    a3: "您可以转换每个最大100MB的HEIC文件。对于批量转换，您可以一次处理最多20个文件，总限制为100MB。",
-    q4: "你们支持批量转换吗？",
-    a4: "是的！您可以同时上传和转换最多20个HEIC文件。所有转换后的JPG将作为单独文件或单个ZIP存档提供下载。",
-    q5: "质量会被保留吗？",
-    a5: "是的，我们在转换过程中保持高图像质量。您的HEIC照片将以最小的质量损失转换为高分辨率JPG。",
-    q6: "我可以直接从iPhone转换HEIC吗？",
-    a6: "是的！我们的转换器与在iPhone、iPad或任何Apple设备上拍摄的照片完美配合。只需从您的照片库上传HEIC文件即可。",
-    q7: "我需要安装任何软件吗？",
-    a7: "无需安装。我们的在线转换器可在任何设备（Windows、Mac、Linux、iOS或Android）的网页浏览器中直接运行。",
-    q8: "转换需要多长时间？",
-    a8: "转换几乎是即时的！大多数HEIC文件在几秒钟内转换为JPG，具体取决于文件大小和您的互联网连接。",
+      title: "常见问题 – HEIC转JPG",
+      items: [
+        {
+          q: "将HEIC转换为JPG是免费的吗？",
+          a: "是的！我们的HEIC转JPG转换器完全免费，无隐藏费用。您可以无限制地转换文件，无需注册或订阅。",
+        },
+        {
+          q: "我的数据安全吗？",
+          a: "绝对安全。所有转换都在我们的服务器上通过SSL加密安全进行。您的文件在转换后立即自动删除。我们从不存储、分享或访问您的文件。",
+        },
+        {
+          q: "最大文件大小是多少？",
+          a: "您可以转换每个最大100MB的HEIC文件。对于批量转换，您可以一次处理最多20个文件，总限制为100MB。",
+        },
+        {
+          q: "你们支持批量转换吗？",
+          a: "是的！您可以同时上传和转换最多20个HEIC文件。所有转换后的JPG将作为单独文件或单个ZIP存档提供下载。",
+        },
+        {
+          q: "质量会被保留吗？",
+          a: "是的，我们在转换过程中保持高图像质量。您的HEIC照片将以最小的质量损失转换为高分辨率JPG。",
+        },
+        {
+          q: "我可以直接从iPhone转换HEIC吗？",
+          a: "是的！我们的转换器与在iPhone、iPad或任何Apple设备上拍摄的照片完美配合。只需从您的照片库上传HEIC文件即可。",
+        },
+        {
+          q: "我需要安装任何软件吗？",
+          a: "无需安装。我们的在线转换器可在任何设备（Windows、Mac、Linux、iOS或Android）的网页浏览器中直接运行。",
+        },
+        {
+          q: "转换需要多长时间？",
+          a: "转换几乎是即时的！大多数HEIC文件在几秒钟内转换为JPG，具体取决于文件大小和您的互联网连接。",
+        },
+      ],
     },
 
     related: {
@@ -861,6 +883,130 @@ export const zh: Translations = {
         { name: "HEIC转PNG", url: "/convert/heic-to-png" },
         { name: "HEIC转JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC转WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to GIF Converter
+  heicToGif: {
+    title: "HEIC转GIF转换器 - 免费在线将Apple照片转换为GIF",
+    metaDescription:
+      "即时将HEIC图像转换为GIF格式。免费在线HEIC转GIF转换器，支持批量处理。快速、安全且无需注册。适用于iPhone和iPad照片。",
+    metaKeywords:
+      "HEIC转GIF, 转换HEIC, Apple照片转GIF, iPhone照片转GIF, HEIC转换器, 图像转GIF, 批量转换HEIC, 免费HEIC转换器",
+    hero: {
+      title: "HEIC转GIF转换器",
+      subtitle:
+        "立即将您的Apple HEIC照片转换为动画或静态GIF图像。免费、快速且安全的转换，无文件大小限制。",
+      badge1: "闪电般快速",
+      badge2: "100%安全",
+      badge3: "无需注册",
+    },
+    upload: {
+      title: "上传HEIC文件",
+      description:
+        "将您的HEIC照片拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载GIF",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+    features: {
+      title: "功能",
+      list: [
+        "高质量HEIC转GIF转换",
+        "批量处理最多20个文件",
+        "保留图像质量",
+        "无文件大小限制",
+        "100%安全私密",
+        "适用于iPhone和iPad照片",
+        "转换后即时下载",
+        "不添加水印",
+      ],
+    },
+    howItWorks: {
+      title: "使用方法",
+      step1Title: "上传HEIC文件",
+      step1Desc: "从您的设备选择一个或多个HEIC照片",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器即时处理您的文件",
+      step3Title: "下载GIF",
+      step3Desc: "立即获取转换后的GIF文件",
+    },
+    about: {
+      title: "关于HEIC转GIF转换",
+      whatIsHeic: {
+        title: "什么是HEIC格式？",
+        content:
+          "HEIC（高效图像容器）是自iOS 11以来Apple设备使用的默认照片格式。它在保持高质量图像的同时提供卓越的压缩，使照片在iPhone或iPad上占用更少的存储空间。",
+      },
+      whyConvert: {
+        title: "为什么将HEIC转换为GIF？",
+        content:
+          "GIF格式非常适合网页使用、社交媒体分享和创建动画图像。将HEIC转换为GIF确保您的照片可以轻松在线分享、嵌入网站并在任何平台上查看。GIF被广泛支持，非常适合创建简单的动画或具有广泛兼容性的静态图像。",
+      },
+      benefits: {
+        title: "我们转换器的优势",
+        list: [
+          "网页优化 - GIF格式非常适合网页和社交媒体",
+          "通用兼容性 - GIF在任何地方都能工作",
+          "小文件大小 - 高效压缩，快速加载",
+          "易于分享 - 在任何平台或社交网络上分享GIF",
+          "动画支持 - 从多个图像创建动画GIF",
+          "无质量损失 - 在GIF格式中保持视觉质量",
+        ],
+      },
+    },
+    faq: {
+      title: "常见问题 – HEIC转GIF",
+      items: [
+        {
+          q: "将HEIC转换为GIF是免费的吗？",
+          a: "是的！我们的HEIC转GIF转换器完全免费使用。您可以无需注册、订阅或隐藏费用即可将HEIC图像转换为GIF。",
+        },
+        {
+          q: "我可以将iPhone的HEIC照片转换为GIF吗？",
+          a: "是的。您可以将iPhone、iPad或任何Apple设备上拍摄的HEIC照片直接转换为GIF。只需从设备上传HEIC文件，转换即可在浏览器中即时工作。",
+        },
+        {
+          q: "将HEIC转换为GIF时质量会保持吗？",
+          a: "是的。我们在转换过程中保持图像质量。您的HEIC照片会被转换为高质量的GIF文件，具有优化的压缩设置，以平衡质量和文件大小。",
+        },
+        {
+          q: "HEIC转GIF转换的最大文件大小是多少？",
+          a: "您可以转换每个最大100MB的HEIC文件。对于批量转换，您可以一次上传最多20个文件，总大小限制为100MB。",
+        },
+        {
+          q: "为什么我应该将HEIC转换为GIF而不是其他格式？",
+          a: "GIF格式非常适合网页使用、社交媒体和创建可分享的图像。它被广泛支持，加载速度快，非常适合嵌入网站或在线分享。",
+        },
+        {
+          q: "我需要安装任何软件来将HEIC转换为GIF吗？",
+          a: "无需安装。HEIC转GIF转换器在Windows、macOS、Linux、iOS和Android上的网页浏览器中完全在线工作。",
+        },
+        {
+          q: "我可以一次将多个HEIC文件转换为GIF吗？",
+          a: "是的！我们的转换器支持批量处理。您可以同时上传和转换最多20个HEIC文件。所有转换后的GIF文件将作为单独文件或单个ZIP存档提供下载。",
+        },
+        {
+          q: "我可以从HEIC文件创建动画GIF吗？",
+          a: "我们的转换器从单个HEIC图像创建静态GIF。对于动画GIF，您需要将多个图像组合成动画，这需要额外的处理。",
+        },
+      ],
+    },
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "HEIC转PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC转PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC转JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC转WebP", url: "/convert/heic-to-webp" },
+        { name: "PNG转GIF", url: "/convert/png-to-gif" },
+        { name: "JPG转GIF", url: "/convert/jpg-to-gif" },
       ],
     },
   },

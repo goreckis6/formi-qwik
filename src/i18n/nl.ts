@@ -181,6 +181,10 @@ export const nl: Translations = {
       name: "HEIC naar AVIF",
       description: "Converteer Apple HEIC foto's direct naar AVIF-formaat",
     },
+    heicToGif: {
+      name: "HEIC naar GIF",
+      description: "Converteer Apple HEIC foto's direct naar GIF-formaat",
+    },
   },
 
   heicToPdf: {
@@ -502,23 +506,41 @@ export const nl: Translations = {
     },
 
     faq: {
-    title: "Veelgestelde Vragen",
-    q1: "Is het converteren van HEIC naar JPG gratis?",
-    a1: "Ja! Onze HEIC naar JPG converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
-    q2: "Zijn mijn gegevens veilig?",
-    a2: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.",
-    q3: "Wat is de maximale bestandsgrootte?",
-    a3: "U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
-    q4: "Ondersteunt u batchconversie?",
-    a4: "Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde JPG's zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.",
-    q5: "Wordt de kwaliteit behouden?",
-    a5: "Ja, we behouden hoge beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie JPG's met minimale kwaliteitsverlies.",
-    q6: "Kan ik HEIC direct vanaf iPhone converteren?",
-    a6: "Ja! Onze converter werkt perfect met foto's gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden vanuit uw camerarol.",
-    q7: "Moet ik software installeren?",
-    a7: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
-    q8: "Hoe lang duurt de conversie?",
-    a8: "Conversie is bijna direct! De meeste HEIC-bestanden worden binnen enkele seconden geconverteerd naar JPG, afhankelijk van de bestandsgrootte en uw internetverbinding.",
+      title: "Veelgestelde Vragen – HEIC naar JPG",
+      items: [
+        {
+          q: "Is het converteren van HEIC naar JPG gratis?",
+          a: "Ja! Onze HEIC naar JPG converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
+        },
+        {
+          q: "Zijn mijn gegevens veilig?",
+          a: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.",
+        },
+        {
+          q: "Wat is de maximale bestandsgrootte?",
+          a: "U kunt HEIC-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
+        },
+        {
+          q: "Ondersteunt u batchconversie?",
+          a: "Ja! U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde JPG's zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.",
+        },
+        {
+          q: "Wordt de kwaliteit behouden?",
+          a: "Ja, we behouden hoge beeldkwaliteit tijdens conversie. Uw HEIC-foto's worden geconverteerd naar hoge resolutie JPG's met minimale kwaliteitsverlies.",
+        },
+        {
+          q: "Kan ik HEIC direct vanaf iPhone converteren?",
+          a: "Ja! Onze converter werkt perfect met foto's gemaakt op iPhone, iPad of elk Apple-apparaat. Upload gewoon uw HEIC-bestanden vanuit uw camerarol.",
+        },
+        {
+          q: "Moet ik software installeren?",
+          a: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
+        },
+        {
+          q: "Hoe lang duurt de conversie?",
+          a: "Conversie is bijna direct! De meeste HEIC-bestanden worden binnen enkele seconden geconverteerd naar JPG, afhankelijk van de bestandsgrootte en uw internetverbinding.",
+        },
+      ],
     },
 
     related: {
@@ -869,6 +891,130 @@ export const nl: Translations = {
         { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
         { name: "HEIC naar JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC naar WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to GIF Converter
+  heicToGif: {
+    title: "HEIC naar GIF Converter - Converteer Apple Foto's Gratis Online naar GIF",
+    metaDescription:
+      "Converteer HEIC-afbeeldingen direct naar GIF-formaat. Gratis online HEIC naar GIF converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met iPhone- en iPad-foto's.",
+    metaKeywords:
+      "HEIC naar GIF, converteer HEIC, Apple foto's naar GIF, iPhone foto's naar GIF, HEIC converter, afbeelding naar GIF, batch converteer HEIC, gratis HEIC converter",
+    hero: {
+      title: "HEIC naar GIF Converter",
+      subtitle:
+        "Transformeer uw Apple HEIC-foto's direct in geanimeerde of statische GIF-afbeeldingen. Gratis, snelle en veilige conversie zonder bestandsgroottebeperkingen.",
+      badge1: "Bliksemsnel",
+      badge2: "100% Veilig",
+      badge3: "Geen Registratie",
+    },
+    upload: {
+      title: "HEIC Bestanden Uploaden",
+      description:
+        "Sleep en zet uw HEIC-foto's hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximum 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteren",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie succesvol!",
+      download: "GIF Downloaden",
+      downloadAll: "Alles Downloaden als ZIP",
+      convertAnother: "Nog Een Bestand Converteren",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "Hoge kwaliteit HEIC naar GIF conversie",
+        "Batchverwerking tot 20 bestanden",
+        "Behoudt beeldkwaliteit",
+        "Geen bestandsgroottebeperking",
+        "100% veilig en privé",
+        "Werkt met iPhone- en iPad-foto's",
+        "Direct downloaden na conversie",
+        "Geen watermerken toegevoegd",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload HEIC Bestanden",
+      step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "GIF Downloaden",
+      step3Desc: "Ontvang uw geconverteerde GIF-bestanden direct",
+    },
+    about: {
+      title: "Over HEIC naar GIF Conversie",
+      whatIsHeic: {
+        title: "Wat is het HEIC-formaat?",
+        content:
+          "HEIC (High Efficiency Image Container) is het standaard fotoformaat dat wordt gebruikt door Apple-apparaten sinds iOS 11. Het biedt superieure compressie terwijl de hoge beeldkwaliteit behouden blijft, waardoor foto's minder opslagruimte innemen op uw iPhone of iPad.",
+      },
+      whyConvert: {
+        title: "Waarom HEIC naar GIF converteren?",
+        content:
+          "Het GIF-formaat is perfect voor webgebruik, sociale media delen en het maken van geanimeerde afbeeldingen. Het converteren van HEIC naar GIF zorgt ervoor dat uw foto's eenvoudig online gedeeld kunnen worden, ingebed in websites en bekeken op elk platform. GIF's worden breed ondersteund en zijn perfect voor het maken van eenvoudige animaties of statische afbeeldingen met brede compatibiliteit.",
+      },
+      benefits: {
+        title: "Voordelen van Onze Converter",
+        list: [
+          "Web Geoptimaliseerd - GIF-formaat is perfect voor web en sociale media",
+          "Universele Compatibiliteit - GIF's werken overal",
+          "Kleine Bestandsgroottes - Efficiënte compressie voor snelle laden",
+          "Eenvoudig Delen - Deel GIF's op elk platform of sociaal netwerk",
+          "Animatiesondersteuning - Maak geanimeerde GIF's van meerdere afbeeldingen",
+          "Geen Kwaliteitsverlies - Behoud visuele kwaliteit in GIF-formaat",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – HEIC naar GIF",
+      items: [
+        {
+          q: "Is het converteren van HEIC naar GIF gratis?",
+          a: "Ja! Onze HEIC naar GIF converter is volledig gratis. U kunt HEIC-afbeeldingen naar GIF converteren zonder registratie, abonnementen of verborgen kosten.",
+        },
+        {
+          q: "Kan ik HEIC-foto's van iPhone naar GIF converteren?",
+          a: "Ja. U kunt HEIC-foto's die zijn gemaakt op iPhone, iPad of elk Apple-apparaat direct naar GIF converteren. Upload gewoon uw HEIC-bestanden vanaf uw apparaat, en de conversie werkt direct in uw browser.",
+        },
+        {
+          q: "Wordt de kwaliteit behouden bij het converteren van HEIC naar GIF?",
+          a: "Ja. We behouden de beeldkwaliteit tijdens de conversie. Uw HEIC-foto's worden geconverteerd naar hoogwaardige GIF-bestanden met optimale compressie-instellingen om kwaliteit en bestandsgrootte in evenwicht te brengen.",
+        },
+        {
+          q: "Wat is de maximale bestandsgrootte voor HEIC naar GIF conversie?",
+          a: "U kunt HEIC-bestanden tot 100MB per bestand converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk uploaden, met een totale groottebeperking van 100MB.",
+        },
+        {
+          q: "Waarom zou ik HEIC naar GIF converteren in plaats van andere formaten?",
+          a: "Het GIF-formaat is ideaal voor webgebruik, sociale media en het maken van deelbare afbeeldingen. Het wordt breed ondersteund, laadt snel en is perfect voor het inbedden in websites of online delen.",
+        },
+        {
+          q: "Moet ik software installeren om HEIC naar GIF te converteren?",
+          a: "Geen installatie vereist. De HEIC naar GIF converter werkt volledig online in uw webbrowser op Windows, macOS, Linux, iOS en Android.",
+        },
+        {
+          q: "Kan ik meerdere HEIC-bestanden tegelijk naar GIF converteren?",
+          a: "Ja! Onze converter ondersteunt batchverwerking. U kunt tot 20 HEIC-bestanden tegelijk uploaden en converteren. Alle geconverteerde GIF-bestanden zijn beschikbaar voor download als individuele bestanden of in een enkel ZIP-archief.",
+        },
+        {
+          q: "Kan ik geanimeerde GIF's maken van HEIC-bestanden?",
+          a: "Onze converter maakt statische GIF's van individuele HEIC-afbeeldingen. Voor geanimeerde GIF's heeft u meerdere afbeeldingen nodig die worden gecombineerd tot een animatie, wat extra verwerking vereist.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "HEIC naar PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC naar JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC naar WebP", url: "/convert/heic-to-webp" },
+        { name: "PNG naar GIF", url: "/convert/png-to-gif" },
+        { name: "JPG naar GIF", url: "/convert/jpg-to-gif" },
       ],
     },
   },

@@ -184,6 +184,10 @@ export const it: Translations = {
       name: "HEIC a AVIF",
       description: "Converti foto Apple HEIC in formato AVIF istantaneamente",
     },
+    heicToGif: {
+      name: "HEIC a GIF",
+      description: "Converti foto Apple HEIC in formato GIF istantaneamente",
+    },
   },
 
   heicToPdf: {
@@ -505,23 +509,41 @@ export const it: Translations = {
       },
 
       faq: {
-        title: "Domande Frequenti",
-        q1: "È gratuito convertire HEIC a JPG?",
-        a1: "Sì! Il nostro convertitore HEIC a JPG è completamente gratuito senza costi nascosti. Puoi convertire file illimitati senza registrazione o abbonamento.",
-        q2: "I miei dati sono sicuri?",
-        a2: "Assolutamente. Tutte le conversioni avvengono in modo sicuro sui nostri server con crittografia SSL. I tuoi file vengono eliminati automaticamente immediatamente dopo la conversione. Non memorizziamo, condividiamo o accediamo mai ai tuoi file.",
-        q3: "Qual è la dimensione massima del file?",
-        a3: "Puoi convertire file HEIC fino a 100MB ciascuno. Per la conversione batch, puoi elaborare fino a 20 file contemporaneamente con un limite totale di 100MB.",
-        q4: "Supportate la conversione batch?",
-        a4: "Sì! Puoi caricare e convertire fino a 20 file HEIC simultaneamente. Tutti i JPG convertiti saranno disponibili per il download come file singoli o in un unico archivio ZIP.",
-        q5: "La qualità sarà preservata?",
-        a5: "Sì, manteniamo alta qualità dell'immagine durante la conversione. Le tue foto HEIC saranno convertite in JPG ad alta risoluzione con perdita di qualità minima.",
-        q6: "Posso convertire HEIC direttamente da iPhone?",
-        a6: "Sì! Il nostro convertitore funziona perfettamente con foto scattate su iPhone, iPad o qualsiasi dispositivo Apple. Carica semplicemente i tuoi file HEIC dalla tua galleria foto.",
-        q7: "Devo installare software?",
-        a7: "Nessuna installazione necessaria. Il nostro convertitore online funziona direttamente nel tuo browser web su qualsiasi dispositivo - Windows, Mac, Linux, iOS o Android.",
-        q8: "Quanto tempo richiede la conversione?",
-        a8: "La conversione è quasi istantanea! La maggior parte dei file HEIC si converte in JPG in pochi secondi, a seconda della dimensione del file e della tua connessione internet.",
+        title: "Domande Frequenti – HEIC a JPG",
+        items: [
+          {
+            q: "È gratuito convertire HEIC a JPG?",
+            a: "Sì! Il nostro convertitore HEIC a JPG è completamente gratuito senza costi nascosti. Puoi convertire file illimitati senza registrazione o abbonamento.",
+          },
+          {
+            q: "I miei dati sono sicuri?",
+            a: "Assolutamente. Tutte le conversioni avvengono in modo sicuro sui nostri server con crittografia SSL. I tuoi file vengono eliminati automaticamente immediatamente dopo la conversione. Non memorizziamo, condividiamo o accediamo mai ai tuoi file.",
+          },
+          {
+            q: "Qual è la dimensione massima del file?",
+            a: "Puoi convertire file HEIC fino a 100MB ciascuno. Per la conversione batch, puoi elaborare fino a 20 file contemporaneamente con un limite totale di 100MB.",
+          },
+          {
+            q: "Supportate la conversione batch?",
+            a: "Sì! Puoi caricare e convertire fino a 20 file HEIC simultaneamente. Tutti i JPG convertiti saranno disponibili per il download come file singoli o in un unico archivio ZIP.",
+          },
+          {
+            q: "La qualità sarà preservata?",
+            a: "Sì, manteniamo alta qualità dell'immagine durante la conversione. Le tue foto HEIC saranno convertite in JPG ad alta risoluzione con perdita di qualità minima.",
+          },
+          {
+            q: "Posso convertire HEIC direttamente da iPhone?",
+            a: "Sì! Il nostro convertitore funziona perfettamente con foto scattate su iPhone, iPad o qualsiasi dispositivo Apple. Carica semplicemente i tuoi file HEIC dalla tua galleria foto.",
+          },
+          {
+            q: "Devo installare software?",
+            a: "Nessuna installazione necessaria. Il nostro convertitore online funziona direttamente nel tuo browser web su qualsiasi dispositivo - Windows, Mac, Linux, iOS o Android.",
+          },
+          {
+            q: "Quanto tempo richiede la conversione?",
+            a: "La conversione è quasi istantanea! La maggior parte dei file HEIC si converte in JPG in pochi secondi, a seconda della dimensione del file e della tua connessione internet.",
+          },
+        ],
       },
 
       related: {
@@ -872,6 +894,130 @@ export const it: Translations = {
         { name: "HEIC a PNG", url: "/convert/heic-to-png" },
         { name: "HEIC a JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC a WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to GIF Converter
+  heicToGif: {
+    title: "Convertitore HEIC in GIF - Converti Foto Apple in GIF Gratis Online",
+    metaDescription:
+      "Converti immagini HEIC in formato GIF istantaneamente. Convertitore HEIC in GIF online gratuito con elaborazione batch. Veloce, sicuro e senza registrazione richiesta. Funziona con foto iPhone e iPad.",
+    metaKeywords:
+      "HEIC in GIF, converti HEIC, foto Apple in GIF, foto iPhone in GIF, convertitore HEIC, immagine in GIF, conversione batch HEIC, convertitore HEIC gratuito",
+    hero: {
+      title: "Convertitore HEIC in GIF",
+      subtitle:
+        "Trasforma le tue foto HEIC Apple in immagini GIF animate o statiche istantaneamente. Conversione gratuita, veloce e sicura senza limiti di dimensione file.",
+      badge1: "Fulmineo",
+      badge2: "100% Sicuro",
+      badge3: "Nessuna Registrazione",
+    },
+    upload: {
+      title: "Carica File HEIC",
+      description:
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
+      buttonSingle: "File Singolo",
+      buttonBatch: "Conversione Batch",
+      chooseFile: "Scegli File",
+      converting: "Conversione in corso...",
+      success: "Conversione riuscita!",
+      download: "Scarica GIF",
+      downloadAll: "Scarica Tutto come ZIP",
+      convertAnother: "Converti Altro File",
+    },
+    features: {
+      title: "Caratteristiche",
+      list: [
+        "Conversione HEIC in GIF di alta qualità",
+        "Elaborazione batch fino a 20 file",
+        "Preserva la qualità dell'immagine",
+        "Nessuna limitazione di dimensione file",
+        "100% sicuro e privato",
+        "Funziona con foto iPhone e iPad",
+        "Download istantaneo dopo la conversione",
+        "Nessuna filigrana aggiunta",
+      ],
+    },
+    howItWorks: {
+      title: "Come Funziona",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step2Title: "Conversione Automatica",
+      step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
+      step3Title: "Scarica GIF",
+      step3Desc: "Ottieni i tuoi file GIF convertiti immediatamente",
+    },
+    about: {
+      title: "Informazioni sulla Conversione HEIC in GIF",
+      whatIsHeic: {
+        title: "Cos'è il Formato HEIC?",
+        content:
+          "HEIC (High Efficiency Image Container) è il formato foto predefinito utilizzato dai dispositivi Apple da iOS 11. Offre una compressione superiore mantenendo un'alta qualità dell'immagine, facendo occupare alle foto meno spazio di archiviazione sul tuo iPhone o iPad.",
+      },
+      whyConvert: {
+        title: "Perché Convertire HEIC in GIF?",
+        content:
+          "Il formato GIF è perfetto per l'uso web, la condivisione sui social media e la creazione di immagini animate. Convertire HEIC in GIF garantisce che le tue foto possano essere facilmente condivise online, incorporate in siti web e visualizzate su qualsiasi piattaforma. I GIF sono ampiamente supportati e perfetti per creare animazioni semplici o immagini statiche con ampia compatibilità.",
+      },
+      benefits: {
+        title: "Vantaggi del Nostro Convertitore",
+        list: [
+          "Ottimizzato per il Web - Il formato GIF è perfetto per web e social media",
+          "Compatibilità Universale - I GIF funzionano ovunque",
+          "Dimensioni File Piccole - Compressione efficiente per caricamento veloce",
+          "Condivisione Facile - Condividi GIF su qualsiasi piattaforma o social network",
+          "Supporto Animazioni - Crea GIF animati da più immagini",
+          "Nessuna Perdita di Qualità - Preserva la qualità visiva nel formato GIF",
+        ],
+      },
+    },
+    faq: {
+      title: "Domande Frequenti – HEIC in GIF",
+      items: [
+        {
+          q: "È gratuito convertire HEIC in GIF?",
+          a: "Sì! Il nostro convertitore HEIC in GIF è completamente gratuito. Puoi convertire immagini HEIC in GIF senza registrazione, abbonamenti o costi nascosti.",
+        },
+        {
+          q: "Posso convertire foto HEIC da iPhone in GIF?",
+          a: "Sì. Puoi convertire foto HEIC scattate su iPhone, iPad o qualsiasi dispositivo Apple direttamente in GIF. Carica semplicemente i tuoi file HEIC dal tuo dispositivo, e la conversione funziona istantaneamente nel tuo browser.",
+        },
+        {
+          q: "La qualità sarà preservata durante la conversione HEIC in GIF?",
+          a: "Sì. Preserviamo la qualità dell'immagine durante la conversione. Le tue foto HEIC sono convertite in file GIF di alta qualità con impostazioni di compressione ottimali per bilanciare qualità e dimensione del file.",
+        },
+        {
+          q: "Qual è la dimensione massima del file per la conversione HEIC in GIF?",
+          a: "Puoi convertire file HEIC fino a 100MB per file. Per la conversione batch, puoi caricare fino a 20 file contemporaneamente, con un limite di dimensione totale di 100MB.",
+        },
+        {
+          q: "Perché dovrei convertire HEIC in GIF invece di altri formati?",
+          a: "Il formato GIF è ideale per l'uso web, i social media e la creazione di immagini condivisibili. È ampiamente supportato, si carica rapidamente ed è perfetto per l'incorporamento in siti web o la condivisione online.",
+        },
+        {
+          q: "Devo installare software per convertire HEIC in GIF?",
+          a: "Nessuna installazione richiesta. Il convertitore HEIC in GIF funziona completamente online nel tuo browser web su Windows, macOS, Linux, iOS e Android.",
+        },
+        {
+          q: "Posso convertire più file HEIC in GIF contemporaneamente?",
+          a: "Sì! Il nostro convertitore supporta l'elaborazione batch. Puoi caricare e convertire fino a 20 file HEIC simultaneamente. Tutti i file GIF convertiti saranno disponibili per il download come file singoli o in un unico archivio ZIP.",
+        },
+        {
+          q: "Posso creare GIF animati da file HEIC?",
+          a: "Il nostro convertitore crea GIF statici da singole immagini HEIC. Per i GIF animati, avresti bisogno di più immagini combinate in un'animazione, il che richiede un'elaborazione aggiuntiva.",
+        },
+      ],
+    },
+    related: {
+      title: "Convertitori Correlati",
+      converters: [
+        { name: "HEIC a PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC a PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC a JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC a WebP", url: "/convert/heic-to-webp" },
+        { name: "PNG a GIF", url: "/convert/png-to-gif" },
+        { name: "JPG a GIF", url: "/convert/jpg-to-gif" },
       ],
     },
   },

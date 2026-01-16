@@ -174,6 +174,10 @@ export const ko: Translations = {
       name: "HEIC to AVIF",
       description: "Apple HEIC 사진을 AVIF 형식으로 즉시 변환",
     },
+    heicToGif: {
+      name: "HEIC을 GIF로",
+      description: "Apple HEIC 사진을 GIF 형식으로 즉시 변환",
+    },
   },
 
   heicToPdf: {
@@ -494,23 +498,41 @@ export const ko: Translations = {
     },
 
     faq: {
-    title: "자주 묻는 질문",
-    q1: "HEIC를 JPG로 변환하는 것이 무료인가요?",
-    a1: "네! 우리의 HEIC to JPG 변환기는 완전히 무료이며 숨겨진 요금이 없습니다. 등록이나 구독 없이 무제한으로 파일을 변환할 수 있습니다.",
-    q2: "내 데이터가 안전한가요?",
-    a2: "절대적으로 안전합니다. 모든 변환은 SSL 암호화를 사용하여 서버에서 안전하게 수행됩니다. 파일은 변환 후 즉시 자동으로 삭제됩니다. 파일을 저장, 공유 또는 액세스하지 않습니다.",
-    q3: "최대 파일 크기는 얼마인가요?",
-    a3: "각각 최대 100MB의 HEIC 파일을 변환할 수 있습니다. 배치 변환의 경우 총 100MB 제한으로 최대 20개 파일을 한 번에 처리할 수 있습니다.",
-    q4: "배치 변환을 지원하나요?",
-    a4: "네! 최대 20개의 HEIC 파일을 동시에 업로드하고 변환할 수 있습니다. 변환된 모든 JPG는 개별 파일 또는 단일 ZIP 아카이브로 다운로드할 수 있습니다.",
-    q5: "품질이 유지되나요?",
-    a5: "네, 변환 중에 고품질 이미지를 유지합니다. HEIC 사진은 최소한의 품질 손실로 고해상도 JPG로 변환됩니다.",
-    q6: "iPhone에서 직접 HEIC를 변환할 수 있나요?",
-    a6: "네! 우리의 변환기는 iPhone, iPad 또는 모든 Apple 디바이스에서 촬영한 사진과 완벽하게 작동합니다. 카메라 롤에서 HEIC 파일을 업로드하기만 하면 됩니다.",
-    q7: "소프트웨어를 설치해야 하나요?",
-    a7: "설치가 필요하지 않습니다. 우리의 온라인 변환기는 Windows, Mac, Linux, iOS 또는 Android의 모든 디바이스에서 웹 브라우저에서 직접 작동합니다.",
-    q8: "변환에 얼마나 걸리나요?",
-    a8: "변환은 거의 즉시입니다! 대부분의 HEIC 파일은 파일 크기와 인터넷 연결에 따라 몇 초 만에 JPG로 변환됩니다.",
+      title: "자주 묻는 질문 – HEIC를 JPG로",
+      items: [
+        {
+          q: "HEIC를 JPG로 변환하는 것이 무료인가요?",
+          a: "네! 우리의 HEIC to JPG 변환기는 완전히 무료이며 숨겨진 요금이 없습니다. 등록이나 구독 없이 무제한으로 파일을 변환할 수 있습니다.",
+        },
+        {
+          q: "내 데이터가 안전한가요?",
+          a: "절대적으로 안전합니다. 모든 변환은 SSL 암호화를 사용하여 서버에서 안전하게 수행됩니다. 파일은 변환 후 즉시 자동으로 삭제됩니다. 파일을 저장, 공유 또는 액세스하지 않습니다.",
+        },
+        {
+          q: "최대 파일 크기는 얼마인가요?",
+          a: "각각 최대 100MB의 HEIC 파일을 변환할 수 있습니다. 배치 변환의 경우 총 100MB 제한으로 최대 20개 파일을 한 번에 처리할 수 있습니다.",
+        },
+        {
+          q: "배치 변환을 지원하나요?",
+          a: "네! 최대 20개의 HEIC 파일을 동시에 업로드하고 변환할 수 있습니다. 변환된 모든 JPG는 개별 파일 또는 단일 ZIP 아카이브로 다운로드할 수 있습니다.",
+        },
+        {
+          q: "품질이 유지되나요?",
+          a: "네, 변환 중에 고품질 이미지를 유지합니다. HEIC 사진은 최소한의 품질 손실로 고해상도 JPG로 변환됩니다.",
+        },
+        {
+          q: "iPhone에서 직접 HEIC를 변환할 수 있나요?",
+          a: "네! 우리의 변환기는 iPhone, iPad 또는 모든 Apple 디바이스에서 촬영한 사진과 완벽하게 작동합니다. 카메라 롤에서 HEIC 파일을 업로드하기만 하면 됩니다.",
+        },
+        {
+          q: "소프트웨어를 설치해야 하나요?",
+          a: "설치가 필요하지 않습니다. 우리의 온라인 변환기는 Windows, Mac, Linux, iOS 또는 Android의 모든 디바이스에서 웹 브라우저에서 직접 작동합니다.",
+        },
+        {
+          q: "변환에 얼마나 걸리나요?",
+          a: "변환은 거의 즉시입니다! 대부분의 HEIC 파일은 파일 크기와 인터넷 연결에 따라 몇 초 만에 JPG로 변환됩니다.",
+        },
+      ],
     },
 
     related: {
@@ -861,6 +883,130 @@ export const ko: Translations = {
         { name: "HEIC to PNG", url: "/convert/heic-to-png" },
         { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to GIF Converter
+  heicToGif: {
+    title: "HEIC to GIF 변환기 - Apple 사진을 GIF로 무료 온라인 변환",
+    metaDescription:
+      "HEIC 이미지를 GIF 형식으로 즉시 변환. 일괄 처리가 있는 무료 온라인 HEIC to GIF 변환기. 빠르고 안전하며 등록 불필요. iPhone 및 iPad 사진과 작동.",
+    metaKeywords:
+      "HEIC to GIF, HEIC 변환, Apple 사진을 GIF, iPhone 사진을 GIF, HEIC 변환기, 이미지를 GIF, 일괄 변환 HEIC, 무료 HEIC 변환기",
+    hero: {
+      title: "HEIC to GIF 변환기",
+      subtitle:
+        "Apple HEIC 사진을 애니메이션 또는 정적 GIF 이미지로 즉시 변환. 파일 크기 제한 없는 무료, 빠르고 안전한 변환.",
+      badge1: "초고속",
+      badge2: "100% 안전",
+      badge3: "등록 불필요",
+    },
+    upload: {
+      title: "HEIC 파일 업로드",
+      description:
+        "HEIC 사진을 여기에 드래그 앤 드롭하거나 클릭하여 탐색. 최대 20개 파일 일괄 변환 지원. 파일당 최대 100MB.",
+      buttonSingle: "단일 파일",
+      buttonBatch: "일괄 변환",
+      chooseFile: "파일 선택",
+      converting: "변환 중...",
+      success: "변환 성공!",
+      download: "GIF 다운로드",
+      downloadAll: "모두 ZIP으로 다운로드",
+      convertAnother: "다른 파일 변환",
+    },
+    features: {
+      title: "기능",
+      list: [
+        "고품질 HEIC to GIF 변환",
+        "최대 20개 파일 일괄 처리",
+        "이미지 품질 유지",
+        "파일 크기 제한 없음",
+        "100% 안전하고 비공개",
+        "iPhone 및 iPad 사진과 작동",
+        "변환 후 즉시 다운로드",
+        "워터마크 추가 안 함",
+      ],
+    },
+    howItWorks: {
+      title: "작동 방식",
+      step1Title: "HEIC 파일 업로드",
+      step1Desc: "기기에서 하나 이상의 HEIC 사진 선택",
+      step2Title: "자동 변환",
+      step2Desc: "변환기가 파일을 즉시 처리",
+      step3Title: "GIF 다운로드",
+      step3Desc: "변환된 GIF 파일을 즉시 받기",
+    },
+    about: {
+      title: "HEIC to GIF 변환 정보",
+      whatIsHeic: {
+        title: "HEIC 형식이란 무엇인가요?",
+        content:
+          "HEIC (High Efficiency Image Container)는 iOS 11 이후 Apple 기기에서 사용하는 기본 사진 형식입니다. 고품질 이미지를 유지하면서 우수한 압축을 제공하여 iPhone 또는 iPad에서 사진이 적은 저장 공간을 차지하게 합니다.",
+      },
+      whyConvert: {
+        title: "왜 HEIC를 GIF로 변환해야 하나요?",
+        content:
+          "GIF 형식은 웹 사용, 소셜 미디어 공유 및 애니메이션 이미지 생성에 완벽합니다. HEIC를 GIF로 변환하면 사진을 쉽게 온라인에서 공유하고, 웹사이트에 임베드하며, 모든 플랫폼에서 볼 수 있습니다. GIF는 널리 지원되며 광범위한 호환성을 가진 간단한 애니메이션이나 정적 이미지 생성에 완벽합니다.",
+      },
+      benefits: {
+        title: "우리 변환기의 장점",
+        list: [
+          "웹 최적화 - GIF 형식은 웹 및 소셜 미디어에 완벽",
+          "범용 호환성 - GIF는 어디서나 작동",
+          "작은 파일 크기 - 빠른 로딩을 위한 효율적인 압축",
+          "쉬운 공유 - 모든 플랫폼이나 소셜 네트워크에서 GIF 공유",
+          "애니메이션 지원 - 여러 이미지에서 애니메이션 GIF 생성",
+          "품질 손실 없음 - GIF 형식에서 시각적 품질 유지",
+        ],
+      },
+    },
+    faq: {
+      title: "자주 묻는 질문 – HEIC를 GIF로",
+      items: [
+        {
+          q: "HEIC를 GIF로 변환하는 것이 무료인가요?",
+          a: "네! HEIC to GIF 변환기는 완전히 무료입니다. 등록, 구독 또는 숨겨진 요금 없이 HEIC 이미지를 GIF로 변환할 수 있습니다.",
+        },
+        {
+          q: "iPhone에서 HEIC 사진을 GIF로 변환할 수 있나요?",
+          a: "네. iPhone, iPad 또는 모든 Apple 기기에서 촬영한 HEIC 사진을 직접 GIF로 변환할 수 있습니다. 기기에서 HEIC 파일을 업로드하기만 하면 변환이 브라우저에서 즉시 작동합니다.",
+        },
+        {
+          q: "HEIC를 GIF로 변환할 때 품질이 유지되나요?",
+          a: "네. 변환 중에 이미지 품질을 유지합니다. HEIC 사진은 품질과 파일 크기의 균형을 맞추기 위한 최적의 압축 설정으로 고품질 GIF 파일로 변환됩니다.",
+        },
+        {
+          q: "HEIC to GIF 변환의 최대 파일 크기는 얼마인가요?",
+          a: "파일당 최대 100MB의 HEIC 파일을 변환할 수 있습니다. 일괄 변환의 경우 총 크기 제한 100MB로 최대 20개 파일을 한 번에 업로드할 수 있습니다.",
+        },
+        {
+          q: "다른 형식 대신 HEIC를 GIF로 변환해야 하는 이유는 무엇인가요?",
+          a: "GIF 형식은 웹 사용, 소셜 미디어 및 공유 가능한 이미지 생성에 이상적입니다. 널리 지원되며 빠르게 로드되며 웹사이트에 임베드하거나 온라인에서 공유하는 데 완벽합니다.",
+        },
+        {
+          q: "HEIC를 GIF로 변환하려면 소프트웨어를 설치해야 하나요?",
+          a: "설치가 필요하지 않습니다. HEIC to GIF 변환기는 Windows, macOS, Linux, iOS 또는 Android의 웹 브라우저에서 완전히 온라인으로 작동합니다.",
+        },
+        {
+          q: "여러 HEIC 파일을 한 번에 GIF로 변환할 수 있나요?",
+          a: "네! 변환기는 일괄 처리를 지원합니다. 최대 20개의 HEIC 파일을 동시에 업로드하고 변환할 수 있습니다. 변환된 모든 GIF 파일은 개별 파일 또는 단일 ZIP 아카이브로 다운로드할 수 있습니다.",
+        },
+        {
+          q: "HEIC 파일에서 애니메이션 GIF를 만들 수 있나요?",
+          a: "변환기는 개별 HEIC 이미지에서 정적 GIF를 만듭니다. 애니메이션 GIF의 경우 여러 이미지를 애니메이션으로 결합해야 하며 이는 추가 처리가 필요합니다.",
+        },
+      ],
+    },
+    related: {
+      title: "관련 변환기",
+      converters: [
+        { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "HEIC to JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+        { name: "PNG to GIF", url: "/convert/png-to-gif" },
+        { name: "JPG to GIF", url: "/convert/jpg-to-gif" },
       ],
     },
   },

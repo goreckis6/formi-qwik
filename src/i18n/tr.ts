@@ -181,6 +181,10 @@ export const tr: Translations = {
       name: "HEIC'den AVIF'ye",
       description: "Apple HEIC fotoğraflarını AVIF formatına anında dönüştürün",
     },
+    heicToGif: {
+      name: "HEIC'den GIF'e",
+      description: "Apple HEIC fotoğraflarını GIF formatına anında dönüştürün",
+    },
   },
 
   heicToPdf: {
@@ -502,23 +506,41 @@ export const tr: Translations = {
       },
 
       faq: {
-        title: "Sıkça Sorulan Sorular",
-        q1: "HEIC'i JPG'ye dönüştürmek ücretsiz mi?",
-        a1: "Evet! HEIC'den JPG'ye dönüştürücümüz tamamen ücretsizdir ve gizli ücret yoktur. Kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.",
-        q2: "Verilerim güvende mi?",
-        a2: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamayız, paylaşmayız veya erişmeyiz.",
-        q3: "Maksimum dosya boyutu nedir?",
-        a3: "Her biri 100MB'a kadar HEIC dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limiti ile aynı anda 20 dosyaya kadar işleyebilirsiniz.",
-        q4: "Toplu dönüştürmeyi destekliyor musunuz?",
-        a4: "Evet! Aynı anda 20'ye kadar HEIC dosyasını yükleyip dönüştürebilirsiniz. Dönüştürülen tüm JPG'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
-        q5: "Kalite korunacak mı?",
-        a5: "Evet, dönüştürme sırasında yüksek görüntü kalitesini koruyoruz. HEIC fotoğraflarınız minimal kalite kaybıyla yüksek çözünürlüklü JPG'lere dönüştürülecektir.",
-        q6: "HEIC'i doğrudan iPhone'dan dönüştürebilir miyim?",
-        a6: "Evet! Dönüştürücümüz iPhone, iPad veya herhangi bir Apple cihazında çekilen fotoğraflarla mükemmel çalışır. Sadece fotoğraf galerinizden HEIC dosyalarınızı yükleyin.",
-        q7: "Herhangi bir yazılım yüklemem gerekiyor mu?",
-        a7: "Yükleme gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.",
-        q8: "Dönüştürme ne kadar sürer?",
-        a8: "Dönüştürme neredeyse anında! Çoğu HEIC dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde JPG'ye dönüştürülür.",
+        title: "Sıkça Sorulan Sorular – HEIC'den JPG'ye",
+        items: [
+          {
+            q: "HEIC'i JPG'ye dönüştürmek ücretsiz mi?",
+            a: "Evet! HEIC'den JPG'ye dönüştürücümüz tamamen ücretsizdir ve gizli ücret yoktur. Kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.",
+          },
+          {
+            q: "Verilerim güvende mi?",
+            a: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamayız, paylaşmayız veya erişmeyiz.",
+          },
+          {
+            q: "Maksimum dosya boyutu nedir?",
+            a: "Her biri 100MB'a kadar HEIC dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limiti ile aynı anda 20 dosyaya kadar işleyebilirsiniz.",
+          },
+          {
+            q: "Toplu dönüştürmeyi destekliyor musunuz?",
+            a: "Evet! Aynı anda 20'ye kadar HEIC dosyasını yükleyip dönüştürebilirsiniz. Dönüştürülen tüm JPG'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
+          },
+          {
+            q: "Kalite korunacak mı?",
+            a: "Evet, dönüştürme sırasında yüksek görüntü kalitesini koruyoruz. HEIC fotoğraflarınız minimal kalite kaybıyla yüksek çözünürlüklü JPG'lere dönüştürülecektir.",
+          },
+          {
+            q: "HEIC'i doğrudan iPhone'dan dönüştürebilir miyim?",
+            a: "Evet! Dönüştürücümüz iPhone, iPad veya herhangi bir Apple cihazında çekilen fotoğraflarla mükemmel çalışır. Sadece fotoğraf galerinizden HEIC dosyalarınızı yükleyin.",
+          },
+          {
+            q: "Herhangi bir yazılım yüklemem gerekiyor mu?",
+            a: "Yükleme gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.",
+          },
+          {
+            q: "Dönüştürme ne kadar sürer?",
+            a: "Dönüştürme neredeyse anında! Çoğu HEIC dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde JPG'ye dönüştürülür.",
+          },
+        ],
       },
 
       related: {
@@ -883,6 +905,130 @@ export const tr: Translations = {
         { name: "HEIC'den PNG'ye", url: "/convert/heic-to-png" },
         { name: "HEIC'den JPG'ye", url: "/convert/heic-to-jpg" },
         { name: "HEIC'den WebP'ye", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to GIF Converter
+  heicToGif: {
+    title: "HEIC'den GIF'e Dönüştürücü - Apple Fotoğraflarını GIF'e Ücretsiz Çevrimiçi Dönüştür",
+    metaDescription:
+      "HEIC görüntülerini anında GIF formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIC'den GIF'e dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. iPhone ve iPad fotoğraflarıyla çalışır.",
+    metaKeywords:
+      "HEIC'den GIF'e, HEIC dönüştür, Apple fotoğrafları GIF'e, iPhone fotoğrafları GIF'e, HEIC dönüştürücü, görüntü GIF'e, HEIC toplu dönüştürme, ücretsiz HEIC dönüştürücü",
+    hero: {
+      title: "HEIC'den GIF'e Dönüştürücü",
+      subtitle:
+        "Apple HEIC fotoğraflarınızı animasyonlu veya statik GIF görüntülerine anında dönüştürün. Dosya boyutu sınırı olmayan ücretsiz, hızlı ve güvenli dönüştürme.",
+      badge1: "Yıldırım Hızında",
+      badge2: "%100 Güvenli",
+      badge3: "Kayıt Yok",
+    },
+    upload: {
+      title: "HEIC Dosyalarını Yükle",
+      description:
+        "HEIC fotoğraflarınızı buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürme destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştür",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "GIF İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Yüksek kaliteli HEIC'den GIF'e dönüştürme",
+        "20 dosyaya kadar toplu işleme",
+        "Görüntü kalitesini korur",
+        "Dosya boyutu sınırı yok",
+        "%100 güvenli ve özel",
+        "iPhone ve iPad fotoğraflarıyla çalışır",
+        "Dönüştürmeden sonra anında indirme",
+        "Filigran eklenmez",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "HEIC Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla HEIC fotoğrafı seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "GIF İndir",
+      step3Desc: "Dönüştürülmüş GIF dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "HEIC'den GIF'e Dönüştürme Hakkında",
+      whatIsHeic: {
+        title: "HEIC Formatı Nedir?",
+        content:
+          "HEIC (High Efficiency Image Container), iOS 11'den bu yana Apple cihazları tarafından kullanılan varsayılan fotoğraf formatıdır. Yüksek görüntü kalitesini korurken üstün sıkıştırma sunar, böylece fotoğraflar iPhone veya iPad'inizde daha az depolama alanı kaplar.",
+      },
+      whyConvert: {
+        title: "Neden HEIC'i GIF'e Dönüştürmeliyim?",
+        content:
+          "GIF formatı web kullanımı, sosyal medya paylaşımı ve animasyonlu görüntü oluşturma için mükemmeldir. HEIC'i GIF'e dönüştürmek, fotoğraflarınızın kolayca çevrimiçi paylaşılabilmesini, web sitelerine gömülebilmesini ve herhangi bir platformda görüntülenebilmesini sağlar. GIF'ler geniş çapta desteklenir ve geniş uyumlulukla basit animasyonlar veya statik görüntüler oluşturmak için mükemmeldir.",
+      },
+      benefits: {
+        title: "Dönüştürücümüzün Avantajları",
+        list: [
+          "Web Optimize - GIF formatı web ve sosyal medya için mükemmeldir",
+          "Evrensel Uyumluluk - GIF'ler her yerde çalışır",
+          "Küçük Dosya Boyutları - Hızlı yükleme için verimli sıkıştırma",
+          "Kolay Paylaşım - Herhangi bir platformda veya sosyal ağda GIF paylaşın",
+          "Animasyon Desteği - Birden fazla görüntüden animasyonlu GIF oluşturun",
+          "Kalite Kaybı Yok - GIF formatında görsel kaliteyi koruyun",
+        ],
+      },
+    },
+    faq: {
+      title: "Sıkça Sorulan Sorular – HEIC'den GIF'e",
+      items: [
+        {
+          q: "HEIC'i GIF'e dönüştürmek ücretsiz mi?",
+          a: "Evet! HEIC'den GIF'e dönüştürücümüz tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret olmadan HEIC görüntülerini GIF'e dönüştürebilirsiniz.",
+        },
+        {
+          q: "iPhone'dan HEIC fotoğraflarını GIF'e dönüştürebilir miyim?",
+          a: "Evet. iPhone, iPad veya herhangi bir Apple cihazında çekilen HEIC fotoğraflarını doğrudan GIF'e dönüştürebilirsiniz. Cihazınızdan HEIC dosyalarınızı yükleyin, dönüştürme tarayıcınızda anında çalışır.",
+        },
+        {
+          q: "HEIC'i GIF'e dönüştürürken kalite korunacak mı?",
+          a: "Evet. Dönüştürme sırasında görüntü kalitesini koruyoruz. HEIC fotoğraflarınız kalite ve dosya boyutunu dengelemek için optimal sıkıştırma ayarlarıyla yüksek kaliteli GIF dosyalarına dönüştürülür.",
+        },
+        {
+          q: "HEIC'den GIF'e dönüştürme için maksimum dosya boyutu nedir?",
+          a: "Dosya başına 100MB'a kadar HEIC dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam boyut limiti 100MB ile aynı anda 20 dosyaya kadar yükleyebilirsiniz.",
+        },
+        {
+          q: "Neden HEIC'i GIF'e diğer formatlardan ziyade dönüştürmeliyim?",
+          a: "GIF formatı web kullanımı, sosyal medya ve paylaşılabilir görüntü oluşturma için idealdir. Geniş çapta desteklenir, hızlı yüklenir ve web sitelerine gömme veya çevrimiçi paylaşma için mükemmeldir.",
+        },
+        {
+          q: "HEIC'i GIF'e dönüştürmek için yazılım yüklemem gerekiyor mu?",
+          a: "Kurulum gerekmez. HEIC'den GIF'e dönüştürücü Windows, macOS, Linux, iOS ve Android'deki web tarayıcınızda tamamen çevrimiçi çalışır.",
+        },
+        {
+          q: "Birden fazla HEIC dosyasını aynı anda GIF'e dönüştürebilir miyim?",
+          a: "Evet! Dönüştürücümüz toplu işlemeyi destekler. Aynı anda 20'ye kadar HEIC dosyasını yükleyip dönüştürebilirsiniz. Tüm dönüştürülmüş GIF dosyaları, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
+        },
+        {
+          q: "HEIC dosyalarından animasyonlu GIF oluşturabilir miyim?",
+          a: "Dönüştürücümüz bireysel HEIC görüntülerinden statik GIF'ler oluşturur. Animasyonlu GIF'ler için, bir animasyona birleştirilmiş birden fazla görüntüye ihtiyacınız olur, bu da ek işleme gerektirir.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "HEIC'den PDF'e", url: "/convert/heic-to-pdf" },
+        { name: "HEIC'den PNG'ye", url: "/convert/heic-to-png" },
+        { name: "HEIC'den JPG'ye", url: "/convert/heic-to-jpg" },
+        { name: "HEIC'den WebP'ye", url: "/convert/heic-to-webp" },
+        { name: "PNG'den GIF'e", url: "/convert/png-to-gif" },
+        { name: "JPG'den GIF'e", url: "/convert/jpg-to-gif" },
       ],
     },
   },

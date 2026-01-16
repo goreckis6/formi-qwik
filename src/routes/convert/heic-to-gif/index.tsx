@@ -41,7 +41,7 @@ export default component$(() => {
   const localeData = useLocaleLoader();
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
-  const conv = t.heicToJpg;
+  const conv = t.heicToGif;
   const loc = useLocation();
   const pageUrl = loc.url.origin + loc.url.pathname;
 
@@ -73,7 +73,6 @@ export default component$(() => {
 
       if (files.length === 0) {
         errorMessage.value = "Please select HEIC or HEIF files only.";
-        // Reset input to allow selecting the same file again
         input.value = "";
         return;
       }
@@ -122,7 +121,6 @@ export default component$(() => {
       conversionResults.value = [];
     }
     // Reset input value to allow selecting the same file again
-    // This ensures onChange fires even if the same file is selected
     setTimeout(() => {
       if (input) {
         input.value = "";
@@ -207,7 +205,7 @@ export default component$(() => {
         for (let i = 0; i < binaryString.length; i++) {
           bytes[i] = binaryString.charCodeAt(i);
         }
-        blob = new Blob([bytes], { type: "image/jpeg" });
+        blob = new Blob([bytes], { type: "image/gif" });
       } else {
         errorMessage.value = "No file data available for download";
         return;
@@ -217,7 +215,7 @@ export default component$(() => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = result.outputFilename || "converted.jpg";
+      a.download = result.outputFilename || "converted.pdf";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -248,7 +246,7 @@ export default component$(() => {
         if (result.blob) {
           // Single file mode - use blob
           const arrayBuffer = await result.blob.arrayBuffer();
-          zip.file(result.outputFilename || "converted.jpg", arrayBuffer);
+          zip.file(result.outputFilename || "converted.gif", arrayBuffer);
         } else if (result.downloadPath) {
           // Batch mode - convert base64 to blob
           const base64Data = result.downloadPath.split(",")[1];
@@ -257,7 +255,7 @@ export default component$(() => {
           for (let i = 0; i < binaryString.length; i++) {
             bytes[i] = binaryString.charCodeAt(i);
           }
-          zip.file(result.outputFilename || "converted.jpg", bytes);
+          zip.file(result.outputFilename || "converted.gif", bytes);
         }
       }
 
@@ -268,7 +266,7 @@ export default component$(() => {
       const url = URL.createObjectURL(zipBlob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `heic-to-jpg-conversions-${Date.now()}.zip`;
+      a.download = `heic-to-gif-conversions-${Date.now()}.zip`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -333,10 +331,11 @@ export default component$(() => {
         formData.append("file", selectedFiles.value[0]);
         formData.append("quality", "95");
         formData.append("maxDimension", "4096");
+        formData.append("quality", "85");
 
         progress.value = 30;
 
-        const response = await fetch(`${API_BASE_URL}/convert/heic-to-jpg/single`, {
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-gif/single`, {
           method: "POST",
           body: formData,
           signal: controller.signal,
@@ -346,7 +345,7 @@ export default component$(() => {
 
         if (response.ok) {
           const blob = await response.blob();
-          const filename = selectedFiles.value[0].name.replace(/\.(heic|heif)$/i, ".jpg");
+          const filename = selectedFiles.value[0].name.replace(/\.(heic|heif)$/i, ".gif");
 
           // Store blob for download button (don't auto-download)
           conversionResults.value = [
@@ -374,12 +373,12 @@ export default component$(() => {
         selectedFiles.value.forEach((file) => {
           formData.append("files", file);
         });
-        formData.append("quality", "95");
+        formData.append("quality", "85");
         formData.append("maxDimension", "4096");
 
         progress.value = 30;
 
-        const response = await fetch(`${API_BASE_URL}/convert/heic-to-jpg/batch`, {
+        const response = await fetch(`${API_BASE_URL}/convert/heic-to-gif/batch`, {
           method: "POST",
           body: formData,
           signal: controller.signal,
@@ -707,7 +706,7 @@ export default component$(() => {
                               d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
                             />
                           </svg>
-                          Convert to JPG
+                          Convert to GIF
                         </span>
                       )}
                     </button>
@@ -1020,7 +1019,7 @@ export default component$(() => {
 
 export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
-  const conv = localeData.translations.heicToJpg;
+  const conv = localeData.translations.heicToGif;
   const pageUrl = url.origin + url.pathname;
 
   return {
@@ -1048,7 +1047,7 @@ export const head: DocumentHead = ({ resolveValue, url }) => {
       },
       {
         property: "og:image",
-        content: "https://formipeek.com/og-heic-to-jpg.jpg",
+        content: "https://formipeek.com/og-heic-to-gif.jpg",
       },
       {
         name: "twitter:card",
@@ -1064,7 +1063,7 @@ export const head: DocumentHead = ({ resolveValue, url }) => {
       },
       {
         name: "twitter:image",
-        content: "https://formipeek.com/og-heic-to-jpg.jpg",
+        content: "https://formipeek.com/og-heic-to-gif.jpg",
       },
     ],
   };

@@ -172,6 +172,10 @@ export const id: Translations = {
       name: 'HEIC ke AVIF',
       description: 'Konversi foto Apple HEIC ke format AVIF secara instan',
     },
+    heicToGif: {
+      name: 'HEIC ke GIF',
+      description: 'Konversi foto Apple HEIC ke format GIF secara instan',
+    },
   },
 
   heicToPdf: {
@@ -473,23 +477,41 @@ export const id: Translations = {
     },
 
     faq: {
-      title: 'Pertanyaan yang Sering Diajukan',
-      q1: 'Apakah mengonversi HEIC ke JPG gratis?',
-      a1: 'Ya! Konverter HEIC ke JPG kami sepenuhnya gratis tanpa biaya tersembunyi. Anda dapat mengonversi file tanpa batas tanpa registrasi atau berlangganan.',
-      q2: 'Apakah data saya aman?',
-      a2: 'Sangat aman. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda secara otomatis dihapus segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
-      q3: 'Berapa ukuran file maksimum?',
-      a3: 'Anda dapat mengonversi file HEIC hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
-      q4: 'Apakah Anda mendukung konversi batch?',
-      a4: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIC secara bersamaan. Semua JPG yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
-      q5: 'Apakah kualitas akan dipertahankan?',
-      a5: 'Ya, kami mempertahankan kualitas gambar tinggi selama konversi. Foto HEIC Anda akan dikonversi ke JPG resolusi tinggi dengan kehilangan kualitas minimal.',
-      q6: 'Bisakah saya mengonversi HEIC langsung dari iPhone?',
-      a6: 'Ya! Konverter kami bekerja sempurna dengan foto yang diambil di iPhone, iPad, atau perangkat Apple apa pun. Cukup unggah file HEIC Anda dari galeri kamera.',
-      q7: 'Apakah saya perlu menginstal perangkat lunak?',
-      a7: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
-      q8: 'Berapa lama konversi berlangsung?',
-      a8: 'Konversi hampir instan! Sebagian besar file HEIC dikonversi ke JPG hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke JPG',
+      items: [
+        {
+          q: 'Apakah mengonversi HEIC ke JPG gratis?',
+          a: 'Ya! Konverter HEIC ke JPG kami sepenuhnya gratis tanpa biaya tersembunyi. Anda dapat mengonversi file tanpa batas tanpa registrasi atau berlangganan.',
+        },
+        {
+          q: 'Apakah data saya aman?',
+          a: 'Sangat aman. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda secara otomatis dihapus segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
+        },
+        {
+          q: 'Berapa ukuran file maksimum?',
+          a: 'Anda dapat mengonversi file HEIC hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
+        },
+        {
+          q: 'Apakah Anda mendukung konversi batch?',
+          a: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIC secara bersamaan. Semua JPG yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan?',
+          a: 'Ya, kami mempertahankan kualitas gambar tinggi selama konversi. Foto HEIC Anda akan dikonversi ke JPG resolusi tinggi dengan kehilangan kualitas minimal.',
+        },
+        {
+          q: 'Bisakah saya mengonversi HEIC langsung dari iPhone?',
+          a: 'Ya! Konverter kami bekerja sempurna dengan foto yang diambil di iPhone, iPad, atau perangkat Apple apa pun. Cukup unggah file HEIC Anda dari galeri kamera.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak?',
+          a: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
+        },
+        {
+          q: 'Berapa lama konversi berlangsung?',
+          a: 'Konversi hampir instan! Sebagian besar file HEIC dikonversi ke JPG hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
+        },
+      ],
     },
 
     related: {
@@ -822,6 +844,124 @@ export const id: Translations = {
         { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
         { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
         { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+      ],
+    },
+  },
+
+  // HEIC to GIF Converter
+  heicToGif: {
+    title: 'Konverter HEIC ke GIF - Konversi Foto Apple ke GIF Gratis Online',
+    metaDescription: 'Konversi gambar HEIC ke format GIF secara instan. Konverter HEIC ke GIF online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto iPhone dan iPad.',
+    metaKeywords: 'HEIC ke GIF, konversi HEIC, foto Apple ke GIF, foto iPhone ke GIF, konverter HEIC, gambar ke GIF, konversi batch HEIC, konverter HEIC gratis',
+    hero: {
+      title: 'Konverter HEIC ke GIF',
+      subtitle: 'Ubah foto HEIC Apple Anda menjadi gambar GIF animasi atau statis secara instan. Konversi gratis, cepat, dan aman tanpa batas ukuran file.',
+      badge1: 'Super Cepat',
+      badge2: '100% Aman',
+      badge3: 'Tanpa Registrasi',
+    },
+    upload: {
+      title: 'Unggah File HEIC',
+      description: 'Seret dan lepas foto HEIC Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
+      buttonSingle: 'File Tunggal',
+      buttonBatch: 'Konversi Batch',
+      chooseFile: 'Pilih File',
+      converting: 'Mengonversi...',
+      success: 'Konversi berhasil!',
+      download: 'Unduh GIF',
+      downloadAll: 'Unduh Semua sebagai ZIP',
+      convertAnother: 'Konversi File Lain',
+    },
+    features: {
+      title: 'Fitur',
+      list: [
+        'Konversi HEIC ke GIF berkualitas tinggi',
+        'Pemrosesan batch hingga 20 file',
+        'Mempertahankan kualitas gambar',
+        'Tidak ada batasan ukuran file',
+        '100% aman dan privat',
+        'Bekerja dengan foto iPhone & iPad',
+        'Unduh instan setelah konversi',
+        'Tidak ada watermark yang ditambahkan',
+      ],
+    },
+    howItWorks: {
+      title: 'Cara Kerja',
+      step1Title: 'Unggah File HEIC',
+      step1Desc: 'Pilih satu atau beberapa foto HEIC dari perangkat Anda',
+      step2Title: 'Konversi Otomatis',
+      step2Desc: 'Konverter kami memproses file Anda secara instan',
+      step3Title: 'Unduh GIF',
+      step3Desc: 'Dapatkan file GIF yang dikonversi segera',
+    },
+    about: {
+      title: 'Tentang Konversi HEIC ke GIF',
+      whatIsHeic: {
+        title: 'Apa itu Format HEIC?',
+        content: 'HEIC (High Efficiency Image Container) adalah format foto default yang digunakan oleh perangkat Apple sejak iOS 11. Ini menawarkan kompresi superior sambil mempertahankan kualitas gambar tinggi, membuat foto mengambil lebih sedikit ruang penyimpanan di iPhone atau iPad Anda.',
+      },
+      whyConvert: {
+        title: 'Mengapa Mengonversi HEIC ke GIF?',
+        content: 'Format GIF sempurna untuk penggunaan web, berbagi media sosial, dan membuat gambar animasi. Mengonversi HEIC ke GIF memastikan foto Anda dapat dengan mudah dibagikan online, disematkan dalam situs web, dan dilihat di platform apa pun. GIF didukung secara luas dan sempurna untuk membuat animasi sederhana atau gambar statis dengan kompatibilitas luas.',
+      },
+      benefits: {
+        title: 'Manfaat Konverter Kami',
+        list: [
+          'Dioptimalkan untuk Web - Format GIF sempurna untuk web dan media sosial',
+          'Kompatibilitas Universal - GIF bekerja di mana-mana',
+          'Ukuran File Kecil - Kompresi efisien untuk pemuatan cepat',
+          'Berbagi Mudah - Bagikan GIF di platform atau jejaring sosial apa pun',
+          'Dukungan Animasi - Buat GIF animasi dari beberapa gambar',
+          'Tidak Ada Kehilangan Kualitas - Pertahankan kualitas visual dalam format GIF',
+        ],
+      },
+    },
+    faq: {
+      title: 'Pertanyaan yang Sering Diajukan – HEIC ke GIF',
+      items: [
+        {
+          q: 'Apakah mengonversi HEIC ke GIF gratis?',
+          a: 'Ya! Konverter HEIC ke GIF kami sepenuhnya gratis. Anda dapat mengonversi gambar HEIC ke GIF tanpa registrasi, langganan, atau biaya tersembunyi.',
+        },
+        {
+          q: 'Bisakah saya mengonversi foto HEIC dari iPhone ke GIF?',
+          a: 'Ya. Anda dapat mengonversi foto HEIC yang diambil di iPhone, iPad, atau perangkat Apple apa pun langsung ke GIF. Cukup unggah file HEIC Anda dari perangkat Anda, dan konversi bekerja secara instan di browser Anda.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan saat mengonversi HEIC ke GIF?',
+          a: 'Ya. Kami mempertahankan kualitas gambar selama konversi. Foto HEIC Anda dikonversi menjadi file GIF berkualitas tinggi dengan pengaturan kompresi optimal untuk menyeimbangkan kualitas dan ukuran file.',
+        },
+        {
+          q: 'Berapa ukuran file maksimum untuk konversi HEIC ke GIF?',
+          a: 'Anda dapat mengonversi file HEIC hingga 100MB per file. Untuk konversi batch, Anda dapat mengunggah hingga 20 file sekaligus, dengan batas ukuran total 100MB.',
+        },
+        {
+          q: 'Mengapa saya harus mengonversi HEIC ke GIF daripada format lain?',
+          a: 'Format GIF ideal untuk penggunaan web, media sosial, dan membuat gambar yang dapat dibagikan. Ini didukung secara luas, dimuat dengan cepat, dan sempurna untuk disematkan di situs web atau dibagikan online.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak untuk mengonversi HEIC ke GIF?',
+          a: 'Tidak perlu instalasi. Konverter HEIC ke GIF bekerja sepenuhnya online di browser web Anda di Windows, macOS, Linux, iOS, dan Android.',
+        },
+        {
+          q: 'Bisakah saya mengonversi beberapa file HEIC ke GIF sekaligus?',
+          a: 'Ya! Konverter kami mendukung pemrosesan batch. Anda dapat mengunggah dan mengonversi hingga 20 file HEIC secara bersamaan. Semua file GIF yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
+        },
+        {
+          q: 'Bisakah saya membuat GIF animasi dari file HEIC?',
+          a: 'Konverter kami membuat GIF statis dari gambar HEIC individual. Untuk GIF animasi, Anda memerlukan beberapa gambar yang digabung menjadi animasi, yang memerlukan pemrosesan tambahan.',
+        },
+      ],
+    },
+    related: {
+      title: 'Konverter Terkait',
+      converters: [
+        { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
+        { name: 'HEIC ke JPG', url: '/convert/heic-to-jpg' },
+        { name: 'HEIC ke WebP', url: '/convert/heic-to-webp' },
+        { name: 'PNG ke GIF', url: '/convert/png-to-gif' },
+        { name: 'JPG ke GIF', url: '/convert/jpg-to-gif' },
       ],
     },
   },
