@@ -184,6 +184,10 @@ export const pl: Translations = {
       name: "HEIC na GIF",
       description: "Konwertuj zdjęcia Apple HEIC na format GIF natychmiast",
     },
+    heifToJpg: {
+      name: "HEIF na JPG",
+      description: "Konwertuj obrazy HEIF na format JPG natychmiast",
+    },
   },
 
   heicToPdf: {
@@ -1032,6 +1036,139 @@ export const pl: Translations = {
         { name: "HEIC na WEBP", url: "/convert/heic-to-webp" },
         { name: "PNG na GIF", url: "/convert/png-to-gif" },
         { name: "JPG na GIF", url: "/convert/jpg-to-gif" },
+      ],
+    },
+  },
+
+  // HEIF to JPG Converter
+  heifToJpg: {
+    title: "Konwerter HEIF na JPG - Konwertuj Obrazy HEIF na JPG Za Darmo Online",
+    metaDescription:
+      "Konwertuj obrazy HEIF na format JPG natychmiast. Darmowy online konwerter HEIF na JPG z przetwarzaniem wsadowym. Szybko, bezpiecznie i bez rejestracji. Działa ze zdjęciami HEIF ze wszystkich urządzeń.",
+    metaKeywords:
+      "HEIF na JPG, konwertuj HEIF, obrazy HEIF na JPG, konwerter HEIF, obraz na JPG, wsadowa konwersja HEIF, darmowy konwerter HEIF, HEIF vs HEIC",
+    hero: {
+      title: "Konwerter HEIF na JPG",
+      subtitle:
+        "Przekształć swoje obrazy HEIF w uniwersalny format JPG natychmiast. Darmowa, szybka i bezpieczna konwersja bez ograniczeń rozmiaru pliku. Idealne dla zdjęć HEIF z dowolnego urządzenia.",
+      badge1: "Błyskawicznie Szybko",
+      badge2: "100% Bezpiecznie",
+      badge3: "Bez Rejestracji",
+    },
+    upload: {
+      title: "Prześlij Pliki HEIF",
+      description:
+        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje wsadową konwersję do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Jeden Plik",
+      buttonBatch: "Konwersja Wsadowa",
+      chooseFile: "Wybierz Pliki",
+      converting: "Konwertowanie...",
+      success: "Konwersja udana!",
+      download: "Pobierz JPG",
+      downloadAll: "Pobierz Wszystko jako ZIP",
+      convertAnother: "Konwertuj Inny Plik",
+    },
+    features: {
+      title: "Funkcje",
+      list: [
+        "Wysokiej jakości konwersja HEIF na JPG",
+        "Przetwarzanie wsadowe do 20 plików",
+        "Zachowuje jakość obrazu",
+        "Bez ograniczeń rozmiaru pliku",
+        "100% bezpieczne i prywatne",
+        "Działa ze zdjęciami HEIF ze wszystkich urządzeń",
+        "Natychmiastowe pobieranie po konwersji",
+        "Bez znaków wodnych",
+      ],
+    },
+    howItWorks: {
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki HEIF",
+      step1Desc: "Wybierz jeden lub wiele obrazów HEIF z urządzenia",
+      step2Title: "Automatyczna Konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz JPG",
+      step3Desc: "Otrzymaj skonwertowane pliki JPG natychmiast",
+    },
+    about: {
+      title: "O Konwersji HEIF na JPG",
+      whatIsHeif: {
+        title: "Czym Jest Format HEIF?",
+        content:
+          "HEIF (High Efficiency Image Format) to nowoczesny format kontenera obrazów, który wykorzystuje kompresję HEVC (H.265). Choć podobny do HEIC, HEIF jest standardową nazwą formatu, podczas gdy HEIC odnosi się konkretnie do implementacji Apple. HEIF oferuje lepszą kompresję w porównaniu z JPEG przy zachowaniu wysokiej jakości obrazu, co czyni go idealnym do efektywnego przechowywania zdjęć.",
+      },
+      whyConvert: {
+        title: "Dlaczego Konwertować HEIF na JPG?",
+        content:
+          "Choć HEIF jest wydajny i nowoczesny, nie jest powszechnie obsługiwany na wszystkich urządzeniach i platformach. Konwersja HEIF na JPG zapewnia, że obrazy mogą być wyświetlane na dowolnym urządzeniu, łatwo udostępniane przez e-mail, przesyłane na strony internetowe i używane w dowolnej aplikacji. Format JPG jest najbardziej powszechnie obsługiwanym formatem obrazu na świecie, co czyni go idealnym dla maksymalnej kompatybilności i udostępniania.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Jaka Jest Różnica?",
+        content:
+          "HEIF (High Efficiency Image Format) to standard format kontenera, podczas gdy HEIC (High Efficiency Image Container) to specyficzna implementacja Apple HEIF. W praktyce są bardzo podobne - oba używają tej samej technologii kompresji i oferują te same korzyści. Urządzenia Apple zapisują zdjęcia jako pliki HEIC, które są zgodne z HEIF. Nasz konwerter obsługuje oba formaty bezproblemowo, więc możesz konwertować dowolny obraz HEIF/HEIC na format JPG.",
+      },
+      benefits: {
+        title: "Zalety Naszego Konwertera",
+        list: [
+          "Uniwersalna Kompatybilność - JPG działają na wszystkich urządzeniach i platformach",
+          "Mniejszy Rozmiar Pliku - Efektywna kompresja dla szybszego udostępniania",
+          "Szerokie Wsparcie - Najbardziej powszechnie używany format obrazu na świecie",
+          "Łatwe Udostępnianie - Kompatybilny ze wszystkimi klientami e-mail i mediami społecznościowymi",
+          "Gotowe do Weba - Idealne dla stron internetowych, mediów społecznościowych i użycia online",
+          "Wysoka Jakość - Zachowaj oryginalną rozdzielczość obrazu",
+        ],
+      },
+    },
+    faq: {
+      title: "Często Zadawane Pytania – HEIF na JPG",
+      items: [
+        {
+          q: "Czy konwersja HEIF na JPG jest darmowa?",
+          a: "Tak! Nasz konwerter HEIF na JPG jest całkowicie darmowy bez ukrytych opłat. Możesz konwertować nieograniczoną liczbę plików bez rejestracji lub subskrypcji.",
+        },
+        {
+          q: "Jaka jest różnica między HEIF a HEIC?",
+          a: "HEIF (High Efficiency Image Format) to standardowa nazwa formatu, podczas gdy HEIC (High Efficiency Image Container) to specyficzna implementacja Apple. Używają tej samej technologii kompresji i są funkcjonalnie bardzo podobne. Nasz konwerter obsługuje oba formaty bezproblemowo.",
+        },
+        {
+          q: "Czy moje dane są bezpieczne?",
+          a: "Absolutnie. Wszystkie konwersje odbywają się bezpiecznie na naszych serwerach z szyfrowaniem SSL. Pliki są automatycznie usuwane natychmiast po konwersji. Nigdy nie przechowujemy, nie udostępniamy ani nie uzyskujemy dostępu do plików.",
+        },
+        {
+          q: "Jaki jest maksymalny rozmiar pliku?",
+          a: "Możesz konwertować pliki HEIF do 100MB każdy. Dla konwersji wsadowej możesz przetwarzać do 20 plików jednocześnie z całkowitym limitem 100MB.",
+        },
+        {
+          q: "Czy obsługujecie konwersję wsadową?",
+          a: "Tak! Możesz przesłać i konwertować do 20 plików HEIF jednocześnie. Wszystkie skonwertowane JPG będą dostępne do pobrania jako pojedyncze pliki lub w jednym archiwum ZIP.",
+        },
+        {
+          q: "Czy jakość zostanie zachowana?",
+          a: "Tak, zachowujemy wysoką jakość obrazu podczas konwersji. Obrazy HEIF zostaną skonwertowane na wysokiej rozdzielczości JPG z minimalną utratą jakości.",
+        },
+        {
+          q: "Czy mogę konwertować HEIF z dowolnego urządzenia?",
+          a: "Tak! Nasz konwerter działa z obrazami HEIF z dowolnego urządzenia lub aparatu, który obsługuje format HEIF, nie tylko urządzenia Apple. Po prostu prześlij pliki HEIF i konwertuj je na JPG.",
+        },
+        {
+          q: "Czy muszę zainstalować jakieś oprogramowanie?",
+          a: "Brak potrzeby instalacji. Nasz konwerter online działa bezpośrednio w przeglądarce internetowej na dowolnym urządzeniu - Windows, Mac, Linux, iOS lub Android.",
+        },
+        {
+          q: "Ile czasu zajmuje konwersja?",
+          a: "Konwersja jest niemal natychmiastowa! Większość plików HEIF konwertuje się na JPG w zaledwie kilka sekund, w zależności od rozmiaru pliku i połączenia internetowego.",
+        },
+      ],
+    },
+    related: {
+      title: "Powiązane Konwertery",
+      converters: [
+        { name: "HEIC na JPG", url: "/convert/heic-to-jpg" },
+        { name: "HEIC na PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC na PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF na PNG", url: "/convert/heif-to-png" },
+        { name: "JPG na PDF", url: "/convert/jpg-to-pdf" },
+        { name: "PNG na JPG", url: "/convert/png-to-jpg" },
       ],
     },
   },

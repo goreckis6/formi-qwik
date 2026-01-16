@@ -58,6 +58,11 @@ export default component$(() => {
       description: converters.heicToGif.description,
       href: getLocalizedPath("/convert/heic-to-gif", locale),
     },
+    {
+      name: converters.heifToJpg.name,
+      description: converters.heifToJpg.description,
+      href: getLocalizedPath("/convert/heif-to-jpg", locale),
+    },
   ]);
 
   const filteredConverters = useComputed$(() => {
