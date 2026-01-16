@@ -1,5 +1,5 @@
 // Italian translations
-import { Translations } from "./en";
+import type { Translations } from "./en";
 
 export const it: Translations = {
   locale: "it",
