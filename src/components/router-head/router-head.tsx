@@ -51,8 +51,9 @@ export const RouterHead = component$(() => {
       })()}
 
       {head.styles.map((s) => {
-        const { dangerouslySetInnerHTML, ...restProps } = s.props || {};
-        return <style key={s.key} {...restProps} dangerouslySetInnerHTML={s.style} />;
+        const { dangerouslySetInnerHTML: _, ...restProps } = s.props || {};
+        const styleContent = s.props?.dangerouslySetInnerHTML || s.style;
+        return <style key={s.key} {...restProps} dangerouslySetInnerHTML={styleContent} />;
       })}
 
       {/* CSS link for dev mode - Vite doesn't always add it to head.styles in dev */}
