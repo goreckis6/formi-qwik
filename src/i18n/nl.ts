@@ -157,7 +157,18 @@ export const nl: Translations = {
     subtitle: "Converteer tussen 300+ bestandsformaten direct",
     searchPlaceholder: "Zoek converters... (bijv. HEIC naar PDF)",
     noConvertersFound: "Geen converters gevonden die overeenkomen met",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEIC-converters",
+        description: "Converteer afbeeldingen in Apple HEIC-formaat. HEIC (High Efficiency Image Container) is het propriëtaire afbeeldingsformaat van Apple dat wordt gebruikt door iPhones en iPads sinds iOS 11. Het biedt uitstekende compressie met behoud van hoge beeldkwaliteit.",
+      },
+      heif: {
+        title: "HEIF-converters",
+        description: "Converteer afbeeldingen in HEIF-formaat. HEIF (High Efficiency Image Format) is het open standaard containerformaat waarop HEIC is gebaseerd. Terwijl HEIC de implementatie van Apple is, wordt HEIF gebruikt door andere apparaten en platforms.",
+        difference: "Opmerking: HEIF is het containerformaat, terwijl HEIC de specifieke implementatie van Apple is. Beide formaten zijn compatibel, maar HEIC-bestanden worden vaker gebruikt door Apple-apparaten.",
+      },
+    },
+     heicToPdf: {
       name: "HEIC naar PDF",
       description: "Converteer Apple HEIC foto's direct naar PDF-formaat",
     },

@@ -157,7 +157,18 @@ export const hi: Translations = {
     subtitle: "300+ फ़ाइल प्रारूपों के बीच तुरंत कन्वर्ट करें",
     searchPlaceholder: "कन्वर्टर खोजें... (उदा., HEIC से PDF)",
     noConvertersFound: "कोई कन्वर्टर नहीं मिला जो मेल खाता हो",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEIC कन्वर्टर",
+        description: "Apple HEIC प्रारूप छवियों को कनवर्ट करें। HEIC (High Efficiency Image Container) Apple का मालिकाना छवि प्रारूप है जिसका उपयोग iOS 11 से iPhone और iPad द्वारा किया जाता है। यह उच्च छवि गुणवत्ता बनाए रखते हुए उत्कृष्ट संपीड़न प्रदान करता है।",
+      },
+      heif: {
+        title: "HEIF कन्वर्टर",
+        description: "HEIF प्रारूप छवियों को कनवर्ट करें। HEIF (High Efficiency Image Format) खुला मानक कंटेनर प्रारूप है जिस पर HEIC आधारित है। जबकि HEIC Apple का कार्यान्वयन है, HEIF का उपयोग अन्य उपकरणों और प्लेटफ़ॉर्म द्वारा किया जाता है।",
+        difference: "नोट: HEIF कंटेनर प्रारूप है, जबकि HEIC Apple का विशिष्ट कार्यान्वयन है। दोनों प्रारूप संगत हैं, लेकिन HEIC फ़ाइलें Apple उपकरणों द्वारा अधिक आमतौर पर उपयोग की जाती हैं।",
+      },
+    },
+     heicToPdf: {
       name: "HEIC से PDF",
       description: "Apple HEIC फ़ोटो को PDF प्रारूप में तुरंत कन्वर्ट करें",
     },

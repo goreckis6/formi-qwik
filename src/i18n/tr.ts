@@ -157,7 +157,18 @@ export const tr: Translations = {
     subtitle: "300+ dosya formatı arasında anında dönüştürün",
     searchPlaceholder: "Dönüştürücü ara... (örn., HEIC'den PDF'e)",
     noConvertersFound: "Eşleşen dönüştürücü bulunamadı",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEIC Dönüştürücüler",
+        description: "Apple HEIC formatı görüntüleri dönüştürün. HEIC (High Efficiency Image Container), iOS 11'den bu yana iPhone ve iPad tarafından kullanılan Apple'ın özel görüntü formatıdır. Yüksek görüntü kalitesini korurken mükemmel sıkıştırma sağlar.",
+      },
+      heif: {
+        title: "HEIF Dönüştürücüler",
+        description: "HEIF formatı görüntüleri dönüştürün. HEIF (High Efficiency Image Format), HEIC'in dayandığı açık standart konteyner formatıdır. HEIC Apple'ın uygulamasıyken, HEIF diğer cihazlar ve platformlar tarafından kullanılır.",
+        difference: "Not: HEIF konteyner formatıdır, HEIC ise Apple'ın özel uygulamasıdır. Her iki format da uyumludur, ancak HEIC dosyaları Apple cihazları tarafından daha yaygın olarak kullanılır.",
+      },
+    },
+     heicToPdf: {
       name: "HEIC'den PDF'e",
       description: "Apple HEIC fotoğraflarını PDF formatına anında dönüştürün",
     },
@@ -512,35 +523,35 @@ export const tr: Translations = {
       faq: {
         title: "Sıkça Sorulan Sorular – HEIC'den JPG'ye",
         items: [
-          {
+        {
             q: "HEIC'i JPG'ye dönüştürmek ücretsiz mi?",
             a: "Evet! HEIC'den JPG'ye dönüştürücümüz tamamen ücretsizdir ve gizli ücret yoktur. Kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.",
           },
-          {
+        {
             q: "Verilerim güvende mi?",
             a: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamayız, paylaşmayız veya erişmeyiz.",
           },
-          {
+        {
             q: "Maksimum dosya boyutu nedir?",
             a: "Her biri 100MB'a kadar HEIC dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limiti ile aynı anda 20 dosyaya kadar işleyebilirsiniz.",
           },
-          {
+        {
             q: "Toplu dönüştürmeyi destekliyor musunuz?",
             a: "Evet! Aynı anda 20'ye kadar HEIC dosyasını yükleyip dönüştürebilirsiniz. Dönüştürülen tüm JPG'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
           },
-          {
+        {
             q: "Kalite korunacak mı?",
             a: "Evet, dönüştürme sırasında yüksek görüntü kalitesini koruyoruz. HEIC fotoğraflarınız minimal kalite kaybıyla yüksek çözünürlüklü JPG'lere dönüştürülecektir.",
           },
-          {
+        {
             q: "HEIC'i doğrudan iPhone'dan dönüştürebilir miyim?",
             a: "Evet! Dönüştürücümüz iPhone, iPad veya herhangi bir Apple cihazında çekilen fotoğraflarla mükemmel çalışır. Sadece fotoğraf galerinizden HEIC dosyalarınızı yükleyin.",
           },
-          {
+        {
             q: "Herhangi bir yazılım yüklemem gerekiyor mu?",
             a: "Yükleme gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.",
           },
-          {
+        {
             q: "Dönüştürme ne kadar sürer?",
             a: "Dönüştürme neredeyse anında! Çoğu HEIC dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde JPG'ye dönüştürülür.",
           },

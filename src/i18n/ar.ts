@@ -151,7 +151,18 @@ export const ar: Translations = {
     subtitle: "تحويل بين 300+ تنسيق ملف فوراً",
     searchPlaceholder: "البحث عن المحولات... (مثلاً: HEIC إلى PDF)",
     noConvertersFound: "لم يتم العثور على محولات تطابق",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "محولات HEIC",
+        description: "تحويل صور بتنسيق Apple HEIC. HEIC (High Efficiency Image Container) هو تنسيق الصور المملوك لشركة Apple المستخدم في أجهزة iPhone وiPad منذ iOS 11. يوفر ضغطًا ممتازًا مع الحفاظ على جودة صورة عالية.",
+      },
+      heif: {
+        title: "محولات HEIF",
+        description: "تحويل صور بتنسيق HEIF. HEIF (High Efficiency Image Format) هو تنسيق الحاوية القياسي المفتوح الذي يعتمد عليه HEIC. بينما HEIC هو تنفيذ Apple، يتم استخدام HEIF بواسطة أجهزة ومنصات أخرى.",
+        difference: "ملاحظة: HEIF هو تنسيق الحاوية، بينما HEIC هو التنفيذ المحدد لـ Apple. كلا التنسيقين متوافقان، لكن ملفات HEIC تُستخدم بشكل أكثر شيوعًا بواسطة أجهزة Apple.",
+      },
+    },
+     heicToPdf: {
       name: "HEIC إلى PDF",
       description: "تحويل صور Apple HEIC إلى تنسيق PDF فوراً",
     },

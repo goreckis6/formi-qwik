@@ -151,7 +151,18 @@ export const ja: Translations = {
     subtitle: "300以上のファイル形式を瞬時に変換",
     searchPlaceholder: "コンバーターを検索... (例: HEIC to PDF)",
     noConvertersFound: "一致するコンバーターが見つかりません",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEICコンバーター",
+        description: "Apple HEIC形式の画像を変換します。HEIC（High Efficiency Image Container）は、iOS 11以降のiPhoneとiPadで使用されるAppleの独自画像形式です。高い画像品質を維持しながら優れた圧縮を提供します。",
+      },
+      heif: {
+        title: "HEIFコンバーター",
+        description: "HEIF形式の画像を変換します。HEIF（High Efficiency Image Format）は、HEICが基づいているオープンスタンダードのコンテナ形式です。HEICはAppleの実装ですが、HEIFは他のデバイスやプラットフォームで使用されています。",
+        difference: "注：HEIFはコンテナ形式で、HEICはAppleの特定の実装です。両方の形式は互換性がありますが、HEICファイルはAppleデバイスでより一般的に使用されます。",
+      },
+    },
+     heicToPdf: {
       name: "HEIC to PDF",
       description: "Apple HEIC写真をPDF形式に瞬時に変換",
     },

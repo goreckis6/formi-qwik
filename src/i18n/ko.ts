@@ -150,7 +150,18 @@ export const ko: Translations = {
     subtitle: "300개 이상의 파일 형식 간 즉시 변환",
     searchPlaceholder: "변환기 검색... (예: HEIC to PDF)",
     noConvertersFound: "일치하는 변환기를 찾을 수 없습니다",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEIC 변환기",
+        description: "Apple HEIC 형식 이미지를 변환합니다. HEIC(High Efficiency Image Container)는 iOS 11부터 iPhone 및 iPad에서 사용되는 Apple의 독점 이미지 형식입니다. 높은 이미지 품질을 유지하면서 우수한 압축을 제공합니다.",
+      },
+      heif: {
+        title: "HEIF 변환기",
+        description: "HEIF 형식 이미지를 변환합니다. HEIF(High Efficiency Image Format)는 HEIC가 기반으로 하는 개방형 표준 컨테이너 형식입니다. HEIC가 Apple의 구현이지만, HEIF는 다른 기기 및 플랫폼에서 사용됩니다.",
+        difference: "참고: HEIF는 컨테이너 형식이고, HEIC는 Apple의 특정 구현입니다. 두 형식은 호환되지만, HEIC 파일이 Apple 기기에서 더 일반적으로 사용됩니다.",
+      },
+    },
+     heicToPdf: {
       name: "HEIC to PDF",
       description: "Apple HEIC 사진을 PDF 형식으로 즉시 변환",
     },

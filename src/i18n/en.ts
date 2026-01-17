@@ -152,6 +152,17 @@ export const en = {
     subtitle: "Convert between 300+ file formats instantly",
     searchPlaceholder: "Search converters... (e.g., HEIC to PDF)",
     noConvertersFound: "No converters found matching",
+    sections: {
+      heic: {
+        title: "HEIC Converters",
+        description: "Convert Apple HEIC format images. HEIC (High Efficiency Image Container) is Apple's proprietary image format used by iPhones and iPads since iOS 11. It provides excellent compression while maintaining high image quality.",
+      },
+      heif: {
+        title: "HEIF Converters",
+        description: "Convert HEIF format images. HEIF (High Efficiency Image Format) is the open standard container format that HEIC is based on. While HEIC is Apple's implementation, HEIF is used by other devices and platforms.",
+        difference: "Note: HEIF is the container format, while HEIC is Apple's specific implementation. Both formats are compatible, but HEIC files are more commonly used by Apple devices.",
+      },
+    },
     heicToPdf: {
       name: "HEIC to PDF",
       description: "Convert Apple HEIC photos to PDF format instantly",

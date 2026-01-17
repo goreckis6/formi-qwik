@@ -155,7 +155,18 @@ export const sv: Translations = {
     subtitle: "Konvertera mellan 300+ filformat direkt",
     searchPlaceholder: "Sök konverterare... (t.ex. HEIC till PDF)",
     noConvertersFound: "Inga konverterare hittades som matchar",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEIC-konverterare",
+        description: "Konvertera bilder i Apple HEIC-format. HEIC (High Efficiency Image Container) är Apple's proprietära bildformat som används av iPhone och iPad sedan iOS 11. Det ger utmärkt komprimering samtidigt som den bibehåller hög bildkvalitet.",
+      },
+      heif: {
+        title: "HEIF-konverterare",
+        description: "Konvertera bilder i HEIF-format. HEIF (High Efficiency Image Format) är det öppna standardcontainerformat som HEIC bygger på. Medan HEIC är Apple's implementation, används HEIF av andra enheter och plattformar.",
+        difference: "Obs: HEIF är containerformatet, medan HEIC är Apple's specifika implementation. Båda formaten är kompatibla, men HEIC-filer används oftare av Apple-enheter.",
+      },
+    },
+     heicToPdf: {
       name: "HEIC till PDF",
       description: "Konvertera Apple HEIC-foton till PDF-format direkt",
     },

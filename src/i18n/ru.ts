@@ -156,6 +156,17 @@ export const ru: Translations = {
     subtitle: "Конвертируйте между 300+ форматами файлов мгновенно",
     searchPlaceholder: "Поиск конвертеров... (напр., HEIC в PDF)",
     noConvertersFound: "Конвертеры не найдены, соответствующие",
+    sections: {
+      heic: {
+        title: "Конвертеры HEIC",
+        description: "Конвертируйте изображения в формате Apple HEIC. HEIC (High Efficiency Image Container) — это проприетарный формат изображений Apple, используемый iPhone и iPad с iOS 11. Обеспечивает отличное сжатие при сохранении высокого качества изображения.",
+      },
+      heif: {
+        title: "Конвертеры HEIF",
+        description: "Конвертируйте изображения в формате HEIF. HEIF (High Efficiency Image Format) — это открытый стандартный контейнерный формат, на котором основан HEIC. В то время как HEIC — это реализация Apple, HEIF используется другими устройствами и платформами.",
+        difference: "Примечание: HEIF — это контейнерный формат, а HEIC — это конкретная реализация Apple. Оба формата совместимы, но файлы HEIC чаще используются устройствами Apple.",
+      },
+    },
     heicToPdf: {
       name: "HEIC в PDF",
       description: "Конвертируйте фото Apple HEIC в формат PDF мгновенно",

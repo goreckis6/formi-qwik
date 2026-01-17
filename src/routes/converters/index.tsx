@@ -23,57 +23,79 @@ export default component$(() => {
   const converters = t.converters;
   const searchQuery = useSignal("");
 
-  const converterList = useComputed$(() => [
-    {
-      name: converters.heicToPdf.name,
-      description: converters.heicToPdf.description,
-      href: getLocalizedPath("/convert/heic-to-pdf", locale),
-    },
-    {
-      name: converters.heicToPng.name,
-      description: converters.heicToPng.description,
-      href: getLocalizedPath("/convert/heic-to-png", locale),
-    },
-    {
-      name: converters.heicToJpg.name,
-      description: converters.heicToJpg.description,
-      href: getLocalizedPath("/convert/heic-to-jpg", locale),
-    },
-    {
-      name: converters.heicToWebp.name,
-      description: converters.heicToWebp.description,
-      href: getLocalizedPath("/convert/heic-to-webp", locale),
-    },
-    {
-      name: converters.heicToAvif.name,
-      description: converters.heicToAvif.description,
-      href: getLocalizedPath("/convert/heic-to-avif", locale),
-    },
-    {
-      name: converters.heicToTiff.name,
-      description: converters.heicToTiff.description,
-      href: getLocalizedPath("/convert/heic-to-tiff", locale),
-    },
-    {
-      name: converters.heicToGif.name,
-      description: converters.heicToGif.description,
-      href: getLocalizedPath("/convert/heic-to-gif", locale),
-    },
-    {
-      name: converters.heifToJpg.name,
-      description: converters.heifToJpg.description,
-      href: getLocalizedPath("/convert/heif-to-jpg", locale),
-    },
-  ]);
+  const converterList = useComputed$(() => ({
+    heic: [
+      {
+        name: converters.heicToPdf.name,
+        description: converters.heicToPdf.description,
+        href: getLocalizedPath("/convert/heic-to-pdf", locale),
+      },
+      {
+        name: converters.heicToPng.name,
+        description: converters.heicToPng.description,
+        href: getLocalizedPath("/convert/heic-to-png", locale),
+      },
+      {
+        name: converters.heicToJpg.name,
+        description: converters.heicToJpg.description,
+        href: getLocalizedPath("/convert/heic-to-jpg", locale),
+      },
+      {
+        name: converters.heicToWebp.name,
+        description: converters.heicToWebp.description,
+        href: getLocalizedPath("/convert/heic-to-webp", locale),
+      },
+      {
+        name: converters.heicToAvif.name,
+        description: converters.heicToAvif.description,
+        href: getLocalizedPath("/convert/heic-to-avif", locale),
+      },
+      {
+        name: converters.heicToTiff.name,
+        description: converters.heicToTiff.description,
+        href: getLocalizedPath("/convert/heic-to-tiff", locale),
+      },
+      {
+        name: converters.heicToGif.name,
+        description: converters.heicToGif.description,
+        href: getLocalizedPath("/convert/heic-to-gif", locale),
+      },
+    ],
+    heif: [
+      {
+        name: converters.heifToJpg.name,
+        description: converters.heifToJpg.description,
+        href: getLocalizedPath("/convert/heif-to-jpg", locale),
+      },
+    ],
+  }));
 
   const filteredConverters = useComputed$(() => {
     const query = searchQuery.value.toLowerCase();
-    const list = converterList.value;
-    if (!query) return list;
-    return list.filter(
-      (conv) =>
-        conv.name.toLowerCase().includes(query) || conv.description.toLowerCase().includes(query)
-    );
+    const sections = converterList.value;
+    
+    if (!query) {
+      return {
+        heic: sections.heic,
+        heif: sections.heif,
+      };
+    }
+
+    return {
+      heic: sections.heic.filter(
+        (conv) =>
+          conv.name.toLowerCase().includes(query) || conv.description.toLowerCase().includes(query)
+      ),
+      heif: sections.heif.filter(
+        (conv) =>
+          conv.name.toLowerCase().includes(query) || conv.description.toLowerCase().includes(query)
+      ),
+    };
+  });
+
+  const hasAnyResults = useComputed$(() => {
+    const filtered = filteredConverters.value;
+    return filtered.heic.length > 0 || filtered.heif.length > 0;
   });
 
   return (
@@ -117,54 +139,134 @@ export default component$(() => {
         </div>
 
         <div class="w-full max-w-6xl mx-auto">
-          {filteredConverters.value.length > 0 ? (
-            <div class="flex flex-col gap-3">
-              {filteredConverters.value.map((converter, index) => (
-                <Link
-                  key={`${converter.href}-${index}`}
-                  href={converter.href}
-                  class="group relative bg-white rounded-lg p-4 hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-purple-300 cursor-pointer"
-                >
-                  <div class="flex items-start gap-3 pointer-events-none">
-                    <div class="inline-flex p-2 rounded-lg bg-gradient-to-br from-purple-500 to-purple-600 group-hover:scale-105 transition-transform flex-shrink-0 pointer-events-none">
-                      <svg
-                        class="w-5 h-5 text-white"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                        />
-                      </svg>
-                    </div>
-                    <div class="flex-1 min-w-0 pointer-events-none">
-                      <h3 class="font-semibold text-gray-900 mb-1 text-sm sm:text-base group-hover:text-purple-700 transition-colors">
-                        {converter.name}
-                      </h3>
-                      <p class="text-xs text-gray-600 leading-snug">{converter.description}</p>
-                    </div>
-                    <div class="flex-shrink-0 pointer-events-none">
-                      <svg
-                        class="w-4 h-4 text-gray-400 group-hover:text-purple-600 group-hover:translate-x-0.5 transition-all"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 5l7 7-7 7"
-                        />
-                      </svg>
-                    </div>
+          {hasAnyResults.value ? (
+            <div class="flex flex-col gap-8">
+              {/* HEIC Section */}
+              {filteredConverters.value.heic.length > 0 && (
+                <div class="flex flex-col gap-4">
+                  <div class="border-l-4 border-blue-500 pl-4 py-2 bg-blue-50 rounded-r-lg">
+                    <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                      {converters.sections.heic.title}
+                    </h2>
+                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
+                      {converters.sections.heic.description}
+                    </p>
                   </div>
-                </Link>
-              ))}
+                  <div class="flex flex-col gap-3">
+                    {filteredConverters.value.heic.map((converter, index) => (
+                      <Link
+                        key={`${converter.href}-${index}`}
+                        href={converter.href}
+                        class="group relative bg-white rounded-lg p-4 hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-blue-400 cursor-pointer"
+                      >
+                        <div class="flex items-start gap-3 pointer-events-none">
+                          <div class="inline-flex p-2 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 group-hover:scale-105 transition-transform flex-shrink-0 pointer-events-none">
+                            <svg
+                              class="w-5 h-5 text-white"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="flex-1 min-w-0 pointer-events-none">
+                            <h3 class="font-semibold text-gray-900 mb-1 text-sm sm:text-base group-hover:text-blue-700 transition-colors">
+                              {converter.name}
+                            </h3>
+                            <p class="text-xs text-gray-600 leading-snug">{converter.description}</p>
+                          </div>
+                          <div class="flex-shrink-0 pointer-events-none">
+                            <svg
+                              class="w-4 h-4 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 5l7 7-7 7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* HEIF Section */}
+              {filteredConverters.value.heif.length > 0 && (
+                <div class="flex flex-col gap-4">
+                  <div class="border-l-4 border-purple-500 pl-4 py-2 bg-purple-50 rounded-r-lg">
+                    <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                      {converters.sections.heif.title}
+                    </h2>
+                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed mb-2">
+                      {converters.sections.heif.description}
+                    </p>
+                    <p class="text-xs sm:text-sm text-purple-700 font-medium italic">
+                      {converters.sections.heif.difference}
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-3">
+                    {filteredConverters.value.heif.map((converter, index) => (
+                      <Link
+                        key={`${converter.href}-${index}`}
+                        href={converter.href}
+                        class="group relative bg-white rounded-lg p-4 hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-purple-300 cursor-pointer"
+                      >
+                        <div class="flex items-start gap-3 pointer-events-none">
+                          <div class="inline-flex p-2 rounded-lg bg-gradient-to-br from-purple-500 to-purple-600 group-hover:scale-105 transition-transform flex-shrink-0 pointer-events-none">
+                            <svg
+                              class="w-5 h-5 text-white"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="flex-1 min-w-0 pointer-events-none">
+                            <h3 class="font-semibold text-gray-900 mb-1 text-sm sm:text-base group-hover:text-purple-700 transition-colors">
+                              {converter.name}
+                            </h3>
+                            <p class="text-xs text-gray-600 leading-snug">{converter.description}</p>
+                          </div>
+                          <div class="flex-shrink-0 pointer-events-none">
+                            <svg
+                              class="w-4 h-4 text-gray-400 group-hover:text-purple-600 group-hover:translate-x-0.5 transition-all"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 5l7 7-7 7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           ) : (
             <div class="text-center py-12 sm:py-16">

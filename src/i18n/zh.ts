@@ -150,7 +150,18 @@ export const zh: Translations = {
     subtitle: "在300+种文件格式之间即时转换",
     searchPlaceholder: "搜索转换器... (例如：HEIC转PDF)",
     noConvertersFound: "未找到匹配的转换器",
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "HEIC转换器",
+        description: "转换Apple HEIC格式图像。HEIC（高效图像容器）是Apple自iOS 11以来用于iPhone和iPad的专有图像格式。它在保持高质量图像的同时提供出色的压缩。",
+      },
+      heif: {
+        title: "HEIF转换器",
+        description: "转换HEIF格式图像。HEIF（高效图像格式）是HEIC所基于的开放标准容器格式。虽然HEIC是Apple的实现，但HEIF被其他设备和平台使用。",
+        difference: "注意：HEIF是容器格式，而HEIC是Apple的特定实现。两种格式兼容，但HEIC文件更常用于Apple设备。",
+      },
+    },
+     heicToPdf: {
       name: "HEIC转PDF",
       description: "即时将Apple HEIC照片转换为PDF格式",
     },

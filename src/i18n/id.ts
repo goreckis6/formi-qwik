@@ -148,7 +148,18 @@ export const id: Translations = {
     subtitle: 'Konversi antara 300+ format file secara instan',
     searchPlaceholder: 'Cari konverter... (mis., HEIC ke PDF)',
     noConvertersFound: 'Tidak ada konverter yang ditemukan sesuai dengan',
-    heicToPdf: {
+    sections: {
+      heic: {
+        title: "Konverter HEIC",
+        description: "Konversi gambar format Apple HEIC. HEIC (High Efficiency Image Container) adalah format gambar proprietary Apple yang digunakan oleh iPhone dan iPad sejak iOS 11. Memberikan kompresi yang sangat baik sambil mempertahankan kualitas gambar yang tinggi.",
+      },
+      heif: {
+        title: "Konverter HEIF",
+        description: "Konversi gambar format HEIF. HEIF (High Efficiency Image Format) adalah format kontainer standar terbuka yang menjadi dasar HEIC. Sementara HEIC adalah implementasi Apple, HEIF digunakan oleh perangkat dan platform lain.",
+        difference: "Catatan: HEIF adalah format kontainer, sedangkan HEIC adalah implementasi spesifik Apple. Kedua format kompatibel, tetapi file HEIC lebih umum digunakan oleh perangkat Apple.",
+      },
+    },
+     heicToPdf: {
       name: 'HEIC ke PDF',
       description: 'Konversi foto Apple HEIC ke format PDF secara instan',
     },
