@@ -1336,18 +1336,18 @@ export const en = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIF to AVIF Converter - Convert HEIF Images to AVIF Free Online",
+    title: "HEIF to AVIF Converter - Convert to Next-Gen AV1 Image Format",
     metaDescription:
-      "Convert HEIF images to AVIF format instantly. Free online HEIF to AVIF converter with batch processing. Fast, secure, and no registration required. Works with HEIF photos from all devices.",
+      "Convert HEIF to AVIF for cutting-edge compression. 50% smaller than JPEG, 20% smaller than WebP. Royalty-free AV1 format with HDR support. Used by Netflix and YouTube. Free batch converter.",
     metaKeywords:
-      "HEIF to AVIF, convert HEIF, HEIF images to AVIF, HEIF converter, image to AVIF, batch convert HEIF, free HEIF converter, HEIF vs HEIC",
+      "HEIF to AVIF, AV1 image format, next-gen compression, HDR images, royalty-free format, AVIF vs WebP, batch convert HEIF, modern image format",
     hero: {
       title: "HEIF to AVIF Converter",
       subtitle:
-        "Transform your HEIF images into universal AVIF format instantly. Free, fast, and secure conversion with no file size limits. Perfect for HEIF photos from any device.",
-      badge1: "Lightning Fast",
-      badge2: "100% Secure",
-      badge3: "No Registration",
+        "Convert HEIF to AVIF - the newest image format based on AV1 video codec. 50% smaller than JPEG, 20% better than WebP. HDR support, 12-bit color, royalty-free. The future of web images.",
+      badge1: "Cutting-Edge Compression",
+      badge2: "HDR Support",
+      badge3: "Royalty-Free",
     },
     upload: {
       title: "Upload HEIF Files",
@@ -1365,14 +1365,14 @@ export const en = {
     features: {
       title: "Features",
       list: [
-        "High-quality HEIF to AVIF conversion",
-        "Batch processing up to 20 files",
-        "Preserves image quality",
-        "No file size limitations",
-        "100% secure and private",
-        "Works with HEIF photos from all devices",
-        "Instant download after conversion",
-        "No watermarks added",
+        "Best-in-class compression - 50% smaller than JPEG",
+        "HDR and WCG support (High Dynamic Range, Wide Color Gamut)",
+        "Batch processing up to 20 files simultaneously",
+        "12-bit color depth for professional photography",
+        "100% secure with automatic file deletion",
+        "Royalty-free format - no licensing fees",
+        "Instant download - future-proof images",
+        "No watermarks - pure AVIF output",
       ],
     },
     howItWorks: {
@@ -1387,29 +1387,29 @@ export const en = {
     about: {
       title: "About HEIF to AVIF Conversion",
       whatIsHeif: {
-        title: "What is HEIF Format?",
+        title: "What is AVIF Format?",
         content:
-          "HEIF (High Efficiency Image Format) is a modern image container format that uses HEVC (H.265) compression. While similar to HEIC, HEIF is the standard format name, while HEIC specifically refers to Apple's implementation. HEIF offers superior compression compared to AVIF while maintaining high image quality, making it ideal for storing photos efficiently.",
+          "AVIF (AV1 Image File Format) is the newest image format based on the AV1 video codec, developed by the Alliance for Open Media (AOMedia) - a consortium including Google, Apple, Mozilla, Netflix, and Amazon. Released in 2019, AVIF provides state-of-the-art compression (50% smaller than JPEG, 20% better than WebP) while supporting HDR (High Dynamic Range), WCG (Wide Color Gamut), and 12-bit color depth. AVIF is royalty-free with no patent licensing fees. Browser support: Chrome 85+, Firefox 93+, Safari 16+ (2022), Edge 121+. Used by Netflix for image delivery and YouTube for thumbnails.",
       },
       whyConvert: {
         title: "Why Convert HEIF to AVIF?",
         content:
-          "While HEIF is efficient and modern, it's not universally supported across all devices and platforms. Converting HEIF to AVIF ensures your images can be viewed on any device, easily shared via email, uploaded to websites, and used in any application. AVIF format is the most widely supported next-gen image format worldwide, making it perfect for maximum compatibility and sharing.",
+          "Convert HEIF to AVIF for the absolute best image compression technology available today. AVIF's AV1-based compression delivers 50% smaller files than JPEG and 20% smaller than WebP at equivalent quality, dramatically reducing bandwidth costs and improving page speed. Unlike HEIF (Apple-only) and some codec competitors (patent fees), AVIF is completely royalty-free and open-source. Perfect for high-end photography websites requiring HDR, e-commerce needing maximum quality at minimum size, streaming services (Netflix, YouTube use AVIF), and any site targeting cutting-edge performance. AVIF's 12-bit color depth preserves subtle gradients better than 8-bit formats. The future-proof choice for next-generation web.",
       },
       heifVsHeic: {
-        title: "HEIF vs HEIC - What's the Difference?",
+        title: "AVIF vs WebP vs HEIF - Format Comparison",
         content:
-          "HEIF (High Efficiency Image Format) is the container format standard, while HEIC (High Efficiency Image Container) is Apple's specific implementation of HEIF. In practice, they are very similar - both use the same compression technology and offer the same benefits. Apple devices save photos as HEIC files, which are actually HEIF-compliant. Our converter handles both formats seamlessly, so you can convert any HEIF/HEIC image to AVIF format.",
+          "AVIF is the newest and most advanced format. Compression: AVIF beats WebP by 20% and JPEG by 50% at same quality. HDR Support: Only AVIF supports HDR and 10/12-bit color (WebP/JPEG are 8-bit only). Patents: AVIF is royalty-free (WebP and HEIF have potential patent issues). Industry Adoption: Netflix, YouTube, Facebook use AVIF for image delivery. Browser Support: AVIF 80%+ (Chrome 85+, Firefox 93+, Safari 16+), WebP 97%+, HEIF <5%. Choose AVIF for: cutting-edge compression, HDR photography, future-proof archiving, and bandwidth-sensitive applications. Choose WebP for: maximum browser compatibility today. Choose HEIF for: iOS app development only.",
       },
       benefits: {
-        title: "Benefits of Our Converter",
+        title: "Benefits of AVIF Format",
         list: [
-          "Universal Compatibility - AVIFs work on all devices and platforms",
-          "Smaller File Size - Efficient compression for faster sharing",
-          "Wide Support - Most widely used next-gen image format worldwide",
-          "Easy Sharing - Compatible with all email clients and social media",
-          "Web Ready - Ideal for websites, social media, and online use",
-          "High Quality - Preserve original image resolution",
+          "Best Compression - 50% smaller than JPEG, 20% smaller than WebP",
+          "HDR & 12-bit Color - Professional-grade High Dynamic Range support",
+          "Royalty-Free - No patent licensing fees (unlike HEVC/H.265)",
+          "Future-Proof - Adopted by Netflix, YouTube, Facebook for image delivery",
+          "Film Grain Synthesis - Authentic analog film appearance",
+          "Progressive Rendering - Images load incrementally for better UX",
         ],
       },
     },
@@ -1418,39 +1418,39 @@ export const en = {
       items: [
         {
           q: "Is it free to convert HEIF to AVIF?",
-          a: "Yes! Our HEIF to AVIF converter is completely free with no hidden charges. You can convert unlimited files without any registration or subscription.",
+          a: "Yes! Our HEIF to AVIF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need to the cutting-edge AVIF format.",
         },
         {
-          q: "What is the difference between HEIF and HEIC?",
-          a: "HEIF (High Efficiency Image Format) is the standard format name, while HEIC (High Efficiency Image Container) is Apple's specific implementation. They use the same compression technology and are functionally very similar. Our converter handles both formats seamlessly.",
+          q: "How much smaller are AVIF files compared to JPEG and WebP?",
+          a: "AVIF files are typically 50% smaller than JPEG and 20% smaller than WebP at equivalent visual quality. For a 1MB JPEG, you'll get a 500KB AVIF with identical or better quality. This state-of-the-art compression reduces bandwidth costs and improves page load times significantly.",
         },
         {
-          q: "Is my data safe?",
-          a: "Absolutely. All conversions happen securely on our servers with SSL encryption. Your files are automatically deleted immediately after conversion. We never store, share, or access your files.",
+          q: "What is AVIF and why is it better than WebP?",
+          a: "AVIF (AV1 Image File Format) is the newest image format based on the AV1 video codec. It offers 20% better compression than WebP, supports HDR (High Dynamic Range) and 12-bit color depth (vs WebP's 8-bit), is completely royalty-free with no patent fees, and is actively used by Netflix and YouTube. AVIF is the next evolution beyond WebP.",
         },
         {
-          q: "What is the maximum file size?",
-          a: "You can convert HEIF files up to 100MB each. For batch conversion, you can process up to 20 files at once with a total limit of 100MB.",
+          q: "Is AVIF supported by browsers?",
+          a: "AVIF is supported by 80%+ of browsers: Chrome 85+ (2020), Firefox 93+ (2021), Edge 121+ (2024), Safari 16+ (macOS Ventura 2022), and Opera 71+. For older browsers, use the HTML <picture> element with WebP/JPEG fallback for universal compatibility. Browser support is growing rapidly.",
         },
         {
-          q: "Do you support batch conversion?",
-          a: "Yes! You can upload and convert up to 20 HEIF files simultaneously. All converted AVIFs will be available for download as individual files or in a single ZIP archive.",
+          q: "Does AVIF support HDR (High Dynamic Range)?",
+          a: "Yes! AVIF fully supports HDR with 10-bit and 12-bit color depth, unlike JPEG/PNG/WebP which are limited to 8-bit. This means AVIF can display 4,096 shades per color channel (vs 256 for 8-bit), preserving subtle gradients and highlights in high-end photography, HDR displays, and professional imaging workflows.",
         },
         {
-          q: "Will the quality be preserved?",
-          a: "Yes, we maintain high image quality during conversion. Your HEIF images will be converted to high-resolution AVIFs with minimal quality loss.",
+          q: "Why is AVIF royalty-free and what does that mean?",
+          a: "AVIF uses the AV1 codec developed by the Alliance for Open Media (Google, Apple, Mozilla, Netflix, Amazon). Unlike older codecs (H.264, H.265/HEVC) with patent licensing fees, AV1 is completely royalty-free and open-source. This means no licensing costs for developers, content creators, or users - making AVIF freely available for everyone.",
         },
         {
-          q: "Can I convert HEIF from any device?",
-          a: "Yes! Our converter works with HEIF images from any device or camera that supports HEIF format, not just Apple devices. Simply upload your HEIF files and convert them to AVIF.",
+          q: "Can I use AVIF for professional photography?",
+          a: "Absolutely! AVIF's 12-bit color depth, HDR support, and lossless mode make it excellent for professional photography. It preserves subtle tonal gradations better than 8-bit formats, supports wide color gamuts (WCG), and offers film grain synthesis for authentic analog aesthetics. Many professional photographers are adopting AVIF for archival and web delivery.",
         },
         {
-          q: "Do I need to install any software?",
-          a: "No installation needed. Our online converter works directly in your web browser on any device - Windows, Mac, Linux, iOS, or Android.",
+          q: "Do Netflix and YouTube really use AVIF?",
+          a: "Yes! Netflix uses AVIF for image delivery on their platform to reduce bandwidth while maintaining quality. YouTube uses AVIF for video thumbnails. Facebook/Meta also implements AVIF. Major tech companies are adopting AVIF because it dramatically reduces storage and bandwidth costs while improving user experience.",
         },
         {
-          q: "How long does conversion take?",
-          a: "Conversion is nearly instant! Most HEIF files convert to AVIF in just a few seconds, depending on file size and your internet connection.",
+          q: "How long does HEIF to AVIF conversion take?",
+          a: "Conversion takes 3-5 seconds per file due to AVIF's advanced compression algorithm (more complex than WebP/JPEG). The result is a highly optimized AVIF file with maximum compression and quality. This slight processing time delivers 50% file size savings.",
         },
       ],
     },
