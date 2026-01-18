@@ -92,6 +92,11 @@ export default component$(() => {
         description: converters.heifToTiff.description,
         href: getLocalizedPath("/convert/heif-to-tiff", locale),
       },
+      {
+        name: converters.heifToGif.name,
+        description: converters.heifToGif.description,
+        href: getLocalizedPath("/convert/heif-to-gif", locale),
+      },
     ],
   }));
 
