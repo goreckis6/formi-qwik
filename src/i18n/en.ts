@@ -1204,17 +1204,17 @@ export const en = {
 
   // HEIF to TIFF Converter
   heifToTiff: {
-    title: "HEIF to TIFF Converter - Convert HEIF Images to TIFF Free Online",
+    title: "HEIF to TIFF Converter - Convert HEIF to Professional TIFF Format Free",
     metaDescription:
-      "Convert HEIF images to TIFF format instantly. Free online HEIF to TIFF converter with batch processing. Fast, secure, and no registration required. Works with HEIF photos from all devices.",
+      "Convert HEIF to TIFF format for professional use. Lossless compression, archival quality, perfect for printing. Free batch converter with LZW compression. No registration required.",
     metaKeywords:
-      "HEIF to TIFF, convert HEIF, HEIF images to TIFF, HEIF converter, image to TIFF, batch convert HEIF, free HEIF converter, HEIF vs HEIC",
+      "HEIF to TIFF, professional image conversion, lossless TIFF, HEIF converter, archival format, printing TIFF, batch convert HEIF, TIFF LZW compression",
     hero: {
       title: "HEIF to TIFF Converter",
       subtitle:
-        "Transform your HEIF images into universal TIFF format instantly. Free, fast, and secure conversion with no file size limits. Perfect for HEIF photos from any device.",
-      badge1: "Lightning Fast",
-      badge2: "100% Secure",
+        "Convert HEIF images to professional TIFF format with lossless quality. Perfect for printing, archival storage, and professional photography workflows. Industry-standard output with LZW compression.",
+      badge1: "Lossless Quality",
+      badge2: "Professional Grade",
       badge3: "No Registration",
     },
     upload: {
@@ -1233,14 +1233,14 @@ export const en = {
     features: {
       title: "Features",
       list: [
-        "High-quality HEIF to TIFF conversion",
-        "Batch processing up to 20 files",
-        "Preserves image quality",
-        "No file size limitations",
-        "100% secure and private",
-        "Works with HEIF photos from all devices",
-        "Instant download after conversion",
-        "No watermarks added",
+        "Lossless HEIF to TIFF conversion with LZW compression",
+        "Professional-grade output for printing and archival",
+        "Batch processing up to 20 files simultaneously",
+        "Preserves transparency and full image metadata",
+        "100% secure with automatic file deletion",
+        "Compatible with all professional design software",
+        "Instant download - ready for Photoshop, printing",
+        "No watermarks - pure professional quality",
       ],
     },
     howItWorks: {
@@ -1255,29 +1255,29 @@ export const en = {
     about: {
       title: "About HEIF to TIFF Conversion",
       whatIsHeif: {
-        title: "What is HEIF Format?",
+        title: "What is TIFF Format?",
         content:
-          "HEIF (High Efficiency Image Format) is a modern image container format that uses HEVC (H.265) compression. While similar to HEIC, HEIF is the standard format name, while HEIC specifically refers to Apple's implementation. HEIF offers superior compression compared to TIFF while maintaining high image quality, making it ideal for storing photos efficiently.",
+          "TIFF (Tagged Image File Format) is the gold standard for professional photography, printing, and archival storage. Unlike HEIF's compressed format, TIFF offers lossless image quality with optional LZW compression. It supports high bit depths (16-bit per channel), multiple layers, and transparency. TIFF is universally supported by all professional image editing software, making it the preferred format for photographers, designers, and print shops worldwide.",
       },
       whyConvert: {
         title: "Why Convert HEIF to TIFF?",
         content:
-          "While HEIF is efficient and modern, it's not universally supported across all devices and platforms. Converting HEIF to TIFF ensures your images can be viewed on any device, easily shared via email, uploaded to websites, and used in any application. TIFF format is the most widely supported professional image format worldwide, making it perfect for maximum compatibility and sharing.",
+          "Convert HEIF to TIFF when you need professional-grade image quality for printing, archival storage, or professional editing workflows. TIFF's lossless compression ensures zero quality degradation, making it essential for photography portfolios, commercial printing, medical imaging, and long-term archival. While TIFF files are larger than HEIF, they preserve every pixel of detail and are compatible with all professional design and photography software including Adobe Photoshop, Lightroom, and InDesign.",
       },
       heifVsHeic: {
-        title: "HEIF vs HEIC - What's the Difference?",
+        title: "TIFF vs HEIF - Which Format to Choose?",
         content:
-          "HEIF (High Efficiency Image Format) is the container format standard, while HEIC (High Efficiency Image Container) is Apple's specific implementation of HEIF. In practice, they are very similar - both use the same compression technology and offer the same benefits. Apple devices save photos as HEIC files, which are actually HEIF-compliant. Our converter handles both formats seamlessly, so you can convert any HEIF/HEIC image to TIFF format.",
+          "HEIF excels at efficient storage with smaller file sizes, perfect for everyday photos and mobile devices. TIFF, however, is the professional choice when quality is paramount. Choose TIFF for: professional printing (magazines, billboards, brochures), archival storage where files must remain unchanged for decades, professional photo editing requiring maximum quality, and any workflow requiring compatibility with professional design software. TIFF's lossless nature means your images will look identical to the original, even after multiple edits and saves.",
       },
       benefits: {
-        title: "Benefits of Our Converter",
+        title: "Benefits of TIFF Format",
         list: [
-          "Universal Compatibility - TIFFs work on all devices and platforms",
-          "Smaller File Size - Efficient compression for faster sharing",
-          "Wide Support - Most widely used professional image format worldwide",
-          "Easy Sharing - Compatible with all email clients and social media",
-          "Web Ready - Ideal for websites, social media, and online use",
-          "High Quality - Preserve original image resolution",
+          "Lossless Quality - Zero compression artifacts, perfect pixel-perfect reproduction",
+          "Professional Standard - Industry-standard format for printing and publishing",
+          "Archival Stability - Proven format for long-term storage (30+ years)",
+          "High Bit Depth - Supports 16-bit color for maximum editing flexibility",
+          "Universal Software Support - Works with Adobe, Capture One, all pro software",
+          "Print Ready - Preferred format for commercial printers and publications",
         ],
       },
     },
@@ -1286,39 +1286,39 @@ export const en = {
       items: [
         {
           q: "Is it free to convert HEIF to TIFF?",
-          a: "Yes! Our HEIF to TIFF converter is completely free with no hidden charges. You can convert unlimited files without any registration or subscription.",
+          a: "Yes! Our HEIF to TIFF converter is completely free with no hidden charges. Convert unlimited files for professional printing, archival, or editing without any registration or subscription.",
         },
         {
-          q: "What is the difference between HEIF and HEIC?",
-          a: "HEIF (High Efficiency Image Format) is the standard format name, while HEIC (High Efficiency Image Container) is Apple's specific implementation. They use the same compression technology and are functionally very similar. Our converter handles both formats seamlessly.",
+          q: "What makes TIFF better for professional use?",
+          a: "TIFF offers lossless compression, meaning zero quality degradation even after multiple edits. It supports 16-bit color depth for maximum editing flexibility, maintains full image metadata, and is universally supported by all professional design software. TIFF files preserve every detail, making them essential for commercial printing, photography portfolios, and archival storage.",
         },
         {
-          q: "Is my data safe?",
-          a: "Absolutely. All conversions happen securely on our servers with SSL encryption. Your files are automatically deleted immediately after conversion. We never store, share, or access your files.",
+          q: "Will TIFF files be larger than HEIF?",
+          a: "Yes, TIFF files are typically 3-5x larger than HEIF because they use lossless compression (LZW) instead of lossy compression. This larger size ensures perfect quality preservation. TIFF is ideal when quality matters more than file size, such as for printing or professional editing.",
         },
         {
-          q: "What is the maximum file size?",
-          a: "You can convert HEIF files up to 100MB each. For batch conversion, you can process up to 20 files at once with a total limit of 100MB.",
+          q: "Can I use TIFF files for printing?",
+          a: "Absolutely! TIFF is the preferred format for commercial printing, magazines, brochures, and billboards. Printers prefer TIFF because it maintains perfect quality, supports CMYK color space, and ensures your printed output looks exactly as intended. Our converter creates print-ready TIFF files with LZW compression.",
+        },
+        {
+          q: "What is LZW compression in TIFF?",
+          a: "LZW (Lempel-Ziv-Welch) is a lossless compression algorithm used in TIFF files. It reduces file size by 30-50% without any quality loss - every pixel remains identical to the original. This makes TIFF perfect for archival storage and professional workflows where quality cannot be compromised.",
         },
         {
           q: "Do you support batch conversion?",
-          a: "Yes! You can upload and convert up to 20 HEIF files simultaneously. All converted TIFFs will be available for download as individual files or in a single ZIP archive.",
+          a: "Yes! Convert up to 20 HEIF files to TIFF simultaneously. All converted files are available for download individually or as a single ZIP archive. Perfect for converting entire photo shoots or portfolios at once.",
         },
         {
-          q: "Will the quality be preserved?",
-          a: "Yes, we maintain high image quality during conversion. Your HEIF images will be converted to high-resolution TIFFs with minimal quality loss.",
+          q: "Is TIFF compatible with Photoshop and Lightroom?",
+          a: "Yes! TIFF is fully compatible with Adobe Photoshop, Lightroom, InDesign, Illustrator, as well as Capture One, GIMP, Affinity Photo, and all professional design software. TIFF is the industry standard for professional image editing and publishing.",
         },
         {
-          q: "Can I convert HEIF from any device?",
-          a: "Yes! Our converter works with HEIF images from any device or camera that supports HEIF format, not just Apple devices. Simply upload your HEIF files and convert them to TIFF.",
-        },
-        {
-          q: "Do I need to install any software?",
-          a: "No installation needed. Our online converter works directly in your web browser on any device - Windows, Mac, Linux, iOS, or Android.",
+          q: "Will transparency be preserved?",
+          a: "Yes, our converter preserves transparency (alpha channel) when converting HEIF to TIFF. This is essential for design work where you need transparent backgrounds for logos, graphics, or layered compositions.",
         },
         {
           q: "How long does conversion take?",
-          a: "Conversion is nearly instant! Most HEIF files convert to TIFF in just a few seconds, depending on file size and your internet connection.",
+          a: "Conversion typically takes 3-5 seconds per file, slightly longer than JPG due to lossless compression processing. The result is a professional-grade TIFF file ready for printing, editing, or archival storage.",
         },
       ],
     },
