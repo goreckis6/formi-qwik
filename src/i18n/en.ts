@@ -1497,14 +1497,14 @@ export const en = {
     features: {
       title: "Features",
       list: [
-        "High-quality HEIF to WebP conversion",
-        "Batch processing up to 20 files",
-        "Preserves image quality",
-        "No file size limitations",
-        "100% secure and private",
-        "Works with HEIF photos from all devices",
-        "Instant download after conversion",
-        "No watermarks added",
+        "Superior compression - 25-35% smaller than JPEG",
+        "Preserves transparency (alpha channel)",
+        "Batch processing up to 20 files simultaneously",
+        "Both lossy and near-lossless quality modes",
+        "100% secure with automatic file deletion",
+        "Optimized for web performance and SEO",
+        "Instant download - ready for websites",
+        "No watermarks - pure WebP output",
       ],
     },
     howItWorks: {
