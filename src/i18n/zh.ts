@@ -201,6 +201,10 @@ export const zh: Translations = {
       name: "HEIF转PDF",
       description: "即时将HEIF图像转换为PDF格式",
     },
+    heifToWebp: {
+      name: "HEIF转WebP",
+      description: "即时将HEIF图像转换为WebP格式",
+    },
   },
 
   heicToPdf: {
@@ -1167,6 +1171,138 @@ export const zh: Translations = {
     },
   },
 
+  // HEIF to WebP Converter
+  heifToWebp: {
+    title: "HEIF转WebP转换器 - 免费在线将HEIF图像转换为WebP",
+    metaDescription:
+      "即时将HEIF图像转换为WebP格式。免费在线HEIF转WebP转换器，支持批量处理。快速、安全且无需注册。适用于所有设备的HEIF照片。",
+    metaKeywords:
+      "HEIF转WebP, 转换HEIF, HEIF图像转WebP, HEIF转换器, 图像转WebP, 批量转换HEIF, 免费HEIF转换器, HEIF vs HEIC",
+    hero: {
+      title: "HEIF转WebP转换器",
+      subtitle:
+        "即时将您的HEIF图像转换为通用WebP格式。免费、快速、安全的转换，无文件大小限制。适合任何设备的HEIF照片。",
+      badge1: "超快速",
+      badge2: "100%安全",
+      badge3: "无需注册",
+    },
+    upload: {
+      title: "上传HEIF文件",
+      description:
+        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载WebP",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+    features: {
+      title: "功能",
+      list: [
+        "高质量HEIF转WebP转换",
+        "批量处理最多20个文件",
+        "保持图像质量",
+        "无文件大小限制",
+        "100%安全和私密",
+        "适用于所有设备的HEIF照片",
+        "转换后即时下载",
+        "无水印",
+      ],
+    },
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传HEIF文件",
+      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器即时处理您的文件",
+      step3Title: "下载WebP",
+      step3Desc: "立即获取转换后的WebP文件",
+    },
+    about: {
+      title: "关于HEIF转WebP转换",
+      whatIsHeif: {
+        title: "什么是HEIF格式？",
+        content:
+          "HEIF（高效图像格式）是一种使用HEVC（H.265）压缩的现代图像容器格式。虽然与HEIC相似，但HEIF是标准格式名称，而HEIC具体指Apple的实现。HEIF与WebP相比提供卓越的压缩，同时保持高图像质量，使其成为高效存储照片的理想选择。",
+      },
+      whyConvert: {
+        title: "为什么将HEIF转换为WebP？",
+        content:
+          "虽然HEIF高效且现代，但它并不在所有设备和平台上得到普遍支持。将HEIF转换为WebP确保您的图像可以在任何设备上查看，轻松通过电子邮件分享，上传到网站，并在任何应用程序中使用。WebP格式是全球使用最广泛的图像格式，非常适合最大兼容性和分享。",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - 有什么区别？",
+        content:
+          "HEIF（高效图像格式）是容器格式标准，而HEIC（高效图像容器）是Apple对HEIF的具体实现。实际上，它们非常相似 - 都使用相同的压缩技术并提供相同的优势。Apple设备将照片保存为HEIC文件，这些文件实际上符合HEIF标准。我们的转换器无缝处理两种格式，因此您可以将任何HEIF/HEIC图像转换为WebP格式。",
+      },
+      benefits: {
+        title: "我们转换器的优势",
+        list: [
+          "通用兼容性 - WebP在所有设备和平台上工作",
+          "更小的文件大小 - 高效压缩，更快分享",
+          "广泛支持 - 全球使用最广泛的图像格式",
+          "易于分享 - 与所有电子邮件客户端和社交媒体兼容",
+          "网页就绪 - 适合网站、社交媒体和在线使用",
+          "高质量 - 保持原始图像分辨率",
+        ],
+      },
+    },
+    faq: {
+      title: "常见问题 – HEIF转WebP",
+      items: [
+        {
+          q: "将HEIF转换为WebP是免费的吗？",
+          a: "是的！我们的HEIF转WebP转换器完全免费，无隐藏费用。您可以无限制地转换文件，无需注册或订阅。",
+        },
+        {
+          q: "HEIF和HEIC有什么区别？",
+          a: "HEIF（高效图像格式）是标准格式名称，而HEIC（高效图像容器）是Apple的具体实现。它们使用相同的压缩技术，功能上非常相似。我们的转换器无缝处理两种格式。",
+        },
+        {
+          q: "我的数据安全吗？",
+          a: "绝对安全。所有转换都在我们的服务器上通过SSL加密安全进行。您的文件在转换后立即自动删除。我们从不存储、分享或访问您的文件。",
+        },
+        {
+          q: "最大文件大小是多少？",
+          a: "您可以转换每个最大100MB的HEIF文件。对于批量转换，您可以一次处理最多20个文件，总限制为100MB。",
+        },
+        {
+          q: "你们支持批量转换吗？",
+          a: "是的！您可以同时上传和转换最多20个HEIF文件。所有转换后的WebP将作为单独文件或单个ZIP存档提供下载。",
+        },
+        {
+          q: "质量会被保留吗？",
+          a: "是的，我们在转换过程中保持高图像质量。您的HEIF图像将以最小的质量损失转换为高分辨率WebP。",
+        },
+        {
+          q: "我可以从任何设备转换HEIF吗？",
+          a: "是的！我们的转换器适用于支持HEIF格式的任何设备或相机的HEIF图像，不仅仅是Apple设备。只需上传您的HEIF文件并将它们转换为WebP。",
+        },
+        {
+          q: "我需要安装任何软件吗？",
+          a: "无需安装。我们的在线转换器直接在您的网页浏览器中工作，适用于任何设备 - Windows、Mac、Linux、iOS或Android。",
+        },
+        {
+          q: "转换需要多长时间？",
+          a: "转换几乎是即时的！大多数HEIF文件只需几秒钟即可转换为WebP，具体取决于文件大小和您的互联网连接。",
+        },
+      ],
+    },
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "HEIC转WebP", url: "/convert/heic-to-webp" },
+        { name: "HEIC转PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC转PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF转PNG", url: "/convert/heif-to-png" },
+        { name: "WebP转PDF", url: "/convert/webp-to-pdf" },
+        { name: "PNG转WebP", url: "/convert/png-to-webp" },
+      ],
+    },
+  },
   // HEIF to PDF Converter
   heifToPdf: {
     title: "HEIF转PDF转换器 - 免费在线将HEIF图像转换为PDF",

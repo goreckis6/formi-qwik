@@ -208,6 +208,10 @@ export const tr: Translations = {
       name: "HEIF'den PDF'ye",
       description: "HEIF görüntülerini PDF formatına anında dönüştürün",
     },
+    heifToWebp: {
+      name: "HEIF'den WebP'ye",
+      description: "HEIF görüntülerini WebP formatına anında dönüştürün",
+    },
   },
 
   heicToPdf: {
@@ -1189,6 +1193,138 @@ export const tr: Translations = {
     },
   },
 
+  // HEIF to WebP Converter
+  heifToWebp: {
+    title: "HEIF'den WebP'ye Dönüştürücü - HEIF Görüntülerini WebP'ye Ücretsiz Çevrimiçi Dönüştür",
+    metaDescription:
+      "HEIF görüntülerini anında WebP formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIF'den WebP'ye dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. Tüm cihazlardan HEIF fotoğraflarıyla çalışır.",
+    metaKeywords:
+      "HEIF'den WebP'ye, HEIF dönüştür, HEIF görüntüleri WebP'ye, HEIF dönüştürücü, görüntü WebP'ye, toplu HEIF dönüştür, ücretsiz HEIF dönüştürücü, HEIF vs HEIC",
+    hero: {
+      title: "HEIF'den WebP'ye Dönüştürücü",
+      subtitle:
+        "HEIF görüntülerinizi anında evrensel WebP formatına dönüştürün. Dosya boyutu sınırı olmayan ücretsiz, hızlı ve güvenli dönüştürme. Herhangi bir cihazdan HEIF fotoğrafları için mükemmel.",
+      badge1: "Yıldırım Hızında",
+      badge2: "%100 Güvenli",
+      badge3: "Kayıt Yok",
+    },
+    upload: {
+      title: "HEIF Dosyalarını Yükle",
+      description:
+        "HEIF görüntülerinizi buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürme destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştür",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "WebP İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Yüksek kaliteli HEIF'den WebP'ye dönüştürme",
+        "20 dosyaya kadar toplu işleme",
+        "Görüntü kalitesini korur",
+        "Dosya boyutu sınırlaması yok",
+        "%100 güvenli ve özel",
+        "Tüm cihazlardan HEIF fotoğraflarıyla çalışır",
+        "Dönüştürmeden sonra anında indirme",
+        "Filigran eklenmez",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "HEIF Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla HEIF görüntüsü seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "WebP İndir",
+      step3Desc: "Dönüştürülmüş WebP dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "HEIF'den WebP'ye Dönüştürme Hakkında",
+      whatIsHeif: {
+        title: "HEIF Formatı Nedir?",
+        content:
+          "HEIF (High Efficiency Image Format), HEVC (H.265) sıkıştırmasını kullanan modern bir görüntü konteyner formatıdır. HEIC'ye benzer olmasına rağmen, HEIF standart format adıdır, HEIC ise özellikle Apple'ın uygulamasını ifade eder. HEIF, yüksek görüntü kalitesini korurken WebP'ye kıyasla üstün sıkıştırma sunar, bu da onu fotoğrafları verimli bir şekilde saklamak için ideal kılar.",
+      },
+      whyConvert: {
+        title: "Neden HEIF'i WebP'ye Dönüştürmeliyim?",
+        content:
+          "HEIF verimli ve modern olsa da, tüm cihazlarda ve platformlarda evrensel olarak desteklenmez. HEIF'i WebP'ye dönüştürmek, görüntülerinizin herhangi bir cihazda görüntülenebilmesini, e-posta yoluyla kolayca paylaşılabilmesini, web sitelerine yüklenebilmesini ve herhangi bir uygulamada kullanılabilmesini sağlar. WebP formatı, dünyada en yaygın desteklenen görüntü formatıdır, bu da onu maksimum uyumluluk ve paylaşım için ideal kılar.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Fark Nedir?",
+        content:
+          "HEIF (High Efficiency Image Format) konteyner format standardıdır, HEIC (High Efficiency Image Container) ise Apple'ın HEIF'in spesifik uygulamasıdır. Uygulamada çok benzerler - ikisi de aynı sıkıştırma teknolojisini kullanır ve aynı faydaları sunar. Apple cihazları fotoğrafları HEIC dosyaları olarak saklar, bunlar aslında HEIF uyumludur. Dönüştürücümüz her iki formatı da sorunsuz bir şekilde işler, böylece herhangi bir HEIF/HEIC görüntüsünü WebP formatına dönüştürebilirsiniz.",
+      },
+      benefits: {
+        title: "Dönüştürücümüzün Avantajları",
+        list: [
+          "Evrensel Uyumluluk - WebP'ler tüm cihazlarda ve platformlarda çalışır",
+          "Daha Küçük Dosya Boyutu - Daha hızlı paylaşım için verimli sıkıştırma",
+          "Geniş Destek - Dünya çapında en yaygın kullanılan görüntü formatı",
+          "Kolay Paylaşım - Tüm e-posta istemcileri ve sosyal medya ile uyumlu",
+          "Web Hazır - Web siteleri, sosyal medya ve çevrimiçi kullanım için ideal",
+          "Yüksek Kalite - Orijinal görüntü çözünürlüğünü koruyun",
+        ],
+      },
+    },
+    faq: {
+      title: "Sıkça Sorulan Sorular – HEIF'den WebP'ye",
+      items: [
+        {
+          q: "HEIF'i WebP'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! HEIF'den WebP'ye dönüştürücümüz tamamen ücretsizdir ve gizli ücret yoktur. Kayıt veya abonelik olmadan sınırsız dosya dönüştürebilirsiniz.",
+        },
+        {
+          q: "HEIF ve HEIC arasındaki fark nedir?",
+          a: "HEIF (High Efficiency Image Format) standart format adıdır, HEIC (High Efficiency Image Container) ise Apple'ın spesifik uygulamasıdır. Aynı sıkıştırma teknolojisini kullanırlar ve işlevsel olarak çok benzerdir. Dönüştürücümüz her iki formatı da sorunsuz bir şekilde işler.",
+        },
+        {
+          q: "Verilerim güvende mi?",
+          a: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamayız, paylaşmayız veya erişmeyiz.",
+        },
+        {
+          q: "Maksimum dosya boyutu nedir?",
+          a: "Her biri 100MB'a kadar HEIF dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limiti ile aynı anda 20 dosyaya kadar işleyebilirsiniz.",
+        },
+        {
+          q: "Toplu dönüştürmeyi destekliyor musunuz?",
+          a: "Evet! Aynı anda 20'ye kadar HEIF dosyasını yükleyip dönüştürebilirsiniz. Dönüştürülen tüm WebP'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
+        },
+        {
+          q: "Kalite korunacak mı?",
+          a: "Evet, dönüştürme sırasında yüksek görüntü kalitesini koruyoruz. HEIF görüntüleriniz minimal kalite kaybıyla yüksek çözünürlüklü WebP'lere dönüştürülecektir.",
+        },
+        {
+          q: "HEIF'i herhangi bir cihazdan dönüştürebilir miyim?",
+          a: "Evet! Dönüştürücümüz HEIF formatını destekleyen herhangi bir cihaz veya kameradan HEIF görüntüleriyle çalışır, yalnızca Apple cihazları değil. Sadece HEIF dosyalarınızı yükleyin ve WebP'ye dönüştürün.",
+        },
+        {
+          q: "Herhangi bir yazılım yüklemem gerekiyor mu?",
+          a: "Yükleme gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.",
+        },
+        {
+          q: "Dönüştürme ne kadar sürer?",
+          a: "Dönüştürme neredeyse anında! Çoğu HEIF dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde WebP'ye dönüştürülür.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "HEIC'den WebP'ye", url: "/convert/heic-to-webp" },
+        { name: "HEIC'den PDF'e", url: "/convert/heic-to-pdf" },
+        { name: "HEIC'den PNG'ye", url: "/convert/heic-to-png" },
+        { name: "HEIF'den PNG'ye", url: "/convert/heif-to-png" },
+        { name: "WebP'den PDF'e", url: "/convert/webp-to-pdf" },
+        { name: "PNG'den WebP'ye", url: "/convert/png-to-webp" },
+      ],
+    },
+  },
   // HEIF to PDF Converter
   heifToPdf: {
     title: "HEIF'den PDF'ye Dönüştürücü - HEIF Görüntülerini PDF'ye Ücretsiz Çevrimiçi Dönüştür",

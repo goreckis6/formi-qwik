@@ -77,6 +77,11 @@ export default component$(() => {
         description: converters.heifToPdf.description,
         href: getLocalizedPath("/convert/heif-to-pdf", locale),
       },
+      {
+        name: converters.heifToWebp.name,
+        description: converters.heifToWebp.description,
+        href: getLocalizedPath("/convert/heif-to-webp", locale),
+      },
     ],
   }));
 

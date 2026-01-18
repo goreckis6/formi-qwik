@@ -201,6 +201,10 @@ export const ko: Translations = {
       name: "HEIF을 PDF로",
       description: "HEIF 이미지를 PDF 형식으로 즉시 변환",
     },
+    heifToWebp: {
+      name: "HEIF을 WebP로",
+      description: "HEIF 이미지를 WebP 형식으로 즉시 변환",
+    },
   },
 
   heicToPdf: {
@@ -1167,6 +1171,138 @@ export const ko: Translations = {
     },
   },
 
+  // HEIF to WebP Converter
+  heifToWebp: {
+    title: "HEIF을 WebP로 변환기 - HEIF 이미지를 WebP로 무료 온라인 변환",
+    metaDescription:
+      "HEIF 이미지를 WebP 형식으로 즉시 변환. 일괄 처리가 있는 무료 온라인 HEIF을 WebP로 변환기. 빠르고 안전하며 등록 불필요. 모든 디바이스의 HEIF 사진과 작동.",
+    metaKeywords:
+      "HEIF을 WebP로, HEIF 변환, HEIF 이미지를 WebP, HEIF 변환기, 이미지를 WebP, 배치 변환 HEIF, 무료 HEIF 변환기, HEIF vs HEIC",
+    hero: {
+      title: "HEIF을 WebP로 변환기",
+      subtitle:
+        "HEIF 이미지를 범용 WebP 형식으로 즉시 변환. 파일 크기 제한 없는 무료, 빠르고 안전한 변환. 모든 디바이스의 HEIF 사진에 완벽합니다.",
+      badge1: "초고속",
+      badge2: "100% 안전",
+      badge3: "등록 불필요",
+    },
+    upload: {
+      title: "HEIF 파일 업로드",
+      description:
+        "HEIF 이미지를 여기로 끌어다 놓거나 클릭하여 찾아보기. 최대 20개 파일의 배치 변환 지원. 파일당 최대 100MB.",
+      buttonSingle: "단일 파일",
+      buttonBatch: "배치 변환",
+      chooseFile: "파일 선택",
+      converting: "변환 중...",
+      success: "변환 성공!",
+      download: "WebP 다운로드",
+      downloadAll: "모두 ZIP으로 다운로드",
+      convertAnother: "다른 파일 변환",
+    },
+    features: {
+      title: "기능",
+      list: [
+        "고품질 HEIF을 WebP로 변환",
+        "최대 20개 파일의 배치 처리",
+        "이미지 품질 유지",
+        "파일 크기 제한 없음",
+        "100% 안전하고 비공개",
+        "모든 디바이스의 HEIF 사진과 함께 작동",
+        "변환 후 즉시 다운로드",
+        "워터마크 없음",
+      ],
+    },
+    howItWorks: {
+      title: "작동 방식",
+      step1Title: "HEIF 파일 업로드",
+      step1Desc: "디바이스에서 하나 이상의 HEIF 이미지 선택",
+      step2Title: "자동 변환",
+      step2Desc: "변환기가 파일을 즉시 처리",
+      step3Title: "WebP 다운로드",
+      step3Desc: "변환된 WebP 파일을 즉시 받기",
+    },
+    about: {
+      title: "HEIF을 WebP로 변환 정보",
+      whatIsHeif: {
+        title: "HEIF 형식이란?",
+        content:
+          "HEIF(High Efficiency Image Format)는 HEVC(H.265) 압축을 사용하는 현대적인 이미지 컨테이너 형식입니다. HEIC와 유사하지만 HEIF는 표준 형식 이름이고, HEIC는 구체적으로 Apple의 구현을 가리킵니다. HEIF는 WebP와 비교하여 고품질 이미지를 유지하면서 우수한 압축을 제공하여 사진을 효율적으로 저장하는 데 이상적입니다.",
+      },
+      whyConvert: {
+        title: "왜 HEIF를 WebP로 변환하나요?",
+        content:
+          "HEIF는 효율적이고 현대적이지만 모든 디바이스 및 플랫폼에서 보편적으로 지원되지는 않습니다. HEIF를 WebP로 변환하면 이미지를 모든 디바이스에서 볼 수 있고, 이메일로 쉽게 공유할 수 있으며, 웹사이트에 업로드하고 모든 애플리케이션에서 사용할 수 있습니다. WebP 형식은 전 세계에서 가장 널리 지원되는 이미지 형식으로, 최대 호환성과 공유에 완벽합니다.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - 차이점은 무엇인가요?",
+        content:
+          "HEIF(High Efficiency Image Format)는 컨테이너 형식 표준이고, HEIC(High Efficiency Image Container)는 Apple의 HEIF 특정 구현입니다. 실제로는 매우 유사합니다 - 둘 다 동일한 압축 기술을 사용하며 동일한 이점을 제공합니다. Apple 디바이스는 사진을 HEIC 파일로 저장하며, 이것들은 실제로 HEIF 호환입니다. 우리 변환기는 두 형식을 원활하게 처리하므로 모든 HEIF/HEIC 이미지를 WebP 형식으로 변환할 수 있습니다.",
+      },
+      benefits: {
+        title: "우리 변환기의 장점",
+        list: [
+          "범용 호환성 - WebP는 모든 디바이스 및 플랫폼에서 작동",
+          "더 작은 파일 크기 - 더 빠른 공유를 위한 효율적인 압축",
+          "광범위한 지원 - 전 세계에서 가장 널리 사용되는 이미지 형식",
+          "쉬운 공유 - 모든 이메일 클라이언트 및 소셜 미디어와 호환",
+          "웹 준비 - 웹사이트, 소셜 미디어 및 온라인 사용에 이상적",
+          "고품질 - 원본 이미지 해상도 유지",
+        ],
+      },
+    },
+    faq: {
+      title: "자주 묻는 질문 – HEIF를 WebP로",
+      items: [
+        {
+          q: "HEIF를 WebP로 변환하는 것이 무료인가요?",
+          a: "네! 우리의 HEIF을 WebP로 변환기는 완전히 무료이며 숨겨진 요금이 없습니다. 등록이나 구독 없이 무제한으로 파일을 변환할 수 있습니다.",
+        },
+        {
+          q: "HEIF와 HEIC의 차이점은 무엇인가요?",
+          a: "HEIF(High Efficiency Image Format)는 표준 형식 이름이고, HEIC(High Efficiency Image Container)는 Apple의 특정 구현입니다. 동일한 압축 기술을 사용하며 기능적으로 매우 유사합니다. 우리 변환기는 두 형식을 원활하게 처리합니다.",
+        },
+        {
+          q: "내 데이터가 안전한가요?",
+          a: "절대적으로 안전합니다. 모든 변환은 SSL 암호화를 사용하여 서버에서 안전하게 수행됩니다. 파일은 변환 후 즉시 자동으로 삭제됩니다. 파일을 저장, 공유 또는 액세스하지 않습니다.",
+        },
+        {
+          q: "최대 파일 크기는 얼마인가요?",
+          a: "각각 최대 100MB의 HEIF 파일을 변환할 수 있습니다. 배치 변환의 경우 총 100MB 제한으로 최대 20개 파일을 한 번에 처리할 수 있습니다.",
+        },
+        {
+          q: "배치 변환을 지원하나요?",
+          a: "네! 최대 20개의 HEIF 파일을 동시에 업로드하고 변환할 수 있습니다. 변환된 모든 WebP는 개별 파일 또는 단일 ZIP 아카이브로 다운로드할 수 있습니다.",
+        },
+        {
+          q: "품질이 유지되나요?",
+          a: "네, 변환 중에 고품질 이미지를 유지합니다. HEIF 이미지는 최소한의 품질 손실로 고해상도 WebP로 변환됩니다.",
+        },
+        {
+          q: "모든 디바이스에서 HEIF를 변환할 수 있나요?",
+          a: "네! 우리 변환기는 Apple 디바이스뿐만 아니라 HEIF 형식을 지원하는 모든 디바이스나 카메라의 HEIF 이미지와 작동합니다. HEIF 파일을 업로드하고 WebP로 변환하기만 하면 됩니다.",
+        },
+        {
+          q: "소프트웨어를 설치해야 하나요?",
+          a: "설치가 필요 없습니다. 우리 온라인 변환기는 Windows, Mac, Linux, iOS 또는 Android 등 모든 디바이스의 웹 브라우저에서 직접 작동합니다.",
+        },
+        {
+          q: "변환에는 얼마나 걸리나요?",
+          a: "변환은 거의 즉시입니다! 대부분의 HEIF 파일은 파일 크기와 인터넷 연결에 따라 몇 초 만에 WebP로 변환됩니다.",
+        },
+      ],
+    },
+    related: {
+      title: "관련 변환기",
+      converters: [
+        { name: "HEIC을 WebP로", url: "/convert/heic-to-webp" },
+        { name: "HEIC을 PDF로", url: "/convert/heic-to-pdf" },
+        { name: "HEIC을 PNG로", url: "/convert/heic-to-png" },
+        { name: "HEIF을 PNG로", url: "/convert/heif-to-png" },
+        { name: "WebP을 PDF로", url: "/convert/webp-to-pdf" },
+        { name: "PNG을 WebP로", url: "/convert/png-to-webp" },
+      ],
+    },
+  },
   // HEIF to PDF Converter
   heifToPdf: {
     title: "HEIF을 PDF로 변환기 - HEIF 이미지를 PDF로 무료 온라인 변환",
