@@ -1600,18 +1600,18 @@ export const en = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIF to PDF Converter - Convert HEIF Images to PDF Free Online",
+    title: "HEIF to PDF Converter - Create Universal PDF Documents from HEIF Images",
     metaDescription:
-      "Convert HEIF documents to PDF format instantly. Free online HEIF to PDF converter with batch processing. Fast, secure, and no registration required. Works with HEIF photos from all devices.",
+      "Convert HEIF to PDF for universal document sharing. View on any device without apps. Perfect for email, printing, and archival. Merge multiple HEIFs into one PDF. Free batch converter, no registration.",
     metaKeywords:
-      "HEIF to PDF, convert HEIF, HEIF documents to PDF, HEIF converter, image to PDF, batch convert HEIF, free HEIF converter, HEIF vs HEIC",
+      "HEIF to PDF, image to document, universal PDF, email sharing, print ready PDF, merge images PDF, batch convert HEIF, document creation",
     hero: {
       title: "HEIF to PDF Converter",
       subtitle:
-        "Transform your HEIF documents into universal PDF format instantly. Free, fast, and secure conversion with no file size limits. Perfect for HEIF photos from any device.",
-      badge1: "Lightning Fast",
-      badge2: "100% Secure",
-      badge3: "No Registration",
+        "Convert HEIF images to PDF documents for universal compatibility. View on any device without special apps. Perfect for email sharing, printing, presentations, and long-term archival. Merge multiple images into one PDF.",
+      badge1: "Universal Viewing",
+      badge2: "Email Ready",
+      badge3: "No Apps Needed",
     },
     upload: {
       title: "Upload HEIF Files",
@@ -1629,14 +1629,14 @@ export const en = {
     features: {
       title: "Features",
       list: [
-        "High-quality HEIF to PDF conversion",
-        "Batch processing up to 20 files",
-        "Preserves image quality",
-        "No file size limitations",
-        "100% secure and private",
-        "Works with HEIF photos from all devices",
-        "Instant download after conversion",
-        "No watermarks added",
+        "Universal PDF viewing - no special apps required",
+        "Email-ready documents with small file sizes",
+        "Batch processing up to 20 files simultaneously",
+        "Merge multiple images into single PDF",
+        "100% secure with automatic file deletion",
+        "Print-ready PDF output for physical documents",
+        "Instant download - ready for sharing",
+        "No watermarks - professional documents",
       ],
     },
     howItWorks: {
@@ -1651,29 +1651,29 @@ export const en = {
     about: {
       title: "About HEIF to PDF Conversion",
       whatIsHeif: {
-        title: "What is HEIF Format?",
+        title: "Why PDF is the Universal Document Standard?",
         content:
-          "HEIF (High Efficiency Image Format) is a modern image container format that uses HEVC (H.265) compression. While similar to HEIC, HEIF is the standard format name, while HEIC specifically refers to Apple's implementation. HEIF offers superior compression compared to PDF while maintaining high image quality, making it ideal for storing photos efficiently.",
+          "PDF (Portable Document Format) is the global standard for document sharing, created by Adobe in 1993. Unlike image formats, PDFs are designed for universal viewing - every device (Windows, Mac, Linux, iOS, Android) has built-in PDF viewers, no special apps needed. PDFs preserve exact layouts, fonts, and images across all devices. They're ideal for email attachments (universally supported), printing (maintains quality), presentations (professional appearance), legal documents (tamper-evident), and long-term archival (ISO 19005 standard ensures readability for decades). PDFs can combine multiple images into a single file, making them perfect for photo albums, reports, and portfolios.",
       },
       whyConvert: {
         title: "Why Convert HEIF to PDF?",
         content:
-          "While HEIF is efficient and modern, it's not universally supported across all devices and platforms. Converting HEIF to PDF ensures your documents can be viewed on any device, easily shared via email, uploaded to websites, and used in any application. PDF format is the most widely supported document format worldwide, making it perfect for maximum compatibility and sharing.",
+          "Convert HEIF to PDF for universal compatibility and professional document workflows. While HEIF requires special software or apps to view (only Apple devices natively support it), PDF opens instantly on any device without additional software. Perfect for: email sharing (all email clients support PDF previews), printing physical copies (printers prefer PDF format), business presentations (professional, consistent appearance), legal/official documents (widely accepted format), client deliveries (no compatibility issues), and archival storage (PDF/A ensures long-term preservation). PDFs are searchable, can be password-protected, and maintain consistent appearance across all platforms - making them the professional choice for document distribution.",
       },
       heifVsHeic: {
-        title: "HEIF vs HEIC - What's the Difference?",
+        title: "PDF vs Image Formats - When to Use PDF",
         content:
-          "HEIF (High Efficiency Image Format) is the container format standard, while HEIC (High Efficiency Image Container) is Apple's specific implementation of HEIF. In practice, they are very similar - both use the same compression technology and offer the same benefits. Apple devices save photos as HEIC files, which are actually HEIF-compliant. Our converter handles both formats seamlessly, so you can convert any HEIF/HEIC image to PDF format.",
+          "PDF is a document format, not an image format. Choose PDF when: sharing via email (universal preview support), printing documents (maintains quality and layout), creating reports or portfolios (combine multiple images), legal/official submissions (widely accepted), long-term archival (PDF/A standard), or distributing to unknown recipients (guaranteed viewability). Image formats (HEIF, JPG, PNG) are better for: photo editing, web display, social media, or when single-image quality is priority. PDF's key advantage is universal viewing without special apps - crucial for professional and business use. Unlike images, PDFs can include multiple pages, text, metadata, and digital signatures.",
       },
       benefits: {
-        title: "Benefits of Our Converter",
+        title: "Benefits of PDF Format",
         list: [
-          "Universal Compatibility - PDFs work on all devices and platforms",
-          "Smaller File Size - Efficient compression for faster sharing",
-          "Wide Support - Most widely used document format worldwide",
-          "Easy Sharing - Compatible with all email clients and social media",
-          "Web Ready - Ideal for websites, social media, and online use",
-          "High Quality - Preserve original image resolution",
+          "Universal Viewing - Opens on any device without special apps",
+          "Email Ready - All email clients support PDF preview",
+          "Print Perfect - Maintains quality and layout for physical printing",
+          "Multi-Page Support - Combine multiple images into single document",
+          "Professional Standard - Widely accepted for business and legal use",
+          "Long-Term Archival - PDF/A ensures readability for decades",
         ],
       },
     },
@@ -1682,39 +1682,39 @@ export const en = {
       items: [
         {
           q: "Is it free to convert HEIF to PDF?",
-          a: "Yes! Our HEIF to PDF converter is completely free with no hidden charges. You can convert unlimited files without any registration or subscription.",
+          a: "Yes! Our HEIF to PDF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need to create professional PDF documents for email, printing, or archival.",
         },
         {
-          q: "What is the difference between HEIF and HEIC?",
-          a: "HEIF (High Efficiency Image Format) is the standard format name, while HEIC (High Efficiency Image Container) is Apple's specific implementation. They use the same compression technology and are functionally very similar. Our converter handles both formats seamlessly.",
+          q: "Can I merge multiple HEIF images into one PDF?",
+          a: "Yes! Our batch converter can process up to 20 HEIF images and combine them into individual PDFs or merge them into a single multi-page PDF document. Perfect for creating photo albums, reports, portfolios, or presentations from multiple images.",
         },
         {
-          q: "Is my data safe?",
-          a: "Absolutely. All conversions happen securely on our servers with SSL encryption. Your files are automatically deleted immediately after conversion. We never store, share, or access your files.",
+          q: "Why convert HEIF to PDF instead of JPG?",
+          a: "PDF offers universal viewing without special apps (every device has PDF viewers built-in), better email compatibility (all email clients preview PDFs), professional appearance for business documents, ability to combine multiple images into one file, password protection options, and long-term archival standards (PDF/A). JPG is better for web display and editing; PDF is better for sharing and documents.",
         },
         {
-          q: "What is the maximum file size?",
-          a: "You can convert HEIF files up to 100MB each. For batch conversion, you can process up to 20 files at once with a total limit of 100MB.",
+          q: "Will PDF files open on any device?",
+          a: "Yes! PDF is the universal document standard. Every device (Windows, Mac, Linux, iOS, Android) has built-in PDF viewers - no additional software needed. Unlike HEIF (requires special apps or Apple devices), PDFs open instantly everywhere. Perfect for sharing with clients, colleagues, or anyone when you need guaranteed compatibility.",
         },
         {
-          q: "Do you support batch conversion?",
-          a: "Yes! You can upload and convert up to 20 HEIF files simultaneously. All converted PDFs will be available for download as individual files or in a single ZIP archive.",
+          q: "Can I email PDF files easily?",
+          a: "Absolutely! PDF is the most email-friendly format. All email clients (Gmail, Outlook, Apple Mail, Yahoo) support PDF previews directly in the email without downloading. Recipients can view your images immediately without special software. PDFs are also accepted by all file-sharing platforms, cloud storage, and document management systems.",
         },
         {
-          q: "Will the quality be preserved?",
-          a: "Yes, we maintain high image quality during conversion. Your HEIF documents will be converted to high-resolution PDFs with minimal quality loss.",
+          q: "Is PDF good for printing?",
+          a: "Yes! PDF is the preferred format for printing. It maintains exact quality, colors, and layout across all printers. Professional print shops, office printers, and photo labs all prefer PDF because it ensures what you see on screen matches the printed output. Our converter creates print-ready PDFs that work perfectly with any printer.",
         },
         {
-          q: "Can I convert HEIF from any device?",
-          a: "Yes! Our converter works with HEIF documents from any device or camera that supports HEIF format, not just Apple devices. Simply upload your HEIF files and convert them to PDF.",
+          q: "Can I password-protect the PDF?",
+          a: "Our converter creates standard PDFs that you can password-protect using free PDF tools (Adobe Acrobat Reader, Preview on Mac, or online PDF editors). This allows you to secure sensitive images before sharing via email or cloud storage, making PDFs ideal for confidential documents.",
         },
         {
-          q: "Do I need to install any software?",
-          a: "No installation needed. Our online converter works directly in your web browser on any device - Windows, Mac, Linux, iOS, or Android.",
+          q: "How long does HEIF to PDF conversion take?",
+          a: "Conversion takes 1-2 seconds per image. PDF creation is fast because it embeds images without complex compression. The result is a universally compatible document ready for immediate email sharing, printing, or archival storage.",
         },
         {
-          q: "How long does conversion take?",
-          a: "Conversion is nearly instant! Most HEIF files convert to PDF in just a few seconds, depending on file size and your internet connection.",
+          q: "What is PDF/A and why does it matter?",
+          a: "PDF/A is an ISO standard (19005) for long-term archival. It ensures PDFs remain readable for decades by embedding all fonts and resources. Perfect for legal documents, historical records, or any content requiring guaranteed long-term preservation. Our PDFs are compatible with archival workflows and document management systems.",
         },
       ],
     },
