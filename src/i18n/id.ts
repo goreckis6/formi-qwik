@@ -203,6 +203,10 @@ export const id: Translations = {
       name: 'HEIF ke WebP',
       description: 'Konversi gambar HEIF ke format WebP secara instan',
     },
+    heifToAvif: {
+      name: 'HEIF ke AVIF',
+      description: 'Konversi gambar HEIF ke format AVIF secara instan',
+    },
   },
 
   heicToPdf: {
@@ -1126,6 +1130,138 @@ export const id: Translations = {
     },
   },
 
+  // HEIF to AVIF Converter
+  heifToAvif: {
+    title: 'Konverter HEIF ke AVIF - Konversi Gambar HEIF ke AVIF Gratis Online',
+    metaDescription:
+      'Konversi gambar HEIF ke format AVIF secara instan. Konverter HEIF ke AVIF online gratis dengan pemrosesan batch. Cepat, aman, dan tidak perlu registrasi. Bekerja dengan foto HEIF dari semua perangkat.',
+    metaKeywords:
+      'HEIF ke AVIF, konversi HEIF, gambar HEIF ke AVIF, konverter HEIF, gambar ke AVIF, konversi batch HEIF, konverter HEIF gratis, HEIF vs HEIC',
+    hero: {
+      title: 'Konverter HEIF ke AVIF',
+      subtitle:
+        'Ubah gambar HEIF Anda menjadi format AVIF universal secara instan. Konversi gratis, cepat, dan aman tanpa batasan ukuran file. Sempurna untuk foto HEIF dari perangkat apa pun.',
+      badge1: 'Super Cepat',
+      badge2: '100% Aman',
+      badge3: 'Tanpa Registrasi',
+    },
+    upload: {
+      title: 'Unggah File HEIF',
+      description:
+        'Seret dan lepas gambar HEIF Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.',
+      buttonSingle: 'File Tunggal',
+      buttonBatch: 'Konversi Batch',
+      chooseFile: 'Pilih File',
+      converting: 'Mengonversi...',
+      success: 'Konversi berhasil!',
+      download: 'Unduh AVIF',
+      downloadAll: 'Unduh Semua sebagai ZIP',
+      convertAnother: 'Konversi File Lain',
+    },
+    features: {
+      title: 'Fitur',
+      list: [
+        'Konversi HEIF ke AVIF berkualitas tinggi',
+        'Pemrosesan batch hingga 20 file',
+        'Mempertahankan kualitas gambar',
+        'Tanpa batas ukuran file',
+        '100% aman dan pribadi',
+        'Bekerja dengan foto HEIF dari semua perangkat',
+        'Unduh instan setelah konversi',
+        'Tidak ada watermark yang ditambahkan',
+      ],
+    },
+    howItWorks: {
+      title: 'Cara Kerja',
+      step1Title: 'Unggah File HEIF',
+      step1Desc: 'Pilih satu atau beberapa gambar HEIF dari perangkat Anda',
+      step2Title: 'Konversi Otomatis',
+      step2Desc: 'Konverter kami memproses file Anda secara instan',
+      step3Title: 'Unduh AVIF',
+      step3Desc: 'Dapatkan file AVIF yang dikonversi segera',
+    },
+    about: {
+      title: 'Tentang Konversi HEIF ke AVIF',
+      whatIsHeif: {
+        title: 'Apa itu Format HEIF?',
+        content:
+          'HEIF (High Efficiency Image Format) adalah format kontainer gambar modern yang menggunakan kompresi HEVC (H.265). Meskipun mirip dengan HEIC, HEIF adalah nama format standar, sementara HEIC secara khusus merujuk pada implementasi Apple. HEIF menawarkan kompresi superior dibandingkan dengan AVIF sambil mempertahankan kualitas gambar tinggi, membuatnya ideal untuk menyimpan foto secara efisien.',
+      },
+      whyConvert: {
+        title: 'Mengapa Mengonversi HEIF ke AVIF?',
+        content:
+          'Meskipun HEIF efisien dan modern, tidak didukung secara universal di semua perangkat dan platform. Mengonversi HEIF ke AVIF memastikan gambar Anda dapat dilihat di perangkat apa pun, mudah dibagikan melalui email, diunggah ke situs web, dan digunakan di aplikasi apa pun. Format AVIF adalah format gambar yang paling luas didukung di dunia, menjadikannya ideal untuk kompatibilitas dan berbagi maksimal.',
+      },
+      heifVsHeic: {
+        title: 'HEIF vs HEIC - Apa Perbedaannya?',
+        content:
+          'HEIF (High Efficiency Image Format) adalah standar format kontainer, sementara HEIC (High Efficiency Image Container) adalah implementasi khusus Apple dari HEIF. Dalam praktiknya, mereka sangat mirip - keduanya menggunakan teknologi kompresi yang sama dan menawarkan manfaat yang sama. Perangkat Apple menyimpan foto sebagai file HEIC, yang sebenarnya kompatibel dengan HEIF. Konverter kami menangani kedua format dengan mulus, sehingga Anda dapat mengonversi gambar HEIF/HEIC apa pun ke format AVIF.',
+      },
+      benefits: {
+        title: 'Manfaat Konverter Kami',
+        list: [
+          'Kompatibilitas Universal - AVIF bekerja di semua perangkat dan platform',
+          'Ukuran File Lebih Kecil - Kompresi efisien untuk berbagi lebih cepat',
+          'Dukungan Luas - Format gambar yang paling banyak digunakan di dunia',
+          'Berbagi Mudah - Kompatibel dengan semua klien email dan media sosial',
+          'Siap untuk Web - Ideal untuk situs web, media sosial, dan penggunaan online',
+          'Kualitas Tinggi - Mempertahankan resolusi gambar asli',
+        ],
+      },
+    },
+    faq: {
+      title: 'Pertanyaan yang Sering Diajukan – HEIF ke AVIF',
+      items: [
+        {
+          q: 'Apakah mengonversi HEIF ke AVIF gratis?',
+          a: 'Ya! Konverter HEIF ke AVIF kami sepenuhnya gratis tanpa biaya tersembunyi. Anda dapat mengonversi file tanpa batas tanpa registrasi atau berlangganan.',
+        },
+        {
+          q: 'Apa perbedaan antara HEIF dan HEIC?',
+          a: 'HEIF (High Efficiency Image Format) adalah nama format standar, sementara HEIC (High Efficiency Image Container) adalah implementasi khusus Apple. Mereka menggunakan teknologi kompresi yang sama dan secara fungsional sangat mirip. Konverter kami menangani kedua format dengan mulus.',
+        },
+        {
+          q: 'Apakah data saya aman?',
+          a: 'Sangat aman. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda secara otomatis dihapus segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
+        },
+        {
+          q: 'Berapa ukuran file maksimum?',
+          a: 'Anda dapat mengonversi file HEIF hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
+        },
+        {
+          q: 'Apakah Anda mendukung konversi batch?',
+          a: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIF secara bersamaan. Semua AVIF yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
+        },
+        {
+          q: 'Apakah kualitas akan dipertahankan?',
+          a: 'Ya, kami mempertahankan kualitas gambar tinggi selama konversi. Gambar HEIF Anda akan dikonversi ke AVIF resolusi tinggi dengan kehilangan kualitas minimal.',
+        },
+        {
+          q: 'Bisakah saya mengonversi HEIF dari perangkat apa pun?',
+          a: 'Ya! Konverter kami bekerja dengan gambar HEIF dari perangkat atau kamera apa pun yang mendukung format HEIF, tidak hanya perangkat Apple. Cukup unggah file HEIF Anda dan konversi ke AVIF.',
+        },
+        {
+          q: 'Apakah saya perlu menginstal perangkat lunak?',
+          a: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
+        },
+        {
+          q: 'Berapa lama konversi berlangsung?',
+          a: 'Konversi hampir instan! Sebagian besar file HEIF dikonversi ke AVIF hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
+        },
+      ],
+    },
+    related: {
+      title: 'Konverter Terkait',
+      converters: [
+        { name: 'HEIC ke AVIF', url: '/convert/heic-to-avif' },
+        { name: 'HEIC ke PDF', url: '/convert/heic-to-pdf' },
+        { name: 'HEIC ke PNG', url: '/convert/heic-to-png' },
+        { name: 'HEIF ke PNG', url: '/convert/heif-to-png' },
+        { name: 'AVIF ke PDF', url: '/convert/avif-to-pdf' },
+        { name: 'PNG ke AVIF', url: '/convert/png-to-avif' },
+      ],
+    },
+  },
   // HEIF to WebP Converter
   heifToWebp: {
     title: 'Konverter HEIF ke WebP - Konversi Gambar HEIF ke WebP Gratis Online',

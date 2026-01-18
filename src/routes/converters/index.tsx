@@ -82,6 +82,11 @@ export default component$(() => {
         description: converters.heifToWebp.description,
         href: getLocalizedPath("/convert/heif-to-webp", locale),
       },
+      {
+        name: converters.heifToAvif.name,
+        description: converters.heifToAvif.description,
+        href: getLocalizedPath("/convert/heif-to-avif", locale),
+      },
     ],
   }));
 

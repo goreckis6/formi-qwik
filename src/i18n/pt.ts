@@ -214,6 +214,10 @@ export const pt: EnTranslations = {
       name: "HEIF para WebP",
       description: "Converta imagens HEIF para formato WebP instantaneamente",
     },
+    heifToAvif: {
+      name: "HEIF para AVIF",
+      description: "Converta imagens HEIF para formato AVIF instantaneamente",
+    },
   },
 
   heicToPdf: {
@@ -1181,6 +1185,138 @@ export const pt: EnTranslations = {
     },
   },
 
+  // HEIF to AVIF Converter
+  heifToAvif: {
+    title: "Conversor HEIF para AVIF - Converta Imagens HEIF para AVIF Grátis Online",
+    metaDescription:
+      "Converta imagens HEIF para formato AVIF instantaneamente. Conversor online gratuito HEIF para AVIF com processamento em lote. Rápido, seguro e sem registro necessário. Funciona com fotos HEIF de todos os dispositivos.",
+    metaKeywords:
+      "HEIF para AVIF, converter HEIF, imagens HEIF para AVIF, conversor HEIF, imagem para AVIF, conversão em lote HEIF, conversor HEIF gratuito, HEIF vs HEIC",
+    hero: {
+      title: "Conversor HEIF para AVIF",
+      subtitle:
+        "Transforme suas imagens HEIF em formato AVIF universal instantaneamente. Conversão gratuita, rápida e segura sem limites de tamanho de arquivo. Perfeito para fotos HEIF de qualquer dispositivo.",
+      badge1: "Super Rápido",
+      badge2: "100% Seguro",
+      badge3: "Sem Registro",
+    },
+    upload: {
+      title: "Enviar Arquivos HEIF",
+      description:
+        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+      buttonSingle: "Arquivo Único",
+      buttonBatch: "Conversão em Lote",
+      chooseFile: "Escolher Arquivos",
+      converting: "Convertendo...",
+      success: "Conversão bem-sucedida!",
+      download: "Baixar AVIF",
+      downloadAll: "Baixar Tudo como ZIP",
+      convertAnother: "Converter Outro Arquivo",
+    },
+    features: {
+      title: "Recursos",
+      list: [
+        "Conversão HEIF para AVIF de alta qualidade",
+        "Processamento em lote até 20 arquivos",
+        "Preserva a qualidade da imagem",
+        "Sem limitações de tamanho de arquivo",
+        "100% seguro e privado",
+        "Funciona com fotos HEIF de todos os dispositivos",
+        "Download instantâneo após conversão",
+        "Sem marcas d'água",
+      ],
+    },
+    howItWorks: {
+      title: "Como Funciona",
+      step1Title: "Enviar Arquivos HEIF",
+      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step2Title: "Conversão Automática",
+      step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
+      step3Title: "Baixar AVIF",
+      step3Desc: "Obtenha seus arquivos AVIF convertidos imediatamente",
+    },
+    about: {
+      title: "Sobre a Conversão HEIF para AVIF",
+      whatIsHeif: {
+        title: "O que é o Formato HEIF?",
+        content:
+          "HEIF (High Efficiency Image Format) é um formato de contêiner de imagens moderno que usa compressão HEVC (H.265). Embora semelhante ao HEIC, HEIF é o nome de formato padrão, enquanto HEIC refere-se especificamente à implementação da Apple. HEIF oferece compressão superior comparado ao AVIF mantendo alta qualidade de imagem, tornando-o ideal para armazenar fotos de forma eficiente.",
+      },
+      whyConvert: {
+        title: "Por que Converter HEIF para AVIF?",
+        content:
+          "Embora HEIF seja eficiente e moderno, não é universalmente suportado em todos os dispositivos e plataformas. Converter HEIF para AVIF garante que suas imagens possam ser visualizadas em qualquer dispositivo, facilmente compartilhadas por e-mail, enviadas para sites e usadas em qualquer aplicativo. O formato AVIF é o formato de imagem mais amplamente suportado no mundo, tornando-o perfeito para máxima compatibilidade e compartilhamento.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Qual é a Diferença?",
+        content:
+          "HEIF (High Efficiency Image Format) é o padrão de formato de contêiner, enquanto HEIC (High Efficiency Image Container) é a implementação específica da Apple do HEIF. Na prática, são muito semelhantes - ambos usam a mesma tecnologia de compressão e oferecem os mesmos benefícios. Dispositivos Apple salvam fotos como arquivos HEIC, que são na verdade compatíveis com HEIF. Nosso conversor trata ambos os formatos sem problemas, então você pode converter qualquer imagem HEIF/HEIC para formato AVIF.",
+      },
+      benefits: {
+        title: "Benefícios do Nosso Conversor",
+        list: [
+          "Compatibilidade Universal - AVIFs funcionam em todos os dispositivos e plataformas",
+          "Tamanho de Arquivo Menor - Compressão eficiente para compartilhamento mais rápido",
+          "Amplo Suporte - Formato de imagem mais usado mundialmente",
+          "Fácil Compartilhamento - Compatível com todos os clientes de e-mail e redes sociais",
+          "Pronto para Web - Ideal para sites, redes sociais e uso online",
+          "Alta Qualidade - Preserve a resolução original da imagem",
+        ],
+      },
+    },
+    faq: {
+      title: "Perguntas Frequentes – HEIF para AVIF",
+      items: [
+        {
+          q: "É gratuito converter HEIF para AVIF?",
+          a: "Sim! Nosso conversor HEIF para AVIF é completamente gratuito sem custos ocultos. Você pode converter arquivos ilimitados sem registro ou assinatura.",
+        },
+        {
+          q: "Qual é a diferença entre HEIF e HEIC?",
+          a: "HEIF (High Efficiency Image Format) é o nome de formato padrão, enquanto HEIC (High Efficiency Image Container) é a implementação específica da Apple. Eles usam a mesma tecnologia de compressão e são funcionalmente muito semelhantes. Nosso conversor trata ambos os formatos sem problemas.",
+        },
+        {
+          q: "Meus dados estão seguros?",
+          a: "Absolutamente. Todas as conversões acontecem com segurança em nossos servidores com criptografia SSL. Seus arquivos são automaticamente excluídos imediatamente após a conversão. Nunca armazenamos, compartilhamos ou acessamos seus arquivos.",
+        },
+        {
+          q: "Qual é o tamanho máximo do arquivo?",
+          a: "Você pode converter arquivos HEIF de até 100MB cada. Para conversão em lote, você pode processar até 20 arquivos por vez com um limite total de 100MB.",
+        },
+        {
+          q: "Vocês suportam conversão em lote?",
+          a: "Sim! Você pode enviar e converter até 20 arquivos HEIF simultaneamente. Todos os AVIFs convertidos estarão disponíveis para download como arquivos individuais ou em um único arquivo ZIP.",
+        },
+        {
+          q: "A qualidade será preservada?",
+          a: "Sim, mantemos alta qualidade de imagem durante a conversão. Suas imagens HEIF serão convertidas em AVIFs de alta resolução com perda mínima de qualidade.",
+        },
+        {
+          q: "Posso converter HEIF de qualquer dispositivo?",
+          a: "Sim! Nosso conversor funciona com imagens HEIF de qualquer dispositivo ou câmera que suporte formato HEIF, não apenas dispositivos Apple. Simplesmente envie seus arquivos HEIF e converta-os para AVIF.",
+        },
+        {
+          q: "Preciso instalar algum software?",
+          a: "Nenhuma instalação necessária. Nosso conversor online funciona diretamente no seu navegador da web em qualquer dispositivo - Windows, Mac, Linux, iOS ou Android.",
+        },
+        {
+          q: "Quanto tempo leva a conversão?",
+          a: "A conversão é quase instantânea! A maioria dos arquivos HEIF se converte para AVIF em apenas alguns segundos, dependendo do tamanho do arquivo e da sua conexão com a Internet.",
+        },
+      ],
+    },
+    related: {
+      title: "Conversores Relacionados",
+      converters: [
+        { name: "HEIC para AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIC para PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC para PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF para PNG", url: "/convert/heif-to-png" },
+        { name: "AVIF para PDF", url: "/convert/avif-to-pdf" },
+        { name: "PNG para AVIF", url: "/convert/png-to-avif" },
+      ],
+    },
+  },
   // HEIF to WebP Converter
   heifToWebp: {
     title: "Conversor HEIF para WebP - Converta Imagens HEIF para WebP Grátis Online",
