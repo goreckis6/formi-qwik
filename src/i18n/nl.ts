@@ -1321,11 +1321,11 @@ export const nl: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIF naar AVIF Converter - Converteer HEIF Afbeeldingen Gratis Online naar AVIF",
+    title: "HEIF naar AVIF Converter - Converteer naar Volgende Generatie AV1 Beeldformaat",
     metaDescription:
-      "Converteer HEIF-afbeeldingen direct naar AVIF-formaat. Gratis online HEIF naar AVIF converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met HEIF-foto's van alle apparaten.",
+      "Converteer HEIF naar AVIF voor geavanceerde compressie. 50% kleiner dan JPEG, 20% kleiner dan WebP. Royaltyvrij AV1-formaat met HDR-ondersteuning. Gebruikt door Netflix en YouTube. Gratis batch converter.",
     metaKeywords:
-      "HEIF naar AVIF, converteer HEIF, HEIF afbeeldingen naar AVIF, HEIF converter, afbeelding naar AVIF, batch converteer HEIF, gratis HEIF converter, HEIF vs HEIC",
+      "HEIF naar AVIF, AV1 beeldformaat, next-gen compressie, HDR afbeeldingen, royaltyvrij formaat, AVIF vs WebP, batch conversie HEIF, modern afbeeldingsformaat",
     hero: {
       title: "HEIF naar AVIF Converter",
       subtitle:

@@ -1314,11 +1314,11 @@ export const ar: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "محول HEIF إلى AVIF - تحويل صور HEIF إلى AVIF مجاناً عبر الإنترنت",
+    title: "محول HEIF إلى AVIF - تحويل إلى تنسيق صور AV1 من الجيل التالي",
     metaDescription:
-      "تحويل صور HEIF إلى تنسيق AVIF فوراً. محول HEIF إلى AVIF مجاني عبر الإنترنت مع المعالجة المجمعة. سريع وآمن وبدون تسجيل. يعمل مع صور HEIF من جميع الأجهزة.",
+      "حوّل HEIF إلى AVIF للضغط المتقدم. أصغر بنسبة 50% من JPEG، أصغر بنسبة 20% من WebP. تنسيق AV1 خالٍ من حقوق الملكية مع دعم HDR. مستخدم من قبل Netflix و YouTube. محول دفعات مجاني.",
     metaKeywords:
-      "HEIF إلى AVIF, تحويل HEIF, صور HEIF إلى AVIF, محول HEIF, صورة إلى AVIF, تحويل مجمع HEIF, محول HEIF مجاني, HEIF vs HEIC",
+      "HEIF إلى AVIF, تنسيق صور AV1, ضغط الجيل التالي, صور HDR, تنسيق خالٍ من حقوق الملكية, AVIF مقابل WebP, تحويل دفعات HEIF, تنسيق صور حديث",
     hero: {
       title: "محول HEIF إلى AVIF",
       subtitle:

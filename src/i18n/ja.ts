@@ -1315,11 +1315,11 @@ export const ja: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIFからAVIFへのコンバーター - HEIF画像をAVIFに無料でオンライン変換",
+    title: "HEIF to AVIF コンバーター - 次世代AV1画像フォーマットへ変換",
     metaDescription:
-      "HEIF画像をAVIF形式に瞬時に変換。一括処理対応の無料オンラインHEIFからAVIFへのコンバーター。高速、安全、登録不要。すべてのデバイスのHEIF写真に対応。",
+      "HEIFをAVIFに変換して最先端の圧縮を実現。JPEGより50%小さく、WebPより20%小さい。HDRサポート付きロイヤリティフリーAV1フォーマット。NetflixとYouTubeで使用。無料一括変換。",
     metaKeywords:
-      "HEIFからAVIF, HEIF変換, HEIF画像をAVIF, HEIFコンバーター, 画像をAVIF, バッチ変換HEIF, 無料HEIFコンバーター, HEIF vs HEIC",
+      "HEIF to AVIF, AV1画像フォーマット, 次世代圧縮, HDR画像, ロイヤリティフリーフォーマット, AVIF vs WebP, 一括変換HEIF, モダン画像フォーマット",
     hero: {
       title: "HEIFからAVIFへのコンバーター",
       subtitle:

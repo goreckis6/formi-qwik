@@ -1335,11 +1335,11 @@ export const tr: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIF'den AVIF'ye Dönüştürücü - HEIF Görüntülerini AVIF'ye Ücretsiz Çevrimiçi Dönüştür",
+    title: "HEIF'den AVIF'ye Dönüştürücü - Yeni Nesil AV1 Görüntü Formatına Dönüştürün",
     metaDescription:
-      "HEIF görüntülerini anında AVIF formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIF'den AVIF'ye dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. Tüm cihazlardan HEIF fotoğraflarıyla çalışır.",
+      "HEIF'i AVIF'ye dönüştürerek en gelişmiş sıkıştırmayı elde edin. JPEG'den %50 daha küçük, WebP'den %20 daha küçük. HDR desteğiyle telif ücretsiz AV1 formatı. Netflix ve YouTube tarafından kullanılıyor. Ücretsiz toplu dönüştürücü.",
     metaKeywords:
-      "HEIF'den AVIF'ye, HEIF dönüştür, HEIF görüntüleri AVIF'ye, HEIF dönüştürücü, görüntü AVIF'ye, toplu HEIF dönüştür, ücretsiz HEIF dönüştürücü, HEIF vs HEIC",
+      "HEIF'den AVIF'ye, AV1 görüntü formatı, yeni nesil sıkıştırma, HDR görüntüler, telif ücretsiz format, AVIF vs WebP, toplu dönüştürme HEIF, modern görüntü formatı",
     hero: {
       title: "HEIF'den AVIF'ye Dönüştürücü",
       subtitle:

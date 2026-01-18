@@ -1324,11 +1324,11 @@ export const es: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "Convertidor HEIF a AVIF - Convierte Imágenes HEIF a AVIF Gratis Online",
+    title: "Convertidor HEIF a AVIF - Convertir a Formato de Imagen AV1 de Nueva Generación",
     metaDescription:
-      "Convierte imágenes HEIF a formato AVIF al instante. Convertidor online gratuito HEIF a AVIF con procesamiento por lotes. Rápido, seguro y sin registro requerido. Funciona con fotos HEIF de todos los dispositivos.",
+      "Convierte HEIF a AVIF para compresión de vanguardia. 50% más pequeño que JPEG, 20% más pequeño que WebP. Formato AV1 libre de regalías con soporte HDR. Usado por Netflix y YouTube. Convertidor por lotes gratuito.",
     metaKeywords:
-      "HEIF a AVIF, convertir HEIF, imágenes HEIF a AVIF, convertidor HEIF, imagen a AVIF, conversión por lotes HEIF, convertidor HEIF gratis, HEIF vs HEIC",
+      "HEIF a AVIF, formato de imagen AV1, compresión next-gen, imágenes HDR, formato libre de regalías, AVIF vs WebP, conversión por lotes HEIF, formato de imagen moderno",
     hero: {
       title: "Convertidor HEIF a AVIF",
       subtitle:

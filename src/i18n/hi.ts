@@ -1321,11 +1321,11 @@ export const hi: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIF से AVIF कन्वर्टर - HEIF छवियों को AVIF में मुफ्त ऑनलाइन कन्वर्ट करें",
+    title: "HEIF से AVIF कनवर्टर - अगली पीढ़ी AV1 छवि प्रारूप में कनवर्ट करें",
     metaDescription:
-      "HEIF छवियों को AVIF प्रारूप में तुरंत कन्वर्ट करें। बैच प्रसंस्करण के साथ मुफ्त ऑनलाइन HEIF से AVIF कन्वर्टर। तेज़, सुरक्षित और कोई पंजीकरण आवश्यक नहीं। सभी डिवाइस से HEIF फ़ोटो के साथ काम करता है।",
+      "अत्याधुनिक संपीड़न के लिए HEIF को AVIF में कनवर्ट करें। JPEG से 50% छोटा, WebP से 20% छोटा। HDR समर्थन के साथ रॉयल्टी-मुक्त AV1 प्रारूप। Netflix और YouTube द्वारा उपयोग किया जाता है। निःशुल्क बैच कनवर्टर।",
     metaKeywords:
-      "HEIF से AVIF, HEIF कन्वर्ट करें, HEIF छवियों को AVIF, HEIF कन्वर्टर, छवि से AVIF, बैच कन्वर्ट HEIF, मुफ्त HEIF कन्वर्टर, HEIF vs HEIC",
+      "HEIF से AVIF, AV1 छवि प्रारूप, अगली पीढ़ी संपीड़न, HDR छवियां, रॉयल्टी-मुक्त प्रारूप, AVIF बनाम WebP, बैच कनवर्ट HEIF, आधुनिक छवि प्रारूप",
     hero: {
       title: "HEIF से AVIF कन्वर्टर",
       subtitle:

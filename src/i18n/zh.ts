@@ -1313,11 +1313,11 @@ export const zh: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIF转AVIF转换器 - 免费在线将HEIF图像转换为AVIF",
+    title: "HEIF转AVIF转换器 - 转换为下一代AV1图像格式",
     metaDescription:
-      "即时将HEIF图像转换为AVIF格式。免费在线HEIF转AVIF转换器，支持批量处理。快速、安全且无需注册。适用于所有设备的HEIF照片。",
+      "将HEIF转换为AVIF以获得尖端压缩。比JPEG小50%，比WebP小20%。免版税AV1格式，支持HDR。Netflix和YouTube使用。免费批量转换器。",
     metaKeywords:
-      "HEIF转AVIF, 转换HEIF, HEIF图像转AVIF, HEIF转换器, 图像转AVIF, 批量转换HEIF, 免费HEIF转换器, HEIF vs HEIC",
+      "HEIF转AVIF, AV1图像格式, 下一代压缩, HDR图像, 免版税格式, AVIF对比WebP, 批量转换HEIF, 现代图像格式",
     hero: {
       title: "HEIF转AVIF转换器",
       subtitle:

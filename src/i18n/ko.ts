@@ -1313,11 +1313,11 @@ export const ko: Translations = {
   },
   // HEIF to AVIF Converter
   heifToAvif: {
-    title: "HEIF을 AVIF로 변환기 - HEIF 이미지를 AVIF로 무료 온라인 변환",
+    title: "HEIF to AVIF 변환기 - 차세대 AV1 이미지 형식으로 변환",
     metaDescription:
-      "HEIF 이미지를 AVIF 형식으로 즉시 변환. 일괄 처리가 있는 무료 온라인 HEIF을 AVIF로 변환기. 빠르고 안전하며 등록 불필요. 모든 디바이스의 HEIF 사진과 작동.",
+      "HEIF를 AVIF로 변환하여 최첨단 압축을 얻으세요. JPEG보다 50% 작고, WebP보다 20% 작습니다. HDR 지원이 있는 로열티 프리 AV1 형식. Netflix와 YouTube에서 사용. 무료 일괄 변환기.",
     metaKeywords:
-      "HEIF을 AVIF로, HEIF 변환, HEIF 이미지를 AVIF, HEIF 변환기, 이미지를 AVIF, 배치 변환 HEIF, 무료 HEIF 변환기, HEIF vs HEIC",
+      "HEIF to AVIF, AV1 이미지 형식, 차세대 압축, HDR 이미지, 로열티 프리 형식, AVIF vs WebP, 일괄 변환 HEIF, 현대 이미지 형식",
     hero: {
       title: "HEIF을 AVIF로 변환기",
       subtitle:
