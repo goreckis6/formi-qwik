@@ -210,6 +210,10 @@ export const fr: Translations = {
       name: "HEIF en PNG",
       description: "Convertissez les images HEIF en format PNG instantanément",
     },
+    heifToPdf: {
+      name: "HEIF en PDF",
+      description: "Convertissez les images HEIF en format PDF instantanément",
+    },
   },
 
   heicToPdf: {
@@ -1178,6 +1182,138 @@ export const fr: Translations = {
     },
   },
 
+  // HEIF to PDF Converter
+  heifToPdf: {
+    title: "Convertisseur HEIF en PDF - Convertissez les Images HEIF en PDF Gratuitement en Ligne",
+    metaDescription:
+      "Convertissez les images HEIF au format PDF instantanément. Convertisseur HEIF en PDF gratuit en ligne avec traitement par lots. Rapide, sécurisé et sans inscription requise. Fonctionne avec les photos HEIF de tous les appareils.",
+    metaKeywords:
+      "HEIF en PDF, convertir HEIF, images HEIF en PDF, convertisseur HEIF, image en PDF, conversion par lots HEIF, convertisseur HEIF gratuit, HEIF vs HEIC",
+    hero: {
+      title: "Convertisseur HEIF en PDF",
+      subtitle:
+        "Transformez vos images HEIF en format PDF universel instantanément. Conversion gratuite, rapide et sécurisée sans limites de taille de fichier. Parfait pour les photos HEIF de n'importe quel appareil.",
+      badge1: "Ultra Rapide",
+      badge2: "100% Sécurisé",
+      badge3: "Sans Inscription",
+    },
+    upload: {
+      title: "Télécharger les Fichiers HEIF",
+      description:
+        "Glissez-déposez vos images HEIF ici ou cliquez pour parcourir. Prend en charge la conversion par lots jusqu'à 20 fichiers. Maximum 100MB par fichier.",
+      buttonSingle: "Fichier Unique",
+      buttonBatch: "Conversion par Lots",
+      chooseFile: "Choisir les Fichiers",
+      converting: "Conversion...",
+      success: "Conversion réussie !",
+      download: "Télécharger PDF",
+      downloadAll: "Télécharger Tout en ZIP",
+      convertAnother: "Convertir un Autre Fichier",
+    },
+    features: {
+      title: "Fonctionnalités",
+      list: [
+        "Conversion HEIF en PDF de haute qualité",
+        "Traitement par lots jusqu'à 20 fichiers",
+        "Préserve la qualité d'image",
+        "Aucune limitation de taille de fichier",
+        "100% sécurisé et privé",
+        "Fonctionne avec les photos HEIF de tous les appareils",
+        "Téléchargement instantané après conversion",
+        "Aucun filigrane ajouté",
+      ],
+    },
+    howItWorks: {
+      title: "Comment ça Fonctionne",
+      step1Title: "Télécharger les Fichiers HEIF",
+      step1Desc: "Sélectionnez une ou plusieurs images HEIF de votre appareil",
+      step2Title: "Conversion Automatique",
+      step2Desc: "Notre convertisseur traite vos fichiers instantanément",
+      step3Title: "Télécharger PDF",
+      step3Desc: "Obtenez vos fichiers PDF convertis immédiatement",
+    },
+    about: {
+      title: "À Propos de la Conversion HEIF en PDF",
+      whatIsHeif: {
+        title: "Qu'est-ce que le Format HEIF ?",
+        content:
+          "HEIF (High Efficiency Image Format) est un format de conteneur d'images moderne qui utilise la compression HEVC (H.265). Bien que similaire à HEIC, HEIF est le nom de format standard, tandis que HEIC fait spécifiquement référence à l'implémentation d'Apple. HEIF offre une compression supérieure par rapport à PDF tout en maintenant une haute qualité d'image, ce qui le rend idéal pour stocker des photos efficacement.",
+      },
+      whyConvert: {
+        title: "Pourquoi Convertir HEIF en PDF ?",
+        content:
+          "Bien que HEIF soit efficace et moderne, il n'est pas universellement pris en charge sur tous les appareils et plateformes. La conversion de HEIF en PDF garantit que vos images peuvent être visualisées sur n'importe quel appareil, facilement partagées par e-mail, téléchargées sur des sites web et utilisées dans n'importe quelle application. Le format PDF est le format d'image le plus largement pris en charge dans le monde, ce qui le rend parfait pour une compatibilité et un partage maximaux.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Quelle est la Différence ?",
+        content:
+          "HEIF (High Efficiency Image Format) est le standard de format de conteneur, tandis que HEIC (High Efficiency Image Container) est l'implémentation spécifique d'Apple de HEIF. En pratique, ils sont très similaires - les deux utilisent la même technologie de compression et offrent les mêmes avantages. Les appareils Apple enregistrent les photos sous forme de fichiers HEIC, qui sont en fait conformes à HEIF. Notre convertisseur gère les deux formats de manière transparente, vous pouvez donc convertir n'importe quelle image HEIF/HEIC au format PDF.",
+      },
+      benefits: {
+        title: "Avantages de Notre Convertisseur",
+        list: [
+          "Compatibilité Universelle - Les PDF fonctionnent sur tous les appareils et plateformes",
+          "Taille de Fichier Plus Petite - Compression efficace pour un partage plus rapide",
+          "Large Support - Format d'image le plus utilisé dans le monde",
+          "Facile à Partager - Compatible avec tous les clients de messagerie et les réseaux sociaux",
+          "Prêt pour le Web - Idéal pour les sites web, les réseaux sociaux et l'utilisation en ligne",
+          "Haute Qualité - Préservez la résolution d'image d'origine",
+        ],
+      },
+    },
+    faq: {
+      title: "Questions Fréquemment Posées – HEIF en PDF",
+      items: [
+        {
+          q: "Est-ce gratuit de convertir HEIF en PDF ?",
+          a: "Oui ! Notre convertisseur HEIF en PDF est entièrement gratuit sans frais cachés. Vous pouvez convertir un nombre illimité de fichiers sans inscription ni abonnement.",
+        },
+        {
+          q: "Quelle est la différence entre HEIF et HEIC ?",
+          a: "HEIF (High Efficiency Image Format) est le nom de format standard, tandis que HEIC (High Efficiency Image Container) est l'implémentation spécifique d'Apple. Ils utilisent la même technologie de compression et sont fonctionnellement très similaires. Notre convertisseur gère les deux formats de manière transparente.",
+        },
+        {
+          q: "Mes données sont-elles sûres ?",
+          a: "Absolument. Toutes les conversions se font en toute sécurité sur nos serveurs avec chiffrement SSL. Vos fichiers sont automatiquement supprimés immédiatement après la conversion. Nous ne stockons, ne partageons ni n'accédons jamais à vos fichiers.",
+        },
+        {
+          q: "Quelle est la taille maximale de fichier ?",
+          a: "Vous pouvez convertir des fichiers HEIF jusqu'à 100MB chacun. Pour la conversion par lots, vous pouvez traiter jusqu'à 20 fichiers à la fois avec une limite totale de 100MB.",
+        },
+        {
+          q: "Prenez-vous en charge la conversion par lots ?",
+          a: "Oui ! Vous pouvez télécharger et convertir jusqu'à 20 fichiers HEIF simultanément. Tous les PDF convertis seront disponibles au téléchargement en tant que fichiers individuels ou dans une seule archive ZIP.",
+        },
+        {
+          q: "La qualité sera-t-elle préservée ?",
+          a: "Oui, nous maintenons une haute qualité d'image pendant la conversion. Vos images HEIF seront converties en PDF haute résolution avec une perte de qualité minimale.",
+        },
+        {
+          q: "Puis-je convertir HEIF depuis n'importe quel appareil ?",
+          a: "Oui ! Notre convertisseur fonctionne avec des images HEIF de n'importe quel appareil ou appareil photo qui prend en charge le format HEIF, pas seulement les appareils Apple. Il suffit de télécharger vos fichiers HEIF et de les convertir en PDF.",
+        },
+        {
+          q: "Dois-je installer un logiciel ?",
+          a: "Aucune installation nécessaire. Notre convertisseur en ligne fonctionne directement dans votre navigateur web sur n'importe quel appareil - Windows, Mac, Linux, iOS ou Android.",
+        },
+        {
+          q: "Combien de temps prend la conversion ?",
+          a: "La conversion est presque instantanée ! La plupart des fichiers HEIF se convertissent en PDF en quelques secondes seulement, selon la taille du fichier et votre connexion Internet.",
+        },
+      ],
+    },
+    related: {
+      title: "Convertisseurs Associés",
+      converters: [
+        { name: "HEIC en PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC en PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC en PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF en PNG", url: "/convert/heif-to-png" },
+        { name: "PDF en PDF", url: "/convert/pdf-to-pdf" },
+        { name: "PNG en PDF", url: "/convert/png-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "Convertisseur HEIF en PNG - Convertissez les Images HEIF en PNG Gratuitement en Ligne",

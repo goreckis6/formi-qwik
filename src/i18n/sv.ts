@@ -202,6 +202,10 @@ export const sv: Translations = {
       name: "HEIF till PNG",
       description: "Konvertera HEIF-bilder till PNG-format direkt",
     },
+    heifToPdf: {
+      name: "HEIF till PDF",
+      description: "Konvertera HEIF-bilder till PDF-format direkt",
+    },
   },
 
   heicToPdf: {
@@ -1169,6 +1173,138 @@ export const sv: Translations = {
     },
   },
 
+  // HEIF to PDF Converter
+  heifToPdf: {
+    title: "HEIF till PDF-konverterare - Konvertera HEIF-bilder Gratis Online till PDF",
+    metaDescription:
+      "Konvertera HEIF-bilder direkt till PDF-format. Gratis online HEIF till PDF-konverterare med batchbearbetning. Snabb, säker och ingen registrering krävs. Fungerar med HEIF-foton från alla enheter.",
+    metaKeywords:
+      "HEIF till PDF, konvertera HEIF, HEIF bilder till PDF, HEIF-konverterare, bild till PDF, batch konvertera HEIF, gratis HEIF-konverterare, HEIF vs HEIC",
+    hero: {
+      title: "HEIF till PDF-konverterare",
+      subtitle:
+        "Förvandla dina HEIF-bilder direkt till universellt PDF-format. Gratis, snabb och säker konvertering utan filstorleksbegränsningar. Perfekt för HEIF-foton från vilken enhet som helst.",
+      badge1: "Blixtsnabb",
+      badge2: "100% Säker",
+      badge3: "Ingen Registrering",
+    },
+    upload: {
+      title: "Ladda upp HEIF-filer",
+      description:
+        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batch Konvertera",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner PDF",
+      downloadAll: "Ladda ner Alla som ZIP",
+      convertAnother: "Konvertera Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "Högkvalitativ HEIF till PDF-konvertering",
+        "Batchbearbetning upp till 20 filer",
+        "Bevarar bildkvalitet",
+        "Ingen filstorleksbegränsning",
+        "100% säker och privat",
+        "Fungerar med HEIF-foton från alla enheter",
+        "Omedelbar nedladdning efter konvertering",
+        "Inga vattenstämplar tillagda",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp HEIF-filer",
+      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer direkt",
+      step3Title: "Ladda ner PDF",
+      step3Desc: "Få dina konverterade PDF-filer direkt",
+    },
+    about: {
+      title: "Om HEIF till PDF-konvertering",
+      whatIsHeif: {
+        title: "Vad är HEIF-formatet?",
+        content:
+          "HEIF (High Efficiency Image Format) är ett modernt bildcontainerformat som använder HEVC (H.265) komprimering. Även om det liknar HEIC, är HEIF standardformatets namn, medan HEIC specifikt hänvisar till Apples implementering. HEIF erbjuder överlägsen komprimering jämfört med PDF samtidigt som det behåller hög bildkvalitet, vilket gör det idealiskt för effektiv lagring av foton.",
+      },
+      whyConvert: {
+        title: "Varför konvertera HEIF till PDF?",
+        content:
+          "Även om HEIF är effektivt och modernt, stöds det inte universellt på alla enheter och plattformar. Att konvertera HEIF till PDF säkerställer att dina bilder kan visas på vilken enhet som helst, enkelt delas via e-post, laddas upp till webbplatser och användas i vilken applikation som helst. PDF-formatet är det mest bredt stödda bildformatet i världen, vilket gör det idealiskt för maximal kompatibilitet och delning.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Vad är Skillnaden?",
+        content:
+          "HEIF (High Efficiency Image Format) är containerformatets standard, medan HEIC (High Efficiency Image Container) är Apples specifika implementering av HEIF. I praktiken är de mycket lika - båda använder samma komprimerings teknologi och erbjuder samma fördelar. Apple-enheter sparar foton som HEIC-filer, som faktiskt är HEIF-kompatibla. Vår konverterare hanterar båda formaten sömlöst, så du kan konvertera vilken HEIF/HEIC-bild som helst till PDF-format.",
+      },
+      benefits: {
+        title: "Fördelar med Vår Konverterare",
+        list: [
+          "Universell Kompatibilitet - PDF fungerar på alla enheter och plattformar",
+          "Mindre Filstorlek - Effektiv komprimering för snabbare delning",
+          "Brett Stöd - Mest använda bildformatet i världen",
+          "Enkel Delning - Kompatibel med alla e-postklienter och sociala medier",
+          "Webbredo - Idealiskt för webbplatser, sociala medier och onlineanvändning",
+          "Hög Kvalitet - Bevarar originalbildens upplösning",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – HEIF till PDF",
+      items: [
+        {
+          q: "Är det gratis att konvertera HEIF till PDF?",
+          a: "Ja! Vår HEIF till PDF-konverterare är helt gratis utan dolda avgifter. Du kan konvertera obegränsat antal filer utan registrering eller prenumeration.",
+        },
+        {
+          q: "Vad är skillnaden mellan HEIF och HEIC?",
+          a: "HEIF (High Efficiency Image Format) är standardformatets namn, medan HEIC (High Efficiency Image Container) är Apples specifika implementering. De använder samma komprimerings teknologi och är funktionellt mycket lika. Vår konverterare hanterar båda formaten sömlöst.",
+        },
+        {
+          q: "Är mina data säkra?",
+          a: "Absolut. Alla konverteringar sker säkert på våra servrar med SSL-kryptering. Dina filer raderas automatiskt direkt efter konvertering. Vi lagrar, delar eller öppnar aldrig dina filer.",
+        },
+        {
+          q: "Vad är den maximala filstorleken?",
+          a: "Du kan konvertera HEIF-filer upp till 100MB vardera. För batchkonvertering kan du bearbeta upp till 20 filer samtidigt med en total gräns på 100MB.",
+        },
+        {
+          q: "Stöder ni batchkonvertering?",
+          a: "Ja! Du kan ladda upp och konvertera upp till 20 HEIF-filer samtidigt. Alla konverterade PDF:er kommer att vara tillgängliga för nedladdning som individuella filer eller i ett enda ZIP-arkiv.",
+        },
+        {
+          q: "Kommer kvaliteten att bevaras?",
+          a: "Ja, vi bevarar hög bildkvalitet under konvertering. Dina HEIF-bilder kommer att konverteras till högupplösta PDF:er med minimal kvalitetsförlust.",
+        },
+        {
+          q: "Kan jag konvertera HEIF från vilken enhet som helst?",
+          a: "Ja! Vår konverterare fungerar med HEIF-bilder från vilken enhet eller kamera som helst som stöder HEIF-formatet, inte bara Apple-enheter. Ladda bara upp dina HEIF-filer och konvertera dem till PDF.",
+        },
+        {
+          q: "Behöver jag installera någon programvara?",
+          a: "Ingen installation behövs. Vår onlinekonverterare fungerar direkt i din webbläsare på vilken enhet som helst - Windows, Mac, Linux, iOS eller Android.",
+        },
+        {
+          q: "Hur lång tid tar konverteringen?",
+          a: "Konvertering är nästan omedelbar! De flesta HEIF-filer konverteras till PDF på bara några sekunder, beroende på filstorleken och din internetanslutning.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "HEIC till PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC till PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC till PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF till PNG", url: "/convert/heif-to-png" },
+        { name: "PDF till PDF", url: "/convert/pdf-to-pdf" },
+        { name: "PNG till PDF", url: "/convert/png-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF till PNG-konverterare - Konvertera HEIF-bilder Gratis Online till PNG",
