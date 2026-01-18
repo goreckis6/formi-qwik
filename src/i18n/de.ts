@@ -258,14 +258,14 @@ export const de: Translations = {
     features: {
       title: "Funktionen",
       list: [
-        "Hochwertige HEIC zu PDF Konvertierung",
-        "Stapelverarbeitung von bis zu 20 Dateien",
-        "Erhält Bildqualität und EXIF-Daten",
-        "Keine Dateigrößenbeschränkungen",
-        "100% sicher und privat",
-        "Funktioniert mit iPhone & iPad Fotos",
-        "Sofortiger Download nach Konvertierung",
-        "Keine Wasserzeichen hinzugefügt",
+        "Überlegene Kompression - 25-35% kleiner als JPEG",
+        "Bewahrt Transparenz (Alpha-Kanal)",
+        "Batch-Verarbeitung bis zu 20 Dateien gleichzeitig",
+        "Sowohl verlustbehaftet als auch nahezu verlustfrei",
+        "100% sicher mit automatischer Dateilöschung",
+        "Optimiert für Web-Performance und SEO",
+        "Sofortiger Download - bereit für Websites",
+        "Keine Wasserzeichen - reines WebP-Ausgabe",
       ],
     },
 
@@ -304,24 +304,44 @@ export const de: Translations = {
       },
     },
 
-    faq: {
-      title: "Häufig gestellte Fragen – HEIC zu PDF",
+        faq: {
+      title: "Häufig gestellte Fragen – HEIF zu WebP",
       items: [
         {
-          q: "Ist die Konvertierung von HEIC zu PDF kostenlos?",
-          a: "Ja! Unser HEIC zu PDF Konverter ist völlig kostenlos zu verwenden. Sie können HEIC-Bilder zu PDF konvertieren ohne Registrierung, Abonnements oder versteckte Gebühren.",
+          q: "Ist die Konvertierung von HEIF zu WebP kostenlos?",
+          a: "Ja! Unser HEIF zu WebP Konverter ist komplett kostenlos mit unbegrenzten Konvertierungen. Keine Registrierung, Abonnements oder versteckte Gebühren. Konvertieren Sie so viele Bilder wie Sie für Ihre Website-Optimierung benötigen.",
         },
         {
-          q: "Kann ich HEIC-Fotos vom iPhone zu PDF konvertieren?",
-          a: "Ja. Sie können HEIC-Fotos, die auf iPhone, iPad oder einem Apple-Gerät aufgenommen wurden, direkt zu PDF konvertieren. Laden Sie einfach Ihre HEIC-Dateien von Ihrem Gerät hoch, und die Konvertierung funktioniert sofort in Ihrem Browser.",
+          q: "Wie viel kleiner sind WebP-Dateien im Vergleich zu JPEG?",
+          a: "WebP-Dateien sind typischerweise 25-35% kleiner als JPEG bei gleichwertiger visueller Qualität. Für ein 1MB JPEG erhalten Sie ein 650-750KB WebP mit identischer oder besserer Qualität. Diese signifikante Größenreduzierung verbessert direkt Seitenladezeiten und Core Web Vitals-Scores, was zu besseren SEO-Rankings und Benutzererfahrung führt.",
         },
         {
-          q: "Wird die Qualität bei der Konvertierung von HEIC zu PDF erhalten bleiben?",
-          a: "Ja. Wir erhalten die ursprüngliche Bildqualität während der Konvertierung. Ihre HEIC-Fotos werden in hochauflösende PDF-Dateien ohne Komprimierung oder Qualitätsverlust konvertiert.",
+          q: "Wird WebP das SEO meiner Website verbessern?",
+          a: "Ja! Google PageSpeed Insights empfiehlt explizit die Bereitstellung von Bildern in Next-Gen-Formaten wie WebP. Kleinere WebP-Dateien verbessern Core Web Vitals-Metriken (LCP - Largest Contentful Paint), die direkte Ranking-Faktoren in Google Search sind. Schneller ladende Seiten = bessere SEO-Rankings + niedrigere Absprungraten + höhere Konversionen.",
         },
         {
-          q: "Wie groß ist die maximale Dateigröße für die Konvertierung von HEIC zu PDF?",
-          a: "Sie können HEIC-Dateien mit bis zu 100MB pro Datei konvertieren. Für Stapelkonvertierung können Sie bis zu 20 Dateien gleichzeitig mit einer Gesamtgrößenbegrenzung von 100MB hochladen.",
+          q: "Wird WebP von allen Browsern unterstützt?",
+          a: "WebP wird von 97%+ der Browser weltweit unterstützt: Chrome (alle Versionen), Firefox 65+, Edge 18+, Safari 14+ (2020), Opera 11+ und alle mobilen Browser. Für ältere Safari-Versionen (vor 14) verwenden Sie das HTML <picture>-Element mit JPEG-Fallback für 100% Kompatibilität.",
+        },
+        {
+          q: "Unterstützt WebP Transparenz wie PNG?",
+          a: "Ja! WebP unterstützt vollständig Transparenz (Alpha-Kanal) genau wie PNG, aber mit 26% kleineren Dateigrößen im Durchschnitt. Dies macht WebP perfekt für Logos, Icons, Grafiken und jedes Bild, das transparente Hintergründe erfordert. Unser Konverter bewahrt automatisch Transparenz beim Konvertieren von HEIF.",
+        },
+        {
+          q: "Was ist verlustbehaftetes vs. verlustfreies WebP?",
+          a: "Verlustbehaftetes WebP (wie JPEG) verwendet Kompression, die Qualität leicht reduziert für kleinere Dateien - ideal für Fotos (25-35% kleiner als JPEG). Verlustfreies WebP (wie PNG) bewahrt perfekte Qualität - ideal für Grafiken (26% kleiner als PNG). Unser Konverter verwendet intelligente Qualitätseinstellungen, die für Web-Performance optimiert sind und gleichzeitig exzellente visuelle Qualität beibehalten.",
+        },
+        {
+          q: "Kann ich WebP für Responsive Images verwenden?",
+          a: "Absolut! WebP ist perfekt für Responsive Webdesign. Verwenden Sie es mit HTML <picture>-Element und srcset für verschiedene Bildschirmgrößen. WebPs kleinere Dateigröße bedeutet schnelleres Laden auf mobilen Netzwerken (3G/4G), verbessert die mobile Benutzererfahrung und Googles Mobile-First-Indexing-Rankings.",
+        },
+        {
+          q: "Muss ich Software installieren?",
+          a: "Keine Installation erforderlich. Unser Online-Konverter funktioniert direkt in Ihrem Browser auf jedem Gerät oder jeder Plattform. Laden Sie einfach HEIF-Dateien hoch, konvertieren Sie zu WebP und laden Sie optimierte Bilder herunter, die für Ihre Website, CDN oder WordPress bereit sind.",
+        },
+        {
+          q: "Wie lange dauert die Konvertierung?",
+          a: "Die Konvertierung dauert 2-3 Sekunden pro Datei. Unser Konverter wendet optimale Kompressionseinstellungen (Qualität 85-90) an für das beste Gleichgewicht zwischen Dateigröße und visueller Qualität, um sicherzustellen, dass Ihre WebP-Bilder web-ready sind.",
         },
       ],
     },
@@ -1474,18 +1494,18 @@ export const de: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "HEIF zu WebP Konverter - Konvertieren Sie HEIF-Bilder kostenlos online zu WebP",
+    title: "HEIF zu WebP Konverter - In modernes weboptimiertes Format konvertieren",
     metaDescription:
-      "Konvertieren Sie HEIF-Bilder sofort in WebP-Format. Kostenloser Online HEIF zu WebP Konverter mit Stapelverarbeitung. Schnell, sicher und keine Registrierung erforderlich. Funktioniert mit HEIF-Fotos von allen Geräten.",
+      "HEIF zu WebP für überlegene Web-Performance konvertieren. 25-35% kleinere Dateien als JPEG bei besserer Qualität. Googles Next-Gen-Format mit Transparenzunterstützung. Kostenloser Batch-Konverter, keine Registrierung.",
     metaKeywords:
-      "HEIF zu WebP, HEIF konvertieren, HEIF Bilder zu WebP, HEIF Konverter, Bild zu WebP, Stapelkonvertierung HEIF, kostenloser HEIF Konverter, HEIF vs HEIC",
+      "HEIF zu WebP, Web-Optimierung, Next-Gen-Format, Google WebP, verlustbehaftetes WebP, Transparenz WebP, Batch-Konvertierung HEIF, modernes Bildformat",
     hero: {
       title: "HEIF zu WebP Konverter",
       subtitle:
-        "Verwandeln Sie Ihre HEIF-Bilder sofort in universelles WebP-Format. Kostenlose, schnelle und sichere Konvertierung ohne Dateigrößenbeschränkungen. Perfekt für HEIF-Fotos von jedem Gerät.",
-      badge1: "Blitzschnell",
-      badge2: "100% Sicher",
-      badge3: "Keine Registrierung",
+        "Konvertieren Sie HEIF in Googles WebP-Format für blitzschnelle Websites. 25-35% kleinere Dateien, überlegene Kompression, Transparenzunterstützung. Der moderne Web-Standard für optimierte Bilder.",
+      badge1: "Überlegene Kompression",
+      badge2: "Web-Optimiert",
+      badge3: "Transparenz-Unterstützung",
     },
     upload: {
       title: "HEIF-Dateien hochladen",
@@ -1503,14 +1523,14 @@ export const de: Translations = {
     features: {
       title: "Funktionen",
       list: [
-        "Hochwertige HEIF zu WebP Konvertierung",
-        "Stapelverarbeitung bis zu 20 Dateien",
-        "Erhält Bildqualität",
-        "Keine Dateigrößenbeschränkungen",
-        "100% sicher und privat",
-        "Funktioniert mit HEIF-Fotos von allen Geräten",
-        "Sofortiger Download nach Konvertierung",
-        "Keine Wasserzeichen hinzugefügt",
+        "Überlegene Kompression - 25-35% kleiner als JPEG",
+        "Bewahrt Transparenz (Alpha-Kanal)",
+        "Batch-Verarbeitung bis zu 20 Dateien gleichzeitig",
+        "Sowohl verlustbehaftet als auch nahezu verlustfrei",
+        "100% sicher mit automatischer Dateilöschung",
+        "Optimiert für Web-Performance und SEO",
+        "Sofortiger Download - bereit für Websites",
+        "Keine Wasserzeichen - reines WebP-Ausgabe",
       ],
     },
     howItWorks: {
@@ -1525,70 +1545,70 @@ export const de: Translations = {
     about: {
       title: "Über HEIF zu WebP Konvertierung",
       whatIsHeif: {
-        title: "Was ist das HEIF-Format?",
+        title: "Was ist das WebP-Format?",
         content:
-          "HEIF (High Efficiency Image Format) ist ein modernes Bildcontainer-Format, das HEVC (H.265) Kompression verwendet. Während ähnlich zu HEIC, ist HEIF der Standard-Formatname, während HEIC speziell auf Apples Implementierung verweist. HEIF bietet überlegene Kompression im Vergleich zu WebP bei gleichzeitig hoher Bildqualität, was es ideal zum effizienten Speichern von Fotos macht.",
+          "WebP ist Googles Bildformat der nächsten Generation, das speziell für das Web entwickelt wurde. 2010 eingeführt, bietet WebP überlegene Kompression (25-35% kleiner als JPEG) bei gleicher oder besserer visueller Qualität. WebP unterstützt sowohl verlustbehaftete als auch verlustfreie Kompression, Transparenz (Alpha-Kanal) und Animation. Es wird jetzt von 97%+ der Browser unterstützt (Chrome, Firefox, Edge, Safari 14+, Opera) und wird von Google PageSpeed Insights für optimale Web-Performance und Core Web Vitals-Scores empfohlen.",
       },
       whyConvert: {
         title: "Warum HEIF zu WebP konvertieren?",
         content:
-          "Während HEIF effizient und modern ist, wird es nicht universell auf allen Geräten und Plattformen unterstützt. Die Konvertierung von HEIF zu WebP stellt sicher, dass Ihre Bilder auf jedem Gerät angezeigt, einfach per E-Mail geteilt, auf Websites hochgeladen und in jeder Anwendung verwendet werden können. WebP-Format ist das am weitesten verbreitete Bildformat weltweit, was es perfekt für maximale Kompatibilität und Sharing macht.",
+          "Konvertieren Sie HEIF zu WebP, um die Performance Ihrer Website zu optimieren und SEO-Rankings zu verbessern. WebPs überlegene Kompression reduziert Ladezeiten um 25-35% und verbessert direkt Core Web Vitals-Scores (LCP, FID, CLS), die Google für Such-Rankings verwendet. Im Gegensatz zu HEIF (auf Apple-Geräte beschränkt) wird WebP universell von allen modernen Browsern und Plattformen unterstützt. Perfekt für E-Commerce-Produktbilder, Blog-Fotos, Responsive Webdesign, Progressive Web Apps (PWAs) und jede Website, die Geschwindigkeit und Benutzererfahrung priorisiert. Schnelleres Laden = besseres SEO + höhere Konversionen.",
       },
       heifVsHeic: {
-        title: "HEIF vs HEIC - Was ist der Unterschied?",
+        title: "WebP vs HEIF - Welches Format für das Web?",
         content:
-          "HEIF (High Efficiency Image Format) ist das Container-Format-Standard, während HEIC (High Efficiency Image Container) Apples spezifische Implementierung von HEIF ist. In der Praxis sind sie sehr ähnlich - beide verwenden die gleiche Kompressionstechnologie und bieten die gleichen Vorteile. Apple-Geräte speichern Fotos als HEIC-Dateien, die tatsächlich HEIF-konform sind. Unser Konverter behandelt beide Formate nahtlos, sodass Sie jedes HEIF/HEIC-Bild in WebP-Format konvertieren können.",
+          "Obwohl beide moderne Formate mit exzellenter Kompression sind, ist WebP speziell für das Web entwickelt. HEIF glänzt auf mobilen Geräten (iOS/Apple-Ökosystem), erfordert aber Browser-Plugins für die Web-Anzeige. WebP bietet native Browser-Unterstützung (97%+ Abdeckung), schnellere Dekodierungszeiten für Web-Rendering, bessere Kompression bei gleichwertigen Qualitätsstufen und wird explizit von Google für SEO empfohlen. Wählen Sie WebP für: Websites, Web-Apps, Online-Shops, CDN-Bereitstellung, Responsive Images und jeden über HTTP bereitgestellten Inhalt. Wählen Sie HEIF für: iOS-App-Entwicklung oder Offline-Foto-Archivierung.",
       },
       benefits: {
-        title: "Vorteile unseres Konverters",
+        title: "Vorteile des WebP-Formats",
         list: [
-          "Universelle Kompatibilität - WebPs funktionieren auf allen Geräten und Plattformen",
-          "Kleinere Dateigröße - Effiziente Komprimierung für schnelleres Teilen",
-          "Breite Unterstützung - Am weitesten verbreitetes Bildformat weltweit",
-          "Einfaches Teilen - Kompatibel mit allen E-Mail-Clients und sozialen Medien",
-          "Web-Bereit - Ideal für Websites, soziale Medien und Online-Nutzung",
-          "Hohe Qualität - Behalten Sie die ursprüngliche Bildauflösung bei",
+          "Überlegene Kompression - 25-35% kleiner als JPEG/PNG bei gleicher Qualität",
+          "Bessere SEO-Rankings - Google PageSpeed empfiehlt WebP für Core Web Vitals",
+          "Schnellere Seitenladezeiten - Kleinere Dateien = schnellerer LCP (Largest Contentful Paint)",
+          "97%+ Browser-Unterstützung - Chrome, Firefox, Edge, Safari 14+, Opera",
+          "Transparenz-Unterstützung - Alpha-Kanal wie PNG, aber 26% kleiner",
+          "Responsive Web Ready - Perfekt für srcset und picture-Element",
         ],
       },
     },
-    faq: {
+        faq: {
       title: "Häufig gestellte Fragen – HEIF zu WebP",
       items: [
         {
           q: "Ist die Konvertierung von HEIF zu WebP kostenlos?",
-          a: "Ja! Unser HEIF zu WebP Konverter ist völlig kostenlos ohne versteckte Gebühren. Sie können unbegrenzt viele Dateien ohne Registrierung oder Abonnement konvertieren.",
+          a: "Ja! Unser HEIF zu WebP Konverter ist komplett kostenlos mit unbegrenzten Konvertierungen. Keine Registrierung, Abonnements oder versteckte Gebühren. Konvertieren Sie so viele Bilder wie Sie für Ihre Website-Optimierung benötigen.",
         },
         {
-          q: "Was ist der Unterschied zwischen HEIF und HEIC?",
-          a: "HEIF (High Efficiency Image Format) ist der Standard-Formatname, während HEIC (High Efficiency Image Container) Apples spezifische Implementierung ist. Sie verwenden die gleiche Kompressionstechnologie und sind funktional sehr ähnlich. Unser Konverter behandelt beide Formate nahtlos.",
+          q: "Wie viel kleiner sind WebP-Dateien im Vergleich zu JPEG?",
+          a: "WebP-Dateien sind typischerweise 25-35% kleiner als JPEG bei gleichwertiger visueller Qualität. Für ein 1MB JPEG erhalten Sie ein 650-750KB WebP mit identischer oder besserer Qualität. Diese signifikante Größenreduzierung verbessert direkt Seitenladezeiten und Core Web Vitals-Scores, was zu besseren SEO-Rankings und Benutzererfahrung führt.",
         },
         {
-          q: "Sind meine Daten sicher?",
-          a: "Absolut. Alle Konvertierungen erfolgen sicher auf unseren Servern mit SSL-Verschlüsselung. Ihre Dateien werden automatisch sofort nach der Konvertierung gelöscht. Wir speichern, teilen oder greifen niemals auf Ihre Dateien zu.",
+          q: "Wird WebP das SEO meiner Website verbessern?",
+          a: "Ja! Google PageSpeed Insights empfiehlt explizit die Bereitstellung von Bildern in Next-Gen-Formaten wie WebP. Kleinere WebP-Dateien verbessern Core Web Vitals-Metriken (LCP - Largest Contentful Paint), die direkte Ranking-Faktoren in Google Search sind. Schneller ladende Seiten = bessere SEO-Rankings + niedrigere Absprungraten + höhere Konversionen.",
         },
         {
-          q: "Was ist die maximale Dateigröße?",
-          a: "Sie können HEIF-Dateien bis zu 100MB pro Stück konvertieren. Für die Stapelkonvertierung können Sie bis zu 20 Dateien gleichzeitig mit einem Gesamtlimit von 100MB verarbeiten.",
+          q: "Wird WebP von allen Browsern unterstützt?",
+          a: "WebP wird von 97%+ der Browser weltweit unterstützt: Chrome (alle Versionen), Firefox 65+, Edge 18+, Safari 14+ (2020), Opera 11+ und alle mobilen Browser. Für ältere Safari-Versionen (vor 14) verwenden Sie das HTML <picture>-Element mit JPEG-Fallback für 100% Kompatibilität.",
         },
         {
-          q: "Unterstützen Sie Stapelkonvertierung?",
-          a: "Ja! Sie können bis zu 20 HEIF-Dateien gleichzeitig hochladen und konvertieren. Alle konvertierten WebPs stehen als einzelne Dateien oder in einem ZIP-Archiv zum Download zur Verfügung.",
+          q: "Unterstützt WebP Transparenz wie PNG?",
+          a: "Ja! WebP unterstützt vollständig Transparenz (Alpha-Kanal) genau wie PNG, aber mit 26% kleineren Dateigrößen im Durchschnitt. Dies macht WebP perfekt für Logos, Icons, Grafiken und jedes Bild, das transparente Hintergründe erfordert. Unser Konverter bewahrt automatisch Transparenz beim Konvertieren von HEIF.",
         },
         {
-          q: "Wird die Qualität erhalten bleiben?",
-          a: "Ja, wir erhalten hohe Bildqualität während der Konvertierung. Ihre HEIF-Bilder werden in hochauflösende WebPs mit minimalem Qualitätsverlust konvertiert.",
+          q: "Was ist verlustbehaftetes vs. verlustfreies WebP?",
+          a: "Verlustbehaftetes WebP (wie JPEG) verwendet Kompression, die Qualität leicht reduziert für kleinere Dateien - ideal für Fotos (25-35% kleiner als JPEG). Verlustfreies WebP (wie PNG) bewahrt perfekte Qualität - ideal für Grafiken (26% kleiner als PNG). Unser Konverter verwendet intelligente Qualitätseinstellungen, die für Web-Performance optimiert sind und gleichzeitig exzellente visuelle Qualität beibehalten.",
         },
         {
-          q: "Kann ich HEIF von jedem Gerät konvertieren?",
-          a: "Ja! Unser Konverter funktioniert mit HEIF-Bildern von jedem Gerät oder Kamera, die HEIF-Format unterstützt, nicht nur Apple-Geräte. Laden Sie einfach Ihre HEIF-Dateien hoch und konvertieren Sie sie in WebP.",
+          q: "Kann ich WebP für Responsive Images verwenden?",
+          a: "Absolut! WebP ist perfekt für Responsive Webdesign. Verwenden Sie es mit HTML <picture>-Element und srcset für verschiedene Bildschirmgrößen. WebPs kleinere Dateigröße bedeutet schnelleres Laden auf mobilen Netzwerken (3G/4G), verbessert die mobile Benutzererfahrung und Googles Mobile-First-Indexing-Rankings.",
         },
         {
           q: "Muss ich Software installieren?",
-          a: "Keine Installation erforderlich. Unser Online-Konverter funktioniert direkt in Ihrem Webbrowser auf jedem Gerät - Windows, Mac, Linux, iOS oder Android.",
+          a: "Keine Installation erforderlich. Unser Online-Konverter funktioniert direkt in Ihrem Browser auf jedem Gerät oder jeder Plattform. Laden Sie einfach HEIF-Dateien hoch, konvertieren Sie zu WebP und laden Sie optimierte Bilder herunter, die für Ihre Website, CDN oder WordPress bereit sind.",
         },
         {
           q: "Wie lange dauert die Konvertierung?",
-          a: "Die Konvertierung ist fast sofort! Die meisten HEIF-Dateien konvertieren in nur wenigen Sekunden zu WebP, abhängig von der Dateigröße und Ihrer Internetverbindung.",
+          a: "Die Konvertierung dauert 2-3 Sekunden pro Datei. Unser Konverter wendet optimale Kompressionseinstellungen (Qualität 85-90) an für das beste Gleichgewicht zwischen Dateigröße und visueller Qualität, um sicherzustellen, dass Ihre WebP-Bilder web-ready sind.",
         },
       ],
     },

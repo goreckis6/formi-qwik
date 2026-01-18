@@ -228,9 +228,9 @@ export const es: Translations = {
   heicToPdf: {
     title: "Convertidor de HEIC a PDF - Convierte Fotos de Apple a PDF Gratis en Línea",
     metaDescription:
-      "Convierte imágenes HEIC a formato PDF instantáneamente. Convertidor gratuito en línea de HEIC a PDF con procesamiento por lotes. Rápido, seguro y sin registro requerido. Funciona con fotos de iPhone e iPad.",
+      "Convierte HEIF a WebP para rendimiento web superior. Archivos 25-35% más pequeños que JPEG con mejor calidad. Formato de próxima generación de Google con soporte de transparencia. Convertidor por lotes gratuito, sin registro.",
     metaKeywords:
-      "HEIC a PDF, convertir HEIC, fotos Apple a PDF, fotos iPhone a PDF, convertidor HEIC, imagen a PDF, conversión por lotes HEIC, convertidor HEIC gratuito",
+      "HEIF a WebP, optimización web, formato next-gen, Google WebP, WebP con pérdida, transparencia WebP, conversión por lotes HEIF, formato de imagen moderno",
 
     hero: {
       title: "Convertidor de HEIC a PDF",
