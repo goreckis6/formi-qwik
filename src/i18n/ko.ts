@@ -213,6 +213,10 @@ export const ko: Translations = {
       name: "HEIF을 TIFF로",
       description: "HEIF 이미지를 TIFF 형식으로 즉시 변환",
     },
+    heifToGif: {
+      name: "HEIF to GIF",
+      description: "HEIF 이미지를 소셜 미디어 및 공유용 GIF로 변환",
+    },
   },
 
   heicToPdf: {

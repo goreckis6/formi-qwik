@@ -220,6 +220,10 @@ export const tr: Translations = {
       name: "HEIF'den TIFF'ye",
       description: "HEIF görüntülerini TIFF formatına anında dönüştürün",
     },
+    heifToGif: {
+      name: "HEIF'den GIF'ye",
+      description: "Sosyal medya ve paylaşım için HEIF görüntülerini GIF'e dönüştürün",
+    },
   },
 
   heicToPdf: {

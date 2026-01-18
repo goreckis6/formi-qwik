@@ -219,6 +219,10 @@ export const ru: Translations = {
       name: "HEIF в TIFF",
       description: "Конвертируйте изображения HEIF в формат TIFF мгновенно",
     },
+    heifToGif: {
+      name: "HEIF в GIF",
+      description: "Конвертировать изображения HEIF в GIF для социальных сетей и обмена",
+    },
   },
 
   heicToPdf: {

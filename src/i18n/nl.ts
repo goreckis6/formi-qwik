@@ -220,6 +220,10 @@ export const nl: Translations = {
       name: "HEIF naar TIFF",
       description: "Converteer HEIF afbeeldingen direct naar TIFF-formaat",
     },
+    heifToGif: {
+      name: "HEIF naar GIF",
+      description: "HEIF-afbeeldingen naar GIF converteren voor social media en delen",
+    },
   },
 
   heicToPdf: {

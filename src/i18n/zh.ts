@@ -213,6 +213,10 @@ export const zh: Translations = {
       name: "HEIF转TIFF",
       description: "即时将HEIF图像转换为TIFF格式",
     },
+    heifToGif: {
+      name: "HEIF转GIF",
+      description: "将HEIF图像转换为GIF用于社交媒体和分享",
+    },
   },
 
   heicToPdf: {

@@ -223,6 +223,10 @@ export const es: Translations = {
       name: "HEIF a TIFF",
       description: "Convierte imágenes HEIF a formato TIFF al instante",
     },
+    heifToGif: {
+      name: "HEIF a GIF",
+      description: "Convertir imágenes HEIF a GIF para redes sociales y compartir",
+    },
   },
 
   heicToPdf: {

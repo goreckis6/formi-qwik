@@ -220,6 +220,10 @@ export const hi: Translations = {
       name: "HEIF से TIFF",
       description: "HEIF छवियों को TIFF प्रारूप में तुरंत कन्वर्ट करें",
     },
+    heifToGif: {
+      name: "HEIF से GIF",
+      description: "सोशल मीडिया और साझाकरण के लिए HEIF छवियों को GIF में कनवर्ट करें",
+    },
   },
 
   heicToPdf: {

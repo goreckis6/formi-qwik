@@ -214,6 +214,10 @@ export const ja: Translations = {
       name: "HEIFからTIFFへ",
       description: "HEIF画像をTIFF形式に瞬時に変換",
     },
+    heifToGif: {
+      name: "HEIF to GIF",
+      description: "HEIF画像をGIFに変換してソーシャルメディアと共有用に",
+    },
   },
 
   heicToPdf: {
