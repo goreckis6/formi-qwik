@@ -1662,6 +1662,139 @@ export const id: Translations = {
       ],
     },
   },
+  // HEIF to GIF Converter
+  heifToGif: {
+    title: "Konverter HEIF ke GIF - Buat GIF Animasi dan Gambar yang Dapat Dibagikan",
+    metaDescription:
+      "Konversi HEIF ke GIF untuk berbagi universal dan animasi. Sempurna untuk media sosial, meme, dan situs web. Bekerja di mana saja - tidak perlu aplikasi. Konverter batch gratis.",
+    metaKeywords:
+      "HEIF ke GIF, GIF animasi, berbagi media sosial, meme, kompatibilitas universal, animasi GIF, konversi HEIF batch, gambar yang dapat dibagikan",
+    hero: {
+      title: "HEIF to GIF Converter",
+      subtitle:
+        "Convert HEIF to GIF - the most shareable image format. Perfect for social media posts, memes, and animations. Universal compatibility across all platforms, apps, and messaging services. No special viewer needed.",
+      badge1: "Universal Sharing",
+      badge2: "Social Media Ready",
+      badge3: "Animation Support",
+    },
+    upload: {
+      title: "Upload HEIF Files",
+      description:
+        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download GIF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "Universal compatibility - GIFs work absolutely everywhere",
+        "Perfect for social media (Twitter, Facebook, Instagram, WhatsApp)",
+        "Batch processing up to 20 files simultaneously",
+        "Animation support for creating GIF loops",
+        "100% secure with automatic file deletion",
+        "Small file sizes optimized for sharing",
+        "Instant download - ready for posting",
+        "No watermarks - clean shareable images",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload HEIF Files",
+      step1Desc: "Select one or multiple HEIF images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download GIF",
+      step3Desc: "Get your converted GIF files immediately",
+    },
+    about: {
+      title: "About HEIF to GIF Conversion",
+      whatIsHeif: {
+        title: "Why GIF is Perfect for Social Media and Sharing?",
+        content:
+          "GIF (Graphics Interchange Format) is the most universally compatible image format, created in 1987 and still thriving today. GIFs work absolutely everywhere - all social media platforms (Twitter, Facebook, Instagram, Reddit, Tumblr), messaging apps (WhatsApp, Telegram, Discord, Slack), email clients, forums, and websites display GIFs without any special software.",
+      },
+      whyConvert: {
+        title: "Why Convert HEIF to GIF?",
+        content:
+          "Convert HEIF to GIF for maximum shareability and universal compatibility. HEIF only works on newer Apple devices and requires special software - making sharing difficult. GIF works instantly on every device, platform, and app without any viewer needed. Perfect for social media posts, meme creation, messaging, website embeds, and reaction images.",
+      },
+      heifVsHeic: {
+        title: "GIF vs Modern Formats - When to Choose GIF",
+        content:
+          "GIF trades image quality for universal compatibility and animation. Choose GIF when sharing on social media, creating memes or reactions, making simple animations or loops, ensuring 100% compatibility, or targeting viral/shareable content. For internet culture, memes, and social sharing, GIF remains unbeatable despite being 35+ years old.",
+      },
+      benefits: {
+        title: "Benefits of GIF Format",
+        list: [
+          "Universal Compatibility - Works on literally every device and platform",
+          "Social Media Native - Auto-displays on Twitter, Facebook, Instagram, Reddit",
+          "Animation Support - Create looping GIFs and cinemagraphs",
+          "No Viewer Needed - Displays instantly without special software",
+          "Meme-Friendly - The standard format for internet culture",
+          "Auto-Play - Loops automatically for attention-grabbing content",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – HEIF to GIF",
+      items: [
+        {
+          q: "Is it free to convert HEIF to GIF?",
+          a: "Yes! Our HEIF to GIF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for social media, memes, or sharing.",
+        },
+        {
+          q: "Why is GIF so popular for social media and memes?",
+          a: "GIF is universally compatible - it works on every platform, app, and device without any special software. Social media platforms like Twitter, Facebook, Instagram, and Reddit natively support GIFs with auto-play and looping. GIFs can be animated, are small enough for mobile sharing, and have become the standard format for internet culture and viral content.",
+        },
+        {
+          q: "Can I create animated GIFs from HEIF images?",
+          a: "Yes! While a single HEIF converts to a static GIF, you can upload multiple HEIF images in batch mode to create frames for animation. Our converter processes each image separately. To create true animated GIFs with multiple frames, you can use batch conversion and then combine the frames using free GIF animation tools online.",
+        },
+        {
+          q: "Will GIF work on all social media platforms?",
+          a: "Absolutely! GIF is natively supported by all major platforms: Twitter/X, Facebook, Instagram, Reddit, Tumblr, WhatsApp, Telegram, Discord, Slack, and virtually every messaging app and forum. GIFs display and loop automatically without any viewer or plugin needed.",
+        },
+        {
+          q: "Why are GIF files larger than HEIF?",
+          a: "GIF uses uncompressed or lossless compression to maintain frame-by-frame quality for animations, while HEIF uses modern video compression. However, GIF's universal compatibility and guaranteed display make the size trade-off worthwhile for sharing. For social media and memes, instant visibility on all devices is more valuable than file size optimization.",
+        },
+        {
+          q: "Can I use GIF for professional work?",
+          a: "Yes! GIF is perfect for email marketing, website elements, presentations, client communications, and social media marketing. While GIF has 256-color limitations, it's ideal for graphics, logos, text overlays, and simple animations where universal compatibility matters more than photo-realistic quality.",
+        },
+        {
+          q: "What's the difference between GIF and modern formats like WebP?",
+          a: "GIF (1987) prioritizes universal compatibility and animation; WebP (2010) prioritizes compression and quality. GIF works on 100% of devices with no special viewer; WebP needs modern browsers. For social media, memes, and shareable content, GIF's guaranteed visibility wins. For website optimization and photo quality, WebP is better.",
+        },
+        {
+          q: "Can I create memes with GIF?",
+          a: "Absolutely! GIF is the standard format for internet memes and reaction images. After converting HEIF to GIF, you can add text overlays, combine frames, or use the GIF directly for sharing. GIFs are perfect for memes because they work everywhere, auto-play for immediate impact, and are easily shareable across all platforms.",
+        },
+        {
+          q: "How long does HEIF to GIF conversion take?",
+          a: "Conversion takes 1-2 seconds per image. GIF creation is fast because it's a simple format optimized for compatibility rather than complex compression. The result is a universally compatible file ready for immediate sharing on social media, messaging apps, or any platform.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "HEIC to GIF", url: "/convert/heic-to-gif" },
+        { name: "HEIF to PNG", url: "/convert/heif-to-png" },
+        { name: "HEIF to JPG", url: "/convert/heif-to-jpg" },
+        { name: "PNG to GIF", url: "/convert/png-to-gif" },
+        { name: "JPG to GIF", url: "/convert/jpg-to-gif" },
+        { name: "GIF to PNG", url: "/convert/gif-to-png" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: 'Konverter HEIF ke PNG - Konversi Gambar HEIF ke PNG Gratis Online',
