@@ -86,6 +86,11 @@ export default component$(() => {
         description: converters.heifToAvif.description,
         href: getLocalizedPath("/convert/heif-to-avif", locale),
       },
+      {
+        name: converters.heifToTiff.name,
+        description: converters.heifToTiff.description,
+        href: getLocalizedPath("/convert/heif-to-tiff", locale),
+      },
     ],
   }));
 

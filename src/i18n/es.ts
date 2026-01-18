@@ -219,6 +219,10 @@ export const es: Translations = {
       name: "HEIF a AVIF",
       description: "Convierte imágenes HEIF a formato AVIF al instante",
     },
+    heifToTiff: {
+      name: "HEIF a TIFF",
+      description: "Convierte imágenes HEIF a formato TIFF al instante",
+    },
   },
 
   heicToPdf: {
@@ -1186,6 +1190,138 @@ export const es: Translations = {
     },
   },
 
+  // HEIF to TIFF Converter
+  heifToTiff: {
+    title: "Convertidor HEIF a TIFF - Convierte Imágenes HEIF a TIFF Gratis Online",
+    metaDescription:
+      "Convierte imágenes HEIF a formato TIFF al instante. Convertidor online gratuito HEIF a TIFF con procesamiento por lotes. Rápido, seguro y sin registro requerido. Funciona con fotos HEIF de todos los dispositivos.",
+    metaKeywords:
+      "HEIF a TIFF, convertir HEIF, imágenes HEIF a TIFF, convertidor HEIF, imagen a TIFF, conversión por lotes HEIF, convertidor HEIF gratis, HEIF vs HEIC",
+    hero: {
+      title: "Convertidor HEIF a TIFF",
+      subtitle:
+        "Transforma tus imágenes HEIF en formato TIFF universal al instante. Conversión gratuita, rápida y segura sin límites de tamaño de archivo. Perfecto para fotos HEIF de cualquier dispositivo.",
+      badge1: "Súper Rápido",
+      badge2: "100% Seguro",
+      badge3: "Sin Registro",
+    },
+    upload: {
+      title: "Subir Archivos HEIF",
+      description:
+        "Arrastra y suelta tus imágenes HEIF aquí o haz clic para explorar. Admite conversión por lotes de hasta 20 archivos. Máximo 100MB por archivo.",
+      buttonSingle: "Archivo Único",
+      buttonBatch: "Conversión por Lotes",
+      chooseFile: "Elegir Archivos",
+      converting: "Convirtiendo...",
+      success: "¡Conversión exitosa!",
+      download: "Descargar TIFF",
+      downloadAll: "Descargar Todo como ZIP",
+      convertAnother: "Convertir Otro Archivo",
+    },
+    features: {
+      title: "Características",
+      list: [
+        "Conversión HEIF a TIFF de alta calidad",
+        "Procesamiento por lotes hasta 20 archivos",
+        "Preserva la calidad de imagen",
+        "Sin limitaciones de tamaño de archivo",
+        "100% seguro y privado",
+        "Funciona con fotos HEIF de todos los dispositivos",
+        "Descarga instantánea después de la conversión",
+        "Sin marcas de agua",
+      ],
+    },
+    howItWorks: {
+      title: "Cómo Funciona",
+      step1Title: "Subir Archivos HEIF",
+      step1Desc: "Selecciona una o varias imágenes HEIF de tu dispositivo",
+      step2Title: "Conversión Automática",
+      step2Desc: "Nuestro convertidor procesa tus archivos al instante",
+      step3Title: "Descargar TIFF",
+      step3Desc: "Obtén tus archivos TIFF convertidos inmediatamente",
+    },
+    about: {
+      title: "Acerca de la Conversión HEIF a TIFF",
+      whatIsHeif: {
+        title: "¿Qué es el Formato HEIF?",
+        content:
+          "HEIF (High Efficiency Image Format) es un formato de contenedor de imágenes moderno que utiliza compresión HEVC (H.265). Aunque similar a HEIC, HEIF es el nombre de formato estándar, mientras que HEIC se refiere específicamente a la implementación de Apple. HEIF ofrece compresión superior en comparación con TIFF manteniendo alta calidad de imagen, lo que lo hace ideal para almacenar fotos de manera eficiente.",
+      },
+      whyConvert: {
+        title: "¿Por qué Convertir HEIF a TIFF?",
+        content:
+          "Aunque HEIF es eficiente y moderno, no es universalmente compatible en todos los dispositivos y plataformas. Convertir HEIF a TIFF asegura que tus imágenes puedan verse en cualquier dispositivo, compartirse fácilmente por correo electrónico, subirse a sitios web y usarse en cualquier aplicación. El formato TIFF es el formato de imagen más ampliamente compatible en todo el mundo, lo que lo hace perfecto para máxima compatibilidad y uso compartido.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - ¿Cuál es la Diferencia?",
+        content:
+          "HEIF (High Efficiency Image Format) es el estándar de formato contenedor, mientras que HEIC (High Efficiency Image Container) es la implementación específica de Apple de HEIF. En la práctica, son muy similares: ambos usan la misma tecnología de compresión y ofrecen los mismos beneficios. Los dispositivos Apple guardan fotos como archivos HEIC, que en realidad son compatibles con HEIF. Nuestro convertidor maneja ambos formatos sin problemas, por lo que puedes convertir cualquier imagen HEIF/HEIC a formato TIFF.",
+      },
+      benefits: {
+        title: "Beneficios de Nuestro Convertidor",
+        list: [
+          "Compatibilidad Universal - Los TIFF funcionan en todos los dispositivos y plataformas",
+          "Tamaño de Archivo Más Pequeño - Compresión eficiente para compartir más rápido",
+          "Amplio Soporte - Formato de imagen más utilizado en todo el mundo",
+          "Fácil de Compartir - Compatible con todos los clientes de correo y redes sociales",
+          "Listo para Web - Ideal para sitios web, redes sociales y uso online",
+          "Alta Calidad - Preserva la resolución original de la imagen",
+        ],
+      },
+    },
+    faq: {
+      title: "Preguntas Frecuentes – HEIF a TIFF",
+      items: [
+        {
+          q: "¿Es gratis convertir HEIF a TIFF?",
+          a: "¡Sí! Nuestro convertidor HEIF a TIFF es completamente gratis sin cargos ocultos. Puedes convertir archivos ilimitados sin registro o suscripción.",
+        },
+        {
+          q: "¿Cuál es la diferencia entre HEIF y HEIC?",
+          a: "HEIF (High Efficiency Image Format) es el nombre de formato estándar, mientras que HEIC (High Efficiency Image Container) es la implementación específica de Apple. Usan la misma tecnología de compresión y son funcionalmente muy similares. Nuestro convertidor maneja ambos formatos sin problemas.",
+        },
+        {
+          q: "¿Mis datos están seguros?",
+          a: "Absolutamente. Todas las conversiones ocurren de forma segura en nuestros servidores con cifrado SSL. Tus archivos se eliminan automáticamente inmediatamente después de la conversión. Nunca almacenamos, compartimos o accedemos a tus archivos.",
+        },
+        {
+          q: "¿Cuál es el tamaño máximo de archivo?",
+          a: "Puedes convertir archivos HEIF de hasta 100MB cada uno. Para conversión por lotes, puedes procesar hasta 20 archivos a la vez con un límite total de 100MB.",
+        },
+        {
+          q: "¿Admiten conversión por lotes?",
+          a: "¡Sí! Puedes subir y convertir hasta 20 archivos HEIF simultáneamente. Todos los TIFF convertidos estarán disponibles para descargar como archivos individuales o en un solo archivo ZIP.",
+        },
+        {
+          q: "¿Se preservará la calidad?",
+          a: "Sí, mantenemos alta calidad de imagen durante la conversión. Tus imágenes HEIF se convertirán a TIFF de alta resolución con pérdida mínima de calidad.",
+        },
+        {
+          q: "¿Puedo convertir HEIF desde cualquier dispositivo?",
+          a: "¡Sí! Nuestro convertidor funciona con imágenes HEIF de cualquier dispositivo o cámara que admita formato HEIF, no solo dispositivos Apple. Simplemente sube tus archivos HEIF y conviértelos a TIFF.",
+        },
+        {
+          q: "¿Necesito instalar algún software?",
+          a: "No se requiere instalación. Nuestro convertidor online funciona directamente en tu navegador web en cualquier dispositivo: Windows, Mac, Linux, iOS o Android.",
+        },
+        {
+          q: "¿Cuánto tiempo tarda la conversión?",
+          a: "¡La conversión es casi instantánea! La mayoría de los archivos HEIF se convierten a TIFF en solo unos segundos, dependiendo del tamaño del archivo y tu conexión a internet.",
+        },
+      ],
+    },
+    related: {
+      title: "Convertidores Relacionados",
+      converters: [
+        { name: "HEIC a TIFF", url: "/convert/heic-to-tiff" },
+        { name: "HEIC a PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC a PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF a PNG", url: "/convert/heif-to-png" },
+        { name: "TIFF a PDF", url: "/convert/tiff-to-pdf" },
+        { name: "PNG a TIFF", url: "/convert/png-to-tiff" },
+      ],
+    },
+  },
   // HEIF to AVIF Converter
   heifToAvif: {
     title: "Convertidor HEIF a AVIF - Convierte Imágenes HEIF a AVIF Gratis Online",

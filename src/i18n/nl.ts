@@ -216,6 +216,10 @@ export const nl: Translations = {
       name: "HEIF naar AVIF",
       description: "Converteer HEIF afbeeldingen direct naar AVIF-formaat",
     },
+    heifToTiff: {
+      name: "HEIF naar TIFF",
+      description: "Converteer HEIF afbeeldingen direct naar TIFF-formaat",
+    },
   },
 
   heicToPdf: {
@@ -1183,6 +1187,138 @@ export const nl: Translations = {
     },
   },
 
+  // HEIF to TIFF Converter
+  heifToTiff: {
+    title: "HEIF naar TIFF Converter - Converteer HEIF Afbeeldingen Gratis Online naar TIFF",
+    metaDescription:
+      "Converteer HEIF-afbeeldingen direct naar TIFF-formaat. Gratis online HEIF naar TIFF converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met HEIF-foto's van alle apparaten.",
+    metaKeywords:
+      "HEIF naar TIFF, converteer HEIF, HEIF afbeeldingen naar TIFF, HEIF converter, afbeelding naar TIFF, batch converteer HEIF, gratis HEIF converter, HEIF vs HEIC",
+    hero: {
+      title: "HEIF naar TIFF Converter",
+      subtitle:
+        "Transformeer uw HEIF-afbeeldingen direct in universeel TIFF-formaat. Gratis, snelle en veilige conversie zonder bestandsgroottebeperkingen. Perfect voor HEIF-foto's van elk apparaat.",
+      badge1: "Bliksemsnel",
+      badge2: "100% Veilig",
+      badge3: "Geen Registratie",
+    },
+    upload: {
+      title: "Upload HEIF Bestanden",
+      description:
+        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteren",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
+      download: "TIFF Downloaden",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "Hoge kwaliteit HEIF naar TIFF conversie",
+        "Batchverwerking tot 20 bestanden",
+        "Behoudt beeldkwaliteit",
+        "Geen bestandsgroottebeperking",
+        "100% veilig en privé",
+        "Werkt met HEIF-foto's van alle apparaten",
+        "Direct downloaden na conversie",
+        "Geen watermerken toegevoegd",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload HEIF Bestanden",
+      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download TIFF",
+      step3Desc: "Ontvang uw geconverteerde TIFF-bestanden direct",
+    },
+    about: {
+      title: "Over HEIF naar TIFF Conversie",
+      whatIsHeif: {
+        title: "Wat is het HEIF-formaat?",
+        content:
+          "HEIF (High Efficiency Image Format) is een modern beeldcontainerformaat dat HEVC (H.265) compressie gebruikt. Hoewel vergelijkbaar met HEIC, is HEIF de standaard formaatnaam, terwijl HEIC specifiek verwijst naar Apple's implementatie. HEIF biedt superieure compressie vergeleken met TIFF terwijl het hoge beeldkwaliteit behoudt, waardoor het ideaal is voor het efficiënt opslaan van foto's.",
+      },
+      whyConvert: {
+        title: "Waarom HEIF naar TIFF converteren?",
+        content:
+          "Hoewel HEIF efficiënt en modern is, wordt het niet universeel ondersteund op alle apparaten en platforms. Het converteren van HEIF naar TIFF zorgt ervoor dat uw afbeeldingen op elk apparaat bekeken kunnen worden, eenvoudig via e-mail gedeeld kunnen worden, op websites geüpload kunnen worden en in elke toepassing gebruikt kunnen worden. Het TIFF-formaat is het meest breed ondersteunde beeldformaat ter wereld, waardoor het ideaal is voor maximale compatibiliteit en delen.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Wat is het Verschil?",
+        content:
+          "HEIF (High Efficiency Image Format) is de containerformaat standaard, terwijl HEIC (High Efficiency Image Container) Apple's specifieke implementatie van HEIF is. In de praktijk zijn ze zeer vergelijkbaar - beide gebruiken dezelfde compressietechnologie en bieden dezelfde voordelen. Apple-apparaten slaan foto's op als HEIC-bestanden, die eigenlijk HEIF-compatibel zijn. Onze converter behandelt beide formaten naadloos, zodat u elke HEIF/HEIC-afbeelding naar TIFF-formaat kunt converteren.",
+      },
+      benefits: {
+        title: "Voordelen van Onze Converter",
+        list: [
+          "Universele Compatibiliteit - TIFF's werken op alle apparaten en platforms",
+          "Kleinere Bestandsgrootte - Efficiënte compressie voor sneller delen",
+          "Breed Ondersteuning - Meest gebruikte beeldformaat wereldwijd",
+          "Eenvoudig Delen - Compatibel met alle e-mailclients en sociale media",
+          "Webklaar - Ideaal voor websites, sociale media en online gebruik",
+          "Hoge Kwaliteit - Behoudt de originele beeldresolutie",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – HEIF naar TIFF",
+      items: [
+        {
+          q: "Is het converteren van HEIF naar TIFF gratis?",
+          a: "Ja! Onze HEIF naar TIFF converter is volledig gratis zonder verborgen kosten. U kunt onbeperkt bestanden converteren zonder registratie of abonnement.",
+        },
+        {
+          q: "Wat is het verschil tussen HEIF en HEIC?",
+          a: "HEIF (High Efficiency Image Format) is de standaard formaatnaam, terwijl HEIC (High Efficiency Image Container) Apple's specifieke implementatie is. Ze gebruiken dezelfde compressietechnologie en zijn functioneel zeer vergelijkbaar. Onze converter behandelt beide formaten naadloos.",
+        },
+        {
+          q: "Zijn mijn gegevens veilig?",
+          a: "Absoluut. Alle conversies gebeuren veilig op onze servers met SSL-codering. Uw bestanden worden direct na conversie automatisch verwijderd. We slaan, delen of openen uw bestanden nooit.",
+        },
+        {
+          q: "Wat is de maximale bestandsgrootte?",
+          a: "U kunt HEIF-bestanden tot 100MB per stuk converteren. Voor batchconversie kunt u tot 20 bestanden tegelijk verwerken met een totaal limiet van 100MB.",
+        },
+        {
+          q: "Ondersteunt u batchconversie?",
+          a: "Ja! U kunt tot 20 HEIF-bestanden tegelijk uploaden en converteren. Alle geconverteerde TIFF's zijn beschikbaar voor download als individuele bestanden of in één ZIP-archief.",
+        },
+        {
+          q: "Wordt de kwaliteit behouden?",
+          a: "Ja, we behouden hoge beeldkwaliteit tijdens conversie. Uw HEIF-afbeeldingen worden geconverteerd naar hoge resolutie TIFF's met minimale kwaliteitsverlies.",
+        },
+        {
+          q: "Kan ik HEIF van elk apparaat converteren?",
+          a: "Ja! Onze converter werkt met HEIF-afbeeldingen van elk apparaat of camera die het HEIF-formaat ondersteunt, niet alleen Apple-apparaten. Upload gewoon uw HEIF-bestanden en converteer ze naar TIFF.",
+        },
+        {
+          q: "Moet ik software installeren?",
+          a: "Geen installatie nodig. Onze online converter werkt direct in uw webbrowser op elk apparaat - Windows, Mac, Linux, iOS of Android.",
+        },
+        {
+          q: "Hoe lang duurt de conversie?",
+          a: "Conversie is bijna direct! De meeste HEIF-bestanden worden binnen enkele seconden geconverteerd naar TIFF, afhankelijk van de bestandsgrootte en uw internetverbinding.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "HEIC naar TIFF", url: "/convert/heic-to-tiff" },
+        { name: "HEIC naar PDF", url: "/convert/heic-to-pdf" },
+        { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF naar PNG", url: "/convert/heif-to-png" },
+        { name: "TIFF naar PDF", url: "/convert/tiff-to-pdf" },
+        { name: "PNG naar TIFF", url: "/convert/png-to-tiff" },
+      ],
+    },
+  },
   // HEIF to AVIF Converter
   heifToAvif: {
     title: "HEIF naar AVIF Converter - Converteer HEIF Afbeeldingen Gratis Online naar AVIF",
