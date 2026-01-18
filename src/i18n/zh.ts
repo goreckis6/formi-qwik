@@ -1577,11 +1577,11 @@ export const zh: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIF转PDF转换器 - 免费在线将HEIF图像转换为PDF",
+    title: "HEIF转PDF转换器 - 从HEIF图像创建通用PDF文档",
     metaDescription:
-      "即时将HEIF图像转换为PDF格式。免费在线HEIF转PDF转换器，支持批量处理。快速、安全且无需注册。适用于所有设备的HEIF照片。",
+      "将HEIF转换为PDF以实现通用文档共享。无需应用程序即可在任何设备上查看。适合电子邮件、打印和存档。将多个HEIF合并为一个PDF。免费批量转换器，无需注册。",
     metaKeywords:
-      "HEIF转PDF, 转换HEIF, HEIF图像转PDF, HEIF转换器, 图像转PDF, 批量转换HEIF, 免费HEIF转换器, HEIF vs HEIC",
+      "HEIF转PDF, 图像转文档, 通用PDF, 电子邮件共享, 打印就绪PDF, 合并图像PDF, 批量转换HEIF, 文档创建",
     hero: {
       title: "HEIF转PDF转换器",
       subtitle:

@@ -1585,11 +1585,11 @@ export const nl: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIF naar PDF Converter - Converteer HEIF Afbeeldingen Gratis Online naar PDF",
+    title: "HEIF naar PDF Converter - Universele PDF-Documenten Maken van HEIF-Afbeeldingen",
     metaDescription:
-      "Converteer HEIF-afbeeldingen direct naar PDF-formaat. Gratis online HEIF naar PDF converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met HEIF-foto's van alle apparaten.",
+      "Converteer HEIF naar PDF voor universeel documentdelen. Bekijk op elk apparaat zonder apps. Perfect voor e-mail, printen en archivering. Voeg meerdere HEIFs samen tot één PDF. Gratis batch converter, geen registratie.",
     metaKeywords:
-      "HEIF naar PDF, converteer HEIF, HEIF afbeeldingen naar PDF, HEIF converter, afbeelding naar PDF, batch converteer HEIF, gratis HEIF converter, HEIF vs HEIC",
+      "HEIF naar PDF, afbeelding naar document, universele PDF, e-mail delen, printklare PDF, afbeeldingen samenvoegen PDF, batch conversie HEIF, document creatie",
     hero: {
       title: "HEIF naar PDF Converter",
       subtitle:

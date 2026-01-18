@@ -1592,11 +1592,11 @@ export const fr: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "Convertisseur HEIF en PDF - Convertissez les Images HEIF en PDF Gratuitement en Ligne",
+    title: "Convertisseur HEIF vers PDF - Créer des Documents PDF Universels depuis Images HEIF",
     metaDescription:
-      "Convertissez les images HEIF au format PDF instantanément. Convertisseur HEIF en PDF gratuit en ligne avec traitement par lots. Rapide, sécurisé et sans inscription requise. Fonctionne avec les photos HEIF de tous les appareils.",
+      "Convertissez HEIF en PDF pour partage de documents universel. Afficher sur tout appareil sans apps. Parfait pour email, impression et archivage. Fusionner plusieurs HEIFs en un PDF. Convertisseur par lots gratuit, sans inscription.",
     metaKeywords:
-      "HEIF en PDF, convertir HEIF, images HEIF en PDF, convertisseur HEIF, image en PDF, conversion par lots HEIF, convertisseur HEIF gratuit, HEIF vs HEIC",
+      "HEIF vers PDF, image en document, PDF universel, partage email, PDF prêt à imprimer, fusionner images PDF, conversion par lots HEIF, création documents",
     hero: {
       title: "Convertisseur HEIF en PDF",
       subtitle:

@@ -1583,11 +1583,11 @@ export const sv: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIF till PDF-konverterare - Konvertera HEIF-bilder Gratis Online till PDF",
+    title: "HEIF till PDF Omvandlare - Skapa Universella PDF-Dokument från HEIF-Bilder",
     metaDescription:
-      "Konvertera HEIF-bilder direkt till PDF-format. Gratis online HEIF till PDF-konverterare med batchbearbetning. Snabb, säker och ingen registrering krävs. Fungerar med HEIF-foton från alla enheter.",
+      "Konvertera HEIF till PDF för universell dokumentdelning. Visa på vilken enhet som helst utan appar. Perfekt för e-post, utskrift och arkivering. Slå samman flera HEIFs till en PDF. Gratis batchomvandlare, ingen registrering.",
     metaKeywords:
-      "HEIF till PDF, konvertera HEIF, HEIF bilder till PDF, HEIF-konverterare, bild till PDF, batch konvertera HEIF, gratis HEIF-konverterare, HEIF vs HEIC",
+      "HEIF till PDF, bild till dokument, universell PDF, e-postdelning, utskriftsklar PDF, slå samman bilder PDF, batchkonvertering HEIF, dokumentskapande",
     hero: {
       title: "HEIF till PDF-konverterare",
       subtitle:

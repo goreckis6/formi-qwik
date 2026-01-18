@@ -1579,11 +1579,11 @@ export const ja: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIFからPDFへのコンバーター - HEIF画像をPDFに無料でオンライン変換",
+    title: "HEIF to PDF コンバーター - HEIF画像からユニバーサルPDF文書を作成",
     metaDescription:
-      "HEIF画像をPDF形式に瞬時に変換。一括処理対応の無料オンラインHEIFからPDFへのコンバーター。高速、安全、登録不要。すべてのデバイスのHEIF写真に対応。",
+      "HEIFをPDFに変換してユニバーサルな文書共有を実現。アプリなしであらゆるデバイスで表示。メール、印刷、アーカイブに最適。複数のHEIFを1つのPDFに結合。無料一括変換、登録不要。",
     metaKeywords:
-      "HEIFからPDF, HEIF変換, HEIF画像をPDF, HEIFコンバーター, 画像をPDF, バッチ変換HEIF, 無料HEIFコンバーター, HEIF vs HEIC",
+      "HEIF to PDF, 画像から文書, ユニバーサルPDF, メール共有, 印刷対応PDF, 画像結合PDF, 一括変換HEIF, 文書作成",
     hero: {
       title: "HEIFからPDFへのコンバーター",
       subtitle:

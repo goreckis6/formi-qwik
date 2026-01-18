@@ -1577,11 +1577,11 @@ export const ko: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIF을 PDF로 변환기 - HEIF 이미지를 PDF로 무료 온라인 변환",
+    title: "HEIF to PDF 변환기 - HEIF 이미지에서 범용 PDF 문서 생성",
     metaDescription:
-      "HEIF 이미지를 PDF 형식으로 즉시 변환. 일괄 처리가 있는 무료 온라인 HEIF을 PDF로 변환기. 빠르고 안전하며 등록 불필요. 모든 디바이스의 HEIF 사진과 작동.",
+      "HEIF를 PDF로 변환하여 범용 문서 공유를 실현하세요. 앱 없이 모든 기기에서 보기. 이메일, 인쇄, 보관에 완벽. 여러 HEIF를 하나의 PDF로 병합. 무료 일괄 변환기, 등록 불필요.",
     metaKeywords:
-      "HEIF을 PDF로, HEIF 변환, HEIF 이미지를 PDF, HEIF 변환기, 이미지를 PDF, 배치 변환 HEIF, 무료 HEIF 변환기, HEIF vs HEIC",
+      "HEIF to PDF, 이미지를 문서로, 범용 PDF, 이메일 공유, 인쇄 준비 PDF, 이미지 병합 PDF, 일괄 변환 HEIF, 문서 생성",
     hero: {
       title: "HEIF을 PDF로 변환기",
       subtitle:

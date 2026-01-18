@@ -1578,11 +1578,11 @@ export const ar: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "محول HEIF إلى PDF - تحويل صور HEIF إلى PDF مجاناً عبر الإنترنت",
+    title: "محول HEIF إلى PDF - إنشاء مستندات PDF عالمية من صور HEIF",
     metaDescription:
-      "تحويل صور HEIF إلى تنسيق PDF فوراً. محول HEIF إلى PDF مجاني عبر الإنترنت مع المعالجة المجمعة. سريع وآمن وبدون تسجيل. يعمل مع صور HEIF من جميع الأجهزة.",
+      "حوّل HEIF إلى PDF لمشاركة المستندات العالمية. عرض على أي جهاز بدون تطبيقات. مثالي للبريد الإلكتروني والطباعة والأرشفة. دمج عدة HEIFs في PDF واحد. محول دفعات مجاني، بدون تسجيل.",
     metaKeywords:
-      "HEIF إلى PDF, تحويل HEIF, صور HEIF إلى PDF, محول HEIF, صورة إلى PDF, تحويل مجمع HEIF, محول HEIF مجاني, HEIF vs HEIC",
+      "HEIF إلى PDF, صورة إلى مستند, PDF عالمي, مشاركة البريد الإلكتروني, PDF جاهز للطباعة, دمج الصور PDF, تحويل دفعات HEIF, إنشاء المستندات",
     hero: {
       title: "محول HEIF إلى PDF",
       subtitle:

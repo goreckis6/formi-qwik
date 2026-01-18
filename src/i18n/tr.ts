@@ -1599,11 +1599,11 @@ export const tr: Translations = {
   },
   // HEIF to PDF Converter
   heifToPdf: {
-    title: "HEIF'den PDF'ye Dönüştürücü - HEIF Görüntülerini PDF'ye Ücretsiz Çevrimiçi Dönüştür",
+    title: "HEIF'den PDF'ye Dönüştürücü - HEIF Görüntülerinden Evrensel PDF Belgeleri Oluşturun",
     metaDescription:
-      "HEIF görüntülerini anında PDF formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIF'den PDF'ye dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. Tüm cihazlardan HEIF fotoğraflarıyla çalışır.",
+      "Evrensel belge paylaşımı için HEIF'i PDF'ye dönüştürün. Herhangi bir cihazda uygulama olmadan görüntüleyin. E-posta, yazdırma ve arşivleme için mükemmel. Birden fazla HEIF'i tek PDF'de birleştirin. Ücretsiz toplu dönüştürücü, kayıt gerekmez.",
     metaKeywords:
-      "HEIF'den PDF'ye, HEIF dönüştür, HEIF görüntüleri PDF'ye, HEIF dönüştürücü, görüntü PDF'ye, toplu HEIF dönüştür, ücretsiz HEIF dönüştürücü, HEIF vs HEIC",
+      "HEIF'den PDF'ye, görüntü belgeden, evrensel PDF, e-posta paylaşımı, yazdırmaya hazır PDF, görüntüleri birleştir PDF, toplu dönüştürme HEIF, belge oluşturma",
     hero: {
       title: "HEIF'den PDF'ye Dönüştürücü",
       subtitle:
