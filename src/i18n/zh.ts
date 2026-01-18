@@ -1445,11 +1445,11 @@ export const zh: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "HEIF转WebP转换器 - 免费在线将HEIF图像转换为WebP",
+    title: "HEIF转WebP转换器 - 转换为现代Web优化格式",
     metaDescription:
-      "即时将HEIF图像转换为WebP格式。免费在线HEIF转WebP转换器，支持批量处理。快速、安全且无需注册。适用于所有设备的HEIF照片。",
+      "将HEIF转换为WebP以获得卓越的Web性能。比JPEG小25-35%的文件，质量更好。Google的下一代格式，支持透明度。免费批量转换器，无需注册。",
     metaKeywords:
-      "HEIF转WebP, 转换HEIF, HEIF图像转WebP, HEIF转换器, 图像转WebP, 批量转换HEIF, 免费HEIF转换器, HEIF vs HEIC",
+      "HEIF转WebP, 网页优化, 下一代格式, Google WebP, 有损WebP, 透明度WebP, 批量转换HEIF, 现代图像格式",
     hero: {
       title: "HEIF转WebP转换器",
       subtitle:

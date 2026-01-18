@@ -1445,11 +1445,11 @@ export const ko: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "HEIF을 WebP로 변환기 - HEIF 이미지를 WebP로 무료 온라인 변환",
+    title: "HEIF to WebP 변환기 - 현대적인 웹 최적화 형식으로 변환",
     metaDescription:
-      "HEIF 이미지를 WebP 형식으로 즉시 변환. 일괄 처리가 있는 무료 온라인 HEIF을 WebP로 변환기. 빠르고 안전하며 등록 불필요. 모든 디바이스의 HEIF 사진과 작동.",
+      "HEIF를 WebP로 변환하여 우수한 웹 성능을 얻으세요. JPEG보다 25-35% 작은 파일, 더 나은 품질. 투명도 지원이 있는 Google의 차세대 형식. 무료 일괄 변환기, 등록 불필요.",
     metaKeywords:
-      "HEIF을 WebP로, HEIF 변환, HEIF 이미지를 WebP, HEIF 변환기, 이미지를 WebP, 배치 변환 HEIF, 무료 HEIF 변환기, HEIF vs HEIC",
+      "HEIF to WebP, 웹 최적화, 차세대 형식, Google WebP, 손실 WebP, 투명도 WebP, 일괄 변환 HEIF, 현대 이미지 형식",
     hero: {
       title: "HEIF을 WebP로 변환기",
       subtitle:

@@ -1447,11 +1447,11 @@ export const ja: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "HEIFからWebPへのコンバーター - HEIF画像をWebPに無料でオンライン変換",
+    title: "HEIF to WebP コンバーター - モダンなWeb最適化フォーマットへ変換",
     metaDescription:
-      "HEIF画像をWebP形式に瞬時に変換。一括処理対応の無料オンラインHEIFからWebPへのコンバーター。高速、安全、登録不要。すべてのデバイスのHEIF写真に対応。",
+      "HEIFをWebPに変換して優れたWebパフォーマンスを実現。JPEGより25-35%小さいファイルで高品質。Googleの次世代フォーマット、透明度サポート付き。無料一括変換、登録不要。",
     metaKeywords:
-      "HEIFからWebP, HEIF変換, HEIF画像をWebP, HEIFコンバーター, 画像をWebP, バッチ変換HEIF, 無料HEIFコンバーター, HEIF vs HEIC",
+      "HEIF to WebP, Web最適化, 次世代フォーマット, Google WebP, 非可逆WebP, 透明度WebP, 一括変換HEIF, モダン画像フォーマット",
     hero: {
       title: "HEIFからWebPへのコンバーター",
       subtitle:

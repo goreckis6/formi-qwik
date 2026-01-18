@@ -1453,11 +1453,11 @@ export const nl: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "HEIF naar WebP Converter - Converteer HEIF Afbeeldingen Gratis Online naar WebP",
+    title: "HEIF naar WebP Converter - Converteer naar Modern Web-Geoptimaliseerd Formaat",
     metaDescription:
-      "Converteer HEIF-afbeeldingen direct naar WebP-formaat. Gratis online HEIF naar WebP converter met batchverwerking. Snel, veilig en geen registratie vereist. Werkt met HEIF-foto's van alle apparaten.",
+      "Converteer HEIF naar WebP voor superieure webprestaties. 25-35% kleinere bestanden dan JPEG met betere kwaliteit. Google's next-gen formaat met transparantieondersteuning. Gratis batch converter, geen registratie.",
     metaKeywords:
-      "HEIF naar WebP, converteer HEIF, HEIF afbeeldingen naar WebP, HEIF converter, afbeelding naar WebP, batch converteer HEIF, gratis HEIF converter, HEIF vs HEIC",
+      "HEIF naar WebP, web optimalisatie, next-gen formaat, Google WebP, lossy WebP, transparantie WebP, batch conversie HEIF, modern afbeeldingsformaat",
     hero: {
       title: "HEIF naar WebP Converter",
       subtitle:

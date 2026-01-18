@@ -1456,11 +1456,11 @@ export const es: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "Convertidor HEIF a WebP - Convierte Imágenes HEIF a WebP Gratis Online",
+    title: "Convertidor HEIF a WebP - Convertir a Formato Web Moderno Optimizado",
     metaDescription:
-      "Convierte imágenes HEIF a formato WebP al instante. Convertidor online gratuito HEIF a WebP con procesamiento por lotes. Rápido, seguro y sin registro requerido. Funciona con fotos HEIF de todos los dispositivos.",
+      "Convierte HEIF a WebP para rendimiento web superior. Archivos 25-35% más pequeños que JPEG con mejor calidad. Formato de próxima generación de Google con soporte de transparencia. Convertidor por lotes gratuito, sin registro.",
     metaKeywords:
-      "HEIF a WebP, convertir HEIF, imágenes HEIF a WebP, convertidor HEIF, imagen a WebP, conversión por lotes HEIF, convertidor HEIF gratis, HEIF vs HEIC",
+      "HEIF a WebP, optimización web, formato next-gen, Google WebP, WebP con pérdida, transparencia WebP, conversión por lotes HEIF, formato de imagen moderno",
     hero: {
       title: "Convertidor HEIF a WebP",
       subtitle:

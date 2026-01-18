@@ -1467,11 +1467,11 @@ export const tr: Translations = {
   },
   // HEIF to WebP Converter
   heifToWebp: {
-    title: "HEIF'den WebP'ye Dönüştürücü - HEIF Görüntülerini WebP'ye Ücretsiz Çevrimiçi Dönüştür",
+    title: "HEIF'den WebP'ye Dönüştürücü - Modern Web-Optimize Formata Dönüştürün",
     metaDescription:
-      "HEIF görüntülerini anında WebP formatına dönüştürün. Toplu işleme ile ücretsiz çevrimiçi HEIF'den WebP'ye dönüştürücü. Hızlı, güvenli ve kayıt gerekmez. Tüm cihazlardan HEIF fotoğraflarıyla çalışır.",
+      "Üstün web performansı için HEIF'i WebP'ye dönüştürün. JPEG'den %25-35 daha küçük dosyalar, daha iyi kalite. Şeffaflık desteğiyle Google'ın yeni nesil formatı. Ücretsiz toplu dönüştürücü, kayıt gerekmez.",
     metaKeywords:
-      "HEIF'den WebP'ye, HEIF dönüştür, HEIF görüntüleri WebP'ye, HEIF dönüştürücü, görüntü WebP'ye, toplu HEIF dönüştür, ücretsiz HEIF dönüştürücü, HEIF vs HEIC",
+      "HEIF'den WebP'ye, web optimizasyonu, yeni nesil format, Google WebP, kayıplı WebP, şeffaflık WebP, toplu dönüştürme HEIF, modern görüntü formatı",
     hero: {
       title: "HEIF'den WebP'ye Dönüştürücü",
       subtitle:
