@@ -66,6 +66,11 @@ export default component$(() => {
         description: converters.heifToJpg.description,
         href: getLocalizedPath("/convert/heif-to-jpg", locale),
       },
+      {
+        name: converters.heifToPng.name,
+        description: converters.heifToPng.description,
+        href: getLocalizedPath("/convert/heif-to-png", locale),
+      },
     ],
   }));
 

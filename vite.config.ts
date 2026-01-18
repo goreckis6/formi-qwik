@@ -9,4 +9,7 @@ export default defineConfig(() => ({
     qwikVite(),
     tsconfigPaths(),
   ],
+  build: {
+    chunkSizeWarningLimit: 1000, // Zwiększ limit do 1000 kB (dla plików tłumaczeń)
+  },
 }));

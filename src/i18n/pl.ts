@@ -199,6 +199,10 @@ export const pl: Translations = {
       name: "HEIF na JPG",
       description: "Konwertuj obrazy HEIF na format JPG natychmiast",
     },
+    heifToPng: {
+      name: "HEIF na PNG",
+      description: "Konwertuj obrazy HEIF na format PNG natychmiast",
+    },
   },
 
   heicToPdf: {
@@ -1180,6 +1184,125 @@ export const pl: Translations = {
         { name: "HEIF na PNG", url: "/convert/heif-to-png" },
         { name: "JPG na PDF", url: "/convert/jpg-to-pdf" },
         { name: "PNG na JPG", url: "/convert/png-to-jpg" },
+      ],
+    },
+  },
+
+  // HEIF to PNG Converter
+  heifToPng: {
+    title: "Konwerter HEIF na PNG - Konwertuj obrazy HEIF na PNG online za darmo",
+    metaDescription:
+      "Konwertuj obrazy HEIF na format PNG natychmiastowo. Darmowy konwerter online HEIF na PNG z przetwarzaniem wsadowym. Szybki, bezpieczny i bez rejestracji. Zachowaj jakość obrazu i przezroczystość.",
+    metaKeywords:
+      "HEIF na PNG, konwertuj HEIF, konwerter HEIF na PNG, obraz na PNG, konwersja wsadowa HEIF, darmowy konwerter HEIF, konwerter HEIF online",
+
+    hero: {
+      title: "Konwerter HEIF na PNG",
+      subtitle:
+        "Przekształć swoje obrazy HEIF na uniwersalny format PNG natychmiastowo. Darmowa, szybka i bezpieczna konwersja bez limitów rozmiaru pliku.",
+      badge1: "Błyskawiczna Szybkość",
+      badge2: "100% Bezpieczne",
+      badge3: "Bez Rejestracji",
+    },
+
+    upload: {
+      title: "Prześlij pliki HEIF",
+      description:
+        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy plik",
+      buttonBatch: "Konwersja wsadowa",
+      chooseFile: "Wybierz pliki",
+      converting: "Konwertowanie...",
+      success: "Konwersja zakończona sukcesem!",
+      download: "Pobierz PNG",
+      downloadAll: "Pobierz wszystkie jako ZIP",
+      convertAnother: "Konwertuj kolejny plik",
+    },
+
+    features: {
+      title: "Funkcje",
+      list: [
+        "Wysokiej jakości konwersja HEIF na PNG",
+        "Przetwarzanie wsadowe do 20 plików",
+        "Zachowuje jakość obrazu i przezroczystość",
+        "Bez limitów rozmiaru pliku",
+        "100% bezpieczne i prywatne",
+        "Działa ze wszystkimi obrazami HEIF",
+        "Natychmiastowe pobieranie po konwersji",
+        "Bez dodawania znaków wodnych",
+      ],
+    },
+
+    howItWorks: {
+      title: "Jak to działa",
+      step1Title: "Prześlij pliki HEIF",
+      step1Desc: "Wybierz jeden lub więcej obrazów HEIF z urządzenia",
+      step2Title: "Automatyczna konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiastowo",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG natychmiast",
+    },
+
+    about: {
+      title: "O konwersji HEIF na PNG",
+      whatIsHeif: {
+        title: "Czym jest format HEIF?",
+        content:
+          "HEIF (High Efficiency Image Format) to nowoczesny format kontenera obrazów, który wykorzystuje kompresję HEVC (H.265). Choć podobny do HEIC, HEIF to standardowa nazwa formatu, podczas gdy HEIC odnosi się konkretnie do implementacji Apple. HEIF oferuje lepszą kompresję w porównaniu do tradycyjnych formatów przy zachowaniu wysokiej jakości obrazu.",
+      },
+      whyConvert: {
+        title: "Dlaczego konwertować HEIF na PNG?",
+        content:
+          "Chociaż HEIF jest wydajny i nowoczesny, nie jest uniwersalnie obsługiwany. Konwersja HEIF na PNG zapewnia, że Twoje obrazy będą działać na wszystkich urządzeniach i platformach. Format PNG obsługuje kompresję bezstratną i przezroczystość, co czyni go idealnym do grafiki, projektowania stron internetowych i profesjonalnego użytku, gdzie jakość obrazu i przezroczystość są kluczowe.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - Jaka jest różnica?",
+        content:
+          "HEIF (High Efficiency Image Format) to standard formatu kontenera, podczas gdy HEIC (High Efficiency Image Container) to specyficzna implementacja HEIF przez Apple. W praktyce są bardzo podobne - oba wykorzystują tę samą technologię kompresji i oferują te same korzyści. Urządzenia Apple zapisują zdjęcia jako pliki HEIC, które w rzeczywistości są zgodne z HEIF. Nasz konwerter obsługuje oba formaty bezproblemowo.",
+      },
+      benefits: {
+        title: "Zalety naszego konwertera",
+        list: [
+          "Uniwersalna kompatybilność - PNG działa na wszystkich urządzeniach i platformach",
+          "Wsparcie przezroczystości - Idealny do grafiki i projektowania stron",
+          "Jakość bezstratna - Brak artefaktów kompresji lub utraty jakości",
+          "Łatwe udostępnianie - Szeroko obsługiwany format, który każdy może otworzyć",
+          "Gotowy do sieci - Idealny na strony internetowe, media społecznościowe i użytek online",
+          "Wysoka jakość - Zachowaj oryginalną rozdzielczość obrazu",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Najczęściej zadawane pytania – HEIF na PNG",
+      items: [
+        {
+          q: "Czy konwersja HEIF na PNG jest darmowa?",
+          a: "Tak! Nasz konwerter HEIF na PNG jest całkowicie darmowy bez ukrytych opłat. Możesz konwertować nieograniczoną liczbę plików bez rejestracji lub subskrypcji.",
+        },
+        {
+          q: "Jaka jest różnica między HEIF a HEIC?",
+          a: "HEIF (High Efficiency Image Format) to standardowa nazwa formatu, podczas gdy HEIC (High Efficiency Image Container) to specyficzna implementacja Apple. Wykorzystują tę samą technologię kompresji i są funkcjonalnie bardzo podobne. Nasz konwerter obsługuje oba formaty bezproblemowo.",
+        },
+        {
+          q: "Czy przezroczystość zostanie zachowana?",
+          a: "Tak. Format PNG obsługuje przezroczystość, a nasz konwerter zachowuje wszelkie informacje o przezroczystości z oryginalnego obrazu HEIF podczas konwersji na PNG.",
+        },
+        {
+          q: "Jaki jest maksymalny rozmiar pliku?",
+          a: "Możesz konwertować pliki HEIF do 100MB każdy. W przypadku konwersji wsadowej możesz przetwarzać do 20 plików jednocześnie z łącznym limitem 100MB.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Powiązane Konwertery",
+      converters: [
+        { name: "HEIF na JPG", url: "/convert/heif-to-jpg" },
+        { name: "HEIC na PNG", url: "/convert/heic-to-png" },
+        { name: "PNG na JPG", url: "/convert/png-to-jpg" },
+        { name: "WEBP na PNG", url: "/convert/webp-to-png" },
+        { name: "HEIC na PDF", url: "/convert/heic-to-pdf" },
       ],
     },
   },

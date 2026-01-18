@@ -194,6 +194,10 @@ export const ja: Translations = {
       name: "HEIFからJPGへ",
       description: "HEIF画像をJPG形式に瞬時に変換",
     },
+    heifToPng: {
+      name: "HEIFからPNGへ",
+      description: "HEIF画像をPNG形式に瞬時に変換",
+    },
   },
 
   heicToPdf: {
@@ -1157,6 +1161,139 @@ export const ja: Translations = {
         { name: "HEIFからPNG", url: "/convert/heif-to-png" },
         { name: "JPGからPDF", url: "/convert/jpg-to-pdf" },
         { name: "PNGからJPG", url: "/convert/png-to-jpg" },
+      ],
+    },
+  },
+
+  // HEIF to PNG Converter
+  heifToPng: {
+    title: "HEIFからPNGへのコンバーター - HEIF画像をPNGに無料でオンライン変換",
+    metaDescription:
+      "HEIF画像をPNG形式に瞬時に変換。一括処理対応の無料オンラインHEIFからPNGへのコンバーター。高速、安全、登録不要。すべてのデバイスのHEIF写真に対応。",
+    metaKeywords:
+      "HEIFからPNG, HEIF変換, HEIF画像をPNG, HEIFコンバーター, 画像をPNG, バッチ変換HEIF, 無料HEIFコンバーター, HEIF vs HEIC",
+    hero: {
+      title: "HEIFからPNGへのコンバーター",
+      subtitle:
+        "HEIF画像をユニバーサルPNG形式に瞬時に変換。ファイルサイズ制限なしの無料、高速、安全な変換。あらゆるデバイスのHEIF写真に最適。",
+      badge1: "超高速",
+      badge2: "100%安全",
+      badge3: "登録不要",
+    },
+    upload: {
+      title: "HEIFファイルをアップロード",
+      description:
+        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+      buttonSingle: "単一ファイル",
+      buttonBatch: "バッチ変換",
+      chooseFile: "ファイルを選択",
+      converting: "変換中...",
+      success: "変換成功！",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてをZIPとしてダウンロード",
+      convertAnother: "別のファイルを変換",
+    },
+    features: {
+      title: "機能",
+      list: [
+        "高品質HEIF to PNG変換",
+        "最大20ファイルのバッチ処理",
+        "画像品質を保持",
+        "ファイルサイズ制限なし",
+        "100%安全でプライベート",
+        "すべてのデバイスのHEIF写真に対応",
+        "変換後即座にダウンロード",
+        "透かしなし",
+      ],
+    },
+    howItWorks: {
+      title: "使い方",
+      step1Title: "HEIFファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step2Title: "自動変換",
+      step2Desc: "コンバーターがファイルを瞬時に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルを即座に取得",
+    },
+    about: {
+      title: "HEIF to PNG変換について",
+      whatIsHeif: {
+        title: "HEIF形式とは？",
+        content:
+          "HEIF（High Efficiency Image Format）は、HEVC（H.265）圧縮を使用する現代的な画像コンテナ形式です。HEICと類似していますが、HEIFは標準形式名であり、HEICはAppleの実装を具体的に指します。HEIFはJPEGと比較して優れた圧縮を提供しながら高画質を維持し、写真を効率的に保存するのに理想的です。",
+      },
+      whyConvert: {
+        title: "なぜHEIFをPNGに変換するのか？",
+        content:
+          "HEIFは効率的で現代的な形式ですが、すべてのデバイスやプラットフォームで普遍的にサポートされているわけではありません。HEIFをPNGに変換することで、画像をあらゆるデバイスで表示でき、メールで簡単に共有でき、ウェブサイトにアップロードして任意のアプリケーションで使用できます。PNG形式は世界で最も広くサポートされている画像形式で、最大の互換性と共有に最適です。",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - 違いは何ですか？",
+        content:
+          "HEIF（High Efficiency Image Format）はコンテナ形式の標準であり、HEIC（High Efficiency Image Container）はAppleのHEIFの具体的な実装です。実際には非常に類似しており、両方とも同じ圧縮技術を使用し、同じ利点を提供します。Appleデバイスは写真をHEICファイルとして保存しますが、これらは実際にはHEIF準拠です。当社のコンバーターは両方の形式をシームレスに処理するため、任意のHEIF/HEIC画像をPNG形式に変換できます。",
+      },
+      benefits: {
+        title: "当社コンバーターの利点",
+        list: [
+          "ユニバーサル互換性 - PNGはすべてのデバイスとプラットフォームで動作",
+          "小さなファイルサイズ - より高速な共有のための効率的な圧縮",
+          "幅広いサポート - 世界で最も広く使用されている画像形式",
+          "簡単な共有 - すべてのメールクライアントとソーシャルメディアと互換",
+          "ウェブ対応 - ウェブサイト、ソーシャルメディア、オンライン使用に最適",
+          "高品質 - 元の画像解像度を保持",
+        ],
+      },
+    },
+    faq: {
+      title: "よくある質問 – HEIFからPNG",
+      items: [
+        {
+          q: "HEIFをPNGに変換するのは無料ですか？",
+          a: "はい！当社のHEIF to PNGコンバーターは完全に無料で、隠れた費用はありません。登録やサブスクリプションなしで無制限にファイルを変換できます。",
+        },
+        {
+          q: "HEIFとHEICの違いは何ですか？",
+          a: "HEIF（High Efficiency Image Format）は標準形式名であり、HEIC（High Efficiency Image Container）はAppleの具体的な実装です。同じ圧縮技術を使用し、機能的に非常に類似しています。当社のコンバーターは両方の形式をシームレスに処理します。",
+        },
+        {
+          q: "データは安全ですか？",
+          a: "絶対に安全です。すべての変換はSSL暗号化を使用してサーバー上で安全に実行されます。ファイルは変換後すぐに自動的に削除されます。ファイルを保存、共有、またはアクセスすることはありません。",
+        },
+        {
+          q: "最大ファイルサイズは？",
+          a: "HEIFファイルはそれぞれ最大100MBまで変換できます。バッチ変換では、合計100MBの制限で最大20ファイルを一度に処理できます。",
+        },
+        {
+          q: "バッチ変換はサポートしていますか？",
+          a: "はい！最大20個のHEIFファイルを同時にアップロードして変換できます。変換されたすべてのPNGは、個別ファイルまたは単一のZIPアーカイブとしてダウンロードできます。",
+        },
+        {
+          q: "品質は保持されますか？",
+          a: "はい、変換中に高画質を維持します。HEIF画像は、最小限の品質損失で高解像度PNGに変換されます。",
+        },
+        {
+          q: "任意のデバイスからHEIFを変換できますか？",
+          a: "はい！当社のコンバーターは、Appleデバイスだけでなく、HEIF形式をサポートする任意のデバイスやカメラのHEIF画像で動作します。HEIFファイルをアップロードしてPNGに変換するだけです。",
+        },
+        {
+          q: "ソフトウェアをインストールする必要がありますか？",
+          a: "インストール不要です。オンラインコンバーターは、Windows、Mac、Linux、iOS、Androidなど、任意のデバイスのWebブラウザで直接動作します。",
+        },
+        {
+          q: "変換にはどのくらい時間がかかりますか？",
+          a: "変換はほぼ瞬時です！ほとんどのHEIFファイルは、ファイルサイズとインターネット接続に応じて、わずか数秒でPNGに変換されます。",
+        },
+      ],
+    },
+    related: {
+      title: "関連コンバーター",
+      converters: [
+        { name: "HEICからPNG", url: "/convert/heic-to-png" },
+        { name: "HEICからPDF", url: "/convert/heic-to-pdf" },
+        { name: "HEICからPNG", url: "/convert/heic-to-png" },
+        { name: "HEIFからPNG", url: "/convert/heif-to-png" },
+        { name: "PNGからPDF", url: "/convert/png-to-pdf" },
+        { name: "PNGからPNG", url: "/convert/png-to-png" },
       ],
     },
   },

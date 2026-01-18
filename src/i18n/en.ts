@@ -195,6 +195,10 @@ export const en = {
       name: "HEIF to JPG",
       description: "Convert HEIF images to JPG format instantly",
     },
+    heifToPng: {
+      name: "HEIF to PNG",
+      description: "Convert HEIF images to PNG format instantly",
+    },
   },
 
   // HEIC to PDF Converter
@@ -1178,6 +1182,125 @@ export const en = {
         { name: "HEIF to PNG", url: "/convert/heif-to-png" },
         { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
+      ],
+    },
+  },
+
+  // HEIF to PNG Converter
+  heifToPng: {
+    title: "HEIF to PNG Converter - Convert HEIF Images to PNG Free Online",
+    metaDescription:
+      "Convert HEIF images to PNG format instantly. Free online HEIF to PNG converter with batch processing. Fast, secure, and no registration required. Preserve image quality and transparency.",
+    metaKeywords:
+      "HEIF to PNG, convert HEIF, HEIF to PNG converter, image to PNG, batch convert HEIF, free HEIF converter, HEIF converter online",
+
+    hero: {
+      title: "HEIF to PNG Converter",
+      subtitle:
+        "Transform your HEIF images into universal PNG format instantly. Free, fast, and secure conversion with no file size limits.",
+      badge1: "Lightning Fast",
+      badge2: "100% Secure",
+      badge3: "No Registration",
+    },
+
+    upload: {
+      title: "Upload HEIF Files",
+      description:
+        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download PNG",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+
+    features: {
+      title: "Features",
+      list: [
+        "High-quality HEIF to PNG conversion",
+        "Batch processing up to 20 files",
+        "Preserves image quality and transparency",
+        "No file size limitations",
+        "100% secure and private",
+        "Works with all HEIF images",
+        "Instant download after conversion",
+        "No watermarks added",
+      ],
+    },
+
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload HEIF Files",
+      step1Desc: "Select one or multiple HEIF images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download PNG",
+      step3Desc: "Get your converted PNG files immediately",
+    },
+
+    about: {
+      title: "About HEIF to PNG Conversion",
+      whatIsHeif: {
+        title: "What is HEIF Format?",
+        content:
+          "HEIF (High Efficiency Image Format) is a modern image container format that uses HEVC (H.265) compression. While similar to HEIC, HEIF is the standard format name, while HEIC specifically refers to Apple's implementation. HEIF offers superior compression compared to traditional formats while maintaining high image quality.",
+      },
+      whyConvert: {
+        title: "Why Convert HEIF to PNG?",
+        content:
+          "While HEIF is efficient and modern, it's not universally supported. Converting HEIF to PNG ensures your images work on all devices and platforms. PNG format supports lossless compression and transparency, making it ideal for graphics, web design, and professional use where image quality and transparency are critical.",
+      },
+      heifVsHeic: {
+        title: "HEIF vs HEIC - What's the Difference?",
+        content:
+          "HEIF (High Efficiency Image Format) is the container format standard, while HEIC (High Efficiency Image Container) is Apple's specific implementation of HEIF. In practice, they are very similar - both use the same compression technology and offer the same benefits. Apple devices save photos as HEIC files, which are actually HEIF-compliant. Our converter handles both formats seamlessly.",
+      },
+      benefits: {
+        title: "Benefits of Our Converter",
+        list: [
+          "Universal Compatibility - PNGs work on all devices and platforms",
+          "Transparency Support - Perfect for graphics and web design",
+          "Lossless Quality - No compression artifacts or quality loss",
+          "Easy Sharing - Widely supported format that anyone can open",
+          "Web Ready - Ideal for websites, social media, and online use",
+          "High Quality - Preserve original image resolution",
+        ],
+      },
+    },
+
+    faq: {
+      title: "Frequently Asked Questions – HEIF to PNG",
+      items: [
+        {
+          q: "Is it free to convert HEIF to PNG?",
+          a: "Yes! Our HEIF to PNG converter is completely free with no hidden charges. You can convert unlimited files without any registration or subscription.",
+        },
+        {
+          q: "What is the difference between HEIF and HEIC?",
+          a: "HEIF (High Efficiency Image Format) is the standard format name, while HEIC (High Efficiency Image Container) is Apple's specific implementation. They use the same compression technology and are functionally very similar. Our converter handles both formats seamlessly.",
+        },
+        {
+          q: "Will transparency be preserved?",
+          a: "Yes. PNG format supports transparency, and our converter preserves any transparency information from the original HEIF image when converting to PNG.",
+        },
+        {
+          q: "What is the maximum file size?",
+          a: "You can convert HEIF files up to 100MB each. For batch conversion, you can process up to 20 files at once with a total limit of 100MB.",
+        },
+      ],
+    },
+
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "HEIF to JPG", url: "/convert/heif-to-jpg" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "PNG to JPG", url: "/convert/png-to-jpg" },
+        { name: "WEBP to PNG", url: "/convert/webp-to-png" },
+        { name: "HEIC to PDF", url: "/convert/heic-to-pdf" },
       ],
     },
   },

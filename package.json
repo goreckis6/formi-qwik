@@ -8,7 +8,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "qwik build",
+    "build": "NO_COLOR= FORCE_COLOR=1 qwik build",
     "postbuild": "cp public/sitemap.xml dist/sitemap.xml && cp public/sitemap.xsl dist/sitemap.xsl",
     "build.client": "vite build",
     "build.server": "qwik check-client src dist && vite build -c adapters/node-server/vite.config.ts",
