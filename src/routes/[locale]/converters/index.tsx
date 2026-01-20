@@ -110,8 +110,7 @@ export default component$(() => {
         href: getLocalizedPath("/convert/jpg-to-webp", locale),
       }] : []),
     ],
-  };
-  });
+  }));
 
   const filteredConverters = useComputed$(() => {
     const query = searchQuery.value.toLowerCase();
