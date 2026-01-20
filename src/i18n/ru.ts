@@ -166,6 +166,10 @@ export const ru: Translations = {
         description: "Конвертируйте изображения в формате HEIF. HEIF (High Efficiency Image Format) — это открытый стандартный контейнерный формат, на котором основан HEIC. В то время как HEIC — это реализация Apple, HEIF используется другими устройствами и платформами.",
         difference: "Примечание: HEIF — это контейнерный формат, а HEIC — это конкретная реализация Apple. Оба формата совместимы, но файлы HEIC чаще используются устройствами Apple.",
       },
+      jpg: {
+        title: "Конвертеры JPG",
+        description: "Конвертировать изображения JPG/JPEG в другие форматы. JPG (Joint Photographic Experts Group) - самый используемый формат изображений для фотографий, оптимизированный для фотографического контента со сжатием с потерями.",
+      },
     },
     heicToPdf: {
       name: "HEIC в PDF",
@@ -222,6 +226,10 @@ export const ru: Translations = {
     heifToGif: {
       name: "HEIF в GIF",
       description: "Конвертировать изображения HEIF в GIF для социальных сетей и обмена",
+    },
+    jpgToPng: {
+      name: "JPG в PNG",
+      description: "Конвертировать JPG в PNG для прозрачности и качества без потерь",
     },
   },
 

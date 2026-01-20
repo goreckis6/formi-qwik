@@ -161,6 +161,10 @@ export const ar: Translations = {
         description: "تحويل صور بتنسيق HEIF. HEIF (High Efficiency Image Format) هو تنسيق الحاوية القياسي المفتوح الذي يعتمد عليه HEIC. بينما HEIC هو تنفيذ Apple، يتم استخدام HEIF بواسطة أجهزة ومنصات أخرى.",
         difference: "ملاحظة: HEIF هو تنسيق الحاوية، بينما HEIC هو التنفيذ المحدد لـ Apple. كلا التنسيقين متوافقان، لكن ملفات HEIC تُستخدم بشكل أكثر شيوعًا بواسطة أجهزة Apple.",
       },
+      jpg: {
+        title: "محولات JPG",
+        description: "تحويل صور JPG/JPEG إلى تنسيقات أخرى. JPG (Joint Photographic Experts Group) هو تنسيق الصور الأكثر استخداماً للصور الفوتوغرافية، محسّن للمحتوى الفوتوغرافي مع ضغط مع فقدان.",
+      },
     },
      heicToPdf: {
       name: "HEIC إلى PDF",
@@ -217,6 +221,10 @@ export const ar: Translations = {
     heifToGif: {
       name: "HEIF إلى GIF",
       description: "تحويل صور HEIF إلى GIF لوسائل التواصل الاجتماعي والمشاركة",
+    },
+    jpgToPng: {
+      name: "JPG إلى PNG",
+      description: "تحويل JPG إلى PNG للشفافية والجودة بدون فقدان",
     },
   },
 

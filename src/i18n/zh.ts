@@ -160,6 +160,10 @@ export const zh: Translations = {
         description: "转换HEIF格式图像。HEIF（高效图像格式）是HEIC所基于的开放标准容器格式。虽然HEIC是Apple的实现，但HEIF被其他设备和平台使用。",
         difference: "注意：HEIF是容器格式，而HEIC是Apple的特定实现。两种格式兼容，但HEIC文件更常用于Apple设备。",
       },
+      jpg: {
+        title: "JPG转换器",
+        description: "将JPG/JPEG图像转换为其他格式。JPG（联合图像专家组）是最广泛使用的照片图像格式，针对有损压缩的摄影内容进行了优化。",
+      },
     },
      heicToPdf: {
       name: "HEIC转PDF",
@@ -216,6 +220,10 @@ export const zh: Translations = {
     heifToGif: {
       name: "HEIF转GIF",
       description: "将HEIF图像转换为GIF用于社交媒体和分享",
+    },
+    jpgToPng: {
+      name: "JPG转PNG",
+      description: "将JPG转换为PNG以获得透明度和无损质量",
     },
   },
 

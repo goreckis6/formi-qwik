@@ -4,14 +4,15 @@ import { Link, routeLoader$ } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
 
-export const useLocaleLoader = routeLoader$(({ params, url }) => {
-  const locale = params.locale || "en";
-  const isValidLocale = supportedLanguages.some((lang) => lang.code === locale);
-  const finalLocale = isValidLocale ? locale : "en";
+export const useLocaleLoader = routeLoader$(({ url }) => {
+  const pathParts = url.pathname.split("/").filter(Boolean);
+  const firstPart = pathParts[0];
+  const isLanguageCode = supportedLanguages.some((lang) => lang.code === firstPart);
+  const locale = isLanguageCode ? firstPart : "en";
 
   return {
-    locale: finalLocale,
-    translations: getTranslations(finalLocale),
+    locale,
+    translations: getTranslations(locale),
   };
 });
 
@@ -97,6 +98,13 @@ export default component$(() => {
         href: getLocalizedPath("/convert/heif-to-gif", locale),
       },
     ],
+    jpg: [
+      {
+        name: converters.jpgToPng.name,
+        description: converters.jpgToPng.description,
+        href: getLocalizedPath("/convert/jpg-to-png", locale),
+      },
+    ],
   }));
 
   const filteredConverters = useComputed$(() => {
@@ -107,6 +115,7 @@ export default component$(() => {
       return {
         heic: sections.heic,
         heif: sections.heif,
+        jpg: sections.jpg,
       };
     }
 
@@ -119,12 +128,16 @@ export default component$(() => {
         (conv) =>
           conv.name.toLowerCase().includes(query) || conv.description.toLowerCase().includes(query)
       ),
+      jpg: sections.jpg.filter(
+        (conv) =>
+          conv.name.toLowerCase().includes(query) || conv.description.toLowerCase().includes(query)
+      ),
     };
   });
 
   const hasAnyResults = useComputed$(() => {
     const filtered = filteredConverters.value;
-    return filtered.heic.length > 0 || filtered.heif.length > 0;
+    return filtered.heic.length > 0 || filtered.heif.length > 0 || filtered.jpg.length > 0;
   });
 
   return (
@@ -296,6 +309,70 @@ export default component$(() => {
                   </div>
                 </div>
               )}
+
+              {/* JPG Section */}
+              {filteredConverters.value.jpg.length > 0 && (
+                <div class="flex flex-col gap-4">
+                  <div class="border-l-4 border-green-500 pl-4 py-2 bg-green-50 rounded-r-lg">
+                    <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+                      {converters.sections.jpg.title}
+                    </h2>
+                    <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
+                      {converters.sections.jpg.description}
+                    </p>
+                  </div>
+                  <div class="flex flex-col gap-3">
+                    {filteredConverters.value.jpg.map((converter, index) => (
+                      <Link
+                        key={`${converter.href}-${index}`}
+                        href={converter.href}
+                        class="group relative bg-white rounded-lg p-4 hover:shadow-lg transition-all duration-200 border border-gray-200 hover:border-green-400 cursor-pointer"
+                      >
+                        <div class="flex items-start gap-3 pointer-events-none">
+                          <div class="inline-flex p-2 rounded-lg bg-gradient-to-br from-green-500 to-green-600 group-hover:scale-105 transition-transform flex-shrink-0 pointer-events-none">
+                            <svg
+                              class="w-5 h-5 text-white"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                              />
+                            </svg>
+                          </div>
+                          <div class="flex-1 pointer-events-none">
+                            <h3 class="text-base sm:text-lg font-semibold text-gray-900 group-hover:text-green-600 transition-colors">
+                              {converter.name}
+                            </h3>
+                            <p class="text-xs sm:text-sm text-gray-600 mt-1">
+                              {converter.description}
+                            </p>
+                          </div>
+                          <div class="flex-shrink-0 pointer-events-none">
+                            <svg
+                              class="w-4 h-4 text-gray-400 group-hover:text-green-600 group-hover:translate-x-0.5 transition-all"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 5l7 7-7 7"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           ) : (
             <div class="text-center py-12 sm:py-16">
@@ -310,52 +387,47 @@ export default component$(() => {
   );
 });
 
-export const head: DocumentHead = ({ resolveValue }) => {
-  const localeData = resolveValue(useLocaleLoader);
-  const converters = localeData.translations.converters;
-
-  return {
-    title: `${converters.title} - Convert 300+ File Formats | FormiPeek`,
-    meta: [
-      {
-        name: "description",
-        content: converters.subtitle,
-      },
-      {
-        name: "keywords",
-        content:
-          "file converters, format converter, image converter, document converter, ebook converter, batch conversion, online converter, free converter",
-      },
-      {
-        property: "og:type",
-        content: "website",
-      },
-      {
-        property: "og:url",
-        content: `https://formipeek.com/${
-          localeData.locale === "en" ? "" : localeData.locale + "/"
-        }converters`,
-      },
-      {
-        property: "og:title",
-        content: `${converters.title} - FormiPeek`,
-      },
-      {
-        property: "og:description",
-        content: converters.subtitle,
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image",
-      },
-      {
-        name: "twitter:title",
-        content: `${converters.title} - FormiPeek`,
-      },
-      {
-        name: "twitter:description",
-        content: converters.subtitle,
-      },
-    ],
-  };
+export const head: DocumentHead = {
+  title: "File Converters - Convert 300+ File Formats | FormiPeek",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Browse and use our 300+ file format converters. Convert images, documents, ebooks, and data files instantly. Free, fast, and secure conversion.",
+    },
+    {
+      name: "keywords",
+      content:
+        "file converters, format converter, image converter, document converter, ebook converter, batch conversion, online converter, free converter",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
+      property: "og:url",
+      content: "https://formipeek.com/converters",
+    },
+    {
+      property: "og:title",
+      content: "File Converters - Convert 300+ File Formats | FormiPeek",
+    },
+    {
+      property: "og:description",
+      content:
+        "Browse and use our 300+ file format converters. Convert images, documents, ebooks, and more.",
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: "File Converters - FormiPeek",
+    },
+    {
+      name: "twitter:description",
+      content: "Browse and use our 300+ file format converters. Free, fast, and secure conversion.",
+    },
+  ],
 };

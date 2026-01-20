@@ -160,6 +160,10 @@ export const ko: Translations = {
         description: "HEIF 형식 이미지를 변환합니다. HEIF(High Efficiency Image Format)는 HEIC가 기반으로 하는 개방형 표준 컨테이너 형식입니다. HEIC가 Apple의 구현이지만, HEIF는 다른 기기 및 플랫폼에서 사용됩니다.",
         difference: "참고: HEIF는 컨테이너 형식이고, HEIC는 Apple의 특정 구현입니다. 두 형식은 호환되지만, HEIC 파일이 Apple 기기에서 더 일반적으로 사용됩니다.",
       },
+      jpg: {
+        title: "JPG 변환기",
+        description: "JPG/JPEG 이미지를 다른 형식으로 변환합니다. JPG (Joint Photographic Experts Group)는 손실 압축을 사용한 사진 콘텐츠에 최적화된 가장 널리 사용되는 사진 이미지 형식입니다.",
+      },
     },
      heicToPdf: {
       name: "HEIC to PDF",
@@ -216,6 +220,10 @@ export const ko: Translations = {
     heifToGif: {
       name: "HEIF to GIF",
       description: "HEIF 이미지를 소셜 미디어 및 공유용 GIF로 변환",
+    },
+    jpgToPng: {
+      name: "JPG to PNG",
+      description: "투명도와 무손실 품질을 위해 JPG를 PNG로 변환",
     },
   },
 

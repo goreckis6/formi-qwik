@@ -167,6 +167,10 @@ export const hi: Translations = {
         description: "HEIF प्रारूप छवियों को कनवर्ट करें। HEIF (High Efficiency Image Format) खुला मानक कंटेनर प्रारूप है जिस पर HEIC आधारित है। जबकि HEIC Apple का कार्यान्वयन है, HEIF का उपयोग अन्य उपकरणों और प्लेटफ़ॉर्म द्वारा किया जाता है।",
         difference: "नोट: HEIF कंटेनर प्रारूप है, जबकि HEIC Apple का विशिष्ट कार्यान्वयन है। दोनों प्रारूप संगत हैं, लेकिन HEIC फ़ाइलें Apple उपकरणों द्वारा अधिक आमतौर पर उपयोग की जाती हैं।",
       },
+      jpg: {
+        title: "JPG कन्वर्टर्स",
+        description: "JPG/JPEG छवियों को अन्य प्रारूपों में कनवर्ट करें। JPG (Joint Photographic Experts Group) फोटो के लिए सबसे व्यापक रूप से उपयोग किया जाने वाला छवि प्रारूप है, हानिपूर्ण संपीड़न के साथ फोटोग्राफिक सामग्री के लिए अनुकूलित।",
+      },
     },
      heicToPdf: {
       name: "HEIC से PDF",
@@ -223,6 +227,10 @@ export const hi: Translations = {
     heifToGif: {
       name: "HEIF से GIF",
       description: "सोशल मीडिया और साझाकरण के लिए HEIF छवियों को GIF में कनवर्ट करें",
+    },
+    jpgToPng: {
+      name: "JPG से PNG",
+      description: "पारदर्शिता और दोषरहित गुणवत्ता के लिए JPG को PNG में कनवर्ट करें",
     },
   },
 

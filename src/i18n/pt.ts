@@ -169,6 +169,10 @@ export const pt: EnTranslations = {
         description: "Converta imagens no formato HEIF. HEIF (High Efficiency Image Format) é o formato contêiner padrão aberto no qual HEIC é baseado. Enquanto HEIC é a implementação da Apple, HEIF é usado por outros dispositivos e plataformas.",
         difference: "Nota: HEIF é o formato contêiner, enquanto HEIC é a implementação específica da Apple. Ambos os formatos são compatíveis, mas arquivos HEIC são mais comumente usados por dispositivos Apple.",
       },
+      jpg: {
+        title: "Conversores JPG",
+        description: "Converter imagens JPG/JPEG para outros formatos. JPG (Joint Photographic Experts Group) é o formato de imagem mais usado para fotos, otimizado para conteúdo fotográfico com compressão com perda.",
+      },
     },
     heicToPdf: {
       name: "HEIC para PDF",
@@ -225,6 +229,10 @@ export const pt: EnTranslations = {
     heifToGif: {
       name: "HEIF para GIF",
       description: "Converter imagens HEIF para GIF para mídias sociais e compartilhamento",
+    },
+    jpgToPng: {
+      name: "JPG para PNG",
+      description: "Converter JPG para PNG para transparência e qualidade sem perda",
     },
   },
 

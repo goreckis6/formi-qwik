@@ -167,6 +167,10 @@ export const nl: Translations = {
         description: "Converteer afbeeldingen in HEIF-formaat. HEIF (High Efficiency Image Format) is het open standaard containerformaat waarop HEIC is gebaseerd. Terwijl HEIC de implementatie van Apple is, wordt HEIF gebruikt door andere apparaten en platforms.",
         difference: "Opmerking: HEIF is het containerformaat, terwijl HEIC de specifieke implementatie van Apple is. Beide formaten zijn compatibel, maar HEIC-bestanden worden vaker gebruikt door Apple-apparaten.",
       },
+      jpg: {
+        title: "JPG Converters",
+        description: "Converteer JPG/JPEG-afbeeldingen naar andere formaten. JPG (Joint Photographic Experts Group) is het meest gebruikte beeldformaat voor foto's, geoptimaliseerd voor fotografische inhoud met verliescompressie.",
+      },
     },
      heicToPdf: {
       name: "HEIC naar PDF",
@@ -223,6 +227,10 @@ export const nl: Translations = {
     heifToGif: {
       name: "HEIF naar GIF",
       description: "HEIF-afbeeldingen naar GIF converteren voor social media en delen",
+    },
+    jpgToPng: {
+      name: "JPG naar PNG",
+      description: "Converteer JPG naar PNG voor transparantie en verliesvrije kwaliteit",
     },
   },
 

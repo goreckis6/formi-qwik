@@ -158,6 +158,10 @@ export const id: Translations = {
         description: "Konversi gambar format HEIF. HEIF (High Efficiency Image Format) adalah format kontainer standar terbuka yang menjadi dasar HEIC. Sementara HEIC adalah implementasi Apple, HEIF digunakan oleh perangkat dan platform lain.",
         difference: "Catatan: HEIF adalah format kontainer, sedangkan HEIC adalah implementasi spesifik Apple. Kedua format kompatibel, tetapi file HEIC lebih umum digunakan oleh perangkat Apple.",
       },
+      jpg: {
+        title: "Konverter JPG",
+        description: "Konversi gambar JPG/JPEG ke format lain. JPG (Joint Photographic Experts Group) adalah format gambar yang paling banyak digunakan untuk foto, dioptimalkan untuk konten fotografis dengan kompresi lossy.",
+      },
     },
      heicToPdf: {
       name: 'HEIC ke PDF',

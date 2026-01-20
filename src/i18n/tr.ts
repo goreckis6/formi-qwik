@@ -167,6 +167,10 @@ export const tr: Translations = {
         description: "HEIF formatı görüntüleri dönüştürün. HEIF (High Efficiency Image Format), HEIC'in dayandığı açık standart konteyner formatıdır. HEIC Apple'ın uygulamasıyken, HEIF diğer cihazlar ve platformlar tarafından kullanılır.",
         difference: "Not: HEIF konteyner formatıdır, HEIC ise Apple'ın özel uygulamasıdır. Her iki format da uyumludur, ancak HEIC dosyaları Apple cihazları tarafından daha yaygın olarak kullanılır.",
       },
+      jpg: {
+        title: "JPG Dönüştürücüler",
+        description: "JPG/JPEG görsellerini diğer formatlara dönüştürün. JPG (Joint Photographic Experts Group), kayıplı sıkıştırma ile fotografik içerik için optimize edilmiş, fotoğraflar için en yaygın kullanılan görüntü formatıdır.",
+      },
     },
      heicToPdf: {
       name: "HEIC'den PDF'e",
@@ -223,6 +227,10 @@ export const tr: Translations = {
     heifToGif: {
       name: "HEIF'den GIF'ye",
       description: "Sosyal medya ve paylaşım için HEIF görüntülerini GIF'e dönüştürün",
+    },
+    jpgToPng: {
+      name: "JPG'den PNG'ye",
+      description: "Şeffaflık ve kayıpsız kalite için JPG'yi PNG'ye dönüştürün",
     },
   },
 

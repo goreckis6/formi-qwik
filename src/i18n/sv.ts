@@ -165,6 +165,10 @@ export const sv: Translations = {
         description: "Konvertera bilder i HEIF-format. HEIF (High Efficiency Image Format) är det öppna standardcontainerformat som HEIC bygger på. Medan HEIC är Apple's implementation, används HEIF av andra enheter och plattformar.",
         difference: "Obs: HEIF är containerformatet, medan HEIC är Apple's specifika implementation. Båda formaten är kompatibla, men HEIC-filer används oftare av Apple-enheter.",
       },
+      jpg: {
+        title: "JPG Omvandlare",
+        description: "Konvertera JPG/JPEG-bilder till andra format. JPG (Joint Photographic Experts Group) är det mest använda bildformatet för foton, optimerat för fotografiskt innehåll med förlustkompr imering.",
+      },
     },
      heicToPdf: {
       name: "HEIC till PDF",
@@ -221,6 +225,10 @@ export const sv: Translations = {
     heifToGif: {
       name: "HEIF till GIF",
       description: "Konvertera HEIF-bilder till GIF för sociala medier och delning",
+    },
+    jpgToPng: {
+      name: "JPG till PNG",
+      description: "Konvertera JPG till PNG för transparens och förlustfri kvalitet",
     },
   },
 
