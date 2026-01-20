@@ -254,15 +254,15 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione...",
+      converting: "Conversione in corso...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica PDF",
       downloadAll: "Scarica Tutto come ZIP",
       convertAnother: "Converti un Altro File",
     },
@@ -283,12 +283,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica PDF",
+      step3Desc: "Ottieni i tuoi file PDF convertiti immediatamente",
     },
 
     about: {
@@ -317,7 +317,7 @@ export const it: Translations = {
     },
 
     faq: {
-      title: "Domande Frequenti – JPG a PNG",
+      title: "Domande Frequenti – HEIC in PDF",
       items: [
         {
           q: "È gratuito convertire HEIC in PDF?",
@@ -378,17 +378,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione...",
+      converting: "Conversione in corso...",
       success: "Conversione riuscita!",
       download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
 
     features: {
@@ -407,8 +407,8 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
       step3Title: "Scarica PNG",
@@ -493,17 +493,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica JPG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
 
     features: {
@@ -522,12 +522,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica JPG",
+      step3Desc: "Ottieni i tuoi file JPG convertiti immediatamente",
     },
 
     about: {
@@ -624,17 +624,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione...",
+      converting: "Conversione in corso...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica WebP",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
 
     features: {
@@ -653,12 +653,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica WebP",
+      step3Desc: "Ottieni i tuoi file WebP convertiti immediatamente",
     },
 
     about: {
@@ -737,17 +737,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione...",
+      converting: "Conversione in corso...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica AVIF",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
 
     features: {
@@ -766,12 +766,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica AVIF",
+      step3Desc: "Ottieni i tuoi file AVIF convertiti immediatamente",
     },
 
     about: {
@@ -850,17 +850,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione...",
+      converting: "Conversione in corso...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica TIFF",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
 
     features: {
@@ -879,12 +879,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica TIFF",
+      step3Desc: "Ottieni i tuoi file TIFF convertiti immediatamente",
     },
 
     about: {
@@ -961,17 +961,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIC",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione...",
+      converting: "Conversione in corso...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica GIF",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -988,12 +988,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIC",
+      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica GIF",
+      step3Desc: "Ottieni i tuoi file GIF convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIC in GIF",
@@ -1085,17 +1085,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIF",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica JPG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1112,19 +1112,20 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIF",
+      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica JPG",
+      step3Desc: "Ottieni i tuoi file JPG convertiti immediatamente",
     },
     about: {
-      title: "Informazioni sulla Conversione JPG in PNG",
-      p1: "JPG (o JPEG) è un formato immagine con perdita ottimizzato per le fotografie ma non supporta la trasparenza. PNG (Portable Network Graphics) è un formato senza perdita perfetto per grafiche, loghi e immagini che richiedono sfondi trasparenti o bordi nitidi. Convertire JPG in PNG è ideale quando è necessario aggiungere trasparenza, eseguire più cicli di modifica senza perdita di qualità o preparare immagini per il web con bordi puliti.",
-      p2: "Il nostro convertitore JPG in PNG preserva perfettamente ogni pixel della tua immagine originale trasformandola nel formato PNG senza perdita. A differenza di JPG che perde qualità ogni volta che viene salvato, i file PNG possono essere modificati e salvati nuovamente senza degradazione. Questo rende PNG la scelta preferita per designer professionisti, creazione di loghi e qualsiasi progetto dove la precisione conta. Il formato PNG supporta anche la trasparenza alpha, permettendoti di creare immagini con sfondi trasparenti - qualcosa che JPG non può fare.",
-      p3: "La conversione è istantanea, sicura e preserva la precisione del colore. I tuoi file non vengono mai archiviati o condivisi - tutto avviene in modo sicuro nel tuo browser. Che tu stia convertendo un singolo logo o un lotto di immagini di prodotti, il nostro strumento offre risultati professionali senza filigrane o costi nascosti.",
-    },
+      title: "Informazioni sulla Conversione HEIF a JPG",
+      whatIsHeif: {
+        title: "Cos'è il Formato HEIF?",
+        content:
+          "HEIF (High Efficiency Image Format) è un formato contenitore di immagini moderno che utilizza compressione HEVC (H.265). Sebbene simile a HEIC, HEIF è il nome di formato standard, mentre HEIC si riferisce specificamente all'implementazione di Apple. HEIF offre compressione superiore rispetto a JPEG mantenendo alta qualità dell'immagine, rendendolo ideale per memorizzare foto in modo efficiente.",
+      },
       whyConvert: {
         title: "Perché Convertire HEIF a JPG?",
         content:
@@ -1217,17 +1218,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIF",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica TIFF",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1244,12 +1245,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIF",
+      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica TIFF",
+      step3Desc: "Ottieni i tuoi file TIFF convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a TIFF",
@@ -1349,17 +1350,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIF",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica AVIF",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1376,12 +1377,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIF",
+      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica AVIF",
+      step3Desc: "Ottieni i tuoi file AVIF convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a AVIF",
@@ -1481,17 +1482,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIF",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica WebP",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1508,12 +1509,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIF",
+      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica WebP",
+      step3Desc: "Ottieni i tuoi file WebP convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a WebP",
@@ -1613,17 +1614,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIF",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PNG",
+      download: "Scarica PDF",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1640,12 +1641,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIF",
+      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
+      step3Title: "Scarica PDF",
+      step3Desc: "Ottieni i tuoi file PDF convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a PDF",
@@ -1745,9 +1746,9 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File JPG",
+      title: "Carica File HEIF",
       description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
@@ -1755,7 +1756,7 @@ export const it: Translations = {
       success: "Conversione riuscita!",
       download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
+      convertAnother: "Converti Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1772,8 +1773,8 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step1Title: "Carica File HEIF",
+      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
       step3Title: "Scarica PNG",
@@ -1861,273 +1862,6 @@ export const it: Translations = {
       ],
     },
   },
-
-  // JPG to PNG Converter
-  jpgToPng: {
-    title: "Convertitore JPG in PNG - Aggiungi Trasparenza e Qualità Senza Perdita",
-    metaDescription:
-      "Converti JPG in PNG per supporto trasparenza e qualità senza perdita. Perfetto per loghi, grafiche e immagini web. Preserva la qualità senza artefatti di compressione. Convertitore batch gratuito, senza registrazione.",
-    metaKeywords:
-      "JPG in PNG, aggiungere trasparenza, conversione senza perdita, convertitore grafico, convertitore logo, immagini web, convertire JPG batch, rimuovere sfondo",
-    hero: {
-      title: "Convertitore JPG in PNG",
-      subtitle:
-        "Converti JPG in PNG per supporto trasparenza e qualità superiore. Perfetto per loghi, grafiche e immagini professionali. PNG preserva ogni dettaglio senza artefatti di compressione - ideale per grafiche web, overlay e immagini che richiedono sfondi trasparenti.",
-      badge1: "Supporto Trasparenza",
-      badge2: "Qualità Senza Perdita",
-      badge3: "Senza Artefatti",
-    },
-    upload: {
-      title: "Carica File JPG",
-      description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
-      buttonSingle: "File Singolo",
-      buttonBatch: "Conversione Batch",
-      chooseFile: "Scegli File",
-      converting: "Conversione...",
-      success: "Conversione riuscita!",
-      download: "Scarica PNG",
-      downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
-    },
-    features: {
-      title: "Features",
-      list: [
-        "Transparency support - add alpha channel for overlays",
-        "Lossless quality - preserve every pixel perfectly",
-        "Batch processing up to 20 files simultaneously",
-        "No compression artifacts - crisp edges and text",
-        "100% secure with automatic file deletion",
-        "Perfect for logos, graphics, and web images",
-        "Instant download - ready for use",
-        "No watermarks - professional quality",
-      ],
-    },
-    howItWorks: {
-      title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
-      step2Title: "Conversione Automatica",
-      step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
-    },
-    about: {
-      title: "Informazioni sulla Conversione JPG in PNG",
-      p1: "JPG (o JPEG) è un formato immagine con perdita ottimizzato per le fotografie ma non supporta la trasparenza. PNG (Portable Network Graphics) è un formato senza perdita perfetto per grafiche, loghi e immagini che richiedono sfondi trasparenti o bordi nitidi. Convertire JPG in PNG è ideale quando è necessario aggiungere trasparenza, eseguire più cicli di modifica senza perdita di qualità o preparare immagini per il web con bordi puliti.",
-      p2: "Il nostro convertitore JPG in PNG preserva perfettamente ogni pixel della tua immagine originale trasformandola nel formato PNG senza perdita. A differenza di JPG che perde qualità ogni volta che viene salvato, i file PNG possono essere modificati e salvati nuovamente senza degradazione. Questo rende PNG la scelta preferita per designer professionisti, creazione di loghi e qualsiasi progetto dove la precisione conta. Il formato PNG supporta anche la trasparenza alpha, permettendoti di creare immagini con sfondi trasparenti - qualcosa che JPG non può fare.",
-      p3: "La conversione è istantanea, sicura e preserva la precisione del colore. I tuoi file non vengono mai archiviati o condivisi - tutto avviene in modo sicuro nel tuo browser. Che tu stia convertendo un singolo logo o un lotto di immagini di prodotti, il nostro strumento offre risultati professionali senza filigrane o costi nascosti.",
-    },
-      whyConvert: {
-        title: "Why Convert JPG to PNG?",
-        content:
-          "Convert JPG to PNG when you need transparency or lossless quality. JPG uses lossy compression that permanently degrades image quality with each edit - creating compression artifacts, blurry text, and color banding. PNG uses lossless compression, preserving perfect quality forever. Key reasons to convert: add transparency for logos and overlays (remove backgrounds), prepare graphics for web/design work (crisp edges), avoid quality degradation (no artifacts), create layered compositions (alpha channel support), preserve text and line art (sharp edges), or edit images repeatedly without loss. PNG is essential for logos, icons, graphics, screenshots, UI elements, watermarks, and any image requiring transparent backgrounds. While PNG files are larger than JPG, the quality and transparency support make it the professional choice for graphics work. Convert JPG to PNG before editing to prevent further quality loss.",
-      },
-      heifVsHeic: {
-        title: "PNG vs JPG - When to Choose PNG",
-        content:
-          "PNG and JPG serve different purposes. Choose PNG for: logos and graphics (crisp edges, transparency), text-heavy images (no blurriness), images requiring transparency (overlays, watermarks), graphics needing repeated editing (lossless), icons and UI elements (sharp details), screenshots (preserve clarity), or professional design work (zero artifacts). Choose JPG for: photographs (efficient compression), images without transparency needs, file size priority (smaller files), or social media photos (acceptable quality loss). PNG's advantages: lossless quality (perfect preservation), transparency support (alpha channel), no compression artifacts (crisp edges), unlimited editing without degradation. PNG's disadvantages: larger file sizes (2-10× bigger than JPG), not ideal for photos (inefficient compression). For web use: PNG for logos/graphics, JPG for photos. For print: PNG for graphics, JPG for photos. For editing: Always PNG (prevents quality loss).",
-      },
-      benefits: {
-        title: "Benefits of PNG Format",
-        list: [
-          "Transparency Support - Add alpha channel for logos and overlays",
-          "Lossless Quality - Zero quality loss, perfect pixel preservation",
-          "No Compression Artifacts - Crisp edges, sharp text, clean graphics",
-          "Unlimited Editing - Edit repeatedly without quality degradation",
-          "Professional Standard - Industry choice for graphics and logos",
-          "Web Optimized - Perfect for UI elements, icons, and graphics",
-        ],
-      },
-    },
-    faq: {
-      title: "Domande Frequenti – JPG a PNG",
-      items: [
-        {
-          q: "Is it free to convert JPG to PNG?",
-          a: "Yes! Our JPG to PNG converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for logos, graphics, or professional use.",
-        },
-        {
-          q: "Will converting JPG to PNG add transparency?",
-          a: "Converting JPG to PNG adds transparency support (alpha channel) but doesn't automatically make existing white/black backgrounds transparent. PNG format supports transparency, so you can then edit the PNG in photo editors (Photoshop, GIMP, Photopea) to remove backgrounds. The conversion prepares your image for transparency work by changing it to a format that supports alpha channels.",
-        },
-        {
-          q: "Why is PNG better than JPG for logos and graphics?",
-          a: "PNG uses lossless compression (zero quality loss) while JPG uses lossy compression (permanent quality degradation). PNG preserves crisp edges, sharp text, and clean lines perfectly - essential for logos and graphics. PNG also supports transparency for overlays and backgrounds. JPG creates compression artifacts (blurriness, color banding) especially around text and sharp edges. For logos, icons, graphics, and text-heavy images, PNG is the professional choice.",
-        },
-        {
-          q: "Will PNG files be larger than JPG?",
-          a: "Yes, PNG files are typically 2-10 times larger than JPG because PNG uses lossless compression while JPG uses lossy compression. However, the quality and transparency support make it worthwhile for graphics, logos, and professional images. For web use, the slight increase in file size is offset by perfect quality and transparency capabilities. Modern browsers handle PNG efficiently.",
-        },
-        {
-          q: "Can I edit PNG without losing quality?",
-          a: "Absolutely! PNG is lossless, meaning you can edit and save it unlimited times without any quality degradation. Every save preserves perfect quality. This is crucial for design work where you need to make multiple edits. JPG loses quality with each save due to recompression. For professional editing workflows, always use PNG.",
-        },
-        {
-          q: "Is PNG good for web use?",
-          a: "Yes! PNG is the standard format for web graphics, logos, icons, and UI elements. While larger than JPG, PNG's transparency support and crisp quality make it essential for web design. Use PNG for logos, icons, buttons, graphics, and text-heavy images. Use JPG for photographs where transparency isn't needed. Modern compression and CDNs handle PNG efficiently.",
-        },
-        {
-          q: "What's the difference between PNG-8 and PNG-24?",
-          a: "PNG-8 supports 256 colors (like GIF) with simple transparency, resulting in smaller files. PNG-24 supports 16 million colors with 256 levels of alpha transparency (partial transparency), offering full quality and smooth transparency but larger files. Our converter creates PNG-24 for maximum quality and full transparency support. Use PNG-8 only for simple graphics with few colors.",
-        },
-        {
-          q: "Can I use PNG for print?",
-          a: "Yes! PNG's lossless quality makes it excellent for print, especially for graphics, logos, and text-heavy designs. PNG preserves perfect quality at any resolution. However, for photographs, TIFF or high-quality JPG might be more efficient due to smaller file sizes. For graphic design print work (posters, flyers, business cards), PNG is ideal.",
-        },
-        {
-          q: "How long does JPG to PNG conversion take?",
-          a: "Conversion takes 1-2 seconds per image. PNG conversion is fast because it's a format change that preserves all data. The result is a lossless PNG ready for transparency work, repeated editing, or professional use without quality degradation.",
-        },
-      ],
-    },
-    related: {
-      title: "Convertitori Correlati",
-      converters: [
-        { name: "PNG to JPG", url: "/convert/png-to-jpg" },
-        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
-        { name: "PNG to WebP", url: "/convert/png-to-webp" },
-        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
-        { name: "HEIF to PNG", url: "/convert/heif-to-png" },
-        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
-      ],
-    },
-  },
-
-
-  // HEIF to GIF Converter
-  heifToGif: {
-    title: "Convertitore HEIF in GIF - Creare GIF Animate e Immagini Condivisibili",
-    metaDescription:
-      "Converti HEIF in GIF per condivisione universale e animazioni. Perfetto per social media, meme e siti web. Funziona ovunque - nessuna app necessaria. Crea GIF animate da foto. Convertitore batch gratuito.",
-    metaKeywords:
-      "HEIF in GIF, GIF animato, condivisione social media, meme, compatibilità universale, animazione GIF, convertire HEIF batch, immagini condivisibili",
-    hero: {
-      title: "HEIF to GIF Converter",
-      subtitle:
-        "Convert HEIF to GIF - the most shareable image format. Perfect for social media posts, memes, and animations. Universal compatibility across all platforms, apps, and messaging services. No special viewer needed.",
-      badge1: "Universal Sharing",
-      badge2: "Social Media Ready",
-      badge3: "Animation Support",
-    },
-    upload: {
-      title: "Carica File JPG",
-      description:
-        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
-      buttonSingle: "File Singolo",
-      buttonBatch: "Conversione Batch",
-      chooseFile: "Scegli File",
-      converting: "Conversione...",
-      success: "Conversione riuscita!",
-      download: "Scarica PNG",
-      downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti un Altro File",
-    },
-    features: {
-      title: "Features",
-      list: [
-        "Universal compatibility - GIFs work absolutely everywhere",
-        "Perfect for social media (Twitter, Facebook, Instagram, WhatsApp)",
-        "Batch processing up to 20 files simultaneously",
-        "Animation support for creating GIF loops",
-        "100% secure with automatic file deletion",
-        "Small file sizes optimized for sharing",
-        "Instant download - ready for posting",
-        "No watermarks - clean shareable images",
-      ],
-    },
-    howItWorks: {
-      title: "Come Funziona",
-      step1Title: "Carica File JPG",
-      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
-      step2Title: "Conversione Automatica",
-      step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PNG",
-      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
-    },
-    about: {
-      title: "About HEIF to GIF Conversion",
-      whatIsHeif: {
-        title: "Why GIF is Perfect for Social Media and Sharing?",
-        content:
-          "GIF (Graphics Interchange Format) is the most universally compatible image format, created in 1987 and still thriving today. GIFs work absolutely everywhere - all social media platforms (Twitter, Facebook, Instagram, Reddit, Tumblr), messaging apps (WhatsApp, Telegram, Discord, Slack), email clients, forums, and websites display GIFs without any special software. GIF's killer feature is animation support - create looping animations, cinemagraphs, and memes that capture attention. GIFs use lossless compression for up to 256 colors, making them perfect for graphics, logos, and simple animations. File sizes are small and shareable, ideal for mobile data and quick loading. GIF is the lingua franca of internet culture - the go-to format for reactions, memes, and viral content.",
-      },
-      whyConvert: {
-        title: "Why Convert HEIF to GIF?",
-        content:
-          "Convert HEIF to GIF for maximum shareability and universal compatibility. HEIF only works on newer Apple devices and requires special software - making sharing difficult. GIF works instantly on every device, platform, and app without any viewer needed. Perfect for: social media posts (Twitter GIFs, Facebook reactions, Instagram stories), meme creation (universal format for viral content), messaging (WhatsApp, Telegram support GIF previews), website embeds (all browsers display GIFs natively), email signatures and marketing (guaranteed display), forum posts and comments (universal support), and reaction images (share emotions instantly). GIFs auto-play and loop, making them attention-grabbing for marketing and social engagement. While GIF quality is limited to 256 colors, it's optimized for graphics, text overlays, and simple animations - making it ideal for internet communication.",
-      },
-      heifVsHeic: {
-        title: "GIF vs Modern Formats - When to Choose GIF",
-        content:
-          "GIF trades image quality for universal compatibility and animation. Choose GIF when: sharing on social media (Instagram, Twitter auto-display), creating memes or reactions (universal format), making simple animations or loops, ensuring 100% compatibility (no viewer needed), sharing via messaging apps (auto-preview support), or targeting viral/shareable content. GIF's limitations (256 colors, larger than WebP) are offset by guaranteed visibility everywhere. Modern formats like AVIF/WebP offer better quality but need special viewers. For internet culture, memes, and social sharing, GIF remains unbeatable despite being 35+ years old. Its simplicity and universal support make it the default choice for shareable content.",
-      },
-      benefits: {
-        title: "Benefits of GIF Format",
-        list: [
-          "Universal Compatibility - Works on literally every device and platform",
-          "Social Media Native - Auto-displays on Twitter, Facebook, Instagram, Reddit",
-          "Animation Support - Create looping GIFs and cinemagraphs",
-          "No Viewer Needed - Displays instantly without special software",
-          "Meme-Friendly - The standard format for internet culture",
-          "Auto-Play - Loops automatically for attention-grabbing content",
-        ],
-      },
-    },
-    faq: {
-      title: "Frequently Asked Questions – HEIF to GIF",
-      items: [
-        {
-          q: "Is it free to convert HEIF to GIF?",
-          a: "Yes! Our HEIF to GIF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for social media, memes, or sharing.",
-        },
-        {
-          q: "Why is GIF so popular for social media and memes?",
-          a: "GIF is universally compatible - it works on every platform, app, and device without any special software. Social media platforms like Twitter, Facebook, Instagram, and Reddit natively support GIFs with auto-play and looping. GIFs can be animated (perfect for reactions and memes), are small enough for mobile sharing, and have become the standard format for internet culture and viral content. Everyone can view your GIF instantly, no matter what device they use.",
-        },
-        {
-          q: "Can I create animated GIFs from HEIF images?",
-          a: "Yes! While a single HEIF converts to a static GIF, you can upload multiple HEIF images in batch mode to create frames for animation. Our converter processes each image separately. To create true animated GIFs with multiple frames, you can use batch conversion and then combine the frames using free GIF animation tools online.",
-        },
-        {
-          q: "Will GIF work on all social media platforms?",
-          a: "Absolutely! GIF is natively supported by all major platforms: Twitter/X (GIF button in composer), Facebook (auto-playing GIFs), Instagram (Stories and DMs), Reddit (inline display), Tumblr (GIF-focused platform), WhatsApp (auto-preview), Telegram, Discord, Slack, and virtually every messaging app and forum. GIFs display and loop automatically without any viewer or plugin needed.",
-        },
-        {
-          q: "Why are GIF files larger than HEIF?",
-          a: "GIF uses uncompressed or lossless compression to maintain frame-by-frame quality for animations, while HEIF uses modern video compression. However, GIF's universal compatibility and guaranteed display make the size trade-off worthwhile for sharing. For social media and memes, instant visibility on all devices is more valuable than file size optimization. Plus, our converter optimizes GIF output for web sharing.",
-        },
-        {
-          q: "Can I use GIF for professional work?",
-          a: "Yes! GIF is perfect for: email marketing (animated banners, signatures), website elements (loading animations, icons), presentations (animated charts, transitions), client communications (guaranteed viewing), and social media marketing (high engagement rates). While GIF has 256-color limitations, it's ideal for graphics, logos, text overlays, and simple animations where universal compatibility matters more than photo-realistic quality.",
-        },
-        {
-          q: "What's the difference between GIF and modern formats like WebP?",
-          a: "GIF (1987) prioritizes universal compatibility and animation; WebP (2010) prioritizes compression and quality. GIF works on 100% of devices with no special viewer; WebP needs modern browsers (97% support). For social media, memes, and shareable content, GIF's guaranteed visibility wins. For website optimization and photo quality, WebP is better. Choose GIF when sharing matters more than file size.",
-        },
-        {
-          q: "Can I create memes with GIF?",
-          a: "Absolutely! GIF is the standard format for internet memes and reaction images. After converting HEIF to GIF, you can add text overlays, combine frames, or use the GIF directly for sharing. GIFs are perfect for memes because they work everywhere, auto-play for immediate impact, can be animated for extra expression, and are easily shareable across all platforms. The internet meme culture is built on GIF format.",
-        },
-        {
-          q: "How long does HEIF to GIF conversion take?",
-          a: "Conversion takes 1-2 seconds per image. GIF creation is fast because it's a simple format optimized for compatibility rather than complex compression. The result is a universally compatible file ready for immediate sharing on social media, messaging apps, or any platform.",
-        },
-      ],
-    },
-    related: {
-      title: "Related Converters",
-      converters: [
-        { name: "HEIC to GIF", url: "/convert/heic-to-gif" },
-        { name: "HEIF to PNG", url: "/convert/heif-to-png" },
-        { name: "HEIF to JPG", url: "/convert/heif-to-jpg" },
-        { name: "PNG to GIF", url: "/convert/png-to-gif" },
-        { name: "JPG to GIF", url: "/convert/jpg-to-gif" },
-        { name: "WebP to GIF", url: "/convert/webp-to-gif" },
-      ],
-    },
-  },
-
 };
 
 export type Translations = typeof it;

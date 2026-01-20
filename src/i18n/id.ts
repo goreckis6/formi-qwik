@@ -1682,17 +1682,17 @@ export const id: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Unggah File JPG",
+      title: "Upload HEIF Files",
       description:
-        "Seret & lepas gambar JPG Anda di sini atau klik untuk menelusuri. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.",
-      buttonSingle: "File Tunggal",
-      buttonBatch: "Konversi Batch",
-      chooseFile: "Pilih File",
-      converting: "Mengkonversi...",
-      success: "Konversi berhasil!",
-      download: "Unduh PNG",
-      downloadAll: "Unduh Semua sebagai ZIP",
-      convertAnother: "Konversi File Lain",
+        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download GIF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
     },
     features: {
       title: "Features",
@@ -1708,13 +1708,13 @@ export const id: Translations = {
       ],
     },
     howItWorks: {
-      title: "Cara Kerja",
-      step1Title: "Unggah File JPG",
-      step1Desc: "Pilih satu atau beberapa gambar JPG dari perangkat Anda",
-      step2Title: "Konversi Otomatis",
-      step2Desc: "Konverter kami memproses file Anda secara instan",
-      step3Title: "Unduh PNG",
-      step3Desc: "Dapatkan file PNG yang dikonversi segera",
+      title: "How It Works",
+      step1Title: "Upload HEIF Files",
+      step1Desc: "Select one or multiple HEIF images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download GIF",
+      step3Desc: "Get your converted GIF files immediately",
     },
     about: {
       title: "About HEIF to GIF Conversion",
@@ -1807,25 +1807,25 @@ export const id: Translations = {
     metaKeywords:
       "JPG ke PNG, tambah transparansi, konversi lossless, konverter grafis, konverter logo, gambar web, konversi JPG batch, hapus latar belakang",
     hero: {
-      title: "Konverter JPG ke PNG",
+      title: "JPG to PNG Converter",
       subtitle:
-        "Konversi JPG ke PNG untuk dukungan transparansi dan kualitas superior. Sempurna untuk logo, grafik, dan gambar profesional. PNG mempertahankan setiap detail tanpa artefak kompresi - ideal untuk grafik web, overlay, dan gambar yang memerlukan latar belakang transparan.",
-      badge1: "Dukungan Transparansi",
-      badge2: "Kualitas Lossless",
-      badge3: "Tanpa Artefak",
+        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
+      badge1: "Transparency Support",
+      badge2: "Lossless Quality",
+      badge3: "No Artifacts",
     },
     upload: {
-      title: "Unggah File JPG",
+      title: "Upload JPG Files",
       description:
-        "Seret & lepas gambar JPG Anda di sini atau klik untuk menelusuri. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.",
-      buttonSingle: "File Tunggal",
-      buttonBatch: "Konversi Batch",
-      chooseFile: "Pilih File",
-      converting: "Mengkonversi...",
-      success: "Konversi berhasil!",
-      download: "Unduh PNG",
-      downloadAll: "Unduh Semua sebagai ZIP",
-      convertAnother: "Konversi File Lain",
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download PNG",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
     },
     features: {
       title: "Features",
@@ -1841,20 +1841,21 @@ export const id: Translations = {
       ],
     },
     howItWorks: {
-      title: "Cara Kerja",
-      step1Title: "Unggah File JPG",
-      step1Desc: "Pilih satu atau beberapa gambar JPG dari perangkat Anda",
-      step2Title: "Konversi Otomatis",
-      step2Desc: "Konverter kami memproses file Anda secara instan",
-      step3Title: "Unduh PNG",
-      step3Desc: "Dapatkan file PNG yang dikonversi segera",
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download PNG",
+      step3Desc: "Get your converted PNG files immediately",
     },
     about: {
-      title: "Tentang Konversi JPG ke PNG",
-      p1: "JPG (atau JPEG) adalah format gambar lossy yang dioptimalkan untuk fotografi tetapi tidak mendukung transparansi. PNG (Portable Network Graphics) adalah format lossless yang sempurna untuk grafik, logo, dan gambar yang memerlukan latar belakang transparan atau tepi yang tajam. Mengonversi JPG ke PNG ideal ketika Anda perlu menambahkan transparansi, melakukan beberapa putaran pengeditan tanpa kehilangan kualitas, atau mempersiapkan gambar untuk web dengan tepi yang bersih.",
-      p2: "Konverter JPG ke PNG kami mempertahankan setiap piksel gambar asli Anda dengan sempurna sambil mengubahnya ke format PNG lossless. Tidak seperti JPG yang kehilangan kualitas setiap kali disimpan, file PNG dapat diedit dan disimpan ulang tanpa degradasi. Ini membuat PNG menjadi pilihan yang disukai untuk desainer profesional, pembuatan logo, dan proyek apa pun di mana presisi penting. Format PNG juga mendukung transparansi alpha, memungkinkan Anda membuat gambar dengan latar belakang transparan - sesuatu yang tidak dapat dilakukan JPG.",
-      p3: "Konversi instan, aman, dan mempertahankan akurasi warna. File Anda tidak pernah disimpan atau dibagikan - semuanya terjadi dengan aman di browser Anda. Baik Anda mengonversi satu logo atau batch gambar produk, alat kami memberikan hasil profesional tanpa watermark atau biaya tersembunyi.",
-    },
+      title: "About JPG to PNG Conversion",
+      whatIsHeif: {
+        title: "Why PNG is Perfect for Graphics and Logos?",
+        content:
+          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it.",
+      },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1878,7 +1879,7 @@ export const id: Translations = {
       },
     },
     faq: {
-      title: "Pertanyaan Umum – JPG ke PNG",
+      title: "Frequently Asked Questions – JPG to PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1919,7 +1920,7 @@ export const id: Translations = {
       ],
     },
     related: {
-      title: "Konverter Terkait",
+      title: "Related Converters",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
