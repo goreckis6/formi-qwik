@@ -225,6 +225,10 @@ export const ko: Translations = {
       name: "JPG to PNG",
       description: "투명도와 무손실 품질을 위해 JPG를 PNG로 변환",
     },
+    jpgToWebp: {
+      name: "JPG to WebP",
+      description: "25-35% 더 작은 파일과 더 나은 웹 성능을 위해 JPG를 WebP로 변환",
+    },
   },
 
   heicToPdf: {

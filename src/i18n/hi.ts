@@ -232,6 +232,10 @@ export const hi: Translations = {
       name: "JPG से PNG",
       description: "पारदर्शिता और दोषरहित गुणवत्ता के लिए JPG को PNG में कनवर्ट करें",
     },
+    jpgToWebp: {
+      name: "JPG से WebP",
+      description: "25-35% छोटी फ़ाइलें और बेहतर वेब प्रदर्शन के लिए JPG को WebP में कनवर्ट करें",
+    },
   },
 
   heicToPdf: {

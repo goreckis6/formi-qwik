@@ -234,6 +234,10 @@ export const pt: EnTranslations = {
       name: "JPG para PNG",
       description: "Converter JPG para PNG para transparência e qualidade sem perda",
     },
+    jpgToWebp: {
+      name: "JPG para WebP",
+      description: "Converter JPG para WebP para arquivos 25-35% menores e melhor desempenho web",
+    },
   },
 
   heicToPdf: {

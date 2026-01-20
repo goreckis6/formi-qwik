@@ -232,6 +232,10 @@ export const tr: Translations = {
       name: "JPG'den PNG'ye",
       description: "Şeffaflık ve kayıpsız kalite için JPG'yi PNG'ye dönüştürün",
     },
+    jpgToWebp: {
+      name: "JPG'den WebP'ye",
+      description: "JPG'yi WebP'ye dönüştürün - %25-35 daha küçük dosyalar ve daha iyi web performansı",
+    },
   },
 
   heicToPdf: {

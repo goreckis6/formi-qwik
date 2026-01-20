@@ -230,6 +230,10 @@ export const sv: Translations = {
       name: "JPG till PNG",
       description: "Konvertera JPG till PNG för transparens och förlustfri kvalitet",
     },
+    jpgToWebp: {
+      name: "JPG till WebP",
+      description: "Konvertera JPG till WebP för 25-35% mindre filer och bättre webbprestanda",
+    },
   },
 
   heicToPdf: {

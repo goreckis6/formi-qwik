@@ -226,6 +226,10 @@ export const ja: Translations = {
       name: "JPG to PNG",
       description: "透明度と可逆品質のためにJPGをPNGに変換",
     },
+    jpgToWebp: {
+      name: "JPG to WebP",
+      description: "25-35%小さなファイルとより良いウェブパフォーマンスのためにJPGをWebPに変換",
+    },
   },
 
   heicToPdf: {

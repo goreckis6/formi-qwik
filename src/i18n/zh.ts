@@ -225,6 +225,10 @@ export const zh: Translations = {
       name: "JPG转PNG",
       description: "将JPG转换为PNG以获得透明度和无损质量",
     },
+    jpgToWebp: {
+      name: "JPG转WebP",
+      description: "将JPG转换为WebP以获得25-35%更小的文件和更好的网络性能",
+    },
   },
 
   heicToPdf: {

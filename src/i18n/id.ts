@@ -1800,6 +1800,10 @@ export const id: Translations = {
   },
 
   // JPG to PNG Converter
+  jpgToWebp: {
+    name: "JPG ke WebP",
+    description: "Konversi JPG ke WebP untuk file 25-35% lebih kecil dan performa web yang lebih baik",
+  },
   jpgToPng: {
     title: "Konverter JPG ke PNG - Tambahkan Transparansi & Kualitas Lossless",
     metaDescription:

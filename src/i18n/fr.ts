@@ -238,6 +238,10 @@ export const fr: Translations = {
       name: "JPG vers PNG",
       description: "Convertir JPG en PNG pour transparence et qualité sans perte",
     },
+    jpgToWebp: {
+      name: "JPG vers WebP",
+      description: "Convertir JPG en WebP pour des fichiers 25-35% plus petits et de meilleures performances web",
+    },
   },
 
   heicToPdf: {

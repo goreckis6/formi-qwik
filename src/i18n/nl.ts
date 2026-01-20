@@ -232,6 +232,10 @@ export const nl: Translations = {
       name: "JPG naar PNG",
       description: "Converteer JPG naar PNG voor transparantie en verliesvrije kwaliteit",
     },
+    jpgToWebp: {
+      name: "JPG naar WebP",
+      description: "Converteer JPG naar WebP voor 25-35% kleinere bestanden en betere webprestaties",
+    },
   },
 
   heicToPdf: {
