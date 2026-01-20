@@ -250,7 +250,7 @@ export default component$(() => {
         if (result.blob) {
           // Single file mode - use blob
           const arrayBuffer = await result.blob.arrayBuffer();
-          zip.file(result.outputFilename || "converted.pdf", arrayBuffer);
+          zip.file(result.outputFilename || "converted.png", arrayBuffer);
         } else if (result.downloadPath) {
           // Batch mode - convert base64 to blob
           const base64Data = result.downloadPath.split(",")[1];
@@ -259,7 +259,7 @@ export default component$(() => {
           for (let i = 0; i < binaryString.length; i++) {
             bytes[i] = binaryString.charCodeAt(i);
           }
-          zip.file(result.outputFilename || "converted.pdf", bytes);
+          zip.file(result.outputFilename || "converted.png", bytes);
         }
       }
 
@@ -707,13 +707,13 @@ export default component$(() => {
                             <path
                               stroke-linecap="round"
                               stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
-                            />
-                          </svg>
-                          Convert to PDF
-                        </span>
-                      )}
+                            stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+                          />
+                        </svg>
+                        Convert to PNG
+                      </span>
+                    )}
                     </button>
                     <button
                       onClick$={clearSelection}
