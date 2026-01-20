@@ -227,6 +227,10 @@ export const en = {
       name: "JPG to PNG",
       description: "Convert JPG to PNG for transparency and lossless quality",
     },
+    jpgToWebp: {
+      name: "JPG to WebP",
+      description: "Convert JPG to WebP for 25-35% smaller files and better web performance",
+    },
   },
 
   // HEIC to PDF Converter
@@ -2005,6 +2009,138 @@ export const en = {
         { name: "PNG to WebP", url: "/convert/png-to-webp" },
         { name: "HEIC to PNG", url: "/convert/heic-to-png" },
         { name: "HEIF to PNG", url: "/convert/heif-to-png" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to WebP Converter
+  jpgToWebp: {
+    title: "JPG to WebP Converter - Optimize Images for Web with Superior Compression",
+    metaDescription:
+      "Convert JPG to WebP for 25-35% smaller file sizes with better quality. Perfect for websites, faster loading, and SEO. Modern format with transparency support. Free batch converter, no registration.",
+    metaKeywords:
+      "JPG to WebP, WebP converter, image optimization, web images, smaller file size, faster loading, SEO optimization, batch convert JPG, modern image format",
+    hero: {
+      title: "JPG to WebP Converter",
+      subtitle:
+        "Convert JPG to WebP for superior compression and quality. WebP images are 25-35% smaller than JPG while maintaining the same visual quality - perfect for faster websites, better SEO, and reduced bandwidth costs. Modern browsers support WebP natively.",
+      badge1: "25-35% Smaller",
+      badge2: "Better Quality",
+      badge3: "Web Optimized",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download WebP",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "25-35% smaller files than JPG with same quality",
+        "Superior compression - better than JPG and PNG",
+        "Transparency support - alpha channel like PNG",
+        "Batch processing up to 20 files simultaneously",
+        "100% secure with automatic file deletion",
+        "Perfect for websites and web applications",
+        "Instant download - ready for deployment",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download WebP",
+      step3Desc: "Get your optimized WebP files immediately",
+    },
+    about: {
+      title: "About JPG to WebP Conversion",
+      whatIsHeif: {
+        title: "Why WebP is Perfect for Modern Websites?",
+        content:
+          "WebP is Google's modern image format designed specifically for the web. Released in 2010, WebP uses advanced compression algorithms to create images that are 25-35% smaller than JPG while maintaining the same visual quality. WebP combines the best of both worlds: lossy compression like JPG (for photos) and lossless compression like PNG (for graphics), plus alpha channel transparency support. WebP is natively supported by 97% of modern browsers (Chrome, Firefox, Edge, Opera, Safari 14+) and is the recommended format for web optimization by Google PageSpeed Insights. WebP images load faster, reduce bandwidth costs, improve SEO rankings, and provide better user experience. Major platforms like Facebook, YouTube, and Google use WebP extensively for their image delivery.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to WebP?",
+        content:
+          "Convert JPG to WebP to dramatically reduce file sizes while maintaining or improving image quality. WebP's advanced compression algorithms create files that are 25-35% smaller than equivalent JPG images, resulting in faster page loads, better SEO rankings, reduced bandwidth costs, and improved user experience. Key benefits: faster website loading (smaller files = faster downloads), better SEO (Google favors fast-loading sites), reduced bandwidth costs (less data transfer), improved mobile experience (faster on slow connections), transparency support (alpha channel like PNG), and modern browser support (97% coverage). WebP is essential for modern web development, e-commerce sites, blogs, and any website prioritizing performance. Google PageSpeed Insights recommends WebP for optimal performance scores.",
+      },
+      heifVsHeic: {
+        title: "WebP vs JPG - When to Choose WebP",
+        content:
+          "WebP and JPG serve different purposes in modern web development. Choose WebP for: websites and web applications (optimal performance), SEO optimization (faster loading = better rankings), mobile-first design (smaller files = faster mobile loading), e-commerce sites (reduce bandwidth costs), modern browsers (97% support), transparency needs (alpha channel support), or performance-critical applications. Choose JPG for: maximum compatibility (100% browser support), older browser support (IE, older Safari), email clients (limited WebP support), or when file size isn't critical. WebP's advantages: 25-35% smaller files, better compression, transparency support, lossless option available, modern format optimized for web. WebP's disadvantages: 3% of browsers don't support (older Safari, IE), requires fallback for maximum compatibility. For modern websites: Always WebP with JPG fallback. For email: Use JPG. For maximum compatibility: Provide both formats.",
+      },
+      benefits: {
+        title: "Benefits of WebP Format",
+        list: [
+          "25-35% Smaller Files - Dramatically reduce file sizes vs JPG",
+          "Better Quality - Same or better visual quality at smaller sizes",
+          "Transparency Support - Alpha channel like PNG for overlays",
+          "Faster Loading - Smaller files mean faster page loads",
+          "SEO Optimized - Google favors fast-loading websites",
+          "Modern Standard - Recommended by Google PageSpeed Insights",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to WebP",
+      items: [
+        {
+          q: "Is it free to convert JPG to WebP?",
+          a: "Yes! Our JPG to WebP converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for your website, blog, or web application.",
+        },
+        {
+          q: "How much smaller are WebP files compared to JPG?",
+          a: "WebP files are typically 25-35% smaller than equivalent JPG images while maintaining the same visual quality. This means faster page loads, reduced bandwidth costs, and better user experience. The exact compression ratio depends on the image content, but WebP consistently outperforms JPG in file size reduction.",
+        },
+        {
+          q: "Will WebP work on all browsers?",
+          a: "WebP is supported by 97% of modern browsers, including Chrome, Firefox, Edge, Opera, and Safari 14+. Older browsers (IE, Safari <14) don't support WebP, so for maximum compatibility, provide JPG fallbacks using the HTML <picture> element or serve WebP with proper Content-Type headers and JPG fallbacks.",
+        },
+        {
+          q: "Is WebP quality better than JPG?",
+          a: "WebP can achieve the same visual quality as JPG at 25-35% smaller file sizes, or better quality at the same file size. WebP uses advanced compression algorithms that are more efficient than JPG's older compression. For web use, WebP is the superior choice for both quality and file size.",
+        },
+        {
+          q: "Can WebP support transparency like PNG?",
+          a: "Yes! WebP supports alpha channel transparency just like PNG, making it perfect for images that need transparent backgrounds, overlays, or graphics. This is a major advantage over JPG, which doesn't support transparency. WebP can replace both JPG (for photos) and PNG (for graphics with transparency) in many cases.",
+        },
+        {
+          q: "Is WebP good for SEO?",
+          a: "Absolutely! WebP is excellent for SEO because it creates smaller files that load faster. Google's PageSpeed Insights recommends WebP for optimal performance scores. Faster-loading websites rank higher in search results, and WebP is a key factor in achieving fast page load times. Google itself uses WebP extensively across its platforms.",
+        },
+        {
+          q: "Can I use WebP for e-commerce product images?",
+          a: "Yes! WebP is perfect for e-commerce because it reduces file sizes without sacrificing quality, resulting in faster product page loads and better user experience. Major e-commerce platforms support WebP, and it's especially beneficial for mobile shoppers who may have slower connections. Always provide JPG fallbacks for maximum compatibility.",
+        },
+        {
+          q: "What's the difference between lossy and lossless WebP?",
+          a: "Lossy WebP (like JPG) uses compression that slightly reduces quality for much smaller file sizes - perfect for photos. Lossless WebP (like PNG) preserves perfect quality but with better compression than PNG - perfect for graphics. Our converter creates lossy WebP optimized for web use, balancing quality and file size for optimal performance.",
+        },
+        {
+          q: "How long does JPG to WebP conversion take?",
+          a: "Conversion takes 1-2 seconds per image. WebP conversion is fast because it's optimized for web performance. The result is a smaller, faster-loading image ready for immediate use on your website or web application.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "PNG to WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC to WebP", url: "/convert/heic-to-webp" },
+        { name: "HEIF to WebP", url: "/convert/heif-to-webp" },
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG to GIF", url: "/convert/jpg-to-gif" },
         { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

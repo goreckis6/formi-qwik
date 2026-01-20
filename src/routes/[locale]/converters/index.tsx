@@ -104,6 +104,11 @@ export default component$(() => {
         description: converters.jpgToPng.description,
         href: getLocalizedPath("/convert/jpg-to-png", locale),
       },
+      {
+        name: converters.jpgToWebp.name,
+        description: converters.jpgToWebp.description,
+        href: getLocalizedPath("/convert/jpg-to-webp", locale),
+      },
     ],
   }));
 
