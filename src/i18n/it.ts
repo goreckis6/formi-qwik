@@ -254,15 +254,15 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione in corso...",
+      converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PDF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
       convertAnother: "Converti un Altro File",
     },
@@ -283,12 +283,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PDF",
-      step3Desc: "Ottieni i tuoi file PDF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
 
     about: {
@@ -378,17 +378,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione in corso...",
+      converting: "Conversione...",
       success: "Conversione riuscita!",
       download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
 
     features: {
@@ -407,8 +407,8 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
       step3Title: "Scarica PNG",
@@ -493,17 +493,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica JPG",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
 
     features: {
@@ -522,12 +522,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica JPG",
-      step3Desc: "Ottieni i tuoi file JPG convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
 
     about: {
@@ -624,17 +624,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione in corso...",
+      converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica WebP",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
 
     features: {
@@ -653,12 +653,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica WebP",
-      step3Desc: "Ottieni i tuoi file WebP convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
 
     about: {
@@ -737,17 +737,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione in corso...",
+      converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica AVIF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
 
     features: {
@@ -766,12 +766,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica AVIF",
-      step3Desc: "Ottieni i tuoi file AVIF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
 
     about: {
@@ -850,17 +850,17 @@ export const it: Translations = {
     },
 
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione in corso...",
+      converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica TIFF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
 
     features: {
@@ -879,12 +879,12 @@ export const it: Translations = {
 
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica TIFF",
-      step3Desc: "Ottieni i tuoi file TIFF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
 
     about: {
@@ -961,17 +961,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIC",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue foto HEIC qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
-      converting: "Conversione in corso...",
+      converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica GIF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -988,12 +988,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIC",
-      step1Desc: "Seleziona una o più foto HEIC dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica GIF",
-      step3Desc: "Ottieni i tuoi file GIF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIC in GIF",
@@ -1085,17 +1085,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIF",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica JPG",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1112,12 +1112,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIF",
-      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica JPG",
-      step3Desc: "Ottieni i tuoi file JPG convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a JPG",
@@ -1218,17 +1218,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIF",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica TIFF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1245,12 +1245,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIF",
-      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica TIFF",
-      step3Desc: "Ottieni i tuoi file TIFF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a TIFF",
@@ -1350,17 +1350,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIF",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica AVIF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1377,12 +1377,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIF",
-      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica AVIF",
-      step3Desc: "Ottieni i tuoi file AVIF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a AVIF",
@@ -1482,17 +1482,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIF",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica WebP",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1509,12 +1509,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIF",
-      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica WebP",
-      step3Desc: "Ottieni i tuoi file WebP convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a WebP",
@@ -1614,17 +1614,17 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIF",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
       converting: "Conversione...",
       success: "Conversione riuscita!",
-      download: "Scarica PDF",
+      download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1641,12 +1641,12 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIF",
-      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
-      step3Title: "Scarica PDF",
-      step3Desc: "Ottieni i tuoi file PDF convertiti immediatamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "Informazioni sulla Conversione HEIF a PDF",
@@ -1746,9 +1746,9 @@ export const it: Translations = {
       badge3: "Nessuna Registrazione",
     },
     upload: {
-      title: "Carica File HEIF",
+      title: "Carica File JPG",
       description:
-        "Trascina e rilascia le tue immagini HEIF qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
@@ -1756,7 +1756,7 @@ export const it: Translations = {
       success: "Conversione riuscita!",
       download: "Scarica PNG",
       downloadAll: "Scarica Tutto come ZIP",
-      convertAnother: "Converti Altro File",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Caratteristiche",
@@ -1773,8 +1773,8 @@ export const it: Translations = {
     },
     howItWorks: {
       title: "Come Funziona",
-      step1Title: "Carica File HEIF",
-      step1Desc: "Seleziona una o più immagini HEIF dal tuo dispositivo",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
       step2Title: "Conversione Automatica",
       step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
       step3Title: "Scarica PNG",
@@ -1871,25 +1871,25 @@ export const it: Translations = {
     metaKeywords:
       "JPG in PNG, aggiungere trasparenza, conversione senza perdita, convertitore grafico, convertitore logo, immagini web, convertire JPG batch, rimuovere sfondo",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "Convertitore JPG in PNG",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "Converti JPG in PNG per supporto trasparenza e qualità superiore. Perfetto per loghi, grafiche e immagini professionali. PNG preserva ogni dettaglio senza artefatti di compressione - ideale per grafiche web, overlay e immagini che richiedono sfondi trasparenti.",
+      badge1: "Supporto Trasparenza",
+      badge2: "Qualità Senza Perdita",
+      badge3: "Senza Artefatti",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "Carica File JPG",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+      buttonSingle: "File Singolo",
+      buttonBatch: "Conversione Batch",
+      chooseFile: "Scegli File",
+      converting: "Conversione...",
+      success: "Conversione riuscita!",
+      download: "Scarica PNG",
+      downloadAll: "Scarica Tutto come ZIP",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Features",
@@ -1905,13 +1905,13 @@ export const it: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "Come Funziona",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step2Title: "Conversione Automatica",
+      step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2013,17 +2013,17 @@ export const it: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "Carica File JPG",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta conversione batch fino a 20 file. Massimo 100MB per file.",
+      buttonSingle: "File Singolo",
+      buttonBatch: "Conversione Batch",
+      chooseFile: "Scegli File",
+      converting: "Conversione...",
+      success: "Conversione riuscita!",
+      download: "Scarica PNG",
+      downloadAll: "Scarica Tutto come ZIP",
+      convertAnother: "Converti un Altro File",
     },
     features: {
       title: "Features",
@@ -2039,13 +2039,13 @@ export const it: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "Come Funziona",
+      step1Title: "Carica File JPG",
+      step1Desc: "Seleziona una o più immagini JPG dal tuo dispositivo",
+      step2Title: "Conversione Automatica",
+      step2Desc: "Il nostro convertitore elabora i tuoi file istantaneamente",
+      step3Title: "Scarica PNG",
+      step3Desc: "Ottieni i tuoi file PNG convertiti immediatamente",
     },
     about: {
       title: "About HEIF to GIF Conversion",

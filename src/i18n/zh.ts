@@ -244,16 +244,16 @@ export const zh: Translations = {
     },
 
     upload: {
-      title: "上传HEIC文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIC照片拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载PDF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
 
@@ -273,12 +273,12 @@ export const zh: Translations = {
 
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIC文件",
-      step1Desc: "从您的设备中选择一个或多个HEIC照片",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
       step2Desc: "我们的转换器立即处理您的文件",
-      step3Title: "下载PDF",
-      step3Desc: "立即获取转换后的PDF文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
 
     about: {
@@ -367,16 +367,16 @@ export const zh: Translations = {
     },
 
     upload: {
-      title: "上传HEIC文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIC照片拖放到此处或点击浏览。支持批量转换，最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
       download: "下载PNG",
-      downloadAll: "全部下载为ZIP",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
 
@@ -396,10 +396,10 @@ export const zh: Translations = {
 
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIC文件",
-      step1Desc: "从设备中选择一个或多个HEIC照片",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
+      step2Desc: "我们的转换器立即处理您的文件",
       step3Title: "下载PNG",
       step3Desc: "立即获取转换后的PNG文件",
     },
@@ -482,17 +482,17 @@ export const zh: Translations = {
     },
 
     upload: {
-    title: "上传HEIC文件",
-    description:
-      "将您的HEIC照片拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
-    buttonSingle: "单个文件",
-    buttonBatch: "批量转换",
-    chooseFile: "选择文件",
-    converting: "转换中...",
-    success: "转换成功！",
-    download: "下载JPG",
-    downloadAll: "全部下载为ZIP",
-    convertAnother: "转换另一个文件",
+      title: "上传JPG文件",
+      description:
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
+      convertAnother: "转换另一个文件",
     },
 
     features: {
@@ -510,13 +510,13 @@ export const zh: Translations = {
     },
 
     howItWorks: {
-    title: "工作原理",
-    step1Title: "上传HEIC文件",
-    step1Desc: "从您的设备选择一个或多个HEIC照片",
-    step2Title: "自动转换",
-    step2Desc: "我们的转换器即时处理您的文件",
-    step3Title: "下载JPG",
-    step3Desc: "立即获取转换后的JPG文件",
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
 
     about: {
@@ -613,16 +613,16 @@ export const zh: Translations = {
     },
 
     upload: {
-      title: "上传HEIC文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIC照片拖放到此处或点击浏览。支持批量转换，最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载WebP",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
 
@@ -642,12 +642,12 @@ export const zh: Translations = {
 
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIC文件",
-      step1Desc: "从设备中选择一个或多个HEIC照片",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载WebP",
-      step3Desc: "立即获取转换后的WebP文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
 
     about: {
@@ -726,16 +726,16 @@ export const zh: Translations = {
     },
 
     upload: {
-      title: "上传HEIC文件",
+      title: "上传JPG文件",
       description:
-        "将HEIC照片拖放到此处或点击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载AVIF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
 
@@ -755,12 +755,12 @@ export const zh: Translations = {
 
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIC文件",
-      step1Desc: "从设备中选择一个或多个HEIC照片",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载AVIF",
-      step3Desc: "立即获取转换后的AVIF文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
 
     about: {
@@ -839,16 +839,16 @@ export const zh: Translations = {
     },
 
     upload: {
-      title: "上传HEIC文件",
+      title: "上传JPG文件",
       description:
-        "将HEIC照片拖放到此处或点击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载AVIF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
 
@@ -868,12 +868,12 @@ export const zh: Translations = {
 
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIC文件",
-      step1Desc: "从设备中选择一个或多个HEIC照片",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载AVIF",
-      step3Desc: "立即获取转换后的AVIF文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
 
     about: {
@@ -950,16 +950,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIC文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIC照片拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载GIF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -976,13 +976,13 @@ export const zh: Translations = {
       ],
     },
     howItWorks: {
-      title: "使用方法",
-      step1Title: "上传HEIC文件",
-      step1Desc: "从您的设备选择一个或多个HEIC照片",
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载GIF",
-      step3Desc: "立即获取转换后的GIF文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "关于HEIC转GIF转换",
@@ -1074,16 +1074,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIF文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载JPG",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -1101,12 +1101,12 @@ export const zh: Translations = {
     },
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIF文件",
-      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载JPG",
-      step3Desc: "立即获取转换后的JPG文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "关于HEIF转JPG转换",
@@ -1207,16 +1207,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIF文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载TIFF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -1234,12 +1234,12 @@ export const zh: Translations = {
     },
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIF文件",
-      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载TIFF",
-      step3Desc: "立即获取转换后的TIFF文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "关于HEIF转TIFF转换",
@@ -1339,16 +1339,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIF文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载AVIF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -1366,12 +1366,12 @@ export const zh: Translations = {
     },
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIF文件",
-      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载AVIF",
-      step3Desc: "立即获取转换后的AVIF文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "关于HEIF转AVIF转换",
@@ -1471,16 +1471,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIF文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载WebP",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -1498,12 +1498,12 @@ export const zh: Translations = {
     },
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIF文件",
-      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载WebP",
-      step3Desc: "立即获取转换后的WebP文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "关于HEIF转WebP转换",
@@ -1603,16 +1603,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIF文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
-      download: "下载PDF",
-      downloadAll: "全部下载为ZIP",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -1630,12 +1630,12 @@ export const zh: Translations = {
     },
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIF文件",
-      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
-      step3Title: "下载PDF",
-      step3Desc: "立即获取转换后的PDF文件",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "关于HEIF转PDF转换",
@@ -1735,16 +1735,16 @@ export const zh: Translations = {
       badge3: "无需注册",
     },
     upload: {
-      title: "上传HEIF文件",
+      title: "上传JPG文件",
       description:
-        "将您的HEIF图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
       buttonSingle: "单个文件",
       buttonBatch: "批量转换",
       chooseFile: "选择文件",
       converting: "转换中...",
       success: "转换成功！",
       download: "下载PNG",
-      downloadAll: "全部下载为ZIP",
+      downloadAll: "下载全部为ZIP",
       convertAnother: "转换另一个文件",
     },
     features: {
@@ -1762,10 +1762,10 @@ export const zh: Translations = {
     },
     howItWorks: {
       title: "工作原理",
-      step1Title: "上传HEIF文件",
-      step1Desc: "从您的设备选择一个或多个HEIF图像",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
       step2Title: "自动转换",
-      step2Desc: "我们的转换器即时处理您的文件",
+      step2Desc: "我们的转换器立即处理您的文件",
       step3Title: "下载PNG",
       step3Desc: "立即获取转换后的PNG文件",
     },
@@ -1860,25 +1860,25 @@ export const zh: Translations = {
     metaKeywords:
       "JPG转PNG，添加透明度，无损转换，图形转换器，标志转换器，网页图像，批量转换JPG，删除背景",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "JPG转PNG转换器",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "将JPG转换为PNG以获得透明度支持和卓越质量。非常适合标志、图形和专业图像。PNG保留每个细节而无压缩伪影 - 非常适合网页图形、叠加层和需要透明背景的图像。",
+      badge1: "透明度支持",
+      badge2: "无损质量",
+      badge3: "无伪影",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "上传JPG文件",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
+      convertAnother: "转换另一个文件",
     },
     features: {
       title: "Features",
@@ -1894,13 +1894,13 @@ export const zh: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2002,17 +2002,17 @@ export const zh: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "上传JPG文件",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "将您的JPG图像拖放到此处或点击浏览。支持批量转换最多20个文件。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载PNG",
+      downloadAll: "下载全部为ZIP",
+      convertAnother: "转换另一个文件",
     },
     features: {
       title: "Features",
@@ -2028,13 +2028,13 @@ export const zh: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PNG",
+      step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
       title: "About HEIF to GIF Conversion",

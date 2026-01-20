@@ -250,17 +250,17 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz PDF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
-      convertAnother: "Konwertuj Kolejny Plik",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -279,12 +279,12 @@ export const pl: Translations = {
 
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub więcej zdjęć HEIC z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz PDF",
-      step3Desc: "Uzyskaj skonwertowane pliki PDF natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -374,9 +374,9 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
@@ -384,7 +384,7 @@ export const pl: Translations = {
       success: "Konwersja udana!",
       download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
-      convertAnother: "Konwertuj Kolejny Plik",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -403,12 +403,12 @@ export const pl: Translations = {
 
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub więcej zdjęć HEIC z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
       step3Title: "Pobierz PNG",
-      step3Desc: "Uzyskaj skonwertowane pliki PNG natychmiast",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -489,17 +489,17 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
-      success: "Konwersja zakończona sukcesem!",
-      download: "Pobierz JPG",
+      success: "Konwersja udana!",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
-      convertAnother: "Konwertuj Kolejny Plik",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -518,12 +518,12 @@ export const pl: Translations = {
 
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub wiele zdjęć HEIC ze swojego urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
-      step2Desc: "Nasz konwerter przetwarza Twoje pliki natychmiast",
-      step3Title: "Pobierz JPG",
-      step3Desc: "Otrzymaj swoje przekonwertowane pliki JPG natychmiast",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -620,17 +620,17 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz WebP",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
-      convertAnother: "Konwertuj Kolejny Plik",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -649,12 +649,12 @@ export const pl: Translations = {
 
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub więcej zdjęć HEIC z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz WebP",
-      step3Desc: "Uzyskaj skonwertowane pliki WebP natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -733,17 +733,17 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz AVIF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
-      convertAnother: "Konwertuj Kolejny Plik",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -762,12 +762,12 @@ export const pl: Translations = {
 
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub więcej zdjęć HEIC z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz AVIF",
-      step3Desc: "Uzyskaj skonwertowane pliki AVIF natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -846,17 +846,17 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz TIFF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
-      convertAnother: "Konwertuj Kolejny Plik",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -875,12 +875,12 @@ export const pl: Translations = {
 
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub więcej zdjęć HEIC z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz TIFF",
-      step3Desc: "Uzyskaj skonwertowane pliki TIFF natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -975,15 +975,15 @@ export const pl: Translations = {
       badge3: "Bez Rejestracji",
     },
     upload: {
-      title: "Prześlij Pliki HEIC",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje zdjęcia HEIC tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz GIF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
       convertAnother: "Konwertuj Inny Plik",
     },
@@ -1001,13 +1001,13 @@ export const pl: Translations = {
       ],
     },
     howItWorks: {
-      title: "Jak to Działa",
-      step1Title: "Prześlij Pliki HEIC",
-      step1Desc: "Wybierz jedno lub wiele zdjęć HEIC z urządzenia",
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
-      step2Desc: "Nasz konwerter przetwarza twoje pliki natychmiast",
-      step3Title: "Pobierz GIF",
-      step3Desc: "Otrzymaj swoje przekonwertowane pliki GIF natychmiast",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "O Konwersji HEIC na GIF",
@@ -1099,15 +1099,15 @@ export const pl: Translations = {
       badge3: "Bez Rejestracji",
     },
     upload: {
-      title: "Prześlij Pliki HEIF",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje wsadową konwersję do 20 plików. Maksymalnie 100MB na plik.",
-      buttonSingle: "Jeden Plik",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz JPG",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
       convertAnother: "Konwertuj Inny Plik",
     },
@@ -1126,12 +1126,12 @@ export const pl: Translations = {
     },
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIF",
-      step1Desc: "Wybierz jeden lub wiele obrazów HEIF z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz JPG",
-      step3Desc: "Otrzymaj skonwertowane pliki JPG natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "O Konwersji HEIF na JPG",
@@ -1232,15 +1232,15 @@ export const pl: Translations = {
       badge3: "Bez Rejestracji",
     },
     upload: {
-      title: "Prześlij Pliki HEIF",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje wsadową konwersję do 20 plików. Maksymalnie 100MB na plik.",
-      buttonSingle: "Jeden Plik",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz TIFF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
       convertAnother: "Konwertuj Inny Plik",
     },
@@ -1259,12 +1259,12 @@ export const pl: Translations = {
     },
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIF",
-      step1Desc: "Wybierz jeden lub wiele obrazów HEIF z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz TIFF",
-      step3Desc: "Otrzymaj skonwertowane pliki TIFF natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "O Konwersji HEIF na TIFF",
@@ -1364,15 +1364,15 @@ export const pl: Translations = {
       badge3: "Bez Rejestracji",
     },
     upload: {
-      title: "Prześlij Pliki HEIF",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje wsadową konwersję do 20 plików. Maksymalnie 100MB na plik.",
-      buttonSingle: "Jeden Plik",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz AVIF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
       convertAnother: "Konwertuj Inny Plik",
     },
@@ -1391,12 +1391,12 @@ export const pl: Translations = {
     },
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIF",
-      step1Desc: "Wybierz jeden lub wiele obrazów HEIF z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz AVIF",
-      step3Desc: "Otrzymaj skonwertowane pliki AVIF natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "O Konwersji HEIF na AVIF",
@@ -1496,15 +1496,15 @@ export const pl: Translations = {
       badge3: "Bez Rejestracji",
     },
     upload: {
-      title: "Prześlij Pliki HEIF",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje wsadową konwersję do 20 plików. Maksymalnie 100MB na plik.",
-      buttonSingle: "Jeden Plik",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz WebP",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
       convertAnother: "Konwertuj Inny Plik",
     },
@@ -1523,12 +1523,12 @@ export const pl: Translations = {
     },
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIF",
-      step1Desc: "Wybierz jeden lub wiele obrazów HEIF z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz WebP",
-      step3Desc: "Otrzymaj skonwertowane pliki WebP natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "O Konwersji HEIF na WebP",
@@ -1628,15 +1628,15 @@ export const pl: Translations = {
       badge3: "Bez Rejestracji",
     },
     upload: {
-      title: "Prześlij Pliki HEIF",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje wsadową konwersję do 20 plików. Maksymalnie 100MB na plik.",
-      buttonSingle: "Jeden Plik",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
       success: "Konwersja udana!",
-      download: "Pobierz PDF",
+      download: "Pobierz PNG",
       downloadAll: "Pobierz Wszystko jako ZIP",
       convertAnother: "Konwertuj Inny Plik",
     },
@@ -1655,12 +1655,12 @@ export const pl: Translations = {
     },
     howItWorks: {
       title: "Jak To Działa",
-      step1Title: "Prześlij Pliki HEIF",
-      step1Desc: "Wybierz jeden lub wiele obrazów HEIF z urządzenia",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
       step2Title: "Automatyczna Konwersja",
       step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
-      step3Title: "Pobierz PDF",
-      step3Desc: "Otrzymaj skonwertowane pliki PDF natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "O Konwersji HEIF na PDF",
@@ -1762,17 +1762,17 @@ export const pl: Translations = {
     },
 
     upload: {
-      title: "Prześlij pliki HEIF",
+      title: "Prześlij Pliki JPG",
       description:
-        "Przeciągnij i upuść swoje obrazy HEIF tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
-      buttonSingle: "Pojedynczy plik",
-      buttonBatch: "Konwersja wsadowa",
-      chooseFile: "Wybierz pliki",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
+      buttonBatch: "Konwersja Wsadowa",
+      chooseFile: "Wybierz Pliki",
       converting: "Konwertowanie...",
-      success: "Konwersja zakończona sukcesem!",
+      success: "Konwersja udana!",
       download: "Pobierz PNG",
-      downloadAll: "Pobierz wszystkie jako ZIP",
-      convertAnother: "Konwertuj kolejny plik",
+      downloadAll: "Pobierz Wszystko jako ZIP",
+      convertAnother: "Konwertuj Inny Plik",
     },
 
     features: {
@@ -1790,13 +1790,13 @@ export const pl: Translations = {
     },
 
     howItWorks: {
-      title: "Jak to działa",
-      step1Title: "Prześlij pliki HEIF",
-      step1Desc: "Wybierz jeden lub więcej obrazów HEIF z urządzenia",
-      step2Title: "Automatyczna konwersja",
-      step2Desc: "Nasz konwerter przetwarza pliki natychmiastowo",
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
+      step2Title: "Automatyczna Konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
       step3Title: "Pobierz PNG",
-      step3Desc: "Otrzymaj skonwertowane pliki PNG natychmiast",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
 
     about: {
@@ -1871,25 +1871,25 @@ export const pl: Translations = {
     metaKeywords:
       "JPG na PNG, dodaj przezroczystość, konwersja bezstratna, konwerter grafiki, konwerter logo, obrazy internetowe, konwertuj JPG wsadowo, usuń tło",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "Konwerter JPG na PNG",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "Konwertuj JPG na PNG dla wsparcia przezroczystości i doskonałej jakości. Idealny do logo, grafik i profesjonalnych obrazów. PNG zachowuje każdy szczegół bez artefaktów kompresji - idealny do grafik internetowych, nakładek i obrazów wymagających przezroczystego tła.",
+      badge1: "Wsparcie Przezroczystości",
+      badge2: "Jakość Bezstratna",
+      badge3: "Bez Artefaktów",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "Prześlij Pliki JPG",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
+      buttonBatch: "Konwersja Wsadowa",
+      chooseFile: "Wybierz Pliki",
+      converting: "Konwertowanie...",
+      success: "Konwersja udana!",
+      download: "Pobierz PNG",
+      downloadAll: "Pobierz Wszystko jako ZIP",
+      convertAnother: "Konwertuj Inny Plik",
     },
     features: {
       title: "Features",
@@ -1905,13 +1905,13 @@ export const pl: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
+      step2Title: "Automatyczna Konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2013,17 +2013,17 @@ export const pl: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "Prześlij Pliki JPG",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
+      buttonBatch: "Konwersja Wsadowa",
+      chooseFile: "Wybierz Pliki",
+      converting: "Konwertowanie...",
+      success: "Konwersja udana!",
+      download: "Pobierz PNG",
+      downloadAll: "Pobierz Wszystko jako ZIP",
+      convertAnother: "Konwertuj Inny Plik",
     },
     features: {
       title: "Features",
@@ -2039,13 +2039,13 @@ export const pl: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
+      step2Title: "Automatyczna Konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz PNG",
+      step3Desc: "Otrzymaj skonwertowane pliki PNG od razu",
     },
     about: {
       title: "About HEIF to GIF Conversion",

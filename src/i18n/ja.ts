@@ -245,16 +245,16 @@ export const ja: Translations = {
     },
 
     upload: {
-      title: "HEICファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換をサポート。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
-      buttonBatch: "一括変換",
+      buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "PDFをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
 
@@ -273,13 +273,13 @@ export const ja: Translations = {
     },
 
     howItWorks: {
-      title: "仕組み",
-      step1Title: "HEICファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      title: "使い方",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
       step2Desc: "コンバーターがファイルを即座に処理",
-      step3Title: "PDFをダウンロード",
-      step3Desc: "変換されたPDFファイルを即座に取得",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
 
     about: {
@@ -369,16 +369,16 @@ export const ja: Translations = {
     },
 
     upload: {
-      title: "HEICファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
-      buttonBatch: "一括変換",
+      buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
       download: "PNGをダウンロード",
-      downloadAll: "すべてZIPとしてダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
 
@@ -398,8 +398,8 @@ export const ja: Translations = {
 
     howItWorks: {
       title: "使い方",
-      step1Title: "HEICファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
       step2Desc: "コンバーターがファイルを即座に処理",
       step3Title: "PNGをダウンロード",
@@ -484,17 +484,17 @@ export const ja: Translations = {
     },
 
     upload: {
-    title: "HEICファイルをアップロード",
-    description:
-      "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
-    buttonSingle: "単一ファイル",
-    buttonBatch: "バッチ変換",
-    chooseFile: "ファイルを選択",
-    converting: "変換中...",
-    success: "変換成功！",
-    download: "JPGをダウンロード",
-    downloadAll: "すべてをZIPとしてダウンロード",
-    convertAnother: "別のファイルを変換",
+      title: "JPGファイルをアップロード",
+      description:
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
+      buttonSingle: "単一ファイル",
+      buttonBatch: "バッチ変換",
+      chooseFile: "ファイルを選択",
+      converting: "変換中...",
+      success: "変換成功！",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
+      convertAnother: "別のファイルを変換",
     },
 
     features: {
@@ -512,13 +512,13 @@ export const ja: Translations = {
     },
 
     howItWorks: {
-    title: "使い方",
-    step1Title: "HEICファイルをアップロード",
-    step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
-    step2Title: "自動変換",
-    step2Desc: "コンバーターがファイルを瞬時に処理",
-    step3Title: "JPGをダウンロード",
-    step3Desc: "変換されたJPGファイルを即座に取得",
+      title: "使い方",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
+      step2Title: "自動変換",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
 
     about: {
@@ -615,16 +615,16 @@ export const ja: Translations = {
     },
 
     upload: {
-      title: "HEICファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
-      buttonBatch: "一括変換",
+      buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "WebPをダウンロード",
-      downloadAll: "すべてZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
 
@@ -644,12 +644,12 @@ export const ja: Translations = {
 
     howItWorks: {
       title: "使い方",
-      step1Title: "HEICファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
       step2Desc: "コンバーターがファイルを即座に処理",
-      step3Title: "WebPをダウンロード",
-      step3Desc: "変換されたWebPファイルをすぐに取得",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
 
     about: {
@@ -728,16 +728,16 @@ export const ja: Translations = {
     },
 
     upload: {
-      title: "HEICファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
-      buttonBatch: "一括変換",
+      buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "AVIFをダウンロード",
-      downloadAll: "すべてZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
 
@@ -757,12 +757,12 @@ export const ja: Translations = {
 
     howItWorks: {
       title: "使い方",
-      step1Title: "HEICファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "AVIFをダウンロード",
-      step3Desc: "変換されたAVIFファイルをすぐに取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
 
     about: {
@@ -841,16 +841,16 @@ export const ja: Translations = {
     },
 
     upload: {
-      title: "HEICファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIC写真をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
-      buttonBatch: "一括変換",
+      buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "AVIFをダウンロード",
-      downloadAll: "すべてZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
 
@@ -870,12 +870,12 @@ export const ja: Translations = {
 
     howItWorks: {
       title: "使い方",
-      step1Title: "HEICファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "AVIFをダウンロード",
-      step3Desc: "変換されたAVIFファイルをすぐに取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
 
     about: {
@@ -952,16 +952,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEICファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIC写真をここにドラッグ＆ドロップするか、クリックして閲覧してください。最大20ファイルの一括変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
-      buttonBatch: "一括変換",
+      buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "GIFをダウンロード",
-      downloadAll: "すべてZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -979,12 +979,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEICファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIC写真を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "GIFをダウンロード",
-      step3Desc: "変換されたGIFファイルをすぐに取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEICからGIFへの変換について",
@@ -1076,16 +1076,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEIFファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
       buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "JPGをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -1103,12 +1103,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEIFファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "JPGをダウンロード",
-      step3Desc: "変換されたJPGファイルを即座に取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEIF to JPG変換について",
@@ -1209,16 +1209,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEIFファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
       buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "TIFFをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -1236,12 +1236,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEIFファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "TIFFをダウンロード",
-      step3Desc: "変換されたTIFFファイルを即座に取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEIF to TIFF変換について",
@@ -1341,16 +1341,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEIFファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
       buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "AVIFをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -1368,12 +1368,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEIFファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "AVIFをダウンロード",
-      step3Desc: "変換されたAVIFファイルを即座に取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEIF to AVIF変換について",
@@ -1473,16 +1473,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEIFファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
       buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "WebPをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -1500,12 +1500,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEIFファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "WebPをダウンロード",
-      step3Desc: "変換されたWebPファイルを即座に取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEIF to WebP変換について",
@@ -1605,16 +1605,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEIFファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
       buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
-      download: "PDFをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -1632,12 +1632,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEIFファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
-      step3Title: "PDFをダウンロード",
-      step3Desc: "変換されたPDFファイルを即座に取得",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEIF to PDF変換について",
@@ -1737,16 +1737,16 @@ export const ja: Translations = {
       badge3: "登録不要",
     },
     upload: {
-      title: "HEIFファイルをアップロード",
+      title: "JPGファイルをアップロード",
       description:
-        "HEIF画像をここにドラッグ&ドロップするか、クリックして参照。最大20ファイルのバッチ変換に対応。ファイルあたり最大100MB。",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
       buttonSingle: "単一ファイル",
       buttonBatch: "バッチ変換",
       chooseFile: "ファイルを選択",
       converting: "変換中...",
       success: "変換成功！",
       download: "PNGをダウンロード",
-      downloadAll: "すべてをZIPとしてダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
       convertAnother: "別のファイルを変換",
     },
     features: {
@@ -1764,12 +1764,12 @@ export const ja: Translations = {
     },
     howItWorks: {
       title: "使い方",
-      step1Title: "HEIFファイルをアップロード",
-      step1Desc: "デバイスから1つまたは複数のHEIF画像を選択",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
       step2Title: "自動変換",
-      step2Desc: "コンバーターがファイルを瞬時に処理",
+      step2Desc: "コンバーターがファイルを即座に処理",
       step3Title: "PNGをダウンロード",
-      step3Desc: "変換されたPNGファイルを即座に取得",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "HEIF to PNG変換について",
@@ -1862,25 +1862,25 @@ export const ja: Translations = {
     metaKeywords:
       "JPGからPNG、透明度を追加、可逆変換、グラフィックコンバーター、ロゴコンバーター、ウェブ画像、バッチJPG変換、背景削除",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "JPGからPNGコンバーター",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "JPGをPNGに変換して透明度サポートと優れた品質を実現。ロゴ、グラフィック、プロフェッショナル画像に最適。PNGは圧縮アーティファクトなしですべての詳細を保持 - Webグラフィック、オーバーレイ、透明な背景が必要な画像に最適。",
+      badge1: "透明度サポート",
+      badge2: "可逆品質",
+      badge3: "アーティファクトなし",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "JPGファイルをアップロード",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
+      buttonSingle: "単一ファイル",
+      buttonBatch: "バッチ変換",
+      chooseFile: "ファイルを選択",
+      converting: "変換中...",
+      success: "変換成功！",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
+      convertAnother: "別のファイルを変換",
     },
     features: {
       title: "Features",
@@ -1896,13 +1896,13 @@ export const ja: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "使い方",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
+      step2Title: "自動変換",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2004,17 +2004,17 @@ export const ja: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "JPGファイルをアップロード",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "JPG画像をここにドラッグ＆ドロップするか、クリックして参照します。最大20ファイルのバッチ変換をサポート。ファイルあたり最大100MB。",
+      buttonSingle: "単一ファイル",
+      buttonBatch: "バッチ変換",
+      chooseFile: "ファイルを選択",
+      converting: "変換中...",
+      success: "変換成功！",
+      download: "PNGをダウンロード",
+      downloadAll: "すべてZIPでダウンロード",
+      convertAnother: "別のファイルを変換",
     },
     features: {
       title: "Features",
@@ -2030,13 +2030,13 @@ export const ja: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "使い方",
+      step1Title: "JPGファイルをアップロード",
+      step1Desc: "デバイスから1つまたは複数のJPG画像を選択",
+      step2Title: "自動変換",
+      step2Desc: "コンバーターがファイルを即座に処理",
+      step3Title: "PNGをダウンロード",
+      step3Desc: "変換されたPNGファイルをすぐに取得",
     },
     about: {
       title: "About HEIF to GIF Conversion",

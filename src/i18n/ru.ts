@@ -250,17 +250,17 @@ export const ru: Translations = {
     },
 
     upload: {
-      title: "Загрузить файлы HEIC",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите свои фото HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
-      buttonSingle: "Один файл",
-      buttonBatch: "Пакетная конвертация",
-      chooseFile: "Выбрать файлы",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
+      buttonSingle: "Один Файл",
+      buttonBatch: "Пакетная Конвертация",
+      chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать PDF",
-      downloadAll: "Скачать все в ZIP",
-      convertAnother: "Конвертировать другой файл",
+      download: "Скачать PNG",
+      downloadAll: "Скачать Все как ZIP",
+      convertAnother: "Конвертировать Другой Файл",
     },
 
     features: {
@@ -278,13 +278,13 @@ export const ru: Translations = {
     },
 
     howItWorks: {
-      title: "Как это работает",
-      step1Title: "Загрузите файлы HEIC",
-      step1Desc: "Выберите одну или несколько фотографий HEIC с вашего устройства",
-      step2Title: "Автоматическая конвертация",
+      title: "Как Это Работает",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
+      step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачайте PDF",
-      step3Desc: "Получите свои конвертированные PDF-файлы немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
 
     about: {
@@ -374,9 +374,9 @@ export const ru: Translations = {
     },
 
     upload: {
-      title: "Загрузить Файлы HEIC",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите свои фотографии HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
@@ -403,8 +403,8 @@ export const ru: Translations = {
 
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIC",
-      step1Desc: "Выберите одно или несколько фото HEIC с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
       step3Title: "Скачать PNG",
@@ -489,17 +489,17 @@ export const ru: Translations = {
     },
 
     upload: {
-    title: "Загрузить Файлы HEIC",
-    description:
-    "Перетащите ваши фото HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
-    buttonSingle: "Один Файл",
-    buttonBatch: "Пакетная Конвертация",
-    chooseFile: "Выбрать Файлы",
-    converting: "Конвертация...",
-    success: "Конвертация успешна!",
-    download: "Скачать JPG",
-    downloadAll: "Скачать Все как ZIP",
-    convertAnother: "Конвертировать Другой Файл",
+      title: "Загрузить JPG Файлы",
+      description:
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
+      buttonSingle: "Один Файл",
+      buttonBatch: "Пакетная Конвертация",
+      chooseFile: "Выбрать Файлы",
+      converting: "Конвертация...",
+      success: "Конвертация успешна!",
+      download: "Скачать PNG",
+      downloadAll: "Скачать Все как ZIP",
+      convertAnother: "Конвертировать Другой Файл",
     },
 
     features: {
@@ -517,13 +517,13 @@ export const ru: Translations = {
     },
 
     howItWorks: {
-    title: "Как Это Работает",
-    step1Title: "Загрузить Файлы HEIC",
-    step1Desc: "Выберите одно или несколько фото HEIC с вашего устройства",
-    step2Title: "Автоматическая Конвертация",
-    step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-    step3Title: "Скачать JPG",
-    step3Desc: "Получите ваши конвертированные файлы JPG немедленно",
+      title: "Как Это Работает",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
+      step2Title: "Автоматическая Конвертация",
+      step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
 
     about: {
@@ -620,15 +620,15 @@ export const ru: Translations = {
     },
 
     upload: {
-      title: "Загрузить Файлы HEIC",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите свои фотографии HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать WebP",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -649,12 +649,12 @@ export const ru: Translations = {
 
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIC",
-      step1Desc: "Выберите одно или несколько фото HEIC с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать WebP",
-      step3Desc: "Получите ваши конвертированные WebP файлы немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
 
     about: {
@@ -733,15 +733,15 @@ export const ru: Translations = {
     },
 
     upload: {
-      title: "Загрузить Файлы HEIC",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши фото HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать AVIF",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -762,12 +762,12 @@ export const ru: Translations = {
 
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIC",
-      step1Desc: "Выберите одно или несколько фото HEIC с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать AVIF",
-      step3Desc: "Получите ваши конвертированные файлы AVIF немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
 
     about: {
@@ -846,15 +846,15 @@ export const ru: Translations = {
     },
 
     upload: {
-      title: "Загрузить Файлы HEIC",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши фото HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать TIFF",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -875,12 +875,12 @@ export const ru: Translations = {
 
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIC",
-      step1Desc: "Выберите одно или несколько фото HEIC с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать TIFF",
-      step3Desc: "Получите ваши конвертированные файлы TIFF немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
 
     about: {
@@ -957,15 +957,15 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIC",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши фото HEIC сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать GIF",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -984,12 +984,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIC",
-      step1Desc: "Выберите одно или несколько фото HEIC с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать GIF",
-      step3Desc: "Получите ваши конвертированные файлы GIF немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIC в GIF",
@@ -1081,15 +1081,15 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIF",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши изображения HEIF сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать JPG",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -1108,12 +1108,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIF",
-      step1Desc: "Выберите одно или несколько изображений HEIF с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать JPG",
-      step3Desc: "Получите ваши конвертированные файлы JPG немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIF в JPG",
@@ -1214,15 +1214,15 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIF",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши изображения HEIF сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать TIFF",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -1241,12 +1241,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIF",
-      step1Desc: "Выберите одно или несколько изображений HEIF с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать TIFF",
-      step3Desc: "Получите ваши конвертированные файлы TIFF немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIF в TIFF",
@@ -1346,15 +1346,15 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIF",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши изображения HEIF сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать AVIF",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -1373,12 +1373,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIF",
-      step1Desc: "Выберите одно или несколько изображений HEIF с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать AVIF",
-      step3Desc: "Получите ваши конвертированные файлы AVIF немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIF в AVIF",
@@ -1478,15 +1478,15 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIF",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши изображения HEIF сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать WebP",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -1505,12 +1505,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIF",
-      step1Desc: "Выберите одно или несколько изображений HEIF с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать WebP",
-      step3Desc: "Получите ваши конвертированные файлы WebP немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIF в WebP",
@@ -1610,15 +1610,15 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIF",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши изображения HEIF сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
       converting: "Конвертация...",
       success: "Конвертация успешна!",
-      download: "Скачать PDF",
+      download: "Скачать PNG",
       downloadAll: "Скачать Все как ZIP",
       convertAnother: "Конвертировать Другой Файл",
     },
@@ -1637,12 +1637,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIF",
-      step1Desc: "Выберите одно или несколько изображений HEIF с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
-      step3Title: "Скачать PDF",
-      step3Desc: "Получите ваши конвертированные файлы PDF немедленно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIF в PDF",
@@ -1742,9 +1742,9 @@ export const ru: Translations = {
       badge3: "Без Регистрации",
     },
     upload: {
-      title: "Загрузить Файлы HEIF",
+      title: "Загрузить JPG Файлы",
       description:
-        "Перетащите ваши изображения HEIF сюда или нажмите для просмотра. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100MB на файл.",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
       buttonSingle: "Один Файл",
       buttonBatch: "Пакетная Конвертация",
       chooseFile: "Выбрать Файлы",
@@ -1769,12 +1769,12 @@ export const ru: Translations = {
     },
     howItWorks: {
       title: "Как Это Работает",
-      step1Title: "Загрузить Файлы HEIF",
-      step1Desc: "Выберите одно или несколько изображений HEIF с вашего устройства",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
       step2Title: "Автоматическая Конвертация",
       step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
       step3Title: "Скачать PNG",
-      step3Desc: "Получите ваши конвертированные файлы PNG немедленно",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "О Конвертации HEIF в PNG",
@@ -1867,25 +1867,25 @@ export const ru: Translations = {
     metaKeywords:
       "JPG в PNG, добавить прозрачность, конвертация без потерь, конвертер графики, конвертер логотипов, веб-изображения, пакетная конвертация JPG, удалить фон",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "Конвертер JPG в PNG",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "Конвертируйте JPG в PNG для поддержки прозрачности и превосходного качества. Идеально для логотипов, графики и профессиональных изображений. PNG сохраняет каждую деталь без артефактов сжатия - идеально для веб-графики, оверлеев и изображений, требующих прозрачного фона.",
+      badge1: "Поддержка Прозрачности",
+      badge2: "Качество Без Потерь",
+      badge3: "Без Артефактов",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "Загрузить JPG Файлы",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
+      buttonSingle: "Один Файл",
+      buttonBatch: "Пакетная Конвертация",
+      chooseFile: "Выбрать Файлы",
+      converting: "Конвертация...",
+      success: "Конвертация успешна!",
+      download: "Скачать PNG",
+      downloadAll: "Скачать Все как ZIP",
+      convertAnother: "Конвертировать Другой Файл",
     },
     features: {
       title: "Features",
@@ -1901,13 +1901,13 @@ export const ru: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "Как Это Работает",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
+      step2Title: "Автоматическая Конвертация",
+      step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2009,17 +2009,17 @@ export const ru: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "Загрузить JPG Файлы",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Перетащите ваши JPG изображения сюда или нажмите для выбора. Поддерживает пакетную конвертацию до 20 файлов. Максимум 100МБ на файл.",
+      buttonSingle: "Один Файл",
+      buttonBatch: "Пакетная Конвертация",
+      chooseFile: "Выбрать Файлы",
+      converting: "Конвертация...",
+      success: "Конвертация успешна!",
+      download: "Скачать PNG",
+      downloadAll: "Скачать Все как ZIP",
+      convertAnother: "Конвертировать Другой Файл",
     },
     features: {
       title: "Features",
@@ -2035,13 +2035,13 @@ export const ru: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "Как Это Работает",
+      step1Title: "Загрузить JPG Файлы",
+      step1Desc: "Выберите одно или несколько JPG изображений с вашего устройства",
+      step2Title: "Автоматическая Конвертация",
+      step2Desc: "Наш конвертер обрабатывает ваши файлы мгновенно",
+      step3Title: "Скачать PNG",
+      step3Desc: "Получите ваши конвертированные PNG файлы немедленно",
     },
     about: {
       title: "About HEIF to GIF Conversion",

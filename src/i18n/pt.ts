@@ -253,15 +253,15 @@ export const pt: EnTranslations = {
     },
 
     upload: {
-      title: "Carregar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo de 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar PDF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -282,12 +282,12 @@ export const pt: EnTranslations = {
 
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Carregar Arquivos HEIC",
-      step1Desc: "Selecione uma ou várias fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar PDF",
-      step3Desc: "Obtenha seus arquivos PDF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
 
     about: {
@@ -377,9 +377,9 @@ export const pt: EnTranslations = {
     },
 
     upload: {
-      title: "Carregar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo de 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
@@ -406,8 +406,8 @@ export const pt: EnTranslations = {
 
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Carregar Arquivos HEIC",
-      step1Desc: "Selecione uma ou múltiplas fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
       step3Title: "Baixar PNG",
@@ -492,15 +492,15 @@ export const pt: EnTranslations = {
     },
 
     upload: {
-      title: "Enviar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar JPG",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -521,12 +521,12 @@ export const pt: EnTranslations = {
 
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIC",
-      step1Desc: "Selecione uma ou várias fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar JPG",
-      step3Desc: "Obtenha seus arquivos JPG convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
 
     about: {
@@ -623,15 +623,15 @@ export const pt: EnTranslations = {
     },
 
     upload: {
-      title: "Carregar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo de 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar WebP",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -652,12 +652,12 @@ export const pt: EnTranslations = {
 
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Carregar Arquivos HEIC",
-      step1Desc: "Selecione uma ou múltiplas fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar WebP",
-      step3Desc: "Obtenha seus arquivos WebP convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
 
     about: {
@@ -736,15 +736,15 @@ export const pt: EnTranslations = {
     },
 
     upload: {
-      title: "Enviar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar AVIF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -765,12 +765,12 @@ export const pt: EnTranslations = {
 
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIC",
-      step1Desc: "Selecione uma ou várias fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar AVIF",
-      step3Desc: "Obtenha seus arquivos AVIF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
 
     about: {
@@ -849,15 +849,15 @@ export const pt: EnTranslations = {
     },
 
     upload: {
-      title: "Enviar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar TIFF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -878,12 +878,12 @@ export const pt: EnTranslations = {
 
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIC",
-      step1Desc: "Selecione uma ou várias fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar TIFF",
-      step3Desc: "Obtenha seus arquivos TIFF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
 
     about: {
@@ -960,15 +960,15 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Carregar Arquivos HEIC",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas fotos HEIC aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo de 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar GIF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -987,12 +987,12 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Carregar Arquivos HEIC",
-      step1Desc: "Selecione uma ou várias fotos HEIC do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar GIF",
-      step3Desc: "Obtenha seus arquivos GIF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "Sobre a Conversão HEIC para GIF",
@@ -1084,15 +1084,15 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Enviar Arquivos HEIF",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar JPG",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -1111,12 +1111,12 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIF",
-      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar JPG",
-      step3Desc: "Obtenha seus arquivos JPG convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "Sobre a Conversão HEIF para JPG",
@@ -1217,15 +1217,15 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Enviar Arquivos HEIF",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar TIFF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -1244,12 +1244,12 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIF",
-      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar TIFF",
-      step3Desc: "Obtenha seus arquivos TIFF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "Sobre a Conversão HEIF para TIFF",
@@ -1349,15 +1349,15 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Enviar Arquivos HEIF",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar AVIF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -1376,12 +1376,12 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIF",
-      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar AVIF",
-      step3Desc: "Obtenha seus arquivos AVIF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "Sobre a Conversão HEIF para AVIF",
@@ -1481,15 +1481,15 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Enviar Arquivos HEIF",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar WebP",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -1508,12 +1508,12 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIF",
-      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar WebP",
-      step3Desc: "Obtenha seus arquivos WebP convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "Sobre a Conversão HEIF para WebP",
@@ -1613,15 +1613,15 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Enviar Arquivos HEIF",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
       converting: "Convertendo...",
       success: "Conversão bem-sucedida!",
-      download: "Baixar PDF",
+      download: "Baixar PNG",
       downloadAll: "Baixar Tudo como ZIP",
       convertAnother: "Converter Outro Arquivo",
     },
@@ -1640,12 +1640,12 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIF",
-      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
-      step3Title: "Baixar PDF",
-      step3Desc: "Obtenha seus arquivos PDF convertidos imediatamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "Sobre a Conversão HEIF para PDF",
@@ -1746,17 +1746,17 @@ export const pt: EnTranslations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "Enviar Arquivos JPG",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
+      buttonSingle: "Arquivo Único",
+      buttonBatch: "Conversão em Lote",
+      chooseFile: "Escolher Arquivos",
+      converting: "Convertendo...",
+      success: "Conversão bem-sucedida!",
+      download: "Baixar PNG",
+      downloadAll: "Baixar Tudo como ZIP",
+      convertAnother: "Converter Outro Arquivo",
     },
     features: {
       title: "Features",
@@ -1772,13 +1772,13 @@ export const pt: EnTranslations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "Como Funciona",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
+      step2Title: "Conversão Automática",
+      step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "About HEIF to GIF Conversion",
@@ -1879,9 +1879,9 @@ export const pt: EnTranslations = {
       badge3: "Sem Registro",
     },
     upload: {
-      title: "Enviar Arquivos HEIF",
+      title: "Enviar Arquivos JPG",
       description:
-        "Arraste e solte suas imagens HEIF aqui ou clique para procurar. Suporta conversão em lote até 20 arquivos. Máximo 100MB por arquivo.",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
       buttonSingle: "Arquivo Único",
       buttonBatch: "Conversão em Lote",
       chooseFile: "Escolher Arquivos",
@@ -1906,8 +1906,8 @@ export const pt: EnTranslations = {
     },
     howItWorks: {
       title: "Como Funciona",
-      step1Title: "Enviar Arquivos HEIF",
-      step1Desc: "Selecione uma ou várias imagens HEIF do seu dispositivo",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
       step2Title: "Conversão Automática",
       step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
       step3Title: "Baixar PNG",
@@ -2004,25 +2004,25 @@ export const pt: EnTranslations = {
     metaKeywords:
       "JPG para PNG, adicionar transparência, conversão sem perdas, conversor de gráficos, conversor de logo, imagens web, converter JPG em lote, remover fundo",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "Conversor JPG para PNG",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "Converta JPG para PNG para suporte de transparência e qualidade superior. Perfeito para logos, gráficos e imagens profissionais. PNG preserva cada detalhe sem artefatos de compressão - ideal para gráficos web, overlays e imagens que requerem fundos transparentes.",
+      badge1: "Suporte de Transparência",
+      badge2: "Qualidade Sem Perdas",
+      badge3: "Sem Artefatos",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "Enviar Arquivos JPG",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Arraste e solte suas imagens JPG aqui ou clique para navegar. Suporta conversão em lote de até 20 arquivos. Máximo 100MB por arquivo.",
+      buttonSingle: "Arquivo Único",
+      buttonBatch: "Conversão em Lote",
+      chooseFile: "Escolher Arquivos",
+      converting: "Convertendo...",
+      success: "Conversão bem-sucedida!",
+      download: "Baixar PNG",
+      downloadAll: "Baixar Tudo como ZIP",
+      convertAnother: "Converter Outro Arquivo",
     },
     features: {
       title: "Features",
@@ -2038,13 +2038,13 @@ export const pt: EnTranslations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "Como Funciona",
+      step1Title: "Enviar Arquivos JPG",
+      step1Desc: "Selecione uma ou várias imagens JPG do seu dispositivo",
+      step2Title: "Conversão Automática",
+      step2Desc: "Nosso conversor processa seus arquivos instantaneamente",
+      step3Title: "Baixar PNG",
+      step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
       title: "About JPG to PNG Conversion",

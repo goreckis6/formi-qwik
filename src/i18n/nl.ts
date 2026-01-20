@@ -251,17 +251,17 @@ export const nl: Translations = {
     },
 
     upload: {
-      title: "HEIC Bestanden Uploaden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep en zet uw HEIC-foto's hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximum 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
-      success: "Conversie succesvol!",
-      download: "PDF Downloaden",
-      downloadAll: "Alles Downloaden als ZIP",
-      convertAnother: "Nog Een Bestand Converteren",
+      success: "Conversie geslaagd!",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
 
     features: {
@@ -280,12 +280,12 @@ export const nl: Translations = {
 
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "HEIC Bestanden Uploaden",
-      step1Desc: "Selecteer een of meerdere HEIC-foto's van uw apparaat",
-      step2Title: "Automatisch Converteren",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "PDF Downloaden",
-      step3Desc: "Krijg uw geconverteerde PDF-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
 
     about: {
@@ -375,17 +375,17 @@ export const nl: Translations = {
     },
 
     upload: {
-      title: "Upload HEIC Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
       download: "PNG Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
 
     features: {
@@ -404,12 +404,12 @@ export const nl: Translations = {
 
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIC Bestanden",
-      step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download PNG",
-      step3Desc: "Ontvang uw geconverteerde PNG-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
 
     about: {
@@ -490,17 +490,17 @@ export const nl: Translations = {
     },
 
     upload: {
-    title: "Upload HEIC Bestanden",
-    description:
-      "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
-    buttonSingle: "Enkel Bestand",
-    buttonBatch: "Batch Converteren",
-    chooseFile: "Kies Bestanden",
-    converting: "Converteren...",
-    success: "Conversie geslaagd!",
-    download: "JPG Downloaden",
-    downloadAll: "Download Alles als ZIP",
-    convertAnother: "Converteer Ander Bestand",
+      title: "JPG-bestanden Uploaden",
+      description:
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
 
     features: {
@@ -518,13 +518,13 @@ export const nl: Translations = {
     },
 
     howItWorks: {
-    title: "Hoe Het Werkt",
-    step1Title: "Upload HEIC Bestanden",
-    step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
-    step2Title: "Automatische Conversie",
-    step2Desc: "Onze converter verwerkt uw bestanden direct",
-    step3Title: "Download JPG",
-    step3Desc: "Ontvang uw geconverteerde JPG-bestanden direct",
+      title: "Hoe Het Werkt",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
 
     about: {
@@ -621,17 +621,17 @@ export const nl: Translations = {
     },
 
     upload: {
-      title: "Upload HEIC Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "WebP Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
 
     features: {
@@ -650,12 +650,12 @@ export const nl: Translations = {
 
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIC Bestanden",
-      step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download WebP",
-      step3Desc: "Ontvang uw geconverteerde WebP-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
 
     about: {
@@ -734,17 +734,17 @@ export const nl: Translations = {
     },
 
     upload: {
-      title: "HEIC Bestanden Uploaden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep je HEIC foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
+      buttonBatch: "Batch Conversie",
       chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "AVIF Downloaden",
-      downloadAll: "Alles Downloaden als ZIP",
-      convertAnother: "Nog een Bestand Converteren",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
 
     features: {
@@ -763,12 +763,12 @@ export const nl: Translations = {
 
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "HEIC Bestanden Uploaden",
-      step1Desc: "Selecteer een of meerdere HEIC foto's van je apparaat",
-      step2Title: "Automatisch Converteren",
-      step2Desc: "Onze converter verwerkt je bestanden direct",
-      step3Title: "AVIF Downloaden",
-      step3Desc: "Krijg je geconverteerde AVIF bestanden direct",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
 
     about: {
@@ -847,17 +847,17 @@ export const nl: Translations = {
     },
 
     upload: {
-      title: "HEIC Bestanden Uploaden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep je HEIC foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
+      buttonBatch: "Batch Conversie",
       chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "TIFF Downloaden",
-      downloadAll: "Alles Downloaden als ZIP",
-      convertAnother: "Nog een Bestand Converteren",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
 
     features: {
@@ -876,12 +876,12 @@ export const nl: Translations = {
 
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "HEIC Bestanden Uploaden",
-      step1Desc: "Selecteer een of meerdere HEIC foto's van je apparaat",
-      step2Title: "Automatisch Converteren",
-      step2Desc: "Onze converter verwerkt je bestanden direct",
-      step3Title: "TIFF Downloaden",
-      step3Desc: "Krijg je geconverteerde TIFF bestanden direct",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
 
     about: {
@@ -958,17 +958,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "HEIC Bestanden Uploaden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep en zet uw HEIC-foto's hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximum 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
-      success: "Conversie succesvol!",
-      download: "GIF Downloaden",
-      downloadAll: "Alles Downloaden als ZIP",
-      convertAnother: "Nog Een Bestand Converteren",
+      success: "Conversie geslaagd!",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -985,12 +985,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIC Bestanden",
-      step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "GIF Downloaden",
-      step3Desc: "Ontvang uw geconverteerde GIF-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIC naar GIF Conversie",
@@ -1082,17 +1082,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "Upload HEIF Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "JPG Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -1109,12 +1109,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIF Bestanden",
-      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download JPG",
-      step3Desc: "Ontvang uw geconverteerde JPG-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIF naar JPG Conversie",
@@ -1215,17 +1215,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "Upload HEIF Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "TIFF Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -1242,12 +1242,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIF Bestanden",
-      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download TIFF",
-      step3Desc: "Ontvang uw geconverteerde TIFF-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIF naar TIFF Conversie",
@@ -1347,17 +1347,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "Upload HEIF Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "AVIF Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -1374,12 +1374,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIF Bestanden",
-      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download AVIF",
-      step3Desc: "Ontvang uw geconverteerde AVIF-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIF naar AVIF Conversie",
@@ -1479,17 +1479,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "Upload HEIF Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "WebP Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -1506,12 +1506,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIF Bestanden",
-      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download WebP",
-      step3Desc: "Ontvang uw geconverteerde WebP-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIF naar WebP Conversie",
@@ -1611,17 +1611,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "Upload HEIF Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
-      download: "PDF Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -1638,12 +1638,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIF Bestanden",
-      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download PDF",
-      step3Desc: "Ontvang uw geconverteerde PDF-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIF naar PDF Conversie",
@@ -1743,17 +1743,17 @@ export const nl: Translations = {
       badge3: "Geen Registratie",
     },
     upload: {
-      title: "Upload HEIF Bestanden",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Sleep uw HEIF-afbeeldingen hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
-      buttonBatch: "Batch Converteren",
-      chooseFile: "Kies Bestanden",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
       converting: "Converteren...",
       success: "Conversie geslaagd!",
       download: "PNG Downloaden",
-      downloadAll: "Download Alles als ZIP",
-      convertAnother: "Converteer Ander Bestand",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Functies",
@@ -1770,12 +1770,12 @@ export const nl: Translations = {
     },
     howItWorks: {
       title: "Hoe Het Werkt",
-      step1Title: "Upload HEIF Bestanden",
-      step1Desc: "Selecteer een of meer HEIF-afbeeldingen van uw apparaat",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt uw bestanden direct",
-      step3Title: "Download PNG",
-      step3Desc: "Ontvang uw geconverteerde PNG-bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "Over HEIF naar PNG Conversie",
@@ -1868,25 +1868,25 @@ export const nl: Translations = {
     metaKeywords:
       "JPG naar PNG, transparantie toevoegen, verliesvrije conversie, graphics converter, logo converter, webafbeeldingen, batch JPG converteren, achtergrond verwijderen",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "JPG naar PNG Converter",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "Converteer JPG naar PNG voor transparantieondersteuning en superieure kwaliteit. Perfect voor logo's, graphics en professionele afbeeldingen. PNG behoudt elk detail zonder compressie-artefacten - ideaal voor webgraphics, overlays en afbeeldingen die transparante achtergronden vereisen.",
+      badge1: "Transparantieondersteuning",
+      badge2: "Verliesvrije Kwaliteit",
+      badge3: "Geen Artefacten",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Features",
@@ -1902,13 +1902,13 @@ export const nl: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "Hoe Het Werkt",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2010,17 +2010,17 @@ export const nl: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "JPG-bestanden Uploaden",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Sleep uw JPG-afbeeldingen hier naartoe of klik om te bladeren. Ondersteunt batch-conversie tot 20 bestanden. Maximum 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Bestanden Kiezen",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
+      download: "PNG Downloaden",
+      downloadAll: "Alles als ZIP Downloaden",
+      convertAnother: "Ander Bestand Converteren",
     },
     features: {
       title: "Features",
@@ -2036,13 +2036,13 @@ export const nl: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "Hoe Het Werkt",
+      step1Title: "JPG-bestanden Uploaden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "PNG Downloaden",
+      step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
       title: "About HEIF to GIF Conversion",

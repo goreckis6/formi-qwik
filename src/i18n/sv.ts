@@ -249,17 +249,17 @@ export const sv: Translations = {
     },
 
     upload: {
-      title: "Ladda Upp HEIC Filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda Ner PDF",
-      downloadAll: "Ladda Ner Alla som ZIP",
-      convertAnother: "Konvertera En Annan Fil",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
 
     features: {
@@ -278,12 +278,12 @@ export const sv: Translations = {
 
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda Upp HEIC Filer",
-      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
-      step2Title: "Auto Konvertera",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda Ner PDF",
-      step3Desc: "Få dina konverterade PDF-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
 
     about: {
@@ -373,16 +373,16 @@ export const sv: Translations = {
     },
 
     upload: {
-      title: "Ladda upp HEIC-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner PNG",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
 
@@ -402,12 +402,12 @@ export const sv: Translations = {
 
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIC-filer",
-      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner PNG",
-      step3Desc: "Få dina konverterade PNG-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
 
     about: {
@@ -488,17 +488,17 @@ export const sv: Translations = {
     },
 
     upload: {
-    title: "Ladda upp HEIC-filer",
-    description:
-      "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
-    buttonSingle: "Enskild Fil",
-    buttonBatch: "Batch Konvertera",
-    chooseFile: "Välj Filer",
-    converting: "Konverterar...",
-    success: "Konvertering lyckades!",
-    download: "Ladda ner JPG",
-    downloadAll: "Ladda ner Alla som ZIP",
-    convertAnother: "Konvertera Annan Fil",
+      title: "Ladda Upp JPG-filer",
+      description:
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batch-konvertering",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
 
     features: {
@@ -516,13 +516,13 @@ export const sv: Translations = {
     },
 
     howItWorks: {
-    title: "Hur Det Fungerar",
-    step1Title: "Ladda upp HEIC-filer",
-    step1Desc: "Välj en eller flera HEIC-foton från din enhet",
-    step2Title: "Automatisk Konvertering",
-    step2Desc: "Vår konverterare bearbetar dina filer direkt",
-    step3Title: "Ladda ner JPG",
-    step3Desc: "Få dina konverterade JPG-filer direkt",
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
 
     about: {
@@ -619,16 +619,16 @@ export const sv: Translations = {
     },
 
     upload: {
-      title: "Ladda upp HEIC-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner WebP",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
 
@@ -648,12 +648,12 @@ export const sv: Translations = {
 
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIC-filer",
-      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner WebP",
-      step3Desc: "Få dina konverterade WebP-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
 
     about: {
@@ -732,17 +732,17 @@ export const sv: Translations = {
     },
 
     upload: {
-      title: "Ladda upp HEIC-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batchkonvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner AVIF",
-      downloadAll: "Ladda ner Allt som ZIP",
-      convertAnother: "Konvertera Ytterligare Fil",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
 
     features: {
@@ -761,12 +761,12 @@ export const sv: Translations = {
 
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIC-filer",
-      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner AVIF",
-      step3Desc: "Få dina konverterade AVIF-filer omedelbart",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
 
     about: {
@@ -845,17 +845,17 @@ export const sv: Translations = {
     },
 
     upload: {
-      title: "Ladda upp HEIC-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batchkonvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner TIFF",
-      downloadAll: "Ladda ner Allt som ZIP",
-      convertAnother: "Konvertera Ytterligare Fil",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
 
     features: {
@@ -874,12 +874,12 @@ export const sv: Translations = {
 
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIC-filer",
-      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner TIFF",
-      step3Desc: "Få dina konverterade TIFF-filer omedelbart",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
 
     about: {
@@ -956,17 +956,17 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda Upp HEIC Filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIC-foton här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda Ner GIF",
-      downloadAll: "Ladda Ner Alla som ZIP",
-      convertAnother: "Konvertera En Annan Fil",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
     features: {
       title: "Funktioner",
@@ -983,12 +983,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda Upp HEIC Filer",
-      step1Desc: "Välj en eller flera HEIC-foton från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda Ner GIF",
-      step3Desc: "Få dina konverterade GIF-filer omedelbart",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIC till GIF-konvertering",
@@ -1080,16 +1080,16 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda upp HEIF-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner JPG",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
     features: {
@@ -1107,12 +1107,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIF-filer",
-      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner JPG",
-      step3Desc: "Få dina konverterade JPG-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIF till JPG-konvertering",
@@ -1213,16 +1213,16 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda upp HEIF-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner TIFF",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
     features: {
@@ -1240,12 +1240,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIF-filer",
-      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner TIFF",
-      step3Desc: "Få dina konverterade TIFF-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIF till TIFF-konvertering",
@@ -1345,16 +1345,16 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda upp HEIF-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner AVIF",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
     features: {
@@ -1372,12 +1372,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIF-filer",
-      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner AVIF",
-      step3Desc: "Få dina konverterade AVIF-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIF till AVIF-konvertering",
@@ -1477,16 +1477,16 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda upp HEIF-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner WebP",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
     features: {
@@ -1504,12 +1504,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIF-filer",
-      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner WebP",
-      step3Desc: "Få dina konverterade WebP-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIF till WebP-konvertering",
@@ -1609,16 +1609,16 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda upp HEIF-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner PDF",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
     features: {
@@ -1636,12 +1636,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIF-filer",
-      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner PDF",
-      step3Desc: "Få dina konverterade PDF-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIF till PDF-konvertering",
@@ -1741,16 +1741,16 @@ export const sv: Translations = {
       badge3: "Ingen Registrering",
     },
     upload: {
-      title: "Ladda upp HEIF-filer",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
       buttonSingle: "Enskild Fil",
-      buttonBatch: "Batch Konvertera",
+      buttonBatch: "Batch-konvertering",
       chooseFile: "Välj Filer",
       converting: "Konverterar...",
       success: "Konvertering lyckades!",
-      download: "Ladda ner PNG",
-      downloadAll: "Ladda ner Alla som ZIP",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
       convertAnother: "Konvertera Annan Fil",
     },
     features: {
@@ -1768,12 +1768,12 @@ export const sv: Translations = {
     },
     howItWorks: {
       title: "Hur Det Fungerar",
-      step1Title: "Ladda upp HEIF-filer",
-      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
       step2Title: "Automatisk Konvertering",
       step2Desc: "Vår konverterare bearbetar dina filer direkt",
-      step3Title: "Ladda ner PNG",
-      step3Desc: "Få dina konverterade PNG-filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "Om HEIF till PNG-konvertering",
@@ -1866,25 +1866,25 @@ export const sv: Translations = {
     metaKeywords:
       "JPG till PNG, lägg till transparens, förlustfri konvertering, grafikkonverterare, logotypkonverterare, webbbilder, batch-konvertera JPG, ta bort bakgrund",
     hero: {
-      title: "JPG to PNG Converter",
+      title: "JPG till PNG Konverterare",
       subtitle:
-        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
-      badge1: "Transparency Support",
-      badge2: "Lossless Quality",
-      badge3: "No Artifacts",
+        "Konvertera JPG till PNG för transparensstöd och överlägsen kvalitet. Perfekt för logotyper, grafik och professionella bilder. PNG bevarar varje detalj utan kompressionsartefakter - idealisk för webbgrafik, överlager och bilder som kräver transparenta bakgrunder.",
+      badge1: "Transparensstöd",
+      badge2: "Förlustfri Kvalitet",
+      badge3: "Inga Artefakter",
     },
     upload: {
-      title: "Upload JPG Files",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download PNG",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batch-konvertering",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
     features: {
       title: "Features",
@@ -1900,13 +1900,13 @@ export const sv: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload JPG Files",
-      step1Desc: "Select one or multiple JPG images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download PNG",
-      step3Desc: "Get your converted PNG files immediately",
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "About JPG to PNG Conversion",
@@ -2008,17 +2008,17 @@ export const sv: Translations = {
       badge3: "Animation Support",
     },
     upload: {
-      title: "Upload HEIF Files",
+      title: "Ladda Upp JPG-filer",
       description:
-        "Drag & drop your HEIF images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
-      buttonSingle: "Single File",
-      buttonBatch: "Batch Convert",
-      chooseFile: "Choose Files",
-      converting: "Converting...",
-      success: "Conversion successful!",
-      download: "Download GIF",
-      downloadAll: "Download All as ZIP",
-      convertAnother: "Convert Another File",
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximum 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batch-konvertering",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda Ner PNG",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
     },
     features: {
       title: "Features",
@@ -2034,13 +2034,13 @@ export const sv: Translations = {
       ],
     },
     howItWorks: {
-      title: "How It Works",
-      step1Title: "Upload HEIF Files",
-      step1Desc: "Select one or multiple HEIF images from your device",
-      step2Title: "Auto Convert",
-      step2Desc: "Our converter processes your files instantly",
-      step3Title: "Download GIF",
-      step3Desc: "Get your converted GIF files immediately",
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer direkt",
+      step3Title: "Ladda Ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
       title: "About HEIF to GIF Conversion",
