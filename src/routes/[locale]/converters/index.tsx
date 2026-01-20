@@ -330,12 +330,21 @@ export default component$(() => {
                   <div class="border-l-4 border-green-500 pl-4 py-2 bg-green-50 rounded-r-lg">
                     <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
                       {converters.sections.jpg.title}
+                      <span class="text-xs ml-2 text-red-600 font-normal">
+                        (DEBUG: {filteredConverters.value.jpg.length} items)
+                      </span>
                     </h2>
                     <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
                       {converters.sections.jpg.description}
                     </p>
                   </div>
                   <div class="flex flex-col gap-3">
+                    {/* DEBUG: Log converters */}
+                    {(() => {
+                      console.log("🔍 [RENDER] filteredConverters.value.jpg:", filteredConverters.value.jpg);
+                      console.log("🔍 [RENDER] jpg array length:", filteredConverters.value.jpg.length);
+                      return null;
+                    })()}
                     {filteredConverters.value.jpg.map((converter, index) => (
                       <Link
                         key={`${converter.href}-${index}`}
