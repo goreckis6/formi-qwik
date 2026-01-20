@@ -23,15 +23,7 @@ export default component$(() => {
   const converters = t.converters;
   const searchQuery = useSignal("");
 
-  const converterList = useComputed$(() => {
-    // DEBUG - sprawdź converters
-    console.log("🔍 [DEBUG] converters object:", converters);
-    console.log("🔍 [DEBUG] converters.jpgToPng:", converters.jpgToPng);
-    console.log("🔍 [DEBUG] converters.jpgToWebp:", converters.jpgToWebp);
-    console.log("🔍 [DEBUG] converters keys:", Object.keys(converters));
-    console.log("🔍 [DEBUG] 'jpgToWebp' in converters:", 'jpgToWebp' in converters);
-    
-    return {
+  const converterList = useComputed$(() => ({
     heic: [
       {
         name: converters.heicToPdf.name,
@@ -330,21 +322,12 @@ export default component$(() => {
                   <div class="border-l-4 border-green-500 pl-4 py-2 bg-green-50 rounded-r-lg">
                     <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
                       {converters.sections.jpg.title}
-                      <span class="text-xs ml-2 text-red-600 font-normal">
-                        (DEBUG: {filteredConverters.value.jpg.length} items)
-                      </span>
                     </h2>
                     <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
                       {converters.sections.jpg.description}
                     </p>
                   </div>
                   <div class="flex flex-col gap-3">
-                    {/* DEBUG: Log converters */}
-                    {(() => {
-                      console.log("🔍 [RENDER] filteredConverters.value.jpg:", filteredConverters.value.jpg);
-                      console.log("🔍 [RENDER] jpg array length:", filteredConverters.value.jpg.length);
-                      return null;
-                    })()}
                     {filteredConverters.value.jpg.map((converter, index) => (
                       <Link
                         key={`${converter.href}-${index}`}
