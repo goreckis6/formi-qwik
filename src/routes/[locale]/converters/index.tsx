@@ -23,7 +23,21 @@ export default component$(() => {
   const converters = t.converters;
   const searchQuery = useSignal("");
 
-  const converterList = useComputed$(() => ({
+  // DEBUG - sprawdź converters
+  useVisibleTask$(() => {
+    console.log("🔍 [DEBUG] converters object:", converters);
+    console.log("🔍 [DEBUG] converters.jpgToPng:", converters.jpgToPng);
+    console.log("🔍 [DEBUG] converters.jpgToWebp:", converters.jpgToWebp);
+    console.log("🔍 [DEBUG] converters keys:", Object.keys(converters));
+    console.log("🔍 [DEBUG] 'jpgToWebp' in converters:", 'jpgToWebp' in converters);
+  });
+
+  const converterList = useComputed$(() => {
+    // DEBUG - sprawdź w computed
+    console.log("🔍 [DEBUG COMPUTED] converters.jpgToWebp:", converters.jpgToWebp);
+    console.log("🔍 [DEBUG COMPUTED] converters.jpgToPng:", converters.jpgToPng);
+    
+    return {
     heic: [
       {
         name: converters.heicToPdf.name,
@@ -110,7 +124,8 @@ export default component$(() => {
         href: getLocalizedPath("/convert/jpg-to-webp", locale),
       },
     ],
-  }));
+  };
+  });
 
   const filteredConverters = useComputed$(() => {
     const query = searchQuery.value.toLowerCase();
