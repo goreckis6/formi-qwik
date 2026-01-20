@@ -314,7 +314,7 @@ export const hi: Translations = {
     },
 
     faq: {
-      title: "अक्सर पूछे जाने वाले प्रश्न – HEIC से PDF",
+      title: "अक्सर पूछे जाने वाले प्रश्न – JPG से PNG",
       items: [
         {
           q: "HEIC को PDF में कन्वर्ट करना मुफ्त है?",
@@ -336,7 +336,7 @@ export const hi: Translations = {
     },
 
     related: {
-      title: "संबंधित कन्वर्टर",
+      title: "संबंधित कनवर्टर",
       converters: [
         { name: "HEIC से JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC से PNG", url: "/convert/heic-to-png" },
@@ -1117,12 +1117,11 @@ export const hi: Translations = {
       step3Desc: "अपनी रूपांतरित PNG फ़ाइलें तुरंत प्राप्त करें",
     },
     about: {
-      title: "HEIF से JPG कन्वर्ज़न के बारे में",
-      whatIsHeif: {
-        title: "HEIF प्रारूप क्या है?",
-        content:
-          "HEIF (High Efficiency Image Format) एक आधुनिक छवि कंटेनर प्रारूप है जो HEVC (H.265) संपीड़न का उपयोग करता है। हालांकि HEIC के समान, HEIF मानक प्रारूप नाम है, जबकि HEIC विशेष रूप से Apple के कार्यान्वयन को संदर्भित करता है। HEIF JPEG की तुलना में बेहतर संपीड़न प्रदान करता है जबकि उच्च छवि गुणवत्ता बनाए रखता है, जिससे यह फ़ोटो को कुशलतापूर्वक संग्रहीत करने के लिए आदर्श है।",
-      },
+      title: "JPG से PNG रूपांतरण के बारे में",
+      p1: "JPG (या JPEG) एक दोषपूर्ण छवि प्रारूप है जो फोटोग्राफी के लिए अनुकूलित है लेकिन पारदर्शिता का समर्थन नहीं करता है। PNG (Portable Network Graphics) एक दोषरहित प्रारूप है जो ग्राफिक्स, लोगो और छवियों के लिए बिल्कुल सही है जिन्हें पारदर्शी पृष्ठभूमि या तीक्ष्ण किनारों की आवश्यकता होती है। JPG को PNG में परिवर्तित करना तब आदर्श है जब आपको पारदर्शिता जोड़ने, गुणवत्ता हानि के बिना कई संपादन राउंड करने या स्वच्छ किनारों के साथ वेब के लिए छवियों को तैयार करने की आवश्यकता होती है।",
+      p2: "हमारा JPG से PNG कन्वर्टर आपकी मूल छवि के प्रत्येक पिक्सेल को पूरी तरह से संरक्षित करता है जबकि इसे दोषरहित PNG प्रारूप में परिवर्तित करता है। JPG के विपरीत जो हर बार सहेजे जाने पर गुणवत्ता खो देता है, PNG फ़ाइलों को बिना गिरावट के संपादित और फिर से सहेजा जा सकता है। यह PNG को पेशेवर डिजाइनरों, लोगो निर्माण और किसी भी परियोजना के लिए पसंदीदा विकल्प बनाता है जहां सटीकता मायने रखती है। PNG प्रारूप अल्फा पारदर्शिता का भी समर्थन करता है, जिससे आप पारदर्शी पृष्ठभूमि वाली छवियां बना सकते हैं - कुछ ऐसा जो JPG नहीं कर सकता।",
+      p3: "रूपांतरण तत्काल, सुरक्षित है और रंग सटीकता को संरक्षित करता है। आपकी फ़ाइलें कभी संग्रहीत या साझा नहीं की जाती हैं - सब कुछ आपके ब्राउज़र में सुरक्षित रूप से होता है। चाहे आप एक लोगो परिवर्तित कर रहे हों या उत्पाद छवियों का बैच, हमारा उपकरण बिना वॉटरमार्क या छिपे हुए शुल्क के पेशेवर परिणाम प्रदान करता है।",
+    },
       whyConvert: {
         title: "HEIF को JPG में क्यों कन्वर्ट करें?",
         content:
@@ -1911,12 +1910,11 @@ export const hi: Translations = {
       step3Desc: "अपनी रूपांतरित PNG फ़ाइलें तुरंत प्राप्त करें",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "JPG से PNG रूपांतरण के बारे में",
+      p1: "JPG (या JPEG) एक दोषपूर्ण छवि प्रारूप है जो फोटोग्राफी के लिए अनुकूलित है लेकिन पारदर्शिता का समर्थन नहीं करता है। PNG (Portable Network Graphics) एक दोषरहित प्रारूप है जो ग्राफिक्स, लोगो और छवियों के लिए बिल्कुल सही है जिन्हें पारदर्शी पृष्ठभूमि या तीक्ष्ण किनारों की आवश्यकता होती है। JPG को PNG में परिवर्तित करना तब आदर्श है जब आपको पारदर्शिता जोड़ने, गुणवत्ता हानि के बिना कई संपादन राउंड करने या स्वच्छ किनारों के साथ वेब के लिए छवियों को तैयार करने की आवश्यकता होती है।",
+      p2: "हमारा JPG से PNG कन्वर्टर आपकी मूल छवि के प्रत्येक पिक्सेल को पूरी तरह से संरक्षित करता है जबकि इसे दोषरहित PNG प्रारूप में परिवर्तित करता है। JPG के विपरीत जो हर बार सहेजे जाने पर गुणवत्ता खो देता है, PNG फ़ाइलों को बिना गिरावट के संपादित और फिर से सहेजा जा सकता है। यह PNG को पेशेवर डिजाइनरों, लोगो निर्माण और किसी भी परियोजना के लिए पसंदीदा विकल्प बनाता है जहां सटीकता मायने रखती है। PNG प्रारूप अल्फा पारदर्शिता का भी समर्थन करता है, जिससे आप पारदर्शी पृष्ठभूमि वाली छवियां बना सकते हैं - कुछ ऐसा जो JPG नहीं कर सकता।",
+      p3: "रूपांतरण तत्काल, सुरक्षित है और रंग सटीकता को संरक्षित करता है। आपकी फ़ाइलें कभी संग्रहीत या साझा नहीं की जाती हैं - सब कुछ आपके ब्राउज़र में सुरक्षित रूप से होता है। चाहे आप एक लोगो परिवर्तित कर रहे हों या उत्पाद छवियों का बैच, हमारा उपकरण बिना वॉटरमार्क या छिपे हुए शुल्क के पेशेवर परिणाम प्रदान करता है।",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1940,7 +1938,7 @@ export const hi: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "अक्सर पूछे जाने वाले प्रश्न – JPG से PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1981,7 +1979,7 @@ export const hi: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "संबंधित कनवर्टर",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

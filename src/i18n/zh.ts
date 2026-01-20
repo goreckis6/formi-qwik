@@ -307,7 +307,7 @@ export const zh: Translations = {
     },
 
     faq: {
-      title: "常见问题 – HEIC转PDF",
+      title: "常见问题 – JPG 到 PNG",
       items: [
         {
           q: "将HEIC转换为PDF是否免费？",
@@ -1109,12 +1109,11 @@ export const zh: Translations = {
       step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
-      title: "关于HEIF转JPG转换",
-      whatIsHeif: {
-        title: "什么是HEIF格式？",
-        content:
-          "HEIF（高效图像格式）是一种使用HEVC（H.265）压缩的现代图像容器格式。虽然与HEIC相似，但HEIF是标准格式名称，而HEIC具体指Apple的实现。HEIF与JPEG相比提供卓越的压缩，同时保持高图像质量，使其成为高效存储照片的理想选择。",
-      },
+      title: "关于JPG到PNG转换",
+      p1: "JPG（或JPEG）是一种针对照片优化的有损图像格式，但不支持透明度。PNG（便携式网络图形）是一种无损格式，非常适合需要透明背景或清晰边缘的图形、标志和图像。当您需要添加透明度、进行多轮编辑而不损失质量或为网页准备具有清晰边缘的图像时，将JPG转换为PNG是理想选择。",
+      p2: "我们的JPG到PNG转换器完美保留原始图像的每个像素，同时将其转换为无损PNG格式。与每次保存都会损失质量的JPG不同，PNG文件可以编辑和重新保存而不会降级。这使PNG成为专业设计师、标志创建和任何精度重要的项目的首选。PNG格式还支持Alpha透明度，允许您创建具有透明背景的图像 - 这是JPG无法做到的。",
+      p3: "转换是即时的、安全的，并保持色彩精度。您的文件永远不会被存储或共享 - 一切都在您的浏览器中安全进行。无论您是转换单个标志还是一批产品图像，我们的工具都能提供无水印或隐藏费用的专业结果。",
+    },
       whyConvert: {
         title: "为什么将HEIF转换为JPG？",
         content:
@@ -1903,12 +1902,11 @@ export const zh: Translations = {
       step3Desc: "立即获取转换后的PNG文件",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "关于JPG到PNG转换",
+      p1: "JPG（或JPEG）是一种针对照片优化的有损图像格式，但不支持透明度。PNG（便携式网络图形）是一种无损格式，非常适合需要透明背景或清晰边缘的图形、标志和图像。当您需要添加透明度、进行多轮编辑而不损失质量或为网页准备具有清晰边缘的图像时，将JPG转换为PNG是理想选择。",
+      p2: "我们的JPG到PNG转换器完美保留原始图像的每个像素，同时将其转换为无损PNG格式。与每次保存都会损失质量的JPG不同，PNG文件可以编辑和重新保存而不会降级。这使PNG成为专业设计师、标志创建和任何精度重要的项目的首选。PNG格式还支持Alpha透明度，允许您创建具有透明背景的图像 - 这是JPG无法做到的。",
+      p3: "转换是即时的、安全的，并保持色彩精度。您的文件永远不会被存储或共享 - 一切都在您的浏览器中安全进行。无论您是转换单个标志还是一批产品图像，我们的工具都能提供无水印或隐藏费用的专业结果。",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1932,7 +1930,7 @@ export const zh: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "常见问题 – JPG 到 PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1973,7 +1971,7 @@ export const zh: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "相关转换器",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

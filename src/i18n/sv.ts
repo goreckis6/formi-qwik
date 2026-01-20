@@ -312,7 +312,7 @@ export const sv: Translations = {
     },
 
     faq: {
-      title: "Vanliga Frågor – HEIC till PDF",
+      title: "Vanliga Frågor – JPG till PNG",
       items: [
         {
           q: "Är det gratis att konvertera HEIC till PDF?",
@@ -334,7 +334,7 @@ export const sv: Translations = {
     },
 
     related: {
-      title: "Relaterade Konverterare",
+      title: "Relaterade Omvandlare",
       converters: [
         { name: "HEIC till JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC till PNG", url: "/convert/heic-to-png" },
@@ -1115,12 +1115,11 @@ export const sv: Translations = {
       step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
-      title: "Om HEIF till JPG-konvertering",
-      whatIsHeif: {
-        title: "Vad är HEIF-formatet?",
-        content:
-          "HEIF (High Efficiency Image Format) är ett modernt bildcontainerformat som använder HEVC (H.265) komprimering. Även om det liknar HEIC, är HEIF standardformatets namn, medan HEIC specifikt hänvisar till Apples implementering. HEIF erbjuder överlägsen komprimering jämfört med JPEG samtidigt som det behåller hög bildkvalitet, vilket gör det idealiskt för effektiv lagring av foton.",
-      },
+      title: "Om JPG till PNG-konvertering",
+      p1: "JPG (eller JPEG) är ett förlustbringande bildformat optimerat för fotografi men stöder inte transparens. PNG (Portable Network Graphics) är ett förlustfritt format perfekt för grafik, logotyper och bilder som kräver transparenta bakgrunder eller skarpa kanter. Att konvertera JPG till PNG är idealiskt när du behöver lägga till transparens, utföra flera redigeringsrundor utan kvalitetsförlust eller förbereda bilder för webben med rena kanter.",
+      p2: "Vår JPG till PNG-konverterare bevarar varje pixel i din originalbild perfekt medan den transformeras till det förlustfria PNG-formatet. Till skillnad från JPG som förlorar kvalitet varje gång den sparas kan PNG-filer redigeras och sparas om utan försämring. Detta gör PNG till det föredragna valet för professionella designers, logotypskapande och alla projekt där precision är viktigt. PNG-formatet stöder också alfatransparens, vilket gör att du kan skapa bilder med transparenta bakgrunder - något som JPG inte kan göra.",
+      p3: "Konverteringen är omedelbar, säker och bevarar färgnoggrannhet. Dina filer lagras eller delas aldrig - allt sker säkert i din webbläsare. Oavsett om du konverterar en enda logotyp eller en batch produktbilder levererar vårt verktyg professionella resultat utan vattenstämplar eller dolda avgifter.",
+    },
       whyConvert: {
         title: "Varför konvertera HEIF till JPG?",
         content:
@@ -1909,12 +1908,11 @@ export const sv: Translations = {
       step3Desc: "Få dina konverterade PNG-filer omedelbart",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "Om JPG till PNG-konvertering",
+      p1: "JPG (eller JPEG) är ett förlustbringande bildformat optimerat för fotografi men stöder inte transparens. PNG (Portable Network Graphics) är ett förlustfritt format perfekt för grafik, logotyper och bilder som kräver transparenta bakgrunder eller skarpa kanter. Att konvertera JPG till PNG är idealiskt när du behöver lägga till transparens, utföra flera redigeringsrundor utan kvalitetsförlust eller förbereda bilder för webben med rena kanter.",
+      p2: "Vår JPG till PNG-konverterare bevarar varje pixel i din originalbild perfekt medan den transformeras till det förlustfria PNG-formatet. Till skillnad från JPG som förlorar kvalitet varje gång den sparas kan PNG-filer redigeras och sparas om utan försämring. Detta gör PNG till det föredragna valet för professionella designers, logotypskapande och alla projekt där precision är viktigt. PNG-formatet stöder också alfatransparens, vilket gör att du kan skapa bilder med transparenta bakgrunder - något som JPG inte kan göra.",
+      p3: "Konverteringen är omedelbar, säker och bevarar färgnoggrannhet. Dina filer lagras eller delas aldrig - allt sker säkert i din webbläsare. Oavsett om du konverterar en enda logotyp eller en batch produktbilder levererar vårt verktyg professionella resultat utan vattenstämplar eller dolda avgifter.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1938,7 +1936,7 @@ export const sv: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "Vanliga Frågor – JPG till PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1979,7 +1977,7 @@ export const sv: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "Relaterade Omvandlare",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

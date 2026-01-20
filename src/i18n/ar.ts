@@ -308,7 +308,7 @@ export const ar: Translations = {
     },
 
     faq: {
-      title: "الأسئلة الشائعة – HEIC إلى PDF",
+      title: "الأسئلة الشائعة – JPG إلى PNG",
       items: [
         {
           q: "هل تحويل HEIC إلى PDF مجاني؟",
@@ -330,7 +330,7 @@ export const ar: Translations = {
     },
 
     related: {
-      title: "المحولات ذات الصلة",
+      title: "محولات ذات صلة",
       converters: [
         { name: "HEIC إلى JPG", url: "/convert/heic-to-jpg" },
         { name: "HEIC إلى PNG", url: "/convert/heic-to-png" },
@@ -1110,12 +1110,11 @@ export const ar: Translations = {
       step3Desc: "احصل على ملفات PNG المحولة على الفور",
     },
     about: {
-      title: "حول تحويل HEIF إلى JPG",
-      whatIsHeif: {
-        title: "ما هو تنسيق HEIF؟",
-        content:
-          "HEIF (High Efficiency Image Format) هو تنسيق حاوية صور حديث يستخدم ضغط HEVC (H.265). بينما يشبه HEIC، HEIF هو اسم التنسيق القياسي، بينما يشير HEIC بشكل محدد إلى تنفيذ Apple. يوفر HEIF ضغطاً فائقاً مقارنة بـ JPEG مع الحفاظ على جودة صورة عالية، مما يجعله مثالياً لتخزين الصور بكفاءة.",
-      },
+      title: "حول تحويل JPG إلى PNG",
+      p1: "JPG (أو JPEG) هو تنسيق صورة مع فقدان محسّن للصور الفوتوغرافية ولكنه لا يدعم الشفافية. PNG (Portable Network Graphics) هو تنسيق بدون فقدان مثالي للرسومات والشعارات والصور التي تتطلب خلفيات شفافة أو حواف حادة. تحويل JPG إلى PNG مثالي عندما تحتاج إلى إضافة شفافية أو إجراء جولات متعددة من التحرير دون فقدان الجودة أو تحضير الصور للويب بحواف نظيفة.",
+      p2: "يحافظ محول JPG إلى PNG الخاص بنا على كل بكسل من صورتك الأصلية بشكل مثالي بينما يحولها إلى تنسيق PNG بدون فقدان. على عكس JPG الذي يفقد الجودة في كل مرة يتم حفظه، يمكن تحرير ملفات PNG وإعادة حفظها دون تدهور. هذا يجعل PNG الخيار المفضل للمصممين المحترفين وإنشاء الشعارات وأي مشروع تكون فيه الدقة مهمة. يدعم تنسيق PNG أيضًا الشفافية ألفا، مما يسمح لك بإنشاء صور بخلفيات شفافة - شيء لا يمكن لـ JPG القيام به.",
+      p3: "التحويل فوري وآمن ويحافظ على دقة الألوان. لن يتم تخزين ملفاتك أو مشاركتها مطلقًا - كل شيء يحدث بشكل آمن في متصفحك. سواء كنت تقوم بتحويل شعار واحد أو مجموعة من صور المنتجات، توفر أداتنا نتائج احترافية بدون علامات مائية أو رسوم خفية.",
+    },
       whyConvert: {
         title: "لماذا تحويل HEIF إلى JPG؟",
         content:
@@ -1904,12 +1903,11 @@ export const ar: Translations = {
       step3Desc: "احصل على ملفات PNG المحولة على الفور",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "حول تحويل JPG إلى PNG",
+      p1: "JPG (أو JPEG) هو تنسيق صورة مع فقدان محسّن للصور الفوتوغرافية ولكنه لا يدعم الشفافية. PNG (Portable Network Graphics) هو تنسيق بدون فقدان مثالي للرسومات والشعارات والصور التي تتطلب خلفيات شفافة أو حواف حادة. تحويل JPG إلى PNG مثالي عندما تحتاج إلى إضافة شفافية أو إجراء جولات متعددة من التحرير دون فقدان الجودة أو تحضير الصور للويب بحواف نظيفة.",
+      p2: "يحافظ محول JPG إلى PNG الخاص بنا على كل بكسل من صورتك الأصلية بشكل مثالي بينما يحولها إلى تنسيق PNG بدون فقدان. على عكس JPG الذي يفقد الجودة في كل مرة يتم حفظه، يمكن تحرير ملفات PNG وإعادة حفظها دون تدهور. هذا يجعل PNG الخيار المفضل للمصممين المحترفين وإنشاء الشعارات وأي مشروع تكون فيه الدقة مهمة. يدعم تنسيق PNG أيضًا الشفافية ألفا، مما يسمح لك بإنشاء صور بخلفيات شفافة - شيء لا يمكن لـ JPG القيام به.",
+      p3: "التحويل فوري وآمن ويحافظ على دقة الألوان. لن يتم تخزين ملفاتك أو مشاركتها مطلقًا - كل شيء يحدث بشكل آمن في متصفحك. سواء كنت تقوم بتحويل شعار واحد أو مجموعة من صور المنتجات، توفر أداتنا نتائج احترافية بدون علامات مائية أو رسوم خفية.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1933,7 +1931,7 @@ export const ar: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "الأسئلة الشائعة – JPG إلى PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1974,7 +1972,7 @@ export const ar: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "محولات ذات صلة",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

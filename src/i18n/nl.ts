@@ -314,7 +314,7 @@ export const nl: Translations = {
     },
 
     faq: {
-      title: "Veelgestelde Vragen – HEIC naar PDF",
+      title: "Veelgestelde Vragen – JPG naar PNG",
       items: [
         {
           q: "Is het gratis om HEIC naar PDF te converteren?",
@@ -1117,12 +1117,11 @@ export const nl: Translations = {
       step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
-      title: "Over HEIF naar JPG Conversie",
-      whatIsHeif: {
-        title: "Wat is het HEIF-formaat?",
-        content:
-          "HEIF (High Efficiency Image Format) is een modern beeldcontainerformaat dat HEVC (H.265) compressie gebruikt. Hoewel vergelijkbaar met HEIC, is HEIF de standaard formaatnaam, terwijl HEIC specifiek verwijst naar Apple's implementatie. HEIF biedt superieure compressie vergeleken met JPEG terwijl het hoge beeldkwaliteit behoudt, waardoor het ideaal is voor het efficiënt opslaan van foto's.",
-      },
+      title: "Over JPG naar PNG Conversie",
+      p1: "JPG (of JPEG) is een verliesgevend beeldformaat geoptimaliseerd voor fotografie maar ondersteunt geen transparantie. PNG (Portable Network Graphics) is een verliesvrij formaat perfect voor graphics, logo's en afbeeldingen die transparante achtergronden of scherpe randen vereisen. JPG naar PNG converteren is ideaal wanneer u transparantie moet toevoegen, meerdere bewerkingsrondes zonder kwaliteitsverlies moet uitvoeren of afbeeldingen voor het web met schone randen moet voorbereiden.",
+      p2: "Onze JPG naar PNG converter behoudt elk pixel van uw originele afbeelding perfect terwijl deze wordt getransformeerd naar het verliesvrije PNG-formaat. In tegenstelling tot JPG dat bij elke opslag kwaliteit verliest, kunnen PNG-bestanden worden bewerkt en opnieuw opgeslagen zonder verslechtering. Dit maakt PNG de voorkeurskeuze voor professionele ontwerpers, logo-creatie en elk project waar precisie belangrijk is. Het PNG-formaat ondersteunt ook alfa-transparantie, waardoor u afbeeldingen met transparante achtergronden kunt maken - iets wat JPG niet kan.",
+      p3: "De conversie is direct, veilig en behoudt kleurnauwkeurigheid. Uw bestanden worden nooit opgeslagen of gedeeld - alles gebeurt veilig in uw browser. Of u nu een enkel logo of een batch productafbeeldingen converteert, onze tool levert professionele resultaten zonder watermerken of verborgen kosten.",
+    },
       whyConvert: {
         title: "Waarom HEIF naar JPG converteren?",
         content:
@@ -1911,12 +1910,11 @@ export const nl: Translations = {
       step3Desc: "Download uw geconverteerde PNG-bestanden meteen",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "Over JPG naar PNG Conversie",
+      p1: "JPG (of JPEG) is een verliesgevend beeldformaat geoptimaliseerd voor fotografie maar ondersteunt geen transparantie. PNG (Portable Network Graphics) is een verliesvrij formaat perfect voor graphics, logo's en afbeeldingen die transparante achtergronden of scherpe randen vereisen. JPG naar PNG converteren is ideaal wanneer u transparantie moet toevoegen, meerdere bewerkingsrondes zonder kwaliteitsverlies moet uitvoeren of afbeeldingen voor het web met schone randen moet voorbereiden.",
+      p2: "Onze JPG naar PNG converter behoudt elk pixel van uw originele afbeelding perfect terwijl deze wordt getransformeerd naar het verliesvrije PNG-formaat. In tegenstelling tot JPG dat bij elke opslag kwaliteit verliest, kunnen PNG-bestanden worden bewerkt en opnieuw opgeslagen zonder verslechtering. Dit maakt PNG de voorkeurskeuze voor professionele ontwerpers, logo-creatie en elk project waar precisie belangrijk is. Het PNG-formaat ondersteunt ook alfa-transparantie, waardoor u afbeeldingen met transparante achtergronden kunt maken - iets wat JPG niet kan.",
+      p3: "De conversie is direct, veilig en behoudt kleurnauwkeurigheid. Uw bestanden worden nooit opgeslagen of gedeeld - alles gebeurt veilig in uw browser. Of u nu een enkel logo of een batch productafbeeldingen converteert, onze tool levert professionele resultaten zonder watermerken of verborgen kosten.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1940,7 +1938,7 @@ export const nl: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "Veelgestelde Vragen – JPG naar PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1981,7 +1979,7 @@ export const nl: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "Gerelateerde Converters",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

@@ -316,7 +316,7 @@ export const pt: EnTranslations = {
     },
 
     faq: {
-      title: "Perguntas Frequentes – HEIC para PDF",
+      title: "Perguntas Frequentes – JPG para PNG",
       items: [
         {
           q: "É grátis converter HEIC para PDF?",
@@ -1119,12 +1119,11 @@ export const pt: EnTranslations = {
       step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
-      title: "Sobre a Conversão HEIF para JPG",
-      whatIsHeif: {
-        title: "O que é o Formato HEIF?",
-        content:
-          "HEIF (High Efficiency Image Format) é um formato de contêiner de imagens moderno que usa compressão HEVC (H.265). Embora semelhante ao HEIC, HEIF é o nome de formato padrão, enquanto HEIC refere-se especificamente à implementação da Apple. HEIF oferece compressão superior comparado ao JPEG mantendo alta qualidade de imagem, tornando-o ideal para armazenar fotos de forma eficiente.",
-      },
+      title: "Sobre a Conversão JPG para PNG",
+      p1: "JPG (ou JPEG) é um formato de imagem com perda otimizado para fotografias, mas não suporta transparência. PNG (Portable Network Graphics) é um formato sem perdas perfeito para gráficos, logotipos e imagens que requerem fundos transparentes ou bordas nítidas. Converter JPG para PNG é ideal quando você precisa adicionar transparência, realizar múltiplas rodadas de edição sem perda de qualidade ou preparar imagens para a web com bordas limpas.",
+      p2: "Nosso conversor JPG para PNG preserva perfeitamente cada pixel da sua imagem original enquanto a transforma no formato PNG sem perdas. Ao contrário do JPG que perde qualidade cada vez que é salvo, arquivos PNG podem ser editados e salvos novamente sem degradação. Isso torna o PNG a escolha preferida para designers profissionais, criação de logotipos e qualquer projeto onde a precisão importa. O formato PNG também suporta transparência alfa, permitindo criar imagens com fundos transparentes - algo que o JPG não pode fazer.",
+      p3: "A conversão é instantânea, segura e preserva a precisão das cores. Seus arquivos nunca são armazenados ou compartilhados - tudo acontece com segurança no seu navegador. Seja convertendo um único logotipo ou um lote de imagens de produtos, nossa ferramenta oferece resultados profissionais sem marcas d'água ou taxas ocultas.",
+    },
       whyConvert: {
         title: "Por que Converter HEIF para JPG?",
         content:
@@ -2047,12 +2046,11 @@ export const pt: EnTranslations = {
       step3Desc: "Obtenha seus arquivos PNG convertidos imediatamente",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "Sobre a Conversão JPG para PNG",
+      p1: "JPG (ou JPEG) é um formato de imagem com perda otimizado para fotografias, mas não suporta transparência. PNG (Portable Network Graphics) é um formato sem perdas perfeito para gráficos, logotipos e imagens que requerem fundos transparentes ou bordas nítidas. Converter JPG para PNG é ideal quando você precisa adicionar transparência, realizar múltiplas rodadas de edição sem perda de qualidade ou preparar imagens para a web com bordas limpas.",
+      p2: "Nosso conversor JPG para PNG preserva perfeitamente cada pixel da sua imagem original enquanto a transforma no formato PNG sem perdas. Ao contrário do JPG que perde qualidade cada vez que é salvo, arquivos PNG podem ser editados e salvos novamente sem degradação. Isso torna o PNG a escolha preferida para designers profissionais, criação de logotipos e qualquer projeto onde a precisão importa. O formato PNG também suporta transparência alfa, permitindo criar imagens com fundos transparentes - algo que o JPG não pode fazer.",
+      p3: "A conversão é instantânea, segura e preserva a precisão das cores. Seus arquivos nunca são armazenados ou compartilhados - tudo acontece com segurança no seu navegador. Seja convertendo um único logotipo ou um lote de imagens de produtos, nossa ferramenta oferece resultados profissionais sem marcas d'água ou taxas ocultas.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -2076,7 +2074,7 @@ export const pt: EnTranslations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "Perguntas Frequentes – JPG para PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -2117,7 +2115,7 @@ export const pt: EnTranslations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "Conversores Relacionados",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

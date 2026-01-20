@@ -1850,12 +1850,11 @@ export const id: Translations = {
       step3Desc: "Dapatkan file PNG yang dikonversi segera",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it.",
-      },
+      title: "Tentang Konversi JPG ke PNG",
+      p1: "JPG (atau JPEG) adalah format gambar lossy yang dioptimalkan untuk fotografi tetapi tidak mendukung transparansi. PNG (Portable Network Graphics) adalah format lossless yang sempurna untuk grafik, logo, dan gambar yang memerlukan latar belakang transparan atau tepi yang tajam. Mengonversi JPG ke PNG ideal ketika Anda perlu menambahkan transparansi, melakukan beberapa putaran pengeditan tanpa kehilangan kualitas, atau mempersiapkan gambar untuk web dengan tepi yang bersih.",
+      p2: "Konverter JPG ke PNG kami mempertahankan setiap piksel gambar asli Anda dengan sempurna sambil mengubahnya ke format PNG lossless. Tidak seperti JPG yang kehilangan kualitas setiap kali disimpan, file PNG dapat diedit dan disimpan ulang tanpa degradasi. Ini membuat PNG menjadi pilihan yang disukai untuk desainer profesional, pembuatan logo, dan proyek apa pun di mana presisi penting. Format PNG juga mendukung transparansi alpha, memungkinkan Anda membuat gambar dengan latar belakang transparan - sesuatu yang tidak dapat dilakukan JPG.",
+      p3: "Konversi instan, aman, dan mempertahankan akurasi warna. File Anda tidak pernah disimpan atau dibagikan - semuanya terjadi dengan aman di browser Anda. Baik Anda mengonversi satu logo atau batch gambar produk, alat kami memberikan hasil profesional tanpa watermark atau biaya tersembunyi.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1879,7 +1878,7 @@ export const id: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "Pertanyaan Umum – JPG ke PNG",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1920,7 +1919,7 @@ export const id: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "Konverter Terkait",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

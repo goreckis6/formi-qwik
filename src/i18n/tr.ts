@@ -314,7 +314,7 @@ export const tr: Translations = {
     },
 
     faq: {
-      title: "Sık Sorulan Sorular – HEIC'den PDF'e",
+      title: "Sık Sorulan Sorular – JPG'den PNG'ye",
       items: [
         {
           q: "HEIC'i PDF'e dönüştürmek ücretsiz mi?",
@@ -1131,12 +1131,11 @@ export const tr: Translations = {
       step3Desc: "Dönüştürülen PNG dosyalarınızı hemen alın",
     },
     about: {
-      title: "HEIF'den JPG'ye Dönüştürme Hakkında",
-      whatIsHeif: {
-        title: "HEIF Formatı Nedir?",
-        content:
-          "HEIF (High Efficiency Image Format), HEVC (H.265) sıkıştırmasını kullanan modern bir görüntü konteyner formatıdır. HEIC'ye benzer olmasına rağmen, HEIF standart format adıdır, HEIC ise özellikle Apple'ın uygulamasını ifade eder. HEIF, yüksek görüntü kalitesini korurken JPEG'ye kıyasla üstün sıkıştırma sunar, bu da onu fotoğrafları verimli bir şekilde saklamak için ideal kılar.",
-      },
+      title: "JPG'den PNG'ye Dönüşüm Hakkında",
+      p1: "JPG (veya JPEG), fotoğraflar için optimize edilmiş kayıplı bir görüntü formatıdır ancak şeffaflığı desteklemez. PNG (Portable Network Graphics), şeffaf arka planlar veya keskin kenarlar gerektiren grafikler, logolar ve görseller için mükemmel kayıpsız bir formattır. Şeffaflık eklemeniz, kalite kaybı olmadan birden fazla düzenleme turu yapmanız veya temiz kenarlarla web için görseller hazırlamanız gerektiğinde JPG'yi PNG'ye dönüştürmek idealdir.",
+      p2: "JPG'den PNG'ye dönüştürücümüz, orijinal görselinizin her pikselini mükemmel şekilde korurken kayıpsız PNG formatına dönüştürür. Her kaydedildiğinde kalite kaybeden JPG'nin aksine, PNG dosyaları bozulma olmadan düzenlenebilir ve yeniden kaydedilebilir. Bu, PNG'yi profesyonel tasarımcılar, logo oluşturma ve hassasiyetin önemli olduğu her proje için tercih edilen seçenek haline getirir. PNG formatı ayrıca alfa şeffaflığını destekler, şeffaf arka planlara sahip görseller oluşturmanıza olanak tanır - JPG'nin yapamayacağı bir şey.",
+      p3: "Dönüşüm anında, güvenli ve renk doğruluğunu korur. Dosyalarınız asla saklanmaz veya paylaşılmaz - her şey tarayıcınızda güvenli bir şekilde gerçekleşir. İster tek bir logo ister bir grup ürün görseli dönüştürüyor olun, aracımız filigran veya gizli ücret olmadan profesyonel sonuçlar sunar.",
+    },
       whyConvert: {
         title: "Neden HEIF'i JPG'ye Dönüştürmeliyim?",
         content:
@@ -1925,12 +1924,11 @@ export const tr: Translations = {
       step3Desc: "Dönüştürülen PNG dosyalarınızı hemen alın",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "JPG'den PNG'ye Dönüşüm Hakkında",
+      p1: "JPG (veya JPEG), fotoğraflar için optimize edilmiş kayıplı bir görüntü formatıdır ancak şeffaflığı desteklemez. PNG (Portable Network Graphics), şeffaf arka planlar veya keskin kenarlar gerektiren grafikler, logolar ve görseller için mükemmel kayıpsız bir formattır. Şeffaflık eklemeniz, kalite kaybı olmadan birden fazla düzenleme turu yapmanız veya temiz kenarlarla web için görseller hazırlamanız gerektiğinde JPG'yi PNG'ye dönüştürmek idealdir.",
+      p2: "JPG'den PNG'ye dönüştürücümüz, orijinal görselinizin her pikselini mükemmel şekilde korurken kayıpsız PNG formatına dönüştürür. Her kaydedildiğinde kalite kaybeden JPG'nin aksine, PNG dosyaları bozulma olmadan düzenlenebilir ve yeniden kaydedilebilir. Bu, PNG'yi profesyonel tasarımcılar, logo oluşturma ve hassasiyetin önemli olduğu her proje için tercih edilen seçenek haline getirir. PNG formatı ayrıca alfa şeffaflığını destekler, şeffaf arka planlara sahip görseller oluşturmanıza olanak tanır - JPG'nin yapamayacağı bir şey.",
+      p3: "Dönüşüm anında, güvenli ve renk doğruluğunu korur. Dosyalarınız asla saklanmaz veya paylaşılmaz - her şey tarayıcınızda güvenli bir şekilde gerçekleşir. İster tek bir logo ister bir grup ürün görseli dönüştürüyor olun, aracımız filigran veya gizli ücret olmadan profesyonel sonuçlar sunar.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1954,7 +1952,7 @@ export const tr: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "Sık Sorulan Sorular – JPG'den PNG'ye",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1995,7 +1993,7 @@ export const tr: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "İlgili Dönüştürücüler",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },

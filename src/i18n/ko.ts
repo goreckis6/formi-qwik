@@ -307,7 +307,7 @@ export const ko: Translations = {
     },
 
     faq: {
-      title: "자주 묻는 질문 – HEIC to PDF",
+      title: "자주 묻는 질문 – JPG에서 PNG로",
       items: [
         {
           q: "HEIC를 PDF로 변환하는 것이 무료인가요?",
@@ -1109,12 +1109,11 @@ export const ko: Translations = {
       step3Desc: "변환된 PNG 파일을 즉시 받기",
     },
     about: {
-      title: "HEIF을 JPG로 변환 정보",
-      whatIsHeif: {
-        title: "HEIF 형식이란?",
-        content:
-          "HEIF(High Efficiency Image Format)는 HEVC(H.265) 압축을 사용하는 현대적인 이미지 컨테이너 형식입니다. HEIC와 유사하지만 HEIF는 표준 형식 이름이고, HEIC는 구체적으로 Apple의 구현을 가리킵니다. HEIF는 JPEG와 비교하여 고품질 이미지를 유지하면서 우수한 압축을 제공하여 사진을 효율적으로 저장하는 데 이상적입니다.",
-      },
+      title: "JPG에서 PNG 변환 정보",
+      p1: "JPG(또는 JPEG)는 사진용으로 최적화된 손실 이미지 형식이지만 투명도를 지원하지 않습니다. PNG(Portable Network Graphics)는 투명한 배경이나 선명한 가장자리가 필요한 그래픽, 로고 및 이미지에 완벽한 무손실 형식입니다. 투명도를 추가하거나 품질 손실 없이 여러 번 편집하거나 깨끗한 가장자리로 웹용 이미지를 준비해야 할 때 JPG를 PNG로 변환하는 것이 이상적입니다.",
+      p2: "당사의 JPG에서 PNG 변환기는 원본 이미지의 모든 픽셀을 완벽하게 보존하면서 무손실 PNG 형식으로 변환합니다. 저장할 때마다 품질이 저하되는 JPG와 달리 PNG 파일은 저하 없이 편집하고 다시 저장할 수 있습니다. 이로 인해 PNG는 전문 디자이너, 로고 제작 및 정밀도가 중요한 모든 프로젝트에서 선호되는 선택입니다. PNG 형식은 알파 투명도도 지원하여 투명한 배경이 있는 이미지를 만들 수 있습니다 - 이것은 JPG가 할 수 없는 일입니다.",
+      p3: "변환은 즉각적이고 안전하며 색상 정확도를 유지합니다. 파일은 절대 저장되거나 공유되지 않습니다 - 모든 것이 브라우저에서 안전하게 이루어집니다. 단일 로고를 변환하든 제품 이미지 배치를 변환하든 당사 도구는 워터마크나 숨겨진 요금 없이 전문적인 결과를 제공합니다.",
+    },
       whyConvert: {
         title: "왜 HEIF를 JPG로 변환하나요?",
         content:
@@ -1903,12 +1902,11 @@ export const ko: Translations = {
       step3Desc: "변환된 PNG 파일을 즉시 받기",
     },
     about: {
-      title: "About JPG to PNG Conversion",
-      whatIsHeif: {
-        title: "Why PNG is Perfect for Graphics and Logos?",
-        content:
-          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it. PNG's killer feature is alpha channel transparency - perfect for logos, overlays, watermarks, and graphics that need to blend seamlessly with backgrounds. Unlike JPG (lossy compression that degrades quality), PNG preserves every pixel perfectly, maintaining crisp edges on text, sharp lines on graphics, and vibrant colors without compression artifacts. PNG supports 16 million colors plus 256 levels of transparency, making it the standard for web graphics, UI elements, icons, screenshots, and professional design work. File sizes are larger than JPG but the quality and transparency support are worth it for graphics and logos.",
-      },
+      title: "JPG에서 PNG 변환 정보",
+      p1: "JPG(또는 JPEG)는 사진용으로 최적화된 손실 이미지 형식이지만 투명도를 지원하지 않습니다. PNG(Portable Network Graphics)는 투명한 배경이나 선명한 가장자리가 필요한 그래픽, 로고 및 이미지에 완벽한 무손실 형식입니다. 투명도를 추가하거나 품질 손실 없이 여러 번 편집하거나 깨끗한 가장자리로 웹용 이미지를 준비해야 할 때 JPG를 PNG로 변환하는 것이 이상적입니다.",
+      p2: "당사의 JPG에서 PNG 변환기는 원본 이미지의 모든 픽셀을 완벽하게 보존하면서 무손실 PNG 형식으로 변환합니다. 저장할 때마다 품질이 저하되는 JPG와 달리 PNG 파일은 저하 없이 편집하고 다시 저장할 수 있습니다. 이로 인해 PNG는 전문 디자이너, 로고 제작 및 정밀도가 중요한 모든 프로젝트에서 선호되는 선택입니다. PNG 형식은 알파 투명도도 지원하여 투명한 배경이 있는 이미지를 만들 수 있습니다 - 이것은 JPG가 할 수 없는 일입니다.",
+      p3: "변환은 즉각적이고 안전하며 색상 정확도를 유지합니다. 파일은 절대 저장되거나 공유되지 않습니다 - 모든 것이 브라우저에서 안전하게 이루어집니다. 단일 로고를 변환하든 제품 이미지 배치를 변환하든 당사 도구는 워터마크나 숨겨진 요금 없이 전문적인 결과를 제공합니다.",
+    },
       whyConvert: {
         title: "Why Convert JPG to PNG?",
         content:
@@ -1932,7 +1930,7 @@ export const ko: Translations = {
       },
     },
     faq: {
-      title: "Frequently Asked Questions – JPG to PNG",
+      title: "자주 묻는 질문 – JPG에서 PNG로",
       items: [
         {
           q: "Is it free to convert JPG to PNG?",
@@ -1973,7 +1971,7 @@ export const ko: Translations = {
       ],
     },
     related: {
-      title: "Related Converters",
+      title: "관련 변환기",
       converters: [
         { name: "PNG to JPG", url: "/convert/png-to-jpg" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
