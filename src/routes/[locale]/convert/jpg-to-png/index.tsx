@@ -68,11 +68,13 @@ export default component$(() => {
     if (input.files && input.files.length > 0) {
       const files = Array.from(input.files).filter(
         (file) =>
-          file.name.toLowerCase().endsWith(".jpg") || file.name.toLowerCase().endsWith(".heif")
+          file.name.toLowerCase().endsWith(".jpg") || 
+          file.name.toLowerCase().endsWith(".jpeg") ||
+          file.type === "image/jpeg"
       );
 
       if (files.length === 0) {
-        errorMessage.value = "Please select JPG or HEIF files only.";
+        errorMessage.value = "Please select JPG/JPEG files only.";
         input.value = "";
         return;
       }
@@ -145,7 +147,9 @@ export default component$(() => {
     if (e.dataTransfer?.files) {
       const files = Array.from(e.dataTransfer.files).filter(
         (file) =>
-          file.name.toLowerCase().endsWith(".jpg") || file.name.toLowerCase().endsWith(".heif")
+          file.name.toLowerCase().endsWith(".jpg") || 
+          file.name.toLowerCase().endsWith(".jpeg") ||
+          file.type === "image/jpeg"
       );
 
       if (mode.value === "single") {
@@ -205,7 +209,7 @@ export default component$(() => {
         for (let i = 0; i < binaryString.length; i++) {
           bytes[i] = binaryString.charCodeAt(i);
         }
-        blob = new Blob([bytes], { type: "application/pdf" });
+        blob = new Blob([bytes], { type: "image/png" });
       } else {
         errorMessage.value = "No file data available for download";
         return;
@@ -215,7 +219,7 @@ export default component$(() => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = result.outputFilename || "converted.pdf";
+      a.download = result.outputFilename || "converted.png";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -345,7 +349,7 @@ export default component$(() => {
 
         if (response.ok) {
           const blob = await response.blob();
-          const filename = selectedFiles.value[0].name.replace(/\.(jpg|heif)$/i, ".pdf");
+          const filename = selectedFiles.value[0].name.replace(/\.(jpg|jpeg)$/i, ".png");
 
           // Store blob for download button (don't auto-download)
           conversionResults.value = [
@@ -580,7 +584,7 @@ export default component$(() => {
               >
                 <input
                   type="file"
-                  accept=".jpg,.heif"
+                  accept=".jpg,.jpeg,image/jpeg"
                   multiple={mode.value === "batch"}
                   onChange$={handleFileSelect}
                   onClick$={(e) => {
@@ -870,9 +874,9 @@ export default component$(() => {
               <div class="space-y-6">
                 <div>
                   <h3 class="text-xl font-bold text-gray-900 mb-3">
-                    {conv.about.whatIsHeic.title}
+                    {conv.about.whatIsHeif.title}
                   </h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.about.whatIsHeic.content}</p>
+                  <p class="text-gray-700 leading-relaxed">{conv.about.whatIsHeif.content}</p>
                 </div>
 
                 <div>
