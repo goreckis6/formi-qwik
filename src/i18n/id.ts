@@ -215,6 +215,14 @@ export const id: Translations = {
       name: 'HEIF ke TIFF',
       description: 'Konversi gambar HEIF ke format TIFF secara instan',
     },
+    jpgToPng: {
+      name: "JPG ke PNG",
+      description: "Konversi JPG ke PNG untuk transparansi dan kualitas lossless",
+    },
+    jpgToWebp: {
+      name: "JPG ke WebP",
+      description: "Konversi JPG ke WebP untuk file 25-35% lebih kecil dan performa web yang lebih baik",
+    },
   },
 
   heicToPdf: {
@@ -1800,10 +1808,6 @@ export const id: Translations = {
   },
 
   // JPG to PNG Converter
-  jpgToWebp: {
-    name: "JPG ke WebP",
-    description: "Konversi JPG ke WebP untuk file 25-35% lebih kecil dan performa web yang lebih baik",
-  },
   jpgToPng: {
     title: "Konverter JPG ke PNG - Tambahkan Transparansi & Kualitas Lossless",
     metaDescription:
