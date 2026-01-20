@@ -1727,6 +1727,273 @@ export const nl: Translations = {
       ],
     },
   },
+
+  // HEIF to GIF Converter
+  heifToGif: {
+    title: "HEIF naar GIF Converter - Maak Geanimeerde GIFs en Deelbare Afbeeldingen",
+    metaDescription:
+      "Converteer HEIF naar GIF voor universeel delen en animaties. Perfect voor sociale media, memes en websites. Werkt overal - geen app nodig. Maak geanimeerde GIFs van foto's. Gratis batchconverter.",
+    metaKeywords:
+      "HEIF naar GIF, geanimeerd GIF, sociale media delen, memes, universele compatibiliteit, GIF animatie, HEIF batch converteren, deelbare afbeeldingen",
+    hero: {
+      title: "HEIF naar GIF Converter",
+      subtitle:
+        "Converteer HEIF naar GIF - het meest deelbare afbeeldingsformaat. Perfect voor sociale media posts, memes en animaties. Universele compatibiliteit op alle platforms, apps en messagingdiensten. Geen speciale viewer nodig.",
+      badge1: "Universeel Delen",
+      badge2: "Sociale Media Klaar",
+      badge3: "Animatie-ondersteuning",
+    },
+    upload: {
+      title: "Upload HEIF-bestanden",
+      description:
+        "Sleep en zet uw HEIF-afbeeldingen hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteren",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie succesvol!",
+      download: "Download GIF",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "Universele compatibiliteit - GIFs werken absoluut overal",
+        "Perfect voor sociale media (Twitter, Facebook, Instagram, WhatsApp)",
+        "Batchverwerking tot 20 bestanden gelijktijdig",
+        "Animatie-ondersteuning voor het maken van GIF-lussen",
+        "100% veilig met automatische bestandsverwijdering",
+        "Kleine bestandsgroottes geoptimaliseerd voor delen",
+        "Directe download - klaar voor publicatie",
+        "Geen watermerken - schone deelbare afbeeldingen",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload HEIF-bestanden",
+      step1Desc: "Selecteer een of meerdere HEIF-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download GIF",
+      step3Desc: "Krijg uw geconverteerde GIF-bestanden direct",
+    },
+    about: {
+      title: "Over HEIF naar GIF Conversie",
+      whatIsHeif: {
+        title: "Waarom is GIF Perfect voor Sociale Media en Delen?",
+        content:
+          "GIF (Graphics Interchange Format) is het meest universeel compatibele afbeeldingsformaat, gemaakt in 1987 en nog steeds succesvol vandaag. GIFs werken absoluut overal - alle sociale media platforms (Twitter, Facebook, Instagram, Reddit, Tumblr), messaging apps (WhatsApp, Telegram, Discord, Slack), e-mailclients, fora en websites tonen GIFs zonder speciale software. GIF's killerfunctie is animatie-ondersteuning - maak looping animaties, cinemagraphs en memes die aandacht trekken. GIFs gebruiken verliesvrije compressie voor tot 256 kleuren, waardoor ze perfect zijn voor afbeeldingen, logo's en eenvoudige animaties. Bestandsgroottes zijn klein en deelbaar, ideaal voor mobiele data en snel laden. GIF is de lingua franca van internetcultuur - het standaardformaat voor reacties, memes en virale content.",
+      },
+      whyConvert: {
+        title: "Waarom HEIF naar GIF Converteren?",
+        content:
+          "Converteer HEIF naar GIF voor maximale deelbaarheid en universele compatibiliteit. HEIF werkt alleen op nieuwere Apple-apparaten en vereist speciale software - wat delen moeilijk maakt. GIF werkt direct op elk apparaat, platform en app zonder viewer nodig. Perfect voor: sociale media posts (Twitter GIFs, Facebook reacties, Instagram stories), meme creatie (universeel formaat voor virale content), messaging (WhatsApp, Telegram ondersteunen GIF-voorvertoning), website-embeddingen (alle browsers tonen GIFs natively), e-mailhandtekeningen en marketing (gegarandeerde weergave), forumposts en reacties (universele ondersteuning), en reactieafbeeldingen (deel emoties direct). GIFs spelen automatisch af en lussen, waardoor ze opvallend zijn voor marketing en sociale betrokkenheid. Hoewel GIF-kwaliteit beperkt is tot 256 kleuren, is het geoptimaliseerd voor afbeeldingen, tekstoverlays en eenvoudige animaties - ideaal voor internetcommunicatie.",
+      },
+      heifVsHeic: {
+        title: "GIF vs Moderne Formaten - Wanneer GIF Kiezen",
+        content:
+          "GIF ruilt afbeeldingskwaliteit voor universele compatibiliteit en animatie. Kies GIF wanneer: delen op sociale media (Instagram, Twitter auto-weergave), memes of reacties maken (universeel formaat), eenvoudige animaties of lussen maken, 100% compatibiliteit garanderen (geen viewer nodig), delen via messaging apps (auto-voorvertoning ondersteuning), of richten op virale/deelbare content. GIF's beperkingen (256 kleuren, groter dan WebP) worden gecompenseerd door gegarandeerde zichtbaarheid overal. Moderne formaten zoals AVIF/WebP bieden betere kwaliteit maar hebben speciale viewers nodig. Voor internetcultuur, memes en sociaal delen blijft GIF onverslaanbaar ondanks 35+ jaar. De eenvoud en universele ondersteuning maken het de standaardkeuze voor deelbare content.",
+      },
+      benefits: {
+        title: "Voordelen van GIF-formaat",
+        list: [
+          "Universele Compatibiliteit - Werkt letterlijk op elk apparaat en platform",
+          "Sociale Media Native - Auto-weergave op Twitter, Facebook, Instagram, Reddit",
+          "Animatie-ondersteuning - Maak looping GIFs en cinemagraphs",
+          "Geen Viewer Nodig - Toont direct zonder speciale software",
+          "Meme-vriendelijk - Het standaardformaat voor internetcultuur",
+          "Auto-afspelen - Loopt automatisch voor opvallende content",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – HEIF naar GIF",
+      items: [
+        {
+          q: "Is het gratis om HEIF naar GIF te converteren?",
+          a: "Ja! Onze HEIF naar GIF converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als u nodig heeft voor sociale media, memes of delen.",
+        },
+        {
+          q: "Waarom is GIF zo populair voor sociale media en memes?",
+          a: "GIF is universeel compatibel - het werkt op elk platform, app en apparaat zonder speciale software. Sociale media platforms zoals Twitter, Facebook, Instagram en Reddit ondersteunen GIFs natively met auto-afspelen en looping. GIFs kunnen geanimeerd zijn (perfect voor reacties en memes), zijn klein genoeg voor mobiel delen, en zijn het standaardformaat geworden voor internetcultuur en virale content. Iedereen kan uw GIF direct bekijken, ongeacht welk apparaat ze gebruiken.",
+        },
+        {
+          q: "Kan ik geanimeerde GIFs maken van HEIF-afbeeldingen?",
+          a: "Ja! Hoewel een enkele HEIF converteert naar een statisch GIF, kunt u meerdere HEIF-afbeeldingen in batchmodus uploaden om frames voor animatie te maken. Onze converter verwerkt elke afbeelding afzonderlijk. Om echte geanimeerde GIFs met meerdere frames te maken, kunt u batchconversie gebruiken en vervolgens de frames combineren met gratis GIF-animatietools online.",
+        },
+        {
+          q: "Zal GIF werken op alle sociale media platforms?",
+          a: "Absoluut! GIF wordt natively ondersteund door alle grote platforms: Twitter/X (GIF-knop in composer), Facebook (auto-afspelende GIFs), Instagram (Stories en DM's), Reddit (inline weergave), Tumblr (GIF-gefocust platform), WhatsApp (auto-voorvertoning), Telegram, Discord, Slack en vrijwel elke messaging app en forum. GIFs worden automatisch weergegeven en lussen zonder viewer of plugin nodig.",
+        },
+        {
+          q: "Waarom zijn GIF-bestanden groter dan HEIF?",
+          a: "GIF gebruikt ongecomprimeerde of verliesvrije compressie om frame-voor-frame kwaliteit voor animaties te behouden, terwijl HEIF moderne videocompressie gebruikt. GIF's universele compatibiliteit en gegarandeerde weergave maken de groottecompromis echter de moeite waard voor delen. Voor sociale media en memes is directe zichtbaarheid op alle apparaten waardevoller dan bestandsgrootte-optimalisatie. Bovendien optimaliseert onze converter GIF-uitvoer voor webdelen.",
+        },
+        {
+          q: "Kan ik GIF gebruiken voor professioneel werk?",
+          a: "Ja! GIF is perfect voor: e-mailmarketing (geanimeerde banners, handtekeningen), website-elementen (laadanimaties, pictogrammen), presentaties (geanimeerde grafieken, overgangen), klantcommunicatie (gegarandeerde weergave), en sociale media marketing (hoge betrokkenheidspercentages). Hoewel GIF 256-kleurenbeperkingen heeft, is het ideaal voor afbeeldingen, logo's, tekstoverlays en eenvoudige animaties waar universele compatibiliteit belangrijker is dan foto-realistische kwaliteit.",
+        },
+        {
+          q: "Wat is het verschil tussen GIF en moderne formaten zoals WebP?",
+          a: "GIF (1987) prioriteert universele compatibiliteit en animatie; WebP (2010) prioriteert compressie en kwaliteit. GIF werkt op 100% van de apparaten zonder speciale viewer; WebP heeft moderne browsers nodig (97% ondersteuning). Voor sociale media, memes en deelbare content wint GIF's gegarandeerde zichtbaarheid. Voor website-optimalisatie en fotokwaliteit is WebP beter. Kies GIF wanneer delen belangrijker is dan bestandsgrootte.",
+        },
+        {
+          q: "Kan ik memes maken met GIF?",
+          a: "Absoluut! GIF is het standaardformaat voor internetmemes en reactieafbeeldingen. Na het converteren van HEIF naar GIF kunt u tekstoverlays toevoegen, frames combineren of het GIF direct gebruiken voor delen. GIFs zijn perfect voor memes omdat ze overal werken, automatisch afspelen voor directe impact, geanimeerd kunnen worden voor extra expressie, en gemakkelijk deelbaar zijn op alle platforms. De internetmeme-cultuur is gebouwd op GIF-formaat.",
+        },
+        {
+          q: "Hoe lang duurt HEIF naar GIF conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. GIF-creatie is snel omdat het een eenvoudig formaat is geoptimaliseerd voor compatibiliteit in plaats van complexe compressie. Het resultaat is een universeel compatibel bestand klaar voor direct delen op sociale media, messaging apps of elk platform.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "HEIC naar GIF", url: "/convert/heic-to-gif" },
+        { name: "HEIF naar PNG", url: "/convert/heif-to-png" },
+        { name: "HEIF naar JPG", url: "/convert/heif-to-jpg" },
+        { name: "PNG naar GIF", url: "/convert/png-to-gif" },
+        { name: "JPG naar GIF", url: "/convert/jpg-to-gif" },
+        { name: "GIF naar PNG", url: "/convert/gif-to-png" },
+      ],
+    },
+  },
+
+  // JPG to PNG Converter
+  jpgToPng: {
+    title: "JPG naar PNG Converter - Voeg Transparantie & Verliesvrije Kwaliteit Toe",
+    metaDescription:
+      "Converteer JPG naar PNG voor transparantie-ondersteuning en verliesvrije kwaliteit. Perfect voor logo's, afbeeldingen en webafbeeldingen. Behoud beeldkwaliteit zonder compressie-artefacten. Gratis batchconverter, geen registratie.",
+    metaKeywords:
+      "JPG naar PNG, voeg transparantie toe, verliesvrije conversie, afbeeldingenconverter, logoconverter, webafbeeldingen, batch JPG converteren, achtergrond verwijderen",
+    hero: {
+      title: "JPG naar PNG Converter",
+      subtitle:
+        "Converteer JPG naar PNG voor transparantie-ondersteuning en superieure kwaliteit. Perfect voor logo's, afbeeldingen en professionele afbeeldingen. PNG behoudt elk detail zonder compressie-artefacten - ideaal voor webafbeeldingen, overlays en afbeeldingen die transparante achtergronden vereisen.",
+      badge1: "Transparantie-ondersteuning",
+      badge2: "Verliesvrije Kwaliteit",
+      badge3: "Geen Artefacten",
+    },
+    upload: {
+      title: "Upload JPG-bestanden",
+      description:
+        "Sleep en zet uw JPG-afbeeldingen hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteren",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie succesvol!",
+      download: "Download PNG",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "Transparantie-ondersteuning - voeg alfakanaal toe voor overlays",
+        "Verliesvrije kwaliteit - behoud elke pixel perfect",
+        "Batchverwerking tot 20 bestanden gelijktijdig",
+        "Geen compressie-artefacten - scherpe randen en tekst",
+        "100% veilig met automatische bestandsverwijdering",
+        "Perfect voor logo's, afbeeldingen en webafbeeldingen",
+        "Directe download - klaar voor gebruik",
+        "Geen watermerken - professionele kwaliteit",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload JPG-bestanden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download PNG",
+      step3Desc: "Krijg uw geconverteerde PNG-bestanden direct",
+    },
+    about: {
+      title: "Over JPG naar PNG Conversie",
+      whatIsHeif: {
+        title: "Waarom is PNG Perfect voor Afbeeldingen en Logo's?",
+        content:
+          "PNG (Portable Network Graphics) is de professionele keuze voor afbeeldingen, logo's en afbeeldingen die transparantie vereisen. Gemaakt in 1996 als een patentvrije alternatief voor GIF, gebruikt PNG verliesvrije compressie - wat betekent nul kwaliteitsverlies ongeacht hoe vaak u het opslaat. PNG's killerfunctie is alfakanaaltransparantie - perfect voor logo's, overlays, watermerken en afbeeldingen die naadloos moeten mengen met achtergronden. In tegenstelling tot JPG (verliescompressie die kwaliteit verslechtert), behoudt PNG elke pixel perfect, behoudt scherpe randen op tekst, scherpe lijnen op afbeeldingen en levendige kleuren zonder compressie-artefacten. PNG ondersteunt 16 miljoen kleuren plus 256 transparantieniveaus, waardoor het de standaard is voor webafbeeldingen, UI-elementen, pictogrammen, screenshots en professioneel ontwerppwerk. Bestandsgroottes zijn groter dan JPG, maar de kwaliteit en transparantie-ondersteuning zijn het waard voor afbeeldingen en logo's.",
+      },
+      whyConvert: {
+        title: "Waarom JPG naar PNG Converteren?",
+        content:
+          "Converteer JPG naar PNG wanneer u transparantie of verliesvrije kwaliteit nodig heeft. JPG gebruikt verliescompressie die beeldkwaliteit permanent verslechtert bij elke bewerking - waardoor compressie-artefacten, wazige tekst en kleurverloop ontstaan. PNG gebruikt verliesvrije compressie, waardoor perfecte kwaliteit voor altijd behouden blijft. Belangrijkste redenen om te converteren: voeg transparantie toe voor logo's en overlays (verwijder achtergronden), bereid afbeeldingen voor op web/ontwerppwerk (scherpe randen), vermijd kwaliteitsverslechtering (geen artefacten), maak gelaagde composities (alfakanaalondersteuning), behoud tekst en lijnkunst (scherpe randen), of bewerk afbeeldingen herhaaldelijk zonder verlies. PNG is essentieel voor logo's, pictogrammen, afbeeldingen, screenshots, UI-elementen, watermerken en elke afbeelding die transparante achtergronden vereist. Hoewel PNG-bestanden groter zijn dan JPG, maken de kwaliteit en transparantie-ondersteuning het de professionele keuze voor afbeeldingswerk. Converteer JPG naar PNG vóór bewerking om verdere kwaliteitsverlies te voorkomen.",
+      },
+      heifVsHeic: {
+        title: "PNG vs JPG - Wanneer PNG Kiezen",
+        content:
+          "PNG en JPG dienen verschillende doeleinden. Kies PNG voor: logo's en afbeeldingen (scherpe randen, transparantie), tekstrijke afbeeldingen (geen wazigheid), afbeeldingen die transparantie vereisen (overlays, watermerken), afbeeldingen die herhaalde bewerking nodig hebben (verliesvrij), pictogrammen en UI-elementen (scherpe details), screenshots (behoud helderheid), of professioneel ontwerppwerk (nul artefacten). Kies JPG voor: foto's (efficiënte compressie), afbeeldingen zonder transparantiebehoefte, bestandsgrootteprioriteit (kleinere bestanden), of social media-foto's (acceptabel kwaliteitsverlies). PNG's voordelen: verliesvrije kwaliteit (perfecte bewaring), transparantie-ondersteuning (alfakanaal), geen compressie-artefacten (scherpe randen), onbeperkte bewerking zonder verslechtering. PNG's nadelen: grotere bestandsgroottes (2-10× groter dan JPG), niet ideaal voor foto's (inefficiënte compressie). Voor webgebruik: PNG voor logo's/afbeeldingen, JPG voor foto's. Voor print: PNG voor afbeeldingen, JPG voor foto's. Voor bewerking: Altijd PNG (voorkomt kwaliteitsverlies).",
+      },
+      benefits: {
+        title: "Voordelen van PNG-formaat",
+        list: [
+          "Transparantie-ondersteuning - Voeg alfakanaal toe voor logo's en overlays",
+          "Verliesvrije Kwaliteit - Nul kwaliteitsverlies, perfecte pixelbewaring",
+          "Geen Compressie-artefacten - Scherpe randen, scherpe tekst, schone afbeeldingen",
+          "Onbeperkte Bewerking - Bewerk herhaaldelijk zonder kwaliteitsverslechtering",
+          "Professionele Standaard - Branchekeuze voor afbeeldingen en logo's",
+          "Web-geoptimaliseerd - Perfect voor UI-elementen, pictogrammen en afbeeldingen",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – JPG naar PNG",
+      items: [
+        {
+          q: "Is het gratis om JPG naar PNG te converteren?",
+          a: "Ja! Onze JPG naar PNG converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als u nodig heeft voor logo's, afbeeldingen of professioneel gebruik.",
+        },
+        {
+          q: "Zal het converteren van JPG naar PNG transparantie toevoegen?",
+          a: "Het converteren van JPG naar PNG voegt transparantie-ondersteuning (alfakanaal) toe, maar maakt bestaande witte/zwarte achtergronden niet automatisch transparant. PNG-formaat ondersteunt transparantie, dus u kunt de PNG vervolgens bewerken in foto-editors (Photoshop, GIMP, Photopea) om achtergronden te verwijderen. De conversie bereidt uw afbeelding voor op transparantiewerk door deze te wijzigen naar een formaat dat alfakanalen ondersteunt.",
+        },
+        {
+          q: "Waarom is PNG beter dan JPG voor logo's en afbeeldingen?",
+          a: "PNG gebruikt verliesvrije compressie (nul kwaliteitsverlies) terwijl JPG verliescompressie (permanente kwaliteitsverslechtering) gebruikt. PNG behoudt scherpe randen, scherpe tekst en schone lijnen perfect - essentieel voor logo's en afbeeldingen. PNG ondersteunt ook transparantie voor overlays en achtergronden. JPG creëert compressie-artefacten (wazigheid, kleurverloop), vooral rond tekst en scherpe randen. Voor logo's, pictogrammen, afbeeldingen en tekstrijke afbeeldingen is PNG de professionele keuze.",
+        },
+        {
+          q: "Zullen PNG-bestanden groter zijn dan JPG?",
+          a: "Ja, PNG-bestanden zijn typisch 2-10 keer groter dan JPG omdat PNG verliesvrije compressie gebruikt terwijl JPG verliescompressie gebruikt. De kwaliteit en transparantie-ondersteuning maken het echter de moeite waard voor afbeeldingen, logo's en professionele afbeeldingen. Voor webgebruik wordt de lichte toename van bestandsgrootte gecompenseerd door perfecte kwaliteit en transparantiecapaciteiten. Moderne browsers verwerken PNG efficiënt.",
+        },
+        {
+          q: "Kan ik PNG bewerken zonder kwaliteitsverlies?",
+          a: "Absoluut! PNG is verliesvrij, wat betekent dat u het onbeperkt kunt bewerken en opslaan zonder kwaliteitsverslechtering. Elke opslag behoudt perfecte kwaliteit. Dit is cruciaal voor ontwerppwerk waar u meerdere bewerkingen moet maken. JPG verliest kwaliteit bij elke opslag door hercompressie. Voor professionele bewerkingsworkflows, gebruik altijd PNG.",
+        },
+        {
+          q: "Is PNG goed voor webgebruik?",
+          a: "Ja! PNG is het standaardformaat voor webafbeeldingen, logo's, pictogrammen en UI-elementen. Hoewel groter dan JPG, maken PNG's transparantie-ondersteuning en scherpe kwaliteit het essentieel voor webdesign. Gebruik PNG voor logo's, pictogrammen, knoppen, afbeeldingen en tekstrijke afbeeldingen. Gebruik JPG voor foto's waar transparantie niet nodig is. Moderne compressie en CDN's verwerken PNG efficiënt.",
+        },
+        {
+          q: "Wat is het verschil tussen PNG-8 en PNG-24?",
+          a: "PNG-8 ondersteunt 256 kleuren (zoals GIF) met eenvoudige transparantie, wat resulteert in kleinere bestanden. PNG-24 ondersteunt 16 miljoen kleuren met 256 niveaus van alfatransparantie (gedeeltelijke transparantie), biedt volledige kwaliteit en vloeiende transparantie maar grotere bestanden. Onze converter creëert PNG-24 voor maximale kwaliteit en volledige transparantie-ondersteuning. Gebruik PNG-8 alleen voor eenvoudige afbeeldingen met weinig kleuren.",
+        },
+        {
+          q: "Kan ik PNG gebruiken voor print?",
+          a: "Ja! PNG's verliesvrije kwaliteit maakt het uitstekend voor print, vooral voor afbeeldingen, logo's en tekstrijke ontwerpen. PNG behoudt perfecte kwaliteit bij elke resolutie. Voor foto's kunnen TIFF of hoogwaardige JPG echter efficiënter zijn vanwege kleinere bestandsgroottes. Voor grafisch ontwerpprintwerk (posters, flyers, visitekaartjes) is PNG ideaal.",
+        },
+        {
+          q: "Hoe lang duurt JPG naar PNG conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. PNG-conversie is snel omdat het een formaatwijziging is die alle gegevens behoudt. Het resultaat is een verliesvrij PNG klaar voor transparantiewerk, herhaalde bewerking of professioneel gebruik zonder kwaliteitsverslechtering.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "PNG naar JPG", url: "/convert/png-to-jpg" },
+        { name: "JPG naar WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG naar WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC naar PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF naar PNG", url: "/convert/heif-to-png" },
+        { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF naar PNG Converter - Converteer HEIF Afbeeldingen Gratis Online naar PNG",

@@ -1725,6 +1725,273 @@ export const sv: Translations = {
       ],
     },
   },
+
+  // HEIF to GIF Converter
+  heifToGif: {
+    title: "HEIF till GIF-konverterare - Skapa Animerade GIFs och Delbara Bilder",
+    metaDescription:
+      "Konvertera HEIF till GIF för universell delning och animationer. Perfekt för sociala medier, memes och webbplatser. Fungerar överallt - ingen app behövs. Skapa animerade GIFs från foton. Gratis batchkonverterare.",
+    metaKeywords:
+      "HEIF till GIF, animerad GIF, sociala medier delning, memes, universell kompatibilitet, GIF animation, batch konvertera HEIF, delbara bilder",
+    hero: {
+      title: "HEIF till GIF-konverterare",
+      subtitle:
+        "Konvertera HEIF till GIF - det mest delbara bildformatet. Perfekt för sociala medier inlägg, memes och animationer. Universell kompatibilitet på alla plattformar, appar och meddelandetjänster. Ingen speciell visare behövs.",
+      badge1: "Universell Delning",
+      badge2: "Sociala Medier Redo",
+      badge3: "Animationsstöd",
+    },
+    upload: {
+      title: "Ladda upp HEIF-filer",
+      description:
+        "Dra och släpp dina HEIF-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batchkonvertera",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner GIF",
+      downloadAll: "Ladda ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "Universell kompatibilitet - GIFs fungerar absolut överallt",
+        "Perfekt för sociala medier (Twitter, Facebook, Instagram, WhatsApp)",
+        "Batchbearbetning upp till 20 filer samtidigt",
+        "Animationsstöd för att skapa GIF-loopar",
+        "100% säkert med automatisk filborttagning",
+        "Små filstorlekar optimerade för delning",
+        "Omedelbar nedladdning - redo att publicera",
+        "Inga vattenstämplar - rena delbara bilder",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp HEIF-filer",
+      step1Desc: "Välj en eller flera HEIF-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer omedelbart",
+      step3Title: "Ladda ner GIF",
+      step3Desc: "Få dina konverterade GIF-filer omedelbart",
+    },
+    about: {
+      title: "Om HEIF till GIF-konvertering",
+      whatIsHeif: {
+        title: "Varför är GIF Perfekt för Sociala Medier och Delning?",
+        content:
+          "GIF (Graphics Interchange Format) är det mest universellt kompatibla bildformatet, skapat 1987 och fortfarande framgångsrikt idag. GIFs fungerar absolut överallt - alla sociala medier plattformar (Twitter, Facebook, Instagram, Reddit, Tumblr), meddelandeappar (WhatsApp, Telegram, Discord, Slack), e-postklienter, forum och webbplatser visar GIFs utan speciell programvara. GIF:s huvudfunktion är animationsstöd - skapa looping-animationer, cinemagraphs och memes som fångar uppmärksamhet. GIFs använder förlustfri komprimering för upp till 256 färger, vilket gör dem perfekta för grafik, logotyper och enkla animationer. Filstorlekar är små och delbara, idealiska för mobildata och snabb laddning. GIF är lingua franca för internetkultur - formatet för reaktioner, memes och viralt innehåll.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera HEIF till GIF?",
+        content:
+          "Konvertera HEIF till GIF för maximal delbarhet och universell kompatibilitet. HEIF fungerar bara på nyare Apple-enheter och kräver speciell programvara - vilket gör delning svårt. GIF fungerar omedelbart på varje enhet, plattform och app utan visare behövs. Perfekt för: sociala medier inlägg (Twitter GIFs, Facebook reaktioner, Instagram stories), meme-skapande (universellt format för viralt innehåll), meddelanden (WhatsApp, Telegram stöder GIF-förhandsvisning), webbinbäddningar (alla webbläsare visar GIFs inbyggt), e-postsignaturer och marknadsföring (garanterad visning), foruminlägg och kommentarer (universellt stöd), och reaktionsbilder (dela känslor omedelbart). GIFs spelar automatiskt och loopar, vilket gör dem uppmärksamhetsväckande för marknadsföring och socialt engagemang. Medan GIF-kvalitet är begränsad till 256 färger, är den optimerad för grafik, textöverlägg och enkla animationer - vilket gör den idealisk för internetkommunikation.",
+      },
+      heifVsHeic: {
+        title: "GIF vs Moderna Format - När Ska Man Välja GIF",
+        content:
+          "GIF byter bildkvalitet mot universell kompatibilitet och animation. Välj GIF när: dela på sociala medier (Instagram, Twitter auto-visning), skapa memes eller reaktioner (universellt format), göra enkla animationer eller loopar, säkerställa 100% kompatibilitet (ingen visare behövs), dela via meddelandeappar (stöd för automatisk förhandsvisning), eller rikta in sig på viralt/delbart innehåll. GIF:s begränsningar (256 färger, större än WebP) kompenseras av garanterad synlighet överallt. Moderna format som AVIF/WebP erbjuder bättre kvalitet men behöver speciella visare. För internetkultur, memes och social delning förblir GIF oöverträffad trots 35+ år. Dess enkelhet och universella stöd gör det till standardvalet för delbart innehåll.",
+      },
+      benefits: {
+        title: "Fördelar med GIF-format",
+        list: [
+          "Universell Kompatibilitet - Fungerar bokstavligen på varje enhet och plattform",
+          "Sociala Medier Native - Auto-visar på Twitter, Facebook, Instagram, Reddit",
+          "Animationsstöd - Skapa looping GIFs och cinemagraphs",
+          "Ingen Visare Behövs - Visar omedelbart utan speciell programvara",
+          "Meme-Vänlig - Standardformatet för internetkultur",
+          "Auto-Spelning - Loopar automatiskt för uppmärksamhetsväckande innehåll",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – HEIF till GIF",
+      items: [
+        {
+          q: "Är det gratis att konvertera HEIF till GIF?",
+          a: "Ja! Vår HEIF till GIF-konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för sociala medier, memes eller delning.",
+        },
+        {
+          q: "Varför är GIF så populärt för sociala medier och memes?",
+          a: "GIF är universellt kompatibelt - det fungerar på varje plattform, app och enhet utan speciell programvara. Sociala medier plattformar som Twitter, Facebook, Instagram och Reddit stöder GIFs inbyggt med auto-spelning och looping. GIFs kan vara animerade (perfekta för reaktioner och memes), är små nog för mobil delning, och har blivit standardformatet för internetkultur och viralt innehåll. Alla kan se din GIF omedelbart, oavsett vilken enhet de använder.",
+        },
+        {
+          q: "Kan jag skapa animerade GIFs från HEIF-bilder?",
+          a: "Ja! Medan en enda HEIF konverteras till en statisk GIF, kan du ladda upp flera HEIF-bilder i batchläge för att skapa ramar för animation. Vår konverterare bearbetar varje bild separat. För att skapa verkliga animerade GIFs med flera ramar kan du använda batchkonvertering och sedan kombinera ramarna med gratis GIF-animationsverktyg online.",
+        },
+        {
+          q: "Kommer GIF att fungera på alla sociala medier plattformar?",
+          a: "Absolut! GIF stöds inbyggt av alla större plattformar: Twitter/X (GIF-knapp i kompositorn), Facebook (auto-spelande GIFs), Instagram (Stories och DMs), Reddit (inline-visning), Tumblr (GIF-fokuserad plattform), WhatsApp (auto-förhandsvisning), Telegram, Discord, Slack, och praktiskt taget varje meddelandeapp och forum. GIFs visas och loopar automatiskt utan visare eller plugin behövs.",
+        },
+        {
+          q: "Varför är GIF-filer större än HEIF?",
+          a: "GIF använder okomprimerad eller förlustfri komprimering för att behålla kvalitet ram för ram för animationer, medan HEIF använder modern videokomprimering. GIF:s universella kompatibilitet och garanterad visning gör dock storlekskompromissen värd för delning. För sociala medier och memes är omedelbar synlighet på alla enheter mer värdefull än filstorleksoptimering. Dessutom optimerar vår konverterare GIF-utdata för webbdelning.",
+        },
+        {
+          q: "Kan jag använda GIF för professionellt arbete?",
+          a: "Ja! GIF är perfekt för: e-postmarknadsföring (animerede banners, signaturer), webbplats-element (laddningsanimationer, ikoner), presentationer (animerede diagram, övergångar), kundkommunikation (garanterad visning), och sociala medier marknadsföring (höga engagemangsgrad). Medan GIF har 256-färgsbegränsningar är det idealiskt för grafik, logotyper, textöverlägg och enkla animationer där universell kompatibilitet betyder mer än foto-realistisk kvalitet.",
+        },
+        {
+          q: "Vad är skillnaden mellan GIF och moderna format som WebP?",
+          a: "GIF (1987) prioriterar universell kompatibilitet och animation; WebP (2010) prioriterar komprimering och kvalitet. GIF fungerar på 100% av enheterna utan speciell visare; WebP behöver moderna webbläsare (97% stöd). För sociala medier, memes och delbart innehåll vinner GIF:s garanterade synlighet. För webbplatsoptimering och fotokvalitet är WebP bättre. Välj GIF när delning betyder mer än filstorlek.",
+        },
+        {
+          q: "Kan jag skapa memes med GIF?",
+          a: "Absolut! GIF är standardformatet för internetmemes och reaktionsbilder. Efter att ha konverterat HEIF till GIF kan du lägga till textöverlägg, kombinera ramar eller använda GIF direkt för delning. GIFs är perfekta för memes eftersom de fungerar överallt, auto-spelar för omedelbar effekt, kan vara animerade för extra uttryck, och är lätt delbara på alla plattformar. Internetmeme-kulturen är byggd på GIF-format.",
+        },
+        {
+          q: "Hur lång tid tar HEIF till GIF-konvertering?",
+          a: "Konvertering tar 1-2 sekunder per bild. GIF-skapande är snabbt eftersom det är ett enkelt format optimerat för kompatibilitet snarare än komplex komprimering. Resultatet är en universellt kompatibel fil redo för omedelbar delning på sociala medier, meddelandeappar eller vilken plattform som helst.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "HEIC till GIF", url: "/convert/heic-to-gif" },
+        { name: "HEIF till PNG", url: "/convert/heif-to-png" },
+        { name: "HEIF till JPG", url: "/convert/heif-to-jpg" },
+        { name: "PNG till GIF", url: "/convert/png-to-gif" },
+        { name: "JPG till GIF", url: "/convert/jpg-to-gif" },
+        { name: "GIF till PNG", url: "/convert/gif-to-png" },
+      ],
+    },
+  },
+
+  // JPG to PNG Converter
+  jpgToPng: {
+    title: "JPG till PNG-konverterare - Lägg till Transparens & Förlustfri Kvalitet",
+    metaDescription:
+      "Konvertera JPG till PNG för transparensstöd och förlustfri kvalitet. Perfekt för logotyper, grafik och webbbilder. Bevara bildkvalitet utan komprimeringsartefakter. Gratis batchkonverterare, ingen registrering.",
+    metaKeywords:
+      "JPG till PNG, lägg till transparens, förlustfri konvertering, grafikomvandlare, logoomvandlare, webbbilder, batchkonvertera JPG, ta bort bakgrund",
+    hero: {
+      title: "JPG till PNG-konverterare",
+      subtitle:
+        "Konvertera JPG till PNG för transparensstöd och överlägsen kvalitet. Perfekt för logotyper, grafik och professionella bilder. PNG bevarar varje detalj utan komprimeringsartefakter - idealiskt för webbgrafik, överlägg och bilder som kräver transparenta bakgrunder.",
+      badge1: "Transparensstöd",
+      badge2: "Förlustfri Kvalitet",
+      badge3: "Inga Artefakter",
+    },
+    upload: {
+      title: "Ladda upp JPG-filer",
+      description:
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batchkonvertera",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner PNG",
+      downloadAll: "Ladda ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "Transparensstöd - lägg till alfakanal för överlägg",
+        "Förlustfri kvalitet - bevara varje pixel perfekt",
+        "Batchbearbetning upp till 20 filer samtidigt",
+        "Inga komprimeringsartefakter - skarpa kanter och text",
+        "100% säkert med automatisk filborttagning",
+        "Perfekt för logotyper, grafik och webbbilder",
+        "Omedelbar nedladdning - redo att använda",
+        "Inga vattenstämplar - professionell kvalitet",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer omedelbart",
+      step3Title: "Ladda ner PNG",
+      step3Desc: "Få dina konverterade PNG-filer omedelbart",
+    },
+    about: {
+      title: "Om JPG till PNG-konvertering",
+      whatIsHeif: {
+        title: "Varför är PNG Perfekt för Grafik och Logotyper?",
+        content:
+          "PNG (Portable Network Graphics) är det professionella valet för grafik, logotyper och bilder som kräver transparens. Skapat 1996 som ett patentfritt alternativ till GIF, använder PNG förlustfri komprimering - vilket betyder noll kvalitetsförlust oavsett hur många gånger du sparar det. PNG:s huvudfunktion är alfakanaltransparens - perfekt för logotyper, överlägg, vattenstämplar och grafik som behöver smälta sömlöst med bakgrunder. Till skillnad från JPG (förlustkomprimering som försämrar kvaliteten) bevarar PNG varje pixel perfekt, behåller skarpa kanter på text, skarpa linjer på grafik och livfulla färger utan komprimeringsartefakter. PNG stöder 16 miljoner färger plus 256 transparensnivåer, vilket gör det till standarden för webbgrafik, UI-element, ikoner, skärmdumpar och professionellt designarbete. Filstorlekar är större än JPG men kvaliteten och transparensstödet är värt det för grafik och logotyper.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera JPG till PNG?",
+        content:
+          "Konvertera JPG till PNG när du behöver transparens eller förlustfri kvalitet. JPG använder förlustkomprimering som permanent försämrar bildkvalitet med varje redigering - skapar komprimeringsartefakter, suddig text och färgbandning. PNG använder förlustfri komprimering, bevarar perfekt kvalitet för alltid. Viktiga skäl att konvertera: lägg till transparens för logotyper och överlägg (ta bort bakgrunder), förbered grafik för webb/designarbete (skarpa kanter), undvik kvalitetsförsämring (inga artefakter), skapa skiktade kompositioner (alfakanalstöd), bevara text och linjekonst (skarpa kanter), eller redigera bilder upprepade gånger utan förlust. PNG är väsentligt för logotyper, ikoner, grafik, skärmdumpar, UI-element, vattenstämplar och alla bilder som kräver transparenta bakgrunder. Även om PNG-filer är större än JPG gör kvaliteten och transparensstödet det till det professionella valet för grafikarbete. Konvertera JPG till PNG före redigering för att förhindra ytterligare kvalitetsförlust.",
+      },
+      heifVsHeic: {
+        title: "PNG vs JPG - När Ska Man Välja PNG",
+        content:
+          "PNG och JPG tjänar olika syften. Välj PNG för: logotyper och grafik (skarpa kanter, transparens), texttunga bilder (ingen suddighet), bilder som kräver transparens (överlägg, vattenstämplar), grafik som behöver upprepad redigering (förlustfri), ikoner och UI-element (skarpa detaljer), skärmdumpar (bevara klarhet), eller professionellt designarbete (noll artefakter). Välj JPG för: fotografier (effektiv komprimering), bilder utan transparensbehov, filstorleksprioritet (mindre filer), eller sociala medie-foton (acceptabel kvalitetsförlust). PNG:s fördelar: förlustfri kvalitet (perfekt bevarande), transparensstöd (alfakanal), inga komprimeringsartefakter (skarpa kanter), obegränsad redigering utan försämring. PNG:s nackdelar: större filstorlekar (2-10× större än JPG), inte idealiskt för foton (ineffektiv komprimering). För webbanvändning: PNG för logotyper/grafik, JPG för foton. För tryck: PNG för grafik, JPG för foton. För redigering: Alltid PNG (förhindrar kvalitetsförlust).",
+      },
+      benefits: {
+        title: "Fördelar med PNG-format",
+        list: [
+          "Transparensstöd - Lägg till alfakanal för logotyper och överlägg",
+          "Förlustfri Kvalitet - Noll kvalitetsförlust, perfekt pixelbevarande",
+          "Inga Komprimeringsartefakter - Skarpa kanter, skarp text, ren grafik",
+          "Obegränsad Redigering - Redigera upprepade gånger utan kvalitetsförsämring",
+          "Professionell Standard - Branschens val för grafik och logotyper",
+          "Webboptimerad - Perfekt för UI-element, ikoner och grafik",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – JPG till PNG",
+      items: [
+        {
+          q: "Är det gratis att konvertera JPG till PNG?",
+          a: "Ja! Vår JPG till PNG-konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för logotyper, grafik eller professionellt bruk.",
+        },
+        {
+          q: "Kommer konvertering av JPG till PNG att lägga till transparens?",
+          a: "Att konvertera JPG till PNG lägger till transparensstöd (alfakanal) men gör inte automatiskt befintliga vita/svarta bakgrunder transparenta. PNG-formatet stöder transparens, så du kan sedan redigera PNG i fotoredigerare (Photoshop, GIMP, Photopea) för att ta bort bakgrunder. Konverteringen förbereder din bild för transparensarbete genom att ändra den till ett format som stöder alfakanaler.",
+        },
+        {
+          q: "Varför är PNG bättre än JPG för logotyper och grafik?",
+          a: "PNG använder förlustfri komprimering (noll kvalitetsförlust) medan JPG använder förlustkomprimering (permanent kvalitetsförsämring). PNG bevarar skarpa kanter, skarp text och rena linjer perfekt - viktigt för logotyper och grafik. PNG stöder också transparens för överlägg och bakgrunder. JPG skapar komprimeringsartefakter (suddighet, färgbandning) särskilt runt text och skarpa kanter. För logotyper, ikoner, grafik och texttunga bilder är PNG det professionella valet.",
+        },
+        {
+          q: "Kommer PNG-filer att vara större än JPG?",
+          a: "Ja, PNG-filer är typiskt 2-10 gånger större än JPG eftersom PNG använder förlustfri komprimering medan JPG använder förlustkomprimering. Kvaliteten och transparensstödet gör det dock värt det för grafik, logotyper och professionella bilder. För webbanvändning kompenseras den lilla ökningen av filstorlek av perfekt kvalitet och transparensfunktioner. Moderna webbläsare hanterar PNG effektivt.",
+        },
+        {
+          q: "Kan jag redigera PNG utan att förlora kvalitet?",
+          a: "Absolut! PNG är förlustfri, vilket betyder att du kan redigera och spara det obegränsat antal gånger utan kvalitetsförsämring. Varje sparande bevarar perfekt kvalitet. Detta är avgörande för designarbete där du behöver göra flera redigeringar. JPG förlorar kvalitet med varje sparande på grund av omkomprimering. För professionella redigeringsarbetsflöden, använd alltid PNG.",
+        },
+        {
+          q: "Är PNG bra för webbanvändning?",
+          a: "Ja! PNG är standardformatet för webbgrafik, logotyper, ikoner och UI-element. Även om större än JPG gör PNG:s transparensstöd och skarpa kvalitet det väsentligt för webbdesign. Använd PNG för logotyper, ikoner, knappar, grafik och texttunga bilder. Använd JPG för fotografier där transparens inte behövs. Modern komprimering och CDN:er hanterar PNG effektivt.",
+        },
+        {
+          q: "Vad är skillnaden mellan PNG-8 och PNG-24?",
+          a: "PNG-8 stöder 256 färger (som GIF) med enkel transparens, vilket resulterar i mindre filer. PNG-24 stöder 16 miljoner färger med 256 nivåer av alfatransparens (delvis transparens), erbjuder full kvalitet och mjuk transparens men större filer. Vår konverterare skapar PNG-24 för maximal kvalitet och fullt transparensstöd. Använd PNG-8 endast för enkel grafik med få färger.",
+        },
+        {
+          q: "Kan jag använda PNG för tryck?",
+          a: "Ja! PNG:s förlustfria kvalitet gör det utmärkt för tryck, särskilt för grafik, logotyper och texttunga design. PNG bevarar perfekt kvalitet vid vilken upplösning som helst. För fotografier kan dock TIFF eller hög kvalitet JPG vara mer effektivt på grund av mindre filstorlekar. För grafisk design tryckarbete (affischer, flygblad, visitkort) är PNG idealiskt.",
+        },
+        {
+          q: "Hur lång tid tar JPG till PNG-konvertering?",
+          a: "Konvertering tar 1-2 sekunder per bild. PNG-konvertering är snabb eftersom det är en formatändring som bevarar alla data. Resultatet är en förlustfri PNG redo för transparensarbete, upprepad redigering eller professionellt bruk utan kvalitetsförsämring.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "PNG till JPG", url: "/convert/png-to-jpg" },
+        { name: "JPG till WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG till WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC till PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF till PNG", url: "/convert/heif-to-png" },
+        { name: "JPG till PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF till PNG-konverterare - Konvertera HEIF-bilder Gratis Online till PNG",

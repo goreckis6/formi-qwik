@@ -1768,6 +1768,273 @@ export const de: Translations = {
       ],
     },
   },
+
+  // HEIF to GIF Converter
+  heifToGif: {
+    title: "HEIF zu GIF Konverter - Animierte GIFs und Teilbare Bilder Erstellen",
+    metaDescription:
+      "Konvertieren Sie HEIF zu GIF für universelles Teilen und Animationen. Perfekt für soziale Medien, Memes und Websites. Funktioniert überall - keine App erforderlich. Erstellen Sie animierte GIFs aus Fotos. Kostenloser Batch-Konverter.",
+    metaKeywords:
+      "HEIF zu GIF, animiertes GIF, Social Media Teilen, Memes, universelle Kompatibilität, GIF Animation, HEIF Batch konvertieren, teilbare Bilder",
+    hero: {
+      title: "HEIF zu GIF Konverter",
+      subtitle:
+        "Konvertieren Sie HEIF zu GIF - das am meisten teilbare Bildformat. Perfekt für Social-Media-Posts, Memes und Animationen. Universelle Kompatibilität auf allen Plattformen, Apps und Messaging-Diensten. Kein spezieller Viewer erforderlich.",
+      badge1: "Universelles Teilen",
+      badge2: "Social Media Bereit",
+      badge3: "Animations-Unterstützung",
+    },
+    upload: {
+      title: "HEIF-Dateien hochladen",
+      description:
+        "Ziehen Sie Ihre HEIF-Bilder hierher oder klicken Sie zum Durchsuchen. Unterstützt Batch-Konvertierung bis zu 20 Dateien. Maximal 100MB pro Datei.",
+      buttonSingle: "Einzelne Datei",
+      buttonBatch: "Batch konvertieren",
+      chooseFile: "Dateien auswählen",
+      converting: "Konvertierung läuft...",
+      success: "Konvertierung erfolgreich!",
+      download: "GIF herunterladen",
+      downloadAll: "Alle als ZIP herunterladen",
+      convertAnother: "Weitere Datei konvertieren",
+    },
+    features: {
+      title: "Funktionen",
+      list: [
+        "Universelle Kompatibilität - GIFs funktionieren absolut überall",
+        "Perfekt für soziale Medien (Twitter, Facebook, Instagram, WhatsApp)",
+        "Batch-Verarbeitung bis zu 20 Dateien gleichzeitig",
+        "Animations-Unterstützung zum Erstellen von GIF-Schleifen",
+        "100% sicher mit automatischem Dateilöschen",
+        "Kleine Dateigrößen für Teilen optimiert",
+        "Sofortiger Download - bereit zum Posten",
+        "Keine Wasserzeichen - saubere teilbare Bilder",
+      ],
+    },
+    howItWorks: {
+      title: "So funktioniert's",
+      step1Title: "HEIF-Dateien hochladen",
+      step1Desc: "Wählen Sie ein oder mehrere HEIF-Bilder von Ihrem Gerät",
+      step2Title: "Automatische Konvertierung",
+      step2Desc: "Unser Konverter verarbeitet Ihre Dateien sofort",
+      step3Title: "GIF herunterladen",
+      step3Desc: "Erhalten Sie Ihre konvertierten GIF-Dateien sofort",
+    },
+    about: {
+      title: "Über HEIF zu GIF Konvertierung",
+      whatIsHeif: {
+        title: "Warum ist GIF perfekt für soziale Medien und Teilen?",
+        content:
+          "GIF (Graphics Interchange Format) ist das universellste kompatible Bildformat, 1987 erstellt und heute noch erfolgreich. GIFs funktionieren absolut überall - alle Social-Media-Plattformen (Twitter, Facebook, Instagram, Reddit, Tumblr), Messaging-Apps (WhatsApp, Telegram, Discord, Slack), E-Mail-Clients, Foren und Websites zeigen GIFs ohne spezielle Software. GIFs Killer-Funktion ist Animations-Unterstützung - erstellen Sie Looping-Animationen, Cinemagraphs und Memes, die Aufmerksamkeit erregen. GIFs verwenden verlustfreie Komprimierung für bis zu 256 Farben, perfekt für Grafiken, Logos und einfache Animationen. Dateigrößen sind klein und teilbar, ideal für mobile Daten und schnelles Laden. GIF ist die Lingua Franca der Internetkultur - das Standardformat für Reaktionen, Memes und virale Inhalte.",
+      },
+      whyConvert: {
+        title: "Warum HEIF zu GIF konvertieren?",
+        content:
+          "Konvertieren Sie HEIF zu GIF für maximale Teilbarkeit und universelle Kompatibilität. HEIF funktioniert nur auf neueren Apple-Geräten und erfordert spezielle Software - was das Teilen erschwert. GIF funktioniert sofort auf jedem Gerät, jeder Plattform und jeder App ohne Viewer. Perfekt für: Social-Media-Posts (Twitter GIFs, Facebook Reaktionen, Instagram Stories), Meme-Erstellung (universelles Format für virale Inhalte), Messaging (WhatsApp, Telegram unterstützen GIF-Vorschau), Website-Einbettungen (alle Browser zeigen GIFs nativ), E-Mail-Signaturen und Marketing (garantierte Anzeige), Foren-Posts und Kommentare (universelle Unterstützung) und Reaktionsbilder (Emotionen sofort teilen). GIFs spielen automatisch ab und schleifen, was sie aufmerksamkeitsstark für Marketing und soziales Engagement macht. Während GIF-Qualität auf 256 Farben beschränkt ist, ist es für Grafiken, Text-Overlays und einfache Animationen optimiert - ideal für Internetkommunikation.",
+      },
+      heifVsHeic: {
+        title: "GIF vs Moderne Formate - Wann GIF wählen",
+        content:
+          "GIF tauscht Bildqualität gegen universelle Kompatibilität und Animation. Wählen Sie GIF wenn: Teilen in sozialen Medien (Instagram, Twitter Auto-Anzeige), Erstellen von Memes oder Reaktionen (universelles Format), Erstellen einfacher Animationen oder Schleifen, Sicherstellen 100% Kompatibilität (kein Viewer erforderlich), Teilen über Messaging-Apps (Auto-Vorschau-Unterstützung) oder Zielen auf virale/teilbare Inhalte. GIFs Einschränkungen (256 Farben, größer als WebP) werden durch garantierte Sichtbarkeit überall ausgeglichen. Moderne Formate wie AVIF/WebP bieten bessere Qualität, benötigen aber spezielle Viewer. Für Internetkultur, Memes und soziales Teilen bleibt GIF trotz 35+ Jahren unschlagbar. Seine Einfachheit und universelle Unterstützung machen es zur Standardwahl für teilbare Inhalte.",
+      },
+      benefits: {
+        title: "Vorteile des GIF-Formats",
+        list: [
+          "Universelle Kompatibilität - Funktioniert auf buchstäblich jedem Gerät und jeder Plattform",
+          "Social Media Native - Auto-Anzeige auf Twitter, Facebook, Instagram, Reddit",
+          "Animations-Unterstützung - Erstellen Sie Looping-GIFs und Cinemagraphs",
+          "Kein Viewer Erforderlich - Zeigt sofort ohne spezielle Software",
+          "Meme-Freundlich - Das Standardformat für Internetkultur",
+          "Auto-Play - Schleift automatisch für aufmerksamkeitsstarke Inhalte",
+        ],
+      },
+    },
+    faq: {
+      title: "Häufig gestellte Fragen – HEIF zu GIF",
+      items: [
+        {
+          q: "Ist es kostenlos, HEIF zu GIF zu konvertieren?",
+          a: "Ja! Unser HEIF zu GIF Konverter ist völlig kostenlos mit unbegrenzten Konvertierungen. Keine Registrierung, Abonnements oder versteckten Gebühren. Konvertieren Sie so viele Bilder wie Sie für soziale Medien, Memes oder Teilen benötigen.",
+        },
+        {
+          q: "Warum ist GIF so beliebt für soziale Medien und Memes?",
+          a: "GIF ist universell kompatibel - es funktioniert auf jeder Plattform, App und jedem Gerät ohne spezielle Software. Social-Media-Plattformen wie Twitter, Facebook, Instagram und Reddit unterstützen GIFs nativ mit Auto-Play und Looping. GIFs können animiert sein (perfekt für Reaktionen und Memes), sind klein genug für mobiles Teilen und sind zum Standardformat für Internetkultur und virale Inhalte geworden. Jeder kann Ihr GIF sofort ansehen, egal welches Gerät er verwendet.",
+        },
+        {
+          q: "Kann ich animierte GIFs aus HEIF-Bildern erstellen?",
+          a: "Ja! Während ein einzelnes HEIF zu einem statischen GIF konvertiert wird, können Sie mehrere HEIF-Bilder im Batch-Modus hochladen, um Frames für Animationen zu erstellen. Unser Konverter verarbeitet jedes Bild separat. Um echte animierte GIFs mit mehreren Frames zu erstellen, können Sie Batch-Konvertierung verwenden und dann die Frames mit kostenlosen GIF-Animationstools online kombinieren.",
+        },
+        {
+          q: "Wird GIF auf allen Social-Media-Plattformen funktionieren?",
+          a: "Absolut! GIF wird nativ von allen großen Plattformen unterstützt: Twitter/X (GIF-Button im Composer), Facebook (auto-spielende GIFs), Instagram (Stories und DMs), Reddit (Inline-Anzeige), Tumblr (GIF-fokussierte Plattform), WhatsApp (Auto-Vorschau), Telegram, Discord, Slack und praktisch jeder Messaging-App und Forum. GIFs werden automatisch angezeigt und schleifen ohne Viewer oder Plugin.",
+        },
+        {
+          q: "Warum sind GIF-Dateien größer als HEIF?",
+          a: "GIF verwendet unkomprimierte oder verlustfreie Komprimierung, um Frame-für-Frame-Qualität für Animationen zu erhalten, während HEIF moderne Videokomprimierung verwendet. GIFs universelle Kompatibilität und garantierte Anzeige machen den Größenkompromiss jedoch für das Teilen lohnenswert. Für soziale Medien und Memes ist sofortige Sichtbarkeit auf allen Geräten wertvoller als Dateigrößenoptimierung. Außerdem optimiert unser Konverter GIF-Ausgabe für Web-Teilung.",
+        },
+        {
+          q: "Kann ich GIF für professionelle Arbeit verwenden?",
+          a: "Ja! GIF ist perfekt für: E-Mail-Marketing (animierte Banner, Signaturen), Website-Elemente (Lade-Animationen, Icons), Präsentationen (animierte Diagramme, Übergänge), Kundenkommunikation (garantierte Ansicht) und Social-Media-Marketing (hohe Engagement-Raten). Während GIF 256-Farben-Einschränkungen hat, ist es ideal für Grafiken, Logos, Text-Overlays und einfache Animationen, bei denen universelle Kompatibilität wichtiger ist als fotorealistische Qualität.",
+        },
+        {
+          q: "Was ist der Unterschied zwischen GIF und modernen Formaten wie WebP?",
+          a: "GIF (1987) priorisiert universelle Kompatibilität und Animation; WebP (2010) priorisiert Komprimierung und Qualität. GIF funktioniert auf 100% der Geräte ohne speziellen Viewer; WebP benötigt moderne Browser (97% Unterstützung). Für soziale Medien, Memes und teilbare Inhalte gewinnt GIFs garantierte Sichtbarkeit. Für Website-Optimierung und Fotoqualität ist WebP besser. Wählen Sie GIF, wenn Teilen wichtiger ist als Dateigröße.",
+        },
+        {
+          q: "Kann ich Memes mit GIF erstellen?",
+          a: "Absolut! GIF ist das Standardformat für Internet-Memes und Reaktionsbilder. Nach der Konvertierung von HEIF zu GIF können Sie Text-Overlays hinzufügen, Frames kombinieren oder das GIF direkt zum Teilen verwenden. GIFs sind perfekt für Memes, weil sie überall funktionieren, automatisch abspielen für sofortige Wirkung, animiert werden können für zusätzlichen Ausdruck und leicht auf allen Plattformen geteilt werden können. Die Internet-Meme-Kultur basiert auf GIF-Format.",
+        },
+        {
+          q: "Wie lange dauert die HEIF zu GIF Konvertierung?",
+          a: "Die Konvertierung dauert 1-2 Sekunden pro Bild. GIF-Erstellung ist schnell, weil es ein einfaches Format ist, das für Kompatibilität statt komplexe Komprimierung optimiert ist. Das Ergebnis ist eine universell kompatible Datei, bereit für sofortiges Teilen auf sozialen Medien, Messaging-Apps oder jeder Plattform.",
+        },
+      ],
+    },
+    related: {
+      title: "Verwandte Konverter",
+      converters: [
+        { name: "HEIC zu GIF", url: "/convert/heic-to-gif" },
+        { name: "HEIF zu PNG", url: "/convert/heif-to-png" },
+        { name: "HEIF zu JPG", url: "/convert/heif-to-jpg" },
+        { name: "PNG zu GIF", url: "/convert/png-to-gif" },
+        { name: "JPG zu GIF", url: "/convert/jpg-to-gif" },
+        { name: "GIF zu PNG", url: "/convert/gif-to-png" },
+      ],
+    },
+  },
+
+  // JPG to PNG Converter
+  jpgToPng: {
+    title: "JPG zu PNG Konverter - Transparenz & Verlustfreie Qualität hinzufügen",
+    metaDescription:
+      "Konvertieren Sie JPG zu PNG für Transparenz-Unterstützung und verlustfreie Qualität. Perfekt für Logos, Grafiken und Web-Bilder. Erhalten Sie die Bildqualität ohne Komprimierungsartefakte. Kostenloser Batch-Konverter, keine Registrierung.",
+    metaKeywords:
+      "JPG zu PNG, Transparenz hinzufügen, verlustfreie Konvertierung, Grafik-Konverter, Logo-Konverter, Web-Bilder, JPG Batch konvertieren, Hintergrund entfernen",
+    hero: {
+      title: "JPG zu PNG Konverter",
+      subtitle:
+        "Konvertieren Sie JPG zu PNG für Transparenz-Unterstützung und überlegene Qualität. Perfekt für Logos, Grafiken und professionelle Bilder. PNG erhält jedes Detail ohne Komprimierungsartefakte - ideal für Web-Grafiken, Overlays und Bilder mit transparenten Hintergründen.",
+      badge1: "Transparenz-Unterstützung",
+      badge2: "Verlustfreie Qualität",
+      badge3: "Keine Artefakte",
+    },
+    upload: {
+      title: "JPG-Dateien hochladen",
+      description:
+        "Ziehen Sie Ihre JPG-Bilder hierher oder klicken Sie zum Durchsuchen. Unterstützt Batch-Konvertierung bis zu 20 Dateien. Maximal 100MB pro Datei.",
+      buttonSingle: "Einzelne Datei",
+      buttonBatch: "Batch konvertieren",
+      chooseFile: "Dateien auswählen",
+      converting: "Konvertierung läuft...",
+      success: "Konvertierung erfolgreich!",
+      download: "PNG herunterladen",
+      downloadAll: "Alle als ZIP herunterladen",
+      convertAnother: "Weitere Datei konvertieren",
+    },
+    features: {
+      title: "Funktionen",
+      list: [
+        "Transparenz-Unterstützung - Alpha-Kanal für Overlays hinzufügen",
+        "Verlustfreie Qualität - Jeden Pixel perfekt erhalten",
+        "Batch-Verarbeitung bis zu 20 Dateien gleichzeitig",
+        "Keine Komprimierungsartefakte - Scharfe Kanten und Text",
+        "100% sicher mit automatischem Dateilöschen",
+        "Perfekt für Logos, Grafiken und Web-Bilder",
+        "Sofortiger Download - Bereit zur Verwendung",
+        "Keine Wasserzeichen - Professionelle Qualität",
+      ],
+    },
+    howItWorks: {
+      title: "So funktioniert's",
+      step1Title: "JPG-Dateien hochladen",
+      step1Desc: "Wählen Sie ein oder mehrere JPG-Bilder von Ihrem Gerät",
+      step2Title: "Automatische Konvertierung",
+      step2Desc: "Unser Konverter verarbeitet Ihre Dateien sofort",
+      step3Title: "PNG herunterladen",
+      step3Desc: "Erhalten Sie Ihre konvertierten PNG-Dateien sofort",
+    },
+    about: {
+      title: "Über JPG zu PNG Konvertierung",
+      whatIsHeif: {
+        title: "Warum ist PNG perfekt für Grafiken und Logos?",
+        content:
+          "PNG (Portable Network Graphics) ist die professionelle Wahl für Grafiken, Logos und Bilder, die Transparenz erfordern. 1996 als patentfreie Alternative zu GIF erstellt, verwendet PNG verlustfreie Komprimierung - das bedeutet null Qualitätsverlust, unabhängig davon, wie oft Sie es speichern. PNGs Killer-Funktion ist Alpha-Kanal-Transparenz - perfekt für Logos, Overlays, Wasserzeichen und Grafiken, die nahtlos mit Hintergründen verschmelzen müssen. Im Gegensatz zu JPG (verlustbehaftete Komprimierung, die Qualität verschlechtert) erhält PNG jeden Pixel perfekt, behält scharfe Kanten auf Text, scharfe Linien auf Grafiken und lebendige Farben ohne Komprimierungsartefakte bei. PNG unterstützt 16 Millionen Farben plus 256 Transparenzstufen und ist damit der Standard für Web-Grafiken, UI-Elemente, Icons, Screenshots und professionelle Designarbeit. Dateigrößen sind größer als JPG, aber die Qualität und Transparenz-Unterstützung sind es für Grafiken und Logos wert.",
+      },
+      whyConvert: {
+        title: "Warum JPG zu PNG konvertieren?",
+        content:
+          "Konvertieren Sie JPG zu PNG, wenn Sie Transparenz oder verlustfreie Qualität benötigen. JPG verwendet verlustbehaftete Komprimierung, die die Bildqualität bei jeder Bearbeitung dauerhaft verschlechtert - es entstehen Komprimierungsartefakte, unscharfer Text und Farbverläufe. PNG verwendet verlustfreie Komprimierung und erhält die perfekte Qualität für immer. Hauptgründe für die Konvertierung: Transparenz für Logos und Overlays hinzufügen (Hintergründe entfernen), Grafiken für Web/Design-Arbeit vorbereiten (scharfe Kanten), Qualitätsverschlechterung vermeiden (keine Artefakte), geschichtete Kompositionen erstellen (Alpha-Kanal-Unterstützung), Text und Strichzeichnungen erhalten (scharfe Kanten) oder Bilder wiederholt ohne Verlust bearbeiten. PNG ist unerlässlich für Logos, Icons, Grafiken, Screenshots, UI-Elemente, Wasserzeichen und jedes Bild, das transparente Hintergründe erfordert. Während PNG-Dateien größer sind als JPG, machen die Qualität und Transparenz-Unterstützung es zur professionellen Wahl für Grafikarbeit. Konvertieren Sie JPG zu PNG vor der Bearbeitung, um weiteren Qualitätsverlust zu verhindern.",
+      },
+      heifVsHeic: {
+        title: "PNG vs JPG - Wann PNG wählen",
+        content:
+          "PNG und JPG dienen unterschiedlichen Zwecken. Wählen Sie PNG für: Logos und Grafiken (scharfe Kanten, Transparenz), textlastige Bilder (keine Unschärfe), Bilder, die Transparenz erfordern (Overlays, Wasserzeichen), Grafiken, die wiederholte Bearbeitung benötigen (verlustfrei), Icons und UI-Elemente (scharfe Details), Screenshots (Klarheit erhalten) oder professionelle Designarbeit (null Artefakte). Wählen Sie JPG für: Fotos (effiziente Komprimierung), Bilder ohne Transparenz-Bedarf, Dateigrößen-Priorität (kleinere Dateien) oder Social-Media-Fotos (akzeptabler Qualitätsverlust). PNGs Vorteile: verlustfreie Qualität (perfekte Erhaltung), Transparenz-Unterstützung (Alpha-Kanal), keine Komprimierungsartefakte (scharfe Kanten), unbegrenzte Bearbeitung ohne Verschlechterung. PNGs Nachteile: größere Dateigrößen (2-10× größer als JPG), nicht ideal für Fotos (ineffiziente Komprimierung). Für Web-Nutzung: PNG für Logos/Grafiken, JPG für Fotos. Für Druck: PNG für Grafiken, JPG für Fotos. Für Bearbeitung: Immer PNG (verhindert Qualitätsverlust).",
+      },
+      benefits: {
+        title: "Vorteile des PNG-Formats",
+        list: [
+          "Transparenz-Unterstützung - Alpha-Kanal für Logos und Overlays hinzufügen",
+          "Verlustfreie Qualität - Null Qualitätsverlust, perfekte Pixel-Erhaltung",
+          "Keine Komprimierungsartefakte - Scharfe Kanten, scharfer Text, saubere Grafiken",
+          "Unbegrenzte Bearbeitung - Wiederholt bearbeiten ohne Qualitätsverschlechterung",
+          "Professioneller Standard - Branchenwahl für Grafiken und Logos",
+          "Web-optimiert - Perfekt für UI-Elemente, Icons und Grafiken",
+        ],
+      },
+    },
+    faq: {
+      title: "Häufig gestellte Fragen – JPG zu PNG",
+      items: [
+        {
+          q: "Ist es kostenlos, JPG zu PNG zu konvertieren?",
+          a: "Ja! Unser JPG zu PNG Konverter ist völlig kostenlos mit unbegrenzten Konvertierungen. Keine Registrierung, Abonnements oder versteckten Gebühren. Konvertieren Sie so viele Bilder wie Sie für Logos, Grafiken oder professionelle Nutzung benötigen.",
+        },
+        {
+          q: "Wird die Konvertierung von JPG zu PNG Transparenz hinzufügen?",
+          a: "Die Konvertierung von JPG zu PNG fügt Transparenz-Unterstützung (Alpha-Kanal) hinzu, macht aber vorhandene weiße/schwarze Hintergründe nicht automatisch transparent. Das PNG-Format unterstützt Transparenz, sodass Sie dann das PNG in Fotoeditoren (Photoshop, GIMP, Photopea) bearbeiten können, um Hintergründe zu entfernen. Die Konvertierung bereitet Ihr Bild für Transparenzarbeit vor, indem es in ein Format geändert wird, das Alpha-Kanäle unterstützt.",
+        },
+        {
+          q: "Warum ist PNG besser als JPG für Logos und Grafiken?",
+          a: "PNG verwendet verlustfreie Komprimierung (null Qualitätsverlust), während JPG verlustbehaftete Komprimierung (dauerhafte Qualitätsverschlechterung) verwendet. PNG erhält scharfe Kanten, scharfen Text und saubere Linien perfekt - unerlässlich für Logos und Grafiken. PNG unterstützt auch Transparenz für Overlays und Hintergründe. JPG erzeugt Komprimierungsartefakte (Unschärfe, Farbverläufe), besonders um Text und scharfe Kanten. Für Logos, Icons, Grafiken und textlastige Bilder ist PNG die professionelle Wahl.",
+        },
+        {
+          q: "Werden PNG-Dateien größer sein als JPG?",
+          a: "Ja, PNG-Dateien sind typischerweise 2-10 mal größer als JPG, da PNG verlustfreie Komprimierung verwendet, während JPG verlustbehaftete Komprimierung verwendet. Die Qualität und Transparenz-Unterstützung machen es jedoch für Grafiken, Logos und professionelle Bilder lohnenswert. Für Web-Nutzung wird der leichte Anstieg der Dateigröße durch perfekte Qualität und Transparenz-Fähigkeiten ausgeglichen. Moderne Browser handhaben PNG effizient.",
+        },
+        {
+          q: "Kann ich PNG ohne Qualitätsverlust bearbeiten?",
+          a: "Absolut! PNG ist verlustfrei, was bedeutet, dass Sie es unbegrenzt oft bearbeiten und speichern können, ohne Qualitätsverschlechterung. Jedes Speichern erhält die perfekte Qualität. Dies ist entscheidend für Designarbeit, bei der Sie mehrere Bearbeitungen vornehmen müssen. JPG verliert bei jedem Speichern Qualität aufgrund von Rekomprimierung. Für professionelle Bearbeitungs-Workflows verwenden Sie immer PNG.",
+        },
+        {
+          q: "Ist PNG gut für Web-Nutzung?",
+          a: "Ja! PNG ist das Standardformat für Web-Grafiken, Logos, Icons und UI-Elemente. Während größer als JPG, machen PNGs Transparenz-Unterstützung und scharfe Qualität es unerlässlich für Web-Design. Verwenden Sie PNG für Logos, Icons, Buttons, Grafiken und textlastige Bilder. Verwenden Sie JPG für Fotos, bei denen Transparenz nicht benötigt wird. Moderne Komprimierung und CDNs handhaben PNG effizient.",
+        },
+        {
+          q: "Was ist der Unterschied zwischen PNG-8 und PNG-24?",
+          a: "PNG-8 unterstützt 256 Farben (wie GIF) mit einfacher Transparenz, was zu kleineren Dateien führt. PNG-24 unterstützt 16 Millionen Farben mit 256 Alpha-Transparenzstufen (Teiltransparenz), bietet volle Qualität und sanfte Transparenz, aber größere Dateien. Unser Konverter erstellt PNG-24 für maximale Qualität und volle Transparenz-Unterstützung. Verwenden Sie PNG-8 nur für einfache Grafiken mit wenigen Farben.",
+        },
+        {
+          q: "Kann ich PNG für Druck verwenden?",
+          a: "Ja! PNGs verlustfreie Qualität macht es ausgezeichnet für Druck, besonders für Grafiken, Logos und textlastige Designs. PNG erhält die perfekte Qualität bei jeder Auflösung. Für Fotos könnten jedoch TIFF oder hochwertiges JPG aufgrund kleinerer Dateigrößen effizienter sein. Für Grafikdesign-Druckarbeit (Plakate, Flyer, Visitenkarten) ist PNG ideal.",
+        },
+        {
+          q: "Wie lange dauert die JPG zu PNG Konvertierung?",
+          a: "Die Konvertierung dauert 1-2 Sekunden pro Bild. PNG-Konvertierung ist schnell, da es eine Formatänderung ist, die alle Daten erhält. Das Ergebnis ist ein verlustfreies PNG, bereit für Transparenzarbeit, wiederholte Bearbeitung oder professionelle Nutzung ohne Qualitätsverschlechterung.",
+        },
+      ],
+    },
+    related: {
+      title: "Verwandte Konverter",
+      converters: [
+        { name: "PNG zu JPG", url: "/convert/png-to-jpg" },
+        { name: "JPG zu WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG zu WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC zu PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF zu PNG", url: "/convert/heif-to-png" },
+        { name: "JPG zu PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF zu PNG Konverter - Konvertieren Sie HEIF-Bilder kostenlos online zu PNG",

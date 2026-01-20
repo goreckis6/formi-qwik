@@ -1741,6 +1741,273 @@ export const tr: Translations = {
       ],
     },
   },
+
+  // HEIF to GIF Converter
+  heifToGif: {
+    title: "HEIF'den GIF'e Dönüştürücü - Animasyonlu GIF'ler ve Paylaşılabilir Görüntüler Oluşturun",
+    metaDescription:
+      "Evrensel paylaşım ve animasyonlar için HEIF'i GIF'e dönüştürün. Sosyal medya, meme'ler ve web siteleri için mükemmel. Her yerde çalışır - uygulama gerekmez. Fotoğraflardan animasyonlu GIF'ler oluşturun. Ücretsiz toplu dönüştürücü.",
+    metaKeywords:
+      "HEIF'den GIF'e, animasyonlu GIF, sosyal medya paylaşımı, meme'ler, evrensel uyumluluk, GIF animasyonu, HEIF toplu dönüştür, paylaşılabilir görüntüler",
+    hero: {
+      title: "HEIF'den GIF'e Dönüştürücü",
+      subtitle:
+        "HEIF'i GIF'e dönüştürün - en paylaşılabilir görüntü formatı. Sosyal medya gönderileri, meme'ler ve animasyonlar için mükemmel. Tüm platformlar, uygulamalar ve mesajlaşma hizmetlerinde evrensel uyumluluk. Özel görüntüleyici gerekmez.",
+      badge1: "Evrensel Paylaşım",
+      badge2: "Sosyal Medya Hazır",
+      badge3: "Animasyon Desteği",
+    },
+    upload: {
+      title: "HEIF Dosyalarını Yükle",
+      description:
+        "HEIF görüntülerinizi buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürmeyi destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştür",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "GIF İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Evrensel uyumluluk - GIF'ler kesinlikle her yerde çalışır",
+        "Sosyal medya için mükemmel (Twitter, Facebook, Instagram, WhatsApp)",
+        "Aynı anda 20 dosyaya kadar toplu işleme",
+        "GIF döngüleri oluşturmak için animasyon desteği",
+        "Otomatik dosya silme ile %100 güvenli",
+        "Paylaşım için optimize edilmiş küçük dosya boyutları",
+        "Anında indirme - yayınlamaya hazır",
+        "Filigran yok - temiz paylaşılabilir görüntüler",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "HEIF Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla HEIF görüntüsü seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "GIF İndir",
+      step3Desc: "Dönüştürülmüş GIF dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "HEIF'den GIF'e Dönüştürme Hakkında",
+      whatIsHeif: {
+        title: "GIF Neden Sosyal Medya ve Paylaşım İçin Mükemmeldir?",
+        content:
+          "GIF (Graphics Interchange Format), 1987'de oluşturulan ve bugün hala başarılı olan en evrensel uyumlu görüntü formatıdır. GIF'ler kesinlikle her yerde çalışır - tüm sosyal medya platformları (Twitter, Facebook, Instagram, Reddit, Tumblr), mesajlaşma uygulamaları (WhatsApp, Telegram, Discord, Slack), e-posta istemcileri, forumlar ve web siteleri özel yazılım olmadan GIF'leri gösterir. GIF'in ana özelliği animasyon desteğidir - dikkat çeken döngü animasyonları, sinemagraf ve meme'ler oluşturun. GIF'ler 256 renge kadar kayıpsız sıkıştırma kullanır, bu da onları grafikler, logolar ve basit animasyonlar için mükemmel yapar. Dosya boyutları küçük ve paylaşılabilir, mobil veri ve hızlı yükleme için idealdir. GIF, internet kültürünün lingua franca'sıdır - tepkiler, meme'ler ve viral içerik için tercih edilen format.",
+      },
+      whyConvert: {
+        title: "Neden HEIF'i GIF'e Dönüştürmeliyim?",
+        content:
+          "Maksimum paylaşılabilirlik ve evrensel uyumluluk için HEIF'i GIF'e dönüştürün. HEIF yalnızca daha yeni Apple cihazlarında çalışır ve özel yazılım gerektirir - bu da paylaşımı zorlaştırır. GIF, görüntüleyici gerekmeden her cihazda, platformda ve uygulamada anında çalışır. Şunlar için mükemmel: sosyal medya gönderileri (Twitter GIF'leri, Facebook tepkileri, Instagram hikayeleri), meme oluşturma (viral içerik için evrensel format), mesajlaşma (WhatsApp, Telegram GIF önizlemesini destekler), web gömme (tüm tarayıcılar GIF'leri yerel olarak gösterir), e-posta imzaları ve pazarlama (garantili görüntüleme), forum gönderileri ve yorumları (evrensel destek) ve tepki görüntüleri (duyguları anında paylaşın). GIF'ler otomatik olarak oynatılır ve döngü yapar, bu da onları pazarlama ve sosyal etkileşim için dikkat çekici yapar. GIF kalitesi 256 renkle sınırlı olsa da, grafikler, metin katmanları ve basit animasyonlar için optimize edilmiştir - bu da onu internet iletişimi için ideal yapar.",
+      },
+      heifVsHeic: {
+        title: "GIF vs Modern Formatlar - GIF Ne Zaman Seçilmeli",
+        content:
+          "GIF, görüntü kalitesini evrensel uyumluluk ve animasyon için takas eder. GIF'i şu durumlarda seçin: sosyal medyada paylaşım (Instagram, Twitter otomatik görüntüleme), meme veya tepki oluşturma (evrensel format), basit animasyonlar veya döngüler yapma, %100 uyumluluk sağlama (görüntüleyici gerekmez), mesajlaşma uygulamaları aracılığıyla paylaşım (otomatik önizleme desteği) veya viral/paylaşılabilir içeriği hedefleme. GIF'in sınırlamaları (256 renk, WebP'den daha büyük) her yerde garanti edilen görünürlük ile telafi edilir. AVIF/WebP gibi modern formatlar daha iyi kalite sunar ancak özel görüntüleyicilere ihtiyaç duyar. İnternet kültürü, meme'ler ve sosyal paylaşım için GIF, 35+ yıla rağmen rakipsiz kalır. Basitliği ve evrensel desteği, onu paylaşılabilir içerik için varsayılan seçim yapar.",
+      },
+      benefits: {
+        title: "GIF Formatının Avantajları",
+        list: [
+          "Evrensel Uyumluluk - Kelimenin tam anlamıyla her cihazda ve platformda çalışır",
+          "Sosyal Medya Yerli - Twitter, Facebook, Instagram, Reddit'te otomatik görüntülenir",
+          "Animasyon Desteği - Döngü GIF'leri ve sinemagraf oluşturun",
+          "Görüntüleyici Gerekmez - Özel yazılım olmadan anında görüntülenir",
+          "Meme Dostu - İnternet kültürü için standart format",
+          "Otomatik Oynatma - Dikkat çekici içerik için otomatik olarak döngü yapar",
+        ],
+      },
+    },
+    faq: {
+      title: "Sık Sorulan Sorular – HEIF'den GIF'e",
+      items: [
+        {
+          q: "HEIF'i GIF'e dönüştürmek ücretsiz mi?",
+          a: "Evet! HEIF'den GIF'e dönüştürücümüz sınırsız dönüştürmelerle tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret yok. Sosyal medya, meme'ler veya paylaşım için ihtiyacınız olan kadar görüntü dönüştürün.",
+        },
+        {
+          q: "GIF neden sosyal medya ve meme'ler için bu kadar popüler?",
+          a: "GIF evrensel olarak uyumludur - özel yazılım olmadan her platformda, uygulamada ve cihazda çalışır. Twitter, Facebook, Instagram ve Reddit gibi sosyal medya platformları GIF'leri otomatik oynatma ve döngü ile yerel olarak destekler. GIF'ler animasyonlu olabilir (tepkiler ve meme'ler için mükemmel), mobil paylaşım için yeterince küçüktür ve internet kültürü ve viral içerik için standart format haline gelmiştir. Herkes, hangi cihazı kullanırsa kullansın, GIF'inizi anında görüntüleyebilir.",
+        },
+        {
+          q: "HEIF görüntülerinden animasyonlu GIF'ler oluşturabilir miyim?",
+          a: "Evet! Tek bir HEIF statik bir GIF'e dönüştürülürken, animasyon için kareler oluşturmak üzere toplu modda birden fazla HEIF görüntüsü yükleyebilirsiniz. Dönüştürücümüz her görüntüyü ayrı ayrı işler. Birden fazla kareli gerçek animasyonlu GIF'ler oluşturmak için toplu dönüştürmeyi kullanabilir ve ardından kareleri çevrimiçi ücretsiz GIF animasyon araçlarını kullanarak birleştirebilirsiniz.",
+        },
+        {
+          q: "GIF tüm sosyal medya platformlarında çalışacak mı?",
+          a: "Kesinlikle! GIF, tüm büyük platformlar tarafından yerel olarak desteklenir: Twitter/X (composer'da GIF düğmesi), Facebook (otomatik oynatılan GIF'ler), Instagram (Hikayeler ve DM'ler), Reddit (satır içi görüntüleme), Tumblr (GIF odaklı platform), WhatsApp (otomatik önizleme), Telegram, Discord, Slack ve neredeyse her mesajlaşma uygulaması ve forum. GIF'ler görüntüleyici veya eklenti gerekmeden otomatik olarak görüntülenir ve döngü yapar.",
+        },
+        {
+          q: "GIF dosyaları neden HEIF'den daha büyük?",
+          a: "GIF, animasyonlar için kare kare kaliteyi korumak için sıkıştırılmamış veya kayıpsız sıkıştırma kullanır, oysa HEIF modern video sıkıştırması kullanır. Ancak, GIF'in evrensel uyumluluğu ve garanti edilen görüntüleme, paylaşım için boyut takasını değerli kılar. Sosyal medya ve meme'ler için, tüm cihazlarda anında görünürlük, dosya boyutu optimizasyonundan daha değerlidir. Ayrıca, dönüştürücümüz GIF çıktısını web paylaşımı için optimize eder.",
+        },
+        {
+          q: "GIF'i profesyonel iş için kullanabilir miyim?",
+          a: "Evet! GIF şunlar için mükemmeldir: e-posta pazarlama (animasyonlu banner'lar, imzalar), web sitesi öğeleri (yükleme animasyonları, simgeler), sunumlar (animasyonlu grafikler, geçişler), müşteri iletişimi (garantili görüntüleme) ve sosyal medya pazarlama (yüksek etkileşim oranları). GIF'in 256 renk sınırlamaları olsa da, evrensel uyumluluğun foto-gerçekçi kaliteden daha önemli olduğu grafikler, logolar, metin katmanları ve basit animasyonlar için idealdir.",
+        },
+        {
+          q: "GIF ile WebP gibi modern formatlar arasındaki fark nedir?",
+          a: "GIF (1987) evrensel uyumluluk ve animasyonu önceliklendirir; WebP (2010) sıkıştırma ve kaliteyi önceliklendirir. GIF özel görüntüleyici olmadan cihazların %100'ünde çalışır; WebP modern tarayıcılara ihtiyaç duyar (%97 destek). Sosyal medya, meme'ler ve paylaşılabilir içerik için GIF'in garanti edilen görünürlüğü kazanır. Web sitesi optimizasyonu ve fotoğraf kalitesi için WebP daha iyidir. Paylaşım dosya boyutundan daha önemli olduğunda GIF'i seçin.",
+        },
+        {
+          q: "GIF ile meme oluşturabilir miyim?",
+          a: "Kesinlikle! GIF, internet meme'leri ve tepki görüntüleri için standart formattır. HEIF'i GIF'e dönüştürdükten sonra, metin katmanları ekleyebilir, kareleri birleştirebilir veya GIF'i doğrudan paylaşım için kullanabilirsiniz. GIF'ler meme'ler için mükemmeldir çünkü her yerde çalışırlar, anında etki için otomatik oynatılırlar, ekstra ifade için animasyonlu olabilirler ve tüm platformlarda kolayca paylaşılabilirler. İnternet meme kültürü GIF formatı üzerine kuruludur.",
+        },
+        {
+          q: "HEIF'den GIF'e dönüştürme ne kadar sürer?",
+          a: "Dönüştürme görüntü başına 1-2 saniye sürer. GIF oluşturma hızlıdır çünkü karmaşık sıkıştırma yerine uyumluluk için optimize edilmiş basit bir formattır. Sonuç, sosyal medyada, mesajlaşma uygulamalarında veya herhangi bir platformda anında paylaşıma hazır evrensel olarak uyumlu bir dosyadır.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "HEIC'den GIF'e", url: "/convert/heic-to-gif" },
+        { name: "HEIF'den PNG'ye", url: "/convert/heif-to-png" },
+        { name: "HEIF'den JPG'ye", url: "/convert/heif-to-jpg" },
+        { name: "PNG'den GIF'e", url: "/convert/png-to-gif" },
+        { name: "JPG'den GIF'e", url: "/convert/jpg-to-gif" },
+        { name: "GIF'den PNG'ye", url: "/convert/gif-to-png" },
+      ],
+    },
+  },
+
+  // JPG to PNG Converter
+  jpgToPng: {
+    title: "JPG'den PNG'ye Dönüştürücü - Şeffaflık ve Kayıpsız Kalite Ekleyin",
+    metaDescription:
+      "Şeffaflık desteği ve kayıpsız kalite için JPG'yi PNG'ye dönüştürün. Logolar, grafikler ve web görüntüleri için mükemmel. Sıkıştırma artefaktları olmadan görüntü kalitesini koruyun. Ücretsiz toplu dönüştürücü, kayıt yok.",
+    metaKeywords:
+      "JPG'den PNG'ye, şeffaflık ekle, kayıpsız dönüştürme, grafik dönüştürücü, logo dönüştürücü, web görüntüleri, toplu JPG dönüştür, arka planı kaldır",
+    hero: {
+      title: "JPG'den PNG'ye Dönüştürücü",
+      subtitle:
+        "Şeffaflık desteği ve üstün kalite için JPG'yi PNG'ye dönüştürün. Logolar, grafikler ve profesyonel görüntüler için mükemmel. PNG, sıkıştırma artefaktları olmadan her detayı korur - web grafikleri, katmanlar ve şeffaf arka plan gerektiren görüntüler için ideal.",
+      badge1: "Şeffaflık Desteği",
+      badge2: "Kayıpsız Kalite",
+      badge3: "Artefakt Yok",
+    },
+    upload: {
+      title: "JPG Dosyalarını Yükle",
+      description:
+        "JPG görüntülerinizi buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürmeyi destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştür",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "PNG İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Şeffaflık desteği - katmanlar için alfa kanalı ekle",
+        "Kayıpsız kalite - her pikseli mükemmel şekilde koru",
+        "Aynı anda 20 dosyaya kadar toplu işleme",
+        "Sıkıştırma artefaktı yok - keskin kenarlar ve metin",
+        "Otomatik dosya silme ile %100 güvenli",
+        "Logolar, grafikler ve web görüntüleri için mükemmel",
+        "Anında indirme - kullanıma hazır",
+        "Filigran yok - profesyonel kalite",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "JPG Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla JPG görüntüsü seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "PNG İndir",
+      step3Desc: "Dönüştürülmüş PNG dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "JPG'den PNG'ye Dönüştürme Hakkında",
+      whatIsHeif: {
+        title: "PNG Neden Grafikler ve Logolar İçin Mükemmeldir?",
+        content:
+          "PNG (Portable Network Graphics), şeffaflık gerektiren grafikler, logolar ve görüntüler için profesyonel seçimdir. 1996'da GIF'e patent içermeyen bir alternatif olarak oluşturulan PNG, kayıpsız sıkıştırma kullanır - kaç kez kaydederseniz kaydedin sıfır kalite kaybı anlamına gelir. PNG'nin ana özelliği alfa kanalı şeffaflığıdır - logolar, katmanlar, filigranlar ve arka planlarla kusursuz bir şekilde karışması gereken grafikler için mükemmeldir. JPG'den (kaliteyi düşüren kayıplı sıkıştırma) farklı olarak, PNG her pikseli mükemmel şekilde korur, metinde keskin kenarlar, grafiklerde keskin çizgiler ve sıkıştırma artefaktları olmadan canlı renkler korur. PNG, 16 milyon renk artı 256 şeffaflık seviyesini destekler, bu da onu web grafikleri, UI öğeleri, simgeler, ekran görüntüleri ve profesyonel tasarım işi için standart yapar. Dosya boyutları JPG'den daha büyüktür ancak kalite ve şeffaflık desteği grafikler ve logolar için buna değer.",
+      },
+      whyConvert: {
+        title: "Neden JPG'yi PNG'ye Dönüştürmeliyim?",
+        content:
+          "Şeffaflık veya kayıpsız kalite gerektiğinde JPG'yi PNG'ye dönüştürün. JPG, her düzenlemede görüntü kalitesini kalıcı olarak düşüren kayıplı sıkıştırma kullanır - sıkıştırma artefaktları, bulanık metin ve renk bantlaması oluşturur. PNG kayıpsız sıkıştırma kullanır, mükemmel kaliteyi sonsuza kadar korur. Dönüştürmenin temel nedenleri: logolar ve katmanlar için şeffaflık ekle (arka planları kaldır), web/tasarım işi için grafikleri hazırla (keskin kenarlar), kalite düşüşünden kaçın (artefakt yok), katmanlı kompozisyonlar oluştur (alfa kanalı desteği), metin ve çizgi sanatını koru (keskin kenarlar) veya kayıp olmadan görüntüleri tekrar tekrar düzenle. PNG, logolar, simgeler, grafikler, ekran görüntüleri, UI öğeleri, filigranlar ve şeffaf arka plan gerektiren herhangi bir görüntü için gereklidir. PNG dosyaları JPG'den daha büyük olsa da, kalite ve şeffaflık desteği onu grafik işi için profesyonel seçim yapar. Daha fazla kalite kaybını önlemek için düzenlemeden önce JPG'yi PNG'ye dönüştürün.",
+      },
+      heifVsHeic: {
+        title: "PNG vs JPG - PNG Ne Zaman Seçilmeli",
+        content:
+          "PNG ve JPG farklı amaçlara hizmet eder. PNG'yi seçin: logolar ve grafikler (keskin kenarlar, şeffaflık), metin ağırlıklı görüntüler (bulanıklık yok), şeffaflık gerektiren görüntüler (katmanlar, filigranlar), tekrarlanan düzenleme gerektiren grafikler (kayıpsız), simgeler ve UI öğeleri (keskin detaylar), ekran görüntüleri (netliği koru) veya profesyonel tasarım işi (sıfır artefakt). JPG'yi seçin: fotoğraflar (verimli sıkıştırma), şeffaflık ihtiyacı olmayan görüntüler, dosya boyutu önceliği (daha küçük dosyalar) veya sosyal medya fotoğrafları (kabul edilebilir kalite kaybı). PNG'nin avantajları: kayıpsız kalite (mükemmel koruma), şeffaflık desteği (alfa kanalı), sıkıştırma artefaktı yok (keskin kenarlar), düşüş olmadan sınırsız düzenleme. PNG'nin dezavantajları: daha büyük dosya boyutları (JPG'den 2-10× daha büyük), fotoğraflar için ideal değil (verimsiz sıkıştırma). Web kullanımı için: logolar/grafikler için PNG, fotoğraflar için JPG. Baskı için: grafikler için PNG, fotoğraflar için JPG. Düzenleme için: Her zaman PNG (kalite kaybını önler).",
+      },
+      benefits: {
+        title: "PNG Formatının Avantajları",
+        list: [
+          "Şeffaflık Desteği - Logolar ve katmanlar için alfa kanalı ekle",
+          "Kayıpsız Kalite - Sıfır kalite kaybı, mükemmel piksel koruması",
+          "Sıkıştırma Artefaktı Yok - Keskin kenarlar, keskin metin, temiz grafikler",
+          "Sınırsız Düzenleme - Kalite düşüşü olmadan tekrar tekrar düzenle",
+          "Profesyonel Standart - Grafikler ve logolar için endüstri seçimi",
+          "Web Optimize - UI öğeleri, simgeler ve grafikler için mükemmel",
+        ],
+      },
+    },
+    faq: {
+      title: "Sık Sorulan Sorular – JPG'den PNG'ye",
+      items: [
+        {
+          q: "JPG'yi PNG'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! JPG'den PNG'ye dönüştürücümüz sınırsız dönüştürmelerle tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret yok. Logolar, grafikler veya profesyonel kullanım için ihtiyacınız olan kadar görüntü dönüştürün.",
+        },
+        {
+          q: "JPG'yi PNG'ye dönüştürmek şeffaflık ekleyecek mi?",
+          a: "JPG'yi PNG'ye dönüştürmek şeffaflık desteği (alfa kanalı) ekler ancak mevcut beyaz/siyah arka planları otomatik olarak şeffaf yapmaz. PNG formatı şeffaflığı destekler, böylece PNG'yi fotoğraf düzenleyicilerde (Photoshop, GIMP, Photopea) arka planları kaldırmak için düzenleyebilirsiniz. Dönüştürme, görüntünüzü alfa kanallarını destekleyen bir formata değiştirerek şeffaflık çalışması için hazırlar.",
+        },
+        {
+          q: "PNG neden logolar ve grafikler için JPG'den daha iyidir?",
+          a: "PNG kayıpsız sıkıştırma (sıfır kalite kaybı) kullanırken JPG kayıplı sıkıştırma (kalıcı kalite düşüşü) kullanır. PNG, keskin kenarları, keskin metni ve temiz çizgileri mükemmel şekilde korur - logolar ve grafikler için gereklidir. PNG ayrıca katmanlar ve arka planlar için şeffaflığı destekler. JPG, özellikle metin ve keskin kenarlar etrafında sıkıştırma artefaktları (bulanıklık, renk bantlaması) oluşturur. Logolar, simgeler, grafikler ve metin ağırlıklı görüntüler için PNG profesyonel seçimdir.",
+        },
+        {
+          q: "PNG dosyaları JPG'den daha büyük olacak mı?",
+          a: "Evet, PNG dosyaları tipik olarak JPG'den 2-10 kat daha büyüktür çünkü PNG kayıpsız sıkıştırma kullanırken JPG kayıplı sıkıştırma kullanır. Ancak kalite ve şeffaflık desteği bunu grafikler, logolar ve profesyonel görüntüler için değerli kılar. Web kullanımı için, dosya boyutundaki hafif artış mükemmel kalite ve şeffaflık yetenekleriyle telafi edilir. Modern tarayıcılar PNG'yi verimli bir şekilde işler.",
+        },
+        {
+          q: "PNG'yi kalite kaybetmeden düzenleyebilir miyim?",
+          a: "Kesinlikle! PNG kayıpsızdır, yani kalite düşüşü olmadan sınırsız kez düzenleyebilir ve kaydedebilirsiniz. Her kayıt mükemmel kaliteyi korur. Bu, birden fazla düzenleme yapmanız gereken tasarım işi için çok önemlidir. JPG, yeniden sıkıştırma nedeniyle her kayıtta kalite kaybeder. Profesyonel düzenleme iş akışları için her zaman PNG kullanın.",
+        },
+        {
+          q: "PNG web kullanımı için iyi mi?",
+          a: "Evet! PNG, web grafikleri, logolar, simgeler ve UI öğeleri için standart formattır. JPG'den daha büyük olsa da, PNG'nin şeffaflık desteği ve keskin kalitesi onu web tasarımı için gerekli kılar. Logolar, simgeler, düğmeler, grafikler ve metin ağırlıklı görüntüler için PNG kullanın. Şeffaflığın gerekli olmadığı fotoğraflar için JPG kullanın. Modern sıkıştırma ve CDN'ler PNG'yi verimli bir şekilde işler.",
+        },
+        {
+          q: "PNG-8 ve PNG-24 arasındaki fark nedir?",
+          a: "PNG-8, 256 renk (GIF gibi) basit şeffaflıkla destekler, bu da daha küçük dosyalarla sonuçlanır. PNG-24, 256 alfa şeffaflık seviyesi (kısmi şeffaflık) ile 16 milyon rengi destekler, tam kalite ve pürüzsüz şeffaflık sunar ancak daha büyük dosyalar. Dönüştürücümüz maksimum kalite ve tam şeffaflık desteği için PNG-24 oluşturur. PNG-8'i yalnızca az renkli basit grafikler için kullanın.",
+        },
+        {
+          q: "PNG'yi baskı için kullanabilir miyim?",
+          a: "Evet! PNG'nin kayıpsız kalitesi onu baskı için mükemmel yapar, özellikle grafikler, logolar ve metin ağırlıklı tasarımlar için. PNG herhangi bir çözünürlükte mükemmel kaliteyi korur. Ancak fotoğraflar için, daha küçük dosya boyutları nedeniyle TIFF veya yüksek kaliteli JPG daha verimli olabilir. Grafik tasarım baskı işi (posterler, el ilanları, kartvizitler) için PNG idealdir.",
+        },
+        {
+          q: "JPG'den PNG'ye dönüştürme ne kadar sürer?",
+          a: "Dönüştürme görüntü başına 1-2 saniye sürer. PNG dönüştürme hızlıdır çünkü tüm verileri koruyan bir format değişikliğidir. Sonuç, şeffaflık çalışması, tekrarlanan düzenleme veya kalite düşüşü olmadan profesyonel kullanım için hazır kayıpsız bir PNG'dir.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "PNG'den JPG'ye", url: "/convert/png-to-jpg" },
+        { name: "JPG'den WebP'ye", url: "/convert/jpg-to-webp" },
+        { name: "PNG'den WebP'ye", url: "/convert/png-to-webp" },
+        { name: "HEIC'den PNG'ye", url: "/convert/heic-to-png" },
+        { name: "HEIF'den PNG'ye", url: "/convert/heif-to-png" },
+        { name: "JPG'den PDF'ye", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF'den PNG'ye Dönüştürücü - HEIF Görüntülerini PNG'ye Ücretsiz Çevrimiçi Dönüştür",
