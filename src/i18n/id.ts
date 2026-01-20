@@ -1799,6 +1799,139 @@ export const id: Translations = {
     },
   },
 
+  // JPG to PNG Converter
+  jpgToPng: {
+    title: "Konverter JPG ke PNG - Tambahkan Transparansi & Kualitas Lossless",
+    metaDescription:
+      "Konversi JPG ke PNG untuk dukungan transparansi dan kualitas lossless. Sempurna untuk logo, grafis, dan gambar web. Pertahankan kualitas gambar tanpa artefak kompresi. Konverter batch gratis, tanpa pendaftaran.",
+    metaKeywords:
+      "JPG ke PNG, tambah transparansi, konversi lossless, konverter grafis, konverter logo, gambar web, konversi JPG batch, hapus latar belakang",
+    hero: {
+      title: "JPG to PNG Converter",
+      subtitle:
+        "Convert JPG to PNG for transparency support and superior quality. Perfect for logos, graphics, and professional images. PNG preserves every detail without compression artifacts - ideal for web graphics, overlays, and images requiring transparent backgrounds.",
+      badge1: "Transparency Support",
+      badge2: "Lossless Quality",
+      badge3: "No Artifacts",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download PNG",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "Transparency support - add alpha channel for overlays",
+        "Lossless quality - preserve every pixel perfectly",
+        "Batch processing up to 20 files simultaneously",
+        "No compression artifacts - crisp edges and text",
+        "100% secure with automatic file deletion",
+        "Perfect for logos, graphics, and web images",
+        "Instant download - ready for use",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download PNG",
+      step3Desc: "Get your converted PNG files immediately",
+    },
+    about: {
+      title: "About JPG to PNG Conversion",
+      whatIsHeif: {
+        title: "Why PNG is Perfect for Graphics and Logos?",
+        content:
+          "PNG (Portable Network Graphics) is the professional choice for graphics, logos, and images requiring transparency. Created in 1996 as a patent-free alternative to GIF, PNG uses lossless compression - meaning zero quality loss regardless of how many times you save it.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to PNG?",
+        content:
+          "Convert JPG to PNG when you need transparency or lossless quality. JPG uses lossy compression that permanently degrades image quality with each edit. PNG uses lossless compression, preserving perfect quality forever. Key reasons: add transparency for logos and overlays, avoid quality degradation, create layered compositions, preserve text and line art.",
+      },
+      heifVsHeic: {
+        title: "PNG vs JPG - When to Choose PNG",
+        content:
+          "PNG and JPG serve different purposes. Choose PNG for: logos and graphics, text-heavy images, images requiring transparency, graphics needing repeated editing, icons and UI elements, screenshots, or professional design work. Choose JPG for: photographs, images without transparency needs, file size priority, or social media photos.",
+      },
+      benefits: {
+        title: "Benefits of PNG Format",
+        list: [
+          "Transparency Support - Add alpha channel for logos and overlays",
+          "Lossless Quality - Zero quality loss, perfect pixel preservation",
+          "No Compression Artifacts - Crisp edges, sharp text, clean graphics",
+          "Unlimited Editing - Edit repeatedly without quality degradation",
+          "Professional Standard - Industry choice for graphics and logos",
+          "Web Optimized - Perfect for UI elements, icons, and graphics",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to PNG",
+      items: [
+        {
+          q: "Is it free to convert JPG to PNG?",
+          a: "Yes! Our JPG to PNG converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for logos, graphics, or professional use.",
+        },
+        {
+          q: "Will converting JPG to PNG add transparency?",
+          a: "Converting JPG to PNG adds transparency support (alpha channel) but doesn't automatically make existing white/black backgrounds transparent. PNG format supports transparency, so you can then edit the PNG in photo editors to remove backgrounds.",
+        },
+        {
+          q: "Why is PNG better than JPG for logos and graphics?",
+          a: "PNG uses lossless compression (zero quality loss) while JPG uses lossy compression (permanent quality degradation). PNG preserves crisp edges, sharp text, and clean lines perfectly - essential for logos and graphics. PNG also supports transparency for overlays and backgrounds.",
+        },
+        {
+          q: "Will PNG files be larger than JPG?",
+          a: "Yes, PNG files are typically 2-10 times larger than JPG because PNG uses lossless compression while JPG uses lossy compression. However, the quality and transparency support make it worthwhile for graphics, logos, and professional images.",
+        },
+        {
+          q: "Can I edit PNG without losing quality?",
+          a: "Absolutely! PNG is lossless, meaning you can edit and save it unlimited times without any quality degradation. Every save preserves perfect quality. This is crucial for design work where you need to make multiple edits.",
+        },
+        {
+          q: "Is PNG good for web use?",
+          a: "Yes! PNG is the standard format for web graphics, logos, icons, and UI elements. While larger than JPG, PNG's transparency support and crisp quality make it essential for web design. Use PNG for logos, icons, buttons, graphics, and text-heavy images.",
+        },
+        {
+          q: "What's the difference between PNG-8 and PNG-24?",
+          a: "PNG-8 supports 256 colors with simple transparency, resulting in smaller files. PNG-24 supports 16 million colors with 256 levels of alpha transparency, offering full quality and smooth transparency but larger files. Our converter creates PNG-24 for maximum quality.",
+        },
+        {
+          q: "Can I use PNG for print?",
+          a: "Yes! PNG's lossless quality makes it excellent for print, especially for graphics, logos, and text-heavy designs. PNG preserves perfect quality at any resolution. For graphic design print work, PNG is ideal.",
+        },
+        {
+          q: "How long does JPG to PNG conversion take?",
+          a: "Conversion takes 1-2 seconds per image. PNG conversion is fast because it's a format change that preserves all data. The result is a lossless PNG ready for transparency work, repeated editing, or professional use.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "PNG to JPG", url: "/convert/png-to-jpg" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG to WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC to PNG", url: "/convert/heic-to-png" },
+        { name: "HEIF to PNG", url: "/convert/heif-to-png" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: 'Konverter HEIF ke PNG - Konversi Gambar HEIF ke PNG Gratis Online',
