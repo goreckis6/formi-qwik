@@ -1940,6 +1940,139 @@ export const id: Translations = {
     },
   },
 
+  // JPG to WebP Converter
+  jpgToWebp: {
+    title: "Konverter JPG ke WebP - Optimalkan Gambar untuk Web dengan Kompresi Superior",
+    metaDescription:
+      "Konversi JPG ke WebP untuk ukuran file 25-35% lebih kecil dengan kualitas lebih baik. Sempurna untuk website, loading lebih cepat, dan SEO. Format modern dengan dukungan transparansi. Konverter batch gratis, tanpa registrasi.",
+    metaKeywords:
+      "JPG ke WebP, konverter WebP, optimasi gambar, gambar web, ukuran file lebih kecil, loading lebih cepat, optimasi SEO, konversi batch JPG, format gambar modern",
+    hero: {
+      title: "Konverter JPG ke WebP",
+      subtitle:
+        "Konversi JPG ke WebP untuk kompresi dan kualitas superior. Gambar WebP 25-35% lebih kecil dari JPG sambil mempertahankan kualitas visual yang sama - sempurna untuk website lebih cepat, SEO lebih baik, dan biaya bandwidth berkurang. Browser modern mendukung WebP secara native.",
+      badge1: "25-35% Lebih Kecil",
+      badge2: "Kualitas Lebih Baik",
+      badge3: "Dioptimalkan untuk Web",
+    },
+    upload: {
+      title: "Unggah File JPG",
+      description:
+        "Seret dan lepas gambar JPG Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.",
+      buttonSingle: "File Tunggal",
+      buttonBatch: "Konversi Batch",
+      chooseFile: "Pilih File",
+      converting: "Mengonversi...",
+      success: "Konversi berhasil!",
+      download: "Unduh WebP",
+      downloadAll: "Unduh Semua sebagai ZIP",
+      convertAnother: "Konversi File Lain",
+    },
+    features: {
+      title: "Fitur",
+      list: [
+        "25-35% file lebih kecil dari JPG dengan kualitas yang sama",
+        "Kompresi superior - lebih baik dari JPG dan PNG",
+        "Dukungan transparansi - saluran alpha seperti PNG",
+        "Pemrosesan batch hingga 20 file secara bersamaan",
+        "100% aman dengan penghapusan file otomatis",
+        "Sempurna untuk website dan aplikasi web",
+        "Unduh instan - siap untuk deployment",
+        "Tanpa watermark - kualitas profesional",
+      ],
+    },
+    howItWorks: {
+      title: "Cara Kerja",
+      step1Title: "Unggah File JPG",
+      step1Desc: "Pilih satu atau beberapa gambar JPG dari perangkat Anda",
+      step2Title: "Konversi Otomatis",
+      step2Desc: "Konverter kami memproses file Anda secara instan",
+      step3Title: "Unduh WebP",
+      step3Desc: "Dapatkan file WebP yang dioptimalkan segera",
+    },
+    about: {
+      title: "Tentang Konversi JPG ke WebP",
+      whatIsHeif: {
+        title: "Mengapa WebP Sempurna untuk Website Modern?",
+        content:
+          "WebP adalah format gambar modern Google yang dirancang khusus untuk web. Dirilis pada 2010, WebP menggunakan algoritma kompresi canggih untuk membuat gambar yang 25-35% lebih kecil dari JPG sambil mempertahankan kualitas visual yang sama. WebP menggabungkan yang terbaik dari kedua dunia: kompresi lossy seperti JPG (untuk foto) dan kompresi lossless seperti PNG (untuk grafik), plus dukungan transparansi saluran alpha. WebP didukung secara native oleh 97% browser modern (Chrome, Firefox, Edge, Opera, Safari 14+) dan merupakan format yang direkomendasikan untuk optimasi web oleh Google PageSpeed Insights. Gambar WebP memuat lebih cepat, mengurangi biaya bandwidth, meningkatkan peringkat SEO, dan memberikan pengalaman pengguna yang lebih baik. Platform besar seperti Facebook, YouTube, dan Google menggunakan WebP secara ekstensif untuk pengiriman gambar mereka.",
+      },
+      whyConvert: {
+        title: "Mengapa Konversi JPG ke WebP?",
+        content:
+          "Konversi JPG ke WebP untuk secara dramatis mengurangi ukuran file sambil mempertahankan atau meningkatkan kualitas gambar. Algoritma kompresi canggih WebP membuat file yang 25-35% lebih kecil dari gambar JPG yang setara, menghasilkan pemuatan halaman lebih cepat, peringkat SEO lebih baik, biaya bandwidth berkurang, dan pengalaman pengguna yang ditingkatkan. Manfaat utama: pemuatan website lebih cepat (file lebih kecil = unduhan lebih cepat), SEO lebih baik (Google menyukai situs yang memuat cepat), biaya bandwidth berkurang (transfer data lebih sedikit), pengalaman mobile yang ditingkatkan (lebih cepat pada koneksi lambat), dukungan transparansi (saluran alpha seperti PNG), dan dukungan browser modern (97% cakupan). WebP sangat penting untuk pengembangan web modern, situs e-commerce, blog, dan situs web apa pun yang memprioritaskan kinerja. Google PageSpeed Insights merekomendasikan WebP untuk skor kinerja optimal.",
+      },
+      heifVsHeic: {
+        title: "WebP vs JPG - Kapan Memilih WebP",
+        content:
+          "WebP dan JPG melayani tujuan berbeda dalam pengembangan web modern. Pilih WebP untuk: website dan aplikasi web (kinerja optimal), optimasi SEO (pemuatan lebih cepat = peringkat lebih baik), desain mobile-first (file lebih kecil = pemuatan mobile lebih cepat), situs e-commerce (mengurangi biaya bandwidth), browser modern (97% dukungan), kebutuhan transparansi (dukungan saluran alpha), atau aplikasi yang kritis terhadap kinerja. Pilih JPG untuk: kompatibilitas maksimum (100% dukungan browser), dukungan browser lama (IE, Safari lama), klien email (dukungan WebP terbatas), atau ketika ukuran file tidak kritis. Keuntungan WebP: 25-35% file lebih kecil, kompresi lebih baik, dukungan transparansi, opsi lossless tersedia, format modern yang dioptimalkan untuk web. Kekurangan WebP: 3% browser tidak mendukung (Safari lama, IE), memerlukan fallback untuk kompatibilitas maksimum. Untuk website modern: Selalu WebP dengan fallback JPG. Untuk email: Gunakan JPG. Untuk kompatibilitas maksimum: Berikan kedua format.",
+      },
+      benefits: {
+        title: "Manfaat Format WebP",
+        list: [
+          "25-35% File Lebih Kecil - Secara dramatis mengurangi ukuran file vs JPG",
+          "Kualitas Lebih Baik - Kualitas visual yang sama atau lebih baik pada ukuran lebih kecil",
+          "Dukungan Transparansi - Saluran alpha seperti PNG untuk overlay",
+          "Pemuatan Lebih Cepat - File lebih kecil berarti pemuatan halaman lebih cepat",
+          "Dioptimalkan untuk SEO - Google menyukai website yang memuat cepat",
+          "Standar Modern - Direkomendasikan oleh Google PageSpeed Insights",
+        ],
+      },
+    },
+    faq: {
+      title: "Pertanyaan yang Sering Diajukan – JPG ke WebP",
+      items: [
+        {
+          q: "Apakah gratis untuk mengonversi JPG ke WebP?",
+          a: "Ya! Konverter JPG ke WebP kami sepenuhnya gratis dengan konversi tanpa batas. Tanpa registrasi, langganan, atau biaya tersembunyi. Konversi sebanyak gambar yang Anda butuhkan untuk website, blog, atau aplikasi web Anda.",
+        },
+        {
+          q: "Berapa lebih kecil file WebP dibandingkan dengan JPG?",
+          a: "File WebP biasanya 25-35% lebih kecil dari gambar JPG yang setara sambil mempertahankan kualitas visual yang sama. Ini berarti pemuatan halaman lebih cepat, biaya bandwidth berkurang, dan pengalaman pengguna yang lebih baik. Rasio kompresi yang tepat tergantung pada konten gambar, tetapi WebP secara konsisten mengungguli JPG dalam pengurangan ukuran file.",
+        },
+        {
+          q: "Apakah WebP akan bekerja di semua browser?",
+          a: "WebP didukung oleh 97% browser modern, termasuk Chrome, Firefox, Edge, Opera, dan Safari 14+. Browser lama (IE, Safari <14) tidak mendukung WebP, jadi untuk kompatibilitas maksimum, berikan fallback JPG menggunakan elemen HTML <picture> atau sajikan WebP dengan header Content-Type yang tepat dan fallback JPG.",
+        },
+        {
+          q: "Apakah kualitas WebP lebih baik dari JPG?",
+          a: "WebP dapat mencapai kualitas visual yang sama dengan JPG pada ukuran file 25-35% lebih kecil, atau kualitas lebih baik pada ukuran file yang sama. WebP menggunakan algoritma kompresi canggih yang lebih efisien daripada kompresi JPG yang lebih lama. Untuk penggunaan web, WebP adalah pilihan superior untuk kualitas dan ukuran file.",
+        },
+        {
+          q: "Dapatkah WebP mendukung transparansi seperti PNG?",
+          a: "Ya! WebP mendukung transparansi saluran alpha persis seperti PNG, menjadikannya sempurna untuk gambar yang memerlukan latar belakang transparan, overlay, atau grafik. Ini adalah keuntungan besar dibandingkan JPG, yang tidak mendukung transparansi. WebP dapat menggantikan JPG (untuk foto) dan PNG (untuk grafik dengan transparansi) dalam banyak kasus.",
+        },
+        {
+          q: "Apakah WebP baik untuk SEO?",
+          a: "Sangat! WebP sangat baik untuk SEO karena membuat file lebih kecil yang memuat lebih cepat. Google PageSpeed Insights merekomendasikan WebP untuk skor kinerja optimal. Website yang memuat lebih cepat mendapat peringkat lebih tinggi dalam hasil pencarian, dan WebP adalah faktor kunci dalam mencapai waktu pemuatan halaman yang cepat. Google sendiri menggunakan WebP secara ekstensif di platform mereka.",
+        },
+        {
+          q: "Dapatkah saya menggunakan WebP untuk gambar produk e-commerce?",
+          a: "Ya! WebP sempurna untuk e-commerce karena mengurangi ukuran file tanpa mengorbankan kualitas, menghasilkan pemuatan halaman produk lebih cepat dan pengalaman pengguna yang lebih baik. Platform e-commerce besar mendukung WebP, dan sangat bermanfaat bagi pembeli mobile yang mungkin memiliki koneksi lebih lambat. Selalu berikan fallback JPG untuk kompatibilitas maksimum.",
+        },
+        {
+          q: "Apa perbedaan antara WebP lossy dan lossless?",
+          a: "WebP lossy (seperti JPG) menggunakan kompresi yang sedikit mengurangi kualitas untuk ukuran file yang jauh lebih kecil - sempurna untuk foto. WebP lossless (seperti PNG) mempertahankan kualitas sempurna tetapi dengan kompresi yang lebih baik daripada PNG - sempurna untuk grafik. Konverter kami membuat WebP lossy yang dioptimalkan untuk penggunaan web, menyeimbangkan kualitas dan ukuran file untuk kinerja optimal.",
+        },
+        {
+          q: "Berapa lama konversi JPG ke WebP?",
+          a: "Konversi memakan waktu 1-2 detik per gambar. Konversi WebP cepat karena dioptimalkan untuk kinerja web. Hasilnya adalah gambar yang lebih kecil dan memuat lebih cepat yang siap untuk penggunaan langsung di website atau aplikasi web Anda.",
+        },
+      ],
+    },
+    related: {
+      title: "Konverter Terkait",
+      converters: [
+        { name: "PNG ke WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC ke WebP", url: "/convert/heic-to-webp" },
+        { name: "HEIF ke WebP", url: "/convert/heif-to-webp" },
+        { name: "JPG ke PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG ke GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG ke PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: 'Konverter HEIF ke PNG - Konversi Gambar HEIF ke PNG Gratis Online',

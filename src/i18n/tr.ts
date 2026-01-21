@@ -2012,6 +2012,139 @@ export const tr: Translations = {
     },
   },
 
+  // JPG to WebP Converter
+  jpgToWebp: {
+    title: "JPG'den WebP'ye Dönüştürücü - Üstün Sıkıştırma ile Web için Görüntüleri Optimize Edin",
+    metaDescription:
+      "Daha iyi kalite ile %25-35 daha küçük dosya boyutları için JPG'yi WebP'ye dönüştürün. Web siteleri, daha hızlı yükleme ve SEO için mükemmel. Şeffaflık desteği ile modern format. Ücretsiz toplu dönüştürücü, kayıt yok.",
+    metaKeywords:
+      "JPG'den WebP'ye, WebP dönüştürücü, görüntü optimizasyonu, web görüntüleri, daha küçük dosya boyutu, daha hızlı yükleme, SEO optimizasyonu, toplu JPG dönüştür, modern görüntü formatı",
+    hero: {
+      title: "JPG'den WebP'ye Dönüştürücü",
+      subtitle:
+        "Üstün sıkıştırma ve kalite için JPG'yi WebP'ye dönüştürün. WebP görüntüleri aynı görsel kaliteyi korurken JPG'den %25-35 daha küçüktür - daha hızlı web siteleri, daha iyi SEO ve azaltılmış bant genişliği maliyetleri için mükemmel. Modern tarayıcılar WebP'yi yerel olarak destekler.",
+      badge1: "%25-35 Daha Küçük",
+      badge2: "Daha İyi Kalite",
+      badge3: "Web Optimize",
+    },
+    upload: {
+      title: "JPG Dosyalarını Yükle",
+      description:
+        "JPG görüntülerinizi buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürme destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştür",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "WebP İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Aynı kalitede JPG'den %25-35 daha küçük dosyalar",
+        "Üstün sıkıştırma - JPG ve PNG'den daha iyi",
+        "Şeffaflık desteği - PNG gibi alfa kanalı",
+        "Aynı anda 20 dosyaya kadar toplu işleme",
+        "Otomatik dosya silme ile %100 güvenli",
+        "Web siteleri ve web uygulamaları için mükemmel",
+        "Anında indirme - dağıtıma hazır",
+        "Filigran yok - profesyonel kalite",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "JPG Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla JPG görüntüsü seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "WebP İndir",
+      step3Desc: "Optimize edilmiş WebP dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "JPG'den WebP'ye Dönüştürme Hakkında",
+      whatIsHeif: {
+        title: "WebP Neden Modern Web Siteleri İçin Mükemmel?",
+        content:
+          "WebP, web için özel olarak tasarlanmış Google'ın modern görüntü formatıdır. 2010'da piyasaya sürülen WebP, aynı görsel kaliteyi korurken JPG'den %25-35 daha küçük görüntüler oluşturmak için gelişmiş sıkıştırma algoritmaları kullanır. WebP her iki dünyanın en iyisini birleştirir: JPG gibi kayıplı sıkıştırma (fotoğraflar için) ve PNG gibi kayıpsız sıkıştırma (grafikler için), artı alfa kanalı şeffaflık desteği. WebP, modern tarayıcıların %97'si (Chrome, Firefox, Edge, Opera, Safari 14+) tarafından yerel olarak desteklenir ve Google PageSpeed Insights tarafından web optimizasyonu için önerilen formattır. WebP görüntüleri daha hızlı yüklenir, bant genişliği maliyetlerini azaltır, SEO sıralamalarını iyileştirir ve daha iyi kullanıcı deneyimi sağlar. Facebook, YouTube ve Google gibi büyük platformlar görüntü teslimatı için WebP'yi yaygın olarak kullanır.",
+      },
+      whyConvert: {
+        title: "Neden JPG'yi WebP'ye Dönüştürmeli?",
+        content:
+          "Görüntü kalitesini korurken veya iyileştirirken dosya boyutlarını önemli ölçüde azaltmak için JPG'yi WebP'ye dönüştürün. WebP'nin gelişmiş sıkıştırma algoritmaları, eşdeğer JPG görüntülerinden %25-35 daha küçük dosyalar oluşturur, bu da daha hızlı sayfa yüklemeleri, daha iyi SEO sıralamaları, azaltılmış bant genişliği maliyetleri ve iyileştirilmiş kullanıcı deneyimi ile sonuçlanır. Temel faydalar: daha hızlı web sitesi yükleme (daha küçük dosyalar = daha hızlı indirmeler), daha iyi SEO (Google hızlı yüklenen siteleri tercih eder), azaltılmış bant genişliği maliyetleri (daha az veri aktarımı), iyileştirilmiş mobil deneyim (yavaş bağlantılarda daha hızlı), şeffaflık desteği (PNG gibi alfa kanalı) ve modern tarayıcı desteği (%97 kapsama). WebP, modern web geliştirme, e-ticaret siteleri, bloglar ve performansı önceliklendiren herhangi bir web sitesi için gereklidir. Google PageSpeed Insights optimal performans puanları için WebP'yi önerir.",
+      },
+      heifVsHeic: {
+        title: "WebP vs JPG - Ne Zaman WebP Seçilmeli",
+        content:
+          "WebP ve JPG modern web geliştirmede farklı amaçlara hizmet eder. WebP'yi şunlar için seçin: web siteleri ve web uygulamaları (optimal performans), SEO optimizasyonu (daha hızlı yükleme = daha iyi sıralamalar), mobile-first tasarım (daha küçük dosyalar = daha hızlı mobil yükleme), e-ticaret siteleri (bant genişliği maliyetlerini azalt), modern tarayıcılar (%97 destek), şeffaflık ihtiyaçları (alfa kanalı desteği) veya performans kritik uygulamalar. JPG'yi şunlar için seçin: maksimum uyumluluk (%100 tarayıcı desteği), eski tarayıcı desteği (IE, eski Safari), e-posta istemcileri (sınırlı WebP desteği) veya dosya boyutu kritik olmadığında. WebP'nin avantajları: %25-35 daha küçük dosyalar, daha iyi sıkıştırma, şeffaflık desteği, kayıpsız seçenek mevcut, web için optimize edilmiş modern format. WebP'nin dezavantajları: Tarayıcıların %3'ü desteklemiyor (eski Safari, IE), maksimum uyumluluk için yedek gerektirir. Modern web siteleri için: Her zaman JPG yedeği ile WebP. E-posta için: JPG kullanın. Maksimum uyumluluk için: Her iki formatı da sağlayın.",
+      },
+      benefits: {
+        title: "WebP Formatının Faydaları",
+        list: [
+          "%25-35 Daha Küçük Dosyalar - Dosya boyutlarını JPG'ye göre önemli ölçüde azaltır",
+          "Daha İyi Kalite - Daha küçük boyutlarda aynı veya daha iyi görsel kalite",
+          "Şeffaflık Desteği - Katmanlar için PNG gibi alfa kanalı",
+          "Daha Hızlı Yükleme - Daha küçük dosyalar daha hızlı sayfa yüklemeleri anlamına gelir",
+          "SEO Optimize - Google hızlı yüklenen web sitelerini tercih eder",
+          "Modern Standart - Google PageSpeed Insights tarafından önerilir",
+        ],
+      },
+    },
+    faq: {
+      title: "Sık Sorulan Sorular – JPG'den WebP'ye",
+      items: [
+        {
+          q: "JPG'yi WebP'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! JPG'den WebP'ye dönüştürücümüz sınırsız dönüştürme ile tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret yok. Web siteniz, blogunuz veya web uygulamanız için ihtiyacınız olan kadar görüntü dönüştürün.",
+        },
+        {
+          q: "WebP dosyaları JPG'ye kıyasla ne kadar küçük?",
+          a: "WebP dosyaları aynı görsel kaliteyi korurken tipik olarak eşdeğer JPG görüntülerinden %25-35 daha küçüktür. Bu, daha hızlı sayfa yüklemeleri, azaltılmış bant genişliği maliyetleri ve daha iyi kullanıcı deneyimi anlamına gelir. Kesin sıkıştırma oranı görüntü içeriğine bağlıdır, ancak WebP dosya boyutu azaltmada JPG'yi tutarlı olarak geride bırakır.",
+        },
+        {
+          q: "WebP tüm tarayıcılarda çalışacak mı?",
+          a: "WebP, Chrome, Firefox, Edge, Opera ve Safari 14+ dahil modern tarayıcıların %97'si tarafından desteklenir. Eski tarayıcılar (IE, Safari <14) WebP'yi desteklemez, bu nedenle maksimum uyumluluk için HTML <picture> öğesini kullanarak JPG yedekleri sağlayın veya WebP'yi uygun Content-Type başlıkları ve JPG yedekleri ile sunun.",
+        },
+        {
+          q: "WebP kalitesi JPG'den daha iyi mi?",
+          a: "WebP, %25-35 daha küçük dosya boyutlarında JPG ile aynı görsel kaliteyi veya aynı dosya boyutunda daha iyi kaliteyi elde edebilir. WebP, JPG'nin eski sıkıştırmasından daha verimli olan gelişmiş sıkıştırma algoritmaları kullanır. Web kullanımı için WebP hem kalite hem de dosya boyutu açısından üstün seçimdir.",
+        },
+        {
+          q: "WebP PNG gibi şeffaflığı destekleyebilir mi?",
+          a: "Evet! WebP, PNG gibi alfa kanalı şeffaflığını destekler, bu da şeffaf arka planlar, katmanlar veya grafik gerektiren görüntüler için mükemmeldir. Bu, şeffaflığı desteklemeyen JPG'ye göre büyük bir avantajdır. WebP birçok durumda hem JPG'yi (fotoğraflar için) hem de PNG'yi (şeffaflıklı grafikler için) değiştirebilir.",
+        },
+        {
+          q: "WebP SEO için iyi mi?",
+          a: "Kesinlikle! WebP SEO için mükemmeldir çünkü daha hızlı yüklenen daha küçük dosyalar oluşturur. Google'ın PageSpeed Insights'ı optimal performans puanları için WebP'yi önerir. Daha hızlı yüklenen web siteleri arama sonuçlarında daha yüksek sıralanır ve WebP hızlı sayfa yükleme sürelerine ulaşmada önemli bir faktördür. Google'ın kendisi platformlarında WebP'yi yaygın olarak kullanır.",
+        },
+        {
+          q: "E-ticaret ürün görüntüleri için WebP kullanabilir miyim?",
+          a: "Evet! WebP e-ticaret için mükemmeldir çünkü kaliteden ödün vermeden dosya boyutlarını azaltır, bu da daha hızlı ürün sayfası yüklemeleri ve daha iyi kullanıcı deneyimi ile sonuçlanır. Büyük e-ticaret platformları WebP'yi destekler ve daha yavaş bağlantılara sahip olabilecek mobil alışveriş yapanlar için özellikle faydalıdır. Maksimum uyumluluk için her zaman JPG yedekleri sağlayın.",
+        },
+        {
+          q: "Kayıplı ve kayıpsız WebP arasındaki fark nedir?",
+          a: "Kayıplı WebP (JPG gibi) çok daha küçük dosya boyutları için kaliteyi hafifçe azaltan sıkıştırma kullanır - fotoğraflar için mükemmel. Kayıpsız WebP (PNG gibi) mükemmel kaliteyi korur ancak PNG'den daha iyi sıkıştırma ile - grafikler için mükemmel. Dönüştürücümüz web kullanımı için optimize edilmiş kayıplı WebP oluşturur, optimal performans için kalite ve dosya boyutunu dengeler.",
+        },
+        {
+          q: "JPG'den WebP'ye dönüştürme ne kadar sürer?",
+          a: "Dönüştürme görüntü başına 1-2 saniye sürer. WebP dönüştürme hızlıdır çünkü web performansı için optimize edilmiştir. Sonuç, web sitenizde veya web uygulamanızda anında kullanıma hazır daha küçük, daha hızlı yüklenen bir görüntüdür.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "PNG'den WebP'ye", url: "/convert/png-to-webp" },
+        { name: "HEIC'den WebP'ye", url: "/convert/heic-to-webp" },
+        { name: "HEIF'den WebP'ye", url: "/convert/heif-to-webp" },
+        { name: "JPG'den PNG'ye", url: "/convert/jpg-to-png" },
+        { name: "JPG'den GIF'e", url: "/convert/jpg-to-gif" },
+        { name: "JPG'den PDF'ye", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF'den PNG'ye Dönüştürücü - HEIF Görüntülerini PNG'ye Ücretsiz Çevrimiçi Dönüştür",

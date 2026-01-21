@@ -1998,6 +1998,139 @@ export const nl: Translations = {
     },
   },
 
+  // JPG to WebP Converter
+  jpgToWebp: {
+    title: "JPG naar WebP Converter - Optimaliseer Afbeeldingen voor Web met Superieure Compressie",
+    metaDescription:
+      "Converteer JPG naar WebP voor 25-35% kleinere bestandsgroottes met betere kwaliteit. Perfect voor websites, sneller laden en SEO. Modern formaat met transparantie-ondersteuning. Gratis batchconverter, geen registratie.",
+    metaKeywords:
+      "JPG naar WebP, WebP converter, afbeelding optimalisatie, web afbeeldingen, kleinere bestandsgrootte, sneller laden, SEO optimalisatie, batch JPG converteren, modern afbeeldingsformaat",
+    hero: {
+      title: "JPG naar WebP Converter",
+      subtitle:
+        "Converteer JPG naar WebP voor superieure compressie en kwaliteit. WebP-afbeeldingen zijn 25-35% kleiner dan JPG terwijl ze dezelfde visuele kwaliteit behouden - perfect voor snellere websites, betere SEO en lagere bandbreedtekosten. Moderne browsers ondersteunen WebP natively.",
+      badge1: "25-35% Kleiner",
+      badge2: "Betere Kwaliteit",
+      badge3: "Web Geoptimaliseerd",
+    },
+    upload: {
+      title: "Upload JPG-bestanden",
+      description:
+        "Sleep en zet uw JPG-afbeeldingen hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteren",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie succesvol!",
+      download: "Download WebP",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "25-35% kleinere bestanden dan JPG met dezelfde kwaliteit",
+        "Superieure compressie - beter dan JPG en PNG",
+        "Transparantie-ondersteuning - alfakanaal zoals PNG",
+        "Batchverwerking tot 20 bestanden gelijktijdig",
+        "100% veilig met automatische bestandsverwijdering",
+        "Perfect voor websites en webapplicaties",
+        "Directe download - klaar voor implementatie",
+        "Geen watermerken - professionele kwaliteit",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload JPG-bestanden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download WebP",
+      step3Desc: "Krijg uw geoptimaliseerde WebP-bestanden direct",
+    },
+    about: {
+      title: "Over JPG naar WebP Conversie",
+      whatIsHeif: {
+        title: "Waarom is WebP Perfect voor Moderne Websites?",
+        content:
+          "WebP is Google's moderne afbeeldingsformaat specifiek ontworpen voor het web. Uitgebracht in 2010, gebruikt WebP geavanceerde compressie-algoritmen om afbeeldingen te maken die 25-35% kleiner zijn dan JPG terwijl ze dezelfde visuele kwaliteit behouden. WebP combineert het beste van beide werelden: lossy compressie zoals JPG (voor foto's) en lossless compressie zoals PNG (voor afbeeldingen), plus alfakanaal transparantie-ondersteuning. WebP wordt natively ondersteund door 97% van de moderne browsers (Chrome, Firefox, Edge, Opera, Safari 14+) en is het aanbevolen formaat voor weboptimalisatie door Google PageSpeed Insights. WebP-afbeeldingen laden sneller, verminderen bandbreedtekosten, verbeteren SEO-rankings en bieden een betere gebruikerservaring. Grote platforms zoals Facebook, YouTube en Google gebruiken WebP uitgebreid voor hun afbeeldinglevering.",
+      },
+      whyConvert: {
+        title: "Waarom JPG naar WebP Converteren?",
+        content:
+          "Converteer JPG naar WebP om bestandsgroottes drastisch te verminderen terwijl u de beeldkwaliteit behoudt of verbetert. WebP's geavanceerde compressie-algoritmen creëren bestanden die 25-35% kleiner zijn dan equivalente JPG-afbeeldingen, wat resulteert in snellere paginaladingen, betere SEO-rankings, verminderde bandbreedtekosten en verbeterde gebruikerservaring. Belangrijkste voordelen: snellere website-lading (kleinere bestanden = snellere downloads), betere SEO (Google bevoordeelt snel ladende sites), verminderde bandbreedtekosten (minder gegevensoverdracht), verbeterde mobiele ervaring (sneller op langzame verbindingen), transparantie-ondersteuning (alfakanaal zoals PNG), en moderne browserondersteuning (97% dekking). WebP is essentieel voor moderne webontwikkeling, e-commercesites, blogs en elke website die prestaties prioriteert. Google PageSpeed Insights beveelt WebP aan voor optimale prestatiescores.",
+      },
+      heifVsHeic: {
+        title: "WebP vs JPG - Wanneer WebP Kiezen",
+        content:
+          "WebP en JPG dienen verschillende doeleinden in moderne webontwikkeling. Kies WebP voor: websites en webapplicaties (optimale prestaties), SEO-optimalisatie (sneller laden = betere rankings), mobile-first design (kleinere bestanden = snellere mobiele lading), e-commercesites (vermindering bandbreedtekosten), moderne browsers (97% ondersteuning), transparantiebehoeften (alfakanaal ondersteuning), of prestatiekritieke applicaties. Kies JPG voor: maximale compatibiliteit (100% browserondersteuning), oudere browserondersteuning (IE, oudere Safari), e-mailclients (beperkte WebP-ondersteuning), of wanneer bestandsgrootte niet kritisch is. WebP-voordelen: 25-35% kleinere bestanden, betere compressie, transparantie-ondersteuning, lossless optie beschikbaar, modern formaat geoptimaliseerd voor web. WebP-nadelen: 3% van de browsers ondersteunt het niet (oudere Safari, IE), vereist fallback voor maximale compatibiliteit. Voor moderne websites: Altijd WebP met JPG-fallback. Voor e-mail: Gebruik JPG. Voor maximale compatibiliteit: Bied beide formaten aan.",
+      },
+      benefits: {
+        title: "Voordelen van WebP-formaat",
+        list: [
+          "25-35% Kleinere Bestanden - Vermindert drastisch bestandsgroottes vs JPG",
+          "Betere Kwaliteit - Dezelfde of betere visuele kwaliteit bij kleinere groottes",
+          "Transparantie-ondersteuning - Alfakanaal zoals PNG voor overlays",
+          "Sneller Laden - Kleinere bestanden betekenen snellere paginaladingen",
+          "SEO Geoptimaliseerd - Google bevoordeelt snel ladende websites",
+          "Moderne Standaard - Aanbevolen door Google PageSpeed Insights",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – JPG naar WebP",
+      items: [
+        {
+          q: "Is het gratis om JPG naar WebP te converteren?",
+          a: "Ja! Onze JPG naar WebP converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als u nodig heeft voor uw website, blog of webapplicatie.",
+        },
+        {
+          q: "Hoeveel kleiner zijn WebP-bestanden vergeleken met JPG?",
+          a: "WebP-bestanden zijn typisch 25-35% kleiner dan equivalente JPG-afbeeldingen terwijl ze dezelfde visuele kwaliteit behouden. Dit betekent snellere paginaladingen, verminderde bandbreedtekosten en betere gebruikerservaring. De exacte compressieverhouding hangt af van de afbeeldingsinhoud, maar WebP presteert consequent beter dan JPG in bestandsgroottevermindering.",
+        },
+        {
+          q: "Werkt WebP op alle browsers?",
+          a: "WebP wordt ondersteund door 97% van de moderne browsers, inclusief Chrome, Firefox, Edge, Opera en Safari 14+. Oudere browsers (IE, Safari <14) ondersteunen WebP niet, dus voor maximale compatibiliteit, bied JPG-fallbacks aan met het HTML <picture>-element of serveer WebP met juiste Content-Type headers en JPG-fallbacks.",
+        },
+        {
+          q: "Is WebP-kwaliteit beter dan JPG?",
+          a: "WebP kan dezelfde visuele kwaliteit bereiken als JPG bij 25-35% kleinere bestandsgroottes, of betere kwaliteit bij dezelfde bestandsgrootte. WebP gebruikt geavanceerde compressie-algoritmen die efficiënter zijn dan JPG's oudere compressie. Voor webgebruik is WebP de superieure keuze voor zowel kwaliteit als bestandsgrootte.",
+        },
+        {
+          q: "Kan WebP transparantie ondersteunen zoals PNG?",
+          a: "Ja! WebP ondersteunt alfakanaal transparantie net zoals PNG, waardoor het perfect is voor afbeeldingen die transparante achtergronden, overlays of afbeeldingen nodig hebben. Dit is een groot voordeel ten opzichte van JPG, dat geen transparantie ondersteunt. WebP kan zowel JPG (voor foto's) als PNG (voor afbeeldingen met transparantie) in veel gevallen vervangen.",
+        },
+        {
+          q: "Is WebP goed voor SEO?",
+          a: "Absoluut! WebP is uitstekend voor SEO omdat het kleinere bestanden creëert die sneller laden. Google's PageSpeed Insights beveelt WebP aan voor optimale prestatiescores. Sneller ladende websites rangschikken hoger in zoekresultaten, en WebP is een belangrijke factor bij het bereiken van snelle paginaladingstijden. Google zelf gebruikt WebP uitgebreid op zijn platforms.",
+        },
+        {
+          q: "Kan ik WebP gebruiken voor e-commerce productafbeeldingen?",
+          a: "Ja! WebP is perfect voor e-commerce omdat het bestandsgroottes vermindert zonder kwaliteit op te offeren, wat resulteert in snellere productpaginaladingen en betere gebruikerservaring. Grote e-commerceplatforms ondersteunen WebP, en het is vooral gunstig voor mobiele shoppers die mogelijk langzamere verbindingen hebben. Bied altijd JPG-fallbacks aan voor maximale compatibiliteit.",
+        },
+        {
+          q: "Wat is het verschil tussen lossy en lossless WebP?",
+          a: "Lossy WebP (zoals JPG) gebruikt compressie die de kwaliteit licht vermindert voor veel kleinere bestandsgroottes - perfect voor foto's. Lossless WebP (zoals PNG) behoudt perfecte kwaliteit maar met betere compressie dan PNG - perfect voor afbeeldingen. Onze converter creëert lossy WebP geoptimaliseerd voor webgebruik, balancerend tussen kwaliteit en bestandsgrootte voor optimale prestaties.",
+        },
+        {
+          q: "Hoe lang duurt JPG naar WebP conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. WebP-conversie is snel omdat het geoptimaliseerd is voor webprestaties. Het resultaat is een kleiner, sneller ladend beeld klaar voor direct gebruik op uw website of webapplicatie.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "PNG naar WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC naar WebP", url: "/convert/heic-to-webp" },
+        { name: "HEIF naar WebP", url: "/convert/heif-to-webp" },
+        { name: "JPG naar PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG naar GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF naar PNG Converter - Converteer HEIF Afbeeldingen Gratis Online naar PNG",

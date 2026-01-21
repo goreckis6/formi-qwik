@@ -1996,6 +1996,139 @@ export const sv: Translations = {
     },
   },
 
+  // JPG to WebP Converter
+  jpgToWebp: {
+    title: "JPG till WebP-konverterare - Optimera Bilder för Web med Överlägsen Komprimering",
+    metaDescription:
+      "Konvertera JPG till WebP för 25-35% mindre filstorlekar med bättre kvalitet. Perfekt för webbplatser, snabbare laddning och SEO. Modernt format med transparensstöd. Gratis batchkonverterare, ingen registrering.",
+    metaKeywords:
+      "JPG till WebP, WebP-konverterare, bildoptimering, webbbilder, mindre filstorlek, snabbare laddning, SEO-optimering, batchkonvertera JPG, modernt bildformat",
+    hero: {
+      title: "JPG till WebP-konverterare",
+      subtitle:
+        "Konvertera JPG till WebP för överlägsen komprimering och kvalitet. WebP-bilder är 25-35% mindre än JPG medan de behåller samma visuella kvalitet - perfekt för snabbare webbplatser, bättre SEO och reducerade bandbreddskostnader. Moderna webbläsare stöder WebP internt.",
+      badge1: "25-35% Mindre",
+      badge2: "Bättre Kvalitet",
+      badge3: "Webboptimerad",
+    },
+    upload: {
+      title: "Ladda upp JPG-filer",
+      description:
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batchkonvertera",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner WebP",
+      downloadAll: "Ladda ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "25-35% mindre filer än JPG med samma kvalitet",
+        "Överlägsen komprimering - bättre än JPG och PNG",
+        "Transparensstöd - alfakanal som PNG",
+        "Batchbearbetning upp till 20 filer samtidigt",
+        "100% säkert med automatisk filradering",
+        "Perfekt för webbplatser och webbapplikationer",
+        "Omedelbar nedladdning - redo för distribution",
+        "Inga vattenstämplar - professionell kvalitet",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer omedelbart",
+      step3Title: "Ladda ner WebP",
+      step3Desc: "Få dina optimerade WebP-filer omedelbart",
+    },
+    about: {
+      title: "Om JPG till WebP-konvertering",
+      whatIsHeif: {
+        title: "Varför är WebP Perfekt för Moderna Webbplatser?",
+        content:
+          "WebP är Googles moderna bildformat designat specifikt för webben. Släppt 2010, använder WebP avancerade komprimeringsalgoritmer för att skapa bilder som är 25-35% mindre än JPG medan de behåller samma visuella kvalitet. WebP kombinerar det bästa av båda världar: förlustkomprimering som JPG (för foton) och förlustfri komprimering som PNG (för grafik), plus alfakanal transparensstöd. WebP stöds internt av 97% av moderna webbläsare (Chrome, Firefox, Edge, Opera, Safari 14+) och är det rekommenderade formatet för webboptimering av Google PageSpeed Insights. WebP-bilder laddas snabbare, minskar bandbreddskostnader, förbättrar SEO-rankningar och ger bättre användarupplevelse. Stora plattformar som Facebook, YouTube och Google använder WebP omfattande för sin bildleverans.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera JPG till WebP?",
+        content:
+          "Konvertera JPG till WebP för att dramatiskt minska filstorlekar medan du behåller eller förbättrar bildkvaliteten. WebPs avancerade komprimeringsalgoritmer skapar filer som är 25-35% mindre än motsvarande JPG-bilder, vilket resulterar i snabbare sidladdningar, bättre SEO-rankningar, reducerade bandbreddskostnader och förbättrad användarupplevelse. Nyckel fördelar: snabbare webbplatsladdning (mindre filer = snabbare nedladdningar), bättre SEO (Google gynnar snabbt laddande webbplatser), reducerade bandbreddskostnader (mindre dataöverföring), förbättrad mobilupplevelse (snabbare på långsamma anslutningar), transparensstöd (alfakanal som PNG), och modern webbläsarstöd (97% täckning). WebP är väsentligt för modern webbutveckling, e-handelsplatser, bloggar och vilken webbplats som helst som prioriterar prestanda. Google PageSpeed Insights rekommenderar WebP för optimala prestandapoäng.",
+      },
+      heifVsHeic: {
+        title: "WebP vs JPG - När Välja WebP",
+        content:
+          "WebP och JPG tjänar olika syften i modern webbutveckling. Välj WebP för: webbplatser och webbapplikationer (optimal prestanda), SEO-optimering (snabbare laddning = bättre rankningar), mobile-first design (mindre filer = snabbare mobil laddning), e-handelsplatser (minska bandbreddskostnader), moderna webbläsare (97% stöd), transparensbehov (alfakanal stöd), eller prestandakritiska applikationer. Välj JPG för: maximal kompatibilitet (100% webbläsarstöd), äldre webbläsarstöd (IE, äldre Safari), e-postklienter (begränsat WebP-stöd), eller när filstorlek inte är kritisk. WebPs fördelar: 25-35% mindre filer, bättre komprimering, transparensstöd, förlustfri alternativ tillgänglig, modernt format optimerat för webb. WebPs nackdelar: 3% av webbläsare stöder inte (äldre Safari, IE), kräver fallback för maximal kompatibilitet. För moderna webbplatser: Alltid WebP med JPG-fallback. För e-post: Använd JPG. För maximal kompatibilitet: Tillhandahåll båda formaten.",
+      },
+      benefits: {
+        title: "Fördelar med WebP-format",
+        list: [
+          "25-35% Mindre Filer - Minskar dramatiskt filstorlekar vs JPG",
+          "Bättre Kvalitet - Samma eller bättre visuell kvalitet vid mindre storlekar",
+          "Transparensstöd - Alfakanal som PNG för överlägg",
+          "Snabbare Laddning - Mindre filer betyder snabbare sidladdningar",
+          "SEO-optimerad - Google gynnar snabbt laddande webbplatser",
+          "Modern Standard - Rekommenderad av Google PageSpeed Insights",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – JPG till WebP",
+      items: [
+        {
+          q: "Är det gratis att konvertera JPG till WebP?",
+          a: "Ja! Vår JPG till WebP-konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för din webbplats, blogg eller webbapplikation.",
+        },
+        {
+          q: "Hur mycket mindre är WebP-filer jämfört med JPG?",
+          a: "WebP-filer är typiskt 25-35% mindre än motsvarande JPG-bilder medan de behåller samma visuella kvalitet. Detta betyder snabbare sidladdningar, reducerade bandbreddskostnader och bättre användarupplevelse. Det exakta komprimeringsförhållandet beror på bildinnehållet, men WebP överträffar konsekvent JPG i filstorleksminskning.",
+        },
+        {
+          q: "Kommer WebP att fungera i alla webbläsare?",
+          a: "WebP stöds av 97% av moderna webbläsare, inklusive Chrome, Firefox, Edge, Opera och Safari 14+. Äldre webbläsare (IE, Safari <14) stöder inte WebP, så för maximal kompatibilitet, tillhandahåll JPG-fallbacks med HTML <picture>-elementet eller servera WebP med korrekta Content-Type-huvuden och JPG-fallbacks.",
+        },
+        {
+          q: "Är WebP-kvalitet bättre än JPG?",
+          a: "WebP kan uppnå samma visuella kvalitet som JPG vid 25-35% mindre filstorlekar, eller bättre kvalitet vid samma filstorlek. WebP använder avancerade komprimeringsalgoritmer som är mer effektiva än JPGs äldre komprimering. För webbanvändning är WebP det överlägsna valet för både kvalitet och filstorlek.",
+        },
+        {
+          q: "Kan WebP stödja transparens som PNG?",
+          a: "Ja! WebP stöder alfakanal transparens precis som PNG, vilket gör det perfekt för bilder som behöver genomskinliga bakgrunder, överlägg eller grafik. Detta är en stor fördel över JPG, som inte stöder transparens. WebP kan ersätta både JPG (för foton) och PNG (för grafik med transparens) i många fall.",
+        },
+        {
+          q: "Är WebP bra för SEO?",
+          a: "Absolut! WebP är utmärkt för SEO eftersom det skapar mindre filer som laddas snabbare. Googles PageSpeed Insights rekommenderar WebP för optimala prestandapoäng. Snabbare laddande webbplatser rankar högre i sökresultat, och WebP är en nyckelfaktor för att uppnå snabba sidladdningstider. Google själv använder WebP omfattande på sina plattformar.",
+        },
+        {
+          q: "Kan jag använda WebP för e-handelsproduktbilder?",
+          a: "Ja! WebP är perfekt för e-handel eftersom det minskar filstorlekar utan att offra kvalitet, vilket resulterar i snabbare produktssidladdningar och bättre användarupplevelse. Stora e-handelsplattformar stöder WebP, och det är särskilt fördelaktigt för mobila köpare som kan ha långsammare anslutningar. Tillhandahåll alltid JPG-fallbacks för maximal kompatibilitet.",
+        },
+        {
+          q: "Vad är skillnaden mellan förlustbehållande och förlustfri WebP?",
+          a: "Förlustbehållande WebP (som JPG) använder komprimering som minskar kvaliteten något för mycket mindre filstorlekar - perfekt för foton. Förlustfri WebP (som PNG) bevarar perfekt kvalitet men med bättre komprimering än PNG - perfekt för grafik. Vår konverterare skapar förlustbehållande WebP optimerat för webbanvändning, balanserar kvalitet och filstorlek för optimal prestanda.",
+        },
+        {
+          q: "Hur lång tid tar JPG till WebP-konvertering?",
+          a: "Konverteringen tar 1-2 sekunder per bild. WebP-konvertering är snabb eftersom den är optimerad för webbprestanda. Resultatet är en mindre, snabbare laddande bild redo för omedelbar användning på din webbplats eller webbapplikation.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "PNG till WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC till WebP", url: "/convert/heic-to-webp" },
+        { name: "HEIF till WebP", url: "/convert/heif-to-webp" },
+        { name: "JPG till PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG till GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG till PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF till PNG-konverterare - Konvertera HEIF-bilder Gratis Online till PNG",

@@ -1990,6 +1990,139 @@ export const zh: Translations = {
     },
   },
 
+  // JPG to WebP Converter
+  jpgToWebp: {
+    title: "JPG转WebP转换器 - 使用卓越压缩优化Web图像",
+    metaDescription:
+      "将JPG转换为WebP以获得更好的质量和25-35%更小的文件大小。完美适用于网站、更快的加载和SEO。支持透明度的现代格式。免费批量转换器，无需注册。",
+    metaKeywords:
+      "JPG转WebP, WebP转换器, 图像优化, Web图像, 更小的文件大小, 更快的加载, SEO优化, 批量转换JPG, 现代图像格式",
+    hero: {
+      title: "JPG转WebP转换器",
+      subtitle:
+        "将JPG转换为WebP以获得卓越的压缩和质量。WebP图像比JPG小25-35%，同时保持相同的视觉质量 - 完美适用于更快的网站、更好的SEO和降低的带宽成本。现代浏览器原生支持WebP。",
+      badge1: "25-35%更小",
+      badge2: "更好的质量",
+      badge3: "Web优化",
+    },
+    upload: {
+      title: "上传JPG文件",
+      description:
+        "将您的JPG图像拖放到此处或单击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载WebP",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+    features: {
+      title: "功能",
+      list: [
+        "相同质量下比JPG小25-35%的文件",
+        "卓越的压缩 - 优于JPG和PNG",
+        "透明度支持 - 像PNG一样的Alpha通道",
+        "最多同时处理20个文件的批量处理",
+        "自动文件删除，100%安全",
+        "完美适用于网站和Web应用程序",
+        "即时下载 - 准备部署",
+        "无水印 - 专业质量",
+      ],
+    },
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备中选择一个或多个JPG图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器即时处理您的文件",
+      step3Title: "下载WebP",
+      step3Desc: "立即获取优化的WebP文件",
+    },
+    about: {
+      title: "关于JPG转WebP转换",
+      whatIsHeif: {
+        title: "为什么WebP对现代网站完美？",
+        content:
+          "WebP是Google专为Web设计的现代图像格式。2010年发布，WebP使用先进的压缩算法创建比JPG小25-35%的图像，同时保持相同的视觉质量。WebP结合了两者的最佳：像JPG一样的有损压缩（用于照片）和像PNG一样的无损压缩（用于图形），加上Alpha通道透明度支持。WebP被97%的现代浏览器（Chrome、Firefox、Edge、Opera、Safari 14+）原生支持，是Google PageSpeed Insights推荐的Web优化格式。WebP图像加载更快，降低带宽成本，改善SEO排名，并提供更好的用户体验。Facebook、YouTube和Google等主要平台广泛使用WebP进行图像交付。",
+      },
+      whyConvert: {
+        title: "为什么将JPG转换为WebP？",
+        content:
+          "将JPG转换为WebP以在保持或改善图像质量的同时大幅减小文件大小。WebP的先进压缩算法创建比等效JPG图像小25-35%的文件，从而带来更快的页面加载、更好的SEO排名、降低的带宽成本和改善的用户体验。主要好处：更快的网站加载（更小的文件 = 更快的下载）、更好的SEO（Google偏爱快速加载的网站）、降低的带宽成本（更少的数据传输）、改善的移动体验（在慢速连接上更快）、透明度支持（像PNG一样的Alpha通道）和现代浏览器支持（97%覆盖率）。WebP对于现代Web开发、电子商务网站、博客和任何优先考虑性能的网站都是必不可少的。Google PageSpeed Insights推荐WebP以获得最佳性能分数。",
+      },
+      heifVsHeic: {
+        title: "WebP vs JPG - 何时选择WebP",
+        content:
+          "WebP和JPG在现代Web开发中服务于不同的目的。选择WebP用于：网站和Web应用程序（最佳性能）、SEO优化（更快的加载 = 更好的排名）、移动优先设计（更小的文件 = 更快的移动加载）、电子商务网站（降低带宽成本）、现代浏览器（97%支持）、透明度需求（Alpha通道支持）或性能关键应用程序。选择JPG用于：最大兼容性（100%浏览器支持）、旧浏览器支持（IE、旧Safari）、电子邮件客户端（有限的WebP支持）或当文件大小不关键时。WebP的优势：25-35%更小的文件、更好的压缩、透明度支持、可用无损选项、为Web优化的现代格式。WebP的缺点：3%的浏览器不支持（旧Safari、IE）、需要回退以获得最大兼容性。对于现代网站：始终使用带JPG回退的WebP。对于电子邮件：使用JPG。对于最大兼容性：提供两种格式。",
+      },
+      benefits: {
+        title: "WebP格式的好处",
+        list: [
+          "25-35%更小的文件 - 与JPG相比大幅减小文件大小",
+          "更好的质量 - 在更小的尺寸下相同或更好的视觉质量",
+          "透明度支持 - 用于叠加的像PNG一样的Alpha通道",
+          "更快的加载 - 更小的文件意味着更快的页面加载",
+          "SEO优化 - Google偏爱快速加载的网站",
+          "现代标准 - 由Google PageSpeed Insights推荐",
+        ],
+      },
+    },
+    faq: {
+      title: "常见问题 – JPG转WebP",
+      items: [
+        {
+          q: "将JPG转换为WebP是否免费？",
+          a: "是的！我们的JPG转WebP转换器完全免费，转换次数无限制。无需注册、订阅或隐藏费用。为您的网站、博客或Web应用程序转换所需数量的图像。",
+        },
+        {
+          q: "WebP文件与JPG相比小多少？",
+          a: "WebP文件通常在保持相同视觉质量的同时比等效JPG图像小25-35%。这意味着更快的页面加载、降低的带宽成本和更好的用户体验。确切的压缩比取决于图像内容，但WebP在文件大小减少方面始终优于JPG。",
+        },
+        {
+          q: "WebP是否适用于所有浏览器？",
+          a: "WebP受到97%的现代浏览器支持，包括Chrome、Firefox、Edge、Opera和Safari 14+。旧浏览器（IE、Safari <14）不支持WebP，因此为了最大兼容性，使用HTML <picture>元素提供JPG回退，或使用适当的Content-Type标头和JPG回退提供WebP。",
+        },
+        {
+          q: "WebP质量是否优于JPG？",
+          a: "WebP可以在25-35%更小的文件大小下达到与JPG相同的视觉质量，或在相同文件大小下达到更好的质量。WebP使用比JPG的旧压缩更高效的高级压缩算法。对于Web使用，WebP在质量和文件大小方面都是优越的选择。",
+        },
+        {
+          q: "WebP能否像PNG一样支持透明度？",
+          a: "是的！WebP支持像PNG一样的Alpha通道透明度，使其非常适合需要透明背景、叠加或图形的图像。这是对不支持透明度的JPG的主要优势。WebP可以在许多情况下替代JPG（用于照片）和PNG（用于带透明度的图形）。",
+        },
+        {
+          q: "WebP对SEO有好处吗？",
+          a: "绝对有！WebP对SEO非常出色，因为它创建加载更快的更小文件。Google的PageSpeed Insights推荐WebP以获得最佳性能分数。加载更快的网站在搜索结果中排名更高，WebP是实现快速页面加载时间的关键因素。Google本身在其平台上广泛使用WebP。",
+        },
+        {
+          q: "我可以将WebP用于电子商务产品图像吗？",
+          a: "是的！WebP对电子商务完美，因为它在不牺牲质量的情况下减小文件大小，从而带来更快的产品页面加载和更好的用户体验。主要电子商务平台支持WebP，对于可能具有较慢连接的移动购物者特别有益。始终提供JPG回退以获得最大兼容性。",
+        },
+        {
+          q: "有损和无损WebP之间有什么区别？",
+          a: "有损WebP（像JPG）使用压缩，为更小的文件大小略微降低质量 - 完美适用于照片。无损WebP（像PNG）保持完美质量，但压缩比PNG更好 - 完美适用于图形。我们的转换器创建针对Web使用优化的有损WebP，平衡质量和文件大小以获得最佳性能。",
+        },
+        {
+          q: "JPG转WebP转换需要多长时间？",
+          a: "转换每张图像需要1-2秒。WebP转换很快，因为它针对Web性能进行了优化。结果是一个更小、加载更快的图像，可在您的网站或Web应用程序上立即使用。",
+        },
+      ],
+    },
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "PNG转WebP", url: "/convert/png-to-webp" },
+        { name: "HEIC转WebP", url: "/convert/heic-to-webp" },
+        { name: "HEIF转WebP", url: "/convert/heif-to-webp" },
+        { name: "JPG转PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG转GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG转PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF转PNG转换器 - 免费在线将HEIF图像转换为PNG",
