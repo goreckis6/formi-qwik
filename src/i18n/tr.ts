@@ -236,6 +236,10 @@ export const tr: Translations = {
       name: "JPG'den WebP'ye",
       description: "JPG'yi WebP'ye dönüştürün - %25-35 daha küçük dosyalar ve daha iyi web performansı",
     },
+    jpgToPdf: {
+      name: "JPG'den PDF'ye",
+      description: "JPG görüntülerini evrensel uyumluluk ve profesyonel sunum için PDF belgelerine dönüştürün",
+    },
   },
 
   heicToPdf: {
@@ -2144,7 +2148,134 @@ export const tr: Translations = {
       ],
     },
   },
-
+  // JPG to PDF Converter
+  jpgToPdf: {
+    title: "JPG'den PDF'ye Dönüştürücü - Görüntüleri PDF Belgelerine Ücretsiz Online Dönüştürün",
+    metaDescription:
+      "JPG görüntülerini anında PDF formatına dönüştürün. Belgeler, portföyler ve profesyonel sunumlar için mükemmel. Ücretsiz toplu dönüştürücü, kayıt yok. Evrensel PDF formatında görüntü kalitesini koruyun.",
+    metaKeywords:
+      "JPG'den PDF'ye, JPG'yi PDF'ye dönüştür, görüntüyü PDF'ye, fotoğrafı PDF'ye, toplu JPG dönüştür, PDF dönüştürücü, ücretsiz PDF dönüştürücü, görüntüyü belgeye",
+    hero: {
+      title: "JPG'den PDF'ye Dönüştürücü",
+      subtitle:
+        "JPG görüntülerini anında profesyonel PDF belgelerine dönüştürün. Portföy, sunum ve belge oluşturmak için mükemmel. PDF formatı tüm cihazlar ve platformlarda evrensel uyumluluk ve kolay paylaşım sağlar.",
+      badge1: "Evrensel Format",
+      badge2: "Profesyonel Kalite",
+      badge3: "Kolay Paylaşım",
+    },
+    upload: {
+      title: "JPG Dosyalarını Yükle",
+      description:
+        "JPG görüntülerinizi buraya sürükleyip bırakın veya göz atmak için tıklayın. Toplu dönüştürme için 20 dosyaya kadar destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştürme",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "PDF İndir",
+      downloadAll: "Tümünü ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Yüksek kaliteli JPG'den PDF'ye dönüştürme",
+        "Aynı anda 20 dosyaya kadar toplu işleme",
+        "Görüntü kalitesi ve çözünürlüğünü korur",
+        "Evrensel uyumluluk - PDF'ler her yerde çalışır",
+        "Otomatik dosya silme ile %100 güvenli",
+        "Belgeler ve portföyler için mükemmel",
+        "Anında indirme - Paylaşmaya hazır",
+        "Filigran yok - Profesyonel kalite",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "JPG Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla JPG görüntüsü seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "PDF İndir",
+      step3Desc: "Dönüştürülmüş PDF dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "JPG'den PDF'ye Dönüştürme Hakkında",
+      whatIsHeif: {
+        title: "PDF Neden Belgeler ve Portföyler İçin Mükemmeldir?",
+        content:
+          "PDF (Portable Document Format), Adobe tarafından 1993'te oluşturulan belgeler için evrensel standarttır. PDF, belgelerinizin herhangi bir cihazda, işletim sisteminde veya uygulamada tam olarak aynı görünmesini sağlar - bu da onu paylaşım, arşivleme ve yazdırma için profesyonel seçim yapar. PDF'ler görüntü kalitesini korur, birden fazla sayfayı destekler ve evrensel olarak uyumludur. Görüntüleme için tasarlanmış görüntü formatlarının (JPG, PNG) aksine, PDF'ler belgeler için tasarlanmıştır - portföyler, sunumlar, raporlar ve profesyonel belgeler için mükemmeldir. PDF'ler birden fazla görüntü, metin ve biçimlendirme içerebilir, bu da onları fotoğraflarınızdan kapsamlı belgeler oluşturmak için ideal yapar.",
+      },
+      whyConvert: {
+        title: "Neden JPG'yi PDF'ye Dönüştürmelisiniz?",
+        content:
+          "Belgeler, portföyler veya sunumlar oluşturmanız gerektiğinde JPG'yi PDF'ye dönüştürün. JPG, fotoğrafları görüntülemek için tasarlanmış bir görüntü formatıdır, PDF ise paylaşım ve yazdırma için tasarlanmış bir belge formatıdır. Dönüştürme nedenleri: profesyonel portföyler oluşturma (bir belgede birden fazla görüntü), yazdırma için belgeler hazırlama (PDF yazdırmaya hazırdır), evrensel uyumluluk sağlama (PDF'ler tüm cihazlarda çalışır), e-posta ile paylaşma (PDF'ler e-posta dostudur), fotoğrafları profesyonelce arşivleme (endüstri standardı format), veya birden fazla görüntüyü bir belgede birleştirme. PDF'ler iş belgeleri, portföyler, sunumlar, raporlar ve görüntüleri bir belge formatında birleştirmeniz gereken herhangi bir profesyonel kullanım için gereklidir. PDF'ler belge yapısı ve evrensel uyumluluk sağlarken görüntü kalitesini korur.",
+      },
+      heifVsHeic: {
+        title: "PDF vs JPG - Ne Zaman PDF Seçilmeli",
+        content:
+          "PDF ve JPG farklı amaçlara hizmet eder. PDF'i şunlar için seçin: belgeler ve portföyler (bir dosyada birden fazla görüntü), profesyonel sunumlar (evrensel uyumluluk), yazdırma ve arşivleme (yazdırmaya hazır format), e-posta paylaşımı (e-posta dostu), iş kullanımı (profesyonel standart), veya birden fazla görüntüyü birleştirme (belge yapısı). JPG'yi şunlar için seçin: fotoğrafları görüntüleme (görüntü formatı), web kullanımı (daha küçük dosya boyutları), sosyal medya (yerel destek), veya tek görüntü paylaşımı (daha basit format). PDF avantajları: evrensel uyumluluk (her yerde çalışır), belge yapısı (birden fazla sayfa, metin desteği), yazdırmaya hazır (yazdırma için mükemmel), profesyonel standart (endüstri seçimi), kaliteyi korur (görüntü çözünürlüğünü korur). PDF dezavantajları: daha büyük dosya boyutları (belge ek yükü), web için ideal değil (daha yavaş yükleme), PDF görüntüleyici gerektirir (çoğu sistemde yerleşik olsa da). Belgeler için: Her zaman PDF. Fotoğraflar için: JPG kullanın. Portföyler için: PDF profesyonel seçimdir.",
+      },
+      benefits: {
+        title: "PDF Formatının Avantajları",
+        list: [
+          "Evrensel Uyumluluk - PDF'ler tüm cihazlarda ve platformlarda çalışır",
+          "Profesyonel Standart - Belgeler ve portföyler için endüstri seçimi",
+          "Yazdırmaya Hazır - Fiziksel yazdırma ve arşivleme için mükemmel",
+          "Belge Yapısı - Birden fazla görüntüyü bir belgede birleştirin",
+          "Kolay Paylaşım - Herkesin açabileceği e-posta dostu format",
+          "Kalite Korunması - Orijinal görüntü çözünürlüğünü korur",
+        ],
+      },
+    },
+    faq: {
+      title: "Sık Sorulan Sorular – JPG'den PDF'ye",
+      items: [
+        {
+          q: "JPG'yi PDF'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! JPG'den PDF'ye dönüştürücümüz sınırsız dönüştürme ile tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret yok. Belgeler, portföyler veya profesyonel kullanım için ihtiyacınız olan kadar görüntü dönüştürün.",
+        },
+        {
+          q: "Birden fazla JPG görüntüsünü bir PDF'ye dönüştürebilir miyim?",
+          a: "Evet! Toplu dönüştürücümüz 20 JPG görüntüsüne kadar yüklemenize ve bunları ayrı PDF dosyalarına dönüştürmenize olanak tanır. Her JPG görüntüsü kendi PDF belgesi olur, orijinal görüntü kalitesi ve çözünürlüğünü korur.",
+        },
+        {
+          q: "JPG'yi PDF'ye dönüştürürken görüntü kalitesi korunacak mı?",
+          a: "Evet. Dönüştürme sırasında orijinal görüntü kalitesini koruyoruz. JPG görüntüleriniz sıkıştırma veya kalite kaybı olmadan yüksek çözünürlüklü PDF dosyalarına dönüştürülür. PDF, orijinal JPG ile aynı görüntü kalitesini korur.",
+        },
+        {
+          q: "PDF'leri yazdırma için kullanabilir miyim?",
+          a: "Kesinlikle! PDF'ler yazdırma için standart formattır. PDF'ler yazdırmaya hazırdır ve herhangi bir çözünürlükte görüntü kalitesini korur. PDF'ler profesyonel yazıcılar tarafından kullanılır ve yazdırılması gereken portföyler, sunumlar ve belgeler için idealdir.",
+        },
+        {
+          q: "PDF'ler tüm cihazlarda çalışacak mı?",
+          a: "Evet! PDF'ler evrensel olarak uyumludur ve tüm cihazlarda, işletim sistemlerinde ve platformlarda çalışır. PDF'ler Windows, macOS, Linux, iOS, Android ve bir PDF görüntüleyiciye sahip herhangi bir cihazda açılabilir (çoğu modern sistemde yerleşiktir).",
+        },
+        {
+          q: "Dönüştürmeden sonra PDF'leri düzenleyebilir miyim?",
+          a: "JPG görüntülerinden oluşturulan PDF'ler görüntüleri gömülü içerik olarak içerir. PDF'leri herhangi bir cihazda görüntüleyebilir ve yazdırabilirsiniz. Gelişmiş düzenleme için (metin ekleme, sayfaları birleştirme, vb.) Adobe Acrobat gibi PDF düzenleme yazılımına ihtiyacınız olacaktır, ancak görüntülerin kendisi PDF formatında mükemmel şekilde korunur.",
+        },
+        {
+          q: "JPG'den PDF'ye dönüştürme için maksimum dosya boyutu nedir?",
+          a: "Dosya başına 100MB'a kadar JPG dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için aynı anda 20 dosyaya kadar yükleyebilirsiniz, toplam boyut limiti 100MB'dır. Ortaya çıkan PDF orijinal görüntü kalitesini koruyacaktır.",
+        },
+        {
+          q: "JPG'den PDF'ye dönüştürme ne kadar sürer?",
+          a: "Dönüştürme görüntü başına 1-2 saniye sürer. PDF dönüştürme hızlıdır çünkü tüm görüntü verilerini koruyan temelde bir format değişikliğidir. Sonuç, paylaşım, yazdırma veya profesyonel kullanım için hazır yüksek kaliteli bir PDF'dir.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "PDF'den JPG'ye", url: "/convert/pdf-to-jpg" },
+        { name: "PNG'den PDF'ye", url: "/convert/png-to-pdf" },
+        { name: "HEIC'den PDF'ye", url: "/convert/heic-to-pdf" },
+        { name: "JPG'den PNG'ye", url: "/convert/jpg-to-png" },
+        { name: "JPG'den WebP'ye", url: "/convert/jpg-to-webp" },
+        { name: "HEIF'den PDF'ye", url: "/convert/heif-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF'den PNG'ye Dönüştürücü - HEIF Görüntülerini PNG'ye Ücretsiz Çevrimiçi Dönüştür",

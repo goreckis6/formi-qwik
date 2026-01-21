@@ -236,6 +236,10 @@ export const nl: Translations = {
       name: "JPG naar WebP",
       description: "Converteer JPG naar WebP voor 25-35% kleinere bestanden en betere webprestaties",
     },
+    jpgToPdf: {
+      name: "JPG naar PDF",
+      description: "Converteer JPG-afbeeldingen naar PDF-documenten voor universele compatibiliteit en professionele presentatie",
+    },
   },
 
   heicToPdf: {
@@ -495,13 +499,13 @@ export const nl: Translations = {
 
     upload: {
     title: "Upload HEIC Bestanden",
-    description:
+      description:
       "Sleep uw HEIC-foto's hierheen of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
-    buttonSingle: "Enkel Bestand",
+      buttonSingle: "Enkel Bestand",
     buttonBatch: "Batch Converteren",
     chooseFile: "Kies Bestanden",
-    converting: "Converteren...",
-    success: "Conversie geslaagd!",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
     download: "JPG Downloaden",
     downloadAll: "Download Alles als ZIP",
     convertAnother: "Converteer Ander Bestand",
@@ -522,11 +526,11 @@ export const nl: Translations = {
     },
 
     howItWorks: {
-    title: "Hoe Het Werkt",
+      title: "Hoe Het Werkt",
     step1Title: "Upload HEIC Bestanden",
     step1Desc: "Selecteer een of meer HEIC-foto's van uw apparaat",
-    step2Title: "Automatische Conversie",
-    step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
     step3Title: "Download JPG",
     step3Desc: "Ontvang uw geconverteerde JPG-bestanden direct",
     },
@@ -2130,7 +2134,134 @@ export const nl: Translations = {
       ],
     },
   },
-
+  // JPG to PDF Converter
+  jpgToPdf: {
+    title: "JPG naar PDF Converter - Converteer Afbeeldingen naar PDF Documenten Gratis Online",
+    metaDescription:
+      "Converteer JPG-afbeeldingen direct naar PDF-formaat. Perfect voor documenten, portfolio's en professionele presentaties. Gratis batchconverter, geen registratie. Behoud beeldkwaliteit in universeel PDF-formaat.",
+    metaKeywords:
+      "JPG naar PDF, converteer JPG naar PDF, afbeelding naar PDF, foto naar PDF, batch converteer JPG, PDF converter, gratis PDF converter, afbeelding naar document",
+    hero: {
+      title: "JPG naar PDF Converter",
+      subtitle:
+        "Converteer JPG-afbeeldingen direct naar professionele PDF-documenten. Perfect voor het maken van portfolio's, presentaties en documenten. PDF-formaat zorgt voor universele compatibiliteit en eenvoudig delen op alle apparaten en platforms.",
+      badge1: "Universeel Formaat",
+      badge2: "Professionele Kwaliteit",
+      badge3: "Eenvoudig Delen",
+    },
+    upload: {
+      title: "Upload JPG Bestanden",
+      description:
+        "Sleep en zet je JPG-afbeeldingen hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie succesvol!",
+      download: "Download PDF",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "Hoge kwaliteit JPG naar PDF conversie",
+        "Batchverwerking tot 20 bestanden tegelijkertijd",
+        "Behoudt beeldkwaliteit en resolutie",
+        "Universele compatibiliteit - PDF's werken overal",
+        "100% veilig met automatische bestandsverwijdering",
+        "Perfect voor documenten en portfolio's",
+        "Directe download - Klaar om te delen",
+        "Geen watermerken - Professionele kwaliteit",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload JPG Bestanden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van je apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt je bestanden direct",
+      step3Title: "Download PDF",
+      step3Desc: "Krijg je geconverteerde PDF-bestanden direct",
+    },
+    about: {
+      title: "Over JPG naar PDF Conversie",
+      whatIsHeif: {
+        title: "Waarom is PDF Perfect voor Documenten en Portfolio's?",
+        content:
+          "PDF (Portable Document Format) is de universele standaard voor documenten, gemaakt door Adobe in 1993. PDF zorgt ervoor dat je documenten er exact hetzelfde uitzien op elk apparaat, besturingssysteem of applicatie - waardoor het de professionele keuze is voor delen, archiveren en printen. PDF's behouden beeldkwaliteit, ondersteunen meerdere pagina's en zijn universeel compatibel. In tegenstelling tot beeldformaten (JPG, PNG) die zijn ontworpen voor weergave, zijn PDF's ontworpen voor documenten - perfect voor portfolio's, presentaties, rapporten en professionele documenten. PDF's kunnen meerdere afbeeldingen, tekst en opmaak bevatten, waardoor ze ideaal zijn voor het maken van uitgebreide documenten uit je foto's.",
+      },
+      whyConvert: {
+        title: "Waarom JPG naar PDF Converteren?",
+        content:
+          "Converteer JPG naar PDF wanneer je documenten, portfolio's of presentaties moet maken. JPG is een beeldformaat ontworpen voor het bekijken van foto's, terwijl PDF een documentformaat is ontworpen voor delen en printen. Belangrijke redenen om te converteren: maak professionele portfolio's (meerdere afbeeldingen in één document), bereid documenten voor op printen (PDF is printklaar), zorg voor universele compatibiliteit (PDF's werken op alle apparaten), deel via e-mail (PDF's zijn e-mailvriendelijk), archiveer foto's professioneel (industriestandaardformaat), of combineer meerdere afbeeldingen in één document. PDF's zijn essentieel voor zakelijke documenten, portfolio's, presentaties, rapporten en elk professioneel gebruik waar je afbeeldingen moet combineren in een documentformaat. PDF's behouden beeldkwaliteit terwijl ze documentstructuur en universele compatibiliteit bieden.",
+      },
+      heifVsHeic: {
+        title: "PDF vs JPG - Wanneer PDF Kiezen",
+        content:
+          "PDF en JPG dienen verschillende doeleinden. Kies PDF voor: documenten en portfolio's (meerdere afbeeldingen in één bestand), professionele presentaties (universele compatibiliteit), printen en archiveren (printklaar formaat), e-mail delen (e-mailvriendelijk), zakelijk gebruik (professionele standaard), of het combineren van meerdere afbeeldingen (documentstructuur). Kies JPG voor: foto's bekijken (beeldformaat), webgebruik (kleinere bestandsgroottes), sociale media (native ondersteuning), of het delen van één afbeelding (eenvoudiger formaat). PDF-voordelen: universele compatibiliteit (werkt overal), documentstructuur (meerdere pagina's, tekstondersteuning), printklaar (perfect voor printen), professionele standaard (industriekeuze), behoudt kwaliteit (behoudt beeldresolutie). PDF-nadelen: grotere bestandsgroottes (documentoverhead), niet ideaal voor web (langzamer laden), vereist PDF-viewer (hoewel ingebouwd in de meeste systemen). Voor documenten: Altijd PDF. Voor foto's: Gebruik JPG. Voor portfolio's: PDF is de professionele keuze.",
+      },
+      benefits: {
+        title: "Voordelen van PDF Formaat",
+        list: [
+          "Universele Compatibiliteit - PDF's werken op alle apparaten en platforms",
+          "Professionele Standaard - Industriekeuze voor documenten en portfolio's",
+          "Printklaar - Perfect voor fysiek printen en archiveren",
+          "Documentstructuur - Combineer meerdere afbeeldingen in één document",
+          "Eenvoudig Delen - E-mailvriendelijk formaat dat iedereen kan openen",
+          "Kwaliteitsbehoud - Behoudt originele beeldresolutie",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – JPG naar PDF",
+      items: [
+        {
+          q: "Is het gratis om JPG naar PDF te converteren?",
+          a: "Ja! Onze JPG naar PDF converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als je nodig hebt voor documenten, portfolio's of professioneel gebruik.",
+        },
+        {
+          q: "Kan ik meerdere JPG-afbeeldingen in één PDF converteren?",
+          a: "Ja! Onze batchconverter stelt je in staat om tot 20 JPG-afbeeldingen te uploaden en ze te converteren naar aparte PDF-bestanden. Elke JPG-afbeelding wordt zijn eigen PDF-document, waarbij de originele beeldkwaliteit en resolutie behouden blijven.",
+        },
+        {
+          q: "Wordt de beeldkwaliteit behouden bij het converteren van JPG naar PDF?",
+          a: "Ja. We behouden de originele beeldkwaliteit tijdens de conversie. Je JPG-afbeeldingen worden geconverteerd naar PDF-bestanden met hoge resolutie zonder compressie of kwaliteitsverlies. De PDF behoudt dezelfde beeldkwaliteit als de originele JPG.",
+        },
+        {
+          q: "Kan ik PDF's gebruiken voor printen?",
+          a: "Absoluut! PDF's zijn het standaardformaat voor printen. PDF's zijn printklaar en behouden beeldkwaliteit bij elke resolutie. PDF's worden gebruikt door professionele drukkers en zijn ideaal voor portfolio's, presentaties en documenten die moeten worden afgedrukt.",
+        },
+        {
+          q: "Werken PDF's op alle apparaten?",
+          a: "Ja! PDF's zijn universeel compatibel en werken op alle apparaten, besturingssystemen en platforms. PDF's kunnen worden geopend op Windows, macOS, Linux, iOS, Android en elk apparaat met een PDF-viewer (die is ingebouwd in de meeste moderne systemen).",
+        },
+        {
+          q: "Kan ik PDF's bewerken na conversie?",
+          a: "PDF's gemaakt van JPG-afbeeldingen bevatten de afbeeldingen als ingesloten inhoud. Je kunt PDF's bekijken en printen op elk apparaat. Voor geavanceerde bewerking (tekst toevoegen, pagina's combineren, etc.) heb je PDF-bewerkingssoftware zoals Adobe Acrobat nodig, maar de afbeeldingen zelf zijn perfect bewaard in het PDF-formaat.",
+        },
+        {
+          q: "Wat is de maximale bestandsgrootte voor JPG naar PDF conversie?",
+          a: "Je kunt JPG-bestanden converteren tot 100MB elk. Voor batchconversie kun je tot 20 bestanden tegelijk uploaden, met een totale groottebeperking van 100MB. De resulterende PDF behoudt de originele beeldkwaliteit.",
+        },
+        {
+          q: "Hoe lang duurt JPG naar PDF conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. PDF-conversie is snel omdat het voornamelijk een formaatwijziging is die alle beeldgegevens behoudt. Het resultaat is een hoogwaardige PDF klaar voor delen, printen of professioneel gebruik.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "PDF naar JPG", url: "/convert/pdf-to-jpg" },
+        { name: "PNG naar PDF", url: "/convert/png-to-pdf" },
+        { name: "HEIC naar PDF", url: "/convert/heic-to-pdf" },
+        { name: "JPG naar PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG naar WebP", url: "/convert/jpg-to-webp" },
+        { name: "HEIF naar PDF", url: "/convert/heif-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF naar PNG Converter - Converteer HEIF Afbeeldingen Gratis Online naar PNG",

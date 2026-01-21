@@ -229,6 +229,10 @@ export const zh: Translations = {
       name: "JPG转WebP",
       description: "将JPG转换为WebP以获得25-35%更小的文件和更好的网络性能",
     },
+    jpgToPdf: {
+      name: "JPG转PDF",
+      description: "将JPG图像转换为PDF文档，实现通用兼容性和专业演示",
+    },
   },
 
   heicToPdf: {
@@ -2122,7 +2126,134 @@ export const zh: Translations = {
       ],
     },
   },
-
+  // JPG to PDF Converter
+  jpgToPdf: {
+    title: "JPG转PDF转换器 - 免费在线将图像转换为PDF文档",
+    metaDescription:
+      "立即将JPG图像转换为PDF格式。非常适合文档、作品集和专业演示。免费批量转换器，无需注册。在通用PDF格式中保持图像质量。",
+    metaKeywords:
+      "JPG转PDF，将JPG转换为PDF，图像转PDF，照片转PDF，批量转换JPG，PDF转换器，免费PDF转换器，图像转文档",
+    hero: {
+      title: "JPG转PDF转换器",
+      subtitle:
+        "立即将JPG图像转换为专业PDF文档。非常适合创建作品集、演示文稿和文档。PDF格式确保在所有设备和平台上的通用兼容性和轻松共享。",
+      badge1: "通用格式",
+      badge2: "专业质量",
+      badge3: "轻松共享",
+    },
+    upload: {
+      title: "上传JPG文件",
+      description:
+        "将JPG图像拖放到此处或点击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载PDF",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+    features: {
+      title: "功能",
+      list: [
+        "高质量JPG转PDF转换",
+        "同时处理最多20个文件的批量处理",
+        "保持图像质量和分辨率",
+        "通用兼容性 - PDF在任何地方都能工作",
+        "自动文件删除，100%安全",
+        "非常适合文档和作品集",
+        "即时下载 - 准备共享",
+        "无水印 - 专业质量",
+      ],
+    },
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从设备中选择一个或多个JPG图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载PDF",
+      step3Desc: "立即获取转换后的PDF文件",
+    },
+    about: {
+      title: "关于JPG转PDF转换",
+      whatIsHeif: {
+        title: "为什么PDF对文档和作品集来说是完美的？",
+        content:
+          "PDF（便携式文档格式）是文档的通用标准，由Adobe于1993年创建。PDF确保您的文档在任何设备、操作系统或应用程序上看起来完全相同 - 使其成为共享、归档和打印的专业选择。PDF保持图像质量，支持多页，并且通用兼容。与为查看而设计的图像格式（JPG、PNG）不同，PDF是为文档设计的 - 非常适合作品集、演示文稿、报告和专业文档。PDF可以包含多个图像、文本和格式，使其成为从照片创建综合文档的理想选择。",
+      },
+      whyConvert: {
+        title: "为什么将JPG转换为PDF？",
+        content:
+          "当您需要创建文档、作品集或演示文稿时，将JPG转换为PDF。JPG是为查看照片而设计的图像格式，而PDF是为共享和打印而设计的文档格式。转换的关键原因：创建专业作品集（一个文档中的多个图像），准备打印文档（PDF已准备好打印），确保通用兼容性（PDF在所有设备上工作），通过电子邮件共享（PDF对电子邮件友好），专业归档照片（行业标准格式），或将多个图像合并为一个文档。PDF对于商业文档、作品集、演示文稿、报告以及需要将图像合并为文档格式的任何专业用途都是必不可少的。PDF在提供文档结构和通用兼容性的同时保持图像质量。",
+      },
+      heifVsHeic: {
+        title: "PDF vs JPG - 何时选择PDF",
+        content:
+          "PDF和JPG服务于不同的目的。选择PDF用于：文档和作品集（一个文件中的多个图像），专业演示（通用兼容性），打印和归档（准备打印的格式），电子邮件共享（对电子邮件友好），商业用途（专业标准），或合并多个图像（文档结构）。选择JPG用于：查看照片（图像格式），网络使用（较小的文件大小），社交媒体（本机支持），或共享单个图像（更简单的格式）。PDF的优势：通用兼容性（在任何地方工作），文档结构（多页，文本支持），准备打印（非常适合打印），专业标准（行业选择），保持质量（保持图像分辨率）。PDF的缺点：较大的文件大小（文档开销），不适合网络（加载较慢），需要PDF查看器（尽管内置在大多数系统中）。对于文档：始终使用PDF。对于照片：使用JPG。对于作品集：PDF是专业选择。",
+      },
+      benefits: {
+        title: "PDF格式的优势",
+        list: [
+          "通用兼容性 - PDF在所有设备和平台上工作",
+          "专业标准 - 文档和作品集的行业选择",
+          "准备打印 - 非常适合物理打印和归档",
+          "文档结构 - 将多个图像合并为一个文档",
+          "轻松共享 - 任何人都可以打开的电子邮件友好格式",
+          "质量保持 - 保持原始图像分辨率",
+        ],
+      },
+    },
+    faq: {
+      title: "常见问题 – JPG转PDF",
+      items: [
+        {
+          q: "将JPG转换为PDF是否免费？",
+          a: "是的！我们的JPG转PDF转换器完全免费，转换次数不限。无需注册、订阅或隐藏费用。为文档、作品集或专业用途转换所需数量的图像。",
+        },
+        {
+          q: "我可以将多个JPG图像转换为一个PDF吗？",
+          a: "是的！我们的批量转换器允许您上传最多20个JPG图像并将它们转换为单独的PDF文件。每个JPG图像成为自己的PDF文档，保持原始图像质量和分辨率。",
+        },
+        {
+          q: "将JPG转换为PDF时图像质量会保持吗？",
+          a: "是的。我们在转换过程中保持原始图像质量。您的JPG图像被转换为高分辨率PDF文件，无压缩或质量损失。PDF保持与原始JPG相同的图像质量。",
+        },
+        {
+          q: "我可以将PDF用于打印吗？",
+          a: "当然可以！PDF是打印的标准格式。PDF已准备好打印，并在任何分辨率下保持图像质量。PDF被专业打印机使用，非常适合需要打印的作品集、演示文稿和文档。",
+        },
+        {
+          q: "PDF会在所有设备上工作吗？",
+          a: "是的！PDF通用兼容，可在所有设备、操作系统和平台上工作。PDF可以在Windows、macOS、Linux、iOS、Android以及任何带有PDF查看器的设备上打开（大多数现代系统都内置了PDF查看器）。",
+        },
+        {
+          q: "转换后我可以编辑PDF吗？",
+          a: "从JPG图像创建的PDF包含作为嵌入内容的图像。您可以在任何设备上查看和打印PDF。对于高级编辑（添加文本、合并页面等），您需要PDF编辑软件（如Adobe Acrobat），但图像本身在PDF格式中完美保存。",
+        },
+        {
+          q: "JPG转PDF转换的最大文件大小是多少？",
+          a: "您可以转换每个文件最大100MB的JPG文件。对于批量转换，您可以一次上传最多20个文件，总大小限制为100MB。生成的PDF将保持原始图像质量。",
+        },
+        {
+          q: "JPG转PDF转换需要多长时间？",
+          a: "转换每个图像需要1-2秒。PDF转换很快，因为它主要是保持所有图像数据的格式更改。结果是一个高质量的PDF，准备用于共享、打印或专业用途。",
+        },
+      ],
+    },
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "PDF转JPG", url: "/convert/pdf-to-jpg" },
+        { name: "PNG转PDF", url: "/convert/png-to-pdf" },
+        { name: "HEIC转PDF", url: "/convert/heic-to-pdf" },
+        { name: "JPG转PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG转WebP", url: "/convert/jpg-to-webp" },
+        { name: "HEIF转PDF", url: "/convert/heif-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF转PNG转换器 - 免费在线将HEIF图像转换为PNG",
@@ -2256,6 +2387,4 @@ export const zh: Translations = {
     },
   },
 };
-
-export type Translations = typeof zh;
 

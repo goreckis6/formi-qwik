@@ -234,6 +234,10 @@ export const sv: Translations = {
       name: "JPG till WebP",
       description: "Konvertera JPG till WebP för 25-35% mindre filer och bättre webbprestanda",
     },
+    jpgToPdf: {
+      name: "JPG till PDF",
+      description: "Konvertera JPG-bilder till PDF-dokument för universell kompatibilitet och professionell presentation",
+    },
   },
 
   heicToPdf: {
@@ -2128,7 +2132,134 @@ export const sv: Translations = {
       ],
     },
   },
-
+  // JPG to PDF Converter
+  jpgToPdf: {
+    title: "JPG till PDF-konverterare - Konvertera Bilder till PDF-dokument Gratis Online",
+    metaDescription:
+      "Konvertera JPG-bilder till PDF-format omedelbart. Perfekt för dokument, portföljer och professionella presentationer. Gratis batchkonverterare, ingen registrering. Bevara bildkvalitet i universellt PDF-format.",
+    metaKeywords:
+      "JPG till PDF, konvertera JPG till PDF, bild till PDF, foto till PDF, batch konvertera JPG, PDF-konverterare, gratis PDF-konverterare, bild till dokument",
+    hero: {
+      title: "JPG till PDF-konverterare",
+      subtitle:
+        "Konvertera JPG-bilder till professionella PDF-dokument omedelbart. Perfekt för att skapa portföljer, presentationer och dokument. PDF-format säkerställer universell kompatibilitet och enkel delning på alla enheter och plattformar.",
+      badge1: "Universellt Format",
+      badge2: "Professionell Kvalitet",
+      badge3: "Enkel Delning",
+    },
+    upload: {
+      title: "Ladda upp JPG-filer",
+      description:
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batchkonvertering",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner PDF",
+      downloadAll: "Ladda ner Allt som ZIP",
+      convertAnother: "Konvertera Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "Högkvalitativ JPG till PDF-konvertering",
+        "Batchbearbetning upp till 20 filer samtidigt",
+        "Bevarar bildkvalitet och upplösning",
+        "Universell kompatibilitet - PDF fungerar överallt",
+        "100% säkert med automatisk filradering",
+        "Perfekt för dokument och portföljer",
+        "Omedelbar nedladdning - Redo att dela",
+        "Inga vattenstämplar - Professionell kvalitet",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer omedelbart",
+      step3Title: "Ladda ner PDF",
+      step3Desc: "Få dina konverterade PDF-filer omedelbart",
+    },
+    about: {
+      title: "Om JPG till PDF-konvertering",
+      whatIsHeif: {
+        title: "Varför är PDF Perfekt för Dokument och Portföljer?",
+        content:
+          "PDF (Portable Document Format) är den universella standarden för dokument, skapad av Adobe 1993. PDF säkerställer att dina dokument ser exakt likadana ut på vilken enhet, operativsystem eller applikation som helst - vilket gör det till det professionella valet för delning, arkivering och utskrift. PDF bevarar bildkvalitet, stöder flera sidor och är universellt kompatibla. Till skillnad från bildformat (JPG, PNG) som är designade för visning, är PDF designade för dokument - perfekta för portföljer, presentationer, rapporter och professionella dokument. PDF kan innehålla flera bilder, text och formatering, vilket gör dem idealiska för att skapa omfattande dokument från dina foton.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera JPG till PDF?",
+        content:
+          "Konvertera JPG till PDF när du behöver skapa dokument, portföljer eller presentationer. JPG är ett bildformat designat för att visa foton, medan PDF är ett dokumentformat designat för delning och utskrift. Viktiga skäl att konvertera: skapa professionella portföljer (flera bilder i ett dokument), förbereda dokument för utskrift (PDF är utskriftsklart), säkerställa universell kompatibilitet (PDF fungerar på alla enheter), dela via e-post (PDF är e-postvänliga), arkivera foton professionellt (branschstandardformat), eller kombinera flera bilder till ett dokument. PDF är viktiga för affärsdokument, portföljer, presentationer, rapporter och all professionell användning där du behöver kombinera bilder till ett dokumentformat. PDF behåller bildkvalitet samtidigt som de tillhandahåller dokumentstruktur och universell kompatibilitet.",
+      },
+      heifVsHeic: {
+        title: "PDF vs JPG - När Välja PDF",
+        content:
+          "PDF och JPG tjänar olika syften. Välj PDF för: dokument och portföljer (flera bilder i en fil), professionella presentationer (universell kompatibilitet), utskrift och arkivering (utskriftsklart format), e-postdelning (e-postvänligt), affärsanvändning (professionell standard), eller kombinera flera bilder (dokumentstruktur). Välj JPG för: visa foton (bildformat), webbanvändning (mindre filstorlekar), sociala medier (nativt stöd), eller dela en enda bild (enklare format). PDF-fördelar: universell kompatibilitet (fungerar överallt), dokumentstruktur (flera sidor, textstöd), utskriftsklart (perfekt för utskrift), professionell standard (branschval), bevarar kvalitet (behåller bildupplösning). PDF-nackdelar: större filstorlekar (dokumentoverhead), inte idealiskt för webb (långsammare laddning), kräver PDF-visare (även om inbyggd i de flesta system). För dokument: Alltid PDF. För foton: Använd JPG. För portföljer: PDF är det professionella valet.",
+      },
+      benefits: {
+        title: "Fördelar med PDF-format",
+        list: [
+          "Universell Kompatibilitet - PDF fungerar på alla enheter och plattformar",
+          "Professionell Standard - Branschval för dokument och portföljer",
+          "Utskriftsklart - Perfekt för fysisk utskrift och arkivering",
+          "Dokumentstruktur - Kombinera flera bilder till ett dokument",
+          "Enkel Delning - E-postvänligt format som vem som helst kan öppna",
+          "Kvalitetsbevarande - Behåller originalbildupplösning",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – JPG till PDF",
+      items: [
+        {
+          q: "Är det gratis att konvertera JPG till PDF?",
+          a: "Ja! Vår JPG till PDF-konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för dokument, portföljer eller professionell användning.",
+        },
+        {
+          q: "Kan jag konvertera flera JPG-bilder till en PDF?",
+          a: "Ja! Vår batchkonverterare låter dig ladda upp upp till 20 JPG-bilder och konvertera dem till separata PDF-filer. Varje JPG-bild blir sitt eget PDF-dokument, vilket bevarar originalbildkvalitet och upplösning.",
+        },
+        {
+          q: "Kommer bildkvaliteten att bevaras vid konvertering av JPG till PDF?",
+          a: "Ja. Vi bevarar originalbildkvaliteten under konverteringen. Dina JPG-bilder konverteras till PDF-filer med hög upplösning utan komprimering eller kvalitetsförlust. PDF behåller samma bildkvalitet som originalet JPG.",
+        },
+        {
+          q: "Kan jag använda PDF för utskrift?",
+          a: "Absolut! PDF är standardformatet för utskrift. PDF är utskriftsklara och behåller bildkvalitet vid vilken upplösning som helst. PDF används av professionella tryckerier och är idealiska för portföljer, presentationer och dokument som behöver skrivas ut.",
+        },
+        {
+          q: "Kommer PDF att fungera på alla enheter?",
+          a: "Ja! PDF är universellt kompatibla och fungerar på alla enheter, operativsystem och plattformar. PDF kan öppnas på Windows, macOS, Linux, iOS, Android och vilken enhet som helst med en PDF-visare (som är inbyggd i de flesta moderna system).",
+        },
+        {
+          q: "Kan jag redigera PDF efter konvertering?",
+          a: "PDF skapade från JPG-bilder innehåller bilderna som inbäddat innehåll. Du kan visa och skriva ut PDF på vilken enhet som helst. För avancerad redigering (lägga till text, kombinera sidor, etc.) behöver du PDF-redigeringsprogramvara som Adobe Acrobat, men bilderna själva är perfekt bevarade i PDF-formatet.",
+        },
+        {
+          q: "Vad är den maximala filstorleken för JPG till PDF-konvertering?",
+          a: "Du kan konvertera JPG-filer upp till 100MB vardera. För batchkonvertering kan du ladda upp upp till 20 filer åt gången, med en total storleksgräns på 100MB. Den resulterande PDF behåller originalbildkvaliteten.",
+        },
+        {
+          q: "Hur lång tid tar JPG till PDF-konvertering?",
+          a: "Konverteringen tar 1-2 sekunder per bild. PDF-konvertering är snabb eftersom det främst är en formatändring som bevarar alla bilddata. Resultatet är en högkvalitativ PDF redo för delning, utskrift eller professionell användning.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "PDF till JPG", url: "/convert/pdf-to-jpg" },
+        { name: "PNG till PDF", url: "/convert/png-to-pdf" },
+        { name: "HEIC till PDF", url: "/convert/heic-to-pdf" },
+        { name: "JPG till PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG till WebP", url: "/convert/jpg-to-webp" },
+        { name: "HEIF till PDF", url: "/convert/heif-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "HEIF till PNG-konverterare - Konvertera HEIF-bilder Gratis Online till PNG",

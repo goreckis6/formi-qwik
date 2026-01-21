@@ -223,6 +223,10 @@ export const id: Translations = {
       name: "JPG ke WebP",
       description: "Konversi JPG ke WebP untuk file 25-35% lebih kecil dan performa web yang lebih baik",
     },
+    jpgToPdf: {
+      name: "JPG ke PDF",
+      description: "Konversi gambar JPG ke dokumen PDF untuk kompatibilitas universal dan presentasi profesional",
+    },
   },
 
   heicToPdf: {
@@ -2072,7 +2076,134 @@ export const id: Translations = {
       ],
     },
   },
-
+  // JPG to PDF Converter
+  jpgToPdf: {
+    title: "Konverter JPG ke PDF - Konversi Gambar ke Dokumen PDF Gratis Online",
+    metaDescription:
+      "Konversi gambar JPG ke format PDF secara instan. Sempurna untuk dokumen, portofolio, dan presentasi profesional. Konverter batch gratis, tanpa registrasi. Pertahankan kualitas gambar dalam format PDF universal.",
+    metaKeywords:
+      "JPG ke PDF, konversi JPG ke PDF, gambar ke PDF, foto ke PDF, batch konversi JPG, konverter PDF, konverter PDF gratis, gambar ke dokumen",
+    hero: {
+      title: "Konverter JPG ke PDF",
+      subtitle:
+        "Konversi gambar JPG ke dokumen PDF profesional secara instan. Sempurna untuk membuat portofolio, presentasi, dan dokumen. Format PDF memastikan kompatibilitas universal dan berbagi mudah di semua perangkat dan platform.",
+      badge1: "Format Universal",
+      badge2: "Kualitas Profesional",
+      badge3: "Berbagi Mudah",
+    },
+    upload: {
+      title: "Unggah File JPG",
+      description:
+        "Seret dan lepas gambar JPG Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.",
+      buttonSingle: "File Tunggal",
+      buttonBatch: "Konversi Batch",
+      chooseFile: "Pilih File",
+      converting: "Mengonversi...",
+      success: "Konversi berhasil!",
+      download: "Unduh PDF",
+      downloadAll: "Unduh Semua sebagai ZIP",
+      convertAnother: "Konversi File Lain",
+    },
+    features: {
+      title: "Fitur",
+      list: [
+        "Konversi JPG ke PDF berkualitas tinggi",
+        "Pemrosesan batch hingga 20 file secara bersamaan",
+        "Mempertahankan kualitas dan resolusi gambar",
+        "Kompatibilitas universal - PDF bekerja di mana saja",
+        "100% aman dengan penghapusan file otomatis",
+        "Sempurna untuk dokumen dan portofolio",
+        "Unduh instan - Siap untuk dibagikan",
+        "Tanpa watermark - Kualitas profesional",
+      ],
+    },
+    howItWorks: {
+      title: "Cara Kerja",
+      step1Title: "Unggah File JPG",
+      step1Desc: "Pilih satu atau beberapa gambar JPG dari perangkat Anda",
+      step2Title: "Konversi Otomatis",
+      step2Desc: "Konverter kami memproses file Anda secara instan",
+      step3Title: "Unduh PDF",
+      step3Desc: "Dapatkan file PDF yang dikonversi segera",
+    },
+    about: {
+      title: "Tentang Konversi JPG ke PDF",
+      whatIsHeif: {
+        title: "Mengapa PDF Sempurna untuk Dokumen dan Portofolio?",
+        content:
+          "PDF (Portable Document Format) adalah standar universal untuk dokumen, dibuat oleh Adobe pada tahun 1993. PDF memastikan bahwa dokumen Anda terlihat persis sama di perangkat, sistem operasi, atau aplikasi apa pun - menjadikannya pilihan profesional untuk berbagi, mengarsipkan, dan mencetak. PDF mempertahankan kualitas gambar, mendukung beberapa halaman, dan kompatibel secara universal. Tidak seperti format gambar (JPG, PNG) yang dirancang untuk dilihat, PDF dirancang untuk dokumen - sempurna untuk portofolio, presentasi, laporan, dan dokumen profesional. PDF dapat berisi beberapa gambar, teks, dan pemformatan, menjadikannya ideal untuk membuat dokumen komprehensif dari foto Anda.",
+      },
+      whyConvert: {
+        title: "Mengapa Konversi JPG ke PDF?",
+        content:
+          "Konversi JPG ke PDF ketika Anda perlu membuat dokumen, portofolio, atau presentasi. JPG adalah format gambar yang dirancang untuk melihat foto, sementara PDF adalah format dokumen yang dirancang untuk berbagi dan mencetak. Alasan utama untuk mengonversi: membuat portofolio profesional (beberapa gambar dalam satu dokumen), menyiapkan dokumen untuk dicetak (PDF siap cetak), memastikan kompatibilitas universal (PDF bekerja di semua perangkat), berbagi melalui email (PDF ramah email), mengarsipkan foto secara profesional (format standar industri), atau menggabungkan beberapa gambar menjadi satu dokumen. PDF sangat penting untuk dokumen bisnis, portofolio, presentasi, laporan, dan penggunaan profesional apa pun di mana Anda perlu menggabungkan gambar menjadi format dokumen. PDF mempertahankan kualitas gambar sambil menyediakan struktur dokumen dan kompatibilitas universal.",
+      },
+      heifVsHeic: {
+        title: "PDF vs JPG - Kapan Memilih PDF",
+        content:
+          "PDF dan JPG melayani tujuan yang berbeda. Pilih PDF untuk: dokumen dan portofolio (beberapa gambar dalam satu file), presentasi profesional (kompatibilitas universal), pencetakan dan pengarsipan (format siap cetak), berbagi email (ramah email), penggunaan bisnis (standar profesional), atau menggabungkan beberapa gambar (struktur dokumen). Pilih JPG untuk: melihat foto (format gambar), penggunaan web (ukuran file lebih kecil), media sosial (dukungan asli), atau berbagi satu gambar (format lebih sederhana). Keuntungan PDF: kompatibilitas universal (bekerja di mana saja), struktur dokumen (beberapa halaman, dukungan teks), siap cetak (sempurna untuk mencetak), standar profesional (pilihan industri), mempertahankan kualitas (mempertahankan resolusi gambar). Kerugian PDF: ukuran file lebih besar (overhead dokumen), tidak ideal untuk web (pemuatan lebih lambat), memerlukan penampil PDF (meskipun dibangun ke dalam sebagian besar sistem). Untuk dokumen: Selalu PDF. Untuk foto: Gunakan JPG. Untuk portofolio: PDF adalah pilihan profesional.",
+      },
+      benefits: {
+        title: "Manfaat Format PDF",
+        list: [
+          "Kompatibilitas Universal - PDF bekerja di semua perangkat dan platform",
+          "Standar Profesional - Pilihan industri untuk dokumen dan portofolio",
+          "Siap Cetak - Sempurna untuk pencetakan fisik dan pengarsipan",
+          "Struktur Dokumen - Gabungkan beberapa gambar menjadi satu dokumen",
+          "Berbagi Mudah - Format ramah email yang dapat dibuka siapa saja",
+          "Pelestarian Kualitas - Mempertahankan resolusi gambar asli",
+        ],
+      },
+    },
+    faq: {
+      title: "Pertanyaan yang Sering Diajukan – JPG ke PDF",
+      items: [
+        {
+          q: "Apakah konversi JPG ke PDF gratis?",
+          a: "Ya! Konverter JPG ke PDF kami sepenuhnya gratis dengan konversi tanpa batas. Tanpa registrasi, langganan, atau biaya tersembunyi. Konversi sebanyak gambar yang Anda butuhkan untuk dokumen, portofolio, atau penggunaan profesional.",
+        },
+        {
+          q: "Bisakah saya mengonversi beberapa gambar JPG menjadi satu PDF?",
+          a: "Ya! Konverter batch kami memungkinkan Anda mengunggah hingga 20 gambar JPG dan mengonversinya menjadi file PDF terpisah. Setiap gambar JPG menjadi dokumen PDF sendiri, mempertahankan kualitas dan resolusi gambar asli.",
+        },
+        {
+          q: "Apakah kualitas gambar akan dipertahankan saat mengonversi JPG ke PDF?",
+          a: "Ya. Kami mempertahankan kualitas gambar asli selama konversi. Gambar JPG Anda dikonversi menjadi file PDF resolusi tinggi tanpa kompresi atau kehilangan kualitas. PDF mempertahankan kualitas gambar yang sama dengan JPG asli.",
+        },
+        {
+          q: "Bisakah saya menggunakan PDF untuk mencetak?",
+          a: "Tentu saja! PDF adalah format standar untuk mencetak. PDF siap cetak dan mempertahankan kualitas gambar pada resolusi apa pun. PDF digunakan oleh printer profesional dan ideal untuk portofolio, presentasi, dan dokumen yang perlu dicetak.",
+        },
+        {
+          q: "Apakah PDF akan bekerja di semua perangkat?",
+          a: "Ya! PDF kompatibel secara universal dan bekerja di semua perangkat, sistem operasi, dan platform. PDF dapat dibuka di Windows, macOS, Linux, iOS, Android, dan perangkat apa pun dengan penampil PDF (yang dibangun ke dalam sebagian besar sistem modern).",
+        },
+        {
+          q: "Bisakah saya mengedit PDF setelah konversi?",
+          a: "PDF yang dibuat dari gambar JPG berisi gambar sebagai konten tersemat. Anda dapat melihat dan mencetak PDF di perangkat apa pun. Untuk pengeditan lanjutan (menambahkan teks, menggabungkan halaman, dll.), Anda akan memerlukan perangkat lunak pengeditan PDF seperti Adobe Acrobat, tetapi gambar itu sendiri dipertahankan dengan sempurna dalam format PDF.",
+        },
+        {
+          q: "Berapa ukuran file maksimum untuk konversi JPG ke PDF?",
+          a: "Anda dapat mengonversi file JPG hingga 100MB per file. Untuk konversi batch, Anda dapat mengunggah hingga 20 file sekaligus, dengan batas ukuran total 100MB. PDF yang dihasilkan akan mempertahankan kualitas gambar asli.",
+        },
+        {
+          q: "Berapa lama konversi JPG ke PDF?",
+          a: "Konversi memakan waktu 1-2 detik per gambar. Konversi PDF cepat karena terutama perubahan format yang mempertahankan semua data gambar. Hasilnya adalah PDF berkualitas tinggi yang siap untuk dibagikan, dicetak, atau digunakan secara profesional.",
+        },
+      ],
+    },
+    related: {
+      title: "Konverter Terkait",
+      converters: [
+        { name: "PDF ke JPG", url: "/convert/pdf-to-jpg" },
+        { name: "PNG ke PDF", url: "/convert/png-to-pdf" },
+        { name: "HEIC ke PDF", url: "/convert/heic-to-pdf" },
+        { name: "JPG ke PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG ke WebP", url: "/convert/jpg-to-webp" },
+        { name: "HEIF ke PDF", url: "/convert/heif-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: 'Konverter HEIF ke PNG - Konversi Gambar HEIF ke PNG Gratis Online',

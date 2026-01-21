@@ -235,6 +235,10 @@ export const pl: Translations = {
       name: "JPG na WebP",
       description: "Konwertuj JPG na WebP dla 25-35% mniejszych plików i lepszej wydajności web",
     },
+    jpgToPdf: {
+      name: "JPG na PDF",
+      description: "Konwertuj obrazy JPG na dokumenty PDF dla uniwersalnej kompatybilności i profesjonalnej prezentacji",
+    },
   },
 
   heicToPdf: {
@@ -2147,7 +2151,134 @@ export const pl: Translations = {
       ],
     },
   },
-
+  // JPG to PDF Converter
+  jpgToPdf: {
+    title: "Konwerter JPG na PDF - Konwertuj Obrazy na Dokumenty PDF Online Za Darmo",
+    metaDescription:
+      "Konwertuj obrazy JPG na format PDF natychmiast. Idealne do dokumentów, portfolio i profesjonalnych prezentacji. Darmowy konwerter wsadowy, bez rejestracji. Zachowaj jakość obrazu w uniwersalnym formacie PDF.",
+    metaKeywords:
+      "JPG na PDF, konwertuj JPG na PDF, obraz na PDF, zdjęcie na PDF, wsadowa konwersja JPG, konwerter PDF, darmowy konwerter PDF, obraz na dokument",
+    hero: {
+      title: "Konwerter JPG na PDF",
+      subtitle:
+        "Konwertuj obrazy JPG na profesjonalne dokumenty PDF natychmiast. Idealne do tworzenia portfolio, prezentacji i dokumentów. Format PDF zapewnia uniwersalną kompatybilność i łatwe udostępnianie na wszystkich urządzeniach i platformach.",
+      badge1: "Uniwersalny Format",
+      badge2: "Jakość Profesjonalna",
+      badge3: "Łatwe Udostępnianie",
+    },
+    upload: {
+      title: "Prześlij Pliki JPG",
+      description:
+        "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      buttonSingle: "Pojedynczy Plik",
+      buttonBatch: "Konwersja Wsadowa",
+      chooseFile: "Wybierz Pliki",
+      converting: "Konwertowanie...",
+      success: "Konwersja udana!",
+      download: "Pobierz PDF",
+      downloadAll: "Pobierz Wszystko jako ZIP",
+      convertAnother: "Konwertuj Kolejny Plik",
+    },
+    features: {
+      title: "Funkcje",
+      list: [
+        "Wysokiej jakości konwersja JPG na PDF",
+        "Przetwarzanie wsadowe do 20 plików jednocześnie",
+        "Zachowuje jakość obrazu i rozdzielczość",
+        "Uniwersalna kompatybilność - PDF-y działają wszędzie",
+        "100% bezpieczne z automatycznym usuwaniem plików",
+        "Idealne do dokumentów i portfolio",
+        "Natychmiastowe pobieranie - gotowe do udostępnienia",
+        "Bez znaków wodnych - jakość profesjonalna",
+      ],
+    },
+    howItWorks: {
+      title: "Jak To Działa",
+      step1Title: "Prześlij Pliki JPG",
+      step1Desc: "Wybierz jeden lub więcej obrazów JPG z urządzenia",
+      step2Title: "Automatyczna Konwersja",
+      step2Desc: "Nasz konwerter przetwarza pliki natychmiast",
+      step3Title: "Pobierz PDF",
+      step3Desc: "Uzyskaj skonwertowane pliki PDF natychmiast",
+    },
+    about: {
+      title: "O Konwersji JPG na PDF",
+      whatIsHeif: {
+        title: "Dlaczego PDF jest Idealny do Dokumentów i Portfolio?",
+        content:
+          "PDF (Portable Document Format) to uniwersalny standard dokumentów, stworzony przez Adobe w 1993 roku. PDF zapewnia, że Twoje dokumenty wyglądają dokładnie tak samo na dowolnym urządzeniu, systemie operacyjnym lub aplikacji - czyniąc go profesjonalnym wyborem do udostępniania, archiwizacji i drukowania. PDF-y zachowują jakość obrazu, obsługują wiele stron i są uniwersalnie kompatybilne. W przeciwieństwie do formatów obrazów (JPG, PNG), które są zaprojektowane do przeglądania, PDF-y są zaprojektowane do dokumentów - idealne do portfolio, prezentacji, raportów i dokumentów profesjonalnych. PDF-y mogą zawierać wiele obrazów, tekst i formatowanie, czyniąc je idealnymi do tworzenia kompleksowych dokumentów z Twoich zdjęć.",
+      },
+      whyConvert: {
+        title: "Dlaczego Konwertować JPG na PDF?",
+        content:
+          "Konwertuj JPG na PDF, gdy potrzebujesz tworzyć dokumenty, portfolio lub prezentacje. JPG to format obrazu zaprojektowany do przeglądania zdjęć, podczas gdy PDF to format dokumentu zaprojektowany do udostępniania i drukowania. Kluczowe powody konwersji: tworzenie profesjonalnych portfolio (wiele obrazów w jednym dokumencie), przygotowanie dokumentów do druku (PDF jest gotowy do druku), zapewnienie uniwersalnej kompatybilności (PDF-y działają na wszystkich urządzeniach), udostępnianie przez e-mail (PDF-y są przyjazne dla e-mail), profesjonalna archiwizacja zdjęć (standardowy format branżowy), lub łączenie wielu obrazów w jeden dokument. PDF-y są niezbędne do dokumentów biznesowych, portfolio, prezentacji, raportów i każdego profesjonalnego użycia, gdzie musisz połączyć obrazy w format dokumentu. PDF-y zachowują jakość obrazu, zapewniając jednocześnie strukturę dokumentu i uniwersalną kompatybilność.",
+      },
+      heifVsHeic: {
+        title: "PDF vs JPG - Kiedy Wybrać PDF",
+        content:
+          "PDF i JPG służą różnym celom. Wybierz PDF dla: dokumentów i portfolio (wiele obrazów w jednym pliku), profesjonalnych prezentacji (uniwersalna kompatybilność), drukowania i archiwizacji (format gotowy do druku), udostępniania przez e-mail (przyjazny dla e-mail), użycia biznesowego (standard profesjonalny), lub łączenia wielu obrazów (struktura dokumentu). Wybierz JPG dla: przeglądania zdjęć (format obrazu), użycia web (mniejsze rozmiary plików), mediów społecznościowych (natywne wsparcie), lub udostępniania pojedynczego obrazu (prostszy format). Zalety PDF: uniwersalna kompatybilność (działa wszędzie), struktura dokumentu (wiele stron, wsparcie tekstu), gotowy do druku (idealny do drukowania), standard profesjonalny (wybór branżowy), zachowuje jakość (utrzymuje rozdzielczość obrazu). Wady PDF: większe rozmiary plików (narzut dokumentu), nie idealny do web (wolniejsze ładowanie), wymaga przeglądarki PDF (choć wbudowanej w większość systemów). Dla dokumentów: Zawsze PDF. Dla zdjęć: Użyj JPG. Dla portfolio: PDF to profesjonalny wybór.",
+      },
+      benefits: {
+        title: "Korzyści Format PDF",
+        list: [
+          "Uniwersalna Kompatybilność - PDF-y działają na wszystkich urządzeniach i platformach",
+          "Standard Profesjonalny - Wybór branżowy do dokumentów i portfolio",
+          "Gotowy do Druku - Idealny do fizycznego drukowania i archiwizacji",
+          "Struktura Dokumentu - Łącz wiele obrazów w jeden dokument",
+          "Łatwe Udostępnianie - Format przyjazny dla e-mail, który każdy może otworzyć",
+          "Zachowanie Jakości - Utrzymuje oryginalną rozdzielczość obrazu",
+        ],
+      },
+    },
+    faq: {
+      title: "Najczęściej Zadawane Pytania – JPG na PDF",
+      items: [
+        {
+          q: "Czy konwersja JPG na PDF jest darmowa?",
+          a: "Tak! Nasz konwerter JPG na PDF jest całkowicie darmowy z nieograniczoną liczbą konwersji. Bez rejestracji, subskrypcji lub ukrytych opłat. Konwertuj tyle obrazów, ile potrzebujesz do dokumentów, portfolio lub profesjonalnego użycia.",
+        },
+        {
+          q: "Czy mogę konwertować wiele obrazów JPG w jeden PDF?",
+          a: "Tak! Nasz konwerter wsadowy pozwala przesłać do 20 obrazów JPG i konwertować je na oddzielne pliki PDF. Każdy obraz JPG staje się własnym dokumentem PDF, zachowując oryginalną jakość obrazu i rozdzielczość.",
+        },
+        {
+          q: "Czy jakość obrazu zostanie zachowana podczas konwersji JPG na PDF?",
+          a: "Tak. Zachowujemy oryginalną jakość obrazu podczas konwersji. Twoje obrazy JPG są konwertowane na pliki PDF wysokiej rozdzielczości bez kompresji lub utraty jakości. PDF zachowuje tę samą jakość obrazu co oryginalny JPG.",
+        },
+        {
+          q: "Czy mogę używać PDF-ów do drukowania?",
+          a: "Absolutnie! PDF-y to standardowy format do drukowania. PDF-y są gotowe do druku i zachowują jakość obrazu w dowolnej rozdzielczości. PDF-y są używane przez profesjonalnych drukarzy i są idealne do portfolio, prezentacji i dokumentów, które muszą być wydrukowane.",
+        },
+        {
+          q: "Czy PDF-y będą działać na wszystkich urządzeniach?",
+          a: "Tak! PDF-y są uniwersalnie kompatybilne i działają na wszystkich urządzeniach, systemach operacyjnych i platformach. PDF-y można otworzyć na Windows, macOS, Linux, iOS, Android i dowolnym urządzeniu z przeglądarką PDF (która jest wbudowana w większość nowoczesnych systemów).",
+        },
+        {
+          q: "Czy mogę edytować PDF-y po konwersji?",
+          a: "PDF-y utworzone z obrazów JPG zawierają obrazy jako osadzoną zawartość. Możesz przeglądać i drukować PDF-y na dowolnym urządzeniu. Do zaawansowanej edycji (dodawanie tekstu, łączenie stron itp.) będziesz potrzebować oprogramowania do edycji PDF, takiego jak Adobe Acrobat, ale same obrazy są doskonale zachowane w formacie PDF.",
+        },
+        {
+          q: "Jaki jest maksymalny rozmiar pliku dla konwersji JPG na PDF?",
+          a: "Możesz konwertować pliki JPG do 100MB każdy. W przypadku konwersji wsadowej możesz przesłać do 20 plików jednocześnie, z całkowitym limitem rozmiaru 100MB. Wynikowy PDF zachowa oryginalną jakość obrazu.",
+        },
+        {
+          q: "Jak długo trwa konwersja JPG na PDF?",
+          a: "Konwersja trwa 1-2 sekundy na obraz. Konwersja PDF jest szybka, ponieważ jest to głównie zmiana formatu, która zachowuje wszystkie dane obrazu. Wynik to wysokiej jakości PDF gotowy do udostępnienia, drukowania lub profesjonalnego użycia.",
+        },
+      ],
+    },
+    related: {
+      title: "Powiązane Konwertery",
+      converters: [
+        { name: "PDF na JPG", url: "/convert/pdf-to-jpg" },
+        { name: "PNG na PDF", url: "/convert/png-to-pdf" },
+        { name: "HEIC na PDF", url: "/convert/heic-to-pdf" },
+        { name: "JPG na PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG na WebP", url: "/convert/jpg-to-webp" },
+        { name: "HEIF na PDF", url: "/convert/heif-to-pdf" },
+      ],
+    },
+  },
   // HEIF to PNG Converter
   heifToPng: {
     title: "Konwerter HEIF na PNG - Konwertuj obrazy HEIF na PNG online za darmo",
