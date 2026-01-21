@@ -229,6 +229,10 @@ export const zh: Translations = {
       name: "JPG转WebP",
       description: "将JPG转换为WebP以获得25-35%更小的文件和更好的网络性能",
     },
+    jpgToAvif: {
+      name: "JPG转AVIF",
+      description: "将JPG转换为AVIF以获得50%更小的文件，具有卓越的质量和现代压缩",
+    },
     jpgToPdf: {
       name: "JPG转PDF",
       description: "将JPG图像转换为PDF文档，实现通用兼容性和专业演示",
@@ -1996,6 +2000,10 @@ export const zh: Translations = {
 
   // JPG to WebP Converter
   jpgToWebp: {
+    jpgToAvif: {
+      name: "JPG to AVIF",
+      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
+    },
     title: "JPG转WebP转换器 - 使用卓越压缩优化Web图像",
     metaDescription:
       "将JPG转换为WebP以获得更好的质量和25-35%更小的文件大小。完美适用于网站、更快的加载和SEO。支持透明度的现代格式。免费批量转换器，无需注册。",
@@ -2122,6 +2130,134 @@ export const zh: Translations = {
         { name: "HEIF转WebP", url: "/convert/heif-to-webp" },
         { name: "JPG转PNG", url: "/convert/jpg-to-png" },
         { name: "JPG转GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG转PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "JPG转AVIF转换器 - 50%更小文件的超现代压缩",
+    metaDescription:
+      "将JPG转换为AVIF以获得50%更小的文件大小和卓越的质量。具有高级压缩的下一代图像格式。非常适合现代网站、更快的加载和最佳性能。免费批量转换器，无需注册。",
+    metaKeywords:
+      "JPG转AVIF, AVIF转换器, 下一代图像格式, 超压缩, 更小的文件大小, 更快的加载, 现代网络图像, 批量转换JPG, AV1图像格式",
+    hero: {
+      title: "JPG转AVIF转换器",
+      subtitle:
+        "将JPG转换为AVIF以获得终极图像压缩。AVIF图像在提供卓越质量的同时比JPG小50% - 非常适合现代网站、更快的加载时间和最佳性能。AVIF是基于AV1视频编解码器的下一代图像格式。",
+      badge1: "50%更小",
+      badge2: "卓越质量",
+      badge3: "下一代格式",
+    },
+    upload: {
+      title: "上传JPG文件",
+      description:
+        "将JPG图像拖放到此处或点击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载AVIF",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+    features: {
+      title: "功能",
+      list: [
+        "比JPG小50%的文件，具有卓越质量",
+        "下一代压缩 - 世界级效率",
+        "透明度支持 - 像PNG一样的Alpha通道",
+        "最多同时处理20个文件的批量处理",
+        "自动文件删除，100%安全",
+        "非常适合现代网站和应用程序",
+        "即时下载 - 准备部署",
+        "无水印 - 专业质量",
+      ],
+    },
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从设备中选择一个或多个JPG图像",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器立即处理您的文件",
+      step3Title: "下载AVIF",
+      step3Desc: "立即获取优化的AVIF文件",
+    },
+    about: {
+      title: "关于JPG转AVIF转换",
+      whatIsHeif: {
+        title: "为什么AVIF是网络图像的未来？",
+        content:
+          "AVIF（AV1图像文件格式）是基于AV1视频编解码器的下一代图像格式，由Alliance for Open Media开发。2019年发布，AVIF使用尖端压缩技术创建比JPG小50%的图像，同时提供卓越质量。AVIF结合了有损和无损压缩模式，支持HDR（高动态范围）、宽色域和Alpha通道透明度。AVIF由现代浏览器（Chrome 85+、Firefox 93+、Edge 121+、Safari 17+）支持，并迅速成为现代网络优化的标准。Netflix、YouTube和Google等主要平台因其卓越的压缩效率而采用AVIF。AVIF以无与伦比的压缩比和质量代表了网络图像的未来。",
+      },
+      whyConvert: {
+        title: "为什么将JPG转换为AVIF？",
+        content:
+          "将JPG转换为AVIF以实现终极图像压缩和质量。AVIF的高级基于AV1的压缩创建比JPG小50%的文件，同时保持或改善视觉质量。主要优势：显著更小的文件大小（与JPG相比减少50%）、卓越质量（在相同文件大小下优于JPG）、更快的页面加载（更小的文件 = 更快的下载）、更好的SEO（Google偏爱快速加载的网站）、降低带宽成本（更少的数据传输）、改善的移动体验（在慢速连接上更快）、透明度支持（Alpha通道）、HDR支持（更宽的色域）和现代浏览器支持（采用率增长）。AVIF对于尖端网络开发、性能关键应用程序和任何优先考虑最佳图像交付的网站都是必不可少的。AVIF是网络图像的未来。",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - 何时选择AVIF",
+        content:
+          "AVIF和JPG在现代网络开发中服务于不同目的。选择AVIF用于：现代网站和应用程序（最佳性能）、最大压缩（比JPG小50%）、卓越质量（在相同大小下优于JPG）、性能关键网站（最快加载）、现代浏览器（Chrome 85+、Firefox 93+、Safari 17+）、透明度需求（Alpha通道）、HDR内容（宽色域）或尖端网络开发。选择JPG用于：最大兼容性（100%浏览器支持）、旧浏览器支持（2019年之前）、电子邮件客户端（AVIF支持有限）或文件大小不关键时。AVIF的优势：50%更小的文件、卓越压缩、更好的质量、透明度支持、HDR支持、无损选项、下一代格式。AVIF的缺点：较新的格式（需要现代浏览器）、需要旧浏览器的后备方案。对于现代网站：始终使用JPG后备的AVIF。对于电子邮件：使用JPG。对于最大兼容性：提供两种格式。",
+      },
+      benefits: {
+        title: "AVIF格式的优势",
+        list: [
+          "50%更小的文件 - 与JPG相比显著减少的文件大小",
+          "卓越质量 - 在相同文件大小下优于JPG",
+          "下一代压缩 - 世界级效率",
+          "透明度支持 - 像PNG一样的Alpha通道",
+          "HDR支持 - 宽色域和高动态范围",
+          "现代浏览器支持 - 在Chrome、Firefox、Safari中的采用率增长",
+        ],
+      },
+    },
+    faq: {
+      title: "常见问题 – JPG转AVIF",
+      items: [
+        {
+          q: "将JPG转换为AVIF是否免费？",
+          a: "是的！我们的JPG转AVIF转换器完全免费，转换次数无限制。无需注册、订阅或隐藏费用。为现代网站、应用程序或专业用途转换所需数量的图像。",
+        },
+        {
+          q: "AVIF文件与JPG相比小多少？",
+          a: "AVIF文件通常比JPG小50%，同时保持相同或更好的视觉质量。这种显著的大小减少导致更快的页面加载、更好的SEO排名和降低的带宽成本。AVIF的高级压缩是网络图像可用的最有效方法。",
+        },
+        {
+          q: "AVIF质量是否优于JPG？",
+          a: "是的！AVIF在相同文件大小下提供比JPG更卓越的质量，或在50%更小的文件大小下提供相同质量。AVIF基于AV1的压缩比JPG的旧压缩算法更先进，导致更好的细节保留、更少的伪影和卓越的颜色准确性。",
+        },
+        {
+          q: "哪些浏览器支持AVIF？",
+          a: "AVIF由现代浏览器支持：Chrome 85+、Firefox 93+、Edge 121+、Safari 17+和Opera 71+。AVIF支持正在快速增长，大多数现代浏览器现在都支持它。为了最大兼容性，请为旧浏览器提供JPG后备方案。",
+        },
+        {
+          q: "AVIF能否像PNG一样支持透明度？",
+          a: "是的！AVIF完全像PNG一样支持Alpha通道透明度，使其非常适合需要透明背景的徽标、图形和图像。AVIF将现代格式的压缩优势与PNG的透明度功能相结合。",
+        },
+        {
+          q: "AVIF对SEO有好处吗？",
+          a: "绝对！AVIF对SEO非常出色，因为更小的文件大小导致更快的页面加载，Google在搜索排名中偏爱这一点。加载更快的网站排名更高，AVIF的50%大小减少显著改善了页面速度分数。Google PageSpeed Insights将AVIF识别为最佳格式。",
+        },
+        {
+          q: "我可以将AVIF用于电子商务产品图像吗？",
+          a: "是的！AVIF非常适合电子商务，因为它在不牺牲质量的情况下显著减少文件大小，导致更快的产品页面加载和更好的用户体验。许多主要的电子商务平台支持AVIF，对于连接较慢的移动购物者尤其有益。",
+        },
+        {
+          q: "JPG转AVIF转换需要多长时间？",
+          a: "转换每个图像需要1-2秒。AVIF转换很快，因为它针对现代处理器进行了优化。结果是一个高度压缩、高质量的图像，准备用于具有最佳性能的现代网络部署。",
+        },
+      ],
+    },
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "AVIF转JPG", url: "/convert/avif-to-jpg" },
+        { name: "JPG转WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG转PNG", url: "/convert/jpg-to-png" },
+        { name: "HEIC转AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIF转AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG转PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

@@ -234,6 +234,10 @@ export const sv: Translations = {
       name: "JPG till WebP",
       description: "Konvertera JPG till WebP för 25-35% mindre filer och bättre webbprestanda",
     },
+    jpgToAvif: {
+      name: "JPG till AVIF",
+      description: "Konvertera JPG till AVIF för 50% mindre filer med överlägsen kvalitet och modern komprimering",
+    },
     jpgToPdf: {
       name: "JPG till PDF",
       description: "Konvertera JPG-bilder till PDF-dokument för universell kompatibilitet och professionell presentation",
@@ -2128,6 +2132,134 @@ export const sv: Translations = {
         { name: "HEIF till WebP", url: "/convert/heif-to-webp" },
         { name: "JPG till PNG", url: "/convert/jpg-to-png" },
         { name: "JPG till GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG till PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "JPG till AVIF-konverterare - Ultra-Modern Komprimering med 50% Mindre Filer",
+    metaDescription:
+      "Konvertera JPG till AVIF för 50% mindre filstorlekar med överlägsen kvalitet. Nästa generations bildformat med avancerad komprimering. Perfekt för moderna webbplatser, snabbare laddning och optimal prestanda. Gratis batchkonverterare, ingen registrering.",
+    metaKeywords:
+      "JPG till AVIF, AVIF-konverterare, nästa generations bildformat, ultra komprimering, mindre filstorlek, snabbare laddning, moderna webbbilder, batchkonvertera JPG, AV1 bildformat",
+    hero: {
+      title: "JPG till AVIF-konverterare",
+      subtitle:
+        "Konvertera JPG till AVIF för den ultimata bildkomprimeringen. AVIF-bilder är 50% mindre än JPG med överlägsen kvalitet - perfekt för moderna webbplatser, snabbare laddningstider och optimal prestanda. AVIF är nästa generations bildformat baserat på AV1 videokodek.",
+      badge1: "50% Mindre",
+      badge2: "Överlägsen Kvalitet",
+      badge3: "Next-Gen Format",
+    },
+    upload: {
+      title: "Ladda upp JPG-filer",
+      description:
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batchkonvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batchkonvertering",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda ner AVIF",
+      downloadAll: "Ladda ner Allt som ZIP",
+      convertAnother: "Konvertera En Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "50% mindre filer än JPG med överlägsen kvalitet",
+        "Nästa generations komprimering - bästa i klassen effektivitet",
+        "Transparensstöd - alfakanal som PNG",
+        "Batchbearbetning upp till 20 filer samtidigt",
+        "100% säkert med automatisk filborttagning",
+        "Perfekt för moderna webbplatser och applikationer",
+        "Omedelbar nedladdning - redo för distribution",
+        "Inga vattenstämplar - professionell kvalitet",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer omedelbart",
+      step3Title: "Ladda ner AVIF",
+      step3Desc: "Få dina optimerade AVIF-filer omedelbart",
+    },
+    about: {
+      title: "Om JPG till AVIF Konvertering",
+      whatIsHeif: {
+        title: "Varför är AVIF Framtiden för Webbbilder?",
+        content:
+          "AVIF (AV1 Image File Format) är nästa generations bildformat baserat på AV1 videokodeken, utvecklad av Alliance for Open Media. Släppt 2019, använder AVIF toppmodern komprimeringsteknologi för att skapa bilder som är 50% mindre än JPG med överlägsen kvalitet. AVIF kombinerar förlustfulla och förlustfria komprimeringslägen, stöder HDR (High Dynamic Range), breda färgomfång och alfakanaltransparens. AVIF stöds av moderna webbläsare (Chrome 85+, Firefox 93+, Edge 121+, Safari 17+) och blir snabbt standarden för modern webboptimering. Stora plattformar som Netflix, YouTube och Google adopterar AVIF för dess exceptionella komprimeringseffektivitet. AVIF representerar framtiden för webbbilder med oöverträffade komprimeringsförhållanden och kvalitet.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera JPG till AVIF?",
+        content:
+          "Konvertera JPG till AVIF för att uppnå den ultimata bildkomprimeringen och kvaliteten. AVIF:s avancerade AV1-baserade komprimering skapar filer som är 50% mindre än JPG medan visuell kvalitet bibehålls eller förbättras. Nyckelvinster: dramatiskt mindre filstorlekar (50% minskning vs JPG), överlägsen kvalitet (bättre än JPG vid samma filstorlek), snabbare sidladdningar (mindre filer = snabbare nedladdningar), bättre SEO (Google gynnar snabbt laddande webbplatser), reducerade bandbreddskostnader (mindre dataöverföring), förbättrad mobilupplevelse (snabbare på långsamma anslutningar), transparensstöd (alfakanal), HDR-stöd (bredare färgomfång) och modern webbläsarstöd (växande adoption). AVIF är väsentligt för toppmodern webbutveckling, prestandakritiska applikationer och alla webbplatser som prioriterar optimal bildleverans. AVIF är framtiden för webbbilder.",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - När Ska Man Välja AVIF",
+        content:
+          "AVIF och JPG tjänar olika syften i modern webbutveckling. Välj AVIF för: moderna webbplatser och applikationer (optimal prestanda), maximal komprimering (50% mindre än JPG), överlägsen kvalitet (bättre än JPG vid samma storlek), prestandakritiska webbplatser (snabbast laddning), moderna webbläsare (Chrome 85+, Firefox 93+, Safari 17+), transparensbehov (alfakanal), HDR-innehåll (brett färgomfång) eller toppmodern webbutveckling. Välj JPG för: maximal kompatibilitet (100% webbläsarstöd), stöd för äldre webbläsare (före 2019), e-postklienter (begränsat AVIF-stöd) eller när filstorlek inte är kritisk. AVIF-fördelar: 50% mindre filer, överlägsen komprimering, bättre kvalitet, transparensstöd, HDR-stöd, förlustfri alternativ, next-gen format. AVIF-nackdelar: nyare format (kräver moderna webbläsare), kräver fallback för äldre webbläsare. För moderna webbplatser: Alltid AVIF med JPG fallback. För e-post: Använd JPG. För maximal kompatibilitet: Tillhandahåll båda formaten.",
+      },
+      benefits: {
+        title: "Fördelar med AVIF-formatet",
+        list: [
+          "50% Mindre Filer - Dramatiskt reducerade filstorlekar vs JPG",
+          "Överlägsen Kvalitet - Bättre än JPG vid samma filstorlek",
+          "Next-Gen Komprimering - Bästa i klassen effektivitet",
+          "Transparensstöd - Alfakanal som PNG",
+          "HDR-stöd - Brett färgomfång och högt dynamiskt område",
+          "Modern Webbläsarstöd - Växande adoption i Chrome, Firefox, Safari",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – JPG till AVIF",
+      items: [
+        {
+          q: "Är det gratis att konvertera JPG till AVIF?",
+          a: "Ja! Vår JPG till AVIF-konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för moderna webbplatser, applikationer eller professionellt bruk.",
+        },
+        {
+          q: "Hur mycket mindre är AVIF-filer jämfört med JPG?",
+          a: "AVIF-filer är typiskt 50% mindre än JPG medan de behåller samma eller bättre visuell kvalitet. Denna dramatiska storleksminskning resulterar i snabbare sidladdningar, bättre SEO-rankningar och reducerade bandbreddskostnader. AVIF:s avancerade komprimering är den mest effektiva tillgängliga för webbbilder.",
+        },
+        {
+          q: "Är AVIF-kvalitet bättre än JPG?",
+          a: "Ja! AVIF levererar överlägsen kvalitet jämfört med JPG vid samma filstorlek, eller samma kvalitet vid 50% mindre filstorlek. AVIF:s AV1-baserade komprimering är mer avancerad än JPG:s äldre komprimeringsalgoritmer, vilket resulterar i bättre detaljbevarande, färre artefakter och överlägsen färgnoggrannhet.",
+        },
+        {
+          q: "Vilka webbläsare stöder AVIF?",
+          a: "AVIF stöds av moderna webbläsare: Chrome 85+, Firefox 93+, Edge 121+, Safari 17+ och Opera 71+. AVIF-stöd växer snabbt, och de flesta moderna webbläsare stöder det nu. För maximal kompatibilitet, tillhandahåll JPG-fallbacks för äldre webbläsare.",
+        },
+        {
+          q: "Kan AVIF stödja transparens som PNG?",
+          a: "Ja! AVIF stöder alfakanaltransparens precis som PNG, vilket gör det perfekt för logotyper, grafik och bilder som kräver transparenta bakgrunder. AVIF kombinerar komprimeringsfördelarna med moderna format med PNG:s transparensförmågor.",
+        },
+        {
+          q: "Är AVIF bra för SEO?",
+          a: "Absolut! AVIF är utmärkt för SEO eftersom mindre filstorlekar resulterar i snabbare sidladdningar, vilket Google gynnar i sökrankningar. Snabbare laddande webbplatser rankar högre, och AVIF:s 50% storleksminskning förbättrar sidhastighetspoäng avsevärt. Google PageSpeed Insights erkänner AVIF som ett optimalt format.",
+        },
+        {
+          q: "Kan jag använda AVIF för e-handelsproduktbilder?",
+          a: "Ja! AVIF är perfekt för e-handel eftersom det dramatiskt minskar filstorlekar utan att offra kvalitet, vilket leder till snabbare produktssidans laddningar och bättre användarupplevelse. Många stora e-handelsplattformar stöder AVIF, och det är särskilt fördelaktigt för mobila köpare med långsammare anslutningar.",
+        },
+        {
+          q: "Hur lång tid tar JPG till AVIF-konvertering?",
+          a: "Konvertering tar 1-2 sekunder per bild. AVIF-konvertering är snabb eftersom den är optimerad för moderna processorer. Resultatet är en mycket komprimerad, hög kvalitetsbild redo för modern webbdistribution med optimal prestanda.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "AVIF till JPG", url: "/convert/avif-to-jpg" },
+        { name: "JPG till WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG till PNG", url: "/convert/jpg-to-png" },
+        { name: "HEIC till AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIF till AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG till PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

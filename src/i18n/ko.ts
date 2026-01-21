@@ -229,6 +229,10 @@ export const ko: Translations = {
       name: "JPG to WebP",
       description: "25-35% 더 작은 파일과 더 나은 웹 성능을 위해 JPG를 WebP로 변환",
     },
+    jpgToAvif: {
+      name: "JPG to AVIF",
+      description: "우수한 품질과 현대적인 압축으로 50% 더 작은 파일을 위해 JPG를 AVIF로 변환",
+    },
     jpgToPdf: {
       name: "JPG to PDF",
       description: "범용 호환성 및 전문적인 프레젠테이션을 위해 JPG 이미지를 PDF 문서로 변환",
@@ -1996,6 +2000,10 @@ export const ko: Translations = {
 
   // JPG to WebP Converter
   jpgToWebp: {
+    jpgToAvif: {
+      name: "JPG to AVIF",
+      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
+    },
     title: "JPG to WebP 변환기 - 우수한 압축으로 웹용 이미지 최적화",
     metaDescription:
       "더 나은 품질로 25-35% 더 작은 파일 크기를 위해 JPG를 WebP로 변환. 웹사이트, 더 빠른 로딩, SEO에 완벽. 투명도 지원이 있는 현대적인 형식. 무료 배치 변환기, 등록 불필요.",
@@ -2122,6 +2130,134 @@ export const ko: Translations = {
         { name: "HEIF to WebP", url: "/convert/heif-to-webp" },
         { name: "JPG to PNG", url: "/convert/jpg-to-png" },
         { name: "JPG to GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "JPG to AVIF 변환기 - 50% 더 작은 파일로 초현대적 압축",
+    metaDescription:
+      "우수한 품질로 50% 더 작은 파일 크기를 위해 JPG를 AVIF로 변환하세요. 고급 압축을 갖춘 차세대 이미지 형식. 현대적인 웹사이트, 더 빠른 로딩 및 최적 성능에 완벽합니다. 무료 배치 변환기, 등록 불필요.",
+    metaKeywords:
+      "JPG to AVIF, AVIF 변환기, 차세대 이미지 형식, 초 압축, 더 작은 파일 크기, 더 빠른 로딩, 현대적인 웹 이미지, 배치 JPG 변환, AV1 이미지 형식",
+    hero: {
+      title: "JPG to AVIF 변환기",
+      subtitle:
+        "최고의 이미지 압축을 위해 JPG를 AVIF로 변환하세요. AVIF 이미지는 우수한 품질을 제공하면서 JPG보다 50% 더 작습니다 - 현대적인 웹사이트, 더 빠른 로딩 시간 및 최적 성능에 완벽합니다. AVIF는 AV1 비디오 코덱을 기반으로 한 차세대 이미지 형식입니다.",
+      badge1: "50% 더 작음",
+      badge2: "우수한 품질",
+      badge3: "차세대 형식",
+    },
+    upload: {
+      title: "JPG 파일 업로드",
+      description:
+        "JPG 이미지를 여기로 끌어다 놓거나 클릭하여 탐색하세요. 최대 20개 파일까지 배치 변환을 지원합니다. 파일당 최대 100MB.",
+      buttonSingle: "단일 파일",
+      buttonBatch: "배치 변환",
+      chooseFile: "파일 선택",
+      converting: "변환 중...",
+      success: "변환 성공!",
+      download: "AVIF 다운로드",
+      downloadAll: "모두 ZIP으로 다운로드",
+      convertAnother: "다른 파일 변환",
+    },
+    features: {
+      title: "기능",
+      list: [
+        "우수한 품질로 JPG보다 50% 더 작은 파일",
+        "차세대 압축 - 세계 최고 수준의 효율성",
+        "투명도 지원 - PNG와 같은 알파 채널",
+        "최대 20개 파일 동시 배치 처리",
+        "자동 파일 삭제로 100% 안전",
+        "현대적인 웹사이트 및 애플리케이션에 완벽",
+        "즉시 다운로드 - 배포 준비 완료",
+        "워터마크 없음 - 전문가 품질",
+      ],
+    },
+    howItWorks: {
+      title: "작동 방식",
+      step1Title: "JPG 파일 업로드",
+      step1Desc: "기기에서 하나 이상의 JPG 이미지 선택",
+      step2Title: "자동 변환",
+      step2Desc: "변환기가 파일을 즉시 처리",
+      step3Title: "AVIF 다운로드",
+      step3Desc: "최적화된 AVIF 파일 즉시 받기",
+    },
+    about: {
+      title: "JPG to AVIF 변환 정보",
+      whatIsHeif: {
+        title: "AVIF가 웹 이미지의 미래인 이유는?",
+        content:
+          "AVIF (AV1 Image File Format)는 Alliance for Open Media에서 개발한 AV1 비디오 코덱을 기반으로 한 차세대 이미지 형식입니다. 2019년에 출시된 AVIF는 우수한 품질을 제공하면서 JPG보다 50% 더 작은 이미지를 만들기 위해 최첨단 압축 기술을 사용합니다. AVIF는 손실 및 무손실 압축 모드를 결합하고, HDR (High Dynamic Range), 넓은 색상 범위 및 알파 채널 투명도를 지원합니다. AVIF는 현대적인 브라우저 (Chrome 85+, Firefox 93+, Edge 121+, Safari 17+)에서 지원되며 현대적인 웹 최적화의 표준으로 빠르게 자리 잡고 있습니다. Netflix, YouTube, Google과 같은 주요 플랫폼은 뛰어난 압축 효율성 때문에 AVIF를 채택하고 있습니다. AVIF는 비교할 수 없는 압축 비율과 품질로 웹 이미지의 미래를 나타냅니다.",
+      },
+      whyConvert: {
+        title: "JPG를 AVIF로 변환하는 이유는?",
+        content:
+          "최고의 이미지 압축과 품질을 달성하기 위해 JPG를 AVIF로 변환하세요. AVIF의 고급 AV1 기반 압축은 시각적 품질을 유지하거나 개선하면서 JPG보다 50% 더 작은 파일을 만듭니다. 주요 이점: 극적으로 작은 파일 크기 (JPG 대비 50% 감소), 우수한 품질 (동일한 파일 크기에서 JPG보다 우수), 더 빠른 페이지 로드 (작은 파일 = 더 빠른 다운로드), 더 나은 SEO (Google은 빠른 로딩 사이트를 선호), 대역폭 비용 감소 (데이터 전송 감소), 개선된 모바일 경험 (느린 연결에서 더 빠름), 투명도 지원 (알파 채널), HDR 지원 (넓은 색상 범위) 및 현대적인 브라우저 지원 (채택 증가). AVIF는 최첨단 웹 개발, 성능 중심 애플리케이션 및 최적의 이미지 전달을 우선시하는 모든 웹사이트에 필수적입니다. AVIF는 웹 이미지의 미래입니다.",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - AVIF를 선택할 때",
+        content:
+          "AVIF와 JPG는 현대적인 웹 개발에서 다른 목적을 제공합니다. AVIF 선택: 현대적인 웹사이트 및 애플리케이션 (최적 성능), 최대 압축 (JPG보다 50% 더 작음), 우수한 품질 (동일한 크기에서 JPG보다 우수), 성능 중심 사이트 (가장 빠른 로딩), 현대적인 브라우저 (Chrome 85+, Firefox 93+, Safari 17+), 투명도 요구 사항 (알파 채널), HDR 콘텐츠 (넓은 색상 범위) 또는 최첨단 웹 개발. JPG 선택: 최대 호환성 (100% 브라우저 지원), 오래된 브라우저 지원 (2019년 이전), 이메일 클라이언트 (제한된 AVIF 지원) 또는 파일 크기가 중요하지 않은 경우. AVIF의 장점: 50% 더 작은 파일, 우수한 압축, 더 나은 품질, 투명도 지원, HDR 지원, 무손실 옵션, 차세대 형식. AVIF의 단점: 더 새로운 형식 (현대적인 브라우저 필요), 오래된 브라우저를 위한 폴백 필요. 현대적인 웹사이트의 경우: 항상 JPG 폴백과 함께 AVIF. 이메일의 경우: JPG 사용. 최대 호환성의 경우: 두 형식 모두 제공.",
+      },
+      benefits: {
+        title: "AVIF 형식의 이점",
+        list: [
+          "50% 더 작은 파일 - JPG 대비 극적으로 감소된 파일 크기",
+          "우수한 품질 - 동일한 파일 크기에서 JPG보다 우수",
+          "차세대 압축 - 세계 최고 수준의 효율성",
+          "투명도 지원 - PNG와 같은 알파 채널",
+          "HDR 지원 - 넓은 색상 범위 및 높은 동적 범위",
+          "현대적인 브라우저 지원 - Chrome, Firefox, Safari에서 채택 증가",
+        ],
+      },
+    },
+    faq: {
+      title: "자주 묻는 질문 – JPG to AVIF",
+      items: [
+        {
+          q: "JPG를 AVIF로 변환하는 것이 무료인가요?",
+          a: "예! JPG to AVIF 변환기는 무제한 변환으로 완전히 무료입니다. 등록, 구독 또는 숨겨진 수수료가 없습니다. 현대적인 웹사이트, 애플리케이션 또는 전문 사용을 위해 필요한 만큼 이미지를 변환하세요.",
+        },
+        {
+          q: "AVIF 파일이 JPG와 비교하여 얼마나 더 작은가요?",
+          a: "AVIF 파일은 일반적으로 동일하거나 더 나은 시각적 품질을 유지하면서 JPG보다 50% 더 작습니다. 이 극적인 크기 감소는 더 빠른 페이지 로드, 더 나은 SEO 순위 및 감소된 대역폭 비용을 가져옵니다. AVIF의 고급 압축은 웹 이미지에 사용 가능한 가장 효율적인 것입니다.",
+        },
+        {
+          q: "AVIF 품질이 JPG보다 더 나은가요?",
+          a: "예! AVIF는 동일한 파일 크기에서 JPG와 비교하여 우수한 품질을 제공하거나 50% 더 작은 파일 크기에서 동일한 품질을 제공합니다. AVIF의 AV1 기반 압축은 JPG의 오래된 압축 알고리즘보다 더 고급이며, 더 나은 세부 보존, 더 적은 아티팩트 및 우수한 색상 정확도를 가져옵니다.",
+        },
+        {
+          q: "어떤 브라우저가 AVIF를 지원하나요?",
+          a: "AVIF는 현대적인 브라우저에서 지원됩니다: Chrome 85+, Firefox 93+, Edge 121+, Safari 17+ 및 Opera 71+. AVIF 지원이 빠르게 성장하고 있으며, 대부분의 현대적인 브라우저가 현재 지원합니다. 최대 호환성을 위해 오래된 브라우저에 JPG 폴백을 제공하세요.",
+        },
+        {
+          q: "AVIF가 PNG처럼 투명도를 지원할 수 있나요?",
+          a: "예! AVIF는 PNG와 정확히 같은 알파 채널 투명도를 지원하여 로고, 그래픽 및 투명한 배경이 필요한 이미지에 완벽합니다. AVIF는 현대적인 형식의 압축 이점을 PNG의 투명도 기능과 결합합니다.",
+        },
+        {
+          q: "AVIF가 SEO에 좋은가요?",
+          a: "절대적으로! AVIF는 더 작은 파일 크기가 더 빠른 페이지 로드를 가져오기 때문에 SEO에 탁월하며, Google은 검색 순위에서 이를 선호합니다. 더 빠르게 로드되는 웹사이트는 더 높은 순위를 차지하며, AVIF의 50% 크기 감소는 페이지 속도 점수를 크게 개선합니다. Google PageSpeed Insights는 AVIF를 최적 형식으로 인식합니다.",
+        },
+        {
+          q: "전자상거래 제품 이미지에 AVIF를 사용할 수 있나요?",
+          a: "예! AVIF는 품질을 희생하지 않고 파일 크기를 극적으로 줄여 더 빠른 제품 페이지 로드와 더 나은 사용자 경험을 가져오기 때문에 전자상거래에 완벽합니다. 많은 주요 전자상거래 플랫폼이 AVIF를 지원하며, 느린 연결을 가진 모바일 쇼핑객에게 특히 유익합니다.",
+        },
+        {
+          q: "JPG to AVIF 변환에 얼마나 걸리나요?",
+          a: "변환은 이미지당 1-2초가 걸립니다. AVIF 변환은 현대적인 프로세서에 최적화되어 있기 때문에 빠릅니다. 결과는 최적 성능으로 현대적인 웹 배포를 위한 고압축, 고품질 이미지입니다.",
+        },
+      ],
+    },
+    related: {
+      title: "관련 변환기",
+      converters: [
+        { name: "AVIF to JPG", url: "/convert/avif-to-jpg" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "HEIC to AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIF to AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

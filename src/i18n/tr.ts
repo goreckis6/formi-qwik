@@ -236,6 +236,10 @@ export const tr: Translations = {
       name: "JPG'den WebP'ye",
       description: "JPG'yi WebP'ye dönüştürün - %25-35 daha küçük dosyalar ve daha iyi web performansı",
     },
+    jpgToAvif: {
+      name: "JPG'den AVIF'ye",
+      description: "Üstün kalite ve modern sıkıştırma ile %50 daha küçük dosyalar için JPG'yi AVIF'ye dönüştürün",
+    },
     jpgToPdf: {
       name: "JPG'den PDF'ye",
       description: "JPG görüntülerini evrensel uyumluluk ve profesyonel sunum için PDF belgelerine dönüştürün",
@@ -2144,6 +2148,134 @@ export const tr: Translations = {
         { name: "HEIF'den WebP'ye", url: "/convert/heif-to-webp" },
         { name: "JPG'den PNG'ye", url: "/convert/jpg-to-png" },
         { name: "JPG'den GIF'e", url: "/convert/jpg-to-gif" },
+        { name: "JPG'den PDF'ye", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "JPG'den AVIF'ye Dönüştürücü - %50 Daha Küçük Dosyalarla Ultra-Modern Sıkıştırma",
+    metaDescription:
+      "Üstün kalite ile %50 daha küçük dosya boyutları için JPG'yi AVIF'ye dönüştürün. Gelişmiş sıkıştırma ile yeni nesil görüntü formatı. Modern web siteleri, daha hızlı yükleme ve optimal performans için mükemmel. Ücretsiz toplu dönüştürücü, kayıt yok.",
+    metaKeywords:
+      "JPG'den AVIF'ye, AVIF dönüştürücü, yeni nesil görüntü formatı, ultra sıkıştırma, daha küçük dosya boyutu, daha hızlı yükleme, modern web görüntüleri, toplu JPG dönüştürme, AV1 görüntü formatı",
+    hero: {
+      title: "JPG'den AVIF'ye Dönüştürücü",
+      subtitle:
+        "Maksimum görüntü sıkıştırması için JPG'yi AVIF'ye dönüştürün. AVIF görüntüleri üstün kalite sunarken JPG'den %50 daha küçüktür - modern web siteleri, daha hızlı yükleme süreleri ve optimal performans için mükemmel. AVIF, AV1 video codec'ine dayalı yeni nesil görüntü formatıdır.",
+      badge1: "%50 Daha Küçük",
+      badge2: "Üstün Kalite",
+      badge3: "Yeni Nesil Format",
+    },
+    upload: {
+      title: "JPG Dosyalarını Yükle",
+      description:
+        "JPG görüntülerinizi buraya sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürmeyi destekler. Dosya başına maksimum 100MB.",
+      buttonSingle: "Tek Dosya",
+      buttonBatch: "Toplu Dönüştürme",
+      chooseFile: "Dosya Seç",
+      converting: "Dönüştürülüyor...",
+      success: "Dönüştürme başarılı!",
+      download: "AVIF İndir",
+      downloadAll: "Hepsini ZIP Olarak İndir",
+      convertAnother: "Başka Dosya Dönüştür",
+    },
+    features: {
+      title: "Özellikler",
+      list: [
+        "Üstün kalite ile JPG'den %50 daha küçük dosyalar",
+        "Yeni nesil sıkıştırma - sınıfının en iyisi verimlilik",
+        "Şeffaflık desteği - PNG gibi alfa kanalı",
+        "Aynı anda 20 dosyaya kadar toplu işleme",
+        "Otomatik dosya silme ile %100 güvenli",
+        "Modern web siteleri ve uygulamalar için mükemmel",
+        "Anında indirme - dağıtıma hazır",
+        "Filigran yok - profesyonel kalite",
+      ],
+    },
+    howItWorks: {
+      title: "Nasıl Çalışır",
+      step1Title: "JPG Dosyalarını Yükle",
+      step1Desc: "Cihazınızdan bir veya birden fazla JPG görüntüsü seçin",
+      step2Title: "Otomatik Dönüştürme",
+      step2Desc: "Dönüştürücümüz dosyalarınızı anında işler",
+      step3Title: "AVIF İndir",
+      step3Desc: "Optimize edilmiş AVIF dosyalarınızı hemen alın",
+    },
+    about: {
+      title: "JPG'den AVIF'ye Dönüştürme Hakkında",
+      whatIsHeif: {
+        title: "AVIF Neden Web Görüntülerinin Geleceği?",
+        content:
+          "AVIF (AV1 Image File Format), Alliance for Open Media tarafından geliştirilen AV1 video codec'ine dayalı yeni nesil görüntü formatıdır. 2019'da piyasaya sürülen AVIF, üstün kalite sunarken JPG'den %50 daha küçük görüntüler oluşturmak için son teknoloji sıkıştırma teknolojisi kullanır. AVIF, kayıplı ve kayıpsız sıkıştırma modlarını birleştirir, HDR (High Dynamic Range), geniş renk gamları ve alfa kanal şeffaflığını destekler. AVIF, modern tarayıcılar (Chrome 85+, Firefox 93+, Edge 121+, Safari 17+) tarafından desteklenir ve modern web optimizasyonu için hızla standart haline geliyor. Netflix, YouTube ve Google gibi büyük platformlar, olağanüstü sıkıştırma verimliliği nedeniyle AVIF'yi benimsiyor. AVIF, eşsiz sıkıştırma oranları ve kalite ile web görüntülerinin geleceğini temsil eder.",
+      },
+      whyConvert: {
+        title: "Neden JPG'yi AVIF'ye Dönüştürmeli?",
+        content:
+          "Maksimum görüntü sıkıştırması ve kalitesi için JPG'yi AVIF'ye dönüştürün. AVIF'nin gelişmiş AV1 tabanlı sıkıştırması, görsel kaliteyi korurken veya iyileştirirken JPG'den %50 daha küçük dosyalar oluşturur. Temel faydalar: dramatik olarak daha küçük dosya boyutları (JPG'ye göre %50 azalma), üstün kalite (aynı dosya boyutunda JPG'den daha iyi), daha hızlı sayfa yüklemeleri (daha küçük dosyalar = daha hızlı indirmeler), daha iyi SEO (Google hızlı yüklenen siteleri tercih eder), azaltılmış bant genişliği maliyetleri (daha az veri transferi), geliştirilmiş mobil deneyim (yavaş bağlantılarda daha hızlı), şeffaflık desteği (alfa kanalı), HDR desteği (daha geniş renk gamı) ve modern tarayıcı desteği (artan kabul). AVIF, son teknoloji web geliştirme, performans kritik uygulamalar ve optimal görüntü teslimatını önceliklendiren herhangi bir web sitesi için gereklidir. AVIF, web görüntülerinin geleceğidir.",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - Ne Zaman AVIF Seçilmeli",
+        content:
+          "AVIF ve JPG modern web geliştirmede farklı amaçlara hizmet eder. AVIF'yi şunlar için seçin: modern web siteleri ve uygulamalar (optimal performans), maksimum sıkıştırma (JPG'den %50 daha küçük), üstün kalite (aynı boyutta JPG'den daha iyi), performans kritik siteler (en hızlı yükleme), modern tarayıcılar (Chrome 85+, Firefox 93+, Safari 17+), şeffaflık ihtiyaçları (alfa kanalı), HDR içeriği (geniş renk gamı) veya son teknoloji web geliştirme. JPG'yi şunlar için seçin: maksimum uyumluluk (%100 tarayıcı desteği), eski tarayıcı desteği (2019 öncesi tarayıcılar), e-posta istemcileri (sınırlı AVIF desteği) veya dosya boyutu kritik olmadığında. AVIF avantajları: %50 daha küçük dosyalar, üstün sıkıştırma, daha iyi kalite, şeffaflık desteği, HDR desteği, kayıpsız seçenek, yeni nesil format. AVIF dezavantajları: daha yeni format (modern tarayıcılar gerektirir), eski tarayıcılar için fallback gerektirir. Modern web siteleri için: Her zaman JPG fallback ile AVIF. E-posta için: JPG kullanın. Maksimum uyumluluk için: Her iki formatı da sağlayın.",
+      },
+      benefits: {
+        title: "AVIF Formatının Faydaları",
+        list: [
+          "%50 Daha Küçük Dosyalar - JPG'ye göre dramatik olarak azaltılmış dosya boyutları",
+          "Üstün Kalite - Aynı dosya boyutunda JPG'den daha iyi",
+          "Yeni Nesil Sıkıştırma - Sınıfının en iyisi verimlilik",
+          "Şeffaflık Desteği - PNG gibi alfa kanalı",
+          "HDR Desteği - Geniş renk gamı ve yüksek dinamik aralık",
+          "Modern Tarayıcı Desteği - Chrome, Firefox, Safari'de artan kabul",
+        ],
+      },
+    },
+    faq: {
+      title: "Sık Sorulan Sorular – JPG'den AVIF'ye",
+      items: [
+        {
+          q: "JPG'yi AVIF'ye dönüştürmek ücretsiz mi?",
+          a: "Evet! JPG'den AVIF'ye dönüştürücümüz sınırsız dönüştürmelerle tamamen ücretsizdir. Kayıt, abonelik veya gizli ücret yok. Modern web siteleri, uygulamalar veya profesyonel kullanım için ihtiyacınız olan kadar görüntü dönüştürün.",
+        },
+        {
+          q: "AVIF dosyaları JPG'ye göre ne kadar daha küçük?",
+          a: "AVIF dosyaları aynı veya daha iyi görsel kaliteyi korurken tipik olarak JPG'den %50 daha küçüktür. Bu dramatik boyut azalması, daha hızlı sayfa yüklemeleri, daha iyi SEO sıralamaları ve azaltılmış bant genişliği maliyetleriyle sonuçlanır. AVIF'nin gelişmiş sıkıştırması, web görüntüleri için mevcut en verimli olanıdır.",
+        },
+        {
+          q: "AVIF kalitesi JPG'den daha iyi mi?",
+          a: "Evet! AVIF, aynı dosya boyutunda JPG'ye göre üstün kalite sunar veya %50 daha küçük dosya boyutunda aynı kaliteyi sunar. AVIF'nin AV1 tabanlı sıkıştırması, JPG'nin daha eski sıkıştırma algoritmalarından daha gelişmiştir, bu da daha iyi detay korunması, daha az artefakt ve üstün renk doğruluğu ile sonuçlanır.",
+        },
+        {
+          q: "Hangi tarayıcılar AVIF'yi destekliyor?",
+          a: "AVIF, modern tarayıcılar tarafından desteklenir: Chrome 85+, Firefox 93+, Edge 121+, Safari 17+ ve Opera 71+. AVIF desteği hızla büyüyor ve çoğu modern tarayıcı artık onu destekliyor. Maksimum uyumluluk için, eski tarayıcılar için JPG fallback'leri sağlayın.",
+        },
+        {
+          q: "AVIF PNG gibi şeffaflığı destekleyebilir mi?",
+          a: "Evet! AVIF, PNG gibi alfa kanal şeffaflığını destekler, bu da onu şeffaf arka planlar gerektiren logolar, grafikler ve görüntüler için mükemmel kılar. AVIF, modern formatların sıkıştırma avantajlarını PNG'nin şeffaflık yetenekleriyle birleştirir.",
+        },
+        {
+          q: "AVIF SEO için iyi mi?",
+          a: "Kesinlikle! AVIF SEO için mükemmeldir çünkü daha küçük dosya boyutları daha hızlı sayfa yüklemeleriyle sonuçlanır, bu da Google'ın arama sıralamalarında tercih ettiği şeydir. Daha hızlı yüklenen web siteleri daha yüksek sıralanır ve AVIF'nin %50 boyut azalması sayfa hızı puanlarını önemli ölçüde iyileştirir. Google PageSpeed Insights, AVIF'yi optimal bir format olarak tanır.",
+        },
+        {
+          q: "E-ticaret ürün görüntüleri için AVIF kullanabilir miyim?",
+          a: "Evet! AVIF e-ticaret için mükemmeldir çünkü kaliteyi feda etmeden dosya boyutlarını dramatik olarak azaltır, bu da daha hızlı ürün sayfası yüklemeleri ve daha iyi kullanıcı deneyimiyle sonuçlanır. Birçok büyük e-ticaret platformu AVIF'yi destekler ve özellikle daha yavaş bağlantılara sahip mobil alışverişçiler için faydalıdır.",
+        },
+        {
+          q: "JPG'den AVIF'ye dönüştürme ne kadar sürer?",
+          a: "Dönüştürme görüntü başına 1-2 saniye sürer. AVIF dönüştürme hızlıdır çünkü modern işlemciler için optimize edilmiştir. Sonuç, optimal performansla modern web dağıtımı için hazır, yüksek sıkıştırılmış, yüksek kaliteli bir görüntüdür.",
+        },
+      ],
+    },
+    related: {
+      title: "İlgili Dönüştürücüler",
+      converters: [
+        { name: "AVIF'den JPG'ye", url: "/convert/avif-to-jpg" },
+        { name: "JPG'den WebP'ye", url: "/convert/jpg-to-webp" },
+        { name: "JPG'den PNG'ye", url: "/convert/jpg-to-png" },
+        { name: "HEIC'den AVIF'ye", url: "/convert/heic-to-avif" },
+        { name: "HEIF'den AVIF'ye", url: "/convert/heif-to-avif" },
         { name: "JPG'den PDF'ye", url: "/convert/jpg-to-pdf" },
       ],
     },

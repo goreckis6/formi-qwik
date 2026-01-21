@@ -114,6 +114,11 @@ export default component$(() => {
         description: converters.jpgToPdf.description,
         href: getLocalizedPath("/convert/jpg-to-pdf", locale),
       }] : []),
+      ...(converters.jpgToAvif ? [{
+        name: converters.jpgToAvif.name,
+        description: converters.jpgToAvif.description,
+        href: getLocalizedPath("/convert/jpg-to-avif", locale),
+      }] : []),
     ],
   }));
 

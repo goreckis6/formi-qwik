@@ -223,6 +223,10 @@ export const id: Translations = {
       name: "JPG ke WebP",
       description: "Konversi JPG ke WebP untuk file 25-35% lebih kecil dan performa web yang lebih baik",
     },
+    jpgToAvif: {
+      name: "JPG ke AVIF",
+      description: "Konversi JPG ke AVIF untuk file 50% lebih kecil dengan kualitas superior dan kompresi modern",
+    },
     jpgToPdf: {
       name: "JPG ke PDF",
       description: "Konversi gambar JPG ke dokumen PDF untuk kompatibilitas universal dan presentasi profesional",
@@ -2072,6 +2076,134 @@ export const id: Translations = {
         { name: "HEIF ke WebP", url: "/convert/heif-to-webp" },
         { name: "JPG ke PNG", url: "/convert/jpg-to-png" },
         { name: "JPG ke GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG ke PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "Konverter JPG ke AVIF - Kompresi Ultra-Modern dengan File 50% Lebih Kecil",
+    metaDescription:
+      "Konversi JPG ke AVIF untuk ukuran file 50% lebih kecil dengan kualitas superior. Format gambar generasi berikutnya dengan kompresi canggih. Sempurna untuk situs web modern, pemuatan lebih cepat, dan kinerja optimal. Konverter batch gratis, tanpa registrasi.",
+    metaKeywords:
+      "JPG ke AVIF, konverter AVIF, format gambar generasi berikutnya, ultra kompresi, ukuran file lebih kecil, pemuatan lebih cepat, gambar web modern, konversi batch JPG, format gambar AV1",
+    hero: {
+      title: "Konverter JPG ke AVIF",
+      subtitle:
+        "Konversi JPG ke AVIF untuk kompresi gambar yang maksimal. Gambar AVIF 50% lebih kecil dari JPG sambil memberikan kualitas superior - sempurna untuk situs web modern, waktu pemuatan lebih cepat, dan kinerja optimal. AVIF adalah format gambar generasi berikutnya berdasarkan codec video AV1.",
+      badge1: "50% Lebih Kecil",
+      badge2: "Kualitas Superior",
+      badge3: "Format Next-Gen",
+    },
+    upload: {
+      title: "Unggah File JPG",
+      description:
+        "Seret dan lepas gambar JPG Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.",
+      buttonSingle: "File Tunggal",
+      buttonBatch: "Konversi Batch",
+      chooseFile: "Pilih File",
+      converting: "Mengonversi...",
+      success: "Konversi berhasil!",
+      download: "Unduh AVIF",
+      downloadAll: "Unduh Semua sebagai ZIP",
+      convertAnother: "Konversi File Lain",
+    },
+    features: {
+      title: "Fitur",
+      list: [
+        "50% file lebih kecil dari JPG dengan kualitas superior",
+        "Kompresi generasi berikutnya - efisiensi kelas dunia",
+        "Dukungan transparansi - saluran alfa seperti PNG",
+        "Pemrosesan batch hingga 20 file secara bersamaan",
+        "100% aman dengan penghapusan file otomatis",
+        "Sempurna untuk situs web dan aplikasi modern",
+        "Unduh instan - siap untuk deployment",
+        "Tanpa watermark - kualitas profesional",
+      ],
+    },
+    howItWorks: {
+      title: "Cara Kerja",
+      step1Title: "Unggah File JPG",
+      step1Desc: "Pilih satu atau beberapa gambar JPG dari perangkat Anda",
+      step2Title: "Konversi Otomatis",
+      step2Desc: "Konverter kami memproses file Anda secara instan",
+      step3Title: "Unduh AVIF",
+      step3Desc: "Dapatkan file AVIF yang dioptimalkan segera",
+    },
+    about: {
+      title: "Tentang Konversi JPG ke AVIF",
+      whatIsHeif: {
+        title: "Mengapa AVIF adalah Masa Depan Gambar Web?",
+        content:
+          "AVIF (AV1 Image File Format) adalah format gambar generasi berikutnya berdasarkan codec video AV1, dikembangkan oleh Alliance for Open Media. Dirilis pada 2019, AVIF menggunakan teknologi kompresi canggih untuk membuat gambar yang 50% lebih kecil dari JPG sambil memberikan kualitas superior. AVIF menggabungkan mode kompresi lossy dan lossless, mendukung HDR (High Dynamic Range), gamut warna lebar, dan transparansi saluran alfa. AVIF didukung oleh browser modern (Chrome 85+, Firefox 93+, Edge 121+, Safari 17+) dan dengan cepat menjadi standar untuk optimasi web modern. Platform besar seperti Netflix, YouTube, dan Google mengadopsi AVIF karena efisiensi kompresinya yang luar biasa. AVIF mewakili masa depan gambar web dengan rasio kompresi dan kualitas yang tak tertandingi.",
+      },
+      whyConvert: {
+        title: "Mengapa Konversi JPG ke AVIF?",
+        content:
+          "Konversi JPG ke AVIF untuk mencapai kompresi dan kualitas gambar yang maksimal. Kompresi AVIF berbasis AV1 yang canggih membuat file yang 50% lebih kecil dari JPG sambil mempertahankan atau meningkatkan kualitas visual. Manfaat utama: ukuran file yang jauh lebih kecil (50% pengurangan vs JPG), kualitas superior (lebih baik dari JPG pada ukuran file yang sama), pemuatan halaman lebih cepat (file lebih kecil = unduhan lebih cepat), SEO lebih baik (Google menyukai situs yang memuat cepat), biaya bandwidth berkurang (transfer data lebih sedikit), pengalaman seluler yang lebih baik (lebih cepat pada koneksi lambat), dukungan transparansi (saluran alfa), dukungan HDR (gamut warna lebih lebar), dan dukungan browser modern (adopsi yang berkembang). AVIF sangat penting untuk pengembangan web canggih, aplikasi yang kritis terhadap kinerja, dan situs web apa pun yang memprioritaskan pengiriman gambar yang optimal. AVIF adalah masa depan gambar web.",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - Kapan Memilih AVIF",
+        content:
+          "AVIF dan JPG melayani tujuan yang berbeda dalam pengembangan web modern. Pilih AVIF untuk: situs web dan aplikasi modern (kinerja optimal), kompresi maksimal (50% lebih kecil dari JPG), kualitas superior (lebih baik dari JPG pada ukuran yang sama), situs yang kritis terhadap kinerja (pemuatan tercepat), browser modern (Chrome 85+, Firefox 93+, Safari 17+), kebutuhan transparansi (saluran alfa), konten HDR (gamut warna lebar), atau pengembangan web canggih. Pilih JPG untuk: kompatibilitas maksimal (100% dukungan browser), dukungan browser lama (pra-2019), klien email (dukungan AVIF terbatas), atau ketika ukuran file tidak kritis. Keuntungan AVIF: 50% file lebih kecil, kompresi superior, kualitas lebih baik, dukungan transparansi, dukungan HDR, opsi lossless, format generasi berikutnya. Kerugian AVIF: format lebih baru (memerlukan browser modern), memerlukan fallback untuk browser lama. Untuk situs web modern: Selalu AVIF dengan fallback JPG. Untuk email: Gunakan JPG. Untuk kompatibilitas maksimal: Berikan kedua format.",
+      },
+      benefits: {
+        title: "Manfaat Format AVIF",
+        list: [
+          "50% File Lebih Kecil - Ukuran file berkurang drastis vs JPG",
+          "Kualitas Superior - Lebih baik dari JPG pada ukuran file yang sama",
+          "Kompresi Next-Gen - Efisiensi kelas dunia",
+          "Dukungan Transparansi - Saluran alfa seperti PNG",
+          "Dukungan HDR - Gamut warna lebar dan rentang dinamis tinggi",
+          "Dukungan Browser Modern - Adopsi yang berkembang di Chrome, Firefox, Safari",
+        ],
+      },
+    },
+    faq: {
+      title: "Pertanyaan yang Sering Diajukan – JPG ke AVIF",
+      items: [
+        {
+          q: "Apakah gratis untuk mengonversi JPG ke AVIF?",
+          a: "Ya! Konverter JPG ke AVIF kami sepenuhnya gratis dengan konversi tak terbatas. Tanpa registrasi, langganan, atau biaya tersembunyi. Konversi sebanyak gambar yang Anda butuhkan untuk situs web modern, aplikasi, atau penggunaan profesional.",
+        },
+        {
+          q: "Berapa lebih kecil file AVIF dibandingkan dengan JPG?",
+          a: "File AVIF biasanya 50% lebih kecil dari JPG sambil mempertahankan kualitas visual yang sama atau lebih baik. Pengurangan ukuran yang drastis ini menghasilkan pemuatan halaman lebih cepat, peringkat SEO yang lebih baik, dan biaya bandwidth yang berkurang. Kompresi canggih AVIF adalah yang paling efisien yang tersedia untuk gambar web.",
+        },
+        {
+          q: "Apakah kualitas AVIF lebih baik dari JPG?",
+          a: "Ya! AVIF memberikan kualitas superior dibandingkan dengan JPG pada ukuran file yang sama, atau kualitas yang sama pada ukuran file 50% lebih kecil. Kompresi AVIF berbasis AV1 lebih canggih daripada algoritma kompresi JPG yang lebih lama, menghasilkan pelestarian detail yang lebih baik, lebih sedikit artefak, dan akurasi warna yang superior.",
+        },
+        {
+          q: "Browser mana yang mendukung AVIF?",
+          a: "AVIF didukung oleh browser modern: Chrome 85+, Firefox 93+, Edge 121+, Safari 17+, dan Opera 71+. Dukungan AVIF berkembang pesat, dan sebagian besar browser modern sekarang mendukungnya. Untuk kompatibilitas maksimal, berikan fallback JPG untuk browser lama.",
+        },
+        {
+          q: "Bisakah AVIF mendukung transparansi seperti PNG?",
+          a: "Ya! AVIF mendukung transparansi saluran alfa sama seperti PNG, menjadikannya sempurna untuk logo, grafik, dan gambar yang memerlukan latar belakang transparan. AVIF menggabungkan manfaat kompresi format modern dengan kemampuan transparansi PNG.",
+        },
+        {
+          q: "Apakah AVIF baik untuk SEO?",
+          a: "Sangat! AVIF sangat baik untuk SEO karena ukuran file yang lebih kecil menghasilkan pemuatan halaman yang lebih cepat, yang disukai Google dalam peringkat pencarian. Situs web yang memuat lebih cepat mendapat peringkat lebih tinggi, dan pengurangan ukuran 50% AVIF secara signifikan meningkatkan skor kecepatan halaman. Google PageSpeed Insights mengakui AVIF sebagai format optimal.",
+        },
+        {
+          q: "Bisakah saya menggunakan AVIF untuk gambar produk e-commerce?",
+          a: "Ya! AVIF sempurna untuk e-commerce karena secara drastis mengurangi ukuran file tanpa mengorbankan kualitas, menghasilkan pemuatan halaman produk yang lebih cepat dan pengalaman pengguna yang lebih baik. Banyak platform e-commerce besar mendukung AVIF, dan sangat bermanfaat bagi pembeli seluler dengan koneksi yang lebih lambat.",
+        },
+        {
+          q: "Berapa lama konversi JPG ke AVIF?",
+          a: "Konversi memakan waktu 1-2 detik per gambar. Konversi AVIF cepat karena dioptimalkan untuk prosesor modern. Hasilnya adalah gambar yang sangat terkompresi dan berkualitas tinggi siap untuk deployment web modern dengan kinerja optimal.",
+        },
+      ],
+    },
+    related: {
+      title: "Konverter Terkait",
+      converters: [
+        { name: "AVIF ke JPG", url: "/convert/avif-to-jpg" },
+        { name: "JPG ke WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG ke PNG", url: "/convert/jpg-to-png" },
+        { name: "HEIC ke AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIF ke AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG ke PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

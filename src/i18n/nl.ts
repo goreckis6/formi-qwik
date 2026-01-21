@@ -236,6 +236,10 @@ export const nl: Translations = {
       name: "JPG naar WebP",
       description: "Converteer JPG naar WebP voor 25-35% kleinere bestanden en betere webprestaties",
     },
+    jpgToAvif: {
+      name: "JPG naar AVIF",
+      description: "Converteer JPG naar AVIF voor 50% kleinere bestanden met superieure kwaliteit en moderne compressie",
+    },
     jpgToPdf: {
       name: "JPG naar PDF",
       description: "Converteer JPG-afbeeldingen naar PDF-documenten voor universele compatibiliteit en professionele presentatie",
@@ -2004,6 +2008,10 @@ export const nl: Translations = {
 
   // JPG to WebP Converter
   jpgToWebp: {
+    jpgToAvif: {
+      name: "JPG to AVIF",
+      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
+    },
     title: "JPG naar WebP Converter - Optimaliseer Afbeeldingen voor Web met Superieure Compressie",
     metaDescription:
       "Converteer JPG naar WebP voor 25-35% kleinere bestandsgroottes met betere kwaliteit. Perfect voor websites, sneller laden en SEO. Modern formaat met transparantie-ondersteuning. Gratis batchconverter, geen registratie.",
@@ -2130,6 +2138,134 @@ export const nl: Translations = {
         { name: "HEIF naar WebP", url: "/convert/heif-to-webp" },
         { name: "JPG naar PNG", url: "/convert/jpg-to-png" },
         { name: "JPG naar GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "JPG naar AVIF Converter - Ultra-Moderne Compressie met 50% Kleinere Bestanden",
+    metaDescription:
+      "Converteer JPG naar AVIF voor 50% kleinere bestandsgroottes met superieure kwaliteit. Next-generation beeldformaat met geavanceerde compressie. Perfect voor moderne websites, snellere laadtijden en optimale prestaties. Gratis batchconverter, geen registratie.",
+    metaKeywords:
+      "JPG naar AVIF, AVIF converter, next-gen beeldformaat, ultra compressie, kleinere bestandsgrootte, snellere laadtijden, moderne webafbeeldingen, batch JPG converteren, AV1 beeldformaat",
+    hero: {
+      title: "JPG naar AVIF Converter",
+      subtitle:
+        "Converteer JPG naar AVIF voor de ultieme beeldcompressie. AVIF-afbeeldingen zijn 50% kleiner dan JPG met superieure kwaliteit - perfect voor moderne websites, snellere laadtijden en optimale prestaties. AVIF is het next-generation beeldformaat gebaseerd op AV1 videocodec.",
+      badge1: "50% Kleiner",
+      badge2: "Superieure Kwaliteit",
+      badge3: "Next-Gen Formaat",
+    },
+    upload: {
+      title: "Upload JPG-bestanden",
+      description:
+        "Sleep en zet uw JPG-afbeeldingen hier neer of klik om te bladeren. Ondersteunt batchconversie tot 20 bestanden. Maximum 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Conversie",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie geslaagd!",
+      download: "Download AVIF",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "50% kleinere bestanden dan JPG met superieure kwaliteit",
+        "Next-generation compressie - best-in-class efficiëntie",
+        "Transparantie-ondersteuning - alfakanaal zoals PNG",
+        "Batchverwerking tot 20 bestanden tegelijkertijd",
+        "100% veilig met automatische bestandsverwijdering",
+        "Perfect voor moderne websites en applicaties",
+        "Directe download - klaar voor implementatie",
+        "Geen watermerken - professionele kwaliteit",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload JPG-bestanden",
+      step1Desc: "Selecteer één of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download AVIF",
+      step3Desc: "Krijg uw geoptimaliseerde AVIF-bestanden direct",
+    },
+    about: {
+      title: "Over JPG naar AVIF Conversie",
+      whatIsHeif: {
+        title: "Waarom AVIF de Toekomst van Webafbeeldingen is?",
+        content:
+          "AVIF (AV1 Image File Format) is het next-generation beeldformaat gebaseerd op de AV1 videocodec, ontwikkeld door de Alliance for Open Media. Uitgebracht in 2019, gebruikt AVIF geavanceerde compressietechnologie om afbeeldingen te maken die 50% kleiner zijn dan JPG met superieure kwaliteit. AVIF combineert lossy en lossless compressiemodi, ondersteunt HDR (High Dynamic Range), brede kleurgamma's en alfakanaaltransparantie. AVIF wordt ondersteund door moderne browsers (Chrome 85+, Firefox 93+, Edge 121+, Safari 17+) en wordt snel de standaard voor moderne weboptimalisatie. Grote platforms zoals Netflix, YouTube en Google adopteren AVIF vanwege zijn buitengewone compressie-efficiëntie. AVIF vertegenwoordigt de toekomst van webafbeeldingen met ongeëvenaarde compressieverhoudingen en kwaliteit.",
+      },
+      whyConvert: {
+        title: "Waarom JPG naar AVIF Converteren?",
+        content:
+          "Converteer JPG naar AVIF om de ultieme beeldcompressie en kwaliteit te bereiken. AVIF's geavanceerde AV1-gebaseerde compressie creëert bestanden die 50% kleiner zijn dan JPG met behoud of verbetering van visuele kwaliteit. Belangrijkste voordelen: dramatisch kleinere bestandsgroottes (50% reductie vs JPG), superieure kwaliteit (beter dan JPG bij dezelfde bestandsgrootte), snellere paginalaadtijden (kleinere bestanden = snellere downloads), betere SEO (Google bevoordeelt snel ladende sites), gereduceerde bandbreedtekosten (minder datatransfer), verbeterde mobiele ervaring (sneller bij langzame verbindingen), transparantie-ondersteuning (alfakanaal), HDR-ondersteuning (breder kleurgamma) en moderne browser-ondersteuning (groeiende adoptie). AVIF is essentieel voor geavanceerde webontwikkeling, prestatiekritieke applicaties en elke website die optimale beeldlevering prioriteert. AVIF is de toekomst van webafbeeldingen.",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - Wanneer AVIF Kiezen",
+        content:
+          "AVIF en JPG dienen verschillende doeleinden in moderne webontwikkeling. Kies AVIF voor: moderne websites en applicaties (optimale prestaties), maximale compressie (50% kleiner dan JPG), superieure kwaliteit (beter dan JPG bij dezelfde grootte), prestatiekritieke sites (snelste laadtijden), moderne browsers (Chrome 85+, Firefox 93+, Safari 17+), transparantiebehoeften (alfakanaal), HDR-inhoud (breed kleurgamma) of geavanceerde webontwikkeling. Kies JPG voor: maximale compatibiliteit (100% browserondersteuning), oudere browserondersteuning (pre-2019 browsers), e-mailclients (beperkte AVIF-ondersteuning) of wanneer bestandsgrootte niet kritisch is. AVIF-voordelen: 50% kleinere bestanden, superieure compressie, betere kwaliteit, transparantie-ondersteuning, HDR-ondersteuning, lossless optie, next-gen formaat. AVIF-nadelen: nieuwer formaat (vereist moderne browsers), vereist fallback voor oudere browsers. Voor moderne websites: Altijd AVIF met JPG fallback. Voor e-mail: Gebruik JPG. Voor maximale compatibiliteit: Bied beide formaten aan.",
+      },
+      benefits: {
+        title: "Voordelen van AVIF Formaat",
+        list: [
+          "50% Kleinere Bestanden - Dramatisch gereduceerde bestandsgroottes vs JPG",
+          "Superieure Kwaliteit - Beter dan JPG bij dezelfde bestandsgrootte",
+          "Next-Gen Compressie - Best-in-class efficiëntie",
+          "Transparantie-Ondersteuning - Alfakanaal zoals PNG",
+          "HDR-Ondersteuning - Breed kleurgamma en hoog dynamisch bereik",
+          "Moderne Browser-Ondersteuning - Groeiende adoptie in Chrome, Firefox, Safari",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – JPG naar AVIF",
+      items: [
+        {
+          q: "Is het gratis om JPG naar AVIF te converteren?",
+          a: "Ja! Onze JPG naar AVIF converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als u nodig heeft voor moderne websites, applicaties of professioneel gebruik.",
+        },
+        {
+          q: "Hoeveel kleiner zijn AVIF-bestanden vergeleken met JPG?",
+          a: "AVIF-bestanden zijn typisch 50% kleiner dan JPG met behoud van dezelfde of betere visuele kwaliteit. Deze dramatische groottereductie resulteert in snellere paginalaadtijden, betere SEO-rankings en gereduceerde bandbreedtekosten. AVIF's geavanceerde compressie is de meest efficiënte beschikbaar voor webafbeeldingen.",
+        },
+        {
+          q: "Is AVIF-kwaliteit beter dan JPG?",
+          a: "Ja! AVIF levert superieure kwaliteit vergeleken met JPG bij dezelfde bestandsgrootte, of dezelfde kwaliteit bij 50% kleinere bestandsgrootte. AVIF's AV1-gebaseerde compressie is geavanceerder dan JPG's oudere compressiealgoritmen, wat resulteert in betere detailbehoud, minder artefacten en superieure kleurnauwkeurigheid.",
+        },
+        {
+          q: "Welke browsers ondersteunen AVIF?",
+          a: "AVIF wordt ondersteund door moderne browsers: Chrome 85+, Firefox 93+, Edge 121+, Safari 17+ en Opera 71+. AVIF-ondersteuning groeit snel, en de meeste moderne browsers ondersteunen het nu. Voor maximale compatibiliteit, bied JPG-fallbacks voor oudere browsers.",
+        },
+        {
+          q: "Kan AVIF transparantie ondersteunen zoals PNG?",
+          a: "Ja! AVIF ondersteunt alfakanaaltransparantie net als PNG, wat het perfect maakt voor logo's, afbeeldingen en afbeeldingen die transparante achtergronden vereisen. AVIF combineert de compressievoordelen van moderne formaten met PNG's transparantiecapaciteiten.",
+        },
+        {
+          q: "Is AVIF goed voor SEO?",
+          a: "Absoluut! AVIF is uitstekend voor SEO omdat kleinere bestandsgroottes resulteren in snellere paginalaadtijden, wat Google bevoordeelt in zoekrankings. Sneller ladende websites ranken hoger, en AVIF's 50% groottereductie verbetert paginasnelheidsscores aanzienlijk. Google PageSpeed Insights erkent AVIF als een optimaal formaat.",
+        },
+        {
+          q: "Kan ik AVIF gebruiken voor e-commerce productafbeeldingen?",
+          a: "Ja! AVIF is perfect voor e-commerce omdat het bestandsgroottes dramatisch reduceert zonder kwaliteit op te offeren, wat leidt tot snellere productpagina-laadtijden en betere gebruikerservaring. Veel grote e-commerceplatforms ondersteunen AVIF, en het is vooral gunstig voor mobiele shoppers met langzamere verbindingen.",
+        },
+        {
+          q: "Hoe lang duurt JPG naar AVIF conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. AVIF-conversie is snel omdat het geoptimaliseerd is voor moderne processors. Het resultaat is een hoog gecomprimeerd, hoogwaardig beeld klaar voor moderne webimplementatie met optimale prestaties.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "AVIF naar JPG", url: "/convert/avif-to-jpg" },
+        { name: "JPG naar WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG naar PNG", url: "/convert/jpg-to-png" },
+        { name: "HEIC naar AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIF naar AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

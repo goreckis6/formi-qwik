@@ -231,6 +231,10 @@ export const en = {
       name: "JPG to WebP",
       description: "Convert JPG to WebP for 25-35% smaller files and better web performance",
     },
+    jpgToAvif: {
+      name: "JPG to AVIF",
+      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
+    },
     jpgToPdf: {
       name: "JPG to PDF",
       description: "Convert JPG images to PDF documents for universal compatibility and professional presentation",
@@ -2145,6 +2149,134 @@ export const en = {
         { name: "HEIF to WebP", url: "/convert/heif-to-webp" },
         { name: "JPG to PNG", url: "/convert/jpg-to-png" },
         { name: "JPG to GIF", url: "/convert/jpg-to-gif" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to AVIF Converter
+  jpgToAvif: {
+    title: "JPG to AVIF Converter - Ultra-Modern Compression with 50% Smaller Files",
+    metaDescription:
+      "Convert JPG to AVIF for 50% smaller file sizes with superior quality. Next-generation image format with advanced compression. Perfect for modern websites, faster loading, and optimal performance. Free batch converter, no registration.",
+    metaKeywords:
+      "JPG to AVIF, AVIF converter, next-gen image format, ultra compression, smaller file size, faster loading, modern web images, batch convert JPG, AV1 image format",
+    hero: {
+      title: "JPG to AVIF Converter",
+      subtitle:
+        "Convert JPG to AVIF for the ultimate in image compression. AVIF images are 50% smaller than JPG while delivering superior quality - perfect for modern websites, faster loading times, and optimal performance. AVIF is the next-generation image format based on AV1 video codec.",
+      badge1: "50% Smaller",
+      badge2: "Superior Quality",
+      badge3: "Next-Gen Format",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download AVIF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "50% smaller files than JPG with superior quality",
+        "Next-generation compression - best-in-class efficiency",
+        "Transparency support - alpha channel like PNG",
+        "Batch processing up to 20 files simultaneously",
+        "100% secure with automatic file deletion",
+        "Perfect for modern websites and applications",
+        "Instant download - ready for deployment",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download AVIF",
+      step3Desc: "Get your optimized AVIF files immediately",
+    },
+    about: {
+      title: "About JPG to AVIF Conversion",
+      whatIsHeif: {
+        title: "Why AVIF is the Future of Web Images?",
+        content:
+          "AVIF (AV1 Image File Format) is the next-generation image format based on the AV1 video codec, developed by the Alliance for Open Media. Released in 2019, AVIF uses cutting-edge compression technology to create images that are 50% smaller than JPG while delivering superior quality. AVIF combines lossy and lossless compression modes, supports HDR (High Dynamic Range), wide color gamuts, and alpha channel transparency. AVIF is supported by modern browsers (Chrome 85+, Firefox 93+, Edge 121+, Safari 17+) and is rapidly becoming the standard for modern web optimization. Major platforms like Netflix, YouTube, and Google are adopting AVIF for its exceptional compression efficiency. AVIF represents the future of web images with unmatched compression ratios and quality.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to AVIF?",
+        content:
+          "Convert JPG to AVIF to achieve the ultimate in image compression and quality. AVIF's advanced AV1-based compression creates files that are 50% smaller than JPG while maintaining or improving visual quality. Key benefits: dramatically smaller file sizes (50% reduction vs JPG), superior quality (better than JPG at same file size), faster page loads (smaller files = faster downloads), better SEO (Google favors fast-loading sites), reduced bandwidth costs (less data transfer), improved mobile experience (faster on slow connections), transparency support (alpha channel), HDR support (wider color gamut), and modern browser support (growing adoption). AVIF is essential for cutting-edge web development, performance-critical applications, and any website prioritizing optimal image delivery. AVIF is the future of web images.",
+      },
+      heifVsHeic: {
+        title: "AVIF vs JPG - When to Choose AVIF",
+        content:
+          "AVIF and JPG serve different purposes in modern web development. Choose AVIF for: modern websites and applications (optimal performance), maximum compression (50% smaller than JPG), superior quality (better than JPG at same size), performance-critical sites (fastest loading), modern browsers (Chrome 85+, Firefox 93+, Safari 17+), transparency needs (alpha channel), HDR content (wide color gamut), or cutting-edge web development. Choose JPG for: maximum compatibility (100% browser support), older browser support (pre-2019 browsers), email clients (limited AVIF support), or when file size isn't critical. AVIF's advantages: 50% smaller files, superior compression, better quality, transparency support, HDR support, lossless option, next-gen format. AVIF's disadvantages: newer format (requires modern browsers), requires fallback for older browsers. For modern websites: Always AVIF with JPG fallback. For email: Use JPG. For maximum compatibility: Provide both formats.",
+      },
+      benefits: {
+        title: "Benefits of AVIF Format",
+        list: [
+          "50% Smaller Files - Dramatically reduced file sizes vs JPG",
+          "Superior Quality - Better than JPG at the same file size",
+          "Next-Gen Compression - Best-in-class efficiency",
+          "Transparency Support - Alpha channel like PNG",
+          "HDR Support - Wide color gamut and high dynamic range",
+          "Modern Browser Support - Growing adoption in Chrome, Firefox, Safari",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to AVIF",
+      items: [
+        {
+          q: "Is it free to convert JPG to AVIF?",
+          a: "Yes! Our JPG to AVIF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for modern websites, applications, or professional use.",
+        },
+        {
+          q: "How much smaller are AVIF files compared to JPG?",
+          a: "AVIF files are typically 50% smaller than JPG while maintaining the same or better visual quality. This dramatic size reduction results in faster page loads, better SEO rankings, and reduced bandwidth costs. AVIF's advanced compression is the most efficient available for web images.",
+        },
+        {
+          q: "Is AVIF quality better than JPG?",
+          a: "Yes! AVIF delivers superior quality compared to JPG at the same file size, or the same quality at 50% smaller file size. AVIF's AV1-based compression is more advanced than JPG's older compression algorithms, resulting in better detail preservation, fewer artifacts, and superior color accuracy.",
+        },
+        {
+          q: "Which browsers support AVIF?",
+          a: "AVIF is supported by modern browsers: Chrome 85+, Firefox 93+, Edge 121+, Safari 17+, and Opera 71+. AVIF support is growing rapidly, and most modern browsers now support it. For maximum compatibility, provide JPG fallbacks for older browsers.",
+        },
+        {
+          q: "Can AVIF support transparency like PNG?",
+          a: "Yes! AVIF supports alpha channel transparency just like PNG, making it perfect for logos, graphics, and images requiring transparent backgrounds. AVIF combines the compression benefits of modern formats with PNG's transparency capabilities.",
+        },
+        {
+          q: "Is AVIF good for SEO?",
+          a: "Absolutely! AVIF is excellent for SEO because smaller file sizes result in faster page loads, which Google favors in search rankings. Faster-loading websites rank higher, and AVIF's 50% size reduction significantly improves page speed scores. Google PageSpeed Insights recognizes AVIF as an optimal format.",
+        },
+        {
+          q: "Can I use AVIF for e-commerce product images?",
+          a: "Yes! AVIF is perfect for e-commerce because it dramatically reduces file sizes without sacrificing quality, leading to faster product page loads and better user experience. Many major e-commerce platforms support AVIF, and it's especially beneficial for mobile shoppers with slower connections.",
+        },
+        {
+          q: "How long does JPG to AVIF conversion take?",
+          a: "Conversion takes 1-2 seconds per image. AVIF conversion is fast because it's optimized for modern processors. The result is a highly compressed, high-quality image ready for modern web deployment with optimal performance.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "AVIF to JPG", url: "/convert/avif-to-jpg" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "HEIC to AVIF", url: "/convert/heic-to-avif" },
+        { name: "HEIF to AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
       ],
     },
