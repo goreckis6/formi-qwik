@@ -41,7 +41,7 @@ export default component$(() => {
   const localeData = useLocaleLoader();
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
-  const conv = t.jpgToGif;
+  const conv = t.jpgToGif || t.jpgToPng; // Fallback to jpgToPng if jpgToGif is missing
   const loc = useLocation();
   const pageUrl = loc.url.origin + loc.url.pathname;
 
@@ -1024,7 +1024,7 @@ export default component$(() => {
 
 export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
-  const conv = localeData.translations.jpgToGif;
+  const conv = localeData.translations.jpgToGif || localeData.translations.jpgToPng;
   const pageUrl = url.origin + url.pathname;
 
   return {
