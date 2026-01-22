@@ -242,6 +242,10 @@ export const sv: Translations = {
       name: "JPG till TIFF",
       description: "Konvertera JPG till TIFF för förlustfri kvalitet, professionell utskrift och arkivering",
     },
+    jpgToGif: {
+      name: "JPG till GIF",
+      description: "Konvertera JPG till GIF för animationer, sociala medier och webbgrafik med transparensstöd",
+    },
     jpgToPdf: {
       name: "JPG till PDF",
       description: "Konvertera JPG-bilder till PDF-dokument för universell kompatibilitet och professionell presentation",
@@ -2264,6 +2268,129 @@ export const sv: Translations = {
         { name: "JPG till PNG", url: "/convert/jpg-to-png" },
         { name: "HEIC till AVIF", url: "/convert/heic-to-avif" },
         { name: "HEIF till AVIF", url: "/convert/heif-to-avif" },
+        { name: "JPG till PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  jpgToGif: {
+    title: "JPG till GIF Konverterare - Skapa Animerade GIFs och Webbgrafik",
+    metaDescription:
+      "Konvertera JPG till GIF för animationer, sociala medier och webbgrafik. GIF-formatet stöder transparens och animation. Perfekt för memes, sociala medie-inlägg och animerad grafik. Gratis batch-konverterare, ingen registrering.",
+    metaKeywords:
+      "JPG till GIF, konvertera JPG till GIF, GIF konverterare, animerad GIF, sociala medie-bilder, webbgrafik, transparensstöd, batch konvertera JPG, gratis GIF konverterare",
+    hero: {
+      title: "JPG till GIF Konverterare",
+      subtitle:
+        "Konvertera JPG till GIF för animationer, sociala medier och webbgrafik. GIF (Graphics Interchange Format) stöder transparens och är perfekt för memes, sociala medie-inlägg, animerad grafik och enkla animationer. GIF stöds brett på alla plattformar och webbläsare.",
+      badge1: "Redo för Animation",
+      badge2: "Sociala Medier",
+      badge3: "Webbgrafik",
+    },
+    upload: {
+      title: "Ladda Upp JPG-filer",
+      description:
+        "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Stöder batch-konvertering upp till 20 filer. Maximalt 100MB per fil.",
+      buttonSingle: "Enskild Fil",
+      buttonBatch: "Batch Konvertera",
+      chooseFile: "Välj Filer",
+      converting: "Konverterar...",
+      success: "Konvertering lyckades!",
+      download: "Ladda Ner GIF",
+      downloadAll: "Ladda Ner Allt som ZIP",
+      convertAnother: "Konvertera En Annan Fil",
+    },
+    features: {
+      title: "Funktioner",
+      list: [
+        "Konvertera JPG till GIF för animationer och webbgrafik",
+        "Transparensstöd - perfekt för överlägg och grafik",
+        "Sociala medier optimerad - ideal för memes och inlägg",
+        "Batchbearbetning upp till 20 filer samtidigt",
+        "100% säker med automatisk filborttagning",
+        "Brett stött format - fungerar överallt",
+        "Omedelbar nedladdning - redo att dela",
+        "Inga vattenstämplar - professionell kvalitet",
+      ],
+    },
+    howItWorks: {
+      title: "Hur Det Fungerar",
+      step1Title: "Ladda Upp JPG-filer",
+      step1Desc: "Välj en eller flera JPG-bilder från din enhet",
+      step2Title: "Automatisk Konvertering",
+      step2Desc: "Vår konverterare bearbetar dina filer omedelbart",
+      step3Title: "Ladda Ner GIF",
+      step3Desc: "Få dina GIF-filer omedelbart",
+    },
+    about: {
+      title: "Om JPG till GIF Konvertering",
+      whatIsGif: {
+        title: "Vad är GIF-formatet?",
+        content:
+          "GIF (Graphics Interchange Format) är ett bitmap-bildformat introducerat av CompuServe 1987. GIF stöder upp till 256 färger per bildruta, transparens och animation. GIF används ofta för enkla animationer, memes, sociala medie-grafik, webbgrafik och logotyper. GIF:s animationsförmåga gör det unikt bland bildformat - det kan visa flera bildrutor i sekvens för att skapa animerade bilder. GIF stöds av praktiskt taget alla webbläsare, plattformar och applikationer, vilket gör det till det universella valet för animerad grafik och enkel webbgrafik. Även om GIF använder förlustfri komprimering är det begränsat till 256 färger, vilket gör det idealiskt för grafik med begränsade färgpaletter snarare än fotografier.",
+      },
+      whyConvert: {
+        title: "Varför Konvertera JPG till GIF?",
+        content:
+          "Konvertera JPG till GIF när du behöver animerad grafik, sociala medie-innehåll eller webbgrafik med transparens. Viktiga fördelar: animationsstöd (skapa animerade GIFs från flera bilder), sociala medier kompatibilitet (perfekt för memes och inlägg), transparensstöd (ideal för överlägg och grafik), universell kompatibilitet (fungerar på alla plattformar), webbgrafik (perfekt för enkel grafik och logotyper) eller små filstorlekar (för grafik med begränsade färger). GIF är viktigt för: sociala medier marknadsföring (memes, animerade inlägg), webbdesign (animerad grafik, logotyper), presentationer (animerade element), e-postmarknadsföring (animerade banners) eller enkla animationer (grundläggande animerad grafik). GIF säkerställer att din grafik fungerar överallt och stöder animation när det behövs.",
+      },
+      benefits: {
+        title: "Fördelar med GIF-formatet",
+        list: [
+          "Animationsstöd - Skapa animerad grafik från flera bildrutor",
+          "Transparensstöd - Perfekt för överlägg och grafik",
+          "Universell Kompatibilitet - Fungerar på alla plattformar och webbläsare",
+          "Redo för Sociala Medier - Ideal för memes och animerade inlägg",
+          "Webbgrafik - Perfekt för enkel grafik och logotyper",
+          "Små Filstorlekar - Effektivt för grafik med begränsade färger",
+        ],
+      },
+    },
+    faq: {
+      title: "Vanliga Frågor – JPG till GIF",
+      items: [
+        {
+          q: "Är det gratis att konvertera JPG till GIF?",
+          a: "Ja! Vår JPG till GIF konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för animationer, sociala medier eller webbgrafik.",
+        },
+        {
+          q: "Kan jag skapa animerade GIFs från JPG-bilder?",
+          a: "Vår konverterare konverterar enskilda JPG-bilder till statiskt GIF-format. För att skapa animerade GIFs skulle du behöva flera bilder (bildrutor) som kombineras till en animerad GIF. För animerade GIFs skulle du behöva ladda upp flera bilder eller använda specialiserade animationsverktyg.",
+        },
+        {
+          q: "Kommer GIF-filer att vara mindre än JPG?",
+          a: "GIF-filer är typiskt större än JPG för fotografier eftersom GIF är begränsat till 256 färger och använder förlustfri komprimering, medan JPG använder förlustkomprimering optimerad för foton. För grafik med begränsade färger (logotyper, ikoner, enkel grafik) kan GIF dock vara mindre och mer effektiv.",
+        },
+        {
+          q: "Stöder GIF transparens?",
+          a: "Ja! GIF stöder transparens, vilket gör det perfekt för grafik som behöver genomskinliga bakgrunder, överlägg eller grafik. GIF:s transparensstöd är enkelt (en färg kan vara transparent), vilket är idealiskt för grafik och logotyper.",
+        },
+        {
+          q: "Är GIF bra för sociala medier?",
+          a: "Ja! GIF är perfekt för sociala medier, särskilt för memes, animerade inlägg och enkel grafik. De flesta sociala medie-plattformar stöder GIF internt, och GIF:s animationsförmåga gör det idealiskt för engagerande sociala medie-innehåll.",
+        },
+        {
+          q: "Kan jag använda GIF för webbgrafik?",
+          a: "Absolut! GIF är utmärkt för webbgrafik, särskilt för logotyper, ikoner, enkel grafik och animerade element. GIF:s universella kompatibilitet och transparensstöd gör det idealiskt för webbdesign. För fotografier är dock JPG eller WebP vanligtvis bättre val.",
+        },
+        {
+          q: "Vad är skillnaden mellan GIF och JPG?",
+          a: "GIF stöder animation och transparens men är begränsat till 256 färger, vilket gör det idealiskt för grafik. JPG stöder miljoner färger och är optimerat för fotografier men stöder inte animation eller transparens. Välj GIF för grafik, animationer och enkla bilder. Välj JPG för fotografier.",
+        },
+        {
+          q: "Hur lång tid tar JPG till GIF konvertering?",
+          a: "Konvertering tar 1-2 sekunder per bild. GIF-konvertering är snabb och effektiv, vilket producerar GIF-filer redo för animationer, sociala medier, webbgrafik eller alla applikationer som kräver GIF-format.",
+        },
+      ],
+    },
+    related: {
+      title: "Relaterade Konverterare",
+      converters: [
+        { name: "GIF till JPG", url: "/convert/gif-to-jpg" },
+        { name: "JPG till PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG till WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG till GIF", url: "/convert/png-to-gif" },
+        { name: "HEIC till GIF", url: "/convert/heic-to-gif" },
         { name: "JPG till PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

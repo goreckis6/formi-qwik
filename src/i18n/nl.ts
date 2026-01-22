@@ -244,6 +244,10 @@ export const nl: Translations = {
       name: "JPG naar TIFF",
       description: "Converteer JPG naar TIFF voor verliesloze kwaliteit, professioneel printen en archivering",
     },
+    jpgToGif: {
+      name: "JPG naar GIF",
+      description: "Converteer JPG naar GIF voor animaties, sociale media en webgrafiek met transparantieondersteuning",
+    },
     jpgToPdf: {
       name: "JPG naar PDF",
       description: "Converteer JPG-afbeeldingen naar PDF-documenten voor universele compatibiliteit en professionele presentatie",
@@ -2270,6 +2274,129 @@ export const nl: Translations = {
         { name: "JPG naar PNG", url: "/convert/jpg-to-png" },
         { name: "HEIC naar AVIF", url: "/convert/heic-to-avif" },
         { name: "HEIF naar AVIF", url: "/convert/heif-to-avif" },
+        { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  jpgToGif: {
+    title: "JPG naar GIF Converter - Maak Geanimeerde GIFs en Webgrafieken",
+    metaDescription:
+      "Converteer JPG naar GIF voor animaties, sociale media en webgrafieken. GIF-formaat ondersteunt transparantie en animatie. Perfect voor memes, social media posts en geanimeerde grafieken. Gratis batch converter, geen registratie.",
+    metaKeywords:
+      "JPG naar GIF, converteer JPG naar GIF, GIF converter, geanimeerde GIF, social media afbeeldingen, webgrafieken, transparantie ondersteuning, batch converteer JPG, gratis GIF converter",
+    hero: {
+      title: "JPG naar GIF Converter",
+      subtitle:
+        "Converteer JPG naar GIF voor animaties, sociale media en webgrafieken. GIF (Graphics Interchange Format) ondersteunt transparantie en is perfect voor memes, social media posts, geanimeerde grafieken en eenvoudige animaties. GIF wordt breed ondersteund op alle platforms en browsers.",
+      badge1: "Klaar voor Animatie",
+      badge2: "Sociale Media",
+      badge3: "Webgrafieken",
+    },
+    upload: {
+      title: "Upload JPG Bestanden",
+      description:
+        "Sleep en zet uw JPG-afbeeldingen hier neer of klik om te bladeren. Ondersteunt batch conversie tot 20 bestanden. Maximum 100MB per bestand.",
+      buttonSingle: "Enkel Bestand",
+      buttonBatch: "Batch Converteer",
+      chooseFile: "Kies Bestanden",
+      converting: "Converteren...",
+      success: "Conversie succesvol!",
+      download: "Download GIF",
+      downloadAll: "Download Alles als ZIP",
+      convertAnother: "Converteer Ander Bestand",
+    },
+    features: {
+      title: "Functies",
+      list: [
+        "Converteer JPG naar GIF voor animaties en webgrafieken",
+        "Transparantie ondersteuning - perfect voor overlays en grafieken",
+        "Social media geoptimaliseerd - ideaal voor memes en posts",
+        "Batch verwerking tot 20 bestanden gelijktijdig",
+        "100% veilig met automatische bestandsverwijdering",
+        "Breed ondersteund formaat - werkt overal",
+        "Directe download - klaar voor delen",
+        "Geen watermerken - professionele kwaliteit",
+      ],
+    },
+    howItWorks: {
+      title: "Hoe Het Werkt",
+      step1Title: "Upload JPG Bestanden",
+      step1Desc: "Selecteer een of meerdere JPG-afbeeldingen van uw apparaat",
+      step2Title: "Automatische Conversie",
+      step2Desc: "Onze converter verwerkt uw bestanden direct",
+      step3Title: "Download GIF",
+      step3Desc: "Krijg uw GIF-bestanden direct",
+    },
+    about: {
+      title: "Over JPG naar GIF Conversie",
+      whatIsGif: {
+        title: "Wat is GIF Formaat?",
+        content:
+          "GIF (Graphics Interchange Format) is een bitmap afbeeldingsformaat geïntroduceerd door CompuServe in 1987. GIF ondersteunt tot 256 kleuren per frame, transparantie en animatie. GIF wordt veel gebruikt voor eenvoudige animaties, memes, social media grafieken, webgrafieken en logo's. GIF's animatiecapaciteit maakt het uniek onder afbeeldingsformaten - het kan meerdere frames in sequentie weergeven om geanimeerde afbeeldingen te maken. GIF wordt ondersteund door vrijwel alle browsers, platforms en applicaties, waardoor het de universele keuze is voor geanimeerde grafieken en eenvoudige webgrafieken. Hoewel GIF verliesloze compressie gebruikt, is het beperkt tot 256 kleuren, waardoor het ideaal is voor grafieken met beperkte kleurenpaletten in plaats van foto's.",
+      },
+      whyConvert: {
+        title: "Waarom JPG naar GIF Converteer?",
+        content:
+          "Converteer JPG naar GIF wanneer u geanimeerde grafieken, social media content of webgrafieken met transparantie nodig heeft. Belangrijkste voordelen: animatie ondersteuning (maak geanimeerde GIFs van meerdere afbeeldingen), social media compatibiliteit (perfect voor memes en posts), transparantie ondersteuning (ideaal voor overlays en grafieken), universele compatibiliteit (werkt op alle platforms), webgrafieken (perfect voor eenvoudige grafieken en logo's) of kleine bestandsgroottes (voor grafieken met beperkte kleuren). GIF is essentieel voor: social media marketing (memes, geanimeerde posts), webdesign (geanimeerde grafieken, logo's), presentaties (geanimeerde elementen), email marketing (geanimeerde banners) of eenvoudige animaties (basis geanimeerde grafieken). GIF zorgt ervoor dat uw grafieken overal werken en animatie ondersteunen wanneer nodig.",
+      },
+      benefits: {
+        title: "Voordelen van GIF Formaat",
+        list: [
+          "Animatie Ondersteuning - Maak geanimeerde grafieken van meerdere frames",
+          "Transparantie Ondersteuning - Perfect voor overlays en grafieken",
+          "Universele Compatibiliteit - Werkt op alle platforms en browsers",
+          "Klaar voor Sociale Media - Ideaal voor memes en geanimeerde posts",
+          "Webgrafieken - Perfect voor eenvoudige grafieken en logo's",
+          "Kleine Bestandsgroottes - Efficiënt voor grafieken met beperkte kleuren",
+        ],
+      },
+    },
+    faq: {
+      title: "Veelgestelde Vragen – JPG naar GIF",
+      items: [
+        {
+          q: "Is het gratis om JPG naar GIF te converteren?",
+          a: "Ja! Onze JPG naar GIF converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als u nodig heeft voor animaties, sociale media of webgrafieken.",
+        },
+        {
+          q: "Kan ik geanimeerde GIFs maken van JPG-afbeeldingen?",
+          a: "Onze converter converteert enkele JPG-afbeeldingen naar statisch GIF-formaat. Om geanimeerde GIFs te maken, zou u meerdere afbeeldingen (frames) nodig hebben die worden gecombineerd tot één geanimeerde GIF. Voor geanimeerde GIFs zou u meerdere afbeeldingen moeten uploaden of gespecialiseerde animatietools gebruiken.",
+        },
+        {
+          q: "Zullen GIF-bestanden kleiner zijn dan JPG?",
+          a: "GIF-bestanden zijn typisch groter dan JPG voor foto's omdat GIF beperkt is tot 256 kleuren en verliesloze compressie gebruikt, terwijl JPG verliescompressie gebruikt die is geoptimaliseerd voor foto's. Voor grafieken met beperkte kleuren (logo's, iconen, eenvoudige grafieken) kan GIF echter kleiner en efficiënter zijn.",
+        },
+        {
+          q: "Ondersteunt GIF transparantie?",
+          a: "Ja! GIF ondersteunt transparantie, waardoor het perfect is voor grafieken die transparante achtergronden, overlays of grafieken nodig hebben. GIF's transparantie ondersteuning is eenvoudig (één kleur kan transparant zijn), wat ideaal is voor grafieken en logo's.",
+        },
+        {
+          q: "Is GIF goed voor sociale media?",
+          a: "Ja! GIF is perfect voor sociale media, vooral voor memes, geanimeerde posts en eenvoudige grafieken. De meeste social media platforms ondersteunen GIF natively, en GIF's animatiecapaciteit maakt het ideaal voor boeiende social media content.",
+        },
+        {
+          q: "Kan ik GIF gebruiken voor webgrafieken?",
+          a: "Absoluut! GIF is uitstekend voor webgrafieken, vooral voor logo's, iconen, eenvoudige grafieken en geanimeerde elementen. GIF's universele compatibiliteit en transparantie ondersteuning maken het ideaal voor webdesign. Voor foto's zijn JPG of WebP echter meestal betere keuzes.",
+        },
+        {
+          q: "Wat is het verschil tussen GIF en JPG?",
+          a: "GIF ondersteunt animatie en transparantie maar is beperkt tot 256 kleuren, waardoor het ideaal is voor grafieken. JPG ondersteunt miljoenen kleuren en is geoptimaliseerd voor foto's maar ondersteunt geen animatie of transparantie. Kies GIF voor grafieken, animaties en eenvoudige afbeeldingen. Kies JPG voor foto's.",
+        },
+        {
+          q: "Hoe lang duurt JPG naar GIF conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. GIF conversie is snel en efficiënt, waardoor GIF-bestanden worden geproduceerd die klaar zijn voor animaties, sociale media, webgrafieken of elke applicatie die GIF-formaat vereist.",
+        },
+      ],
+    },
+    related: {
+      title: "Gerelateerde Converters",
+      converters: [
+        { name: "GIF naar JPG", url: "/convert/gif-to-jpg" },
+        { name: "JPG naar PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG naar WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG naar GIF", url: "/convert/png-to-gif" },
+        { name: "HEIC naar GIF", url: "/convert/heic-to-gif" },
         { name: "JPG naar PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

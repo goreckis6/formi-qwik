@@ -231,6 +231,10 @@ export const id: Translations = {
       name: "JPG ke TIFF",
       description: "Konversi JPG ke TIFF untuk kualitas tanpa kehilangan, pencetakan profesional, dan arsip",
     },
+    jpgToGif: {
+      name: "JPG ke GIF",
+      description: "Konversi JPG ke GIF untuk animasi, media sosial, dan grafik web dengan dukungan transparansi",
+    },
     jpgToPdf: {
       name: "JPG ke PDF",
       description: "Konversi gambar JPG ke dokumen PDF untuk kompatibilitas universal dan presentasi profesional",
@@ -2208,6 +2212,129 @@ export const id: Translations = {
         { name: "JPG ke PNG", url: "/convert/jpg-to-png" },
         { name: "HEIC ke AVIF", url: "/convert/heic-to-avif" },
         { name: "HEIF ke AVIF", url: "/convert/heif-to-avif" },
+        { name: "JPG ke PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  jpgToGif: {
+    title: "Konverter JPG ke GIF - Buat GIF Animasi dan Grafik Web",
+    metaDescription:
+      "Konversi JPG ke GIF untuk animasi, media sosial, dan grafik web. Format GIF mendukung transparansi dan animasi. Sempurna untuk meme, posting media sosial, dan grafik animasi. Konverter batch gratis, tanpa registrasi.",
+    metaKeywords:
+      "JPG ke GIF, konversi JPG ke GIF, konverter GIF, GIF animasi, gambar media sosial, grafik web, dukungan transparansi, konversi batch JPG, konverter GIF gratis",
+    hero: {
+      title: "Konverter JPG ke GIF",
+      subtitle:
+        "Konversi JPG ke GIF untuk animasi, media sosial, dan grafik web. GIF (Graphics Interchange Format) mendukung transparansi dan sempurna untuk meme, posting media sosial, grafik animasi, dan animasi sederhana. GIF didukung secara luas di semua platform dan browser.",
+      badge1: "Siap untuk Animasi",
+      badge2: "Media Sosial",
+      badge3: "Grafik Web",
+    },
+    upload: {
+      title: "Unggah File JPG",
+      description:
+        "Seret dan lepas gambar JPG Anda di sini atau klik untuk menjelajah. Mendukung konversi batch hingga 20 file. Maksimum 100MB per file.",
+      buttonSingle: "File Tunggal",
+      buttonBatch: "Konversi Batch",
+      chooseFile: "Pilih File",
+      converting: "Mengonversi...",
+      success: "Konversi berhasil!",
+      download: "Unduh GIF",
+      downloadAll: "Unduh Semua sebagai ZIP",
+      convertAnother: "Konversi File Lain",
+    },
+    features: {
+      title: "Fitur",
+      list: [
+        "Konversi JPG ke GIF untuk animasi dan grafik web",
+        "Dukungan transparansi - sempurna untuk overlay dan grafik",
+        "Dioptimalkan untuk media sosial - ideal untuk meme dan posting",
+        "Pemrosesan batch hingga 20 file secara bersamaan",
+        "100% aman dengan penghapusan file otomatis",
+        "Format yang didukung luas - bekerja di mana saja",
+        "Unduh instan - siap untuk dibagikan",
+        "Tanpa watermark - kualitas profesional",
+      ],
+    },
+    howItWorks: {
+      title: "Cara Kerja",
+      step1Title: "Unggah File JPG",
+      step1Desc: "Pilih satu atau beberapa gambar JPG dari perangkat Anda",
+      step2Title: "Konversi Otomatis",
+      step2Desc: "Konverter kami memproses file Anda secara instan",
+      step3Title: "Unduh GIF",
+      step3Desc: "Dapatkan file GIF Anda segera",
+    },
+    about: {
+      title: "Tentang Konversi JPG ke GIF",
+      whatIsGif: {
+        title: "Apa itu Format GIF?",
+        content:
+          "GIF (Graphics Interchange Format) adalah format gambar bitmap yang diperkenalkan oleh CompuServe pada tahun 1987. GIF mendukung hingga 256 warna per frame, transparansi, dan animasi. GIF banyak digunakan untuk animasi sederhana, meme, grafik media sosial, grafik web, dan logo. Kemampuan animasi GIF membuatnya unik di antara format gambar - dapat menampilkan beberapa frame secara berurutan untuk membuat gambar animasi. GIF didukung oleh hampir semua browser, platform, dan aplikasi, menjadikannya pilihan universal untuk grafik animasi dan grafik web sederhana. Meskipun GIF menggunakan kompresi tanpa kehilangan, terbatas pada 256 warna, menjadikannya ideal untuk grafik dengan palet warna terbatas daripada foto.",
+      },
+      whyConvert: {
+        title: "Mengapa Konversi JPG ke GIF?",
+        content:
+          "Konversi JPG ke GIF ketika Anda membutuhkan grafik animasi, konten media sosial, atau grafik web dengan transparansi. Manfaat utama: dukungan animasi (buat GIF animasi dari beberapa gambar), kompatibilitas media sosial (sempurna untuk meme dan posting), dukungan transparansi (ideal untuk overlay dan grafik), kompatibilitas universal (bekerja di semua platform), grafik web (sempurna untuk grafik sederhana dan logo) atau ukuran file kecil (untuk grafik dengan warna terbatas). GIF penting untuk: pemasaran media sosial (meme, posting animasi), desain web (grafik animasi, logo), presentasi (elemen animasi), pemasaran email (banner animasi) atau animasi sederhana (grafik animasi dasar). GIF memastikan grafik Anda bekerja di mana saja dan mendukung animasi saat diperlukan.",
+      },
+      benefits: {
+        title: "Manfaat Format GIF",
+        list: [
+          "Dukungan Animasi - Buat grafik animasi dari beberapa frame",
+          "Dukungan Transparansi - Sempurna untuk overlay dan grafik",
+          "Kompatibilitas Universal - Bekerja di semua platform dan browser",
+          "Siap untuk Media Sosial - Ideal untuk meme dan posting animasi",
+          "Grafik Web - Sempurna untuk grafik sederhana dan logo",
+          "Ukuran File Kecil - Efisien untuk grafik dengan warna terbatas",
+        ],
+      },
+    },
+    faq: {
+      title: "Pertanyaan yang Sering Diajukan – JPG ke GIF",
+      items: [
+        {
+          q: "Apakah gratis untuk mengonversi JPG ke GIF?",
+          a: "Ya! Konverter JPG ke GIF kami sepenuhnya gratis dengan konversi tanpa batas. Tanpa registrasi, langganan, atau biaya tersembunyi. Konversi sebanyak gambar yang Anda butuhkan untuk animasi, media sosial, atau grafik web.",
+        },
+        {
+          q: "Bisakah saya membuat GIF animasi dari gambar JPG?",
+          a: "Konverter kami mengonversi gambar JPG tunggal ke format GIF statis. Untuk membuat GIF animasi, Anda akan membutuhkan beberapa gambar (frame) yang digabungkan menjadi satu GIF animasi. Untuk GIF animasi, Anda perlu mengunggah beberapa gambar atau menggunakan alat animasi khusus.",
+        },
+        {
+          q: "Apakah file GIF akan lebih kecil dari JPG?",
+          a: "File GIF biasanya lebih besar dari JPG untuk foto karena GIF terbatas pada 256 warna dan menggunakan kompresi tanpa kehilangan, sementara JPG menggunakan kompresi lossy yang dioptimalkan untuk foto. Namun, untuk grafik dengan warna terbatas (logo, ikon, grafik sederhana), GIF bisa lebih kecil dan lebih efisien.",
+        },
+        {
+          q: "Apakah GIF mendukung transparansi?",
+          a: "Ya! GIF mendukung transparansi, menjadikannya sempurna untuk grafik yang membutuhkan latar belakang transparan, overlay, atau grafik. Dukungan transparansi GIF sederhana (satu warna bisa transparan), yang ideal untuk grafik dan logo.",
+        },
+        {
+          q: "Apakah GIF bagus untuk media sosial?",
+          a: "Ya! GIF sempurna untuk media sosial, terutama untuk meme, posting animasi, dan grafik sederhana. Sebagian besar platform media sosial mendukung GIF secara native, dan kemampuan animasi GIF menjadikannya ideal untuk konten media sosial yang menarik.",
+        },
+        {
+          q: "Bisakah saya menggunakan GIF untuk grafik web?",
+          a: "Tentu saja! GIF sangat baik untuk grafik web, terutama untuk logo, ikon, grafik sederhana, dan elemen animasi. Kompatibilitas universal GIF dan dukungan transparansi menjadikannya ideal untuk desain web. Namun, untuk foto, JPG atau WebP biasanya pilihan yang lebih baik.",
+        },
+        {
+          q: "Apa perbedaan antara GIF dan JPG?",
+          a: "GIF mendukung animasi dan transparansi tetapi terbatas pada 256 warna, menjadikannya ideal untuk grafik. JPG mendukung jutaan warna dan dioptimalkan untuk foto tetapi tidak mendukung animasi atau transparansi. Pilih GIF untuk grafik, animasi, dan gambar sederhana. Pilih JPG untuk foto.",
+        },
+        {
+          q: "Berapa lama konversi JPG ke GIF?",
+          a: "Konversi memakan waktu 1-2 detik per gambar. Konversi GIF cepat dan efisien, menghasilkan file GIF siap untuk animasi, media sosial, grafik web, atau aplikasi apa pun yang memerlukan format GIF.",
+        },
+      ],
+    },
+    related: {
+      title: "Konverter Terkait",
+      converters: [
+        { name: "GIF ke JPG", url: "/convert/gif-to-jpg" },
+        { name: "JPG ke PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG ke WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG ke GIF", url: "/convert/png-to-gif" },
+        { name: "HEIC ke GIF", url: "/convert/heic-to-gif" },
         { name: "JPG ke PDF", url: "/convert/jpg-to-pdf" },
       ],
     },

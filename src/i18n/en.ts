@@ -239,6 +239,10 @@ export const en = {
       name: "JPG to TIFF",
       description: "Convert JPG to TIFF for lossless quality, professional printing, and archival purposes",
     },
+    jpgToGif: {
+      name: "JPG to GIF",
+      description: "Convert JPG to GIF for animations, social media, and web graphics with transparency support",
+    },
     jpgToPdf: {
       name: "JPG to PDF",
       description: "Convert JPG images to PDF documents for universal compatibility and professional presentation",
@@ -2405,6 +2409,129 @@ export const en = {
         { name: "PNG to TIFF", url: "/convert/png-to-tiff" },
         { name: "HEIC to TIFF", url: "/convert/heic-to-tiff" },
         { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  jpgToGif: {
+    title: "JPG to GIF Converter - Create Animated GIFs and Web Graphics",
+    metaDescription:
+      "Convert JPG to GIF for animations, social media, and web graphics. GIF format supports transparency and animation. Perfect for memes, social media posts, and animated graphics. Free batch converter, no registration.",
+    metaKeywords:
+      "JPG to GIF, convert JPG to GIF, GIF converter, animated GIF, social media images, web graphics, transparency support, batch convert JPG, free GIF converter",
+    hero: {
+      title: "JPG to GIF Converter",
+      subtitle:
+        "Convert JPG to GIF for animations, social media, and web graphics. GIF (Graphics Interchange Format) supports transparency and is perfect for memes, social media posts, animated graphics, and simple animations. GIF is widely supported across all platforms and browsers.",
+      badge1: "Animation Ready",
+      badge2: "Social Media",
+      badge3: "Web Graphics",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download GIF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "Convert JPG to GIF for animations and web graphics",
+        "Transparency support - perfect for overlays and graphics",
+        "Social media optimized - ideal for memes and posts",
+        "Batch processing up to 20 files simultaneously",
+        "100% secure with automatic file deletion",
+        "Widely supported format - works everywhere",
+        "Instant download - ready for sharing",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download GIF",
+      step3Desc: "Get your GIF files immediately",
+    },
+    about: {
+      title: "About JPG to GIF Conversion",
+      whatIsGif: {
+        title: "What is GIF Format?",
+        content:
+          "GIF (Graphics Interchange Format) is a bitmap image format introduced by CompuServe in 1987. GIF supports up to 256 colors per frame, transparency, and animation. GIF is widely used for simple animations, memes, social media graphics, web graphics, and logos. GIF's animation capability makes it unique among image formats - it can display multiple frames in sequence to create animated images. GIF is supported by virtually all browsers, platforms, and applications, making it the universal choice for animated graphics and simple web graphics. While GIF uses lossless compression, it's limited to 256 colors, making it ideal for graphics with limited color palettes rather than photographs.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to GIF?",
+        content:
+          "Convert JPG to GIF when you need animated graphics, social media content, or web graphics with transparency. Key benefits: animation support (create animated GIFs from multiple images), social media compatibility (perfect for memes and posts), transparency support (ideal for overlays and graphics), universal compatibility (works on all platforms), web graphics (perfect for simple graphics and logos), or small file sizes (for graphics with limited colors). GIF is essential for: social media marketing (memes, animated posts), web design (animated graphics, logos), presentations (animated elements), email marketing (animated banners), or simple animations (basic animated graphics). GIF ensures your graphics work everywhere and support animation when needed.",
+      },
+      benefits: {
+        title: "Benefits of GIF Format",
+        list: [
+          "Animation Support - Create animated graphics from multiple frames",
+          "Transparency Support - Perfect for overlays and graphics",
+          "Universal Compatibility - Works on all platforms and browsers",
+          "Social Media Ready - Ideal for memes and animated posts",
+          "Web Graphics - Perfect for simple graphics and logos",
+          "Small File Sizes - Efficient for graphics with limited colors",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to GIF",
+      items: [
+        {
+          q: "Is it free to convert JPG to GIF?",
+          a: "Yes! Our JPG to GIF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for animations, social media, or web graphics.",
+        },
+        {
+          q: "Can I create animated GIFs from JPG images?",
+          a: "Our converter converts single JPG images to static GIF format. To create animated GIFs, you would need multiple images (frames) that are combined into one animated GIF. For animated GIFs, you would need to upload multiple images or use specialized animation tools.",
+        },
+        {
+          q: "Will GIF files be smaller than JPG?",
+          a: "GIF files are typically larger than JPG for photographs because GIF is limited to 256 colors and uses lossless compression, while JPG uses lossy compression optimized for photos. However, for graphics with limited colors (logos, icons, simple graphics), GIF can be smaller and more efficient.",
+        },
+        {
+          q: "Does GIF support transparency?",
+          a: "Yes! GIF supports transparency, making it perfect for graphics that need transparent backgrounds, overlays, or graphics. GIF's transparency support is simple (one color can be transparent), which is ideal for graphics and logos.",
+        },
+        {
+          q: "Is GIF good for social media?",
+          a: "Yes! GIF is perfect for social media, especially for memes, animated posts, and simple graphics. Most social media platforms support GIF natively, and GIF's animation capability makes it ideal for engaging social media content.",
+        },
+        {
+          q: "Can I use GIF for web graphics?",
+          a: "Absolutely! GIF is excellent for web graphics, especially for logos, icons, simple graphics, and animated elements. GIF's universal compatibility and transparency support make it ideal for web design. However, for photographs, JPG or WebP are usually better choices.",
+        },
+        {
+          q: "What's the difference between GIF and JPG?",
+          a: "GIF supports animation and transparency but is limited to 256 colors, making it ideal for graphics. JPG supports millions of colors and is optimized for photographs but doesn't support animation or transparency. Choose GIF for graphics, animations, and simple images. Choose JPG for photographs.",
+        },
+        {
+          q: "How long does JPG to GIF conversion take?",
+          a: "Conversion takes 1-2 seconds per image. GIF conversion is fast and efficient, producing GIF files ready for animations, social media, web graphics, or any application requiring GIF format.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "GIF to JPG", url: "/convert/gif-to-jpg" },
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG to GIF", url: "/convert/png-to-gif" },
+        { name: "HEIC to GIF", url: "/convert/heic-to-gif" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
       ],
     },
   },

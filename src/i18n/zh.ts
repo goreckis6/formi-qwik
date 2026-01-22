@@ -237,6 +237,10 @@ export const zh: Translations = {
       name: "JPG转TIFF",
       description: "将JPG转换为TIFF以获得无损质量、专业打印和归档目的",
     },
+    jpgToGif: {
+      name: "JPG转GIF",
+      description: "将JPG转换为GIF用于动画、社交媒体和带透明度支持的网页图形",
+    },
     jpgToPdf: {
       name: "JPG转PDF",
       description: "将JPG图像转换为PDF文档，实现通用兼容性和专业演示",
@@ -2262,6 +2266,129 @@ export const zh: Translations = {
         { name: "JPG转PNG", url: "/convert/jpg-to-png" },
         { name: "HEIC转AVIF", url: "/convert/heic-to-avif" },
         { name: "HEIF转AVIF", url: "/convert/heif-to-avif" },
+        { name: "JPG转PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  jpgToGif: {
+    title: "JPG转GIF转换器 - 创建动画GIF和网页图形",
+    metaDescription:
+      "将JPG转换为GIF用于动画、社交媒体和网页图形。GIF格式支持透明度和动画。非常适合表情包、社交媒体帖子和动画图形。免费批量转换器，无需注册。",
+    metaKeywords:
+      "JPG转GIF, 将JPG转换为GIF, GIF转换器, 动画GIF, 社交媒体图片, 网页图形, 透明度支持, 批量转换JPG, 免费GIF转换器",
+    hero: {
+      title: "JPG转GIF转换器",
+      subtitle:
+        "将JPG转换为GIF用于动画、社交媒体和网页图形。GIF（图形交换格式）支持透明度，非常适合表情包、社交媒体帖子、动画图形和简单动画。GIF在所有平台和浏览器中广泛支持。",
+      badge1: "动画就绪",
+      badge2: "社交媒体",
+      badge3: "网页图形",
+    },
+    upload: {
+      title: "上传JPG文件",
+      description:
+        "将您的JPG图片拖放到此处或点击浏览。支持最多20个文件的批量转换。每个文件最大100MB。",
+      buttonSingle: "单个文件",
+      buttonBatch: "批量转换",
+      chooseFile: "选择文件",
+      converting: "转换中...",
+      success: "转换成功！",
+      download: "下载GIF",
+      downloadAll: "全部下载为ZIP",
+      convertAnother: "转换另一个文件",
+    },
+    features: {
+      title: "功能",
+      list: [
+        "将JPG转换为GIF用于动画和网页图形",
+        "透明度支持 - 非常适合叠加层和图形",
+        "社交媒体优化 - 适合表情包和帖子",
+        "最多同时处理20个文件的批量处理",
+        "自动文件删除，100%安全",
+        "广泛支持的格式 - 随处可用",
+        "即时下载 - 随时分享",
+        "无水印 - 专业质量",
+      ],
+    },
+    howItWorks: {
+      title: "工作原理",
+      step1Title: "上传JPG文件",
+      step1Desc: "从您的设备选择一个或多个JPG图片",
+      step2Title: "自动转换",
+      step2Desc: "我们的转换器即时处理您的文件",
+      step3Title: "下载GIF",
+      step3Desc: "立即获取您的GIF文件",
+    },
+    about: {
+      title: "关于JPG转GIF转换",
+      whatIsGif: {
+        title: "什么是GIF格式？",
+        content:
+          "GIF（图形交换格式）是CompuServe于1987年引入的位图图像格式。GIF支持每帧最多256种颜色、透明度和动画。GIF广泛用于简单动画、表情包、社交媒体图形、网页图形和徽标。GIF的动画功能使其在图像格式中独树一帜 - 它可以按顺序显示多个帧以创建动画图像。GIF得到几乎所有浏览器、平台和应用程序的支持，使其成为动画图形和简单网页图形的通用选择。虽然GIF使用无损压缩，但它限制为256种颜色，使其更适合颜色调色板有限的图形而不是照片。",
+      },
+      whyConvert: {
+        title: "为什么将JPG转换为GIF？",
+        content:
+          "当您需要动画图形、社交媒体内容或带透明度的网页图形时，将JPG转换为GIF。主要优势：动画支持（从多个图像创建动画GIF）、社交媒体兼容性（非常适合表情包和帖子）、透明度支持（适合叠加层和图形）、通用兼容性（在所有平台上工作）、网页图形（适合简单图形和徽标）或小文件大小（用于颜色有限的图形）。GIF对于以下方面至关重要：社交媒体营销（表情包、动画帖子）、网页设计（动画图形、徽标）、演示文稿（动画元素）、电子邮件营销（动画横幅）或简单动画（基本动画图形）。GIF确保您的图形在任何地方都能工作，并在需要时支持动画。",
+      },
+      benefits: {
+        title: "GIF格式的优势",
+        list: [
+          "动画支持 - 从多个帧创建动画图形",
+          "透明度支持 - 非常适合叠加层和图形",
+          "通用兼容性 - 在所有平台和浏览器上工作",
+          "社交媒体就绪 - 适合表情包和动画帖子",
+          "网页图形 - 适合简单图形和徽标",
+          "小文件大小 - 对颜色有限的图形高效",
+        ],
+      },
+    },
+    faq: {
+      title: "常见问题 – JPG转GIF",
+      items: [
+        {
+          q: "将JPG转换为GIF是否免费？",
+          a: "是的！我们的JPG转GIF转换器完全免费，转换次数无限制。无需注册、订阅或隐藏费用。根据需要转换任意数量的图片用于动画、社交媒体或网页图形。",
+        },
+        {
+          q: "我可以从JPG图片创建动画GIF吗？",
+          a: "我们的转换器将单个JPG图片转换为静态GIF格式。要创建动画GIF，您需要多个图像（帧）组合成一个动画GIF。对于动画GIF，您需要上传多个图像或使用专门的动画工具。",
+        },
+        {
+          q: "GIF文件会比JPG小吗？",
+          a: "对于照片，GIF文件通常比JPG大，因为GIF限制为256种颜色并使用无损压缩，而JPG使用针对照片优化的有损压缩。但是，对于颜色有限的图形（徽标、图标、简单图形），GIF可能更小且更高效。",
+        },
+        {
+          q: "GIF支持透明度吗？",
+          a: "是的！GIF支持透明度，使其非常适合需要透明背景、叠加层或图形的图形。GIF的透明度支持很简单（一种颜色可以是透明的），这对图形和徽标来说是理想的。",
+        },
+        {
+          q: "GIF适合社交媒体吗？",
+          a: "是的！GIF非常适合社交媒体，特别是表情包、动画帖子和简单图形。大多数社交媒体平台原生支持GIF，GIF的动画功能使其成为吸引人的社交媒体内容的理想选择。",
+        },
+        {
+          q: "我可以将GIF用于网页图形吗？",
+          a: "当然可以！GIF非常适合网页图形，特别是徽标、图标、简单图形和动画元素。GIF的通用兼容性和透明度支持使其成为网页设计的理想选择。但是，对于照片，JPG或WebP通常是更好的选择。",
+        },
+        {
+          q: "GIF和JPG有什么区别？",
+          a: "GIF支持动画和透明度，但限制为256种颜色，使其适合图形。JPG支持数百万种颜色并针对照片进行了优化，但不支持动画或透明度。为图形、动画和简单图像选择GIF。为照片选择JPG。",
+        },
+        {
+          q: "JPG转GIF转换需要多长时间？",
+          a: "转换每张图片需要1-2秒。GIF转换快速高效，生成准备好用于动画、社交媒体、网页图形或任何需要GIF格式的应用程序的GIF文件。",
+        },
+      ],
+    },
+    related: {
+      title: "相关转换器",
+      converters: [
+        { name: "GIF转JPG", url: "/convert/gif-to-jpg" },
+        { name: "JPG转PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG转WebP", url: "/convert/jpg-to-webp" },
+        { name: "PNG转GIF", url: "/convert/png-to-gif" },
+        { name: "HEIC转GIF", url: "/convert/heic-to-gif" },
         { name: "JPG转PDF", url: "/convert/jpg-to-pdf" },
       ],
     },
