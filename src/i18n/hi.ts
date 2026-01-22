@@ -2279,129 +2279,129 @@ export const hi: Translations = {
     },
   },
   // JPG to GIF Converter
-  jpgToGif: {
-    title: "JPG से GIF कनवर्टर - एनिमेटेड GIF और वेब ग्राफिक्स बनाएं",
-    metaDescription:
-      "एनिमेशन, सोशल मीडिया और वेब ग्राफिक्स के लिए JPG को GIF में कनवर्ट करें। GIF प्रारूप पारदर्शिता और एनिमेशन का समर्थन करता है। मीम्स, सोशल मीडिया पोस्ट और एनिमेटेड ग्राफिक्स के लिए परफेक्ट। मुफ्त बैच कनवर्टर, कोई पंजीकरण नहीं।",
-    metaKeywords:
-      "JPG से GIF, JPG को GIF में कनवर्ट करें, GIF कनवर्टर, एनिमेटेड GIF, सोशल मीडिया छवियां, वेब ग्राफिक्स, पारदर्शिता समर्थन, बैच JPG कनवर्ट, मुफ्त GIF कनवर्टर",
-    hero: {
-      title: "JPG से GIF कनवर्टर",
-      subtitle:
-        "एनिमेशन, सोशल मीडिया और वेब ग्राफिक्स के लिए JPG को GIF में कनवर्ट करें। GIF (ग्राफिक्स इंटरचेंज फॉर्मेट) पारदर्शिता का समर्थन करता है और मीम्स, सोशल मीडिया पोस्ट, एनिमेटेड ग्राफिक्स और सरल एनिमेशन के लिए परफेक्ट है। GIF सभी प्लेटफॉर्म और ब्राउज़र में व्यापक रूप से समर्थित है।",
-      badge1: "एनिमेशन के लिए तैयार",
-      badge2: "सोशल मीडिया",
-      badge3: "वेब ग्राफिक्स",
-    },
-    upload: {
-      title: "JPG फाइलें अपलोड करें",
-      description:
-        "अपनी JPG छवियों को यहां खींचें और छोड़ें या ब्राउज़ करने के लिए क्लिक करें। 20 फाइलों तक बैच कनवर्जन का समर्थन करता है। प्रति फाइल अधिकतम 100MB।",
-      buttonSingle: "एकल फाइल",
-      buttonBatch: "बैच कनवर्ट",
-      chooseFile: "फाइलें चुनें",
-      converting: "कनवर्ट हो रहा है...",
-      success: "कनवर्जन सफल!",
-      download: "GIF डाउनलोड करें",
-      downloadAll: "सभी को ZIP के रूप में डाउनलोड करें",
-      convertAnother: "दूसरी फाइल कनवर्ट करें",
-    },
-    features: {
-      title: "सुविधाएं",
-      list: [
-        "एनिमेशन और वेब ग्राफिक्स के लिए JPG को GIF में कनवर्ट करें",
-        "पारदर्शिता समर्थन - ओवरले और ग्राफिक्स के लिए परफेक्ट",
-        "सोशल मीडिया के लिए अनुकूलित - मीम्स और पोस्ट के लिए आदर्श",
-        "एक साथ 20 फाइलों तक बैच प्रसंस्करण",
-        "स्वचालित फाइल हटाने के साथ 100% सुरक्षित",
-        "व्यापक रूप से समर्थित प्रारूप - हर जगह काम करता है",
-        "तत्काल डाउनलोड - साझा करने के लिए तैयार",
-        "कोई वॉटरमार्क नहीं - पेशेवर गुणवत्ता",
-      ],
-    },
-    howItWorks: {
-      title: "यह कैसे काम करता है",
-      step1Title: "JPG फाइलें अपलोड करें",
-      step1Desc: "अपने डिवाइस से एक या कई JPG छवियां चुनें",
-      step2Title: "स्वचालित कनवर्जन",
-      step2Desc: "हमारा कनवर्टर आपकी फाइलों को तुरंत संसाधित करता है",
-      step3Title: "GIF डाउनलोड करें",
-      step3Desc: "अपनी GIF फाइलें तुरंत प्राप्त करें",
-    },
-    about: {
-      title: "JPG से GIF कनवर्जन के बारे में",
-      whatIsGif: {
-        title: "GIF प्रारूप क्या है?",
-        content:
-          "GIF (ग्राफिक्स इंटरचेंज फॉर्मेट) एक बिटमैप छवि प्रारूप है जिसे 1987 में CompuServe द्वारा पेश किया गया था। GIF प्रति फ्रेम 256 रंगों तक, पारदर्शिता और एनिमेशन का समर्थन करता है। GIF का उपयोग सरल एनिमेशन, मीम्स, सोशल मीडिया ग्राफिक्स, वेब ग्राफिक्स और लोगो के लिए व्यापक रूप से किया जाता है। GIF की एनिमेशन क्षमता इसे छवि प्रारूपों के बीच अद्वितीय बनाती है - यह एनिमेटेड छवियां बनाने के लिए क्रम में कई फ्रेम प्रदर्शित कर सकता है। GIF लगभग सभी ब्राउज़र, प्लेटफॉर्म और एप्लिकेशन द्वारा समर्थित है, जिससे यह एनिमेटेड ग्राफिक्स और सरल वेब ग्राफिक्स के लिए सार्वभौमिक विकल्प बन जाता है। जबकि GIF लॉसलेस कंप्रेशन का उपयोग करता है, यह 256 रंगों तक सीमित है, जिससे यह फोटोग्राफ के बजाय सीमित रंग पैलेट वाली ग्राफिक्स के लिए आदर्श है।",
+        jpgToGif: {
+        title: "JPG to GIF Converter - Create Animated GIFs and Web Graphics",
+        metaDescription:
+          "Convert JPG to GIF for animations, social media, and web graphics. GIF format supports transparency and animation. Perfect for memes, social media posts, and animated graphics. Free batch converter, no registration.",
+        metaKeywords:
+          "JPG to GIF, convert JPG to GIF, GIF converter, animated GIF, social media images, web graphics, transparency support, batch convert JPG, free GIF converter",
+        hero: {
+          title: "JPG to GIF Converter",
+          subtitle:
+            "Convert JPG to GIF for animations, social media, and web graphics. GIF (Graphics Interchange Format) supports transparency and is perfect for memes, social media posts, animated graphics, and simple animations. GIF is widely supported across all platforms and browsers.",
+          badge1: "Animation Ready",
+          badge2: "Social Media",
+          badge3: "Web Graphics",
+        },
+        upload: {
+          title: "Upload JPG Files",
+          description:
+            "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+          buttonSingle: "Single File",
+          buttonBatch: "Batch Convert",
+          chooseFile: "Choose Files",
+          converting: "Converting...",
+          success: "Conversion successful!",
+          download: "Download GIF",
+          downloadAll: "Download All as ZIP",
+          convertAnother: "Convert Another File",
+        },
+        features: {
+          title: "Features",
+          list: [
+            "Convert JPG to GIF for animations and web graphics",
+            "Transparency support - perfect for overlays and graphics",
+            "Social media optimized - ideal for memes and posts",
+            "Batch processing up to 20 files simultaneously",
+            "100% secure with automatic file deletion",
+            "Widely supported format - works everywhere",
+            "Instant download - ready for sharing",
+            "No watermarks - professional quality",
+          ],
+        },
+        howItWorks: {
+          title: "How It Works",
+          step1Title: "Upload JPG Files",
+          step1Desc: "Select one or multiple JPG images from your device",
+          step2Title: "Auto Convert",
+          step2Desc: "Our converter processes your files instantly",
+          step3Title: "Download GIF",
+          step3Desc: "Get your GIF files immediately",
+        },
+        about: {
+          title: "About JPG to GIF Conversion",
+          whatIsGif: {
+            title: "What is GIF Format?",
+            content:
+              "GIF (Graphics Interchange Format) is a bitmap image format introduced by CompuServe in 1987. GIF supports up to 256 colors per frame, transparency, and animation. GIF is widely used for simple animations, memes, social media graphics, web graphics, and logos. GIF's animation capability makes it unique among image formats - it can display multiple frames in sequence to create animated images. GIF is supported by virtually all browsers, platforms, and applications, making it the universal choice for animated graphics and simple web graphics. While GIF uses lossless compression, it's limited to 256 colors, making it ideal for graphics with limited color palettes rather than photographs.",
+          },
+          whyConvert: {
+            title: "Why Convert JPG to GIF?",
+            content:
+              "Convert JPG to GIF when you need animated graphics, social media content, or web graphics with transparency. Key benefits: animation support (create animated GIFs from multiple images), social media compatibility (perfect for memes and posts), transparency support (ideal for overlays and graphics), universal compatibility (works on all platforms), web graphics (perfect for simple graphics and logos), or small file sizes (for graphics with limited colors). GIF is essential for: social media marketing (memes, animated posts), web design (animated graphics, logos), presentations (animated elements), email marketing (animated banners), or simple animations (basic animated graphics). GIF ensures your graphics work everywhere and support animation when needed.",
+          },
+          benefits: {
+            title: "Benefits of GIF Format",
+            list: [
+              "Animation Support - Create animated graphics from multiple frames",
+              "Transparency Support - Perfect for overlays and graphics",
+              "Universal Compatibility - Works on all platforms and browsers",
+              "Social Media Ready - Ideal for memes and animated posts",
+              "Web Graphics - Perfect for simple graphics and logos",
+              "Small File Sizes - Efficient for graphics with limited colors",
+            ],
+          },
+        },
+        faq: {
+          title: "Frequently Asked Questions – JPG to GIF",
+          items: [
+            {
+              q: "Is it free to convert JPG to GIF?",
+              a: "Yes! Our JPG to GIF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for animations, social media, or web graphics.",
+            },
+            {
+              q: "Can I create animated GIFs from JPG images?",
+              a: "Our converter converts single JPG images to static GIF format. To create animated GIFs, you would need multiple images (frames) that are combined into one animated GIF. For animated GIFs, you would need to upload multiple images or use specialized animation tools.",
+            },
+            {
+              q: "Will GIF files be smaller than JPG?",
+              a: "GIF files are typically larger than JPG for photographs because GIF is limited to 256 colors and uses lossless compression, while JPG uses lossy compression optimized for photos. However, for graphics with limited colors (logos, icons, simple graphics), GIF can be smaller and more efficient.",
+            },
+            {
+              q: "Does GIF support transparency?",
+              a: "Yes! GIF supports transparency, making it perfect for graphics that need transparent backgrounds, overlays, or graphics. GIF's transparency support is simple (one color can be transparent), which is ideal for graphics and logos.",
+            },
+            {
+              q: "Is GIF good for social media?",
+              a: "Yes! GIF is perfect for social media, especially for memes, animated posts, and simple graphics. Most social media platforms support GIF natively, and GIF's animation capability makes it ideal for engaging social media content.",
+            },
+            {
+              q: "Can I use GIF for web graphics?",
+              a: "Absolutely! GIF is excellent for web graphics, especially for logos, icons, simple graphics, and animated elements. GIF's universal compatibility and transparency support make it ideal for web design. However, for photographs, JPG or WebP are usually better choices.",
+            },
+            {
+              q: "What's the difference between GIF and JPG?",
+              a: "GIF supports animation and transparency but is limited to 256 colors, making it ideal for graphics. JPG supports millions of colors and is optimized for photographs but doesn't support animation or transparency. Choose GIF for graphics, animations, and simple images. Choose JPG for photographs.",
+            },
+            {
+              q: "How long does JPG to GIF conversion take?",
+              a: "Conversion takes 1-2 seconds per image. GIF conversion is fast and efficient, producing GIF files ready for animations, social media, web graphics, or any application requiring GIF format.",
+            },
+          ],
+        },
+        related: {
+          title: "Related Converters",
+          converters: [
+            { name: "GIF to JPG", url: "/convert/gif-to-jpg" },
+            { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+            { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+            { name: "PNG to GIF", url: "/convert/png-to-gif" },
+            { name: "HEIC to GIF", url: "/convert/heic-to-gif" },
+            { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+          ],
+        },
       },
-      whyConvert: {
-        title: "JPG को GIF में क्यों कनवर्ट करें?",
-        content:
-          "जब आपको एनिमेटेड ग्राफिक्स, सोशल मीडिया सामग्री या पारदर्शिता के साथ वेब ग्राफिक्स की आवश्यकता हो तो JPG को GIF में कनवर्ट करें। मुख्य लाभ: एनिमेशन समर्थन (कई छवियों से एनिमेटेड GIF बनाएं), सोशल मीडिया संगतता (मीम्स और पोस्ट के लिए परफेक्ट), पारदर्शिता समर्थन (ओवरले और ग्राफिक्स के लिए आदर्श), सार्वभौमिक संगतता (सभी प्लेटफॉर्म पर काम करता है), वेब ग्राफिक्स (सरल ग्राफिक्स और लोगो के लिए परफेक्ट) या छोटे फाइल आकार (सीमित रंगों वाली ग्राफिक्स के लिए)। GIF आवश्यक है: सोशल मीडिया मार्केटिंग (मीम्स, एनिमेटेड पोस्ट), वेब डिज़ाइन (एनिमेटेड ग्राफिक्स, लोगो), प्रस्तुतियां (एनिमेटेड तत्व), ईमेल मार्केटिंग (एनिमेटेड बैनर) या सरल एनिमेशन (बुनियादी एनिमेटेड ग्राफिक्स)। GIF सुनिश्चित करता है कि आपकी ग्राफिक्स हर जगह काम करें और जरूरत पड़ने पर एनिमेशन का समर्थन करें।",
-      },
-      benefits: {
-        title: "GIF प्रारूप के लाभ",
-        list: [
-          "एनिमेशन समर्थन - कई फ्रेम से एनिमेटेड ग्राफिक्स बनाएं",
-          "पारदर्शिता समर्थन - ओवरले और ग्राफिक्स के लिए परफेक्ट",
-          "सार्वभौमिक संगतता - सभी प्लेटफॉर्म और ब्राउज़र पर काम करता है",
-          "सोशल मीडिया के लिए तैयार - मीम्स और एनिमेटेड पोस्ट के लिए आदर्श",
-          "वेब ग्राफिक्स - सरल ग्राफिक्स और लोगो के लिए परफेक्ट",
-          "छोटे फाइल आकार - सीमित रंगों वाली ग्राफिक्स के लिए कुशल",
-        ],
-      },
-    },
-    faq: {
-      title: "अक्सर पूछे जाने वाले प्रश्न – JPG से GIF",
-      items: [
-        {
-          q: "JPG को GIF में कनवर्ट करना मुफ्त है?",
-          a: "हाँ! हमारा JPG से GIF कनवर्टर असीमित कनवर्जन के साथ पूरी तरह से मुफ्त है। कोई पंजीकरण, सदस्यता या छुपी हुई फीस नहीं। एनिमेशन, सोशल मीडिया या वेब ग्राफिक्स के लिए जितनी छवियों की आवश्यकता हो उतनी कनवर्ट करें।",
-        },
-        {
-          q: "क्या मैं JPG छवियों से एनिमेटेड GIF बना सकता हूं?",
-          a: "हमारा कनवर्टर एकल JPG छवियों को स्थिर GIF प्रारूप में कनवर्ट करता है। एनिमेटेड GIF बनाने के लिए, आपको कई छवियों (फ्रेम) की आवश्यकता होगी जो एक एनिमेटेड GIF में संयोजित होती हैं। एनिमेटेड GIF के लिए, आपको कई छवियां अपलोड करनी होंगी या विशेष एनिमेशन टूल्स का उपयोग करना होगा।",
-        },
-        {
-          q: "क्या GIF फाइलें JPG से छोटी होंगी?",
-          a: "GIF फाइलें आमतौर पर फोटोग्राफ के लिए JPG से बड़ी होती हैं क्योंकि GIF 256 रंगों तक सीमित है और लॉसलेस कंप्रेशन का उपयोग करता है, जबकि JPG फोटो के लिए अनुकूलित लॉसी कंप्रेशन का उपयोग करता है। हालांकि, सीमित रंगों वाली ग्राफिक्स (लोगो, आइकन, सरल ग्राफिक्स) के लिए, GIF छोटा और अधिक कुशल हो सकता है।",
-        },
-        {
-          q: "क्या GIF पारदर्शिता का समर्थन करता है?",
-          a: "हाँ! GIF पारदर्शिता का समर्थन करता है, जिससे यह उन ग्राफिक्स के लिए परफेक्ट है जिन्हें पारदर्शी पृष्ठभूमि, ओवरले या ग्राफिक्स की आवश्यकता होती है। GIF का पारदर्शिता समर्थन सरल है (एक रंग पारदर्शी हो सकता है), जो ग्राफिक्स और लोगो के लिए आदर्श है।",
-        },
-        {
-          q: "क्या GIF सोशल मीडिया के लिए अच्छा है?",
-          a: "हाँ! GIF सोशल मीडिया के लिए परफेक्ट है, खासकर मीम्स, एनिमेटेड पोस्ट और सरल ग्राफिक्स के लिए। अधिकांश सोशल मीडिया प्लेटफॉर्म GIF को मूल रूप से समर्थन करते हैं, और GIF की एनिमेशन क्षमता इसे आकर्षक सोशल मीडिया सामग्री के लिए आदर्श बनाती है।",
-        },
-        {
-          q: "क्या मैं वेब ग्राफिक्स के लिए GIF का उपयोग कर सकता हूं?",
-          a: "बिल्कुल! GIF वेब ग्राफिक्स के लिए उत्कृष्ट है, खासकर लोगो, आइकन, सरल ग्राफिक्स और एनिमेटेड तत्वों के लिए। GIF की सार्वभौमिक संगतता और पारदर्शिता समर्थन इसे वेब डिज़ाइन के लिए आदर्श बनाता है। हालांकि, फोटोग्राफ के लिए, JPG या WebP आमतौर पर बेहतर विकल्प हैं।",
-        },
-        {
-          q: "GIF और JPG के बीच क्या अंतर है?",
-          a: "GIF एनिमेशन और पारदर्शिता का समर्थन करता है लेकिन 256 रंगों तक सीमित है, जिससे यह ग्राफिक्स के लिए आदर्श है। JPG लाखों रंगों का समर्थन करता है और फोटोग्राफ के लिए अनुकूलित है लेकिन एनिमेशन या पारदर्शिता का समर्थन नहीं करता है। ग्राफिक्स, एनिमेशन और सरल छवियों के लिए GIF चुनें। फोटोग्राफ के लिए JPG चुनें।",
-        },
-        {
-          q: "JPG से GIF कनवर्जन में कितना समय लगता है?",
-          a: "कनवर्जन प्रति छवि 1-2 सेकंड लगता है। GIF कनवर्जन तेज़ और कुशल है, जो एनिमेशन, सोशल मीडिया, वेब ग्राफिक्स या GIF प्रारूप की आवश्यकता वाले किसी भी एप्लिकेशन के लिए तैयार GIF फाइलें उत्पन्न करता है।",
-        },
-      ],
-    },
-    related: {
-      title: "संबंधित कनवर्टर",
-      converters: [
-        { name: "GIF से JPG", url: "/convert/gif-to-jpg" },
-        { name: "JPG से PNG", url: "/convert/jpg-to-png" },
-        { name: "JPG से WebP", url: "/convert/jpg-to-webp" },
-        { name: "PNG से GIF", url: "/convert/png-to-gif" },
-        { name: "HEIC से GIF", url: "/convert/heic-to-gif" },
-        { name: "JPG से PDF", url: "/convert/jpg-to-pdf" },
-      ],
-    },
-  },
-  // JPG to PDF Converter
+        // JPG to PDF Converter
   jpgToPdf: {
     title: "JPG से PDF कन्वर्टर - इमेज को PDF दस्तावेज़ों में मुफ्त में ऑनलाइन कनवर्ट करें",
     metaDescription:

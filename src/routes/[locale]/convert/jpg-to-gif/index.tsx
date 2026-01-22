@@ -41,7 +41,7 @@ export default component$(() => {
   const localeData = useLocaleLoader();
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
-  const conv = t.jpgToGif || t.jpgToPng; // Fallback to jpgToPng if jpgToGif is missing
+  const conv = t.jpgToGif;
   const loc = useLocation();
   const pageUrl = loc.url.origin + loc.url.pathname;
 
@@ -874,9 +874,9 @@ export default component$(() => {
               <div class="space-y-6">
                 <div>
                   <h3 class="text-xl font-bold text-gray-900 mb-3">
-                    {conv.about.whatIsHeif.title}
+                    {conv.about.whatIsGif.title}
                   </h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.about.whatIsHeif.content}</p>
+                  <p class="text-gray-700 leading-relaxed">{conv.about.whatIsGif.content}</p>
                 </div>
 
                 <div>
@@ -1024,7 +1024,7 @@ export default component$(() => {
 
 export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
-  const conv = localeData.translations.jpgToGif || localeData.translations.jpgToPng;
+  const conv = localeData.translations.jpgToGif;
   const pageUrl = url.origin + url.pathname;
 
   return {
