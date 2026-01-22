@@ -240,6 +240,10 @@ export const tr: Translations = {
       name: "JPG'den AVIF'ye",
       description: "Üstün kalite ve modern sıkıştırma ile %50 daha küçük dosyalar için JPG'yi AVIF'ye dönüştürün",
     },
+    jpgToTiff: {
+      name: "JPG'den TIFF'ye",
+      description: "Kayıpsız kalite, profesyonel baskı ve arşivleme için JPG'yi TIFF'ye dönüştürün",
+    },
     jpgToPdf: {
       name: "JPG'den PDF'ye",
       description: "JPG görüntülerini evrensel uyumluluk ve profesyonel sunum için PDF belgelerine dönüştürün",

@@ -240,6 +240,10 @@ export const nl: Translations = {
       name: "JPG naar AVIF",
       description: "Converteer JPG naar AVIF voor 50% kleinere bestanden met superieure kwaliteit en moderne compressie",
     },
+    jpgToTiff: {
+      name: "JPG naar TIFF",
+      description: "Converteer JPG naar TIFF voor verliesloze kwaliteit, professioneel printen en archivering",
+    },
     jpgToPdf: {
       name: "JPG naar PDF",
       description: "Converteer JPG-afbeeldingen naar PDF-documenten voor universele compatibiliteit en professionele presentatie",

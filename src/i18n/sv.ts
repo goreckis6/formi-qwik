@@ -238,6 +238,10 @@ export const sv: Translations = {
       name: "JPG till AVIF",
       description: "Konvertera JPG till AVIF för 50% mindre filer med överlägsen kvalitet och modern komprimering",
     },
+    jpgToTiff: {
+      name: "JPG till TIFF",
+      description: "Konvertera JPG till TIFF för förlustfri kvalitet, professionell utskrift och arkivering",
+    },
     jpgToPdf: {
       name: "JPG till PDF",
       description: "Konvertera JPG-bilder till PDF-dokument för universell kompatibilitet och professionell presentation",

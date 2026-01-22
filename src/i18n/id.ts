@@ -227,6 +227,10 @@ export const id: Translations = {
       name: "JPG ke AVIF",
       description: "Konversi JPG ke AVIF untuk file 50% lebih kecil dengan kualitas superior dan kompresi modern",
     },
+    jpgToTiff: {
+      name: "JPG ke TIFF",
+      description: "Konversi JPG ke TIFF untuk kualitas tanpa kehilangan, pencetakan profesional, dan arsip",
+    },
     jpgToPdf: {
       name: "JPG ke PDF",
       description: "Konversi gambar JPG ke dokumen PDF untuk kompatibilitas universal dan presentasi profesional",

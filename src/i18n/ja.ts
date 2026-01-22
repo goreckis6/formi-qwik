@@ -234,6 +234,10 @@ export const ja: Translations = {
       name: "JPG to AVIF",
       description: "優れた品質と最新の圧縮で50%小さなファイルのためにJPGをAVIFに変換",
     },
+    jpgToTiff: {
+      name: "JPG to TIFF",
+      description: "ロスレス品質、プロフェッショナル印刷、アーカイブ目的のためにJPGをTIFFに変換",
+    },
     jpgToPdf: {
       name: "JPG to PDF",
       description: "ユニバーサル互換性とプロフェッショナルなプレゼンテーションのためにJPG画像をPDF文書に変換",

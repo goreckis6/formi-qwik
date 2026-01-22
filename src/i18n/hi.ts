@@ -240,6 +240,10 @@ export const hi: Translations = {
       name: "JPG से AVIF",
       description: "उत्कृष्ट गुणवत्ता और आधुनिक संपीड़न के साथ 50% छोटी फ़ाइलों के लिए JPG को AVIF में कनवर्ट करें",
     },
+    jpgToTiff: {
+      name: "JPG से TIFF",
+      description: "हानि रहित गुणवत्ता, पेशेवर मुद्रण और संग्रहण के लिए JPG को TIFF में कनवर्ट करें",
+    },
     jpgToPdf: {
       name: "JPG से PDF",
       description: "सार्वभौमिक अनुकूलता और पेशेवर प्रस्तुति के लिए JPG छवियों को PDF दस्तावेज़ों में कनवर्ट करें",

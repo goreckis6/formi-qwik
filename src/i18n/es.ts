@@ -236,12 +236,17 @@ export const es: Translations = {
       description: "Convertir JPG a PNG para transparencia y calidad sin pérdida",
     },
     jpgToWebp: {
-    jpgToAvif: {
-      name: "JPG to AVIF",
-      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
-    },
       name: "JPG a WebP",
       description: "Convertir JPG a WebP para archivos 25-35% más pequeños y mejor rendimiento web",
+    },
+    jpgToAvif: {
+      name: "JPG a AVIF",
+      description:
+        "Convertir JPG a AVIF para archivos 50% más pequeños con calidad superior y compresión moderna",
+    },
+    jpgToTiff: {
+      name: "JPG a TIFF",
+      description: "Convertir JPG a TIFF para calidad sin pérdida, impresión profesional y archivo",
     },
     jpgToPdf: {
       name: "JPG a PDF",
@@ -2011,10 +2016,6 @@ export const es: Translations = {
 
   // JPG to WebP Converter
   jpgToWebp: {
-    jpgToAvif: {
-      name: "JPG to AVIF",
-      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
-    },
     title: "Conversor JPG a WebP - Optimiza Imágenes para Web con Compresión Superior",
     metaDescription:
       "Convierte JPG a WebP para archivos 25-35% más pequeños con mejor calidad. Perfecto para sitios web, carga más rápida y SEO. Formato moderno con soporte de transparencia. Conversor por lotes gratuito, sin registro.",
@@ -2270,6 +2271,129 @@ export const es: Translations = {
         { name: "HEIC a AVIF", url: "/convert/heic-to-avif" },
         { name: "HEIF a AVIF", url: "/convert/heif-to-avif" },
         { name: "JPG a PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+  // JPG to TIFF Converter
+  jpgToTiff: {
+    title: "Conversor JPG a TIFF - Calidad Sin Pérdida para Impresión Profesional y Archivo",
+    metaDescription:
+      "Convierte JPG a TIFF para calidad sin pérdida, impresión profesional y archivo. El formato TIFF preserva la máxima calidad de imagen sin pérdida de compresión. Perfecto para fotografía, impresión y almacenamiento a largo plazo. Conversor por lotes gratuito, sin registro.",
+    metaKeywords:
+      "JPG a TIFF, convertir JPG a TIFF, formato de imagen sin pérdida, impresión profesional, formato de archivo, convertir JPG por lotes, conversor TIFF, conversor TIFF gratis, imágenes de alta calidad",
+    hero: {
+      title: "Conversor JPG a TIFF",
+      subtitle:
+        "Convierte JPG a TIFF para calidad sin pérdida e impresión profesional. TIFF (Tagged Image File Format) preserva la máxima calidad de imagen sin pérdida de compresión - perfecto para fotografía, impresión profesional, archivo y almacenamiento a largo plazo. TIFF es el estándar de la industria para la preservación de imágenes de alta calidad.",
+      badge1: "Calidad Sin Pérdida",
+      badge2: "Grado Profesional",
+      badge3: "Listo para Imprimir",
+    },
+    upload: {
+      title: "Subir Archivos JPG",
+      description:
+        "Arrastra y suelta tus imágenes JPG aquí o haz clic para explorar. Soporta conversión por lotes hasta 20 archivos. Máximo 100MB por archivo.",
+      buttonSingle: "Archivo Único",
+      buttonBatch: "Conversión por Lotes",
+      chooseFile: "Elegir Archivos",
+      converting: "Convirtiendo...",
+      success: "¡Conversión exitosa!",
+      download: "Descargar TIFF",
+      downloadAll: "Descargar Todo como ZIP",
+      convertAnother: "Convertir Otro Archivo",
+    },
+    features: {
+      title: "Características",
+      list: [
+        "Calidad sin pérdida - sin artefactos de compresión o pérdida de calidad",
+        "Estándar de impresión profesional - formato aceptado por la industria",
+        "Calidad de archivo - perfecto para almacenamiento a largo plazo",
+        "Procesamiento por lotes hasta 20 archivos simultáneamente",
+        "100% seguro con eliminación automática de archivos",
+        "Preserva todos los datos de imagen y metadatos",
+        "Descarga instantánea - listo para uso profesional",
+        "Sin marcas de agua - calidad profesional",
+      ],
+    },
+    howItWorks: {
+      title: "Cómo Funciona",
+      step1Title: "Subir Archivos JPG",
+      step1Desc: "Selecciona una o múltiples imágenes JPG de tu dispositivo",
+      step2Title: "Conversión Automática",
+      step2Desc: "Nuestro conversor procesa tus archivos al instante",
+      step3Title: "Descargar TIFF",
+      step3Desc: "Obtén tus archivos TIFF de alta calidad inmediatamente",
+    },
+    about: {
+      title: "Acerca de la Conversión JPG a TIFF",
+      whatIsTiff: {
+        title: "¿Qué es el Formato TIFF?",
+        content:
+          "TIFF (Tagged Image File Format) es un formato de imagen sin pérdida desarrollado por Aldus (ahora Adobe) en 1986. TIFF es el estándar de la industria para la preservación de imágenes de alta calidad, impresión profesional y archivo. A diferencia de JPG que usa compresión con pérdida, TIFF preserva el 100% de los datos de imagen sin pérdida de calidad. TIFF soporta múltiples métodos de compresión (LZW, ZIP, JPEG), profundidades de color (8-bit, 16-bit, 32-bit), espacios de color (RGB, CMYK, LAB), y puede almacenar múltiples imágenes en un solo archivo. TIFF es ampliamente usado en fotografía, publicación, imágenes médicas, investigación científica y sistemas de archivo. Software importante como Photoshop, Lightroom y servicios de impresión profesional usan TIFF como el formato preferido para la máxima preservación de calidad.",
+      },
+      whyConvert: {
+        title: "¿Por qué Convertir JPG a TIFF?",
+        content:
+          "Convierte JPG a TIFF cuando necesites máxima preservación de calidad de imagen. Beneficios clave: calidad sin pérdida (sin artefactos de compresión), impresión profesional (formato estándar de la industria), almacenamiento de archivo (preservación a largo plazo), máximo detalle (preserva todos los datos de imagen), precisión de color (soporta amplios espacios de color), preservación de metadatos (EXIF, IPTC, XMP), flujo de trabajo profesional (compatible con todo el software profesional), y formato a prueba de futuro (estándar de la industria). TIFF es esencial para: fotografía profesional, servicios de impresión, sistemas de archivo, investigación científica, imágenes médicas, diseño gráfico, publicación, y cualquier aplicación que requiera máxima preservación de calidad. TIFF asegura que tus imágenes mantengan la más alta calidad posible para uso profesional.",
+      },
+      benefits: {
+        title: "Beneficios del Formato TIFF",
+        list: [
+          "Calidad Sin Pérdida - Sin artefactos de compresión o pérdida de calidad",
+          "Estándar Profesional - Formato aceptado por la industria para impresión",
+          "Grado de Archivo - Perfecto para almacenamiento y preservación a largo plazo",
+          "Máximo Detalle - Preserva todos los datos e información de imagen",
+          "Precisión de Color - Soporta amplios espacios de color y profundidades",
+          "Soporte de Metadatos - Preserva datos EXIF, IPTC y XMP",
+        ],
+      },
+    },
+    faq: {
+      title: "Preguntas Frecuentes – JPG a TIFF",
+      items: [
+        {
+          q: "¿Es gratis convertir JPG a TIFF?",
+          a: "¡Sí! Nuestro conversor de JPG a TIFF es completamente gratuito con conversiones ilimitadas. Sin registro, suscripciones ni cargos ocultos. Convierte tantas imágenes como necesites para impresión profesional, archivo o preservación de alta calidad.",
+        },
+        {
+          q: "¿Serán los archivos TIFF más grandes que JPG?",
+          a: "Sí, los archivos TIFF típicamente son más grandes que JPG porque TIFF usa compresión sin pérdida (o sin compresión) mientras que JPG usa compresión con pérdida. Sin embargo, TIFF preserva el 100% de la calidad de imagen sin artefactos, haciéndolo esencial para impresión profesional y archivo donde la calidad es primordial.",
+        },
+        {
+          q: "¿Es la calidad TIFF mejor que JPG?",
+          a: "¡Sí! TIFF preserva calidad sin pérdida sin artefactos de compresión, mientras que JPG usa compresión con pérdida que descarta algunos datos de imagen. TIFF es el estándar de la industria para impresión profesional y archivo porque mantiene la máxima calidad de imagen. Para uso web, JPG es más eficiente. Para impresión profesional y archivo, TIFF es esencial.",
+        },
+        {
+          q: "¿Puede usarse TIFF para impresión profesional?",
+          a: "¡Absolutamente! TIFF es el formato estándar de la industria para impresión profesional. Imprentas, editores y fotógrafos profesionales usan TIFF porque preserva la máxima calidad, soporta espacio de color CMYK y mantiene todos los datos de imagen. TIFF es el formato preferido para impresión de alta calidad.",
+        },
+        {
+          q: "¿Es bueno TIFF para almacenamiento de archivo?",
+          a: "¡Sí! TIFF es perfecto para almacenamiento de archivo porque usa compresión sin pérdida (o sin compresión), preservando el 100% de los datos de imagen. Bibliotecas, museos y sistemas de archivo usan TIFF para preservación a largo plazo. TIFF asegura que tus imágenes mantengan la máxima calidad para futuras generaciones.",
+        },
+        {
+          q: "¿Soporta TIFF transparencia?",
+          a: "¡Sí! TIFF soporta transparencia de canal alfa, haciéndolo adecuado para imágenes que requieren fondos transparentes. El soporte de transparencia de TIFF es sin pérdida, preservando perfecta calidad de transparencia para gráficos y trabajo de diseño profesional.",
+        },
+        {
+          q: "¿Puedo convertir múltiples archivos JPG a TIFF a la vez?",
+          a: "¡Sí! Nuestro conversor soporta procesamiento por lotes hasta 20 archivos simultáneamente. Simplemente selecciona múltiples archivos JPG, y todos se convertirán al formato TIFF instantáneamente. Perfecto para fotógrafos y profesionales procesando grandes colecciones de imágenes.",
+        },
+        {
+          q: "¿Cuánto tiempo tarda la conversión de JPG a TIFF?",
+          a: "La conversión toma 1-3 segundos por imagen dependiendo del tamaño del archivo. La conversión TIFF es rápida y eficiente, produciendo imágenes sin pérdida de alta calidad listas para impresión profesional, archivo o cualquier aplicación que requiera máxima preservación de calidad.",
+        },
+      ],
+    },
+    related: {
+      title: "Convertidores Relacionados",
+      converters: [
+        { name: "TIFF a JPG", url: "/convert/tiff-to-jpg" },
+        { name: "JPG a PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG a PDF", url: "/convert/jpg-to-pdf" },
+        { name: "PNG a TIFF", url: "/convert/png-to-tiff" },
+        { name: "HEIC a TIFF", url: "/convert/heic-to-tiff" },
+        { name: "JPG a WebP", url: "/convert/jpg-to-webp" },
       ],
     },
   },
@@ -2534,6 +2658,4 @@ export const es: Translations = {
     },
   },
 };
-
-export type Translations = typeof es;
 

@@ -243,6 +243,10 @@ export const de: Translations = {
       name: "JPG zu AVIF",
       description: "JPG zu AVIF für 50% kleinere Dateien mit überlegener Qualität und moderner Kompression konvertieren",
     },
+    jpgToTiff: {
+      name: "JPG zu TIFF",
+      description: "JPG zu TIFF für verlustfreie Qualität, professionellen Druck und Archivierungszwecke konvertieren",
+    },
     jpgToPdf: {
       name: "JPG zu PDF",
       description: "JPG-Bilder in PDF-Dokumente konvertieren für universelle Kompatibilität und professionelle Präsentation",

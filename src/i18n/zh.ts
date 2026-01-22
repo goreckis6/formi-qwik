@@ -233,6 +233,10 @@ export const zh: Translations = {
       name: "JPG转AVIF",
       description: "将JPG转换为AVIF以获得50%更小的文件，具有卓越的质量和现代压缩",
     },
+    jpgToTiff: {
+      name: "JPG转TIFF",
+      description: "将JPG转换为TIFF以获得无损质量、专业打印和归档目的",
+    },
     jpgToPdf: {
       name: "JPG转PDF",
       description: "将JPG图像转换为PDF文档，实现通用兼容性和专业演示",

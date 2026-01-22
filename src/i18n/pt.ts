@@ -242,6 +242,10 @@ export const pt: EnTranslations = {
       name: "JPG para AVIF",
       description: "Converter JPG para AVIF para arquivos 50% menores com qualidade superior e compressão moderna",
     },
+    jpgToTiff: {
+      name: "JPG para TIFF",
+      description: "Converter JPG para TIFF para qualidade sem perda, impressão profissional e arquivamento",
+    },
     jpgToPdf: {
       name: "JPG para PDF",
       description: "Converter imagens JPG para documentos PDF para compatibilidade universal e apresentação profissional",

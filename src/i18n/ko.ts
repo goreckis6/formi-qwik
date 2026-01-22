@@ -233,6 +233,10 @@ export const ko: Translations = {
       name: "JPG to AVIF",
       description: "우수한 품질과 현대적인 압축으로 50% 더 작은 파일을 위해 JPG를 AVIF로 변환",
     },
+    jpgToTiff: {
+      name: "JPG to TIFF",
+      description: "무손실 품질, 전문 인쇄 및 아카이브 목적을 위해 JPG를 TIFF로 변환",
+    },
     jpgToPdf: {
       name: "JPG to PDF",
       description: "범용 호환성 및 전문적인 프레젠테이션을 위해 JPG 이미지를 PDF 문서로 변환",

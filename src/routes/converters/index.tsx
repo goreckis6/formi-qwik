@@ -119,6 +119,11 @@ export default component$(() => {
         description: converters.jpgToAvif.description,
         href: getLocalizedPath("/convert/jpg-to-avif", locale),
       }] : []),
+      ...(converters.jpgToTiff ? [{
+        name: converters.jpgToTiff.name,
+        description: converters.jpgToTiff.description,
+        href: getLocalizedPath("/convert/jpg-to-tiff", locale),
+      }] : []),
     ],
   }));
 
