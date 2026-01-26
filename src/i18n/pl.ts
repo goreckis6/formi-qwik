@@ -2660,4 +2660,163 @@ export const pl: Translations = {
       ],
     },
   },
+
+  jpgToTiff: {
+    title: "JPG to TIFF Converter - Lossless Quality for Professional Printing & Archival",
+    metaDescription:
+      "Convert JPG to TIFF for lossless quality, professional printing, and archival purposes. TIFF format preserves maximum image quality with no compression loss. Perfect for photography, printing, and long-term storage. Free batch converter, no registration.",
+    metaKeywords:
+      "JPG to TIFF, convert JPG to TIFF, lossless image format, professional printing, archival format, batch convert JPG, TIFF converter, free TIFF converter, high quality images",
+    hero: {
+      title: "JPG to TIFF Converter",
+      subtitle:
+        "Convert JPG to TIFF for lossless quality and professional printing. TIFF (Tagged Image File Format) preserves maximum image quality with no compression loss - perfect for photography, professional printing, archival purposes, and long-term storage. TIFF is the industry standard for high-quality image preservation.",
+      badge1: "Lossless Quality",
+      badge2: "Professional Grade",
+      badge3: "Print Ready",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download TIFF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "Lossless quality - no compression artifacts or quality loss",
+        "Professional printing standard - industry-accepted format",
+        "Archival quality - perfect for long-term storage",
+        "Batch processing up to 20 files simultaneously",
+        "100% secure with automatic file deletion",
+        "Preserves all image data and metadata",
+        "Instant download - ready for professional use",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download TIFF",
+      step3Desc: "Get your high-quality TIFF files immediately",
+    },
+    about: {
+      title: "About JPG to TIFF Conversion",
+      whatIsTiff: {
+        title: "What is TIFF Format?",
+        content:
+          "TIFF (Tagged Image File Format) is a lossless image format developed by Aldus (now Adobe) in 1986. TIFF is the industry standard for high-quality image preservation, professional printing, and archival purposes. Unlike JPG which uses lossy compression, TIFF preserves 100% of image data with no quality loss. TIFF supports multiple compression methods (LZW, ZIP, JPEG), color depths (8-bit, 16-bit, 32-bit), color spaces (RGB, CMYK, LAB), and can store multiple images in a single file. TIFF is widely used in photography, publishing, medical imaging, scientific research, and archival systems. Major software like Photoshop, Lightroom, and professional printing services use TIFF as the preferred format for maximum quality preservation.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to TIFF?",
+        content:
+          "Convert JPG to TIFF when you need maximum image quality preservation. Key benefits: lossless quality (no compression artifacts), professional printing (industry standard format), archival storage (long-term preservation), maximum detail (preserves all image data), color accuracy (supports wide color spaces), metadata preservation (EXIF, IPTC, XMP), professional workflow (compatible with all professional software), and future-proof format (industry standard). TIFF is essential for: professional photography, printing services, archival systems, scientific research, medical imaging, graphic design, publishing, and any application requiring maximum quality preservation. TIFF ensures your images maintain the highest possible quality for professional use.",
+      },
+      benefits: {
+        title: "Benefits of TIFF Format",
+        list: [
+          "Lossless Quality - No compression artifacts or quality loss",
+          "Professional Standard - Industry-accepted format for printing",
+          "Archival Grade - Perfect for long-term storage and preservation",
+          "Maximum Detail - Preserves all image data and information",
+          "Color Accuracy - Supports wide color spaces and depths",
+          "Metadata Support - Preserves EXIF, IPTC, and XMP data",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to TIFF",
+      items: [
+        {
+          q: "Is it free to convert JPG to TIFF?",
+          a: "Yes! Our JPG to TIFF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for professional printing, archival, or high-quality preservation.",
+        },
+        {
+          q: "Will TIFF files be larger than JPG?",
+          a: "Yes, TIFF files are typically larger than JPG because TIFF uses lossless compression (or no compression) while JPG uses lossy compression. However, TIFF preserves 100% of image quality with no artifacts, making it essential for professional printing and archival purposes where quality is paramount.",
+        },
+        {
+          q: "Is TIFF quality better than JPG?",
+          a: "Yes! TIFF preserves lossless quality with no compression artifacts, while JPG uses lossy compression that discards some image data. TIFF is the industry standard for professional printing and archival because it maintains maximum image quality. For web use, JPG is more efficient. For professional printing and archival, TIFF is essential.",
+        },
+        {
+          q: "Can TIFF be used for professional printing?",
+          a: "Absolutely! TIFF is the industry standard format for professional printing. Print shops, publishers, and professional photographers use TIFF because it preserves maximum quality, supports CMYK color space, and maintains all image data. TIFF is the preferred format for high-quality printing.",
+        },
+        {
+          q: "Is TIFF good for archival storage?",
+          a: "Yes! TIFF is perfect for archival storage because it uses lossless compression (or no compression), preserving 100% of image data. Libraries, museums, and archival systems use TIFF for long-term preservation. TIFF ensures your images maintain maximum quality for future generations.",
+        },
+        {
+          q: "Does TIFF support transparency?",
+          a: "Yes! TIFF supports alpha channel transparency, making it suitable for images requiring transparent backgrounds. TIFF's transparency support is lossless, preserving perfect transparency quality for professional graphics and design work.",
+        },
+        {
+          q: "Can I convert multiple JPG files to TIFF at once?",
+          a: "Yes! Our converter supports batch processing up to 20 files simultaneously. Simply select multiple JPG files, and they'll all be converted to TIFF format instantly. Perfect for photographers and professionals processing large image collections.",
+        },
+        {
+          q: "How long does JPG to TIFF conversion take?",
+          a: "Conversion takes 1-3 seconds per image depending on file size. TIFF conversion is fast and efficient, producing high-quality lossless images ready for professional printing, archival, or any application requiring maximum quality preservation.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "TIFF to JPG", url: "/convert/tiff-to-jpg" },
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+        { name: "PNG to TIFF", url: "/convert/png-to-tiff" },
+        { name: "HEIC to TIFF", url: "/convert/heic-to-tiff" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  // Viewers Page
+  viewers: {
+    title: "Przeglądarki Plików",
+    metaTitle: "Przeglądarki Plików - Podgląd Plików w Przeglądarce | FormiPeek",
+    metaDescription: "Podglądaj i przeglądaj pliki bezpośrednio w przeglądarce. Bez pobierania. Obsługa obrazów, dokumentów, PDF i wielu innych formatów.",
+    metaKeywords: "przeglądarka plików, podgląd plików online, przeglądarka PDF, przeglądarka obrazów, przeglądarka dokumentów, podgląd plików, przeglądarka w przeglądarce",
+    subtitle: "Podglądaj i przeglądaj pliki bezpośrednio w przeglądarce. Bez pobierania.",
+    cardTitle: "Przeglądarki Plików",
+    cardDescription: "Podglądaj i przeglądaj pliki bezpośrednio w przeglądarce bez pobierania. Obsługa obrazów, dokumentów, PDF i wielu innych formatów.",
+    comingSoon: "Wkrótce...",
+  },
+
+  // Compress Page
+  compress: {
+    title: "Kompresja Plików",
+    metaTitle: "Kompresja Plików - Kompresuj Obrazy i PDF Online | FormiPeek",
+    metaDescription: "Kompresuj obrazy i pliki PDF bez utraty jakości. Szybkie i darmowe narzędzia kompresji. Zmniejsz rozmiar plików dla szybszego przesyłania.",
+    metaKeywords: "kompresja plików, kompresja obrazów, kompresja PDF, kompresor obrazów, kompresor PDF, zmniejsz rozmiar pliku, kompresja online, darmowa kompresja",
+    subtitle: "Zmniejsz rozmiar plików bez utraty jakości. Szybko i za darmo.",
+    cardTitle: "Kompresja Plików",
+    cardDescription: "Kompresuj obrazy i pliki PDF bez utraty jakości. Zmniejsz rozmiar plików dla szybszego przesyłania i łatwiejszego udostępniania. Obsługa formatów JPG, PNG i PDF.",
+    comingSoon: "Wkrótce...",
+  },
+
+  // Samples Page
+  samples: {
+    title: "Przykładowe Pliki",
+    metaTitle: "Przykładowe Pliki - Pobierz Pliki Testowe | FormiPeek",
+    metaDescription: "Pobierz przykładowe pliki w różnych formatach do testowania naszych narzędzi konwersji. Przeglądaj przykładowe pliki dla wszystkich obsługiwanych formatów.",
+    metaKeywords: "przykładowe pliki, pliki testowe, próbki plików, pobierz próbki, próbki formatów, testowanie konwersji, testowanie plików",
+    subtitle: "Przeglądaj przykładowe pliki dla wszystkich obsługiwanych formatów. Testuj przed konwersją.",
+    cardTitle: "Przykładowe Pliki",
+    cardDescription: "Pobierz przykładowe pliki w różnych formatach do testowania naszych narzędzi konwersji. Testuj przed konwersją z prawdziwymi przykładami.",
+    comingSoon: "Wkrótce...",
+  },
 };

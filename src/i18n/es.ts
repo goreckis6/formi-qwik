@@ -2764,5 +2764,40 @@ export const es: Translations = {
       ],
     },
   },
-};
 
+  // Viewers Page
+  viewers: {
+    title: "Visualizadores de Archivos",
+    metaTitle: "Visualizadores de Archivos - Vista Previa en el Navegador | FormiPeek",
+    metaDescription: "Visualiza archivos directamente en tu navegador. Sin descargas. Soporte para imágenes, documentos, PDFs y más formatos.",
+    metaKeywords: "visor de archivos, visor en línea, visor PDF, visor de imágenes, visor de documentos, vista previa de archivos",
+    subtitle: "Visualiza archivos directamente en tu navegador. Sin descargas.",
+    cardTitle: "Visualizadores de Archivos",
+    cardDescription: "Visualiza archivos directamente en tu navegador sin descargar. Soporte para imágenes, documentos, PDFs y más formatos.",
+    comingSoon: "Próximamente...",
+  },
+
+  // Compress Page
+  compress: {
+    title: "Compresión de Archivos",
+    metaTitle: "Compresión de Archivos - Comprimir Imágenes y PDFs en Línea | FormiPeek",
+    metaDescription: "Comprime imágenes y PDFs sin perder calidad. Herramientas de compresión rápidas y gratuitas. Reduce el tamaño de los archivos.",
+    metaKeywords: "compresión de archivos, comprimir imágenes, comprimir PDF, compresor de imágenes, compresor PDF, reducir tamaño de archivo",
+    subtitle: "Reduce el tamaño de archivos sin perder calidad. Rápido y gratis.",
+    cardTitle: "Compresión de Archivos",
+    cardDescription: "Comprime imágenes y PDFs sin perder calidad. Reduce el tamaño de archivos para cargas más rápidas. Soporte para JPG, PNG y PDF.",
+    comingSoon: "Próximamente...",
+  },
+
+  // Samples Page
+  samples: {
+    title: "Archivos de Muestra",
+    metaTitle: "Archivos de Muestra - Descargar Archivos de Prueba | FormiPeek",
+    metaDescription: "Descarga archivos de muestra en varios formatos para probar nuestras herramientas de conversión. Prueba antes de convertir.",
+    metaKeywords: "archivos de muestra, archivos de prueba, ejemplos de archivos, descargar muestras, prueba de conversión",
+    subtitle: "Explora archivos de muestra para todos los formatos compatibles. Prueba antes de convertir.",
+    cardTitle: "Archivos de Muestra",
+    cardDescription: "Descarga archivos de muestra en varios formatos para probar nuestras herramientas. Prueba con ejemplos reales antes de convertir.",
+    comingSoon: "Próximamente...",
+  },
+};

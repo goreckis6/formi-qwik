@@ -2768,5 +2768,40 @@ export const fr: Translations = {
       ],
     },
   },
-};
 
+  // Viewers Page
+  viewers: {
+    title: "Visionneuses de Fichiers",
+    metaTitle: "Visionneuses de Fichiers - Aperçu dans le Navigateur | FormiPeek",
+    metaDescription: "Visualisez les fichiers directement dans votre navigateur. Sans téléchargement. Support des images, documents, PDFs et plus.",
+    metaKeywords: "visionneuse de fichiers, visionneuse en ligne, visionneuse PDF, visionneuse d'images, aperçu de fichiers",
+    subtitle: "Visualisez les fichiers directement dans votre navigateur. Sans téléchargement.",
+    cardTitle: "Visionneuses de Fichiers",
+    cardDescription: "Visualisez les fichiers directement dans votre navigateur sans téléchargement. Support des images, documents, PDFs et plus.",
+    comingSoon: "Bientôt disponible...",
+  },
+
+  // Compress Page
+  compress: {
+    title: "Compression de Fichiers",
+    metaTitle: "Compression de Fichiers - Compresser Images et PDFs en Ligne | FormiPeek",
+    metaDescription: "Compressez les images et PDFs sans perte de qualité. Outils de compression rapides et gratuits. Réduisez la taille des fichiers.",
+    metaKeywords: "compression de fichiers, compresser images, compresser PDF, compresseur d'images, réduire taille fichier",
+    subtitle: "Réduisez la taille des fichiers sans perte de qualité. Rapide et gratuit.",
+    cardTitle: "Compression de Fichiers",
+    cardDescription: "Compressez les images et PDFs sans perte de qualité. Réduisez la taille des fichiers pour des téléchargements plus rapides. Support JPG, PNG et PDF.",
+    comingSoon: "Bientôt disponible...",
+  },
+
+  // Samples Page
+  samples: {
+    title: "Fichiers Exemples",
+    metaTitle: "Fichiers Exemples - Télécharger des Fichiers de Test | FormiPeek",
+    metaDescription: "Téléchargez des fichiers exemples dans divers formats pour tester nos outils de conversion. Testez avant de convertir.",
+    metaKeywords: "fichiers exemples, fichiers de test, exemples de fichiers, télécharger exemples, test de conversion",
+    subtitle: "Parcourez des fichiers exemples pour tous les formats supportés. Testez avant de convertir.",
+    cardTitle: "Fichiers Exemples",
+    cardDescription: "Téléchargez des fichiers exemples dans divers formats pour tester nos outils. Testez avec de vrais exemples avant de convertir.",
+    comingSoon: "Bientôt disponible...",
+  },
+};

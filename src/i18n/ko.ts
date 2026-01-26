@@ -2008,10 +2008,6 @@ export const ko: Translations = {
 
   // JPG to WebP Converter
   jpgToWebp: {
-    jpgToAvif: {
-      name: "JPG to AVIF",
-      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
-    },
     title: "JPG to WebP 변환기 - 우수한 압축으로 웹용 이미지 최적화",
     metaDescription:
       "더 나은 품질로 25-35% 더 작은 파일 크기를 위해 JPG를 WebP로 변환. 웹사이트, 더 빠른 로딩, SEO에 완벽. 투명도 지원이 있는 현대적인 형식. 무료 배치 변환기, 등록 불필요.",
@@ -2633,7 +2629,163 @@ export const ko: Translations = {
       ],
     },
   },
+
+  jpgToTiff: {
+    title: "JPG to TIFF Converter - Lossless Quality for Professional Printing & Archival",
+    metaDescription:
+      "Convert JPG to TIFF for lossless quality, professional printing, and archival purposes. TIFF format preserves maximum image quality with no compression loss. Perfect for photography, printing, and long-term storage. Free batch converter, no registration.",
+    metaKeywords:
+      "JPG to TIFF, convert JPG to TIFF, lossless image format, professional printing, archival format, batch convert JPG, TIFF converter, free TIFF converter, high quality images",
+    hero: {
+      title: "JPG to TIFF Converter",
+      subtitle:
+        "Convert JPG to TIFF for lossless quality and professional printing. TIFF (Tagged Image File Format) preserves maximum image quality with no compression loss - perfect for photography, professional printing, archival purposes, and long-term storage. TIFF is the industry standard for high-quality image preservation.",
+      badge1: "Lossless Quality",
+      badge2: "Professional Grade",
+      badge3: "Print Ready",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download TIFF",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "Lossless quality - no compression artifacts or quality loss",
+        "Professional printing standard - industry-accepted format",
+        "Archival quality - perfect for long-term storage",
+        "Batch processing up to 20 files simultaneously",
+        "100% secure with automatic file deletion",
+        "Preserves all image data and metadata",
+        "Instant download - ready for professional use",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download TIFF",
+      step3Desc: "Get your high-quality TIFF files immediately",
+    },
+    about: {
+      title: "About JPG to TIFF Conversion",
+      whatIsTiff: {
+        title: "What is TIFF Format?",
+        content:
+          "TIFF (Tagged Image File Format) is a lossless image format developed by Aldus (now Adobe) in 1986. TIFF is the industry standard for high-quality image preservation, professional printing, and archival purposes. Unlike JPG which uses lossy compression, TIFF preserves 100% of image data with no quality loss. TIFF supports multiple compression methods (LZW, ZIP, JPEG), color depths (8-bit, 16-bit, 32-bit), color spaces (RGB, CMYK, LAB), and can store multiple images in a single file. TIFF is widely used in photography, publishing, medical imaging, scientific research, and archival systems. Major software like Photoshop, Lightroom, and professional printing services use TIFF as the preferred format for maximum quality preservation.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to TIFF?",
+        content:
+          "Convert JPG to TIFF when you need maximum image quality preservation. Key benefits: lossless quality (no compression artifacts), professional printing (industry standard format), archival storage (long-term preservation), maximum detail (preserves all image data), color accuracy (supports wide color spaces), metadata preservation (EXIF, IPTC, XMP), professional workflow (compatible with all professional software), and future-proof format (industry standard). TIFF is essential for: professional photography, printing services, archival systems, scientific research, medical imaging, graphic design, publishing, and any application requiring maximum quality preservation. TIFF ensures your images maintain the highest possible quality for professional use.",
+      },
+      benefits: {
+        title: "Benefits of TIFF Format",
+        list: [
+          "Lossless Quality - No compression artifacts or quality loss",
+          "Professional Standard - Industry-accepted format for printing",
+          "Archival Grade - Perfect for long-term storage and preservation",
+          "Maximum Detail - Preserves all image data and information",
+          "Color Accuracy - Supports wide color spaces and depths",
+          "Metadata Support - Preserves EXIF, IPTC, and XMP data",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to TIFF",
+      items: [
+        {
+          q: "Is it free to convert JPG to TIFF?",
+          a: "Yes! Our JPG to TIFF converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for professional printing, archival, or high-quality preservation.",
+        },
+        {
+          q: "Will TIFF files be larger than JPG?",
+          a: "Yes, TIFF files are typically larger than JPG because TIFF uses lossless compression (or no compression) while JPG uses lossy compression. However, TIFF preserves 100% of image quality with no artifacts, making it essential for professional printing and archival purposes where quality is paramount.",
+        },
+        {
+          q: "Is TIFF quality better than JPG?",
+          a: "Yes! TIFF preserves lossless quality with no compression artifacts, while JPG uses lossy compression that discards some image data. TIFF is the industry standard for professional printing and archival because it maintains maximum image quality. For web use, JPG is more efficient. For professional printing and archival, TIFF is essential.",
+        },
+        {
+          q: "Can TIFF be used for professional printing?",
+          a: "Absolutely! TIFF is the industry standard format for professional printing. Print shops, publishers, and professional photographers use TIFF because it preserves maximum quality, supports CMYK color space, and maintains all image data. TIFF is the preferred format for high-quality printing.",
+        },
+        {
+          q: "Is TIFF good for archival storage?",
+          a: "Yes! TIFF is perfect for archival storage because it uses lossless compression (or no compression), preserving 100% of image data. Libraries, museums, and archival systems use TIFF for long-term preservation. TIFF ensures your images maintain maximum quality for future generations.",
+        },
+        {
+          q: "Does TIFF support transparency?",
+          a: "Yes! TIFF supports alpha channel transparency, making it suitable for images requiring transparent backgrounds. TIFF's transparency support is lossless, preserving perfect transparency quality for professional graphics and design work.",
+        },
+        {
+          q: "Can I convert multiple JPG files to TIFF at once?",
+          a: "Yes! Our converter supports batch processing up to 20 files simultaneously. Simply select multiple JPG files, and they'll all be converted to TIFF format instantly. Perfect for photographers and professionals processing large image collections.",
+        },
+        {
+          q: "How long does JPG to TIFF conversion take?",
+          a: "Conversion takes 1-3 seconds per image depending on file size. TIFF conversion is fast and efficient, producing high-quality lossless images ready for professional printing, archival, or any application requiring maximum quality preservation.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "TIFF to JPG", url: "/convert/tiff-to-jpg" },
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+        { name: "PNG to TIFF", url: "/convert/png-to-tiff" },
+        { name: "HEIC to TIFF", url: "/convert/heic-to-tiff" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+      ],
+    },
+  },
+  // JPG to GIF Converter
+  // Viewers Page
+  viewers: {
+    title: "파일 뷰어",
+    metaTitle: "파일 뷰어 - 브라우저에서 미리보기 | FormiPeek",
+    metaDescription: "브라우저에서 직접 파일을 봅니다. 다운로드 불필요. 이미지, 문서, PDF 등을 지원합니다.",
+    metaKeywords: "파일 뷰어, 온라인 뷰어, PDF 뷰어, 이미지 뷰어, 파일 미리보기",
+    subtitle: "브라우저에서 직접 파일을 봅니다. 다운로드 불필요.",
+    cardTitle: "파일 뷰어",
+    cardDescription: "다운로드 없이 브라우저에서 직접 파일을 봅니다. 이미지, 문서, PDF 및 기타 형식을 지원합니다.",
+    comingSoon: "곧 출시...",
+  },
+
+  // Compress Page
+  compress: {
+    title: "파일 압축",
+    metaTitle: "파일 압축 - 이미지 및 PDF 온라인 압축 | FormiPeek",
+    metaDescription: "품질 손실 없이 이미지와 PDF를 압축합니다. 빠르고 무료 압축 도구. 파일 크기를 줄입니다.",
+    metaKeywords: "파일 압축, 이미지 압축, PDF 압축, 이미지 압축기, 파일 크기 줄이기",
+    subtitle: "품질 손실 없이 파일 크기를 줄입니다. 빠르고 무료.",
+    cardTitle: "파일 압축",
+    cardDescription: "품질 손실 없이 이미지와 PDF를 압축합니다. 더 빠른 업로드를 위해 파일 크기를 줄입니다. JPG, PNG, PDF 지원.",
+    comingSoon: "곧 출시...",
+  },
+
+  // Samples Page
+  samples: {
+    title: "샘플 파일",
+    metaTitle: "샘플 파일 - 테스트 파일 다운로드 | FormiPeek",
+    metaDescription: "변환 도구를 테스트하기 위해 다양한 형식의 샘플 파일을 다운로드합니다. 변환 전 테스트하세요.",
+    metaKeywords: "샘플 파일, 테스트 파일, 파일 샘플, 샘플 다운로드, 변환 테스트",
+    subtitle: "지원되는 모든 형식의 샘플 파일을 찾아보세요. 변환 전 테스트하세요.",
+    cardTitle: "샘플 파일",
+    cardDescription: "도구를 테스트하기 위해 다양한 형식의 샘플 파일을 다운로드합니다. 변환 전 실제 예제로 테스트하세요.",
+    comingSoon: "곧 출시...",
+  },
 };
-
-export type Translations = typeof ko;
-

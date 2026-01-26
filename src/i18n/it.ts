@@ -2764,4 +2764,40 @@ export const it: Translations = {
       ],
     },
   },
+
+  // Viewers Page
+  viewers: {
+    title: "Visualizzatori di File",
+    metaTitle: "Visualizzatori di File - Anteprima nel Browser | FormiPeek",
+    metaDescription: "Visualizza i file direttamente nel tuo browser. Senza download. Supporto per immagini, documenti, PDF e altri formati.",
+    metaKeywords: "visualizzatore di file, visualizzatore online, visualizzatore PDF, visualizzatore immagini, anteprima file",
+    subtitle: "Visualizza i file direttamente nel tuo browser. Senza download.",
+    cardTitle: "Visualizzatori di File",
+    cardDescription: "Visualizza i file direttamente nel browser senza download. Supporto per immagini, documenti, PDF e altri formati.",
+    comingSoon: "Prossimamente...",
+  },
+
+  // Compress Page
+  compress: {
+    title: "Compressione File",
+    metaTitle: "Compressione File - Comprimi Immagini e PDF Online | FormiPeek",
+    metaDescription: "Comprimi immagini e PDF senza perdere qualità. Strumenti di compressione veloci e gratuiti. Riduci le dimensioni dei file.",
+    metaKeywords: "compressione file, comprimi immagini, comprimi PDF, compressore immagini, ridurre dimensione file",
+    subtitle: "Riduci le dimensioni dei file senza perdere qualità. Veloce e gratuito.",
+    cardTitle: "Compressione File",
+    cardDescription: "Comprimi immagini e PDF senza perdere qualità. Riduci le dimensioni per caricamenti più veloci. Supporto JPG, PNG e PDF.",
+    comingSoon: "Prossimamente...",
+  },
+
+  // Samples Page
+  samples: {
+    title: "File di Esempio",
+    metaTitle: "File di Esempio - Scarica File di Test | FormiPeek",
+    metaDescription: "Scarica file di esempio in vari formati per testare i nostri strumenti di conversione. Testa prima di convertire.",
+    metaKeywords: "file di esempio, file di test, esempi di file, scarica esempi, test conversione",
+    subtitle: "Sfoglia file di esempio per tutti i formati supportati. Testa prima di convertire.",
+    cardTitle: "File di Esempio",
+    cardDescription: "Scarica file di esempio in vari formati per testare i nostri strumenti. Testa con esempi reali prima di convertire.",
+    comingSoon: "Prossimamente...",
+  },
 };

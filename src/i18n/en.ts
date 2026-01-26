@@ -2788,6 +2788,42 @@ export const en = {
       ],
     },
   },
+
+  // Viewers Page
+  viewers: {
+    title: "File Viewers",
+    metaTitle: "File Viewers - Preview Files in Browser | FormiPeek",
+    metaDescription: "Preview and view files directly in your browser. No downloads needed. Support for images, documents, PDFs, and more file formats.",
+    metaKeywords: "file viewer, online file viewer, PDF viewer, image viewer, document viewer, preview files, browser viewer, file preview",
+    subtitle: "Preview and view files directly in your browser. No downloads needed.",
+    cardTitle: "File Viewers",
+    cardDescription: "Preview and view files directly in your browser without downloading. Support for images, documents, PDFs, and more formats.",
+    comingSoon: "Coming soon...",
+  },
+
+  // Compress Page
+  compress: {
+    title: "File Compression",
+    metaTitle: "File Compression - Compress Images & PDFs Online | FormiPeek",
+    metaDescription: "Compress images and PDFs without losing quality. Fast and free compression tools. Reduce file sizes for faster uploads and easier sharing.",
+    metaKeywords: "file compression, compress images, compress PDF, image compressor, PDF compressor, reduce file size, online compression, free compression",
+    subtitle: "Reduce file sizes without losing quality. Fast and free.",
+    cardTitle: "File Compression",
+    cardDescription: "Compress images and PDFs without losing quality. Reduce file sizes for faster uploads and easier sharing. Support for JPG, PNG, and PDF formats.",
+    comingSoon: "Coming soon...",
+  },
+
+  // Samples Page
+  samples: {
+    title: "Sample Files",
+    metaTitle: "Sample Files - Download Test Files | FormiPeek",
+    metaDescription: "Download sample files in various formats for testing our conversion tools. Browse sample files for all supported formats to test before you convert.",
+    metaKeywords: "sample files, test files, file samples, download samples, format samples, test conversion, file testing",
+    subtitle: "Browse sample files for all supported formats. Test before you convert.",
+    cardTitle: "Sample Files",
+    cardDescription: "Download sample files in various formats for testing our conversion tools. Test before you convert with real examples.",
+    comingSoon: "Coming soon...",
+  },
 };
 
 export type Translations = typeof en;
