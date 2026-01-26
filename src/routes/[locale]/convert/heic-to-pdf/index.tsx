@@ -41,6 +41,17 @@ export default component$(() => {
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
   const conv = t.heicToPdf;
+  const loc = useLocation();
+  const pageUrl = loc.url.origin + loc.url.pathname;
+
+  const softwareSchema = getSoftwareApplicationSchema({
+    name: conv.title,
+    description: conv.metaDescription,
+    url: pageUrl,
+    lang: locale,
+  });
+
+  const faqSchema = getFaqSchema(conv.faq.items);
 
   // File handling signals
   const selectedFiles = useSignal<File[]>([]);
@@ -750,14 +761,20 @@ export default component$(() => {
           </div>
         </div>
       </div>
+
+      {/* SoftwareApplication Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(softwareSchema)} />
+
+      {/* FAQ Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(faqSchema)} />
     </div>
   );
 });
 
-export const head: DocumentHead = ({ resolveValue }) => {
+export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
   const conv = localeData.translations.heicToPdf;
-  const locale = localeData.locale;
+  const pageUrl = url.origin + url.pathname;
   
   return {
     title: conv.title,
@@ -766,18 +783,14 @@ export const head: DocumentHead = ({ resolveValue }) => {
         name: "description",
         content: conv.metaDescription,
       },
-      {
-        name: "keywords",
-        content: conv.metaKeywords,
-      },
       // Open Graph
       {
         property: "og:type",
-        content: "website",
+        content: "article",
       },
       {
         property: "og:url",
-        content: `https://formipeek.com${locale === 'en' ? '' : `/${locale}`}/convert/heic-to-pdf`,
+        content: pageUrl,
       },
       {
         property: "og:title",

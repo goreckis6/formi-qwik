@@ -411,27 +411,26 @@ export default component$(() => {
   );
 });
 
-export const head: DocumentHead = {
-  title: "File Converters - Convert 300+ File Formats | FormiPeek",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Browse and use our 300+ file format converters. Convert images, documents, ebooks, and data files instantly. Free, fast, and secure conversion.",
-    },
-    {
-      name: "keywords",
-      content:
-        "file converters, format converter, image converter, document converter, ebook converter, batch conversion, online converter, free converter",
-    },
-    {
-      property: "og:type",
-      content: "website",
-    },
-    {
-      property: "og:url",
-      content: "https://formipeek.com/converters",
-    },
+export const head: DocumentHead = ({ resolveValue, url }) => {
+  const localeData = resolveValue(useLocaleLoader);
+  const pageUrl = url.origin + url.pathname;
+
+  return {
+    title: "File Converters - Convert 300+ File Formats | FormiPeek",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Browse and use our 300+ file format converters. Convert images, documents, ebooks, and data files instantly. Free, fast, and secure conversion.",
+      },
+      {
+        property: "og:type",
+        content: "website",
+      },
+      {
+        property: "og:url",
+        content: pageUrl,
+      },
     {
       property: "og:title",
       content: "File Converters - Convert 300+ File Formats | FormiPeek",
@@ -453,5 +452,6 @@ export const head: DocumentHead = {
       name: "twitter:description",
       content: "Browse and use our 300+ file format converters. Free, fast, and secure conversion.",
     },
-  ],
+    ],
+  };
 };

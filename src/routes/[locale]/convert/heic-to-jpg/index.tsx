@@ -7,8 +7,6 @@ import { AdsPlaceholder } from "~/components/ads/ads-placeholder";
 import { initializeAds } from "~/lib/ads-config";
 import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
 import { getFaqSchema } from "~/seo/faqSchema";
-import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
-import { getFaqSchema } from "~/seo/faqSchema";
 
 const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || 'https://api.formipeek.com';
 
@@ -43,11 +41,13 @@ export default component$(() => {
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
   const conv = t.heicToJpg;
+  const loc = useLocation();
+  const pageUrl = loc.url.origin + loc.url.pathname;
 
   const softwareSchema = getSoftwareApplicationSchema({
     name: conv.title,
     description: conv.metaDescription,
-    url: `https://formipeek.com${locale === 'en' ? '' : `/${locale}`}/convert/heic-to-jpg`,
+    url: pageUrl,
     lang: locale,
   });
 
@@ -769,10 +769,10 @@ export default component$(() => {
   );
 });
 
-export const head: DocumentHead = ({ resolveValue }) => {
+export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
   const conv = localeData.translations.heicToJpg;
-  const locale = localeData.locale;
+  const pageUrl = url.origin + url.pathname;
   
   return {
     title: conv.title,
@@ -781,18 +781,14 @@ export const head: DocumentHead = ({ resolveValue }) => {
         name: "description",
         content: conv.metaDescription,
       },
-      {
-        name: "keywords",
-        content: conv.metaKeywords,
-      },
       // Open Graph
       {
         property: "og:type",
-        content: "website",
+        content: "article",
       },
       {
         property: "og:url",
-        content: `https://formipeek.com${locale === 'en' ? '' : `/${locale}`}/convert/heic-to-jpg`,
+        content: pageUrl,
       },
       {
         property: "og:title",
