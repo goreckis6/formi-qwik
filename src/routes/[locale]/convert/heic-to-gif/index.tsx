@@ -685,38 +685,12 @@ export default component$(() => {
               <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">{conv.faq.title}</h2>
               
               <div class="space-y-6">
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q1}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a1}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q2}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a2}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q3}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a3}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q4}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a4}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q5}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a5}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q6}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a6}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q7}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a7}</p>
-                </div>
-                <div>
-                  <h3 class="text-lg font-bold text-gray-900 mb-2">{conv.faq.q8}</h3>
-                  <p class="text-gray-700 leading-relaxed">{conv.faq.a8}</p>
-                </div>
+                {conv.faq.items.map((item, i) => (
+                  <div key={i}>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">{item.q}</h3>
+                    <p class="text-gray-700 leading-relaxed">{item.a}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
