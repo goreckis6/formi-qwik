@@ -1,10 +1,12 @@
 import { component$, useSignal, $, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { routeLoader$ } from "@builder.io/qwik-city";
+import { routeLoader$, useLocation } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
 import { AdsPlaceholder } from "~/components/ads/ads-placeholder";
 import { initializeAds } from "~/lib/ads-config";
+import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
+import { getFaqSchema } from "~/seo/faqSchema";
 
 const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || 'https://api.formipeek.com';
 
@@ -39,6 +41,17 @@ export default component$(() => {
   const t = localeData.value.translations;
   const locale = localeData.value.locale;
   const conv = t.heicToPng;
+  const loc = useLocation();
+  const pageUrl = loc.url.origin + loc.url.pathname;
+
+  const softwareSchema = getSoftwareApplicationSchema({
+    name: conv.title,
+    description: conv.metaDescription,
+    url: pageUrl,
+    lang: locale,
+  });
+
+  const faqSchema = getFaqSchema(conv.faq.items);
 
   // File handling signals
   const selectedFiles = useSignal<File[]>([]);
@@ -746,14 +759,20 @@ export default component$(() => {
           </div>
         </div>
       </div>
+
+      {/* SoftwareApplication Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(softwareSchema)} />
+
+      {/* FAQ Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={JSON.stringify(faqSchema)} />
     </div>
   );
 });
 
-export const head: DocumentHead = ({ resolveValue }) => {
+export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
   const conv = localeData.translations.heicToPng;
-  const locale = localeData.locale;
+  const pageUrl = url.origin + url.pathname;
   
   return {
     title: conv.title,
@@ -763,17 +782,12 @@ export const head: DocumentHead = ({ resolveValue }) => {
         content: conv.metaDescription,
       },
       {
-        name: "keywords",
-        content: conv.metaKeywords,
-      },
-      // Open Graph
-      {
         property: "og:type",
-        content: "website",
+        content: "article",
       },
       {
         property: "og:url",
-        content: `https://formipeek.com${locale === 'en' ? '' : `/${locale}`}/convert/heic-to-png`,
+        content: pageUrl,
       },
       {
         property: "og:title",

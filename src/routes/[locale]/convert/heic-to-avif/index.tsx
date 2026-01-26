@@ -7,6 +7,8 @@ import { AdsPlaceholder } from "~/components/ads/ads-placeholder";
 import { initializeAds } from "~/lib/ads-config";
 import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
 import { getFaqSchema } from "~/seo/faqSchema";
+import { getSoftwareApplicationSchema } from "~/seo/softwareApplicationSchema";
+import { getFaqSchema } from "~/seo/faqSchema";
 
 const API_BASE_URL = import.meta.env.PUBLIC_API_BASE_URL || "https://api.formipeek.com";
 
