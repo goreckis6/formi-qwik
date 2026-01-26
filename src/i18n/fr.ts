@@ -2747,32 +2747,12 @@ export const fr: Translations = {
           a: "HEIF (High Efficiency Image Format) est le nom de format standard, tandis que HEIC (High Efficiency Image Container) est l'implémentation spécifique d'Apple. Ils utilisent la même technologie de compression et sont fonctionnellement très similaires. Notre convertisseur gère les deux formats de manière transparente.",
         },
         {
-          q: "Mes données sont-elles sûres ?",
-          a: "Absolument. Toutes les conversions se font en toute sécurité sur nos serveurs avec chiffrement SSL. Vos fichiers sont automatiquement supprimés immédiatement après la conversion. Nous ne stockons, ne partageons ni n'accédons jamais à vos fichiers.",
+          q: "La transparence sera-t-elle préservée ?",
+          a: "Oui. Le format PNG prend en charge la transparence, et notre convertisseur préserve toutes les informations de transparence de l'image HEIF d'origine lors de la conversion en PNG.",
         },
         {
           q: "Quelle est la taille maximale de fichier ?",
           a: "Vous pouvez convertir des fichiers HEIF jusqu'à 100MB chacun. Pour la conversion par lots, vous pouvez traiter jusqu'à 20 fichiers à la fois avec une limite totale de 100MB.",
-        },
-        {
-          q: "Prenez-vous en charge la conversion par lots ?",
-          a: "Oui ! Vous pouvez télécharger et convertir jusqu'à 20 fichiers HEIF simultanément. Tous les PNG convertis seront disponibles au téléchargement en tant que fichiers individuels ou dans une seule archive ZIP.",
-        },
-        {
-          q: "La qualité sera-t-elle préservée ?",
-          a: "Oui, nous maintenons une haute qualité d'image pendant la conversion. Vos images HEIF seront converties en PNG haute résolution avec une perte de qualité minimale.",
-        },
-        {
-          q: "Puis-je convertir HEIF depuis n'importe quel appareil ?",
-          a: "Oui ! Notre convertisseur fonctionne avec des images HEIF de n'importe quel appareil ou appareil photo qui prend en charge le format HEIF, pas seulement les appareils Apple. Il suffit de télécharger vos fichiers HEIF et de les convertir en PNG.",
-        },
-        {
-          q: "Dois-je installer un logiciel ?",
-          a: "Aucune installation nécessaire. Notre convertisseur en ligne fonctionne directement dans votre navigateur web sur n'importe quel appareil - Windows, Mac, Linux, iOS ou Android.",
-        },
-        {
-          q: "Combien de temps prend la conversion ?",
-          a: "La conversion est presque instantanée ! La plupart des fichiers HEIF se convertissent en PNG en quelques secondes seulement, selon la taille du fichier et votre connexion Internet.",
         },
       ],
     },

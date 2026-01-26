@@ -2614,32 +2614,12 @@ export const sv: Translations = {
           a: "HEIF (High Efficiency Image Format) är standardformatets namn, medan HEIC (High Efficiency Image Container) är Apples specifika implementering. De använder samma komprimerings teknologi och är funktionellt mycket lika. Vår konverterare hanterar båda formaten sömlöst.",
         },
         {
-          q: "Är mina data säkra?",
-          a: "Absolut. Alla konverteringar sker säkert på våra servrar med SSL-kryptering. Dina filer raderas automatiskt direkt efter konvertering. Vi lagrar, delar eller öppnar aldrig dina filer.",
+          q: "Kommer transparensen att bevaras?",
+          a: "Ja. PNG-formatet stöder transparens, och vår konverterare bevarar all transparensinformation från den ursprungliga HEIF-bilden vid konvertering till PNG.",
         },
         {
           q: "Vad är den maximala filstorleken?",
           a: "Du kan konvertera HEIF-filer upp till 100MB vardera. För batchkonvertering kan du bearbeta upp till 20 filer samtidigt med en total gräns på 100MB.",
-        },
-        {
-          q: "Stöder ni batchkonvertering?",
-          a: "Ja! Du kan ladda upp och konvertera upp till 20 HEIF-filer samtidigt. Alla konverterade PNG:er kommer att vara tillgängliga för nedladdning som individuella filer eller i ett enda ZIP-arkiv.",
-        },
-        {
-          q: "Kommer kvaliteten att bevaras?",
-          a: "Ja, vi bevarar hög bildkvalitet under konvertering. Dina HEIF-bilder kommer att konverteras till högupplösta PNG:er med minimal kvalitetsförlust.",
-        },
-        {
-          q: "Kan jag konvertera HEIF från vilken enhet som helst?",
-          a: "Ja! Vår konverterare fungerar med HEIF-bilder från vilken enhet eller kamera som helst som stöder HEIF-formatet, inte bara Apple-enheter. Ladda bara upp dina HEIF-filer och konvertera dem till PNG.",
-        },
-        {
-          q: "Behöver jag installera någon programvara?",
-          a: "Ingen installation behövs. Vår onlinekonverterare fungerar direkt i din webbläsare på vilken enhet som helst - Windows, Mac, Linux, iOS eller Android.",
-        },
-        {
-          q: "Hur lång tid tar konverteringen?",
-          a: "Konvertering är nästan omedelbar! De flesta HEIF-filer konverteras till PNG på bara några sekunder, beroende på filstorleken och din internetanslutning.",
         },
       ],
     },

@@ -2558,32 +2558,12 @@ export const id: Translations = {
           a: 'HEIF (High Efficiency Image Format) adalah nama format standar, sementara HEIC (High Efficiency Image Container) adalah implementasi khusus Apple. Mereka menggunakan teknologi kompresi yang sama dan secara fungsional sangat mirip. Konverter kami menangani kedua format dengan mulus.',
         },
         {
-          q: 'Apakah data saya aman?',
-          a: 'Sangat aman. Semua konversi terjadi dengan aman di server kami dengan enkripsi SSL. File Anda secara otomatis dihapus segera setelah konversi. Kami tidak pernah menyimpan, berbagi, atau mengakses file Anda.',
+          q: 'Apakah transparansi akan dipertahankan?',
+          a: 'Ya. Format PNG mendukung transparansi, dan konverter kami mempertahankan informasi transparansi apa pun dari gambar HEIF asli saat mengonversi ke PNG.',
         },
         {
           q: 'Berapa ukuran file maksimum?',
           a: 'Anda dapat mengonversi file HEIF hingga 100MB masing-masing. Untuk konversi batch, Anda dapat memproses hingga 20 file sekaligus dengan batas total 100MB.',
-        },
-        {
-          q: 'Apakah Anda mendukung konversi batch?',
-          a: 'Ya! Anda dapat mengunggah dan mengonversi hingga 20 file HEIF secara bersamaan. Semua PNG yang dikonversi akan tersedia untuk diunduh sebagai file individual atau dalam satu arsip ZIP.',
-        },
-        {
-          q: 'Apakah kualitas akan dipertahankan?',
-          a: 'Ya, kami mempertahankan kualitas gambar tinggi selama konversi. Gambar HEIF Anda akan dikonversi ke PNG resolusi tinggi dengan kehilangan kualitas minimal.',
-        },
-        {
-          q: 'Bisakah saya mengonversi HEIF dari perangkat apa pun?',
-          a: 'Ya! Konverter kami bekerja dengan gambar HEIF dari perangkat atau kamera apa pun yang mendukung format HEIF, tidak hanya perangkat Apple. Cukup unggah file HEIF Anda dan konversi ke PNG.',
-        },
-        {
-          q: 'Apakah saya perlu menginstal perangkat lunak?',
-          a: 'Tidak perlu instalasi. Konverter online kami bekerja langsung di browser web Anda di perangkat apa pun - Windows, Mac, Linux, iOS, atau Android.',
-        },
-        {
-          q: 'Berapa lama konversi berlangsung?',
-          a: 'Konversi hampir instan! Sebagian besar file HEIF dikonversi ke PNG hanya dalam beberapa detik, tergantung pada ukuran file dan koneksi internet Anda.',
         },
       ],
     },

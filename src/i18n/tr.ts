@@ -2630,32 +2630,12 @@ export const tr: Translations = {
           a: "HEIF (High Efficiency Image Format) standart format adıdır, HEIC (High Efficiency Image Container) ise Apple'ın spesifik uygulamasıdır. Aynı sıkıştırma teknolojisini kullanırlar ve işlevsel olarak çok benzerdir. Dönüştürücümüz her iki formatı da sorunsuz bir şekilde işler.",
         },
         {
-          q: "Verilerim güvende mi?",
-          a: "Kesinlikle. Tüm dönüştürmeler SSL şifreleme ile sunucularımızda güvenli bir şekilde gerçekleşir. Dosyalarınız dönüştürmeden hemen sonra otomatik olarak silinir. Dosyalarınızı asla saklamayız, paylaşmayız veya erişmeyiz.",
+          q: "Şeffaflık korunacak mı?",
+          a: "Evet. PNG formatı şeffaflığı destekler ve dönüştürücümüz, PNG'ye dönüştürürken orijinal HEIF görüntüsünden herhangi bir şeffaflık bilgisini korur.",
         },
         {
           q: "Maksimum dosya boyutu nedir?",
           a: "Her biri 100MB'a kadar HEIF dosyalarını dönüştürebilirsiniz. Toplu dönüştürme için, toplam 100MB limiti ile aynı anda 20 dosyaya kadar işleyebilirsiniz.",
-        },
-        {
-          q: "Toplu dönüştürmeyi destekliyor musunuz?",
-          a: "Evet! Aynı anda 20'ye kadar HEIF dosyasını yükleyip dönüştürebilirsiniz. Dönüştürülen tüm PNG'ler, ayrı dosyalar veya tek bir ZIP arşivi olarak indirilebilir.",
-        },
-        {
-          q: "Kalite korunacak mı?",
-          a: "Evet, dönüştürme sırasında yüksek görüntü kalitesini koruyoruz. HEIF görüntüleriniz minimal kalite kaybıyla yüksek çözünürlüklü PNG'lere dönüştürülecektir.",
-        },
-        {
-          q: "HEIF'i herhangi bir cihazdan dönüştürebilir miyim?",
-          a: "Evet! Dönüştürücümüz HEIF formatını destekleyen herhangi bir cihaz veya kameradan HEIF görüntüleriyle çalışır, yalnızca Apple cihazları değil. Sadece HEIF dosyalarınızı yükleyin ve PNG'ye dönüştürün.",
-        },
-        {
-          q: "Herhangi bir yazılım yüklemem gerekiyor mu?",
-          a: "Yükleme gerekmez. Çevrimiçi dönüştürücümüz, Windows, Mac, Linux, iOS veya Android'deki herhangi bir cihazda web tarayıcınızda doğrudan çalışır.",
-        },
-        {
-          q: "Dönüştürme ne kadar sürer?",
-          a: "Dönüştürme neredeyse anında! Çoğu HEIF dosyası, dosya boyutuna ve internet bağlantınıza bağlı olarak sadece birkaç saniye içinde PNG'ye dönüştürülür.",
         },
       ],
     },
