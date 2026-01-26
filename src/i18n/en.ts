@@ -155,16 +155,20 @@ export const en = {
     sections: {
       heic: {
         title: "HEIC Converters",
-        description: "Convert Apple HEIC format images. HEIC (High Efficiency Image Container) is Apple's proprietary image format used by iPhones and iPads since iOS 11. It provides excellent compression while maintaining high image quality.",
+        description:
+          "Convert Apple HEIC format images. HEIC (High Efficiency Image Container) is Apple's proprietary image format used by iPhones and iPads since iOS 11. It provides excellent compression while maintaining high image quality.",
       },
       heif: {
         title: "HEIF Converters",
-        description: "Convert HEIF format images. HEIF (High Efficiency Image Format) is the open standard container format that HEIC is based on. While HEIC is Apple's implementation, HEIF is used by other devices and platforms.",
-        difference: "Note: HEIF is the container format, while HEIC is Apple's specific implementation. Both formats are compatible, but HEIC files are more commonly used by Apple devices.",
+        description:
+          "Convert HEIF format images. HEIF (High Efficiency Image Format) is the open standard container format that HEIC is based on. While HEIC is Apple's implementation, HEIF is used by other devices and platforms.",
+        difference:
+          "Note: HEIF is the container format, while HEIC is Apple's specific implementation. Both formats are compatible, but HEIC files are more commonly used by Apple devices.",
       },
       jpg: {
         title: "JPG Converters",
-        description: "Convert JPG/JPEG images to other formats. JPG (Joint Photographic Experts Group) is the most widely used image format for photos, optimized for photographic content with lossy compression.",
+        description:
+          "Convert JPG/JPEG images to other formats. JPG (Joint Photographic Experts Group) is the most widely used image format for photos, optimized for photographic content with lossy compression.",
       },
     },
     heicToPdf: {
@@ -233,19 +237,23 @@ export const en = {
     },
     jpgToAvif: {
       name: "JPG to AVIF",
-      description: "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
+      description:
+        "Convert JPG to AVIF for 50% smaller files with superior quality and modern compression",
     },
     jpgToTiff: {
       name: "JPG to TIFF",
-      description: "Convert JPG to TIFF for lossless quality, professional printing, and archival purposes",
+      description:
+        "Convert JPG to TIFF for lossless quality, professional printing, and archival purposes",
     },
     jpgToGif: {
       name: "JPG to GIF",
-      description: "Convert JPG to GIF for animations, social media, and web graphics with transparency support",
+      description:
+        "Convert JPG to GIF for animations, social media, and web graphics with transparency support",
     },
     jpgToPdf: {
       name: "JPG to PDF",
-      description: "Convert JPG images to PDF documents for universal compatibility and professional presentation",
+      description:
+        "Convert JPG images to PDF documents for universal compatibility and professional presentation",
     },
   },
 
@@ -1895,7 +1903,6 @@ export const en = {
       ],
     },
   },
-
 
   // JPG to PNG Converter
   jpgToPng: {
