@@ -4,15 +4,14 @@ import { Link, routeLoader$ } from "@builder.io/qwik-city";
 import { getTranslations, supportedLanguages } from "~/i18n";
 import { getLocalizedPath } from "~/i18n/utils";
 
-export const useLocaleLoader = routeLoader$(({ url }) => {
-  const pathParts = url.pathname.split("/").filter(Boolean);
-  const firstPart = pathParts[0];
-  const isLanguageCode = supportedLanguages.some((lang) => lang.code === firstPart);
-  const locale = isLanguageCode ? firstPart : "en";
+export const useLocaleLoader = routeLoader$(({ params }) => {
+  const locale = params.locale || 'en';
+  const isValidLocale = supportedLanguages.some(lang => lang.code === locale);
+  const finalLocale = isValidLocale ? locale : 'en';
 
   return {
-    locale,
-    translations: getTranslations(locale),
+    locale: finalLocale,
+    translations: getTranslations(finalLocale),
   };
 });
 

@@ -31,19 +31,23 @@ export function useCurrentTranslations() {
 
 /**
  * Get path with language prefix
- * English returns path without prefix, others return /[lang]/path
+ * English homepage (/) has no prefix, but other pages use /en/ prefix
+ * Other languages always use /[lang]/ prefix
+ * Adds trailing slash for Qwik routing compatibility
  */
 export function getLocalizedPath(path: string, locale: string): string {
   // Remove leading slash if present
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
   
-  // English has no prefix
-  if (locale === 'en') {
-    return `/${cleanPath}`;
+  // English homepage has no prefix
+  if (locale === 'en' && (cleanPath === '' || cleanPath === '/')) {
+    return '/';
   }
   
-  // Other languages have /[lang] prefix
-  return `/${locale}/${cleanPath}`;
+  // All other pages (including English) use /[locale]/ prefix
+  // Add trailing slash if path doesn't end with one
+  const pathWithLocale = `/${locale}/${cleanPath}`;
+  return pathWithLocale.endsWith('/') ? pathWithLocale : `${pathWithLocale}/`;
 }
 
 /**

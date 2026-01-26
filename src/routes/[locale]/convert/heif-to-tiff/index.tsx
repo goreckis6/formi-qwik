@@ -24,15 +24,14 @@ const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100 MB per file
 const MAX_BATCH_FILES = 20; // Maximum files in batch
 const MAX_BATCH_TOTAL_SIZE = 100 * 1024 * 1024; // 100 MB total for batch
 
-export const useLocaleLoader = routeLoader$(({ url }) => {
-  const pathParts = url.pathname.split("/").filter(Boolean);
-  const firstPart = pathParts[0];
-  const isLanguageCode = supportedLanguages.some((lang) => lang.code === firstPart);
-  const locale = isLanguageCode ? firstPart : "en";
+export const useLocaleLoader = routeLoader$(({ params }) => {
+  const locale = params.locale || 'en';
+  const isValidLocale = supportedLanguages.some(lang => lang.code === locale);
+  const finalLocale = isValidLocale ? locale : 'en';
 
   return {
-    locale,
-    translations: getTranslations(locale),
+    locale: finalLocale,
+    translations: getTranslations(finalLocale),
   };
 });
 
