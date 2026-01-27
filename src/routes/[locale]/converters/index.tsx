@@ -128,6 +128,11 @@ export default component$(() => {
         description: converters.jpgToGif.description,
         href: getLocalizedPath("/convert/jpg-to-gif", locale),
       }] : []),
+      ...(converters.jpgToBmp ? [{
+        name: converters.jpgToBmp.name,
+        description: converters.jpgToBmp.description,
+        href: getLocalizedPath("/convert/jpg-to-bmp", locale),
+      }] : []),
     ],
   }));
 

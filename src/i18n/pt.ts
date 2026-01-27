@@ -2399,7 +2399,131 @@ export const pt: EnTranslations = {
           ],
         },
       },
-        // JPG to PDF Converter
+      // JPG to BMP Converter
+  jpgToBmp: {
+    title: "JPG to BMP Converter - Convert Images to Windows Bitmap Format Free Online",
+    metaDescription:
+      "Convert JPG images to BMP format instantly. Free online JPG to BMP converter with batch processing. Fast, secure, and no registration required. Perfect for Windows compatibility and uncompressed image quality.",
+    metaKeywords:
+      "JPG to BMP, convert JPG to BMP, image to BMP, photo to BMP, batch convert JPG, BMP converter, free BMP converter, Windows bitmap converter",
+    hero: {
+      title: "JPG to BMP Converter",
+      subtitle:
+        "Convert JPG images to Windows BMP format instantly. BMP (Bitmap) is an uncompressed image format ideal for Windows compatibility and preserving maximum image quality. Free, fast, and secure conversion.",
+      badge1: "Uncompressed Quality",
+      badge2: "Windows Compatible",
+      badge3: "No Registration",
+    },
+    upload: {
+      title: "Upload JPG Files",
+      description:
+        "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      buttonSingle: "Single File",
+      buttonBatch: "Batch Convert",
+      chooseFile: "Choose Files",
+      converting: "Converting...",
+      success: "Conversion successful!",
+      download: "Download BMP",
+      downloadAll: "Download All as ZIP",
+      convertAnother: "Convert Another File",
+    },
+    features: {
+      title: "Features",
+      list: [
+        "High-quality JPG to BMP conversion",
+        "Batch processing up to 20 files simultaneously",
+        "Uncompressed format preserves maximum quality",
+        "Perfect Windows compatibility",
+        "100% secure with automatic file deletion",
+        "No quality loss during conversion",
+        "Instant download - ready for use",
+        "No watermarks - professional quality",
+      ],
+    },
+    howItWorks: {
+      title: "How It Works",
+      step1Title: "Upload JPG Files",
+      step1Desc: "Select one or multiple JPG images from your device",
+      step2Title: "Auto Convert",
+      step2Desc: "Our converter processes your files instantly",
+      step3Title: "Download BMP",
+      step3Desc: "Get your converted BMP files immediately",
+    },
+    about: {
+      title: "About JPG to BMP Conversion",
+      whatIsHeif: {
+        title: "What is BMP Format?",
+        content:
+          "BMP (Bitmap Image File) is a raster image file format developed by Microsoft for Windows. BMP files are uncompressed, meaning they preserve every pixel of the original image without any compression artifacts. While BMP files are larger than compressed formats like JPG, they offer maximum image quality and are universally supported in Windows systems. BMP format supports various color depths (1-bit, 4-bit, 8-bit, 16-bit, 24-bit, and 32-bit) and is ideal for applications requiring uncompressed image data.",
+      },
+      whyConvert: {
+        title: "Why Convert JPG to BMP?",
+        content:
+          "Convert JPG to BMP when you need uncompressed image quality or Windows-specific compatibility. JPG uses lossy compression which permanently reduces image quality, while BMP is uncompressed and preserves every pixel perfectly. Key reasons to convert: preserve maximum image quality (no compression artifacts), ensure Windows compatibility (native BMP support), prepare images for Windows applications (many Windows programs prefer BMP), archive images without quality loss (uncompressed format), or use images in legacy systems (BMP is widely supported). BMP is essential for applications requiring pixel-perfect accuracy, Windows software development, and archival purposes where quality preservation is critical. Note that BMP files will be significantly larger than JPG files due to lack of compression.",
+      },
+      heifVsHeic: {
+        title: "BMP vs JPG - When to Choose BMP",
+        content:
+          "BMP and JPG serve different purposes. Choose BMP for: uncompressed quality (pixel-perfect preservation), Windows applications (native support), archival storage (no quality loss), software development (Windows programs), legacy systems (universal compatibility), or pixel-perfect requirements (no artifacts). Choose JPG for: web use (smaller file sizes), sharing online (faster transfers), social media (native support), general photography (efficient storage), or when file size matters (compressed format). BMP's advantages: no quality loss (uncompressed), Windows native (built-in support), pixel perfect (exact preservation), simple format (easy processing). BMP's disadvantages: large file sizes (uncompressed), not web-friendly (slow loading), no compression options (inefficient storage). For Windows applications: Choose BMP. For web and sharing: Use JPG. For archival without quality loss: BMP is better.",
+      },
+      benefits: {
+        title: "Benefits of BMP Format",
+        list: [
+          "Uncompressed Quality - Zero compression artifacts, perfect pixel preservation",
+          "Windows Native - Built-in support in all Windows systems",
+          "Maximum Compatibility - Works with all Windows applications",
+          "No Quality Loss - Preserves every pixel of the original image",
+          "Simple Format - Easy to read and process by software",
+          "Color Depth Support - Supports various color depths up to 32-bit",
+        ],
+      },
+    },
+    faq: {
+      title: "Frequently Asked Questions – JPG to BMP",
+      items: [
+        {
+          q: "Is it free to convert JPG to BMP?",
+          a: "Yes! Our JPG to BMP converter is completely free with unlimited conversions. No registration, subscriptions, or hidden fees. Convert as many images as you need for Windows applications or archival purposes.",
+        },
+        {
+          q: "Will BMP files be larger than JPG files?",
+          a: "Yes, BMP files are typically 3-10 times larger than JPG files because BMP is uncompressed while JPG uses lossy compression. However, BMP preserves every pixel perfectly with no quality loss, making it ideal for applications requiring maximum image quality.",
+        },
+        {
+          q: "Will image quality be preserved when converting JPG to BMP?",
+          a: "BMP format preserves the image data from the JPG file, but since JPG uses lossy compression, some quality may have already been lost in the original JPG. Converting to BMP prevents further quality loss and preserves the current image quality perfectly. For best results, start with high-quality JPG images.",
+        },
+        {
+          q: "Can I use BMP files on systems other than Windows?",
+          a: "Yes, BMP files can be opened on macOS, Linux, and other operating systems, though they're most commonly associated with Windows. Most image viewers and editors support BMP format across all platforms.",
+        },
+        {
+          q: "What's the maximum file size for JPG to BMP conversion?",
+          a: "You can convert JPG files up to 100MB each. For batch conversion, you can upload up to 20 files at once, with a total size limit of 100MB. Note that the resulting BMP files will be larger than the original JPG files.",
+        },
+        {
+          q: "Why would I choose BMP over JPG?",
+          a: "Choose BMP when you need uncompressed quality, Windows-specific compatibility, or when working with applications that require BMP format. BMP is ideal for archival purposes, Windows software development, and situations where maximum image quality is more important than file size. For web use or general sharing, JPG is usually more practical due to smaller file sizes.",
+        },
+        {
+          q: "How long does JPG to BMP conversion take?",
+          a: "Conversion takes 1-2 seconds per image. BMP conversion is fast because it's primarily a format change. The result is an uncompressed BMP file ready for Windows applications or archival use.",
+        },
+      ],
+    },
+    related: {
+      title: "Related Converters",
+      converters: [
+        { name: "JPG to PNG", url: "/convert/jpg-to-png" },
+        { name: "PNG to BMP", url: "/convert/png-to-bmp" },
+        { name: "BMP to PNG", url: "/convert/bmp-to-png" },
+        { name: "JPG to WebP", url: "/convert/jpg-to-webp" },
+        { name: "JPG to TIFF", url: "/convert/jpg-to-tiff" },
+        { name: "JPG to PDF", url: "/convert/jpg-to-pdf" },
+      ],
+    },
+  },
+    // JPG to PDF Converter
   jpgToPdf: {
     title: "Conversor JPG para PDF - Converta Imagens em Documentos PDF Gratuitamente Online",
     metaDescription:
