@@ -218,7 +218,7 @@ export default component$(() => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = result.outputFilename || "converted.avif";
+      a.download = result.outputFilename || "converted.bmp";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -258,7 +258,7 @@ export default component$(() => {
           for (let i = 0; i < binaryString.length; i++) {
             bytes[i] = binaryString.charCodeAt(i);
           }
-          zip.file(result.outputFilename || "converted.avif", bytes);
+          zip.file(result.outputFilename || "converted.bmp", bytes);
         }
       }
 
@@ -338,7 +338,7 @@ export default component$(() => {
 
         progress.value = 30;
 
-        const response = await fetch(`${API_BASE_URL}/convert/jpg-to-avif/single`, {
+        const response = await fetch(`${API_BASE_URL}/convert/jpg-to-bmp/single`, {
           method: "POST",
           body: formData,
           signal: controller.signal,
@@ -380,7 +380,7 @@ export default component$(() => {
 
         progress.value = 30;
 
-        const response = await fetch(`${API_BASE_URL}/convert/jpg-to-avif/batch`, {
+        const response = await fetch(`${API_BASE_URL}/convert/jpg-to-bmp/batch`, {
           method: "POST",
           body: formData,
           signal: controller.signal,
@@ -1021,7 +1021,7 @@ export default component$(() => {
 
 export const head: DocumentHead = ({ resolveValue, url }) => {
   const localeData = resolveValue(useLocaleLoader);
-  const conv = localeData.translations.jpgToAvif;
+  const conv = localeData.translations.jpgToBmp;
   const pageUrl = url.origin + url.pathname;
 
   return {
