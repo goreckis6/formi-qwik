@@ -2526,11 +2526,11 @@ export const es: Translations = {
       },
       // JPG to BMP Converter
   jpgToBmp: {
-    title: "JPG to BMP Converter - Convert Images to Windows Bitmap Format Free Online",
+    title: "Convertidor JPG a BMP - Convierte Imágenes a Formato Windows Bitmap Gratis Online",
     metaDescription:
-      "Convert JPG images to BMP format instantly. Free online JPG to BMP converter with batch processing. Fast, secure, and no registration required. Perfect for Windows compatibility and uncompressed image quality.",
+      "Convierte imágenes JPG a formato BMP instantáneamente. Convertidor gratuito JPG a BMP en línea con procesamiento por lotes. Rápido, seguro y sin registro. Perfecto para compatibilidad con Windows y calidad sin comprimir.",
     metaKeywords:
-      "JPG to BMP, convert JPG to BMP, image to BMP, photo to BMP, batch convert JPG, BMP converter, free BMP converter, Windows bitmap converter",
+      "JPG a BMP, convertir JPG a BMP, imagen a BMP, foto a BMP, conversión por lotes JPG, convertidor BMP, convertidor BMP gratuito, convertidor Windows bitmap",
     hero: {
       title: "JPG to BMP Converter",
       subtitle:
