@@ -283,6 +283,9 @@ export const en = {
       title: "Upload HEIC Files",
       description:
         "Drag & drop your HEIC photos here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      batchTitle: "Drag & drop your JPG photos here or click to browse",
+      batchDescription:
+        "Supports batch conversion up to 20 files. Maximum 100MB per file.",
       buttonSingle: "Single File",
       buttonBatch: "Batch Convert",
       chooseFile: "Choose Files",
@@ -1928,6 +1931,9 @@ export const en = {
       title: "Upload JPG Files",
       description:
         "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      batchTitle: "Drag & drop your JPG photos here or click to browse",
+      batchDescription:
+        "Supports batch conversion up to 20 files. Maximum 100MB per file.",
       buttonSingle: "Single File",
       buttonBatch: "Batch Convert",
       chooseFile: "Choose Files",
@@ -2060,6 +2066,9 @@ export const en = {
       title: "Upload JPG Files",
       description:
         "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      batchTitle: "Drag & drop your JPG photos here or click to browse",
+      batchDescription:
+        "Supports batch conversion up to 20 files. Maximum 100MB per file.",
       buttonSingle: "Single File",
       buttonBatch: "Batch Convert",
       chooseFile: "Choose Files",
@@ -2192,6 +2201,9 @@ export const en = {
       title: "Upload JPG Files",
       description:
         "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      batchTitle: "Drag & drop your JPG photos here or click to browse",
+      batchDescription:
+        "Supports batch conversion up to 20 files. Maximum 100MB per file.",
       buttonSingle: "Single File",
       buttonBatch: "Batch Convert",
       chooseFile: "Choose Files",
@@ -2320,6 +2332,9 @@ export const en = {
       title: "Upload JPG Files",
       description:
         "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      batchTitle: "Drag & drop your JPG photos here or click to browse",
+      batchDescription:
+        "Supports batch conversion up to 20 files. Maximum 100MB per file.",
       buttonSingle: "Single File",
       buttonBatch: "Batch Convert",
       chooseFile: "Choose Files",
@@ -2566,6 +2581,9 @@ export const en = {
       title: "Upload JPG Files",
       description:
         "Drag & drop your JPG images here or click to browse. Supports batch conversion up to 20 files. Maximum 100MB per file.",
+      batchTitle: "Drag & drop your JPG photos here or click to browse",
+      batchDescription:
+        "Supports batch conversion up to 20 files. Maximum 100MB per file.",
       buttonSingle: "Single File",
       buttonBatch: "Batch Convert",
       chooseFile: "Choose Files",

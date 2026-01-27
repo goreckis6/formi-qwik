@@ -611,12 +611,12 @@ export default component$(() => {
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">
                     {mode.value === "single"
                       ? conv.upload.title
-                      : "Drag & drop your JPG photos here or click to browse"}
+                      : conv.upload.batchTitle}
                   </h3>
                   <p class="text-gray-600 mb-4 text-sm sm:text-base">
                     {mode.value === "single"
                       ? conv.upload.description
-                      : "Supports batch conversion up to 20 files. Maximum 100MB per file."}
+                      : conv.upload.batchDescription}
                   </p>
                   <span class="bg-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors shadow-lg hover:shadow-xl inline-block">
                     {conv.upload.chooseFile}

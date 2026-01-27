@@ -2416,12 +2416,15 @@ export const nl: Translations = {
       title: "Upload JPG Bestanden",
       description:
         "Sleep en zet je JPG-afbeeldingen hier neer of klik om te bladeren. Batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
+      batchTitle: "Sleep je JPG-foto's hierheen of klik om te bladeren",
+      batchDescription:
+        "Ondersteunt batchconversie tot 20 bestanden. Maximaal 100MB per bestand.",
       buttonSingle: "Enkel Bestand",
       buttonBatch: "Batch Conversie",
       chooseFile: "Kies Bestanden",
       converting: "Converteren...",
       success: "Conversie succesvol!",
-      download: "Download BMP",
+      download: "BMP downloaden",
       downloadAll: "Download Alles als ZIP",
       convertAnother: "Converteer Ander Bestand",
     },
@@ -2444,7 +2447,7 @@ export const nl: Translations = {
       step1Desc: "Selecteer één of meerdere JPG-afbeeldingen",
       step2Title: "Automatische Conversie",
       step2Desc: "Onze converter verwerkt je bestanden direct",
-      step3Title: "Download BMP",
+      step3Title: "BMP downloaden",
       step3Desc: "Ontvang je geconverteerde BMP-bestanden meteen",
     },
     about: {
@@ -2452,17 +2455,17 @@ export const nl: Translations = {
       whatIsHeif: {
         title: "Wat is het BMP-formaat?",
         content:
-          "BMP (Bitmap Image File) is een rasterformaat van Microsoft voor Windows. BMP-bestanden zijn ongecomprimeerd en behouden elke pixel zonder compressie-artefacten. Ze zijn groter dan JPG, maar bieden maximale kwaliteit en brede Windows-ondersteuning.",
+          "BMP (Bitmap Image File) is een rasterafbeeldingsbestandsformaat ontwikkeld door Microsoft voor Windows. BMP-bestanden zijn ongecomprimeerd, wat betekent dat ze elke pixel van de originele afbeelding behouden zonder compressie-artefacten. Hoewel BMP-bestanden groter zijn dan gecomprimeerde formaten zoals JPG, bieden ze maximale beeldkwaliteit en worden ze universeel ondersteund in Windows-systemen. Het BMP-formaat ondersteunt verschillende kleurdieptes (1-bit, 4-bit, 8-bit, 16-bit, 24-bit en 32-bit) en is ideaal voor toepassingen die ongecomprimeerde beeldgegevens vereisen.",
       },
       whyConvert: {
         title: "Waarom JPG naar BMP converteren?",
         content:
-          "Gebruik BMP wanneer je ongecomprimeerde kwaliteit of Windows-compatibiliteit nodig hebt. JPG is verliesgevend, BMP bewaart elke pixel. Handig voor Windows-apps, archivering zonder kwaliteitsverlies en nauwkeurige beeldverwerking.",
+          "Converteer JPG naar BMP wanneer je ongecomprimeerde beeldkwaliteit of Windows-specifieke compatibiliteit nodig hebt. JPG gebruikt verliescompressie die de beeldkwaliteit permanent vermindert, terwijl BMP ongecomprimeerd is en elke pixel perfect behoudt. Belangrijkste redenen om te converteren: maximale beeldkwaliteit behouden (geen compressie-artefacten), Windows-compatibiliteit garanderen (native BMP-ondersteuning), afbeeldingen voorbereiden voor Windows-toepassingen (veel Windows-programma's geven de voorkeur aan BMP), afbeeldingen archiveren zonder kwaliteitsverlies (ongecomprimeerd formaat), of afbeeldingen gebruiken in legacy-systemen (BMP wordt breed ondersteund). BMP is essentieel voor toepassingen die pixel-perfecte nauwkeurigheid vereisen, Windows-softwareontwikkeling, en archiveringsdoeleinden waar kwaliteitsbehoud cruciaal is. Houd er rekening mee dat BMP-bestanden aanzienlijk groter zullen zijn dan JPG-bestanden vanwege het gebrek aan compressie.",
       },
       heifVsHeic: {
-        title: "BMP vs JPG - Wanneer BMP kiezen?",
+        title: "BMP vs JPG - Wanneer BMP Kiezen",
         content:
-          "BMP is voor maximale kwaliteit, Windows-apps en archivering. JPG is beter voor web en kleinere bestanden.",
+          "BMP en JPG dienen verschillende doeleinden. Kies BMP voor: ongecomprimeerde kwaliteit (pixel-perfecte behoud), Windows-toepassingen (native ondersteuning), archiefopslag (geen kwaliteitsverlies), softwareontwikkeling (Windows-programma's), legacy-systemen (universele compatibiliteit), of pixel-perfecte vereisten (geen artefacten). Kies JPG voor: webgebruik (kleinere bestandsgroottes), online delen (snellere overdrachten), sociale media (native ondersteuning), algemene fotografie (efficiënte opslag), of wanneer bestandsgrootte belangrijk is (gecomprimeerd formaat). BMP-voordelen: geen kwaliteitsverlies (ongecomprimeerd), Windows-native (ingebouwde ondersteuning), pixel-perfect (exact behoud), eenvoudig formaat (gemakkelijke verwerking). BMP-nadelen: grote bestandsgroottes (ongecomprimeerd), niet web-vriendelijk (langzaam laden), geen compressie-opties (inefficiënte opslag). Voor Windows-toepassingen: Kies BMP. Voor web en delen: Gebruik JPG. Voor archivering zonder kwaliteitsverlies: BMP is beter.",
       },
       benefits: {
         title: "Voordelen van BMP",
@@ -2481,31 +2484,31 @@ export const nl: Translations = {
       items: [
         {
           q: "Is JPG naar BMP converteren gratis?",
-          a: "Ja. Onze JPG naar BMP converter is gratis en zonder limieten.",
+          a: "Ja! Onze JPG naar BMP converter is volledig gratis met onbeperkte conversies. Geen registratie, abonnementen of verborgen kosten. Converteer zoveel afbeeldingen als je nodig hebt voor Windows-toepassingen of archiveringsdoeleinden.",
         },
         {
-          q: "Zijn BMP-bestanden groter dan JPG?",
-          a: "Ja, meestal 3–10x groter omdat BMP ongecomprimeerd is.",
+          q: "Zullen BMP-bestanden groter zijn dan JPG-bestanden?",
+          a: "Ja, BMP-bestanden zijn meestal 3-10 keer groter dan JPG-bestanden omdat BMP ongecomprimeerd is terwijl JPG verliescompressie gebruikt. BMP behoudt echter elke pixel perfect zonder kwaliteitsverlies, waardoor het ideaal is voor toepassingen die maximale beeldkwaliteit vereisen.",
         },
         {
-          q: "Blijft de kwaliteit behouden?",
-          a: "BMP behoudt de JPG-data. Bestaand kwaliteitsverlies wordt niet hersteld, maar er komt geen extra verlies bij.",
+          q: "Wordt de beeldkwaliteit behouden bij het converteren van JPG naar BMP?",
+          a: "Het BMP-formaat behoudt de beeldgegevens van het JPG-bestand, maar omdat JPG verliescompressie gebruikt, kan er al wat kwaliteit verloren zijn gegaan in het originele JPG. Converteren naar BMP voorkomt verder kwaliteitsverlies en behoudt de huidige beeldkwaliteit perfect. Voor de beste resultaten, begin met hoogwaardige JPG-afbeeldingen.",
         },
         {
-          q: "Werkt BMP ook buiten Windows?",
-          a: "Ja, BMP opent ook op macOS en Linux.",
+          q: "Kan ik BMP-bestanden gebruiken op andere systemen dan Windows?",
+          a: "Ja, BMP-bestanden kunnen worden geopend op macOS, Linux en andere besturingssystemen, hoewel ze het meest worden geassocieerd met Windows. De meeste beeldviewers en -editors ondersteunen het BMP-formaat op alle platforms.",
         },
         {
-          q: "Wat is de maximale bestandsgrootte?",
-          a: "Tot 100MB per bestand en tot 20 bestanden in batch.",
+          q: "Wat is de maximale bestandsgrootte voor JPG naar BMP conversie?",
+          a: "Je kunt JPG-bestanden tot 100MB per bestand converteren. Voor batchconversie kun je tot 20 bestanden tegelijk uploaden, met een totale groottebeperking van 100MB. Houd er rekening mee dat de resulterende BMP-bestanden groter zullen zijn dan de originele JPG-bestanden.",
         },
         {
-          q: "Waarom BMP kiezen in plaats van JPG?",
-          a: "Kies BMP voor ongecomprimeerde kwaliteit en Windows-compatibiliteit. Voor web is JPG vaak handiger.",
+          q: "Waarom zou ik BMP kiezen in plaats van JPG?",
+          a: "Kies BMP wanneer je ongecomprimeerde kwaliteit, Windows-specifieke compatibiliteit nodig hebt, of wanneer je werkt met toepassingen die het BMP-formaat vereisen. BMP is ideaal voor archiveringsdoeleinden, Windows-softwareontwikkeling, en situaties waar maximale beeldkwaliteit belangrijker is dan bestandsgrootte. Voor webgebruik of algemeen delen is JPG meestal praktischer vanwege kleinere bestandsgroottes.",
         },
         {
-          q: "Hoe lang duurt de conversie?",
-          a: "Ongeveer 1–2 seconden per afbeelding. Het is een snelle formaatwijziging.",
+          q: "Hoe lang duurt JPG naar BMP conversie?",
+          a: "Conversie duurt 1-2 seconden per afbeelding. BMP-conversie is snel omdat het voornamelijk een formaatwijziging is. Het resultaat is een ongecomprimeerd BMP-bestand klaar voor Windows-toepassingen of archiveringsgebruik.",
         },
       ],
     },

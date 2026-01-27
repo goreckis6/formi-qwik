@@ -2305,6 +2305,9 @@ export const pl: Translations = {
       title: "Prześlij Pliki JPG",
       description:
         "Przeciągnij i upuść swoje obrazy JPG tutaj lub kliknij, aby przeglądać. Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
+      batchTitle: "Przeciągnij i upuść swoje zdjęcia JPG tutaj lub kliknij, aby przeglądać",
+      batchDescription:
+        "Obsługuje konwersję wsadową do 20 plików. Maksymalnie 100MB na plik.",
       buttonSingle: "Pojedynczy Plik",
       buttonBatch: "Konwersja Wsadowa",
       chooseFile: "Wybierz Pliki",

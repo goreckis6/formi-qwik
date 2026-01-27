@@ -2430,6 +2430,9 @@ export const tr: Translations = {
       title: "JPG Dosyalarını Yükleyin",
       description:
         "JPG görsellerinizi sürükleyip bırakın veya göz atmak için tıklayın. 20 dosyaya kadar toplu dönüştürme. Dosya başına maksimum 100MB.",
+      batchTitle: "JPG fotoğraflarınızı buraya sürükleyip bırakın veya göz atmak için tıklayın",
+      batchDescription:
+        "20 dosyaya kadar toplu dönüştürme desteklenir. Dosya başına maksimum 100MB.",
       buttonSingle: "Tek Dosya",
       buttonBatch: "Toplu Dönüştürme",
       chooseFile: "Dosya Seç",
@@ -2466,17 +2469,17 @@ export const tr: Translations = {
       whatIsHeif: {
         title: "BMP Formatı Nedir?",
         content:
-          "BMP (Bitmap Image File), Microsoft tarafından Windows için geliştirilmiş sıkıştırmasız bir görüntü formatıdır. BMP dosyaları her pikseli korur ve sıkıştırma artefaktı içermez. JPG'den daha büyük olsa da maksimum kalite sağlar ve Windows'ta yaygın olarak desteklenir.",
+          "BMP (Bitmap Image File), Microsoft tarafından Windows için geliştirilmiş bir raster görüntü dosyası formatıdır. BMP dosyaları sıkıştırılmamıştır, yani orijinal görüntünün her pikselini herhangi bir sıkıştırma artefaktı olmadan korur. BMP dosyaları JPG gibi sıkıştırılmış formatlardan daha büyük olsa da, maksimum görüntü kalitesi sunar ve Windows sistemlerinde evrensel olarak desteklenir. BMP formatı çeşitli renk derinliklerini (1-bit, 4-bit, 8-bit, 16-bit, 24-bit ve 32-bit) destekler ve sıkıştırılmamış görüntü verisi gerektiren uygulamalar için idealdir.",
       },
       whyConvert: {
         title: "Neden JPG'yi BMP'ye Dönüştürmeliyim?",
         content:
-          "Sıkıştırmasız kalite veya Windows uyumluluğu gerekiyorsa BMP tercih edilir. JPG kayıplı sıkıştırma kullanır, BMP her pikseli korur. Windows uygulamaları, arşivleme ve hassas işler için idealdir.",
+          "Sıkıştırılmamış görüntü kalitesi veya Windows'a özel uyumluluk gerektiğinde JPG'yi BMP'ye dönüştürün. JPG, görüntü kalitesini kalıcı olarak azaltan kayıplı sıkıştırma kullanır, BMP ise sıkıştırılmamıştır ve her pikseli mükemmel şekilde korur. Dönüştürme için temel nedenler: maksimum görüntü kalitesini koruma (sıkıştırma artefaktı yok), Windows uyumluluğunu sağlama (yerel BMP desteği), Windows uygulamaları için görüntü hazırlama (birçok Windows programı BMP'yi tercih eder), kalite kaybı olmadan görüntü arşivleme (sıkıştırılmamış format), veya eski sistemlerde görüntü kullanma (BMP yaygın olarak desteklenir). BMP, piksel mükemmel doğruluğu gerektiren uygulamalar, Windows yazılım geliştirme ve kalite korumanın kritik olduğu arşivleme amaçları için gereklidir. Sıkıştırma eksikliği nedeniyle BMP dosyalarının JPG dosyalarından önemli ölçüde daha büyük olacağını unutmayın.",
       },
       heifVsHeic: {
-        title: "BMP vs JPG - Ne Zaman BMP?",
+        title: "BMP vs JPG - Ne Zaman BMP Seçilmeli",
         content:
-          "BMP kalite ve Windows uyumluluğu için idealdir. JPG ise daha küçük dosya boyutu ve web kullanımına uygundur.",
+          "BMP ve JPG farklı amaçlara hizmet eder. BMP için seçin: sıkıştırılmamış kalite (piksel mükemmel koruma), Windows uygulamaları (yerel destek), arşiv depolama (kalite kaybı yok), yazılım geliştirme (Windows programları), eski sistemler (evrensel uyumluluk), veya piksel mükemmel gereksinimler (artefakt yok). JPG için seçin: web kullanımı (daha küçük dosya boyutları), çevrimiçi paylaşım (daha hızlı aktarım), sosyal medya (yerel destek), genel fotoğrafçılık (verimli depolama), veya dosya boyutu önemli olduğunda (sıkıştırılmış format). BMP'nin avantajları: kalite kaybı yok (sıkıştırılmamış), Windows yerel (yerleşik destek), piksel mükemmel (tam koruma), basit format (kolay işleme). BMP'nin dezavantajları: büyük dosya boyutları (sıkıştırılmamış), web dostu değil (yavaş yükleme), sıkıştırma seçenekleri yok (verimsiz depolama). Windows uygulamaları için: BMP seçin. Web ve paylaşım için: JPG kullanın. Kalite kaybı olmadan arşivleme için: BMP daha iyidir.",
       },
       benefits: {
         title: "BMP Formatının Avantajları",
@@ -2495,31 +2498,31 @@ export const tr: Translations = {
       items: [
         {
           q: "JPG'den BMP'ye dönüştürme ücretsiz mi?",
-          a: "Evet, ücretsiz ve sınırsız dönüştürme sunuyoruz.",
+          a: "Evet! JPG'den BMP'ye dönüştürücümüz tamamen ücretsizdir ve sınırsız dönüştürme sunar. Kayıt, abonelik veya gizli ücret yoktur. Windows uygulamaları veya arşivleme amaçları için ihtiyacınız olan kadar görüntü dönüştürün.",
         },
         {
-          q: "BMP dosyaları JPG'den büyük mü?",
-          a: "Evet, genellikle 3–10 kat daha büyüktür.",
+          q: "BMP dosyaları JPG dosyalarından büyük mü olacak?",
+          a: "Evet, BMP dosyaları genellikle JPG dosyalarından 3-10 kat daha büyüktür çünkü BMP sıkıştırılmamışken JPG kayıplı sıkıştırma kullanır. Ancak, BMP kalite kaybı olmadan her pikseli mükemmel şekilde korur, bu da onu maksimum görüntü kalitesi gerektiren uygulamalar için ideal kılar.",
         },
         {
-          q: "Kalite korunur mu?",
-          a: "BMP mevcut JPG kalitesini korur; ek kayıp oluşmaz.",
+          q: "JPG'yi BMP'ye dönüştürürken görüntü kalitesi korunacak mı?",
+          a: "BMP formatı JPG dosyasındaki görüntü verilerini korur, ancak JPG kayıplı sıkıştırma kullandığı için, orijinal JPG'de bazı kalite zaten kaybolmuş olabilir. BMP'ye dönüştürmek daha fazla kalite kaybını önler ve mevcut görüntü kalitesini mükemmel şekilde korur. En iyi sonuçlar için yüksek kaliteli JPG görüntüleriyle başlayın.",
         },
         {
-          q: "BMP diğer sistemlerde açılır mı?",
-          a: "Evet, macOS ve Linux'ta da açılabilir.",
+          q: "BMP dosyalarını Windows dışındaki sistemlerde kullanabilir miyim?",
+          a: "Evet, BMP dosyaları macOS, Linux ve diğer işletim sistemlerinde açılabilir, ancak en yaygın olarak Windows ile ilişkilendirilir. Çoğu görüntü görüntüleyici ve düzenleyici tüm platformlarda BMP formatını destekler.",
         },
         {
-          q: "Maksimum dosya boyutu nedir?",
-          a: "Dosya başına 100MB, toplu işlemde 20 dosya.",
+          q: "JPG'den BMP'ye dönüştürme için maksimum dosya boyutu nedir?",
+          a: "Her JPG dosyasını 100MB'a kadar dönüştürebilirsiniz. Toplu dönüştürme için, bir seferde 20 dosyaya kadar yükleyebilirsiniz, toplam boyut sınırı 100MB'dır. Ortaya çıkan BMP dosyalarının orijinal JPG dosyalarından daha büyük olacağını unutmayın.",
         },
         {
           q: "Neden JPG yerine BMP seçmeliyim?",
-          a: "Sıkıştırmasız kalite ve Windows uyumluluğu için.",
+          a: "Sıkıştırılmamış kalite, Windows'a özel uyumluluk gerektiğinde veya BMP formatı gerektiren uygulamalarla çalışırken BMP'yi seçin. BMP, arşivleme amaçları, Windows yazılım geliştirme ve maksimum görüntü kalitesinin dosya boyutundan daha önemli olduğu durumlar için idealdir. Web kullanımı veya genel paylaşım için, daha küçük dosya boyutları nedeniyle JPG genellikle daha pratiktir.",
         },
         {
-          q: "Dönüştürme ne kadar sürer?",
-          a: "Genelde görüntü başına 1–2 saniye.",
+          q: "JPG'den BMP'ye dönüştürme ne kadar sürer?",
+          a: "Dönüştürme görüntü başına 1-2 saniye sürer. BMP dönüştürme hızlıdır çünkü öncelikle bir format değişikliğidir. Sonuç, Windows uygulamaları veya arşivleme kullanımı için hazır sıkıştırılmamış bir BMP dosyasıdır.",
         },
       ],
     },

@@ -2414,6 +2414,9 @@ export const sv: Translations = {
       title: "Ladda upp JPG-filer",
       description:
         "Dra och släpp dina JPG-bilder här eller klicka för att bläddra. Batchkonvertering upp till 20 filer. Max 100MB per fil.",
+      batchTitle: "Dra och släpp dina JPG-foton här eller klicka för att bläddra",
+      batchDescription:
+        "Stöder batchkonvertering upp till 20 filer. Max 100MB per fil.",
       buttonSingle: "Enskild fil",
       buttonBatch: "Batchkonvertering",
       chooseFile: "Välj filer",
@@ -2450,17 +2453,17 @@ export const sv: Translations = {
       whatIsHeif: {
         title: "Vad är BMP-format?",
         content:
-          "BMP (Bitmap Image File) är ett rasterformat från Microsoft för Windows. BMP-filer är okomprimerade och bevarar varje pixel utan artefakter. De är större än JPG men ger maximal kvalitet och stöds brett i Windows.",
+          "BMP (Bitmap Image File) är ett rasterbildfilformat utvecklat av Microsoft för Windows. BMP-filer är okomprimerade, vilket betyder att de bevarar varje pixel av originalbilden utan komprimeringsartefakter. Även om BMP-filer är större än komprimerade format som JPG, erbjuder de maximal bildkvalitet och stöds universellt i Windows-system. BMP-formatet stöder olika färgdjup (1-bit, 4-bit, 8-bit, 16-bit, 24-bit och 32-bit) och är idealiskt för applikationer som kräver okomprimerade bilddata.",
       },
       whyConvert: {
         title: "Varför konvertera JPG till BMP?",
         content:
-          "Konvertera till BMP när du behöver okomprimerad kvalitet eller Windows-kompatibilitet. JPG är förlustkomprimerat, BMP bevarar varje pixel. Bra för Windows-appar, arkivering och precision.",
+          "Konvertera JPG till BMP när du behöver okomprimerad bildkvalitet eller Windows-specifik kompatibilitet. JPG använder förlustkomprimering som permanent minskar bildkvaliteten, medan BMP är okomprimerat och bevarar varje pixel perfekt. Viktiga skäl att konvertera: bevara maximal bildkvalitet (inga komprimeringsartefakter), säkerställa Windows-kompatibilitet (inbyggt BMP-stöd), förbereda bilder för Windows-applikationer (många Windows-program föredrar BMP), arkivera bilder utan kvalitetsförlust (okomprimerat format), eller använda bilder i äldre system (BMP stöds brett). BMP är viktigt för applikationer som kräver pixel-perfekt noggrannhet, Windows-programvaruutveckling och arkiveringssyften där kvalitetsbevarande är kritiskt. Observera att BMP-filer kommer att vara betydligt större än JPG-filer på grund av avsaknaden av komprimering.",
       },
       heifVsHeic: {
-        title: "BMP vs JPG – när välja BMP?",
+        title: "BMP vs JPG – när välja BMP",
         content:
-          "BMP är bäst för kvalitet, Windows-appar och arkivering. JPG passar webben och mindre filstorlek.",
+          "BMP och JPG tjänar olika syften. Välj BMP för: okomprimerad kvalitet (pixel-perfekt bevarande), Windows-applikationer (inbyggt stöd), arkivlagring (ingen kvalitetsförlust), programvaruutveckling (Windows-program), äldre system (universell kompatibilitet), eller pixel-perfekta krav (inga artefakter). Välj JPG för: webbanvändning (mindre filstorlekar), onlinedelning (snabbare överföringar), sociala medier (inbyggt stöd), allmän fotografering (effektiv lagring), eller när filstorlek spelar roll (komprimerat format). BMP-fördelar: ingen kvalitetsförlust (okomprimerat), Windows-nativt (inbyggt stöd), pixel-perfekt (exakt bevarande), enkelt format (lätt bearbetning). BMP-nackdelar: stora filstorlekar (okomprimerat), inte webbvänligt (långsam laddning), inga komprimeringsalternativ (ineffektiv lagring). För Windows-applikationer: Välj BMP. För webb och delning: Använd JPG. För arkivering utan kvalitetsförlust: BMP är bättre.",
       },
       benefits: {
         title: "Fördelar med BMP",
@@ -2479,31 +2482,31 @@ export const sv: Translations = {
       items: [
         {
           q: "Är det gratis att konvertera JPG till BMP?",
-          a: "Ja. Vår JPG till BMP-konverterare är gratis utan begränsningar.",
+          a: "Ja! Vår JPG till BMP-konverterare är helt gratis med obegränsade konverteringar. Ingen registrering, prenumerationer eller dolda avgifter. Konvertera så många bilder du behöver för Windows-applikationer eller arkiveringssyften.",
         },
         {
-          q: "Blir BMP-filer större än JPG?",
-          a: "Ja, oftast 3–10 gånger större eftersom BMP är okomprimerat.",
+          q: "Kommer BMP-filer att vara större än JPG-filer?",
+          a: "Ja, BMP-filer är vanligtvis 3-10 gånger större än JPG-filer eftersom BMP är okomprimerat medan JPG använder förlustkomprimering. BMP bevarar dock varje pixel perfekt utan kvalitetsförlust, vilket gör det idealiskt för applikationer som kräver maximal bildkvalitet.",
         },
         {
-          q: "Bevaras kvaliteten vid konvertering?",
-          a: "BMP behåller JPG-data. Tidigare kvalitetsförlust återställs inte, men ingen extra förlust tillkommer.",
+          q: "Kommer bildkvaliteten att bevaras när JPG konverteras till BMP?",
+          a: "BMP-formatet bevarar bilddata från JPG-filen, men eftersom JPG använder förlustkomprimering kan viss kvalitet redan ha gått förlorad i original-JPG. Att konvertera till BMP förhindrar ytterligare kvalitetsförlust och bevarar den nuvarande bildkvaliteten perfekt. För bästa resultat, börja med högkvalitativa JPG-bilder.",
         },
         {
-          q: "Fungerar BMP på andra system än Windows?",
-          a: "Ja, BMP kan öppnas på macOS och Linux också.",
+          q: "Kan jag använda BMP-filer på andra system än Windows?",
+          a: "Ja, BMP-filer kan öppnas på macOS, Linux och andra operativsystem, även om de oftast associeras med Windows. De flesta bildvisare och -redigerare stöder BMP-formatet på alla plattformar.",
         },
         {
-          q: "Maximal filstorlek?",
-          a: "Upp till 100MB per fil och 20 filer i batch.",
+          q: "Vad är den maximala filstorleken för JPG till BMP-konvertering?",
+          a: "Du kan konvertera JPG-filer upp till 100MB vardera. För batchkonvertering kan du ladda upp upp till 20 filer åt gången, med en total storleksgräns på 100MB. Observera att de resulterande BMP-filerna kommer att vara större än de ursprungliga JPG-filerna.",
         },
         {
-          q: "Varför välja BMP istället för JPG?",
-          a: "Välj BMP för okomprimerad kvalitet och Windows-kompatibilitet. För webben är JPG ofta smidigare.",
+          q: "Varför skulle jag välja BMP över JPG?",
+          a: "Välj BMP när du behöver okomprimerad kvalitet, Windows-specifik kompatibilitet, eller när du arbetar med applikationer som kräver BMP-format. BMP är idealiskt för arkiveringssyften, Windows-programvaruutveckling och situationer där maximal bildkvalitet är viktigare än filstorlek. För webbanvändning eller allmän delning är JPG vanligtvis mer praktiskt på grund av mindre filstorlekar.",
         },
         {
-          q: "Hur lång tid tar konverteringen?",
-          a: "Cirka 1–2 sekunder per bild. Det är en snabb formatändring.",
+          q: "Hur lång tid tar JPG till BMP-konvertering?",
+          a: "Konverteringen tar 1-2 sekunder per bild. BMP-konvertering är snabb eftersom det främst är en formatändring. Resultatet är en okomprimerad BMP-fil redo för Windows-applikationer eller arkiveringsanvändning.",
         },
       ],
     },

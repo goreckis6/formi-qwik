@@ -2362,6 +2362,9 @@ export const id: Translations = {
       title: "Unggah File JPG",
       description:
         "Seret & lepas JPG di sini atau klik untuk memilih. Mendukung batch hingga 20 file. Maksimal 100MB per file.",
+      batchTitle: "Seret & lepas foto JPG Anda di sini atau klik untuk menjelajah",
+      batchDescription:
+        "Mendukung konversi batch hingga 20 file. Maksimal 100MB per file.",
       buttonSingle: "File Tunggal",
       buttonBatch: "Konversi Batch",
       chooseFile: "Pilih File",
@@ -2398,17 +2401,17 @@ export const id: Translations = {
       whatIsHeif: {
         title: "Apa itu Format BMP?",
         content:
-          "BMP (Bitmap) adalah format gambar tanpa kompresi buatan Microsoft. File BMP mempertahankan setiap piksel tanpa artefak kompresi. Ukurannya lebih besar daripada JPG tetapi kualitasnya maksimal dan kompatibel di Windows.",
+          "BMP (Bitmap Image File) adalah format file gambar raster yang dikembangkan oleh Microsoft untuk Windows. File BMP tidak terkompresi, artinya mereka mempertahankan setiap piksel dari gambar asli tanpa artefak kompresi. Meskipun file BMP lebih besar daripada format terkompresi seperti JPG, mereka menawarkan kualitas gambar maksimal dan didukung secara universal di sistem Windows. Format BMP mendukung berbagai kedalaman warna (1-bit, 4-bit, 8-bit, 16-bit, 24-bit, dan 32-bit) dan ideal untuk aplikasi yang memerlukan data gambar tidak terkompresi.",
       },
       whyConvert: {
         title: "Mengapa Mengonversi JPG ke BMP?",
         content:
-          "Gunakan BMP saat membutuhkan kualitas tanpa kompresi atau kompatibilitas Windows. JPG bersifat lossy, sedangkan BMP menjaga setiap piksel. Cocok untuk aplikasi Windows, arsip, dan kebutuhan presisi.",
+          "Konversi JPG ke BMP ketika Anda membutuhkan kualitas gambar tidak terkompresi atau kompatibilitas khusus Windows. JPG menggunakan kompresi lossy yang secara permanen mengurangi kualitas gambar, sementara BMP tidak terkompresi dan mempertahankan setiap piksel dengan sempurna. Alasan utama untuk mengonversi: mempertahankan kualitas gambar maksimal (tanpa artefak kompresi), memastikan kompatibilitas Windows (dukungan BMP native), menyiapkan gambar untuk aplikasi Windows (banyak program Windows lebih suka BMP), mengarsipkan gambar tanpa kehilangan kualitas (format tidak terkompresi), atau menggunakan gambar di sistem lama (BMP didukung secara luas). BMP sangat penting untuk aplikasi yang memerlukan akurasi sempurna piksel, pengembangan perangkat lunak Windows, dan tujuan arsip di mana pelestarian kualitas sangat penting. Perhatikan bahwa file BMP akan jauh lebih besar daripada file JPG karena tidak ada kompresi.",
       },
       heifVsHeic: {
         title: "BMP vs JPG - Kapan Memilih BMP",
         content:
-          "BMP untuk kualitas maksimal dan Windows; JPG untuk ukuran file kecil dan web.",
+          "BMP dan JPG melayani tujuan yang berbeda. Pilih BMP untuk: kualitas tidak terkompresi (pelestarian sempurna piksel), aplikasi Windows (dukungan native), penyimpanan arsip (tanpa kehilangan kualitas), pengembangan perangkat lunak (program Windows), sistem lama (kompatibilitas universal), atau persyaratan sempurna piksel (tanpa artefak). Pilih JPG untuk: penggunaan web (ukuran file lebih kecil), berbagi online (transfer lebih cepat), media sosial (dukungan native), fotografi umum (penyimpanan efisien), atau ketika ukuran file penting (format terkompresi). Keuntungan BMP: tidak ada kehilangan kualitas (tidak terkompresi), Windows native (dukungan built-in), sempurna piksel (pelestarian tepat), format sederhana (pemrosesan mudah). Kerugian BMP: ukuran file besar (tidak terkompresi), tidak ramah web (pemuatan lambat), tidak ada opsi kompresi (penyimpanan tidak efisien). Untuk aplikasi Windows: Pilih BMP. Untuk web dan berbagi: Gunakan JPG. Untuk arsip tanpa kehilangan kualitas: BMP lebih baik.",
       },
       benefits: {
         title: "Keunggulan Format BMP",
@@ -2427,31 +2430,31 @@ export const id: Translations = {
       items: [
         {
           q: "Apakah konversi JPG ke BMP gratis?",
-          a: "Ya, gratis dan tanpa batas.",
+          a: "Ya! Konverter JPG ke BMP kami sepenuhnya gratis dengan konversi tidak terbatas. Tidak ada registrasi, langganan, atau biaya tersembunyi. Konversi sebanyak gambar yang Anda butuhkan untuk aplikasi Windows atau tujuan arsip.",
         },
         {
-          q: "Apakah file BMP lebih besar dari JPG?",
-          a: "Ya, biasanya 3–10x lebih besar.",
+          q: "Apakah file BMP akan lebih besar daripada file JPG?",
+          a: "Ya, file BMP biasanya 3-10 kali lebih besar daripada file JPG karena BMP tidak terkompresi sementara JPG menggunakan kompresi lossy. Namun, BMP mempertahankan setiap piksel dengan sempurna tanpa kehilangan kualitas, menjadikannya ideal untuk aplikasi yang memerlukan kualitas gambar maksimal.",
         },
         {
-          q: "Apakah kualitas tetap terjaga?",
-          a: "BMP mempertahankan data JPG tanpa menambah kehilangan kualitas.",
+          q: "Apakah kualitas gambar akan dipertahankan saat mengonversi JPG ke BMP?",
+          a: "Format BMP mempertahankan data gambar dari file JPG, tetapi karena JPG menggunakan kompresi lossy, beberapa kualitas mungkin sudah hilang di JPG asli. Mengonversi ke BMP mencegah kehilangan kualitas lebih lanjut dan mempertahankan kualitas gambar saat ini dengan sempurna. Untuk hasil terbaik, mulailah dengan gambar JPG berkualitas tinggi.",
         },
         {
-          q: "Bisakah BMP dipakai di selain Windows?",
-          a: "Ya, dapat dibuka di macOS dan Linux.",
+          q: "Bisakah saya menggunakan file BMP di sistem selain Windows?",
+          a: "Ya, file BMP dapat dibuka di macOS, Linux, dan sistem operasi lain, meskipun mereka paling sering dikaitkan dengan Windows. Sebagian besar penampil dan editor gambar mendukung format BMP di semua platform.",
         },
         {
-          q: "Berapa ukuran maksimal file?",
-          a: "100MB per file, hingga 20 file batch.",
+          q: "Berapa ukuran file maksimal untuk konversi JPG ke BMP?",
+          a: "Anda dapat mengonversi file JPG hingga 100MB masing-masing. Untuk konversi batch, Anda dapat mengunggah hingga 20 file sekaligus, dengan batas ukuran total 100MB. Perhatikan bahwa file BMP yang dihasilkan akan lebih besar daripada file JPG asli.",
         },
         {
-          q: "Kenapa memilih BMP daripada JPG?",
-          a: "Untuk kualitas tanpa kompresi dan kompatibilitas Windows.",
+          q: "Mengapa saya harus memilih BMP daripada JPG?",
+          a: "Pilih BMP ketika Anda membutuhkan kualitas tidak terkompresi, kompatibilitas khusus Windows, atau saat bekerja dengan aplikasi yang memerlukan format BMP. BMP ideal untuk tujuan arsip, pengembangan perangkat lunak Windows, dan situasi di mana kualitas gambar maksimal lebih penting daripada ukuran file. Untuk penggunaan web atau berbagi umum, JPG biasanya lebih praktis karena ukuran file yang lebih kecil.",
         },
         {
-          q: "Berapa lama proses konversi?",
-          a: "Sekitar 1–2 detik per gambar.",
+          q: "Berapa lama konversi JPG ke BMP?",
+          a: "Konversi memakan waktu 1-2 detik per gambar. Konversi BMP cepat karena terutama perubahan format. Hasilnya adalah file BMP tidak terkompresi yang siap untuk aplikasi Windows atau penggunaan arsip.",
         },
       ],
     },

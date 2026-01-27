@@ -2543,6 +2543,9 @@ export const it: Translations = {
       title: "Carica File JPG",
       description:
         "Trascina e rilascia le tue immagini JPG qui o clicca per sfogliare. Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
+      batchTitle: "Trascina e rilascia le tue foto JPG qui o clicca per sfogliare",
+      batchDescription:
+        "Supporta la conversione batch fino a 20 file. Massimo 100MB per file.",
       buttonSingle: "File Singolo",
       buttonBatch: "Conversione Batch",
       chooseFile: "Scegli File",
@@ -2584,12 +2587,12 @@ export const it: Translations = {
       whyConvert: {
         title: "Perché Convertire JPG in BMP?",
         content:
-          "Converti JPG in BMP quando hai bisogno di qualità non compressa o compatibilità specifica con Windows. JPG usa compressione con perdita, mentre BMP è non compresso e preserva ogni pixel. Motivi principali: mantenere la massima qualità, garantire compatibilità Windows, preparare immagini per applicazioni Windows, archiviare senza perdita di qualità o usare immagini in sistemi legacy.",
+          "Converti JPG in BMP quando hai bisogno di qualità immagine non compressa o compatibilità specifica con Windows. JPG usa compressione con perdita che riduce permanentemente la qualità dell'immagine, mentre BMP è non compresso e preserva ogni pixel perfettamente. Motivi principali per convertire: preservare la massima qualità dell'immagine (nessun artefatto di compressione), garantire compatibilità Windows (supporto nativo BMP), preparare immagini per applicazioni Windows (molti programmi Windows preferiscono BMP), archiviare immagini senza perdita di qualità (formato non compresso), o usare immagini in sistemi legacy (BMP è ampiamente supportato). BMP è essenziale per applicazioni che richiedono precisione pixel-perfetta, sviluppo software Windows, e scopi di archiviazione dove la preservazione della qualità è critica. Nota che i file BMP saranno significativamente più grandi dei file JPG a causa della mancanza di compressione.",
       },
       heifVsHeic: {
         title: "BMP vs JPG - Quando Scegliere BMP",
         content:
-          "BMP e JPG servono scopi diversi. Scegli BMP per qualità non compressa, applicazioni Windows, archiviazione senza perdita, sviluppo software, sistemi legacy o requisiti di precisione. Scegli JPG per web, condivisione online, social media o quando la dimensione del file conta.",
+          "BMP e JPG servono scopi diversi. Scegli BMP per: qualità non compressa (preservazione pixel-perfetta), applicazioni Windows (supporto nativo), archiviazione (nessuna perdita di qualità), sviluppo software (programmi Windows), sistemi legacy (compatibilità universale), o requisiti pixel-perfetti (nessun artefatto). Scegli JPG per: uso web (dimensioni file più piccole), condivisione online (trasferimenti più veloci), social media (supporto nativo), fotografia generale (archiviazione efficiente), o quando la dimensione del file conta (formato compresso). Vantaggi BMP: nessuna perdita di qualità (non compresso), Windows nativo (supporto integrato), pixel perfetto (preservazione esatta), formato semplice (elaborazione facile). Svantaggi BMP: grandi dimensioni file (non compresso), non web-friendly (caricamento lento), nessuna opzione di compressione (archiviazione inefficiente). Per applicazioni Windows: Scegli BMP. Per web e condivisione: Usa JPG. Per archiviazione senza perdita di qualità: BMP è migliore.",
       },
       benefits: {
         title: "Vantaggi del Formato BMP",
@@ -2608,31 +2611,31 @@ export const it: Translations = {
       items: [
         {
           q: "La conversione JPG in BMP è gratuita?",
-          a: "Sì. Il nostro convertitore JPG in BMP è completamente gratuito con conversioni illimitate.",
+          a: "Sì! Il nostro convertitore JPG in BMP è completamente gratuito con conversioni illimitate. Nessuna registrazione, abbonamenti o costi nascosti. Converti quante immagini vuoi per applicazioni Windows o scopi di archiviazione.",
         },
         {
-          q: "I file BMP sono più grandi dei JPG?",
-          a: "Sì, i file BMP sono spesso 3-10 volte più grandi perché non sono compressi.",
+          q: "I file BMP saranno più grandi dei file JPG?",
+          a: "Sì, i file BMP sono tipicamente 3-10 volte più grandi dei file JPG perché BMP è non compresso mentre JPG usa compressione con perdita. Tuttavia, BMP preserva ogni pixel perfettamente senza perdita di qualità, rendendolo ideale per applicazioni che richiedono massima qualità dell'immagine.",
         },
         {
-          q: "La qualità viene preservata nella conversione?",
-          a: "BMP preserva i dati del JPG. Se il JPG ha già perdita di qualità, non può essere recuperata, ma non si aggiunge ulteriore perdita.",
+          q: "La qualità dell'immagine sarà preservata quando si converte JPG in BMP?",
+          a: "Il formato BMP preserva i dati dell'immagine dal file JPG, ma poiché JPG usa compressione con perdita, alcune qualità potrebbero essere già state perse nel JPG originale. Convertire in BMP previene ulteriore perdita di qualità e preserva perfettamente la qualità dell'immagine attuale. Per i migliori risultati, inizia con immagini JPG di alta qualità.",
         },
         {
-          q: "Posso usare BMP su sistemi non Windows?",
-          a: "Sì, i BMP si aprono su macOS, Linux e altri sistemi, anche se sono più associati a Windows.",
+          q: "Posso usare file BMP su sistemi diversi da Windows?",
+          a: "Sì, i file BMP possono essere aperti su macOS, Linux e altri sistemi operativi, anche se sono più comunemente associati a Windows. La maggior parte dei visualizzatori e editor di immagini supportano il formato BMP su tutte le piattaforme.",
         },
         {
-          q: "Qual è la dimensione massima per convertire in BMP?",
-          a: "Puoi convertire JPG fino a 100MB per file e fino a 20 file in batch.",
+          q: "Qual è la dimensione massima del file per la conversione JPG in BMP?",
+          a: "Puoi convertire file JPG fino a 100MB ciascuno. Per la conversione batch, puoi caricare fino a 20 file alla volta, con un limite di dimensione totale di 100MB. Nota che i file BMP risultanti saranno più grandi dei file JPG originali.",
         },
         {
-          q: "Perché scegliere BMP invece di JPG?",
-          a: "Scegli BMP per qualità non compressa, compatibilità Windows o requisiti di precisione. Per il web, JPG è spesso più pratico.",
+          q: "Perché dovrei scegliere BMP invece di JPG?",
+          a: "Scegli BMP quando hai bisogno di qualità non compressa, compatibilità specifica con Windows, o quando lavori con applicazioni che richiedono il formato BMP. BMP è ideale per scopi di archiviazione, sviluppo software Windows, e situazioni dove la massima qualità dell'immagine è più importante della dimensione del file. Per uso web o condivisione generale, JPG è solitamente più pratico a causa di dimensioni file più piccole.",
         },
         {
           q: "Quanto tempo richiede la conversione JPG in BMP?",
-          a: "Circa 1-2 secondi per immagine. È veloce perché è principalmente un cambio di formato.",
+          a: "La conversione richiede 1-2 secondi per immagine. La conversione BMP è veloce perché è principalmente un cambio di formato. Il risultato è un file BMP non compresso pronto per applicazioni Windows o uso di archiviazione.",
         },
       ],
     },

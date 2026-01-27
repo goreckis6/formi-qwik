@@ -2457,6 +2457,9 @@ export const de: Translations = {
       title: "JPG-Dateien hochladen",
       description:
         "Ziehen Sie Ihre JPG-Bilder hierher oder klicken Sie zum Durchsuchen. Batch-Konvertierung bis zu 20 Dateien. Maximal 100MB pro Datei.",
+      batchTitle: "Ziehen Sie Ihre JPG-Fotos hierher oder klicken Sie zum Durchsuchen",
+      batchDescription:
+        "Unterstützt Batch-Konvertierung bis zu 20 Dateien. Maximal 100MB pro Datei.",
       buttonSingle: "Einzelne Datei",
       buttonBatch: "Batch-Konvertierung",
       chooseFile: "Dateien auswählen",
@@ -2493,17 +2496,17 @@ export const de: Translations = {
       whatIsHeif: {
         title: "Was ist das BMP-Format?",
         content:
-          "BMP (Bitmap Image File) ist ein Raster-Bildformat von Microsoft für Windows. BMP-Dateien sind unkomprimiert und bewahren jeden Pixel ohne Kompressionsartefakte. Sie sind größer als JPG, bieten aber maximale Bildqualität und werden in Windows weit unterstützt. BMP unterstützt verschiedene Farbtiefen (1, 4, 8, 16, 24 und 32 Bit).",
+          "BMP (Bitmap Image File) ist ein Raster-Bilddateiformat, das von Microsoft für Windows entwickelt wurde. BMP-Dateien sind unkomprimiert, was bedeutet, dass sie jeden Pixel des Originalbildes ohne Kompressionsartefakte bewahren. Während BMP-Dateien größer sind als komprimierte Formate wie JPG, bieten sie maximale Bildqualität und werden in Windows-Systemen universell unterstützt. Das BMP-Format unterstützt verschiedene Farbtiefen (1-Bit, 4-Bit, 8-Bit, 16-Bit, 24-Bit und 32-Bit) und ist ideal für Anwendungen, die unkomprimierte Bilddaten erfordern.",
       },
       whyConvert: {
         title: "Warum JPG zu BMP konvertieren?",
         content:
-          "Konvertieren Sie JPG zu BMP, wenn Sie unkomprimierte Qualität oder Windows-spezifische Kompatibilität benötigen. JPG ist verlustbehaftet, BMP bewahrt jeden Pixel. Gründe: maximale Qualität, Windows-Kompatibilität, Nutzung in Windows-Apps, Archivierung ohne Qualitätsverlust oder Einsatz in Legacy-Systemen.",
+          "Konvertieren Sie JPG zu BMP, wenn Sie unkomprimierte Bildqualität oder Windows-spezifische Kompatibilität benötigen. JPG verwendet verlustbehaftete Kompression, die die Bildqualität dauerhaft reduziert, während BMP unkomprimiert ist und jeden Pixel perfekt bewahrt. Hauptgründe für die Konvertierung: maximale Bildqualität bewahren (keine Kompressionsartefakte), Windows-Kompatibilität sicherstellen (native BMP-Unterstützung), Bilder für Windows-Anwendungen vorbereiten (viele Windows-Programme bevorzugen BMP), Bilder ohne Qualitätsverlust archivieren (unkomprimiertes Format) oder Bilder in Legacy-Systemen verwenden (BMP wird weit unterstützt). BMP ist unerlässlich für Anwendungen, die pixelgenaue Genauigkeit erfordern, Windows-Softwareentwicklung und Archivierungszwecke, bei denen die Qualitätserhaltung kritisch ist. Beachten Sie, dass BMP-Dateien aufgrund fehlender Kompression deutlich größer als JPG-Dateien sein werden.",
       },
       heifVsHeic: {
-        title: "BMP vs JPG - Wann BMP wählen?",
+        title: "BMP vs JPG - Wann BMP wählen",
         content:
-          "BMP und JPG haben unterschiedliche Zwecke. BMP für unkomprimierte Qualität, Windows-Anwendungen, Archivierung und Präzision. JPG für Web, kleinere Dateien und schnelles Teilen.",
+          "BMP und JPG dienen unterschiedlichen Zwecken. Wählen Sie BMP für: unkomprimierte Qualität (pixelgenaue Bewahrung), Windows-Anwendungen (native Unterstützung), Archivspeicherung (kein Qualitätsverlust), Softwareentwicklung (Windows-Programme), Legacy-Systeme (universelle Kompatibilität) oder pixelgenaue Anforderungen (keine Artefakte). Wählen Sie JPG für: Web-Nutzung (kleinere Dateigrößen), Online-Sharing (schnellere Übertragungen), soziale Medien (native Unterstützung), allgemeine Fotografie (effiziente Speicherung) oder wenn die Dateigröße wichtig ist (komprimiertes Format). BMP-Vorteile: kein Qualitätsverlust (unkomprimiert), Windows-nativ (eingebaute Unterstützung), pixelgenau (genaue Bewahrung), einfaches Format (einfache Verarbeitung). BMP-Nachteile: große Dateigrößen (unkomprimiert), nicht web-freundlich (langsames Laden), keine Kompressionsoptionen (ineffiziente Speicherung). Für Windows-Anwendungen: Wählen Sie BMP. Für Web und Sharing: Verwenden Sie JPG. Für Archivierung ohne Qualitätsverlust: BMP ist besser.",
       },
       benefits: {
         title: "Vorteile des BMP-Formats",
@@ -2522,31 +2525,31 @@ export const de: Translations = {
       items: [
         {
           q: "Ist die Konvertierung kostenlos?",
-          a: "Ja. Unser JPG-zu-BMP-Konverter ist kostenlos und ohne Limit.",
+          a: "Ja! Unser JPG-zu-BMP-Konverter ist völlig kostenlos mit unbegrenzten Konvertierungen. Keine Registrierung, Abonnements oder versteckten Gebühren. Konvertieren Sie so viele Bilder wie Sie für Windows-Anwendungen oder Archivierungszwecke benötigen.",
         },
         {
-          q: "Sind BMP-Dateien größer als JPG?",
-          a: "Ja, BMP ist meist 3–10x größer, da es unkomprimiert ist.",
+          q: "Werden BMP-Dateien größer als JPG-Dateien sein?",
+          a: "Ja, BMP-Dateien sind typischerweise 3-10 mal größer als JPG-Dateien, weil BMP unkomprimiert ist, während JPG verlustbehaftete Kompression verwendet. BMP bewahrt jedoch jeden Pixel perfekt ohne Qualitätsverlust, was es ideal für Anwendungen macht, die maximale Bildqualität erfordern.",
         },
         {
-          q: "Bleibt die Bildqualität erhalten?",
-          a: "BMP bewahrt die JPG-Daten. Bereits verlorene Qualität wird nicht zurückgeholt, aber es gibt keinen zusätzlichen Verlust.",
+          q: "Wird die Bildqualität beim Konvertieren von JPG zu BMP erhalten bleiben?",
+          a: "Das BMP-Format bewahrt die Bilddaten aus der JPG-Datei, aber da JPG verlustbehaftete Kompression verwendet, wurde möglicherweise bereits etwas Qualität im ursprünglichen JPG verloren. Die Konvertierung zu BMP verhindert weiteren Qualitätsverlust und bewahrt die aktuelle Bildqualität perfekt. Für beste Ergebnisse beginnen Sie mit hochwertigen JPG-Bildern.",
         },
         {
-          q: "Kann ich BMP auf anderen Systemen nutzen?",
-          a: "Ja, BMP kann auf macOS, Linux und anderen Systemen geöffnet werden.",
+          q: "Kann ich BMP-Dateien auf anderen Systemen als Windows verwenden?",
+          a: "Ja, BMP-Dateien können auf macOS, Linux und anderen Betriebssystemen geöffnet werden, obwohl sie am häufigsten mit Windows assoziiert werden. Die meisten Bildbetrachter und -editoren unterstützen das BMP-Format auf allen Plattformen.",
         },
         {
-          q: "Maximale Dateigröße?",
-          a: "Bis 100MB pro Datei und bis zu 20 Dateien im Batch.",
+          q: "Was ist die maximale Dateigröße für die JPG-zu-BMP-Konvertierung?",
+          a: "Sie können JPG-Dateien bis zu 100MB pro Datei konvertieren. Für die Batch-Konvertierung können Sie bis zu 20 Dateien gleichzeitig hochladen, mit einer Gesamtgrößengrenze von 100MB. Beachten Sie, dass die resultierenden BMP-Dateien größer als die ursprünglichen JPG-Dateien sein werden.",
         },
         {
-          q: "Warum BMP statt JPG?",
-          a: "BMP für unkomprimierte Qualität und Windows-Kompatibilität. Für Web ist JPG oft praktischer.",
+          q: "Warum sollte ich BMP statt JPG wählen?",
+          a: "Wählen Sie BMP, wenn Sie unkomprimierte Qualität, Windows-spezifische Kompatibilität benötigen oder mit Anwendungen arbeiten, die das BMP-Format erfordern. BMP ist ideal für Archivierungszwecke, Windows-Softwareentwicklung und Situationen, in denen maximale Bildqualität wichtiger ist als die Dateigröße. Für Web-Nutzung oder allgemeines Teilen ist JPG aufgrund kleinerer Dateigrößen normalerweise praktischer.",
         },
         {
-          q: "Wie lange dauert die Konvertierung?",
-          a: "Etwa 1–2 Sekunden pro Bild. Es ist ein schneller Formatwechsel.",
+          q: "Wie lange dauert die JPG-zu-BMP-Konvertierung?",
+          a: "Die Konvertierung dauert 1-2 Sekunden pro Bild. Die BMP-Konvertierung ist schnell, da es hauptsächlich eine Formatänderung ist. Das Ergebnis ist eine unkomprimierte BMP-Datei, die für Windows-Anwendungen oder Archivierungszwecke bereit ist.",
         },
       ],
     },
