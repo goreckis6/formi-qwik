@@ -2526,7 +2526,7 @@ export const it: Translations = {
       },
       // JPG to BMP Converter
   jpgToBmp: {
-    title: "Konwerter JPG na BMP - Konwertuj Obrazy do Formatu Windows Bitmap Za Darmo Online",
+    title: "Convertitore JPG in BMP - Converti Immagini in Formato Windows Bitmap Gratis",
     metaDescription:
       "Konwertuj obrazy JPG na format BMP natychmiast. Darmowy internetowy konwerter JPG na BMP z przetwarzaniem wsadowym. Szybki, bezpieczny i bez rejestracji. Idealny do kompatybilności z Windows i jakości bez kompresji.",
     metaKeywords:
