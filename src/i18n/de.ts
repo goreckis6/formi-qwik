@@ -2440,18 +2440,18 @@ export const de: Translations = {
       },
       // JPG to BMP Converter
   jpgToBmp: {
-    title: "JPG to BMP Converter - Convert Images to Windows Bitmap Format Free Online",
+    title: "JPG zu BMP Konverter - Bilder in Windows Bitmap Format kostenlos online konvertieren",
     metaDescription:
-      "Convert JPG images to BMP format instantly. Free online JPG to BMP converter with batch processing. Fast, secure, and no registration required. Perfect for Windows compatibility and uncompressed image quality.",
+      "Konvertieren Sie JPG-Bilder sofort in BMP-Format. Kostenloser Online-JPG-zu-BMP-Konverter mit Batch-Verarbeitung. Schnell, sicher und ohne Registrierung. Perfekt für Windows-Kompatibilität und unkomprimierte Bildqualität.",
     metaKeywords:
-      "JPG to BMP, convert JPG to BMP, image to BMP, photo to BMP, batch convert JPG, BMP converter, free BMP converter, Windows bitmap converter",
+      "JPG zu BMP, JPG in BMP konvertieren, Bild zu BMP, Foto zu BMP, Batch JPG konvertieren, BMP Konverter, kostenloser BMP Konverter, Windows Bitmap Konverter",
     hero: {
-      title: "JPG to BMP Converter",
+      title: "JPG zu BMP Konverter",
       subtitle:
-        "Convert JPG images to Windows BMP format instantly. BMP (Bitmap) is an uncompressed image format ideal for Windows compatibility and preserving maximum image quality. Free, fast, and secure conversion.",
-      badge1: "Uncompressed Quality",
-      badge2: "Windows Compatible",
-      badge3: "No Registration",
+        "Konvertieren Sie JPG-Bilder sofort in Windows BMP-Format. BMP (Bitmap) ist ein unkomprimiertes Bildformat, ideal für Windows-Kompatibilität und maximale Bildqualität. Kostenlose, schnelle und sichere Konvertierung.",
+      badge1: "Unkomprimierte Qualität",
+      badge2: "Windows-Kompatibel",
+      badge3: "Keine Registrierung",
     },
     upload: {
       title: "Upload JPG Files",
