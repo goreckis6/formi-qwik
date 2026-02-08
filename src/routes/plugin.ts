@@ -18,7 +18,14 @@ export const onRequest: RequestHandler = async ({ url, redirect }) => {
   const firstPart = pathParts[0];
   
   if (languageCodes.includes(firstPart)) {
-    return; // Already localized, no redirect needed
+    // Normalize trailing slash: redirect /en/convert/heic-to-gif -> /en/convert/heic-to-gif/
+    // So only one URL exists and Google doesn't pick a different canonical
+    if (pathname.length > 1 && !pathname.endsWith("/")) {
+      const queryString = url.search || "";
+      const hash = url.hash || "";
+      throw redirect(301, `${pathname}/${queryString}${hash}`);
+    }
+    return; // Already localized with trailing slash, no redirect needed
   }
   
   // Skip homepage - it serves English content without /en/ prefix

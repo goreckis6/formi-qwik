@@ -1054,7 +1054,7 @@ export const head: DocumentHead = ({ resolveValue, url }) => {
       },
       {
         property: "og:image",
-        content: "https://formipeek.com/og-heif-to-pdf.pdf",
+        content: "https://formipeek.com/og-heif-to-pdf.jpg",
       },
       {
         name: "twitter:card",
@@ -1070,7 +1070,7 @@ export const head: DocumentHead = ({ resolveValue, url }) => {
       },
       {
         name: "twitter:image",
-        content: "https://formipeek.com/og-heif-to-pdf.pdf",
+        content: "https://formipeek.com/og-heif-to-pdf.jpg",
       },
     ],
   };

@@ -8,14 +8,22 @@ export const RouterHead = component$(() => {
   const loc = useLocation();
   const currentLang = useCurrentLocale();
 
-  // Canonical URL without query params
-  const canonical = loc.url.origin + loc.url.pathname;
-  const pageUrl = canonical;
-
   // Check if current page is homepage
   const pathParts = loc.url.pathname.split("/").filter(Boolean);
   const isHomepage =
     pathParts.length === 0 || (pathParts.length === 1 && pathParts[0] === currentLang);
+
+  // Canonical URL: normalized with trailing slash (except homepage) to avoid duplicate-content
+  // Google treats /en/convert/heic-to-gif and /en/convert/heic-to-gif/ as different URLs otherwise
+  const pathname = loc.url.pathname;
+  const canonicalPath =
+    isHomepage && (pathname === "/" || pathname === "")
+      ? "/"
+      : pathname.endsWith("/")
+        ? pathname
+        : `${pathname}/`;
+  const canonical = loc.url.origin + canonicalPath;
+  const pageUrl = canonical;
 
   return (
     <>
